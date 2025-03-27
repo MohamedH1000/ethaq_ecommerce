@@ -29,7 +29,7 @@ export const QuickViewProduct = () => {
   const { price, basePrice, discount } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,
     baseAmount: product?.price,
-    currencyCode: "USD",
+    currencyCode: "SAR",
   });
 
   const isSelected = !isEmpty(variations)
@@ -58,7 +58,7 @@ export const QuickViewProduct = () => {
     setTimeout(() => {
       setAddToCartLoader(false);
     }, 1500);
-    const item = generateCartItem(product, selectedVariation)
+    const item = generateCartItem(product, selectedVariation);
     addItemToCart(item, selectedQuantity);
     // @ts-ignore
     toast.success("Product added to cart");
@@ -74,13 +74,14 @@ export const QuickViewProduct = () => {
               isSingleProductPage={false}
             />
           ) : (
-            <div className="flex items-center justify-center w-auto">
+            <div className="flex items-center justify-center w-auto ">
               <Image
-                src={product?.image?.img_url as string}
+                src={product?.images[0] as string}
                 alt={name!}
                 width={450}
                 height={390}
                 style={{ width: "auto" }}
+                className="rounded-lg"
               />
             </div>
           )}
@@ -125,7 +126,7 @@ export const QuickViewProduct = () => {
 
             <div className="">
               <h3 className="text-xl text-gray-800 dark:text-white font-medium">
-                Product Details:
+                تفاصيل المنتج:
               </h3>
               <p className="text-sm text-gray-600 dark:text-gray-200">
                 {product?.description}
@@ -133,7 +134,7 @@ export const QuickViewProduct = () => {
             </div>
             <span className="border-t border-dashed w-full" />
 
-            <QuickViewShortDetails {...{ product, selectedVariation }} />
+            {/* <QuickViewShortDetails {...{ product, selectedVariation }} /> */}
           </div>
           <div className="py-4">
             {Object.keys(variations).map((variation) => {
@@ -141,7 +142,6 @@ export const QuickViewProduct = () => {
                 <ProductAttributes
                   key={`popup-attribute-key${variation}`}
                   variations={variations}
-                  
                   attributes={attributes}
                   setAttributes={setAttributes}
                 />
@@ -171,7 +171,7 @@ export const QuickViewProduct = () => {
               // loading={addToCartLoader}
             >
               <Icons.cart className="ml-3 w-4 " />
-              <p>Add_TO_CART</p>
+              <p>اضافة لعربة التسوق</p>
             </Button>
           </div>
         </div>

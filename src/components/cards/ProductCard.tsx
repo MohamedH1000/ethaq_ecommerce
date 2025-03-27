@@ -1,3 +1,4 @@
+"use client";
 import usePrice from "@/hooks/use-price";
 import { useCartStore } from "@/store/cart/cart.store";
 import { useGlobalModalStateStore } from "@/store/modal";
@@ -11,48 +12,72 @@ import { toast } from "sonner";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
 import StarIcon from "../ui/star-icon";
+import { addOrderItem } from "@/lib/actions/order.action";
+import { useEffect, useState } from "react";
+import { getCurrentUser } from "@/lib/actions/user.action";
 
 interface Props {
   product: IProduct;
 }
 const ProductCard = ({ product }: Props) => {
-  const { price, basePrice, discount } = usePrice({
+  const [user, setUser] = useState([]);
+  // console.log(user, "user");
+  useEffect(() => {
+    const currentUser = async () => {
+      const response: any = await getCurrentUser();
+      // console.log("response", response);
+      setUser(response);
+    };
+    currentUser();
+  }, []);
+  const { price, basePrice } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,
     baseAmount: product?.price,
-    currencyCode: "USD",
+    currencyCode: "SAR",
   });
   const { price: minPrice } = usePrice({
     amount: product?.min_price ?? 0,
-    currencyCode: "USD",
+    currencyCode: "SAR",
   });
   const { price: maxPrice } = usePrice({
     amount: product?.max_price ?? 0,
-    currencyCode: "USD",
+    currencyCode: "SAR",
   });
   let selectedVariation: any = {};
   const globalModal = useGlobalModalStateStore((state) => state);
   const { addItemToCart } = useCartStore((state) => state);
   const item = generateCartItem(product, selectedVariation);
+  // console.log(item, "item");
   const isVariation = (product.variation_options?.length as number) > 0;
-  function addToCart() {
+  async function addToCart() {
     if (isVariation) {
       return globalModal.setQuickViewState(true, product);
     }
     if (!isVariation) {
-      addItemToCart(item, 1);
-      // @ts-ignore
-      toast.success("Product added to cart");
-      globalModal.setQuickViewState(false, null);
+      try {
+        const response = await addOrderItem(user?.id, product?.id, item);
+        if (!response?.success) {
+          toast.error("حصل خطا اثناء اضافة المنتج");
+        } else {
+          addItemToCart(item, 1);
+          globalModal.setQuickViewState(false, null);
+
+          toast.success("تم اضافة المنتج للكارت");
+        }
+        // @ts-ignore
+      } catch (error) {
+        console.log(error);
+      }
     }
   }
   return (
     <div className=" flex flex-col group overflow-hidden rounded-md transition-all duration-300 shadow-card hover:shadow-cardHover  relative h-full">
       <Card className="bg-bgCard dark:bg-gray-900 border-none shadow-sm rounded-md w-full h-full group flex flex-col px-4 py-5  relative">
         <div className="w-full min-h-[150px] flex items-center relative justify-center overflow-hidden px-4">
-          <Link href={`/products/${product.slug}`}>
+          <Link href={`/products/${product.id}`}>
             <Image
               className="object-center group-hover:scale-110 transition-all duration-700 "
-              src={product.image?.img_url as string}
+              src={product?.images[0] as string}
               alt={product.name}
               width={150}
               height={100}
@@ -63,25 +88,25 @@ const ProductCard = ({ product }: Props) => {
               onClick={() => globalModal.setQuickViewState(true, product)}
             >
               <EyeIcon className="w-5 h-5" />
-              <span className="sr-only">Quick View</span>
+              <span className="sr-only">نظرة سريعة</span>
             </button>
             <span className="border-l-2 h-full" />
             <button>
               <RefreshCwIcon className="w-5 h-5" />
-              <span className="sr-only">Compare</span>
+              <span className="sr-only">مقارنة</span>
             </button>
             <div className="border border-l-2 h-full"></div>
 
-            <button>
+            {/* <button>
               <HeartIcon className="w-5 h-5" />
-              <span className="sr-only">Wishlish</span>
-            </button>
+              <span className="sr-only">قائمة الرغبات</span>
+            </button> */}
           </div>
         </div>
         <div className="flex flex-col">
           <Link
             className="text-sm sm:text-base font-semibold text-gray-800 dark:text-white w-full line-clamp-1 text-ellipsis"
-            href={`/products/${product.slug}`}
+            href={`/products/${product.id}`}
           >
             {product.name}
           </Link>
@@ -114,9 +139,9 @@ const ProductCard = ({ product }: Props) => {
               />
             ))}
           </div>
-          <p className="text-sm ml-3">
+          {/* <p className="text-sm ml-3">
             {product.in_stock ? "In-Stock" : "Out of Stock"}
-          </p>
+          </p> */}
         </div>
 
         <Button
@@ -124,10 +149,10 @@ const ProductCard = ({ product }: Props) => {
           className="mt-4 rounded-full"
           onClick={addToCart}
         >
-          <p className="sm:hidden">Add</p>
-          <p className="hidden sm:block">Add to Cart</p>
+          <p className="sm:hidden">اضافة</p>
+          <p className="hidden sm:block">اضافة للكارت</p>
         </Button>
-        {product.price ? (
+        {/* {product.price ? (
           <div className="bg-primary p-1 absolute top-3 right-3 rounded-lg">
             <p className="text-xs text-white">
               {calculateDiscountPercentage({
@@ -137,7 +162,7 @@ const ProductCard = ({ product }: Props) => {
               %
             </p>
           </div>
-        ) : null}
+        ) : null} */}
       </Card>
     </div>
   );

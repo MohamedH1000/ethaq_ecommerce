@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation"; // Add this for client-side redirect
 import ClientOnly from "@/components/common/shared/ClientOnly";
 import BottomFixedSection from "@/components/layout/bottomFixedSection";
 import { Footer } from "@/components/layout/footer";
@@ -20,24 +21,34 @@ import { Icons } from "@/components/ui/icons";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { dashboardConfig } from "@/configs/dashboard";
 import Link from "next/link";
+import { useEffect } from "react";
+import { getCurrentUser } from "@/lib/actions/user.action";
+import console from "console";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
 }
 
-export default function DashboardLayout({ children }: DashboardLayoutProps) {
+export default async function DashboardLayout({
+  children,
+}: DashboardLayoutProps) {
+  const currentUser = await getCurrentUser();
+  // console.log("currentUser", currentUser);
+  if (!currentUser) {
+    redirect("/signin");
+  }
+
   return (
     <div className="relative flex min-h-screen flex-col">
-      <SiteHeader />
-      <section className="  h-12 py-10  bg-gray-100 dark:bg-gray-900 flex justify-center items-center my-6 ">
+      <SiteHeader currentUser={currentUser} />
+      <section className="h-12 py-10 bg-gray-100 dark:bg-gray-900 flex justify-center items-center my-6">
         <Breadcrumb />
       </section>
       <div className="container flex-1 items-start md:grid md:grid-cols-[260px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[340px_minmax(0,1fr)] lg:gap-10 mb-8">
-      
         <DropdownMenu>
           <DropdownMenuTrigger asChild className="md:hidden my-5">
-            <Button size={"sm"} className="bg-purple-600 border-none">
-              <Icons.menu className=" h-4 w-4" aria-hidden="true" />
+            <Button size="sm" className="bg-purple-600 border-none">
+              <Icons.menu className="h-4 w-4" aria-hidden="true" />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="w-56" align="end" forceMount>
@@ -55,19 +66,16 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             <DropdownMenuItem asChild>
               <Link href="/signout">
                 <Icons.logout className="mr-2 h-4 w-4" aria-hidden="true" />
-                Log out
+                تسجيل الخروج
               </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
-        <aside className="sticky max-w-[350px] bg-gray-100 dark:bg-gray-900  top-14 z-30 -ml-2 hidden h-[calc(83vh-3.5rem)] w-full shrink-0  border-r  md:block rounded-xl shadow-md ">
-          
-            <SidebarNav items={dashboardConfig.sidebarNav} className="" />
-       
+        <aside className="sticky max-w-[350px] bg-gray-100 dark:bg-gray-900 top-14 z-30 -ml-2 hidden h-[calc(83vh-3.5rem)] w-full shrink-0 border-r md:block rounded-xl shadow-md">
+          <SidebarNav items={dashboardConfig.sidebarNav} className="" />
         </aside>
         <main className="flex w-full flex-col overflow-hidden">{children}</main>
       </div>
-      
       <Footer />
       <ClientOnly>
         <MobileNavigation />

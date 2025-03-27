@@ -1,17 +1,18 @@
-
-import { Skeleton } from "@/components/ui/skeleton"
-import { Shell } from "@/components/shells/shell"
-import { PageHeader, PageHeaderDescription, PageHeaderHeading } from "@/components/common/shared/page-header"
-
+import { Skeleton } from "@/components/ui/skeleton";
+import { Shell } from "@/components/shells/shell";
+import {
+  PageHeader,
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from "@/components/common/shared/page-header";
 
 export default function AccountLoading() {
- 
   return (
     <Shell variant="sidebar">
       <PageHeader id="account-header" aria-labelledby="account-header-heading">
-        <PageHeaderHeading size="sm">Account</PageHeaderHeading>
+        <PageHeaderHeading size="sm">الحساب</PageHeaderHeading>
         <PageHeaderDescription size="sm">
-          Manage your account settings
+          قم بادارة اعدادات حسابك
         </PageHeaderDescription>
       </PageHeader>
       <section
@@ -40,5 +41,5 @@ export default function AccountLoading() {
         </div>
       </section>
     </Shell>
-  )
+  );
 }

@@ -20,13 +20,13 @@ const ProfileEdit = async () => {
         id="profileEdit-header"
         aria-labelledby="profileEdit-header-heading"
       >
-        <PageHeaderHeading size="sm">Profile Edit</PageHeaderHeading>
+        <PageHeaderHeading size="sm">تعديل الملف الشخصي</PageHeaderHeading>
         <PageHeaderDescription size="sm">
-          Manage your profile Edit settings
+          ادارة اعدادات ملفك الشخصي
         </PageHeaderDescription>
       </PageHeader>
       <section>
-          <ProfileEditComponent />
+        <ProfileEditComponent />
       </section>
     </Shell>
   );

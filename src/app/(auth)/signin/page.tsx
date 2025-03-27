@@ -12,8 +12,8 @@ import {
 
 import { Shell } from "@/components/shells/shell";
 import { SignInForm } from "@/components/forms/signin-form";
-import AnimatedCharacters from "@/components/ui/animated-characters";
-import { OAuthSignIn } from "@/components/common/shared/oauth-signin";
+import { redirect } from "next/navigation";
+import { getCurrentUser } from "@/lib/actions/user.action";
 
 export const metadata: Metadata = {
   title: "Sign In",
@@ -21,6 +21,10 @@ export const metadata: Metadata = {
 };
 
 export default async function SignInPage() {
+  const currentUser = await getCurrentUser();
+  if (currentUser) {
+    redirect("/");
+  }
   return (
     <Shell className="max-w-lg ">
       <Card className="">

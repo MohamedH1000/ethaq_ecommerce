@@ -2,7 +2,7 @@
 
 import type { SidebarNavItem } from "@/types";
 import Link from "next/link";
-import { usePathname} from "next/navigation";
+import { usePathname } from "next/navigation";
 
 import { useMe } from "@/hooks/api/user/useMe";
 import { cn } from "@/lib/utils";
@@ -95,14 +95,11 @@ export function SidebarNav({ items, className, ...props }: SidebarNavProps) {
         <div className="border-b-2 w-full my-3 self-center" />
 
         <div className="w-full relative text-white">
-          <Button className="w-full" >
-            <Link href={"/signout"}>
-            Log out
-            </Link>
-            
+          <Button className="w-full">
+            <Link href={"/signout"}>تسجيل الخروج</Link>
           </Button>
           <LogOutIcon
-            className="mr-2 h-4 w-4 absolute top-1/2 -translate-y-1/2 left-28"
+            className="mr-2 h-4 w-4 absolute top-1/2 -translate-y-1/2 left-22"
             aria-hidden="true"
           />
         </div>

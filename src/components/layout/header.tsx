@@ -7,23 +7,40 @@ import { Menu, Transition } from "@headlessui/react";
 import { HeartIcon } from "lucide-react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import ClientOnly from "../common/shared/ClientOnly";
 import GradientLogo from "../common/shared/gradient-logo";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { buttonVariants } from "../ui/button";
 import { DropdownMenuShortcut } from "../ui/dropdown-menu";
 import { Icons } from "../ui/icons";
+import { User } from "@prisma/client";
+import { signOut } from "next-auth/react";
+import { getOrdersItemsByUserId } from "@/lib/actions/order.action";
+import { getCurrentUser } from "@/lib/actions/user.action";
 
 const Search = dynamic(() => import("@/components/ui/search/search"));
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
   ssr: false,
 });
 
-const Header = () => {
-  const { me } = useMe();
+const Header = ({ currentUser }: { currentUser: User }) => {
   const { totalItems } = useCartStore((state) => state);
   const isHomePage = useIsHomePage();
+
+  const [isSigningOut, setIsSigningOut] = useState(false); // Optional: for loading state
+
+  const handleSignOut = async () => {
+    setIsSigningOut(true); // Optional: show loading state
+    try {
+      await signOut({ redirect: false }); // Sign out without immediate redirect
+      window.location.href = "/signin"; // Manually redirect after sign-out
+    } catch (error) {
+      console.error("Sign-out error:", error);
+    } finally {
+      setIsSigningOut(false); // Reset loading state
+    }
+  };
 
   return (
     <header className=" lg:justify-between lg:w-full hidden lg:flex ">
@@ -50,35 +67,35 @@ const Header = () => {
 
       <ul className="items-center shrink-0 hidden lg:flex space-x-10 space-x-reverse">
         <div className="flex items-center space-x-4 space-x-reverse">
-          <Link
+          {/* <Link
             href={`${process.env.NEXT_PUBLIC_ADMIN_URL}/signup`}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center shrink-0 px-3 py-0 text-sm font-semibold leading-none transition duration-300 ease-in-out border border-transparent rounded outline-none h-9 bg-primary text-white hover:bg-primary focus:outline-none focus:shadow focus:ring-1 focus:ring-primary-700"
           >
-            Become Seller
-          </Link>
+            كن بائعا
+          </Link> */}
 
+          {/* <div className="border-r h-6 border-border" />
+          <HeartIcon className="w-5" /> */}
           <div className="border-r h-6 border-border" />
-          <HeartIcon className="w-5" />
+          <CartCounterButton />
           <div className="border-r h-6 border-border" />
-            <CartCounterButton />
-          <div className="border-r h-6 border-border" />
-          {me ? (
+          {currentUser ? (
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="inline-flex w-full justify-center rounded-md  px-4 py-2 text-sm font-medium text-white  focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
                   <div className="relative flex gap-2 items-center cursor-pointer">
                     <Avatar className="h-8 w-8  rounded-full">
-                      <AvatarImage src={me?.avatar} alt={me.lastName} />
-                      <AvatarFallback>{me.lastName}</AvatarFallback>
+                      {/* <AvatarImage src={currentUser?.avatar} alt={currentUser.lastName} /> */}
+                      <AvatarFallback>{currentUser?.name}</AvatarFallback>
                     </Avatar>
                     <div className="flex flex-col flex-1 ">
                       <span className="text-gray-600 text-sm">
-                        Hi, {me?.lastName}
+                        مرحبا, {currentUser?.name}
                       </span>
                       <h3 className="text-gray-900 dark:text-white text-md ">
-                        My Account
+                        حسابي
                       </h3>
                     </div>
                   </div>
@@ -103,10 +120,10 @@ const Header = () => {
                   >
                     <div className="flex 1 flex-col gap-2">
                       <p className="text-sm font-medium leading-none">
-                        {me.firstName} {me.lastName}
+                        {currentUser.name}
                       </p>
                       <p className="text-xs leading-none text-muted-foreground">
-                        {me.email}
+                        {currentUser.email}
                       </p>
                     </div>
                   </Menu.Item>
@@ -124,7 +141,7 @@ const Header = () => {
                       className="flex items-center gap-1"
                     >
                       <Icons.user className="mr-1 h-4 w-4" aria-hidden="true" />
-                      Account
+                      الحساب
                       <DropdownMenuShortcut>⇧⌘A</DropdownMenuShortcut>
                     </Link>
                   </Menu.Item>
@@ -140,7 +157,7 @@ const Header = () => {
                       className="flex items-center gap-1"
                     >
                       <Icons.user className="mr-1 h-4 w-4" aria-hidden="true" />
-                      Dashboard
+                      لوحة التحكم
                       <DropdownMenuShortcut>⇧⌘D</DropdownMenuShortcut>
                     </Link>
                   </Menu.Item>
@@ -150,14 +167,25 @@ const Header = () => {
                       cn({ "dropdown-active": active }, "menu-item ")
                     }
                   >
-                    <Link href="/signout" className="flex items-center gap-1">
-                      <Icons.logout
-                        className="mr-1 h-4 w-4"
-                        aria-hidden="true"
-                      />
-                      Log out
+                    <button
+                      onClick={handleSignOut}
+                      disabled={isSigningOut}
+                      className="flex items-center gap-1 w-full text-left"
+                    >
+                      {isSigningOut ? (
+                        <Icons.spinner
+                          className="mr-1 h-4 w-4 animate-spin"
+                          aria-hidden="true"
+                        />
+                      ) : (
+                        <Icons.logout
+                          className="mr-1 h-4 w-4"
+                          aria-hidden="true"
+                        />
+                      )}
+                      تسجيل الخروج
                       <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
-                    </Link>
+                    </button>
                   </Menu.Item>
                 </Menu.Items>
               </Transition>
@@ -169,8 +197,8 @@ const Header = () => {
                 size: "sm",
               })}
             >
-              Sign In
-              <span className="sr-only">Sign In</span>
+              تسجيل الدخول
+              <span className="sr-only">تسجيل الدخول</span>
             </Link>
           )}
         </div>

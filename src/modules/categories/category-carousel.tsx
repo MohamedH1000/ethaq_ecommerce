@@ -1,61 +1,58 @@
-/* eslint-disable @next/next/no-img-element */
-
 "use client";
-
 import ClientOnly from "@/components/common/shared/ClientOnly";
 import SkelatonLoader from "@/components/skelaton/SkelatonLoader";
-import { Error } from "@/components/ui/error-message";
-import { useGetCategoriesQuery } from "@/hooks/api/category/useGetCategoriesQuery";
-import { ICategory } from "@/types";
-import { getErrorMessage } from "@/utils/helper";
-import React, { useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import CategoryCard from "./CategoryCard";
+import { getCategories } from "@/lib/actions/category.action";
 
 const CategoriesCarousel = () => {
-  const { data, isLoading,isError,error } = useGetCategoriesQuery({ limit: 15 });
-  const errorMessage = useMemo(
-    () => (isError ? getErrorMessage(error) : ""),
-    [error, isError]
-  );
-
+  const [isLoading, setIsLoading] = useState(false);
+  const [allCategories, setAllCategories] = useState([]);
+  console.log("all categories", allCategories);
+  useEffect(() => {
+    setIsLoading(true);
+    const fetchCategories = async () => {
+      try {
+        const allCategories: any = await getCategories();
+        setAllCategories(allCategories);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchCategories();
+  }, []);
   return (
     <React.Fragment>
-    {isLoading ? (
-      <ClientOnly>
+      {isLoading ? (
+        <ClientOnly>
           <SkelatonLoader />
-          </ClientOnly>
-        ) : isError ? (
-          <Error
-            message={String(errorMessage)}
-          />
-        ) : (
-          <Swiper
-      slidesPerView="auto"
-      spaceBetween={11}
-      // modules={[Autoplay]}
-      // autoplay={{ delay: 5000, disableOnInteraction: false }}
+        </ClientOnly>
+      ) : (
+        <Swiper
+          slidesPerView="auto"
+          spaceBetween={11}
+          // modules={[Autoplay]}
+          // autoplay={{ delay: 5000, disableOnInteraction: false }}
 
-      loop={true}
-      className="mySwiper"
-    >
-      {data?.docs.map((d: ICategory) => {
-        return (
-          <SwiperSlide
-            key={d.slug}
-            className="flex flex-col xs:gap-[14px] gap-2 max-w-[170px]  rounded-lg"
-          >
-            <CategoryCard category={d}/>
-          </SwiperSlide>
-        );
-      })}
-    </Swiper>
-        )
-
-      }
-      
+          loop={true}
+          className="mySwiper"
+        >
+          {allCategories?.map((d: any) => {
+            return (
+              <SwiperSlide
+                key={d.id}
+                className="flex flex-col xs:gap-[14px] gap-2 max-w-[170px]  rounded-lg"
+              >
+                <CategoryCard category={d} />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      )}
     </React.Fragment>
-    
   );
 };
 

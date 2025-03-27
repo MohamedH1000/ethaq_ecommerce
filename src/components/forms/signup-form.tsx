@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -12,22 +11,42 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { PasswordInput } from "../ui/password-input";
 import { Icons } from "../ui/icons";
-import { useAuth } from "@/hooks/api/auth/useAuth";
+import { useAuth as useAuthRegister } from "@/hooks/api/auth/useAuth";
+import { toast } from "sonner";
+import { Loader } from "lucide-react";
+import { createUser } from "@/lib/actions/user.action";
+import { signIn } from "next-auth/react";
+import { useRouter } from "next/navigation";
 
 export function SignUpForm() {
-  const { registerForm, SignupLoading, IsSignupError, attemptToRegister } =
-    useAuth();
+  const { registerForm } = useAuthRegister();
+  const [isLoading, setIsLoading] = React.useState(false);
+  const router = useRouter();
+  const handleSubmit = registerForm.handleSubmit(async (data) => {
+    setIsLoading(true);
+    try {
+      const response = await createUser(data);
+      // console.log("response", response);
+      if (!response.success) {
+        toast.error(response.error);
+      } else {
+        toast.success(`تم ارسال طلب تسجيل الحساب بنجاح`);
+
+        registerForm.reset();
+      }
+      // router.push("/registration-success");
+    } catch (error) {
+      toast.error("فشل التسجيل");
+      console.error("Registration Error:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  });
 
   return (
     <Form {...registerForm}>
-      <form
-        className="grid gap-4"
-        onSubmit={(...args) =>
-          void registerForm.handleSubmit(attemptToRegister)(...args)
-        }
-      >
+      <form className="grid gap-4" onSubmit={handleSubmit}>
         <FormField
           control={registerForm.control}
           name="username"
@@ -67,41 +86,15 @@ export function SignUpForm() {
             </FormItem>
           )}
         />
-        {/* <FormField
-          control={registerForm.control}
-          name="password"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Password</FormLabel>
-              <FormControl>
-                <PasswordInput placeholder="**********" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        /> */}
-        {/* <FormField
-          control={registerForm.control}
-          name="passwordConfirm"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>PasswordConfirm</FormLabel>
-              <FormControl>
-                <PasswordInput placeholder="**********" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        /> */}
-        <Button disabled={SignupLoading}>
-          {SignupLoading && (
+        <Button type="submit" disabled={isLoading}>
+          {isLoading && (
             <Icons.spinner
               className="mr-2 h-4 w-4 animate-spin"
               aria-hidden="true"
             />
           )}
           ارسال طلب التسجيل
-          <span className="sr-only">Continue to email verification page</span>
+          <span className="sr-only">الذهاب الى صفحة تفعيل الايميل</span>
         </Button>
       </form>
     </Form>

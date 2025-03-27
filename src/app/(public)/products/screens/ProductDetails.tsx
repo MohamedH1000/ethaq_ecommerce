@@ -1,13 +1,10 @@
-"use client"
+"use client";
 import { Button } from "@/components/ui/button";
 import Counter from "@/components/ui/counter";
 import { Icons } from "@/components/ui/icons";
-import { ProgressBar } from "@/components/ui/progress";
-import StarIcon from "@/components/ui/star-icon";
 import usePrice from "@/hooks/use-price";
 import { cn } from "@/lib/utils";
 import ProductAttributes from "@/modules/products/product-attributes";
-import QuickViewShortDetails from "@/modules/products/quickView/quick-view-short-details";
 import ThumbnailCarousel from "@/modules/products/thumbnail-carousel";
 import VariationPrice from "@/modules/products/variation-price";
 import { useCartStore } from "@/store/cart/cart.store";
@@ -15,7 +12,7 @@ import { IProduct } from "@/types";
 import { generateCartItem } from "@/utils/generate-cart-item";
 import { getVariations } from "@/utils/get-variations";
 import { isEmpty, isEqual } from "lodash";
-import { HeartIcon, RefreshCwIcon } from "lucide-react";
+import { RefreshCwIcon } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import { toast } from "sonner";
@@ -34,7 +31,7 @@ const ProductDetails = ({ product }: Props) => {
   const { price, basePrice, discount } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,
     baseAmount: product?.price,
-    currencyCode: "USD",
+    currencyCode: "SAR",
   });
 
   const isSelected = !isEmpty(variations)
@@ -75,7 +72,7 @@ const ProductDetails = ({ product }: Props) => {
         ) : (
           <div className="flex items-center justify-center w-auto">
             <Image
-              src={product?.image?.img_url as string}
+              src={product?.images[0] as string}
               alt={product?.name}
               width={450}
               height={390}
@@ -119,7 +116,7 @@ const ProductDetails = ({ product }: Props) => {
                   )}
                 </div>
 
-                <div className="flex items-center mt-2 md:px-3">
+                {/* <div className="flex items-center mt-2 md:px-3">
                   <div className="flex md:-mx-0.5 ">
                     {[...Array(5)].map((_, idx) => (
                       <StarIcon
@@ -132,7 +129,7 @@ const ProductDetails = ({ product }: Props) => {
                       {product?.totalReviews} Reveiws
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
@@ -140,7 +137,7 @@ const ProductDetails = ({ product }: Props) => {
 
           <div className="">
             <h3 className="text-xl text-gray-800 dark:text-white font-medium">
-              Product Details:
+              تفاصيل المنتج:
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-200">
               {product?.description}
@@ -179,13 +176,13 @@ const ProductDetails = ({ product }: Props) => {
 
             <button>
               <RefreshCwIcon className="w-5 h-5" />
-              <span className="sr-only">Compare</span>
+              <span className="sr-only">مقارنة</span>
             </button>
 
-            <button>
+            {/* <button>
               <HeartIcon className="w-5 h-5" />
               <span className="sr-only">Wishlish</span>
-            </button>
+            </button> */}
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
@@ -195,46 +192,46 @@ const ProductDetails = ({ product }: Props) => {
               disabled={!isSelected || addToCartLoader}
             >
               <Icons.cart className="ml-3 w-4 animate-pulse duration-600 transition " />
-              <p>Add_TO_CART</p>
+              <p>اضافة لعربة التسوق</p>
             </Button>
             <Button
               variant={"outline"}
               className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
             >
-              Buy Now
+              ارسال طلب الان
             </Button>
           </div>
         </div>
         <div
-className={cn(
-  !isEmpty(selectedVariation)
-    ? selectedVariation?.quantity <= 15
-      ? "block"
-      : "hidden"
-    : (product?.quantity as number) <= 15
-    ? "block"
-    : "hidden"
-)}
->
-<div>
-  <h6 className="font-[calc(13px + 1 * (100vw - 320px) / 1600)] font-normal mb-2">
-    Please hurry! Only{" "}
-    {!isEmpty(selectedVariation)
-      ? selectedVariation?.quantity
-      : product?.quantity}
-    left in stock
-  </h6>
-  <ProgressBar
-    animated
-    value={((product?.quantity ?? 1) * 100) / 10}
-    color="rose"
-  />
-</div>
-</div>
-
-        <div className="py-4 border-t border-dashed w-full">
-          <QuickViewShortDetails {...{ product, selectedVariation }} />
+          className={cn(
+            !isEmpty(selectedVariation)
+              ? selectedVariation?.quantity <= 15
+                ? "block"
+                : "hidden"
+              : (product?.quantity as number) <= 15
+              ? "block"
+              : "hidden"
+          )}
+        >
+          {/* <div>
+            <h6 className="font-[calc(13px + 1 * (100vw - 320px) / 1600)] font-normal mb-2">
+              من فضلك أسرع! فقط{" "}
+              {!isEmpty(selectedVariation)
+                ? selectedVariation?.quantity
+                : product?.quantity}
+              left in stock
+            </h6>
+            <ProgressBar
+              animated
+              value={((product?.quantity ?? 1) * 100) / 10}
+              color="rose"
+            />
+          </div> */}
         </div>
+
+        {/* <div className="py-4 border-t border-dashed w-full">
+          <QuickViewShortDetails {...{ product, selectedVariation }} />
+        </div> */}
       </div>
     </div>
   );

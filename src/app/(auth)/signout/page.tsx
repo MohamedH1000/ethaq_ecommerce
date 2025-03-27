@@ -1,14 +1,17 @@
-import type { Metadata } from "next"
+import type { Metadata } from "next";
 
-
-import { Shell } from "@/components/shells/shell"
-import { PageHeader, PageHeaderDescription, PageHeaderHeading } from "@/components/common/shared/page-header"
-import { LogOutButtons } from "@/components/auth/logout-buttons"
+import { Shell } from "@/components/shells/shell";
+import {
+  PageHeader,
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from "@/components/common/shared/page-header";
+import { LogOutButtons } from "@/components/auth/logout-buttons";
 
 export const metadata: Metadata = {
   title: "Sign out",
   description: "Sign out of your account",
-}
+};
 
 export default function SignOutPage() {
   return (
@@ -18,12 +21,12 @@ export default function SignOutPage() {
         aria-labelledby="sign-out-page-header-heading"
         className="text-center"
       >
-        <PageHeaderHeading size="sm">Sign out</PageHeaderHeading>
+        <PageHeaderHeading size="sm">تسجيل الخروج</PageHeaderHeading>
         <PageHeaderDescription size="sm">
-          Are you sure you want to sign out?
+          هل انت متاكد من تسجيل الخروج
         </PageHeaderDescription>
       </PageHeader>
       <LogOutButtons />
     </Shell>
-  )
+  );
 }

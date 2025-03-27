@@ -5,8 +5,6 @@ import PromotionalBannerCarousel from "@/modules/home/promotional-banner-carouse
 import Image from "next/image";
 import Link from "next/link";
 import OurProductsSection from "./screens/ourProductsSection";
-import TopRateProducts from "./screens/TopRateProducts";
-import { MultiProgressBar, ProgressBar } from "@/components/ui/progress";
 export default async function IndexPage() {
   return (
     <div className="py-3">
@@ -25,8 +23,8 @@ export default async function IndexPage() {
 
       <div className="py-5 md:py-10  container">
         <div className="flex items-center justify-between">
-          <h1 className="text-3xl font-bold font-sans ">Shop By Categories</h1>
-          <Link href={"/products"}>All Categories</Link>
+          <h1 className="text-3xl font-bold font-sans ">التسوق بالفئات</h1>
+          <Link href={"/products"}>جميع الفئات</Link>
         </div>
 
         <div className="py-4  border-t-2 mt-3">
@@ -34,8 +32,7 @@ export default async function IndexPage() {
         </div>
       </div>
       <OurProductsSection />
-      <TopRateProducts/>
-      
+      {/* <TopRateProducts /> */}
     </div>
   );
 }

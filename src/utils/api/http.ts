@@ -1,42 +1,77 @@
-import { ClientSession } from '@/configs/settings';
-import { AUTH_TOKEN_KEY } from '@/constants';
-import axios, { AxiosResponse } from 'axios';
-import Cookies from 'js-cookie';
-import { useRouter } from 'next/navigation';
-import { toast } from 'sonner';
+import { ClientSession } from "@/configs/settings";
+import { AUTH_TOKEN_KEY } from "@/constants";
+import axios, { AxiosResponse } from "axios";
+import Cookies from "js-cookie";
+import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 
 const baseURL = process.env.NEXT_PUBLIC_API_URL;
-const isServer = typeof window === 'undefined';
+const isServer = typeof window === "undefined";
 axios.defaults.withCredentials = true;
 const http = axios.create({
   baseURL: `${baseURL}/v1`,
   timeout: 500000,
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
- 
 });
 
+export const axiosClient = axios.create({
+  baseURL: process.env.NEXT_PUBLIC_API_URL || "",
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
+
+axiosClient.interceptors.request.use(
+  (config) => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+    return config;
+  },
+  (error) => Promise.reject(error)
+);
+
+// Helper to extract form errors from API responses
+export const getFormErrors = (error: any) => {
+  const errorResponse = error.response?.data;
+
+  if (!errorResponse) {
+    return {
+      _error: error.message || "An unexpected error occurred",
+    };
+  }
+
+  if (errorResponse.errors && typeof errorResponse.errors === "object") {
+    return errorResponse.errors;
+  }
+
+  return {
+    _error: errorResponse.message || "An unexpected error occurred",
+  };
+};
+
 // Change request data/error here
-http.interceptors.request.use(config => {
+http.interceptors.request.use((config) => {
   const token = Cookies.get(AUTH_TOKEN_KEY);
   //@ts-ignore
   config.headers = {
     ...config.headers,
-    Authorization: `Bearer ${token ? token : ''}`,
+    Authorization: `Bearer ${token ? token : ""}`,
   };
   return config;
 });
 
 // Change response data/error here
 http.interceptors.response.use(
-  response => response,
-  error => {
+  (response) => response,
+  (error) => {
     if (
       (error.response && error.response.status === 401) ||
       (error.response && error.response.status === 403) ||
-      (error.response &&
-        error.response.data.message)
+      (error.response && error.response.data.message)
     ) {
       // Cookies.remove(AUTH_TOKEN_KEY);
       // Router.reload();
@@ -88,22 +123,22 @@ export class HttpClient {
     return Object.entries(params)
       .filter(([, value]) => Boolean(value))
       .map(([k, v]) =>
-        ['type', 'categories', 'tags', 'author', 'manufacturer'].includes(k)
+        ["type", "categories", "tags", "author", "manufacturer"].includes(k)
           ? `${k}.slug:${v}`
-          : ['is_approved'].includes(k)
+          : ["is_approved"].includes(k)
           ? formatBooleanSearchParam(k, v as boolean)
           : `${k}:${v}`
       )
-      .join(';');
+      .join(";");
   }
 }
 
-export function getFormErrors(error: unknown) {
-  if (axios.isAxiosError(error)) {
-    return error.response?.data.message;
-  }
-  return null;
-}
+// export function getFormErrors(error: unknown) {
+//   if (axios.isAxiosError(error)) {
+//     return error.response?.data.message;
+//   }
+//   return null;
+// }
 
 export function getFieldErrors(error: unknown) {
   if (axios.isAxiosError(error)) {

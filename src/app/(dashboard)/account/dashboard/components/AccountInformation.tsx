@@ -31,7 +31,13 @@ const AccountInformation = () => {
               <AvatarImage src={me?.avatar} alt={me?.lastName} />
               <AvatarFallback>{me?.lastName}</AvatarFallback>
             </Avatar> */}
-            <Image src={me?.avatar as string} alt={me?.lastName as string} width={100} height={100} className="rounded-full w-[100px] h-[100px] mt-5" />
+            <Image
+              src={me?.avatar as string}
+              alt={me?.lastName as string}
+              width={100}
+              height={100}
+              className="rounded-full w-[100px] h-[100px] mt-5"
+            />
             <div className="flex flex-col items-center gap-1">
               <p className="text-2xl font-semibold leading-none tracking-tight">
                 {me?.firstName} {me?.lastName}
@@ -40,7 +46,7 @@ const AccountInformation = () => {
             </div>
 
             <Button variant={"secondary"}>
-              <Link href={"/account/edit"}>Edit Profile</Link>
+              <Link href={"/account/edit"}>تعديل الملف الشخصي</Link>
             </Button>
           </div>
         </CardContent>
@@ -53,7 +59,7 @@ const AccountInformation = () => {
                 <div className="flex flex-col h-[330px] justify-center items-center gap-3">
                   <Icons.plus className="w-12 h-12 text-primary" />
                   <Button variant={"secondary"}>
-                    <Link href={"/dashboard/addresses/new"}>Add Address</Link>
+                    <Link href={"/dashboard/addresses/new"}>اضافة عنوان</Link>
                   </Button>
                 </div>
               </Link>
@@ -63,7 +69,7 @@ const AccountInformation = () => {
           {address && (
             <div className="flex flex-col">
               <span className="text-foreground text-md text-right mt-3 uppercase  ">
-                Default
+                الافتراضي
               </span>
 
               <div className="flex flex-col gap-4 ">
@@ -79,20 +85,20 @@ const AccountInformation = () => {
                 </div>
 
                 <div>
-                  <span>Phone Number</span>
+                  <span>رقم الهاتف</span>
                   <p className="text-gray-800 dark:text-gray-200 font-bold">
                     {address.phone}
                   </p>
                 </div>
                 <div>
-                  <span>Email Address</span>
+                  <span>البريد الالكتروني</span>
                   <p className="text-gray-800 dark:text-gray-300 font-bold">
                     {address.email}
                   </p>
                 </div>
                 <Button variant={"link"} className="self-start p-0 text-xl">
                   <Link href={`/dashboard/addresses/${address._id}`}>
-                    <span>Edit Address</span>
+                    <span>تعديل العنوان</span>
                   </Link>
                 </Button>
               </div>
