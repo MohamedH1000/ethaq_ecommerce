@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import Counter from "@/components/ui/counter";
 import { Icons } from "@/components/ui/icons";
 import usePrice from "@/hooks/use-price";
+import { addProductToCart } from "@/lib/actions/order.action";
+import { getCurrentUser } from "@/lib/actions/user.action";
 import { cn } from "@/lib/utils";
 import ProductAttributes from "@/modules/products/product-attributes";
 import ThumbnailCarousel from "@/modules/products/thumbnail-carousel";
@@ -11,10 +13,12 @@ import { useCartStore } from "@/store/cart/cart.store";
 import { IProduct } from "@/types";
 import { generateCartItem } from "@/utils/generate-cart-item";
 import { getVariations } from "@/utils/get-variations";
+import { User } from "@prisma/client";
+import { id } from "date-fns/locale";
 import { isEmpty, isEqual } from "lodash";
 import { RefreshCwIcon } from "lucide-react";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 type Props = {
@@ -33,7 +37,18 @@ const ProductDetails = ({ product }: Props) => {
     baseAmount: product?.price,
     currencyCode: "SAR",
   });
-
+  const [user, setUser] = useState([]);
+  useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        const currentUser: any = await getCurrentUser();
+        setUser(currentUser);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchUser();
+  }, []);
   const isSelected = !isEmpty(variations)
     ? !isEmpty(attributes) &&
       Object.keys(variations).every((variation) =>
@@ -52,21 +67,24 @@ const ProductDetails = ({ product }: Props) => {
   }
 
   const item = generateCartItem(product, selectedVariation);
-  function addToCart() {
+  async function addToCart() {
     if (!isSelected) return;
-    // to show btn feedback while product carting
-    setAddToCartLoader(true);
-    setTimeout(() => {
-      setAddToCartLoader(false);
-    }, 1500);
-    const item = generateCartItem(product, selectedVariation);
-    addItemToCart(item, selectedQuantity);
-    // @ts-ignore
-    toast.success("Product added to cart");
+    try {
+      await addProductToCart(
+        user.id,
+        product?.id,
+        selectedQuantity,
+        product.price
+      );
+      toast.success("تم اضافة المنتج الى عربة التسوق بنجاح");
+    } catch (error) {
+      toast.error("حصل خطا اثناء اضافة المنتج");
+      console.log(error);
+    }
   }
   return (
     <div className="mt-4 flex flex-col md:flex-row gap-5">
-      <div className="w-full md:w-1/2 product-gallery ">
+      <div className="w-full md:w-1/2 product-gallery">
         {!!product?.gallery?.length ? (
           <ThumbnailCarousel gallery={product?.gallery} isSingleProductPage />
         ) : (

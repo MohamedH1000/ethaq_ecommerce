@@ -24,6 +24,28 @@ export async function addOrderItem(
     console.log(error);
   }
 }
+export async function addProductToCart(
+  userId: string,
+  productId: string,
+  quantity: number,
+  price: number
+) {
+  try {
+    const orderItem = await prisma.orderItem.create({
+      data: {
+        userId,
+        priceAtPurchase: price,
+        productId,
+        orderId: null,
+        quantity, // Explicitly null
+      },
+    });
+
+    return { success: true, data: orderItem };
+  } catch (error) {
+    console.log(error);
+  }
+}
 export async function createOrder(userId: string, orderItems: any[]) {
   try {
     const totalAmount = orderItems
@@ -93,6 +115,47 @@ export async function createOrder(userId: string, orderItems: any[]) {
     };
   }
 }
+
+export async function getOrdersItemsByUserId(userId: string) {
+  try {
+    const orders = await prisma.orderItem.findMany({
+      where: {
+        userId,
+        orderId: null,
+      },
+      include: {
+        product: true, // Include product details
+      },
+    });
+    return orders;
+  } catch (error) {
+    console.error("Error fetching order items:", error);
+    return []; // Return an empty array on error to avoid breaking the UI
+  }
+}
+
+export async function getOrderById(orderId: string) {
+  const order = await prisma.order.findUnique({
+    where: {
+      id: orderId,
+    },
+  });
+
+  return order;
+}
+
+export async function getMyOrders(userId: string) {
+  try {
+    const myorders = await prisma.order.findMany({
+      where: {
+        userId,
+      },
+    });
+    return myorders;
+  } catch (error) {
+    console.log(error);
+  }
+}
 export async function decreaseOrderItem(id: string) {
   try {
     // First, decrease the quantity
@@ -140,47 +203,6 @@ export async function increaseOrderItem(id: string) {
   revalidatePath("products");
 
   return { success: true, data: response };
-}
-
-export async function getOrdersItemsByUserId(userId: string) {
-  try {
-    const orders = await prisma.orderItem.findMany({
-      where: {
-        userId,
-        orderId: null,
-      },
-      include: {
-        product: true, // Include product details
-      },
-    });
-    return orders;
-  } catch (error) {
-    console.error("Error fetching order items:", error);
-    return []; // Return an empty array on error to avoid breaking the UI
-  }
-}
-
-export async function getOrderById(orderId: string) {
-  const order = await prisma.order.findUnique({
-    where: {
-      id: orderId,
-    },
-  });
-
-  return order;
-}
-
-export async function getMyOrders(userId: string) {
-  try {
-    const myorders = await prisma.order.findMany({
-      where: {
-        userId,
-      },
-    });
-    return myorders;
-  } catch (error) {
-    console.log(error);
-  }
 }
 
 export async function deleteOrderItem(orderId: string) {

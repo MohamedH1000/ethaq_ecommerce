@@ -51,15 +51,18 @@ const CheckoutPage = async ({
                     {orderDetails.status}
                   </p>
                   <p>
-                    <span className="font-semibold">اجمالي السعر:</span> $
+                    <span className="font-semibold">اجمالي السعر:</span>{" "}
+                    SAR&nbsp;
                     {orderDetails.totalAmount.toFixed(2)}
                   </p>
                   <p>
-                    <span className="font-semibold">القيمة المدفوعة:</span> $
+                    <span className="font-semibold">القيمة المدفوعة:</span>{" "}
+                    SAR&nbsp;
                     {orderDetails.paidAmount.toFixed(2)}
                   </p>
                   <p>
-                    <span className="font-semibold">القيمة المتبقية:</span> $
+                    <span className="font-semibold">القيمة المتبقية:</span>{" "}
+                    SAR&nbsp;
                     {orderDetails.remainingAmount.toFixed(2)}
                   </p>
                   <p>

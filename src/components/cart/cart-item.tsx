@@ -3,86 +3,24 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Counter from "../ui/counter";
 import { Trash2Icon } from "lucide-react";
-import {
-  decreaseOrderItem,
-  deleteOrderItem,
-  increaseOrderItem,
-} from "@/lib/actions/order.action";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
-import { toast } from "sonner";
 
 interface CartItemProps {
   item: any;
+  handleIncrement: any;
+  handleDecrement: any;
+  handleDelete: any;
 }
 
-const CartItem = ({ item }: CartItemProps) => {
+const CartItem = ({
+  item,
+  handleIncrement,
+  handleDecrement,
+  handleDelete,
+}: CartItemProps) => {
   // Local state for optimistic updates
-  const [quantity, setQuantity] = useState(item.quantity);
-  const [isPending, setIsPending] = useState(false);
-  const router = useRouter();
-
-  const handleIncrement = async () => {
-    if (isPending) return;
-
-    // Optimistic update
-    const newQuantity = quantity + 1;
-    setQuantity(newQuantity);
-    setIsPending(true);
-
-    try {
-      const response = await increaseOrderItem(item.id);
-      if (!response.success) {
-        // Revert on failure
-        setQuantity(quantity);
-      }
-    } catch (error) {
-      // Revert on error
-      setQuantity(quantity);
-      console.error("Failed to increase quantity:", error);
-    } finally {
-      setIsPending(false);
-    }
-  };
-
-  const handleDecrement = async () => {
-    // Optimistic update
-    const newQuantity = quantity - 1;
-    setQuantity(newQuantity);
-    setIsPending(true);
-
-    try {
-      const response = await decreaseOrderItem(item.id);
-      if (!response.success) {
-        // Revert on failure
-        setQuantity(quantity);
-      } else if (response.data === null) {
-        // Item was deleted on server (quantity reached 0)
-        setQuantity(0);
-      }
-    } catch (error) {
-      // Revert on error
-      setQuantity(quantity);
-      console.error("Failed to decrease quantity:", error);
-    } finally {
-      setIsPending(false);
-    }
-  };
-  const deleteItem = async (id: string) => {
-    try {
-      const response = await deleteOrderItem(id);
-      if (response.success) {
-        toast.success("تم حذف المنتج بنجاح من عربة التسوق");
-      }
-    } catch (error) {
-      toast.error("حصل خطا اثناء حذف المنتج من عربة التسوق");
-      console.log(error);
-    } finally {
-      router.refresh();
-    }
-  };
+  console.log(item);
   // Optional: Handle item removal when quantity is 0
-  if (quantity === 0) {
+  if (item.quantity === 0) {
     return null; // or a custom "item removed" message
   }
 
@@ -110,7 +48,7 @@ const CartItem = ({ item }: CartItemProps) => {
             {item?.product?.name}
           </h4>
           <p className="text-base text-gray-700 dark:text-white">
-            {item.product.price.toFixed(2)} SAR
+            {(item.product.price * item.quantity).toFixed(2)} SAR
           </p>
         </div>
       </div>
@@ -118,18 +56,18 @@ const CartItem = ({ item }: CartItemProps) => {
       <div className="flex flex-col space-y-6 justify-between items-center">
         <button
           className="px-2 py-1 bg-gray-100 dark:bg-gray-700 self-end grid place-items-center shadow-sm"
-          onClick={() => deleteItem(item.id)}
+          onClick={() => handleDelete(item.id)}
         >
           <Trash2Icon className="w-4" />
           <span className="sr-only">ازالة العنصر</span>
         </button>
 
         <Counter
-          value={quantity}
-          onIncrement={handleIncrement}
-          onDecrement={handleDecrement}
+          value={item.quantity}
+          onIncrement={() => handleIncrement(item.id)}
+          onDecrement={() => handleDecrement(item.id)}
           variant="cart"
-          disabled={isPending}
+          // disabled={isPending}
         />
       </div>
     </motion.div>

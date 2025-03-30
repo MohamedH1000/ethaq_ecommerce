@@ -8,11 +8,20 @@ import {
 } from "@/lib/actions/order.action";
 import { useCartStore } from "@/store/cart/cart.store";
 import Image from "next/image";
+import { useState } from "react";
 
 interface CartItemProps {
   item: any;
+  handleIncrement: any;
+  handleDecrement: any;
+  handleDelete: any;
 }
-export const CartItemDetails = ({ item }: CartItemProps) => {
+export const CartItemDetails = ({
+  item,
+  handleIncrement,
+  handleDecrement,
+  handleDelete,
+}: CartItemProps) => {
   console.log("item", item);
   const { price, basePrice, discount } = usePrice({
     amount: item?.sale_price ? item?.sale_price : item?.price,
@@ -70,7 +79,7 @@ export const CartItemDetails = ({ item }: CartItemProps) => {
           <div className="flex flex-col mt-2">
             <div className="flex gap-1 items-center">
               <h6 className="text-gray-800 font-semibold dark:text-white">
-                {price}
+                {(item.product.price * item.quantity).toFixed(2)}
               </h6>
               <del className=" text-gray-500">{basePrice}</del>
             </div>
@@ -89,8 +98,12 @@ export const CartItemDetails = ({ item }: CartItemProps) => {
           <div className="flex flex-col mt-2">
             <Counter
               value={item.quantity}
-              onIncrement={async () => await increaseOrderItem(item.id)}
-              onDecrement={async () => await decreaseOrderItem(item.id)}
+              onIncrement={async () => {
+                handleIncrement(item.id);
+              }}
+              onDecrement={async () => {
+                handleDecrement(item.id);
+              }}
               variant="cart"
             />
           </div>

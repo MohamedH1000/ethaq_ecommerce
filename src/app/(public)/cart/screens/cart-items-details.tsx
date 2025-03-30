@@ -4,8 +4,13 @@ import usePrice from "@/hooks/use-price";
 import { useCartStore } from "@/store/cart/cart.store";
 import Link from "next/link";
 import { CartItemDetails } from "./cart-item";
-import { useEffect, useState } from "react";
-import { getOrdersItemsByUserId } from "@/lib/actions/order.action";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  decreaseOrderItem,
+  deleteOrderItem,
+  getOrdersItemsByUserId,
+  increaseOrderItem,
+} from "@/lib/actions/order.action";
 import { getCurrentUser } from "@/lib/actions/user.action";
 
 const CartItemsDetails = () => {
@@ -24,28 +29,78 @@ const CartItemsDetails = () => {
     };
     fetchCurrentUser();
   }, []);
+  const fetchItems = useCallback(async () => {
+    try {
+      const response: any = await getOrdersItemsByUserId(user?.id);
+      setItems(response || []);
+    } catch (error) {
+      console.log(error);
+    }
+  }, [user?.id]);
+
   useEffect(() => {
-    const fetchOrderItems = async () => {
+    if (user?.id) {
+      fetchItems();
+    }
+  }, [user?.id, fetchItems]);
+
+  const handleIncrement = useCallback(
+    async (id: string) => {
       try {
-        const response: any = await getOrdersItemsByUserId(user?.id);
-        setItems(response);
+        await increaseOrderItem(id);
+        // Refresh the items after successful increment
+        await fetchItems();
       } catch (error) {
         console.log(error);
       }
-    };
-    fetchOrderItems();
-  }, []);
+    },
+    [fetchItems]
+  );
 
-  const totalPrice = items
-    .map((item) => item.product.price * item.quantity)
-    .reduce((sum, price) => sum + price, 0)
-    .toFixed(2);
+  const handleDecrement = useCallback(
+    async (id: string) => {
+      try {
+        await decreaseOrderItem(id);
+        // Refresh the items after successful decrement
+        await fetchItems();
+      } catch (error) {
+        console.log(error);
+      }
+    },
+    [fetchItems]
+  );
+
+  const handleDelete = useCallback(
+    async (id: string) => {
+      try {
+        await deleteOrderItem(id);
+        // Refresh the items after successful delete
+        await fetchItems();
+      } catch (error) {
+        console.log(error);
+      }
+    },
+    [fetchItems]
+  );
+
+  const totalPrice = useMemo(() => {
+    return items
+      .map((item) => item.product.price * item.quantity)
+      .reduce((sum, price) => sum + price, 0)
+      .toFixed(2);
+  }, [items]); // Only depends on items now
   return (
     <div className="container flex flex-col xl:flex-row  gap-8 py-12  ">
       <div className="w-full  xl:w-[70%] whitespace-nowrap rounded-md h-auto">
         <ScrollArea className=" whitespace-nowrap rounded-md border ">
           {items?.map((item) => (
-            <CartItemDetails item={item} key={item._id} />
+            <CartItemDetails
+              item={item}
+              key={item._id}
+              handleIncrement={handleIncrement}
+              handleDecrement={handleDecrement}
+              handleDelete={handleDelete}
+            />
           ))}
 
           <ScrollBar orientation="horizontal" />

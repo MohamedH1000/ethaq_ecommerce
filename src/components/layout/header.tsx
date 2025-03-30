@@ -18,6 +18,7 @@ import { User } from "@prisma/client";
 import { signOut } from "next-auth/react";
 import { getOrdersItemsByUserId } from "@/lib/actions/order.action";
 import { getCurrentUser } from "@/lib/actions/user.action";
+import Image from "next/image";
 
 const Search = dynamic(() => import("@/components/ui/search/search"));
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
@@ -46,7 +47,12 @@ const Header = ({ currentUser }: { currentUser: User }) => {
     <header className=" lg:justify-between lg:w-full hidden lg:flex ">
       <div className="flex items-center w-full ">
         <Link href={"/"}>
-          <GradientLogo />
+          <Image
+            src={"/assets/Logo.png"}
+            alt={"ايثاق ماركت"}
+            width={190}
+            height={190}
+          />
         </Link>
 
         {/* <div className="hidden ml-10  mr-auto  xl:block">

@@ -10,12 +10,14 @@ import { generateCartItem } from "@/utils/generate-cart-item";
 import { getVariations } from "@/utils/get-variations";
 import { isEmpty, isEqual } from "lodash";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import ProductAttributes from "../product-attributes";
 import ThumbnailCarousel from "../thumbnail-carousel";
 import VariationPrice from "../variation-price";
 import QuickViewShortDetails from "./quick-view-short-details";
+import { addProductToCart } from "@/lib/actions/order.action";
+import { getCurrentUser } from "@/lib/actions/user.action";
 export const QuickViewProduct = () => {
   const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
   const globalModal = useGlobalModalStateStore((state) => state);
@@ -31,7 +33,18 @@ export const QuickViewProduct = () => {
     baseAmount: product?.price,
     currencyCode: "SAR",
   });
-
+  const [user, setUser] = useState([]);
+  useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        const currentUser: any = await getCurrentUser();
+        setUser(currentUser);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchUser();
+  }, []);
   const isSelected = !isEmpty(variations)
     ? !isEmpty(attributes) &&
       Object.keys(variations).every((variation) =>
@@ -51,18 +64,22 @@ export const QuickViewProduct = () => {
 
   const item = generateCartItem(product, selectedVariation);
   const outOfStock = isInCart(item._id) && !isInStock(item._id);
-  function addToCart() {
+  async function addToCart() {
     if (!isSelected) return;
     // to show btn feedback while product carting
-    setAddToCartLoader(true);
-    setTimeout(() => {
-      setAddToCartLoader(false);
-    }, 1500);
-    const item = generateCartItem(product, selectedVariation);
-    addItemToCart(item, selectedQuantity);
-    // @ts-ignore
-    toast.success("Product added to cart");
-    globalModal.setQuickViewState(false, null);
+    try {
+      await addProductToCart(
+        user.id,
+        product?.id,
+        selectedQuantity,
+        product.price
+      );
+      toast.success("تم اضافة المنتج لعربة التسوق بنجاح");
+      globalModal.setQuickViewState(false, null);
+    } catch (error) {
+      toast.error("حصل خطأ اثناء اضافة المنتج");
+      console.log(error);
+    }
   }
   return (
     <div className="px-6 py-4">
