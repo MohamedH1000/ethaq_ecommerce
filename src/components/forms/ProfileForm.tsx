@@ -6,6 +6,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
+  UncontrolledFormMessage,
 } from "../ui/form";
 import { Icons } from "../ui/icons";
 import { Input } from "../ui/input";
@@ -16,6 +17,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { toast } from "react-hot-toast";
 import { Loader } from "lucide-react";
+import ImageUpload from "@/app/(dashboard)/account/edit/components/ImageUpload";
+import { Card } from "../ui/card";
 
 // Define validation schema
 const profileFormSchema = z.object({
@@ -28,6 +31,7 @@ const profileFormSchema = z.object({
   phone: z.string().min(6, {
     message: "Phone number must be at least 6 characters.",
   }),
+  image: z.string().url(),
 });
 
 const ProfileForm = () => {
@@ -41,9 +45,10 @@ const ProfileForm = () => {
       name: "",
       email: "",
       phone: "",
+      image: "",
     },
   });
-
+  // console.log(form.getValues(), "values");
   // Fetch user data and set form values
   useEffect(() => {
     const fetchUserData = async () => {
@@ -55,6 +60,7 @@ const ProfileForm = () => {
             name: currentUser.name || "",
             email: currentUser.email || "",
             phone: currentUser.phone || "",
+            image: currentUser.image || "",
           });
         }
         setInitialLoad(false);
@@ -71,11 +77,13 @@ const ProfileForm = () => {
   const onSubmit = async (values) => {
     setIsLoading(true);
     try {
-      await updateUserProfile(values);
-      toast.success("Profile updated successfully");
+      const response = await updateUserProfile(values);
+      if (response?.success) {
+        toast.success("تم تحديث الملف الشخصي بنجاح");
+      }
     } catch (error) {
-      console.error("Failed to update profile:", error);
-      toast.error("Failed to update profile");
+      console.error("حدث خطا اثناء تحديث الملف الشخصي:", error);
+      toast.error("حصل خطا اثناء تحديث الملف الشخصي");
     } finally {
       setIsLoading(false);
     }
@@ -138,7 +146,20 @@ const ProfileForm = () => {
             </FormItem>
           )}
         />
-
+        <div className="lg:w-2/3 w-full">
+          <FormItem className="flex w-full flex-col gap-1.5">
+            <FormLabel>الصورة الشخصية</FormLabel>
+            <FormControl>
+              <ImageUpload
+                value={form.getValues("image") || ""}
+                onChange={(value) => form.setValue("image", value)}
+              />
+            </FormControl>
+            <UncontrolledFormMessage
+              message={form.formState.errors.image?.message}
+            />
+          </FormItem>
+        </div>
         <Button type="submit" disabled={isLoading}>
           {isLoading && (
             <Icons.spinner

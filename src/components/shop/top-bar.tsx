@@ -1,11 +1,12 @@
+"use client";
 import { FilterIcon } from "lucide-react";
 import Drawer from "../ui/drawer";
 import { useGlobalModalStateStore } from "@/store/modal";
 import FilterSidebar from "./filter-sidebar";
 
-
 export default function SearchTopBar() {
- const {sideFilter,onSideFilter,closeSideFilter}= useGlobalModalStateStore((state)=>state)
+  const { sideFilter, onSideFilter, closeSideFilter } =
+    useGlobalModalStateStore((state) => state);
 
   return (
     <div className="flex justify-between items-center mb-7">
@@ -20,11 +21,7 @@ export default function SearchTopBar() {
         <span className="pl-2.5 ">Filters</span>
       </button>
       {/* TODO: need to use just one drawer component */}
-      <Drawer
-        variant={ 'left' }
-        open={sideFilter}
-        onClose={closeSideFilter}
-      >
+      <Drawer variant={"left"} open={sideFilter} onClose={closeSideFilter}>
         <FilterSidebar />
       </Drawer>
     </div>

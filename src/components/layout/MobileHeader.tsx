@@ -17,26 +17,25 @@ import {
 import { Icons } from "../ui/icons";
 import { HeartIcon } from "lucide-react";
 import dynamic from "next/dynamic";
-import GradientLogo from "../common/shared/gradient-logo";
 import { useGlobalModalStateStore } from "@/store/modal";
 import Image from "next/image";
+import { User } from "@prisma/client";
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
   ssr: false,
 });
-const MobileHeader = () => {
-  const { me } = useMe();
+const MobileHeader = ({ currentUser }: { currentUser: User }) => {
   const globalModal = useGlobalModalStateStore();
   return (
     <header className="flex justify-between w-full items-center">
       <div className="flex items-center gap-2 w-full -ml-6">
-        <motion.button
+        {/* <motion.button
           whileTap={{ scale: 0.88 }}
           onClick={() => globalModal.onMenubar()}
           className="flex items-center justify-center h-full p-2 focus:outline-none focus:text-green-500  "
         >
           <span className="sr-only">burger menu</span>
           <Icons.menu className={`${"transform rotate-180"} text-gray-400`} />
-        </motion.button>
+        </motion.button> */}
         <Link href={"/"}>
           <Image
             src={"/assets/Logo.png"}
@@ -66,13 +65,16 @@ const MobileHeader = () => {
           </div>
 
           <div className="border-r h-6 border-border hidden sm:block" />
-          {me ? (
+          {currentUser ? (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <div className="relative flex gap-2 items-center cursor-pointer">
                   <Avatar className="h-8 w-8  rounded-full">
-                    <AvatarImage src={me?.avatar} alt={me.lastName} />
-                    <AvatarFallback>{me.lastName}</AvatarFallback>
+                    <AvatarImage
+                      src={currentUser?.image}
+                      alt={currentUser.name}
+                    />
+                    <AvatarFallback>{currentUser.name}</AvatarFallback>
                   </Avatar>
                 </div>
               </DropdownMenuTrigger>
@@ -80,10 +82,10 @@ const MobileHeader = () => {
                 <DropdownMenuLabel className="font-normal">
                   <div className="flex flex-col space-y-1">
                     <p className="text-sm font-medium leading-none">
-                      {me.firstName} {me.lastName}
+                      {currentUser.name}
                     </p>
                     <p className="text-xs leading-none text-muted-foreground">
-                      {me.email}
+                      {currentUser.email}
                     </p>
                   </div>
                 </DropdownMenuLabel>
@@ -92,7 +94,7 @@ const MobileHeader = () => {
                   <DropdownMenuItem asChild>
                     <Link href="/account/dashboard">
                       <Icons.user className="mr-2 h-4 w-4" aria-hidden="true" />
-                      Account
+                      الحساب
                       <DropdownMenuShortcut>⇧⌘A</DropdownMenuShortcut>
                     </Link>
                   </DropdownMenuItem>
@@ -102,26 +104,26 @@ const MobileHeader = () => {
                         className="mr-2 h-4 w-4"
                         aria-hidden="true"
                       />
-                      Dashboard
+                      لوحة التحكم
                       <DropdownMenuShortcut>⌘D</DropdownMenuShortcut>
                     </Link>
                   </DropdownMenuItem>
-                  <DropdownMenuItem asChild disabled>
+                  {/* <DropdownMenuItem asChild disabled>
                     <Link href="/account/settings">
                       <Icons.settings
                         className="mr-2 h-4 w-4"
                         aria-hidden="true"
                       />
-                      Settings
+                      الاعدادات
                       <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
                     </Link>
-                  </DropdownMenuItem>
+                  </DropdownMenuItem> */}
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem asChild>
                   <Link href="/signout">
                     <Icons.logout className="mr-2 h-4 w-4" aria-hidden="true" />
-                    Log out
+                    تسجيل الخروج
                     <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
                   </Link>
                 </DropdownMenuItem>
@@ -134,8 +136,8 @@ const MobileHeader = () => {
                 size: "sm",
               })}
             >
-              Sign In
-              <span className="sr-only">Sign In</span>
+              تسجيل الدخول
+              <span className="sr-only">تسجيل الدخول</span>
             </Link>
           )}
         </div>

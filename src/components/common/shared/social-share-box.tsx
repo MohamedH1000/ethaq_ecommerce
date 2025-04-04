@@ -51,7 +51,7 @@ const SocialShareBox: React.FC<Props> = ({ className = "", shareUrl = "" }) => {
         className
       )}
     >
-      <h1 className="mb-2">Share on social media</h1>
+      <h1 className="mb-2">المشاركة على وسائل التواصل الاجتماعي</h1>
 
       <div className="flex flex-wrap items-center mb-4 -mx-1">
         <FacebookShareButton url={shareUrl} className="mx-1">
@@ -83,7 +83,7 @@ const SocialShareBox: React.FC<Props> = ({ className = "", shareUrl = "" }) => {
           />
         </LinkedinShareButton>
       </div>
-      <p>Copy link</p>
+      <p>نسخ الرابط</p>
       <form noValidate className="space-y-5">
         <div className="relative mt-2.5 mb-1.5">
           <Input
@@ -115,13 +115,13 @@ const SocialShareBox: React.FC<Props> = ({ className = "", shareUrl = "" }) => {
                   className="absolute  right-0.5 top-[6%] h-[90%] px-2 text-primary text-sm uppercase font-bold flex items-center bg-white cursor-pointer"
                   role="button"
                 >
-                  copy
+                  نسخ
                 </span>
               </CopyToClipboard>
             </>
           ) : (
             <span className="absolute right-0.5 top-[6%] h-[90%] p-2 pl-1.5  text-primary text-sm uppercase font-bold flex items-center bg-gray-100 cursor-pointer">
-              copied
+              تم النسخ
             </span>
           )}
         </div>

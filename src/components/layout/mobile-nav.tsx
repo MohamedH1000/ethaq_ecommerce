@@ -1,31 +1,31 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import type { MainNavItem, SidebarNavItem } from "@/types"
-import { cn } from "@/lib/utils"
+import * as React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import type { MainNavItem, SidebarNavItem } from "@/types";
+import { cn } from "@/lib/utils";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import { Button } from "@/components/ui/button"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Icons } from "../ui/icons"
-import GradientLogo from "../common/shared/gradient-logo"
-
+} from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Icons } from "../ui/icons";
+import GradientLogo from "../common/shared/gradient-logo";
+import Image from "next/image";
 
 interface MobileNavProps {
-  mainNavItems?: MainNavItem[]
-  sidebarNavItems?: SidebarNavItem[]
+  mainNavItems?: MainNavItem[];
+  sidebarNavItems?: SidebarNavItem[];
 }
 
 export function MobileNav({ mainNavItems, sidebarNavItems }: MobileNavProps) {
-  const pathname = usePathname()
-  const [isOpen, setIsOpen] = React.useState(false)
+  const pathname = usePathname();
+  const [isOpen, setIsOpen] = React.useState(false);
 
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -34,7 +34,7 @@ export function MobileNav({ mainNavItems, sidebarNavItems }: MobileNavProps) {
           variant="ghost"
           className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden"
         >
-           <Icons.menu className="h-8 w-8"/>
+          <Icons.menu className="h-8 w-8" />
         </Button>
       </SheetTrigger>
       <SheetContent side="left" className="pl-1 pr-0">
@@ -45,7 +45,12 @@ export function MobileNav({ mainNavItems, sidebarNavItems }: MobileNavProps) {
             className="flex items-center"
             onClick={() => setIsOpen(false)}
           >
-            <GradientLogo/>
+            <Image
+              src={"/assets/Logo.png"}
+              alt={"ايثاق ماركت"}
+              width={170}
+              height={170}
+            />
           </Link>
         </div>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
@@ -53,7 +58,7 @@ export function MobileNav({ mainNavItems, sidebarNavItems }: MobileNavProps) {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="sidebar">
                 <AccordionTrigger className="text-sm">
-                  Sidebar Menu
+                  القائمة الجانبية
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="flex flex-col space-y-2">
@@ -85,15 +90,15 @@ export function MobileNav({ mainNavItems, sidebarNavItems }: MobileNavProps) {
         </ScrollArea>
       </SheetContent>
     </Sheet>
-  )
+  );
 }
 
 interface MobileLinkProps {
-  children?: React.ReactNode
-  href: string
-  disabled?: boolean
-  pathname: string
-  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>
+  children?: React.ReactNode;
+  href: string;
+  disabled?: boolean;
+  pathname: string;
+  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 function MobileLink({
@@ -115,5 +120,5 @@ function MobileLink({
     >
       {children}
     </Link>
-  )
+  );
 }

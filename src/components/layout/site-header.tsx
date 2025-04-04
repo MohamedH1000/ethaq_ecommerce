@@ -12,7 +12,7 @@ export function SiteHeader({ currentUser }: { currentUser: User }) {
           <Header currentUser={currentUser} />
 
           <div className="flex flex-1 items-center space-x-4 lg:hidden">
-            <MobileHeader />
+            <MobileHeader currentUser={currentUser} />
           </div>
         </div>
       </div>

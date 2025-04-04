@@ -2,13 +2,9 @@
 
 import Counter from "@/components/ui/counter";
 import usePrice from "@/hooks/use-price";
-import {
-  decreaseOrderItem,
-  increaseOrderItem,
-} from "@/lib/actions/order.action";
-import { useCartStore } from "@/store/cart/cart.store";
+import { deleteOrderItem } from "@/lib/actions/order.action";
 import Image from "next/image";
-import { useState } from "react";
+import { toast } from "sonner";
 
 interface CartItemProps {
   item: any;
@@ -20,19 +16,11 @@ export const CartItemDetails = ({
   item,
   handleIncrement,
   handleDecrement,
-  handleDelete,
 }: CartItemProps) => {
   console.log("item", item);
-  const { price, basePrice, discount } = usePrice({
+  const { basePrice, discount } = usePrice({
     amount: item?.sale_price ? item?.sale_price : item?.price,
     baseAmount: item?.price,
-    currencyCode: "SAR",
-  });
-
-  const { isInStock, clearItemFromCart, addItemToCart, removeItemFromCart } =
-    useCartStore((state) => state);
-  const { price: itemPrice } = usePrice({
-    amount: item.price,
     currencyCode: "SAR",
   });
 
@@ -61,7 +49,7 @@ export const CartItemDetails = ({
                 <h6 className="text-gray-800 font-semibold dark:text-white">
                   تم البيع بواسطة:
                 </h6>
-                <p className=" text-gray-500">Jazila Bazar</p>
+                <p className=" text-gray-500">ايثاق ماركت</p>
               </div>
               {item?.unit && (
                 <div className="flex gap-1 items-center">
@@ -79,7 +67,7 @@ export const CartItemDetails = ({
           <div className="flex flex-col mt-2">
             <div className="flex gap-1 items-center">
               <h6 className="text-gray-800 font-semibold dark:text-white">
-                {(item.product.price * item.quantity).toFixed(2)}
+                {item.product.price.toFixed(2)} SAR
               </h6>
               <del className=" text-gray-500">{basePrice}</del>
             </div>
@@ -113,7 +101,7 @@ export const CartItemDetails = ({
           <h1 className="text-gray-600 dark:text-white">الاجمالي</h1>
           <div className="flex flex-col mt-2">
             <h3 className="text-lg text-gray-800 dark:text-white font-semibold">
-              {itemPrice}
+              {(item.product.price * item.quantity).toFixed(2)} SAR
             </h3>
           </div>
         </div>
@@ -121,11 +109,15 @@ export const CartItemDetails = ({
         <div className="flex flex-col">
           <h1 className="text-gray-600 dark:text-white">الاجراء</h1>
           <div className="flex flex-col mt-2">
-            <button className="text-green-400 underline">الحفظ لاحقا</button>
+            {/* <button className="text-green-400 underline">الحفظ لاحقا</button> */}
 
             <button
               className="text-red-400 underline"
-              onClick={() => clearItemFromCart(item._id)}
+              onClick={() => {
+                deleteOrderItem(item.id);
+                window.location.reload();
+                toast.success("تم حذف المنتج من عربة التسوق");
+              }}
             >
               ازالة العنصر
             </button>

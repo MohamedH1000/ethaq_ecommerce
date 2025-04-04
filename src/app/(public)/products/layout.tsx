@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Products'
-
+  title: "المتجات",
 };
 export default function RootLayout({
   children,
@@ -10,10 +9,5 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   // offset navbar height
-  return (
-    <section >
-  
-      {children}
-    </section>
-  );
+  return <section>{children}</section>;
 }

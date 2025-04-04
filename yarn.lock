@@ -1051,6 +1051,45 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
+"@cloudinary-util/types@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@cloudinary-util/types/-/types-1.0.5.tgz"
+  integrity sha512-QySi6Q138yg/qrD7f6yscH9T+/8VwUfF9AiwFPMS89uI5wnSG9nhC+93a/8iUpgk9ujTDVqE8+TqYAbxvF0BMA==
+
+"@cloudinary-util/url-loader@5.3.1":
+  version "5.3.1"
+  resolved "https://registry.npmjs.org/@cloudinary-util/url-loader/-/url-loader-5.3.1.tgz"
+  integrity sha512-cYgnazu7cLjRaajGmhyVfMxjrOz4EaSQsWK1/utV4K5kknUUhu8vUovGunDQJbEGmBWB/TUt7zmwpdUAQ+pe4g==
+  dependencies:
+    "@cloudinary-util/types" "1.0.5"
+    "@cloudinary-util/util" "3.0.2"
+    "@cloudinary/url-gen" "1.15.0"
+    zod "^3.22.4"
+
+"@cloudinary-util/util@^3.0.0":
+  version "3.3.2"
+  resolved "https://registry.npmjs.org/@cloudinary-util/util/-/util-3.3.2.tgz"
+  integrity sha512-Cc0iFxzfl7fcOXuznpeZFGYC885Of/vDgccRDnhTe/8Rf8YKv2PjLtezyo0VgmdA/CpeZy29NCXAsf6liokbwg==
+
+"@cloudinary-util/util@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/@cloudinary-util/util/-/util-3.0.2.tgz"
+  integrity sha512-EMmspJLVFn9hX92DaK/yuSzSUXF/BJ88crzN8vT1qCaJMMWKapGNo2HZ6YNgG69PP/Jngdk0mTINDU+GP3A1CA==
+
+"@cloudinary/transformation-builder-sdk@^1.10.0":
+  version "1.16.1"
+  resolved "https://registry.npmjs.org/@cloudinary/transformation-builder-sdk/-/transformation-builder-sdk-1.16.1.tgz"
+  integrity sha512-Mh1qYMkoDxSAzbt0qY9NJaZrdH/vFBcrpeVWmbTXbPVDZHLaaLyJ2+RDFGger5lycbrehPLoNp2hh22BvhkvbQ==
+  dependencies:
+    "@cloudinary/url-gen" "^1.7.0"
+
+"@cloudinary/url-gen@^1.7.0", "@cloudinary/url-gen@1.15.0":
+  version "1.15.0"
+  resolved "https://registry.npmjs.org/@cloudinary/url-gen/-/url-gen-1.15.0.tgz"
+  integrity sha512-bjU67eZxLUgoRy/Plli4TQio7q6P31OYqnEgXxeN9TKXrzr6h0DeEdIUhKI9gy3HkEBWXWWJIPh7j7gkOJPnyA==
+  dependencies:
+    "@cloudinary/transformation-builder-sdk" "^1.10.0"
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz"
@@ -2677,6 +2716,11 @@
   version "1.0.4"
   resolved "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz"
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
+
+"@tsconfig/recommended@^1.0.3":
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/@tsconfig/recommended/-/recommended-1.0.8.tgz"
+  integrity sha512-TotjFaaXveVUdsrXCdalyF6E5RyG6+7hHHQVZonQtdlk1rJZ1myDIvPUUKPhoYv+JAzThb2lQJh9+9ZfF46hsA==
 
 "@types/babel__core@^7.1.14":
   version "7.20.5"
@@ -6240,12 +6284,22 @@ next-auth@^4, next-auth@^4.24.11:
     preact-render-to-string "^5.1.19"
     uuid "^8.3.2"
 
+next-cloudinary@^6.6.2:
+  version "6.6.2"
+  resolved "https://registry.npmjs.org/next-cloudinary/-/next-cloudinary-6.6.2.tgz"
+  integrity sha512-MbI5WpSk4dj9YnRgDp1C7vjtMivqOdkoR/jcmjIGR2Zth5RqGgiTpi7ee87d9pEdrfuJxdDzv27KA4s8tAVQkQ==
+  dependencies:
+    "@cloudinary-util/types" "1.0.5"
+    "@cloudinary-util/url-loader" "5.3.1"
+    "@cloudinary-util/util" "^3.0.0"
+    "@tsconfig/recommended" "^1.0.3"
+
 next-themes@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/next-themes/-/next-themes-0.2.1.tgz"
   integrity sha512-B+AKNfYNIzh0vqQQKqQItTS8evEouKD7H5Hj3kmuPERwddR2TxvDSFZuTj6T7Jfn1oyeUyJMydPl1Bkxkh0W7A==
 
-next@*, "next@^12.2.5 || ^13 || ^14 || ^15", next@^14.0.0, "next@>= 6.0.0":
+next@*, "next@^12 || ^13 || ^14", "next@^12.2.5 || ^13 || ^14 || ^15", next@^14.0.0, "next@>= 6.0.0":
   version "14.2.24"
   resolved "https://registry.npmjs.org/next/-/next-14.2.24.tgz"
   integrity sha512-En8VEexSJ0Py2FfVnRRh8gtERwDRaJGNvsvad47ShkC2Yi8AXQPXEA2vKoDJlGFSj5WE5SyF21zNi4M5gyi+SQ==
@@ -6875,6 +6929,11 @@ react-hot-toast@^2.5.2:
     csstype "^3.1.3"
     goober "^2.1.16"
 
+react-icons@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.npmjs.org/react-icons/-/react-icons-5.5.0.tgz"
+  integrity sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -7087,7 +7146,7 @@ react-zdog@>=1.0:
     react-dom "^18.2.0"
     resize-observer-polyfill "^1.5.1"
 
-react@*, "react@^15.3.0 || 16 || 17 || 18", "react@^16 || ^17 || ^18", "react@^16.12.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0", "react@^16.5.1 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc", "react@^16.8.0 || ^17 || ^18 || ^19", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc", "react@^16.8.0 || 17.x", react@^16.8||^17||^18, "react@^17 || ^18 || ^19", "react@^17.0.2 || ^18 || ^19", react@^18.0.0, react@^18.2.0, react@^18.3.1, react@^19.0.0, "react@>= 16.0.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16, react@>=16.0.0, react@>=16.13, react@>=16.8, react@>=16.8.0, "react@>=16.8.0 || ^17.0.0 || ^18", react@>=16.9.0, react@>=17.0, react@>=17.0.0, react@>=18.0, react@>=18.0.0, "react@16.8.0  || >=17.0.0 || >=18.0.0":
+react@*, "react@^15.3.0 || 16 || 17 || 18", "react@^16 || ^17 || ^18", "react@^16.12.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0", "react@^16.5.1 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc", "react@^16.8.0 || ^17 || ^18 || ^19", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc", "react@^16.8.0 || 17.x", react@^16.8||^17||^18, "react@^17 || ^18", "react@^17 || ^18 || ^19", "react@^17.0.2 || ^18 || ^19", react@^18.0.0, react@^18.2.0, react@^18.3.1, react@^19.0.0, "react@>= 16.0.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16, react@>=16.0.0, react@>=16.13, react@>=16.8, react@>=16.8.0, "react@>=16.8.0 || ^17.0.0 || ^18", react@>=16.9.0, react@>=17.0, react@>=17.0.0, react@>=18.0, react@>=18.0.0, "react@16.8.0  || >=17.0.0 || >=18.0.0":
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -8438,7 +8497,7 @@ zdog@>=1.0:
   resolved "https://registry.npmjs.org/zdog/-/zdog-1.1.3.tgz"
   integrity sha512-raRj6r0gPzopFm5XWBJZr/NuV4EEnT4iE+U3dp5FV5pCb588Gmm3zLIp/j9yqqcMiHH8VNQlerLTgOqL7krh6w==
 
-zod@^3.24.2:
+zod@^3.22.4, zod@^3.24.2:
   version "3.24.2"
   resolved "https://registry.npmjs.org/zod/-/zod-3.24.2.tgz"
   integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==

@@ -6,6 +6,7 @@ import * as React from "react";
 import { NavigationMenuLink } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import GradientLogo from "../common/shared/gradient-logo";
+import Image from "next/image";
 
 export function MainNav() {
   return (
@@ -15,7 +16,12 @@ export function MainNav() {
         href="/"
         className="hidden items-center space-x-2 lg:flex"
       >
-        <GradientLogo />
+        <Image
+          src={"/assets/Logo.png"}
+          alt={"ايثاق ماركت"}
+          width={170}
+          height={170}
+        />
       </Link>
     </div>
   );

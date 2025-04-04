@@ -78,7 +78,7 @@ export async function createOrder(userId: string, orderItems: any[]) {
     });
     await sendEmail({
       to: process.env.ADMIN_EMAIL || "mohammedhisham115@gmail.com",
-      subject: "طلب تسجيل حساب جديد",
+      subject: "طلب منتجات جديد",
       html: `
       <p>السلام عليكم ورحمة الله وبركاته،</p>
       <p>تم استلام طلب جديد من العميل. يرجى الاطلاع على تفاصيل الطلب أدناه:</p>

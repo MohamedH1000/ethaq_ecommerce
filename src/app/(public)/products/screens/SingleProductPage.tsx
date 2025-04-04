@@ -51,7 +51,7 @@ const SingleProductPage = ({ product }: Props) => {
                 <span className="flex items-center gap-2">
                   <SmartphoneIcon className="w-4 text-primary" />
                   <p className="text-base text-gray-900 dark:text-white font-medium">
-                    هاتف التواصل
+                    هاتف التواصل: 00966559681110
                   </p>
                 </span>
                 {/* <p>{data?.shop.settings?.contact}</p> */}
@@ -60,7 +60,7 @@ const SingleProductPage = ({ product }: Props) => {
                 <span className="flex items-center gap-1 sm:gap-2">
                   <GlobeIcon className="w-4 text-primary" />
                   <p className="text-xs sm:text-base text-gray-900 dark:text-white font-medium">
-                    الموقع:
+                    الموقع: https://four.fortworthtowingtx.com
                   </p>
                 </span>
                 <p className="text-xs sm:text-base">

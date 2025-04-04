@@ -1,7 +1,8 @@
 // app/api/categories/route.ts
 import { NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
-
+export const dynamic = "force-dynamic"; // Add this line
+export const fetchCache = "force-no-store"; // Optional but recommended
 const prisma = new PrismaClient();
 
 export async function GET(request: Request) {

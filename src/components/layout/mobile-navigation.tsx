@@ -1,5 +1,4 @@
 "use client";
-import { useMe } from "@/hooks/api/user/useMe";
 import { motion } from "framer-motion";
 import { HomeIcon } from "lucide-react";
 import Link from "next/link";
@@ -7,11 +6,15 @@ import Link from "next/link";
 import { useGlobalModalStateStore } from "@/store/modal";
 import { useRouter } from "next/navigation";
 import { Icons } from "../ui/icons";
+import { User } from "@prisma/client";
 export default function MobileNavigation({
   children,
-}: React.PropsWithChildren<{}>) {
+  currentUser,
+}: {
+  children: React.ReactNode;
+  currentUser: User;
+}) {
   const router = useRouter();
-  const { isAuthorized } = useMe();
   const globalModal = useGlobalModalStateStore();
   // const [_, setDrawerView] = useAtom(drawerAtom);
 
@@ -33,27 +36,26 @@ export default function MobileNavigation({
           onClick={() => router.push("/")}
           className="flex items-center justify-center h-full p-2 focus:outline-none focus:text-green-500"
         >
-          <span className="sr-only">home</span>
+          <span className="sr-only">الرئيسية</span>
           <HomeIcon className=" w-5 " />
         </motion.button>
 
-        <motion.button
+        {/* <motion.button
           whileTap={{ scale: 0.88 }}
           onClick={() => globalModal.onMenubar()}
           className="flex items-center justify-center h-full p-2 focus:outline-none focus:text-green-500"
         >
           <span className="sr-only">burger menu</span>
           <Icons.menu className={`${"transform rotate-180"} text-white`} />
-        </motion.button>
-        <motion.button
-            whileTap={{ scale: 0.88 }}
-          
-            onClick={()=>router.push('/search')}
-            className="flex items-center justify-center h-full p-2 focus:outline-none focus:text-green-700"
-          >
-            <span className="sr-only">Search</span>
-            <Icons.search width="17.05" height="18" />
-          </motion.button>
+        </motion.button> */}
+        {/* <motion.button
+          whileTap={{ scale: 0.88 }}
+          onClick={() => router.push("/search")}
+          className="flex items-center justify-center h-full p-2 focus:outline-none focus:text-green-700"
+        >
+          <span className="sr-only">بحث</span>
+          <Icons.search width="17.05" height="18" />
+        </motion.button> */}
 
         {children}
 
@@ -62,7 +64,7 @@ export default function MobileNavigation({
           onClick={() => router.push("/cart")}
           className="relative flex items-center justify-center h-full p-2 focus:outline-none focus:text-green-500/60"
         >
-          <span className="sr-only">cart</span>
+          <span className="sr-only">عربة التسوق</span>
           <Icons.cart className=" w-5" />
 
           {/* {totalUniqueItems > 0 && (
@@ -72,13 +74,13 @@ export default function MobileNavigation({
           )} */}
         </motion.button>
 
-        {isAuthorized ? (
+        {currentUser ? (
           <motion.button
             whileTap={{ scale: 0.88 }}
             onClick={() => globalModal.onUserMenu()}
             className="flex items-center justify-center h-full p-2 focus:outline-none focus:text-green-500"
           >
-            <span className="sr-only">user</span>
+            <span className="sr-only">المستخدم</span>
             <Icons.user className="w-5 h-5" />
           </motion.button>
         ) : (
@@ -86,10 +88,10 @@ export default function MobileNavigation({
             whileTap={{ scale: 0.88 }}
             className="flex items-center justify-center h-full p-2 focus:outline-none focus:text-green-500"
           >
-            <span className="sr-only">user</span>
-            <Link href={"/login"}>
+            <span className="sr-only">المستخدم</span>
+            <Link href={"/signin"}>
               <Icons.user className="w-5" />
-              <span className="sr-only">login</span>
+              <span className="sr-only">تسجيل الدخول</span>
             </Link>
           </motion.button>
         )}

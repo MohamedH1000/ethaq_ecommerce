@@ -1,14 +1,14 @@
-import { Shell } from "@/components/shells/shell";
 import {
   PageHeader,
-  PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/common/shared/page-header";
 import AccountInformation from "./components/AccountInformation";
 import ClientOnly from "@/components/common/shared/ClientOnly";
 import AccountWallets from "./components/AccountWallets";
+import { getCurrentUser } from "@/lib/actions/user.action";
 
 export default async function AccountPage() {
+  const currentUser = await getCurrentUser();
   return (
     <div className="bg-gray-100 dark:bg-gray-900 p-3 md:p-8 rounded-xl min-h-[calc(83vh-3.5rem)]">
       <PageHeader
@@ -21,9 +21,9 @@ export default async function AccountPage() {
       </PageHeader>
 
       <section className="w-full overflow-hidden mt-6">
-        <AccountWallets />
+        <AccountWallets currentUser={currentUser} />
         <ClientOnly>
-          <AccountInformation />
+          <AccountInformation currentUser={currentUser} />
         </ClientOnly>
       </section>
     </div>

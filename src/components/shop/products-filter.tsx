@@ -1,3 +1,4 @@
+"use client";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { CategoryFilter } from "./category-filter";
 import { FilteredItem } from "./filtered-item";

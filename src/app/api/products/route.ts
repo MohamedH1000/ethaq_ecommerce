@@ -6,14 +6,26 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const page = parseInt(searchParams.get("page") || "1", 10);
   const limit = parseInt(searchParams.get("limit") || "12", 10);
+  const price = searchParams.get("price");
+  let priceMin, priceMax;
+  if (price) {
+    [priceMin, priceMax] = price.split("-").map(Number);
+  }
   const categoryId = searchParams.get("category");
   const skip = (page - 1) * limit; // Calculate how many records to skip
 
   try {
     // Fetch paginated products
-    const whereCondition = categoryId ? { categoryId } : {};
+    const where = {};
+    if (categoryId) where.categoryId = categoryId;
+    if (price) {
+      where.price = {
+        gte: priceMin,
+        lte: priceMax,
+      };
+    }
     const products = await prisma.product.findMany({
-      where: whereCondition,
+      where: where,
       skip,
       take: limit, // Limit the number of products
       include: {
@@ -23,7 +35,7 @@ export async function GET(request: Request) {
 
     // Get total count for pagination
     const total = await prisma.product.count({
-      where: whereCondition,
+      where: where,
     });
 
     return NextResponse.json({

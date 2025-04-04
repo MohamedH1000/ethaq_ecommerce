@@ -6,17 +6,22 @@ import Link from "next/link";
 import { CartItemDetails } from "./cart-item";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
+  createOrder,
   decreaseOrderItem,
   deleteOrderItem,
   getOrdersItemsByUserId,
   increaseOrderItem,
 } from "@/lib/actions/order.action";
 import { getCurrentUser } from "@/lib/actions/user.action";
+import { useRouter } from "next/navigation";
+import { ROUTES } from "@/configs/routes";
+import { Loader } from "lucide-react";
 
 const CartItemsDetails = () => {
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [user, setUser] = useState();
+  const router = useRouter();
 
   useEffect(() => {
     const fetchCurrentUser = async () => {
@@ -29,6 +34,7 @@ const CartItemsDetails = () => {
     };
     fetchCurrentUser();
   }, []);
+
   const fetchItems = useCallback(async () => {
     try {
       const response: any = await getOrdersItemsByUserId(user?.id);
@@ -89,19 +95,43 @@ const CartItemsDetails = () => {
       .reduce((sum, price) => sum + price, 0)
       .toFixed(2);
   }, [items]); // Only depends on items now
+
+  const handleRequest = async () => {
+    if (!user?.id || items.length === 0) return;
+    setIsLoading(true);
+    try {
+      const response = await createOrder(user?.id, items);
+      if (response.success) {
+        // Close the cart modal and redirect to checkout or order confirmation
+        router.push(`${ROUTES.CHECKOUT}?orderId=${response.orderId}`);
+
+        setItems([]); // Optionally clear the cart
+      }
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
   return (
     <div className="container flex flex-col xl:flex-row  gap-8 py-12  ">
       <div className="w-full  xl:w-[70%] whitespace-nowrap rounded-md h-auto">
         <ScrollArea className=" whitespace-nowrap rounded-md border ">
-          {items?.map((item) => (
-            <CartItemDetails
-              item={item}
-              key={item._id}
-              handleIncrement={handleIncrement}
-              handleDecrement={handleDecrement}
-              handleDelete={handleDelete}
-            />
-          ))}
+          {items.length > 0 && items ? (
+            items.map((item) => (
+              <CartItemDetails
+                item={item}
+                key={item._id}
+                handleIncrement={handleIncrement}
+                handleDecrement={handleDecrement}
+                handleDelete={handleDelete}
+              />
+            ))
+          ) : (
+            <div className="w-full flex items-center justify-center font-bold text-2xl my-3">
+              لم يتم اضافة منتجات لعربة التسوق
+            </div>
+          )}
 
           <ScrollBar orientation="horizontal" />
         </ScrollArea>
@@ -151,8 +181,18 @@ const CartItemsDetails = () => {
             </span>
           </div>
 
-          <button className="px-4 w-full py-2 bg-red-500 text-white rounded-lg">
-            ارسال طلب
+          <button
+            className="px-4 w-full py-2 bg-red-500 text-white rounded-lg"
+            onClick={handleRequest}
+            disabled={isLoading}
+          >
+            {isLoading ? (
+              <>
+                <Loader className="animate-spin" /> جاري ارسال الطلب
+              </>
+            ) : (
+              "ارسال طلب"
+            )}
           </button>
 
           <button className="px-4 w-full py-2 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-white rounded-lg grid place-items-center">

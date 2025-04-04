@@ -26,7 +26,7 @@ const CartSidebarView = () => {
   const [user, setUser] = useState(null); // Changed to null for better initial state
   const globalModal = useGlobalModalStateStore((state) => state);
   const router = useRouter();
-  console.log("orderItems", orderItems);
+  // console.log("orderItems", orderItems);
   // Fetch current user
   useEffect(() => {
     const fetchCurrentUser = async () => {

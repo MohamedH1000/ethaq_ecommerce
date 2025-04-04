@@ -1,23 +1,17 @@
 "use client";
-import { useMe } from "@/hooks/api/user/useMe";
 import { useIsHomePage } from "@/hooks/use-is-homepage";
 import { cn } from "@/lib/utils";
 import { useCartStore } from "@/store/cart/cart.store";
 import { Menu, Transition } from "@headlessui/react";
-import { HeartIcon } from "lucide-react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { Fragment, useEffect, useState } from "react";
-import ClientOnly from "../common/shared/ClientOnly";
-import GradientLogo from "../common/shared/gradient-logo";
+import { Fragment, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { buttonVariants } from "../ui/button";
 import { DropdownMenuShortcut } from "../ui/dropdown-menu";
 import { Icons } from "../ui/icons";
 import { User } from "@prisma/client";
 import { signOut } from "next-auth/react";
-import { getOrdersItemsByUserId } from "@/lib/actions/order.action";
-import { getCurrentUser } from "@/lib/actions/user.action";
 import Image from "next/image";
 
 const Search = dynamic(() => import("@/components/ui/search/search"));
@@ -93,7 +87,10 @@ const Header = ({ currentUser }: { currentUser: User }) => {
                 <Menu.Button className="inline-flex w-full justify-center rounded-md  px-4 py-2 text-sm font-medium text-white  focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
                   <div className="relative flex gap-2 items-center cursor-pointer">
                     <Avatar className="h-8 w-8  rounded-full">
-                      {/* <AvatarImage src={currentUser?.avatar} alt={currentUser.lastName} /> */}
+                      <AvatarImage
+                        src={currentUser?.image}
+                        alt={currentUser.name}
+                      />
                       <AvatarFallback>{currentUser?.name}</AvatarFallback>
                     </Avatar>
                     <div className="flex flex-col flex-1 ">

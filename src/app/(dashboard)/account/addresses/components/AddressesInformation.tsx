@@ -22,7 +22,7 @@ const AddressesInformation = () => {
             <Link href={"/account/addresses/new"}>
               <div className="flex flex-col h-[330px] justify-center items-center gap-3">
                 <Icons.plus className="w-12 h-12 text-primary" />
-                <Button variant={"secondary"}>Add Address</Button>
+                <Button variant={"secondary"}>اضافة عنوان</Button>
               </div>
             </Link>
           </div>
@@ -33,13 +33,13 @@ const AddressesInformation = () => {
           <AddressCard
             className="addresses-list__item"
             address={address}
-            label={address.default ? <span>Default</span> : <span></span>}
+            label={address.default ? <span>الافتراضي</span> : <span></span>}
             loading={isLoading}
             footer={
               <React.Fragment>
                 <Button variant={"link"} className="p-0">
                   <Link href={`/dashboard/addresses/${address._id}`}>
-                    Edit Address
+                    تعديل العنوان
                   </Link>
                 </Button>
                 &nbsp;&nbsp;
@@ -53,7 +53,7 @@ const AddressesInformation = () => {
                     attemptToDeleteAddress(address._id);
                   }}
                 >
-                  Remove
+                  حذف
                 </Button>
               </React.Fragment>
             }

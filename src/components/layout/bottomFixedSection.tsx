@@ -31,14 +31,14 @@ const BottomFixedSection = () => {
   return (
     <div className="fixed bottom-14 right-4 sm:bottom-4 sm:right-6 z-[40] ">
       <div className="relative flex gap-2 items-center sm:gap-6 ">
-        <Button
+        {/* <Button
           className={cn(
             "uppercase rounded-lg p-3 py-3 h-8 m:h-16 sm:px-4 sm:py-5",
             !showTopBtn && " mr-[36px] sm:mr-[52px]"
           )}
         >
           Compare (3)
-        </Button>
+        </Button> */}
 
         <div className=" relative flex-col  sm:gap-4">
           <Button
@@ -49,7 +49,7 @@ const BottomFixedSection = () => {
             onClick={goToTop}
           >
             <ChevronUp className="w-5 text-center" />
-            <span className="sr-only">Scroll to top</span>
+            <span className="sr-only">انتقل الى الاعلى</span>
           </Button>
 
           <div
@@ -74,7 +74,7 @@ const BottomFixedSection = () => {
                       <Icons.settings className="w-5" />
                     )}
 
-                    <span className="sr-only"> setting</span>
+                    <span className="sr-only"> الاعدادات</span>
                   </Popover.Button>
                   <Transition
                     as={Fragment}

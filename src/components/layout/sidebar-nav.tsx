@@ -11,6 +11,7 @@ import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { Icons } from "../ui/icons";
+import { User } from "@prisma/client";
 
 export interface SidebarNavProps extends React.HTMLAttributes<HTMLDivElement> {
   items: SidebarNavItem[];
@@ -18,6 +19,7 @@ export interface SidebarNavProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export function SidebarNav({ items, className, ...props }: SidebarNavProps) {
   const pathname = usePathname();
+  const currentUser = props?.currentUser as User;
   const { me } = useMe();
   if (!items?.length) return null;
 
@@ -40,17 +42,21 @@ export function SidebarNav({ items, className, ...props }: SidebarNavProps) {
         </div>
         <div className="h-[80px] w-[80px] rounded-full  absolute -bottom-2 left-1/2 -translate-x-1/2 ">
           <Avatar className="h-20 w-20  rounded-full ring-4 ring-white ">
-            <AvatarImage src={me?.avatar} alt={me?.lastName} className="" />
-            <AvatarFallback>{me?.lastName}</AvatarFallback>
+            <AvatarImage
+              src={currentUser?.image}
+              alt={currentUser?.name}
+              className=""
+            />
+            <AvatarFallback>{currentUser?.name}</AvatarFallback>
           </Avatar>
         </div>
       </div>
 
       <div className="flex flex-col justify-center items-center mt-2">
         <h5 className="text-xl text-gray-800 dark:text-white font-semibold">
-          {me?.firstName} {me?.lastName}
+          {currentUser?.name}
         </h5>
-        <p className="text-sm text-slate-600">{me?.email}</p>
+        <p className="text-sm text-slate-600">{currentUser?.email}</p>
 
         <div className="border-b-2 w-full mt-3" />
       </div>
@@ -94,8 +100,8 @@ export function SidebarNav({ items, className, ...props }: SidebarNavProps) {
       <div className=" px-3 flex-col items-center">
         <div className="border-b-2 w-full my-3 self-center" />
 
-        <div className="w-full relative text-white">
-          <Button className="w-full">
+        <div className="w-full relative text-white bottom-8 max-lg:bottom-0">
+          <Button className="w-full rounded-lg">
             <Link href={"/signout"}>تسجيل الخروج</Link>
           </Button>
           <LogOutIcon

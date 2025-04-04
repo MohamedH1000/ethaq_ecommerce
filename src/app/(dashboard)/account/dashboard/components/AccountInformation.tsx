@@ -4,14 +4,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Icons } from "@/components/ui/icons";
 import { useMe } from "@/hooks/api/user/useMe";
 import { IAddress } from "@/types";
+import { User } from "next-auth";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const AccountInformation = () => {
+const AccountInformation = ({ currentUser }: { currentUser: User }) => {
   const [address, setAddress] = useState<IAddress | null | undefined>(null);
   const { me } = useMe();
-
+  // console.log("currentUser", currentUser);
   useEffect(() => {
     if (me) {
       if (me?.addresses) {
@@ -32,17 +33,19 @@ const AccountInformation = () => {
               <AvatarFallback>{me?.lastName}</AvatarFallback>
             </Avatar> */}
             <Image
-              src={me?.avatar as string}
-              alt={me?.lastName as string}
+              src={currentUser?.image || ("" as string)}
+              alt={currentUser?.name as string}
               width={100}
               height={100}
               className="rounded-full w-[100px] h-[100px] mt-5"
             />
             <div className="flex flex-col items-center gap-1">
               <p className="text-2xl font-semibold leading-none tracking-tight">
-                {me?.firstName} {me?.lastName}
+                {currentUser?.name}
               </p>
-              <h6 className="text-sm text-muted-foreground">{me?.email}</h6>
+              <h6 className="text-sm text-muted-foreground">
+                {currentUser?.email}
+              </h6>
             </div>
 
             <Button variant={"secondary"}>
@@ -59,7 +62,7 @@ const AccountInformation = () => {
                 <div className="flex flex-col h-[330px] justify-center items-center gap-3">
                   <Icons.plus className="w-12 h-12 text-primary" />
                   <Button variant={"secondary"}>
-                    <Link href={"/dashboard/addresses/new"}>اضافة عنوان</Link>
+                    <Link href={"/account/addresses/new"}>اضافة عنوان</Link>
                   </Button>
                 </div>
               </Link>

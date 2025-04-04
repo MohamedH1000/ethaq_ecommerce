@@ -147,7 +147,7 @@ const ProductCard = ({ product }: Props) => {
         <Button
           variant={"outline"}
           className="mt-4 rounded-full"
-          onClick={addToCart}
+          onClick={() => globalModal.setQuickViewState(true, product)}
         >
           <p className="sm:hidden">اضافة</p>
           <p className="hidden sm:block">اضافة للكارت</p>

@@ -20,7 +20,7 @@ export default async function LobbyLayout({ children }: LobbyLayoutProps) {
       <main className=" flex min-h-screen flex-col">{children}</main>
       <Footer />
       <ClientOnly>
-        <MobileNavigation></MobileNavigation>
+        <MobileNavigation currentUser={currentUser}></MobileNavigation>
       </ClientOnly>
       <BottomFixedSection />
     </div>

@@ -10,9 +10,9 @@ const ProfileEditComponent = () => {
     <React.Fragment>
       <Card>
         <CardContent className="flex flex-col md:flex-row items-center gap-4  w-full">
-        <ClientOnly>
-          <ProfileForm />
-          <AvatarEditForm />
+          <ClientOnly>
+            <ProfileForm />
+            {/* <AvatarEditForm /> */}
           </ClientOnly>
         </CardContent>
       </Card>

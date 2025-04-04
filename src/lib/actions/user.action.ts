@@ -4,6 +4,7 @@ import prisma from "@/lib/prisma";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/pages/api/auth/[...nextauth]";
 import { sendEmail } from "../email";
+import { User } from "@prisma/client";
 
 export async function getSession() {
   return await getServerSession(authOptions);
@@ -20,6 +21,9 @@ export async function getCurrentUser() {
     const currentUser = await prisma.user.findUnique({
       where: {
         email: session.user.email as string,
+      },
+      include: {
+        orders: true,
       },
     });
 
@@ -109,5 +113,25 @@ export async function createUser(userData: any) {
     return { success: true, userId: user.id };
   } catch (e: any) {
     throw new Error(e);
+  }
+}
+export async function updateUserProfile(userData: User) {
+  const { name, phone, image } = userData;
+  const currentUser = await getCurrentUser();
+  try {
+    const response = await prisma.user.update({
+      where: {
+        id: currentUser?.id,
+      },
+      data: {
+        name,
+        phone,
+        image,
+      },
+    });
+
+    return { success: true, data: response };
+  } catch (error) {
+    console.log(error);
   }
 }
