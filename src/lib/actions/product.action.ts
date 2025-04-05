@@ -27,7 +27,7 @@ export async function getSomeProducts() {
 
     // Shuffle array and take first 20
     const shuffled = allProducts.sort(() => 0.5 - Math.random());
-    const random20 = shuffled.slice(0, 10);
+    const random20 = shuffled.slice(0, 24);
 
     return random20;
   } catch (error) {

@@ -18,6 +18,7 @@ import VariationPrice from "../variation-price";
 import QuickViewShortDetails from "./quick-view-short-details";
 import { addProductToCart } from "@/lib/actions/order.action";
 import { getCurrentUser } from "@/lib/actions/user.action";
+import { Loader } from "lucide-react";
 export const QuickViewProduct = () => {
   const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
   const globalModal = useGlobalModalStateStore((state) => state);
@@ -27,24 +28,33 @@ export const QuickViewProduct = () => {
   const [selectedQuantity, setSelectedQuantity] = useState(1);
   const [addToCartLoader, setAddToCartLoader] = useState<boolean>(false);
   const product = globalModal.quickViewState as IProduct;
+  const [isLoading, setIsLoading] = useState(false);
+  const [user, setUser] = useState<any>(null);
+  const [isUserLoading, setIsUserLoading] = useState(true);
+
   const variations = getVariations(product?.variations);
   const { price, basePrice, discount } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,
     baseAmount: product?.price,
     currencyCode: "SAR",
   });
-  const [user, setUser] = useState([]);
+
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const currentUser: any = await getCurrentUser();
+        setIsUserLoading(true);
+        const currentUser = await getCurrentUser();
         setUser(currentUser);
       } catch (error) {
         console.log(error);
+        toast.error("Failed to load user data");
+      } finally {
+        setIsUserLoading(false);
       }
     };
     fetchUser();
   }, []);
+
   const isSelected = !isEmpty(variations)
     ? !isEmpty(attributes) &&
       Object.keys(variations).every((variation) =>
@@ -64,12 +74,17 @@ export const QuickViewProduct = () => {
 
   const item = generateCartItem(product, selectedVariation);
   const outOfStock = isInCart(item._id) && !isInStock(item._id);
+
   async function addToCart() {
-    if (!isSelected) return;
-    // to show btn feedback while product carting
+    if (!user) {
+      toast.error("برجاء تسجيل الدخول لامكانية اضافة منتجات لعربة التسوق");
+      return;
+    }
+
+    setIsLoading(true);
     try {
       await addProductToCart(
-        user.id,
+        user?.id,
         product?.id,
         selectedQuantity,
         product.price
@@ -79,7 +94,17 @@ export const QuickViewProduct = () => {
     } catch (error) {
       toast.error("حصل خطأ اثناء اضافة المنتج");
       console.log(error);
+    } finally {
+      setIsLoading(false);
     }
+  }
+
+  if (isUserLoading) {
+    return (
+      <div className="flex justify-center items-center px-6 py-4">
+        <Loader className="animate-spin" />
+      </div>
+    );
   }
   return (
     <div className="px-6 py-4">
@@ -183,12 +208,19 @@ export const QuickViewProduct = () => {
             <Button
               onClick={addToCart}
               className="  flex items-center gap-3"
-              disabled={!isSelected}
+              disabled={isLoading}
 
               // loading={addToCartLoader}
             >
               <Icons.cart className="ml-3 w-4 " />
-              <p>اضافة لعربة التسوق</p>
+              {isLoading ? (
+                <div className="flex items-center justify-center gap-3">
+                  <Loader className="animate-spin" />
+                  <p>اضافة لعربة التسوق</p>
+                </div>
+              ) : (
+                <p>اضافة لعربة التسوق</p>
+              )}
             </Button>
           </div>
         </div>

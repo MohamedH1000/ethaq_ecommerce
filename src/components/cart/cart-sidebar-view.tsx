@@ -69,6 +69,7 @@ const CartSidebarView = () => {
 
       setOrderItems([]); // Optionally clear the cart
     } else {
+      toast.error(response.message);
       console.error(response.message);
       // Optionally show an error message to the user
     }

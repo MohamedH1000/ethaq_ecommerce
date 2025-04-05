@@ -18,7 +18,7 @@ export default function SearchTopBar() {
         onClick={onSideFilter}
       >
         <FilterIcon className="w-4" />
-        <span className="pl-2.5 ">Filters</span>
+        <span className="pl-2.5 ">المصفيات</span>
       </button>
       {/* TODO: need to use just one drawer component */}
       <Drawer variant={"left"} open={sideFilter} onClose={closeSideFilter}>

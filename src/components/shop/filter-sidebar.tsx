@@ -17,13 +17,13 @@ const FilterSidebar = () => {
           <span className="sr-only">left</span>
         </button>
         <h2 className="font-bold text-xl md:text-2xl m-0 text-gray-900 w-full text-center pr-6 ">
-          Filters
+          المصفيات
         </h2>
       </div>
 
       <Scrollbar className="menu-scrollbar flex-grow mb-auto">
         <div className="flex flex-col py-7 px-5 md:px-7 text-heading">
-          <ProductsFilters  />
+          <ProductsFilters />
         </div>
       </Scrollbar>
     </div>

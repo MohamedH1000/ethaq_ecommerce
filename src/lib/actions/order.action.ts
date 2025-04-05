@@ -46,11 +46,69 @@ export async function addProductToCart(
     console.log(error);
   }
 }
+export async function getMyOrders(userId: string) {
+  try {
+    const myorders = await prisma.order.findMany({
+      where: {
+        userId,
+      },
+      orderBy: {
+        orderDate: "desc",
+      },
+    });
+    return myorders;
+  } catch (error) {
+    console.log(error);
+  }
+}
 export async function createOrder(userId: string, orderItems: any[]) {
   try {
+    // First, check the user's unpaid balance
+    const unpaidOrders = await prisma.order.findMany({
+      where: {
+        userId,
+        isPaidFully: false,
+      },
+      select: {
+        remainingAmount: true,
+      },
+    });
+
+    // Calculate total unpaid amount
+    const totalUnpaid = unpaidOrders.reduce(
+      (sum, order) => sum + order.remainingAmount,
+      0
+    );
+    const price = unpaidOrders.reduce(
+      (sum, order) => sum + order.totalAmount,
+      0
+    );
+
+    // console.log(totalUnpaid, "totalunpaid");
+    // Check if unpaid balance exceeds threshold (500)
+    if (totalUnpaid >= 5000) {
+      return {
+        success: false,
+        message:
+          "لا يمكن إنشاء طلب جديد. لديك رصيد غير مدفوع بقيمة 5000 أو أكثر.",
+        unpaidBalance: totalUnpaid,
+      };
+    }
+    if (price >= 5000) {
+      return {
+        success: false,
+        message:
+          "لا يمكن إنشاء طلب جديد. لديك رصيد غير مدفوع بقيمة 5000 أو أكثر.",
+        unpaidBalance: totalUnpaid,
+      };
+    }
+
+    // Calculate new order total
     const totalAmount = orderItems
       .map((item) => item.product.price * item.quantity)
       .reduce((sum, price) => sum + price, 0);
+
+    // Create the new order
     const newOrder = await prisma.order.create({
       data: {
         userId,
@@ -62,7 +120,7 @@ export async function createOrder(userId: string, orderItems: any[]) {
       },
     });
 
-    // Bulk update using Prisma raw MongoDB
+    // Update order items (your existing code)
     await prisma.$runCommandRaw({
       update: "orderItems",
       updates: orderItems.map((item) => ({
@@ -76,6 +134,8 @@ export async function createOrder(userId: string, orderItems: any[]) {
         },
       })),
     });
+
+    // Send email notification (your existing code)
     await sendEmail({
       to: process.env.ADMIN_EMAIL || "mohammedhisham115@gmail.com",
       subject: "طلب منتجات جديد",
@@ -98,6 +158,7 @@ export async function createOrder(userId: string, orderItems: any[]) {
       <p>متجر ايثاق</p>
       `,
     });
+
     revalidatePath("/cart");
     revalidatePath("/orders");
 
@@ -144,18 +205,6 @@ export async function getOrderById(orderId: string) {
   return order;
 }
 
-export async function getMyOrders(userId: string) {
-  try {
-    const myorders = await prisma.order.findMany({
-      where: {
-        userId,
-      },
-    });
-    return myorders;
-  } catch (error) {
-    console.log(error);
-  }
-}
 export async function decreaseOrderItem(id: string) {
   try {
     // First, decrease the quantity

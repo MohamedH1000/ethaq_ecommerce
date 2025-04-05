@@ -16,6 +16,7 @@ import { getCurrentUser } from "@/lib/actions/user.action";
 import { useRouter } from "next/navigation";
 import { ROUTES } from "@/configs/routes";
 import { Loader } from "lucide-react";
+import toast from "react-hot-toast";
 
 const CartItemsDetails = () => {
   const [items, setItems] = useState([]);
@@ -106,6 +107,8 @@ const CartItemsDetails = () => {
         router.push(`${ROUTES.CHECKOUT}?orderId=${response.orderId}`);
 
         setItems([]); // Optionally clear the cart
+      } else {
+        toast.error(response.message);
       }
     } catch (error) {
       console.log(error);

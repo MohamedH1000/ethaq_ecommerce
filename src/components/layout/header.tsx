@@ -5,7 +5,7 @@ import { useCartStore } from "@/store/cart/cart.store";
 import { Menu, Transition } from "@headlessui/react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { buttonVariants } from "../ui/button";
 import { DropdownMenuShortcut } from "../ui/dropdown-menu";
@@ -13,6 +13,9 @@ import { Icons } from "../ui/icons";
 import { User } from "@prisma/client";
 import { signOut } from "next-auth/react";
 import Image from "next/image";
+import { getCurrentUser } from "@/lib/actions/user.action";
+import { getOrdersItemsByUserId } from "@/lib/actions/order.action";
+import { useRouter } from "next/navigation";
 
 const Search = dynamic(() => import("@/components/ui/search/search"));
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
@@ -22,9 +25,29 @@ const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
 const Header = ({ currentUser }: { currentUser: User }) => {
   const { totalItems } = useCartStore((state) => state);
   const isHomePage = useIsHomePage();
-
+  const router = useRouter();
   const [isSigningOut, setIsSigningOut] = useState(false); // Optional: for loading state
-
+  const [orderItems, setOrderItems] = useState([]);
+  // console.log("orderItems", orderItems);
+  const [user, setUser] = useState([]);
+  // console.log(user, "user");
+  useEffect(() => {
+    const currentUser = async () => {
+      const response: any = await getCurrentUser();
+      // console.log("response", response);
+      setUser(response);
+    };
+    currentUser();
+  }, []);
+  useEffect(() => {
+    const orderItems = async () => {
+      const response: any = await getOrdersItemsByUserId(user?.id);
+      // console.log("response", response);
+      setOrderItems(response);
+    };
+    orderItems();
+    router.refresh();
+  }, [user?.id, orderItems.length, router]);
   const handleSignOut = async () => {
     setIsSigningOut(true); // Optional: show loading state
     try {
@@ -79,7 +102,7 @@ const Header = ({ currentUser }: { currentUser: User }) => {
           {/* <div className="border-r h-6 border-border" />
           <HeartIcon className="w-5" /> */}
           <div className="border-r h-6 border-border" />
-          <CartCounterButton />
+          <CartCounterButton orderItems={orderItems} />
           <div className="border-r h-6 border-border" />
           {currentUser ? (
             <Menu as="div" className="relative inline-block text-left">
