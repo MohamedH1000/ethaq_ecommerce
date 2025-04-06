@@ -18,6 +18,7 @@ import { id } from "date-fns/locale";
 import { isEmpty, isEqual } from "lodash";
 import { RefreshCwIcon } from "lucide-react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
@@ -32,6 +33,7 @@ const ProductDetails = ({ product }: Props) => {
     (state) => state
   );
   const variations = getVariations(product?.variations);
+  const router = useRouter();
   const { price, basePrice, discount } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,
     baseAmount: product?.price,
@@ -213,10 +215,11 @@ const ProductDetails = ({ product }: Props) => {
               <p>اضافة لعربة التسوق</p>
             </Button>
             <Button
+              onClick={() => router.push("/cart")}
               variant={"outline"}
               className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out"
             >
-              ارسال طلب الان
+              عرض عربة التسوق
             </Button>
           </div>
         </div>

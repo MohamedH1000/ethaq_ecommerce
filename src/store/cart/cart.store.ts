@@ -19,6 +19,8 @@ interface Metadata {
 export interface CartState {
   //initial state
   items: Item[];
+  orderItems: any[];
+  setOrderItems: (items: any[]) => void;
   isEmpty: boolean;
   totalItems: number;
   totalUniqueItems: number;
@@ -53,6 +55,8 @@ export const useCartStore = create(
         items: [],
         isEmpty: true,
         totalItems: 0,
+        orderItems: [],
+        setOrderItems: (items) => set({ orderItems: items }),
         totalUniqueItems: 0,
         total: 0,
         meta: null,

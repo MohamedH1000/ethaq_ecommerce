@@ -16,21 +16,24 @@ import ProductAttributes from "../product-attributes";
 import ThumbnailCarousel from "../thumbnail-carousel";
 import VariationPrice from "../variation-price";
 import QuickViewShortDetails from "./quick-view-short-details";
-import { addProductToCart } from "@/lib/actions/order.action";
+import {
+  addProductToCart,
+  getOrdersItemsByUserId,
+} from "@/lib/actions/order.action";
 import { getCurrentUser } from "@/lib/actions/user.action";
 import { Loader } from "lucide-react";
+import { useUser } from "@/context/UserContext";
 export const QuickViewProduct = () => {
   const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
   const globalModal = useGlobalModalStateStore((state) => state);
   const { addItemToCart, isInCart, getItemFromCart, isInStock } = useCartStore(
     (state) => state
   );
+  const [isLoading, setIsLoading] = useState(false);
   const [selectedQuantity, setSelectedQuantity] = useState(1);
   const [addToCartLoader, setAddToCartLoader] = useState<boolean>(false);
   const product = globalModal.quickViewState as IProduct;
-  const [isLoading, setIsLoading] = useState(false);
-  const [user, setUser] = useState<any>(null);
-  const [isUserLoading, setIsUserLoading] = useState(true);
+  const { user, loading: isUserLoading } = useUser();
 
   const variations = getVariations(product?.variations);
   const { price, basePrice, discount } = usePrice({
@@ -38,22 +41,6 @@ export const QuickViewProduct = () => {
     baseAmount: product?.price,
     currencyCode: "SAR",
   });
-
-  useEffect(() => {
-    const fetchUser = async () => {
-      try {
-        setIsUserLoading(true);
-        const currentUser = await getCurrentUser();
-        setUser(currentUser);
-      } catch (error) {
-        console.log(error);
-        toast.error("Failed to load user data");
-      } finally {
-        setIsUserLoading(false);
-      }
-    };
-    fetchUser();
-  }, []);
 
   const isSelected = !isEmpty(variations)
     ? !isEmpty(attributes) &&
@@ -89,6 +76,9 @@ export const QuickViewProduct = () => {
         selectedQuantity,
         product.price
       );
+      const updatedItems = await getOrdersItemsByUserId(user.id);
+      useCartStore.getState().setOrderItems(updatedItems);
+
       toast.success("تم اضافة المنتج لعربة التسوق بنجاح");
       globalModal.setQuickViewState(false, null);
     } catch (error) {
@@ -116,7 +106,7 @@ export const QuickViewProduct = () => {
               isSingleProductPage={false}
             />
           ) : (
-            <div className="flex items-center justify-center w-auto ">
+            <div className="flex items-center justify-center w-auto">
               <Image
                 src={product?.images[0] as string}
                 alt={name!}
@@ -129,10 +119,10 @@ export const QuickViewProduct = () => {
           )}
         </div>
 
-        <div className="w-full sm:w-1/2 ">
+        <div className="w-full sm:w-1/2">
           <div className="flex flex-col space-y-3 justify-center">
             <div className="flex flex-col gap-2 justify-center">
-              <h2 className="text-xl font-medium text-gray-800 dark:text-white">
+              <h2 className="text-xl font-medium text-gray-800 dark:text-white text-right">
                 {product?.name}
               </h2>
               {product?.unit && isEmpty(variations) ? (
@@ -167,10 +157,10 @@ export const QuickViewProduct = () => {
             <span className="border-t border-dashed w-full" />
 
             <div className="">
-              <h3 className="text-xl text-gray-800 dark:text-white font-medium">
+              <h3 className="text-xl text-gray-800 dark:text-white font-medium text-right">
                 تفاصيل المنتج:
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-200">
+              <p className="text-sm text-gray-600 dark:text-gray-200 text-right">
                 {product?.description}
               </p>
             </div>

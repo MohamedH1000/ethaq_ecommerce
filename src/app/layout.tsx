@@ -16,14 +16,18 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/thumbs";
+import { UserProvider } from "@/context/UserContext";
+import { getCurrentUser } from "@/lib/actions/user.action";
 
 export const metadata: Metadata = defaultMetadata;
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const user = await getCurrentUser();
+
   return (
     <html lang="ar" suppressHydrationWarning dir="rtl">
       <head />
@@ -37,14 +41,16 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NextTopLoader color="#ff3366" />
-          <GoogleProvider>
-            <QueryProvider>
-              <GlobalModals />
-              {children}
-              <TailwindIndicator />
-              <Analytics />
-            </QueryProvider>
-          </GoogleProvider>
+          <UserProvider preloadedUser={user}>
+            <GoogleProvider>
+              <QueryProvider>
+                <GlobalModals />
+                {children}
+                <TailwindIndicator />
+                <Analytics />
+              </QueryProvider>
+            </GoogleProvider>
+          </UserProvider>
         </ThemeProvider>
         <Toaster />
       </body>

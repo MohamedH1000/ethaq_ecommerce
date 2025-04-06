@@ -19,22 +19,17 @@ import {
 import { getCurrentUser } from "@/lib/actions/user.action";
 import { Loader } from "lucide-react";
 import { toast } from "sonner";
+import { useUser } from "@/context/UserContext";
+import { useCartStore } from "@/store/cart/cart.store";
 
 const CartSidebarView = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [orderItems, setOrderItems] = useState([]);
-  const [user, setUser] = useState(null); // Changed to null for better initial state
+  const { user } = useUser(); // Changed to null for better initial state
   const globalModal = useGlobalModalStateStore((state) => state);
   const router = useRouter();
   // console.log("orderItems", orderItems);
   // Fetch current user
-  useEffect(() => {
-    const fetchCurrentUser = async () => {
-      const response: any = await getCurrentUser();
-      setUser(response);
-    };
-    fetchCurrentUser();
-  }, []);
 
   // Fetch order items - memoized
   const fetchOrderItems = useCallback(async () => {
@@ -105,6 +100,8 @@ const CartSidebarView = () => {
         if (response.success) {
           toast.success("تم حذف المنتج بنجاح من عربة التسوق");
           await fetchOrderItems();
+          const updatedItems = await getOrdersItemsByUserId(user.id);
+          useCartStore.getState().setOrderItems(updatedItems);
         }
       } catch (error) {
         toast.error("حصل خطا اثناء حذف المنتج من عربة التسوق");

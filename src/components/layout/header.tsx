@@ -5,7 +5,7 @@ import { useCartStore } from "@/store/cart/cart.store";
 import { Menu, Transition } from "@headlessui/react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useCallback, useEffect, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { buttonVariants } from "../ui/button";
 import { DropdownMenuShortcut } from "../ui/dropdown-menu";
@@ -13,9 +13,9 @@ import { Icons } from "../ui/icons";
 import { User } from "@prisma/client";
 import { signOut } from "next-auth/react";
 import Image from "next/image";
-import { getCurrentUser } from "@/lib/actions/user.action";
 import { getOrdersItemsByUserId } from "@/lib/actions/order.action";
 import { useRouter } from "next/navigation";
+import { useUser } from "@/context/UserContext";
 
 const Search = dynamic(() => import("@/components/ui/search/search"));
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
@@ -29,25 +29,22 @@ const Header = ({ currentUser }: { currentUser: User }) => {
   const [isSigningOut, setIsSigningOut] = useState(false); // Optional: for loading state
   const [orderItems, setOrderItems] = useState([]);
   // console.log("orderItems", orderItems);
-  const [user, setUser] = useState([]);
+  const { user } = useUser();
   // console.log(user, "user");
-  useEffect(() => {
-    const currentUser = async () => {
-      const response: any = await getCurrentUser();
-      // console.log("response", response);
-      setUser(response);
-    };
-    currentUser();
-  }, []);
-  useEffect(() => {
-    const orderItems = async () => {
-      const response: any = await getOrdersItemsByUserId(user?.id);
-      // console.log("response", response);
+
+  const fetchOrderItems = useCallback(async () => {
+    if (!user?.id) return;
+    try {
+      const response: any = await getOrdersItemsByUserId(user.id);
       setOrderItems(response);
-    };
-    orderItems();
-    router.refresh();
-  }, [user?.id, orderItems.length, router]);
+    } catch (error) {
+      console.error("Failed to fetch order items:", error);
+    }
+  }, [user?.id]);
+
+  useEffect(() => {
+    fetchOrderItems();
+  }, [fetchOrderItems]);
   const handleSignOut = async () => {
     setIsSigningOut(true); // Optional: show loading state
     try {

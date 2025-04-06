@@ -72,11 +72,11 @@ const ProductCard = ({ product }: Props) => {
   }
   return (
     <div className=" flex flex-col group overflow-hidden rounded-md transition-all duration-300 shadow-card hover:shadow-cardHover  relative h-full">
-      <Card className="bg-bgCard dark:bg-gray-900 border-none shadow-sm rounded-md w-full h-full group flex flex-col px-4 py-5  relative">
-        <div className="w-full min-h-[150px] flex items-center relative justify-center overflow-hidden px-4">
-          <Link href={`/products/${product.id}`}>
+      <Card className="bg-bgCard dark:bg-gray-900 border-none shadow-sm rounded-md w-full h-full group flex flex-col pb-5  relative">
+        <div className="w-full min-h-[150px] flex items-center relative justify-center overflow-hidden ">
+          <Link href={`/products/${product.id}`} className="w-full">
             <Image
-              className="object-center group-hover:scale-110 transition-all duration-700 "
+              className="object-center group-hover:scale-110 transition-all duration-700 w-full"
               src={product?.images[0] as string}
               alt={product.name}
               width={150}
@@ -103,7 +103,7 @@ const ProductCard = ({ product }: Props) => {
             </button> */}
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col px-4">
           <Link
             className="text-sm sm:text-base font-semibold text-gray-800 dark:text-white w-full line-clamp-1 text-ellipsis"
             href={`/products/${product.id}`}
@@ -130,7 +130,7 @@ const ProductCard = ({ product }: Props) => {
         </div>
 
         <div className="flex items-center">
-          <div className="flex -mx-0.5 ">
+          {/* <div className="flex -mx-0.5 ">
             {[...Array(5)].map((_, idx) => (
               <StarIcon
                 key={idx}
@@ -138,15 +138,14 @@ const ProductCard = ({ product }: Props) => {
                 className="w-3.5 lg:w-4 h-3.5 lg:h-4 mx-0.5"
               />
             ))}
-          </div>
+          </div> */}
           {/* <p className="text-sm ml-3">
             {product.in_stock ? "In-Stock" : "Out of Stock"}
           </p> */}
         </div>
-
         <Button
           variant={"outline"}
-          className="mt-4 rounded-full"
+          className="mt-4 rounded-full mx-4"
           onClick={() => globalModal.setQuickViewState(true, product)}
         >
           <p className="sm:hidden">اضافة</p>
