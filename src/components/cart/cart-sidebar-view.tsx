@@ -60,9 +60,11 @@ const CartSidebarView = () => {
     if (response.success) {
       // Close the cart modal and redirect to checkout or order confirmation
       globalModal.closeCartState();
-      router.push(`${ROUTES.CHECKOUT}?orderId=${response.orderId}`);
+      toast.success("تم انشاء الطلب بنجاح وسيتم ارسال رسالة لكم بتفاصيل الطلب");
+      // router.push(`${ROUTES.CHECKOUT}?orderId=${response.orderId}`);
 
       setOrderItems([]); // Optionally clear the cart
+      useCartStore.getState().setOrderItems([]);
     } else {
       toast.error(response.message);
       console.error(response.message);
@@ -113,10 +115,16 @@ const CartSidebarView = () => {
 
   const totalPrice = useMemo(() => {
     return orderItems
-      .map((item) => item.product.price * item.quantity)
-      .reduce((sum, price) => sum + price, 0)
+      .map((item) => item.priceAtPurchase * item.quantity)
+      .reduce((sum, priceAtPurchase) => sum + priceAtPurchase, 0)
       .toFixed(2);
   }, [orderItems]);
+
+  const taxAmount = useMemo(() => {
+    return Number(totalPrice) * (16 / 100);
+  }, [orderItems, totalPrice]);
+
+  const total = Number(totalPrice) + taxAmount;
   if (isLoading) {
     return (
       <div className="min-h-screen w-full flex items-center justify-center">
@@ -156,9 +164,19 @@ const CartSidebarView = () => {
       )}
 
       <div className="px-5 pt-5 pb-5 border-t border-border-base md:px-7 md:pt-6 md:pb-6 bg-gray-100 dark:bg-black">
-        <h6 className="text-sm text-gray-500 py-2">
+        {/* <h6 className="text-sm text-gray-500 py-2">
           يتم احتساب الشحن والضرائب عند التحويل للدفع
-        </h6>
+        </h6> */}
+        <div className="flex justify-between my-2">
+          <div>
+            <h3 className="mb-2.5 text-sm font-normal text-gray-500 dark:text-white">
+              ضريبة القيمة المضافة 16%:
+            </h3>
+          </div>
+          <div className="shrink-0 font-semibold text-sm md:text-sm text-primary -mt-0.5 min-w-[80px] text-left">
+            {taxAmount.toFixed(2)} ريال
+          </div>
+        </div>
         <div className="flex justify-between pb-5 md:pb-7">
           <div>
             <h3 className="mb-2.5 text-lg font-semibold text-gray-800 dark:text-white">
@@ -166,7 +184,7 @@ const CartSidebarView = () => {
             </h3>
           </div>
           <div className="shrink-0 font-semibold text-base md:text-lg text-primary -mt-0.5 min-w-[80px] text-left">
-            {totalPrice} SAR
+            {total.toFixed(2)} ريال
           </div>
         </div>
         <div className="flex flex-col gap-4 w-full">

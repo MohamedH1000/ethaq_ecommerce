@@ -11,15 +11,15 @@ import Link from "next/link";
 import { toast } from "sonner";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
-import StarIcon from "../ui/star-icon";
 import { addOrderItem } from "@/lib/actions/order.action";
 import { useEffect, useState } from "react";
 import { getCurrentUser } from "@/lib/actions/user.action";
 
 interface Props {
-  product: IProduct;
+  product: any;
+  type: any;
 }
-const ProductCard = ({ product }: Props) => {
+const ProductCard = ({ product, type }: Props) => {
   const [user, setUser] = useState([]);
   // console.log(user, "user");
   useEffect(() => {
@@ -71,8 +71,8 @@ const ProductCard = ({ product }: Props) => {
     }
   }
   return (
-    <div className=" flex flex-col group overflow-hidden rounded-md transition-all duration-300 shadow-card hover:shadow-cardHover  relative h-full">
-      <Card className="bg-bgCard dark:bg-gray-900 border-none shadow-sm rounded-md w-full h-full group flex flex-col pb-5  relative">
+    <div className=" flex flex-col group overflow-hidden rounded-xl transition-all duration-300 shadow-card hover:shadow-cardHover  relative h-full">
+      <Card className="bg-[#FAFAFA] dark:bg-gray-900 border-none shadow-sm rounded-md w-full h-full group flex flex-col pb-5  relative">
         <div className="w-full min-h-[150px] flex items-center relative justify-center overflow-hidden ">
           <Link href={`/products/${product.id}`} className="w-full">
             <Image
@@ -110,20 +110,35 @@ const ProductCard = ({ product }: Props) => {
           >
             {product.name}
           </Link>
-          {product.unit ? (
+          {/* {product.unit ? (
             <p className="text-sm text-gray-600">{product.unit}</p>
           ) : (
             <p className="text-sm text-gray-600">1(items)</p>
-          )}
+          )} */}
           <div className="flex gap-3 items-center">
-            <p className="text-primary font-medium text-xs xs:text-sm md:text-base">
-              {product.product_type === "variable"
-                ? `${minPrice} - ${maxPrice}`
-                : price}
-            </p>
-            {basePrice && (
+            {product.discount > 0 ? (
+              <p className="text-primary font-medium text-xs xs:text-sm md:text-base">
+                {product.product_type === "variable" ? (
+                  `${minPrice} - ${maxPrice}`
+                ) : (
+                  <>
+                    {(product.price * (1 - product.discount / 100)).toFixed(2)}{" "}
+                    ريال
+                  </>
+                )}
+              </p>
+            ) : (
+              <p className="text-primary font-medium text-xs xs:text-sm md:text-base">
+                {product.product_type === "variable" ? (
+                  `${minPrice} - ${maxPrice}`
+                ) : (
+                  <>{product.price.toFixed(2)} ريال</>
+                )}
+              </p>
+            )}
+            {product?.discount > 0 && (
               <del className="mx-1 text-xs md:text-sm text-gray-600 text-opacity-70">
-                {basePrice}
+                {product.price.toFixed(2)} ريال
               </del>
             )}
           </div>
@@ -145,23 +160,18 @@ const ProductCard = ({ product }: Props) => {
         </div>
         <Button
           variant={"outline"}
-          className="mt-4 rounded-full mx-4"
+          className="mt-4 rounded-full mx-4 text-white bg-[#000957] 
+          hover:bg-[#000957] hover:text-white"
           onClick={() => globalModal.setQuickViewState(true, product)}
         >
           <p className="sm:hidden">اضافة</p>
           <p className="hidden sm:block">اضافة للكارت</p>
         </Button>
-        {/* {product.price ? (
+        {product.discount ? (
           <div className="bg-primary p-1 absolute top-3 right-3 rounded-lg">
-            <p className="text-xs text-white">
-              {calculateDiscountPercentage({
-                originalPrice: product.price,
-                salePrice: product.sale_price,
-              })}{" "}
-              %
-            </p>
+            <p className="text-xs text-white">{product?.discount}%</p>
           </div>
-        ) : null} */}
+        ) : null}
       </Card>
     </div>
   );

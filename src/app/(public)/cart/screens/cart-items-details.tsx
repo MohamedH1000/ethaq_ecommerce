@@ -1,7 +1,5 @@
 "use client";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
-import usePrice from "@/hooks/use-price";
-import { useCartStore } from "@/store/cart/cart.store";
 import Link from "next/link";
 import { CartItemDetails } from "./cart-item";
 import { useCallback, useEffect, useMemo, useState } from "react";
@@ -17,13 +15,14 @@ import { useRouter } from "next/navigation";
 import { ROUTES } from "@/configs/routes";
 import { Loader } from "lucide-react";
 import toast from "react-hot-toast";
+import { useCartStore } from "@/store/cart/cart.store";
 
 const CartItemsDetails = () => {
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [user, setUser] = useState();
   const router = useRouter();
-
+  // console.log("user", user);
   useEffect(() => {
     const fetchCurrentUser = async () => {
       try {
@@ -92,13 +91,19 @@ const CartItemsDetails = () => {
 
   const totalPrice = useMemo(() => {
     return items
-      .map((item) => item.product.price * item.quantity)
-      .reduce((sum, price) => sum + price, 0)
+      .map((item) => item.priceAtPurchase * item.quantity)
+      .reduce((sum, priceAtPurchase) => sum + priceAtPurchase, 0)
       .toFixed(2);
   }, [items]); // Only depends on items now
 
+  const taxAmount = useMemo(() => {
+    return Number(totalPrice) * (16 / 100);
+  }, [items, totalPrice]);
+
+  const total = Number(totalPrice) + taxAmount;
   const handleRequest = async () => {
     if (!user?.id || items.length === 0) return;
+    // console.log("we reached here");
     setIsLoading(true);
     try {
       const response = await createOrder(user?.id, items);
@@ -107,8 +112,10 @@ const CartItemsDetails = () => {
         router.push(`${ROUTES.CHECKOUT}?orderId=${response.orderId}`);
 
         setItems([]); // Optionally clear the cart
+        useCartStore.getState().setOrderItems([]);
       } else {
         toast.error(response.message);
+        console.error(response.message);
       }
     } catch (error) {
       console.log(error);
@@ -147,45 +154,45 @@ const CartItemsDetails = () => {
 
         <div className="border border-t" />
         <div className="flex flex-col justify-center">
-          <div className="flex ">
+          <div className="flex gap-2">
             <h1 className=" text-gray-600 dark:text-white font-semibold">
               المجموع الفرعي
             </h1>
             <span className="ml-auto  text-gray-600 dark:text-white font-semibold">
-              {/* {cartTotal} */}
+              {totalPrice} ريال
             </span>
           </div>
-          <div className="flex ">
+          {/* <div className="flex ">
             <h1 className=" text-gray-600 dark:text-white font-semibold">
               شحن
             </h1>
             <span className="ml-auto  text-gray-600 dark:text-white font-semibold">
               التكلفة عند الدفع
             </span>
-          </div>
-          <div className="flex ">
+          </div>  */}
+          <div className="flex gap-2">
             <h1 className=" text-gray-600 dark:text-white font-semibold">
-              الضريبة
+              الضريبة التكلفة عند الدفع
             </h1>
             <span className="ml-auto  text-gray-600 dark:text-white font-semibold">
-              التكلفة عند الدفع
+              {taxAmount.toFixed(2)} ريال
             </span>
           </div>
         </div>
         <div className="border border-t" />
 
         <div className="flex flex-col justify-center space-y-3">
-          <div className="flex ">
+          <div className="flex gap-2">
             <h1 className="text-lg text-gray-900 dark:text-white font-semibold">
               المجموع الكلي
             </h1>
             <span className="ml-auto text-lg text-primary font-semibold">
-              {totalPrice} SAR
+              {total.toFixed(2)} ريال
             </span>
           </div>
 
           <button
-            className="px-4 w-full py-2 bg-red-500 text-white rounded-lg"
+            className="px-4 w-full py-2 bg-[#000957] text-white rounded-lg"
             onClick={handleRequest}
             disabled={isLoading}
           >

@@ -1,21 +1,42 @@
-import { PhoneIcon } from 'lucide-react'
-import React from 'react'
+"use client";
+import { PhoneIcon } from "lucide-react";
+import React from "react";
 
 const TopBar = () => {
   return (
-    <section className='bg-primary py-3'>
-     <div className='container flex justify-between items-center'>
-        <div className='flex items-center text-xs text-white gap-2'>
-          <PhoneIcon className='w-4'/>
-          <span>We are available 24/7, Need help?</span>
-          <span className='text-primary'>+8801648138404</span>
+    <section className="bg-[#000957] py-3 overflow-hidden">
+      {" "}
+      {/* Lighter color */}
+      <div className="container">
+        <div className="flex items-center text-md text-white gap-2 animate-marquee whitespace-nowrap">
+          <span>
+            {" "}
+            🛒 اشترِ الآن وادفع لاحقًا مع ايثاق مارت – تسوق بدون قلق!
+          </span>
+          <span>
+            {" "}
+            🚚 توصيل سريع وآمن لجميع الطلبات – اطلب الآن من لايثاق مارت!
+          </span>
+          <span> 🎁 عروض وخصومات يومية بانتظارك – لا تفوّتها!</span>
+          <span> 🧼 منتجات منزلية وبقالة طازجة بأسعار منافسة!</span>
         </div>
-        <div className='flex gap-4'>
-          
-        </div>
-     </div>
+      </div>
+      {/* Add this to your global CSS or Tailwind config */}
+      <style jsx>{`
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+        .animate-marquee {
+          animation: marquee 40s linear infinite;
+        }
+      `}</style>
     </section>
-  )
-}
+  );
+};
 
-export default TopBar
+export default TopBar;

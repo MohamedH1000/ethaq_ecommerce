@@ -10,8 +10,7 @@ export const CategoryFilter = () => {
   const [categories, setCategories] = useState<{ id: string; name: string }[]>(
     []
   );
-  const [formState, setFormState] = useState<string[]>([]);
-
+  const [selectedCategory, setSelectedCategory] = useState<string>(""); // Track only one selected category
   // Function to fetch categories with a limit of 10
   const getCategories = async () => {
     try {
@@ -42,31 +41,27 @@ export const CategoryFilter = () => {
   // Initialize form state from URL params
   useEffect(() => {
     const params = new URLSearchParams(searchParams);
-    const urlCategories = params.get("category")?.split(",") || [];
-    setFormState(urlCategories);
+    const urlCategory = params.get("category") || "";
+    setSelectedCategory(urlCategory);
   }, [searchParams]);
 
   // Handle checkbox changes
   const handleItemClick = (identifier: string) => {
-    setFormState((prev) =>
-      prev.includes(identifier)
-        ? prev.filter((item) => item !== identifier)
-        : [...prev, identifier]
-    );
+    setSelectedCategory((prev) => (prev === identifier ? "" : identifier));
   };
 
   // Update the URL with selected categories
   useEffect(() => {
     const params = new URLSearchParams(searchParams);
 
-    if (formState.length > 0) {
-      params.set("category", formState.join(","));
+    if (selectedCategory) {
+      params.set("category", selectedCategory);
     } else {
       params.delete("category");
     }
 
     router.replace(`${pathname}?${params.toString()}`);
-  }, [formState, pathname, router, searchParams]);
+  }, [selectedCategory, pathname, router, searchParams]);
 
   return (
     <div className="block border-b border-gray-300 pb-7 mb-7">
@@ -79,10 +74,8 @@ export const CategoryFilter = () => {
           <div key={item.id} className="flex items-center gap-3">
             <Checkbox
               id={`category-${item.id}`}
-              checked={
-                formState.includes(item.id) || formState.includes(item.name)
-              }
-              onCheckedChange={() => handleItemClick(item.id)} // Or item.name depending on your API
+              checked={selectedCategory === item.id} // Only true if this item is selected
+              onCheckedChange={() => handleItemClick(item.id)}
             />
             <Label htmlFor={`category-${item.id}`}>{item.name}</Label>
           </div>

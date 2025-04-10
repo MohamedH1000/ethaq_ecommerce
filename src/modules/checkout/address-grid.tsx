@@ -1,13 +1,12 @@
-"use client"
-import { useGlobalModalStateStore } from '@/store/modal';
-import { IAddress } from '@/types';
-import { RadioGroup } from '@headlessui/react';
-import { useAtom, WritableAtom } from 'jotai';
-import { useEffect } from 'react';
-import { AddressHeader } from './address-header';
-import { useCheckoutStore } from '@/store/checkout';
-import AddressCard from './address-card';
-
+"use client";
+import { useGlobalModalStateStore } from "@/store/modal";
+import { IAddress } from "@/types";
+import { RadioGroup } from "@headlessui/react";
+import { useAtom, WritableAtom } from "jotai";
+import { useEffect } from "react";
+import { AddressHeader } from "./address-header";
+import { useCheckoutStore } from "@/store/checkout";
+import AddressCard from "./address-card";
 
 interface AddressesProps {
   addresses: IAddress[] | undefined | null;
@@ -26,9 +25,9 @@ export const AddressGrid: React.FC<AddressesProps> = ({
   count,
   type,
 }) => {
- 
-  const {setAddressData,setEditAddressData,setDeleteAddressData}=useGlobalModalStateStore(state => state)
-  const {setAddress,address}=useCheckoutStore(state => state)
+  const { setAddressData, setEditAddressData, setDeleteAddressData } =
+    useGlobalModalStateStore((state) => state);
+  const { setAddress, address } = useCheckoutStore((state) => state);
   useEffect(() => {
     if (addresses?.length) {
       if (address?._id) {
@@ -41,15 +40,13 @@ export const AddressGrid: React.FC<AddressesProps> = ({
   }, [addresses, addresses?.length, address?._id, setAddress]);
 
   function onAdd() {
-    setAddressData(true,userId)
-  
+    setAddressData(true, userId);
   }
   function onEdit(address: any) {
-    setEditAddressData(true,{customerId: userId, address})
-
+    setEditAddressData(true, { customerId: userId, address });
   }
   function onDelete(address: any) {
-    setDeleteAddressData(true,{customerId: userId, addressId: address?.id})
+    setDeleteAddressData(true, { customerId: userId, addressId: address?.id });
   }
 
   return (
@@ -58,7 +55,7 @@ export const AddressGrid: React.FC<AddressesProps> = ({
       {!addresses?.length ? (
         <div className="grid grid-cols-1 gap-4">
           <span className="relative rounded border border-border-200 bg-gray-100 px-5 py-6 text-center text-base dark:bg-gray-950">
-           No Address
+            لا يوجد عنوان
           </span>
         </div>
       ) : (

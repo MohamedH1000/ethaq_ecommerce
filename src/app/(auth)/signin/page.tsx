@@ -16,8 +16,8 @@ import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/actions/user.action";
 
 export const metadata: Metadata = {
-  title: "Sign In",
-  description: "Sign in to your account",
+  title: "تسجيل الدخول",
+  description: "تسجيل الدخول لحسابك",
 };
 
 export default async function SignInPage() {

@@ -1,27 +1,60 @@
 /* eslint-disable @next/next/no-img-element */
 
 import CategoriesCarousel from "@/modules/categories/category-carousel";
-import PromotionalBannerCarousel from "@/modules/home/promotional-banner-carousel";
 import Image from "next/image";
 import Link from "next/link";
 import OurProductsSection from "./screens/ourProductsSection";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+import PromoCarousel from "@/components/layout/promoCaraousel";
+import PerfumeBanner from "@/components/layout/perfumeBanner";
+import BannerCarousel from "@/components/layout/BannerCaraousel";
+
 export default async function IndexPage() {
+  const bannerImages = [
+    "/assets/90.png", // Add your other images
+    "/assets/901.png",
+    "/assets/902.png",
+    "/assets/903.png",
+  ];
   return (
-    <div className="py-3">
-      <Image
-        width={1920}
-        height={500}
-        src="https://res.cloudinary.com/smtanimur/image/upload/v1700110058/samples/fruite-Banner_c2mrgn.jpg"
-        alt="Fruite Banner"
-        className="w-full h-auto "
-      />
-      <div className="py-10 container">
+    <div className="">
+      <Carousel className="w-full">
+        <CarouselContent className="flex flex-row-reverse">
+          {bannerImages.map((img, index) => (
+            <CarouselItem key={index}>
+              <Image
+                width={1920}
+                height={500}
+                src={img}
+                alt={`Banner ${index + 1}`}
+                className="w-full h-auto max-sm:h-[200px]"
+                priority={index === 0} // Only prioritize first image
+              />
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
+      {/* <div className="py-10 container">
         <div className="overflow-hidden">
           <PromotionalBannerCarousel />
         </div>
+      </div> */}
+
+      <OurProductsSection type={"offers"} />
+      <div>
+        <PromoCarousel />
       </div>
 
-      <div className="py-5 md:py-10  container">
+      <OurProductsSection />
+
+      <div>
+        <BannerCarousel />
+      </div>
+      <div className="py-5 md:py-10  container mt-10">
         <div className="flex items-center justify-between">
           <h1 className="text-3xl font-bold font-sans ">التسوق بالفئات</h1>
           <Link href={"/products"}>جميع الفئات</Link>
@@ -31,7 +64,6 @@ export default async function IndexPage() {
           <CategoriesCarousel />
         </div>
       </div>
-      <OurProductsSection />
       {/* <TopRateProducts /> */}
     </div>
   );

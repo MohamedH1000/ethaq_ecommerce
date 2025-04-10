@@ -7,7 +7,7 @@ type Props = {
   };
 };
 export const metadata: Metadata = {
-  title: "Product",
+  title: "المنتج",
 };
 
 const Product = async ({ params: { productSlug } }: Props) => {

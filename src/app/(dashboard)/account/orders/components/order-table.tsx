@@ -10,7 +10,6 @@ import {
   getFilteredRowModel,
 } from "@tanstack/react-table";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 
 import {
   Table,
@@ -21,6 +20,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -34,6 +34,11 @@ export function OrderTable<TData, TValue>({
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     []
   );
+  // const router = useRouter(); // Initialize the router
+  // const handleRowClick = (orderId: string) => {
+  //   router.push(`/account/orders/${orderId}`); // Adjust the route as needed
+  // };
+
   const table = useReactTable({
     data,
     columns,
@@ -99,6 +104,9 @@ export function OrderTable<TData, TValue>({
               table.getRowModel().rows.map((row) => (
                 <TableRow
                   key={row.id}
+                  className="cursor-pointer hover:bg-gray-50 focus:bg-gray-100"
+                  //@ts-ignore
+                  // onClick={() => handleRowClick(row.original.id)} // Add onClick here
                   data-state={row.getIsSelected() && "selected"}
                 >
                   {row.getVisibleCells().map((cell) => (

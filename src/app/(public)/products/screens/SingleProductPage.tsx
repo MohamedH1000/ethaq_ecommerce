@@ -26,7 +26,7 @@ const SingleProductPage = ({ product }: Props) => {
         <div className="w-full xl:w-[75%] overflow-hidden ">
           <ProductDetails product={product} />
         </div>
-        <div className="w-full xl:w-[25%] ">
+        {/* <div className="w-full xl:w-[25%] ">
           <div className="flex  space-y-5 bg-gray-100 dark:bg-background flex-col py-4 sm:px-4 overflow-hidden">
             <div className="bg-white dark:bg-gray-800 py-4 px-4 w-full flex gap-4 items-center ">
               <div className="max-w-[80px] w-full">
@@ -54,7 +54,6 @@ const SingleProductPage = ({ product }: Props) => {
                     هاتف التواصل: 00966559681110
                   </p>
                 </span>
-                {/* <p>{data?.shop.settings?.contact}</p> */}
               </div>
               <div className="flex items-center gap-2 sm:gap-3">
                 <span className="flex items-center gap-1 sm:gap-2">
@@ -64,7 +63,6 @@ const SingleProductPage = ({ product }: Props) => {
                   </p>
                 </span>
                 <p className="text-xs sm:text-base">
-                  {/* {data?.shop.settings?.website} */}
                 </p>
               </div>
             </div>
@@ -74,7 +72,7 @@ const SingleProductPage = ({ product }: Props) => {
               shareUrl={productUrl}
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="container">
         <ProductDetailsTab product={product} />

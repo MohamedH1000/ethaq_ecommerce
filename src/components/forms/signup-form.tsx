@@ -27,7 +27,7 @@ export function SignUpForm() {
     setIsLoading(true);
     try {
       const response = await createUser(data);
-      // console.log("response", response);
+      console.log("response", response);
       if (!response.success) {
         toast.error(response.error);
       } else {

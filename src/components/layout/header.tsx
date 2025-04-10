@@ -76,7 +76,7 @@ const Header = ({ currentUser }: { currentUser: User }) => {
           {isHomePage ? (
             <>
               {/* {(headerSearch.showHeaderSearch) && ( */}
-              <div className="w-full hidden px-10 mx-auto overflow-hidden lg:block ">
+              <div className="w-[60%] hidden  mx-auto overflow-hidden lg:block border-[#000957] border-[1px] rounded-3xl mr-[250px]">
                 <Search label="Search" variant="minimal" />
               </div>
               {/* )} */}
@@ -165,11 +165,10 @@ const Header = ({ currentUser }: { currentUser: User }) => {
                     >
                       <Icons.user className="mr-1 h-4 w-4" aria-hidden="true" />
                       الحساب
-                      <DropdownMenuShortcut>⇧⌘A</DropdownMenuShortcut>
                     </Link>
                   </Menu.Item>
 
-                  <Menu.Item
+                  {/* <Menu.Item
                     as="div"
                     className={({ active }: { active: boolean }) =>
                       cn({ "dropdown-active": active }, "menu-item flex")
@@ -183,7 +182,7 @@ const Header = ({ currentUser }: { currentUser: User }) => {
                       لوحة التحكم
                       <DropdownMenuShortcut>⇧⌘D</DropdownMenuShortcut>
                     </Link>
-                  </Menu.Item>
+                  </Menu.Item> */}
                   <Menu.Item
                     as="div"
                     className={({ active }: { active: boolean }) =>
@@ -207,7 +206,6 @@ const Header = ({ currentUser }: { currentUser: User }) => {
                         />
                       )}
                       تسجيل الخروج
-                      <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
                     </button>
                   </Menu.Item>
                 </Menu.Items>

@@ -47,9 +47,20 @@ const CartItem = ({
           <h4 className="text-base font-semibold text-gray-800 dark:text-white">
             {item?.product?.name}
           </h4>
-          <p className="text-base text-gray-700 dark:text-white">
-            {(item.product.price * item.quantity).toFixed(2)} SAR
-          </p>
+          {item.product?.discount > 0 ? (
+            <p className="text-base text-gray-700 dark:text-white">
+              {(
+                item?.product.price *
+                (1 - item?.product.discount / 100) *
+                item.quantity
+              ).toFixed(2)}{" "}
+              ريال
+            </p>
+          ) : (
+            <p className="text-base text-gray-700 dark:text-white">
+              {(item.product.price * item.quantity).toFixed(2)} ريال
+            </p>
+          )}
         </div>
       </div>
 

@@ -1,18 +1,17 @@
-
-"use client"
-import { useRouter, useSearchParams } from 'next/navigation';
-import qs from 'query-string';
-import SearchBox from './search-box';
-import { useState } from 'react';
+"use client";
+import { useRouter, useSearchParams } from "next/navigation";
+import qs from "query-string";
+import SearchBox from "./search-box";
+import { useState } from "react";
 interface Props {
   label: string;
-  variant?: 'minimal' | 'normal' | 'with-shadow' | 'flat';
+  variant?: "minimal" | "normal" | "with-shadow" | "flat";
   [key: string]: unknown;
 }
 
 const Search: React.FC<Props> = ({ label, variant, ...props }) => {
   const router = useRouter();
-  const [searchTerm, updateSearchTerm] = useState('');
+  const [searchTerm, updateSearchTerm] = useState("");
   const params = useSearchParams();
   const handleOnChange = (e: any) => {
     const { value } = e.target;
@@ -35,22 +34,19 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
 
     const url = qs.stringifyUrl(
       {
-        url: '/',
+        url: "/",
         query: updatedQuery,
       },
       { skipNull: true }
     );
- 
- 
-    router.push(url,{
-      scroll:false
-    
+
+    router.push(url, {
+      scroll: false,
     });
-    
   };
 
   function clearSearch() {
-    updateSearchTerm('');
+    updateSearchTerm("");
     let currentQuery = {};
 
     if (params) {
@@ -58,23 +54,20 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
     }
 
     const updatedQuery: any = {
-      ...currentQuery
+      ...currentQuery,
     };
 
     const url = qs.stringifyUrl(
       {
-        url: '/',
+        url: "/",
         query: updatedQuery,
       },
       { skipNull: true }
     );
- 
- 
-    router.push(url,{
-      scroll:false
-    
+
+    router.push(url, {
+      scroll: false,
     });
-   
   }
 
   return (
@@ -84,8 +77,8 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
       onClearSearch={clearSearch}
       onChange={handleOnChange}
       value={searchTerm}
-      name="search"
-      placeholder={'Search'}
+      name="بحث"
+      placeholder={"بحث"}
       variant={variant}
       {...props}
     />

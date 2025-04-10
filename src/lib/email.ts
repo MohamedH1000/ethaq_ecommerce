@@ -6,7 +6,7 @@ export async function sendEmail({
   subject,
   html,
 }: {
-  to: string;
+  to: string | any;
   subject: string;
   html: string;
 }) {

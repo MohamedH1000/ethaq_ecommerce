@@ -13,7 +13,13 @@ interface Props {
 const CategoryCard = ({ category }: Props) => {
   return (
     <React.Fragment>
-      <div className=" dark:bg-gray-900 bg-[#f5f5f5] rounded-xl relative group w-[170px] select-none xs:h-[250px] h-[216px] overflow-hidden px-5 cursor-pointer hover:bg-primary/10 dark:hover:bg-primary/10  space-y-4 group flex flex-col justify-center pt-2 sm:pt-0 ">
+      <div
+        className=" dark:bg-gray-900 bg-[#FAFAFA] rounded-[50px] relative 
+      group w-[250px] select-none xs:h-[250px] h-[216px] 
+      overflow-hidden px-5 cursor-pointer hover:bg-primary/10 
+      dark:hover:bg-primary/10  group flex flex-col 
+      justify-center items-center pt-2 sm:pt-0 "
+      >
         <div className="flex flex-col  -mt-8">
           <h5 className="text-xl text-gray-800 dark:text-white font-semibold group-hover:scale-105 group-hover:text-primary transition-all duration-300 w-full text-ellipsis line-clamp-1 ">
             {category.name}
@@ -23,9 +29,9 @@ const CategoryCard = ({ category }: Props) => {
           </p>
         </div>
 
-        <div className=" max-w-[120px] max-h-[120px]  w-full flex justify-center items-center">
+        <div className=" max-w-[250px] max-h-[160px] w-full flex justify-center items-center">
           <Image
-            className="object-center xs:mt-8  h-[120px] group-hover:scale-110 hover:transition-all duration-500"
+            className="object-center xs:mt-8 w-[250px] h-[160px] group-hover:scale-110 hover:transition-all duration-500 rounded-[30px]"
             height={120}
             width={110}
             src={category.images}

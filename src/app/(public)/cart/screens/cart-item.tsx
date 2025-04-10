@@ -66,16 +66,33 @@ export const CartItemDetails = ({
           <h1 className="text-gray-600 dark:text-white">السعر</h1>
           <div className="flex flex-col mt-2">
             <div className="flex gap-1 items-center">
-              <h6 className="text-gray-800 font-semibold dark:text-white">
-                {item.product.price.toFixed(2)} SAR
-              </h6>
-              <del className=" text-gray-500">{basePrice}</del>
+              {item?.product?.discount > 0 ? (
+                <h6 className="text-gray-800 font-semibold dark:text-white">
+                  {(
+                    item?.product.price *
+                    (1 - item?.product.discount / 100)
+                  ).toFixed(2)}{" "}
+                  ريال
+                </h6>
+              ) : (
+                <h6 className="text-gray-800 font-semibold dark:text-white">
+                  {item?.product.price.toFixed(2)} ريال
+                </h6>
+              )}
+
+              {item.product.discount > 0 && (
+                <del className=" text-gray-500">
+                  {item.product.price.toFixed(2)}
+                </del>
+              )}
             </div>
 
             <div className="flex gap-1 items-center">
               <h6 className="text-primary font-semibold ">لقد وفرت:</h6>
               <p className="text-base text-gray-500">
-                {discount ? discount : "لا يوجد عرض"}
+                {item?.product?.discount > 0
+                  ? item?.product?.discount + "%"
+                  : "لا يوجد عرض"}
               </p>
             </div>
           </div>
@@ -100,9 +117,19 @@ export const CartItemDetails = ({
         <div className="flex flex-col">
           <h1 className="text-gray-600 dark:text-white">الاجمالي</h1>
           <div className="flex flex-col mt-2">
-            <h3 className="text-lg text-gray-800 dark:text-white font-semibold">
-              {(item.product.price * item.quantity).toFixed(2)} SAR
+            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
+              {(
+                (item.product.discount > 0
+                  ? item.product.price * (1 - item.product.discount / 100)
+                  : item.product.price) * item.quantity
+              ).toFixed(2)}{" "}
+              ريال
             </h3>
+            {item.product.discount > 0 && (
+              <del className="text-sm text-gray-500 dark:text-gray-400">
+                {(item.product.price * item.quantity).toFixed(2)} ريال
+              </del>
+            )}
           </div>
         </div>
 

@@ -44,7 +44,7 @@ const CategoriesCarousel = () => {
             return (
               <SwiperSlide
                 key={d.id}
-                className="flex flex-col xs:gap-[14px] gap-2 max-w-[170px]  rounded-lg"
+                className="flex flex-col xs:gap-[14px] gap-2 max-w-[250px]  rounded-lg"
               >
                 <CategoryCard category={d} />
               </SwiperSlide>

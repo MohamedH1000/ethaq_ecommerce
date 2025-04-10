@@ -50,29 +50,25 @@ export const PriceFilter = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const { updateQueryparams } = useQueryParam(pathname ?? "/");
-  const [formState, setFormState] = useState<string[]>([]);
+  const [selectedPrice, setSelectedPrice] = useState<string>(""); // Track only one selected category
 
   const hasQueryKey = searchParams?.get("price");
 
   useEffect(() => {
-    updateQueryparams("price", formState.toString());
+    updateQueryparams("price", selectedPrice.toString());
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [formState]);
+  }, [selectedPrice]);
 
   useEffect(() => {
-    setFormState(hasQueryKey?.split(",") ?? []);
+    setSelectedPrice(hasQueryKey || "");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hasQueryKey]);
 
   const items = priceFilterItems;
 
-  function handleItemClick(slug: string) {
-    setFormState((prevFormState) =>
-      prevFormState.includes(slug)
-        ? prevFormState.filter((item) => item !== slug)
-        : [...prevFormState, slug]
-    );
-  }
+  const handleItemClick = (identifier: string) => {
+    setSelectedPrice((prev) => (prev === identifier ? "" : identifier));
+  };
 
   return (
     <div className="block border-b border-gray-300 pb-7 mb-7">
@@ -84,7 +80,7 @@ export const PriceFilter = () => {
           <div key={item.slug} className="flex items-center gap-3">
             <Checkbox
               name={item.name.toLowerCase()}
-              checked={formState.includes(item.slug)}
+              checked={selectedPrice.includes(item.slug)}
               onCheckedChange={() => handleItemClick(item.slug)} // Pass the slug to handleItemClick
             />
 

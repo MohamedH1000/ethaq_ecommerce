@@ -15,7 +15,7 @@ interface Props {
 }
 export default function ProductDetailsTab({ product }: Props) {
   let [tabHeading] = useState({
-    Product_Details: "",
+    Product_Details: "تفاصيل المنتج",
     // Review_Rating: "",
     QA: "",
   });
@@ -77,7 +77,7 @@ export default function ProductDetailsTab({ product }: Props) {
     <div className="w-full  py-11 lg:py-14 xl:py-16 ">
       <Tab.Group>
         <Tab.List className="block border-b border-border-base text-xs sm:text-sm md:text-base">
-          {Object.keys(tabHeading).map((item) => (
+          {Object.values(tabHeading).map((item) => (
             <Tab
               key={item}
               className={({ selected }) =>
@@ -89,7 +89,7 @@ export default function ProductDetailsTab({ product }: Props) {
                 )
               }
             >
-              {item.split("_").join(" ")}
+              {item}
             </Tab>
           ))}
         </Tab.List>

@@ -1,5 +1,12 @@
 import { Icons } from "@/components/ui/icons";
-import { Instagram } from "lucide-react";
+import {
+  CalendarDays,
+  Hourglass,
+  HourglassIcon,
+  Instagram,
+  Mail,
+  Phone,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -46,45 +53,51 @@ const SOCIAL_NETWORKS = [
 export const Footer = () => {
   return (
     <footer className="text-white">
-      <div className="bg-gray-700">
-        <div className="container pt-14 pb-12 grid grid-cols-12 gap-5 md:gap-10 justify-between md:justify-start">
+      <div className="bg-[#FAFAFA]">
+        <div className="container pt-14 pb-12 flex items-start gap-5 md:gap-10 justify-between max-sm:flex-col max-sm:items-center max-sm:justify-between">
           <div className="space-y-3 md:space-y-6 text-center xl:text-left col-span-12 xl:col-span-4">
-            <h5 className="text-xl font-medium">تواصل معنا</h5>
-            <p className="text-gray-400">
+            <h5 className="text-2xl font-medium text-black text-right">
+              تواصل معنا
+            </h5>
+            <p className="text-black text-right text-lg">
               مرحباً، نحن دائماً منفتحون على التعاون والاقتراحات، تواصل معنا
               بإحدى الطرق التالية:
             </p>
-            <address className="flex flex-wrap not-italic gap-y-5 justify-between">
-              <dl className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
-                <dt className="uppercase text-xs text-gray-400">رقم الهاتف</dt>
-                <dd className="text-sm">00966559681110</dd>
-              </dl>
-              <dl className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
-                <dt className="uppercase text-xs text-gray-400">
-                  البريد الالكتروني
+            <address className="flex flex-wrap not-italic gap-y-5 justify-between text-right">
+              <dl
+                className="max-sm:bg-[#000957] space-y-1 bg-text-black py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full 
+              sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)] "
+              >
+                <dt className="uppercase text-md text-black flex gap-3 max-sm:text-white">
+                  رقم الهاتف <Phone />
                 </dt>
-                <dd className="text-sm break-words">ethaq0@gmail.com</dd>
+                <dd className="text-sm text-black max-sm:text-white">
+                  00966559681110
+                </dd>
               </dl>
-              <dl className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
-                <dt className="uppercase text-xs text-gray-400">ايام العمل</dt>
-                <dd className="text-sm">من الاحد الى الخميس</dd>
+              <dl className="space-y-1 bg-gray-600 max-sm:bg-[#000957] py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
+                <dt className="uppercase text-md text-black max-sm:text-white flex gap-3">
+                  البريد الالكتروني <Mail />
+                </dt>
+                <dd className="text-sm break-words text-black max-sm:text-white">
+                  ethaq0@gmail.com
+                </dd>
               </dl>
-              <dl className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
-                <dt className="uppercase text-xs text-gray-400">ساعات العمل</dt>
-                <dd className="text-sm">من 9 صباحا حتى 5 مساءً</dd>
+              <dl className="space-y-1 max-sm:bg-[#000957] bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
+                <dt className="uppercase text-md text-black max-sm:text-white flex gap-3">
+                  ايام العمل <CalendarDays />
+                </dt>
+                <dd className="text-sm text-black max-sm:text-white">
+                  جميع ايام الاسبوع
+                </dd>
               </dl>
-              <dl className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
-                <dt className="uppercase text-xs text-gray-400">موقعنا</dt>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d442447.71208967076!2d40.188472!3d29.961528!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDU3JzQxLjUiTiA0MMKwMTEnMTguNSJF!5e0!3m2!1sen!2seg!4v1743703806140!5m2!1sen!2seg"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0, borderRadius: "10px" }}
-                  allow="fullscreen"
-                  loading="lazy"
-                  className="aspect-video w-[100%] h-[100%]"
-                  allowFullScreen
-                ></iframe>
+              <dl className="space-y-1 max-sm:bg-[#000957] bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
+                <dt className="uppercase text-md text-black max-sm:text-white flex gap-3">
+                  ساعات العمل <HourglassIcon />
+                </dt>
+                <dd className="text-sm text-black max-sm:text-white">
+                  24/7 بخدمتكم
+                </dd>
               </dl>
             </address>
           </div>
@@ -102,24 +115,24 @@ export const Footer = () => {
               ))}
             </div>
           </div> */}
-          <div className="space-y-3 md:space-y-6 text-center md:text-start mx-auto col-span-6 md:col-span-3 xl:col-span-2">
-            <h5 className="text-xl font-medium">حسابي</h5>
+          {/* <div className="space-y-3 md:space-y-6 text-center md:text-start mx-auto col-span-6 md:col-span-3 xl:col-span-2">
+            <h5 className="text-xl font-medium text-black">حسابي</h5>
             <div className="gap-3 flex flex-col">
               {accountNav.map((nav) => (
                 <Link
                   key={nav.label}
                   href={{ pathname: nav.path }}
-                  className="text-[15px] text-gray-400 hover:text-white transition-colors duration-200 inline-block"
+                  className="text-[15px] text-black transition-colors duration-200 inline-block"
                 >
                   {nav.label}
                 </Link>
               ))}
             </div>
-          </div>
+          </div> */}
           <div className="space-y-3 md:space-y-6 text-center md:text-start col-span-12 md:col-span-6 xl:col-span-4">
-            <h5 className="text-xl font-medium">النشرة الاخبارية</h5>
+            {/* <h5 className="text-xl font-medium">النشرة الاخبارية</h5> */}
             <div className="space-y-3">
-              <p className="text-gray-400">
+              {/* <p className="text-gray-400">
                 أدخل عنوان بريدك الإلكتروني أدناه للاشتراك في النشرة الإخبارية
                 لدينا والبقاء على اطلاع بأحدث الخصومات والعروض الخاصة.
               </p>
@@ -132,10 +145,24 @@ export const Footer = () => {
                 <button className="border-none bg-brand text-white py-2 px-5 border-2 border-brand rounded">
                   اشتراك
                 </button>
-              </div>
-              <p className="text-gray-400">
-                تابعنا على وسائل التواصل الاجتماعي
-              </p>
+              </div> */}
+              <dl className="space-y-1 bg-text-black py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
+                <dt className="uppercase text-2xl font-medium text-black mb-5">
+                  موقعنا
+                </dt>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d442447.71208967076!2d40.188472!3d29.961528!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDU3JzQxLjUiTiA0MMKwMTEnMTguNSJF!5e0!3m2!1sen!2seg!4v1743703806140!5m2!1sen!2seg"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, borderRadius: "10px" }}
+                  allow="fullscreen"
+                  loading="lazy"
+                  className="aspect-video max-sm:w-[100%] max-sm:h-[100%] w-[300px]"
+                  allowFullScreen
+                ></iframe>
+                <p></p>
+              </dl>
+              <p className="text-black">تابعنا على وسائل التواصل الاجتماعي</p>
               <div className="inline-flex items-center gap-5  p-3">
                 {SOCIAL_NETWORKS.map((network) => (
                   <Link
@@ -143,7 +170,7 @@ export const Footer = () => {
                     href={{ pathname: network.url }}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:scale-105"
+                    className="hover:scale-105 text-black"
                   >
                     {network.icon}
                   </Link>
@@ -153,8 +180,8 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-800">
-        <div className="container py-5 flex items-center justify-center md:justify-between flex-wrap gap-5">
+      <div className="bg-[#000957]">
+        <div className="container py-5 flex items-center justify-center  flex-wrap gap-5">
           <p className="text-sm text-gray-400 md:text-start text-center">
             &copy; {new Date().getFullYear()} حقوق النشر محفوظة لإيثاق للحلول
             المالية . تم التطوير بواسطة &nbsp;
@@ -168,13 +195,13 @@ export const Footer = () => {
             </Link>
           </p>
 
-          <Image
+          {/* <Image
             height={56}
             width={350}
             className=" p-2 bg-gray-200"
             src="https://www.leafrootfruit.com.au/wp-content/uploads/2018/08/secure-stripe-payment-logo-amex-master-visa.png"
             alt="Stripe Secure Payment"
-          />
+          /> */}
         </div>
       </div>
     </footer>

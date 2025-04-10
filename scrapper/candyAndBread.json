@@ -1,0 +1,1479 @@
+// category id 67f43e1d49e57d3fa16aa151
+[
+  {
+    "name": "بوك شبيه القشطة معقم 160 جرام × 6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h43/h57/63885866106910/86138_main.jpg?im=Resize=400"
+    ],
+    "price": 26.95,
+    "description": "شبيه قشطة معقم من بوك، مثالي لتحضير الحلويات والوصفات الكريمية. معبأ في عبوة تحتوي على 6 علب × 160 جرام."
+  },
+  {
+    "name": "لونا - حليب مكثف محلى 370 جرام ×2",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h05/h9a/51542216114206/721713_main.jpg?im=Resize=400"
+    ],
+    "price": 14.95,
+    "discount": 13,
+    "description": "حليب مكثف محلى من لونا، مثالي لتحضير الحلويات والمشروبات. يأتي في عبوة مزدوجة تحتوي على 2 × 370 جرام."
+  },
+  {
+    "name": "لونا شبيه القشطة 155 جرام × 4 قطع",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h11/h65/27794817122334/663582_main.jpg?im=Resize=400"
+    ],
+    "price": 11.95,
+    "description": "شبيه قشطة من لونا، مثالي لإضافة النكهة الكريمية للحلويات والأطباق. معبأ في عبوة تحتوي على 4 قطع × 155 جرام."
+  },
+  {
+    "name": "نستلة - حليب مكثف كامل الدسم 370 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h5e/h2c/44037298159646/688574_main.jpg?im=Resize=400"
+    ],
+    "price": 10.5,
+    "description": "حليب مكثف كامل الدسم من نستلة، مثالي لتحضير الحلويات الكريمية والمشروبات. معبأ في علبة 370 جرام."
+  },
+  {
+    "name": "السفير شبيه قشطة 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h83/hbf/9226106961950/225621_main.jpg?im=Resize=400"
+    ],
+    "price": 3.25,
+    "discount": 31,
+    "description": "شبيه قشطة من السفير، مثالي لإضافة قوام كريمي للحلويات والأطباق. معبأ في علبة 170 جرام."
+  },
+  {
+    "name": "دريم ويب خليط كريمة الخفق 144 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h16/h8b/51509337423902/101336_main.jpg?im=Resize=400"
+    ],
+    "price": 14.95,
+    "description": "خليط كريمة خفق من دريم ويب بنكهة الفانيليا، مثالي لتزيين الكيك والحلويات. معبأ في عبوة 144 جرام."
+  },
+  {
+    "name": "التاج قشطة 155 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hac/h65/9214998478878/74708_main.jpg?im=Resize=400"
+    ],
+    "price": 6.25,
+    "description": "قشطة من التاج، مثالية لتحضير الحلويات العربية التقليدية والوصفات الكريمية. معبأة في علبة 155 جرام."
+  },
+  {
+    "name": "الأسرة، سكر ناعم 5كج +1كج مجاناً",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h7b/hf9/61902874345502/664522_main.jpg?im=Resize=400"
+    ],
+    "price": 25.9,
+    "description": "سكر ناعم من الأسرة، مثالي للاستخدام اليومي في المشروبات والحلويات. يأتي مع عرض 5 كجم + 1 كجم مجاناً."
+  },
+  {
+    "name": "الأسرة سكر ناعم 10 كج + 1كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h31/ha1/61902873886750/654576_main.jpg?im=Resize=400"
+    ],
+    "price": 49.95,
+    "discount": 14,
+    "description": "سكر ناعم من الأسرة، مثالي للاستخدام العائلي الكبير في الطهي والمشروبات. يأتي مع عرض 10 كجم + 1 كجم مجاناً."
+  },
+  {
+    "name": "الأولى، طحين فاخر لجميع الاستعمالات 1كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h5a/hda/48028181004318/681669_main.jpg?im=Resize=400"
+    ],
+    "price": 3.95,
+    "discount": 43,
+    "description": "طحين فاخر متعدد الاستخدامات من الأولى، مثالي لتحضير المخبوزات والعجائن. معبأ في كيس 1 كجم."
+  },
+  {
+    "name": "الأسره سكر ناعم أكياس 5 كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hb5/hc2/27472467558430/147614_main.jpg?im=Resize=400"
+    ],
+    "price": 25.9,
+    "description": "سكر ناعم من الأسرة، مثالي للاستخدام اليومي في الطهي والتحلية. معبأ في كيس 5 كجم."
+  },
+  {
+    "name": "الأسرة سكر ناعم 10 كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha4/h93/61902873493534/4694_main.jpg?im=Resize=400"
+    ],
+    "price": 49.95,
+    "discount": 14,
+    "description": "سكر ناعم من الأسرة، مثالي للاستخدام العائلي الكبير في الحلويات والمشروبات. معبأ في كيس 10 كجم."
+  },
+  {
+    "name": "ستيفيانا محلي 2.5 جرام - 100 حبة",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hc0/hc1/14805014118430/544160_main.jpg?im=Resize=400"
+    ],
+    "price": 26.95,
+    "description": "محلي ستيفيانا، بديل صحي للسكر مثالي للمشروبات والنظام الغذائي. يأتي في عبوة تحتوي على 100 كيس × 2.5 جرام."
+  },
+  {
+    "name": "جرينيز كارميل الأصلية 49 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hb1/he1/14083192487966/112583_main.jpg?im=Resize=400"
+    ],
+    "price": 2.45,
+    "description": "كريم كراميل أصلي من جرينيز، مثالي لتحضير حلوى سريعة ولذيذة. معبأ في كيس 49 جرام."
+  },
+  {
+    "name": "بوك قشطة كثيفة 125 مل × 4 قطع",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hd5/h36/12733619666974/465850_main.jpg?im=Resize=400"
+    ],
+    "price": 12.95,
+    "discount": 14,
+    "description": "قشطة كثيفة من بوك، مثالية لتحضير الحلويات والأطباق الكريمية. معبأة في عبوة تحتوي على 4 قطع × 125 مل."
+  },
+  {
+    "name": "عافية زعفران نقي 1جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h21/h40/51308364726302/702467_main.jpg?im=Resize=400"
+    ],
+    "price": 33.25,
+    "description": "زعفران نقي من عافية، مثالي لإضافة نكهة ولون مميزين للأطباق والحلويات. معبأ في عبوة 1 جرام."
+  },
+  {
+    "name": "لونا حليب مبخر كامل الدسم 170 جرام ×3+1 مجانًا",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h21/h5e/27427797303326/676662_main.jpg?im=Resize=400"
+    ],
+    "price": 10.5,
+    "discount": 10,
+    "description": "حليب مبخر كامل الدسم من لونا، مثالي للمشروبات والحلويات. يأتي مع عرض 3 علب + 1 مجاناً × 170 جرام."
+  },
+  {
+    "name": "أبو قوس حليب مبخر كامل الدسم الأصلي 170 جرام × 6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0d/h76/17565302685726/634087_main.jpg?im=Resize=400"
+    ],
+    "price": 19.5,
+    "discount": 11,
+    "description": "حليب مبخر كامل الدسم من أبو قوس، مثالي للقهوة والحلويات. معبأ في عبوة تحتوي على 6 علب × 170 جرام."
+  },
+  {
+    "name": "المراعى حليب مكثف مُحلى 2×397جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hcd/h2e/50551066787870/714636_main.jpg?im=Resize=400"
+    ],
+    "price": 21.95,
+    "description": "حليب مكثف محلى من المراعي، مثالي لتحضير الحلويات والمشروبات. يأتي في عبوة مزدوجة 2 × 397 جرام."
+  },
+  {
+    "name": "فووم دقيق ابيض 2 كيلو",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h90/h3d/14686059986974/481899_main.jpg?im=Resize=400"
+    ],
+    "price": 5,
+    "description": "دقيق أبيض من فووم، مثالي لتحضير المخبوزات والعجائن المنزلية. معبأ في كيس 2 كجم."
+  },
+  {
+    "name": "بوك قشطة قيمر 250 مل × 3",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hd0/h1e/63885744668702/340631_main.jpg?im=Resize=400"
+    ],
+    "price": 20.5,
+    "description": "قشطة قيمر كثيفة من بوك، مثالية للحلويات العربية والوصفات الكريمية. معبأة في عبوة تحتوي على 3 علب × 250 مل."
+  },
+  {
+    "name": "نستله كوفي-ميت أوريجينال مبيض القهوة الخالي من الألبان 400جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h22/he3/11158853222430/126150_main.jpg?im=Resize=400"
+    ],
+    "price": 22.5,
+    "discount": 16,
+    "description": "مبيض قهوة خالٍ من الألبان من نستله كوفي-ميت، مثالي لتحسين طعم القهوة. معبأ في عبوة 400 جرام."
+  },
+  {
+    "name": "المراعي شبيه القشطة كاملة الدسم 170 جرام × 6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h90/h28/9284799463454/589306_main.jpg?im=Resize=400"
+    ],
+    "price": 29.5,
+    "description": "شبيه قشطة كاملة الدسم من المراعي، مثالي للحلويات والأطباق الكريمية. معبأ في عبوة تحتوي على 6 علب × 170 جرام."
+  },
+  {
+    "name": "نستله حليب مكثف محلى 450 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/he3/h31/27445427994654/609458_main.jpg?im=Resize=400"
+    ],
+    "price": 18,
+    "description": "حليب مكثف محلى من نستله في عبوة عصرية، مثالي للحلويات والمشروبات. معبأ في عبوة 450 جرام."
+  },
+  {
+    "name": "دريم ويب خليط كريمة الخفق 72 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h5e/h48/9954510733342/101344_main.jpg?im=Resize=400"
+    ],
+    "price": 9.95,
+    "description": "خليط كريمة خفق من دريم ويب، مثالي لتزيين الحلويات والكيك. معبأ في عبوة 72 جرام."
+  },
+  {
+    "name": "لونا - حليب مكثف محلى 370 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h69/h25/48938715611166/122912_main.jpg?im=Resize=400"
+    ],
+    "price": 9.25,
+    "description": "حليب مكثف محلى من لونا، مثالي لتحضير الحلويات والمشروبات الكريمية. معبأ في علبة 370 جرام."
+  },
+  {
+    "name": "الأسرة سكر ناعم 5 كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/he2/h92/61902873427998/4693_main.jpg?im=Resize=400"
+    ],
+    "price": 25.5,
+    "description": "سكر ناعم من الأسرة، مثالي للاستخدام اليومي في الطهي والتحلية. معبأ في كيس 5 كجم."
+  },
+  {
+    "name": "كي دي دي قشطة قيمر 125 جرام × 4",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h1b/hd7/14403263201310/274398_main.jpg?im=Resize=400"
+    ],
+    "price": 19.25,
+    "description": "قشطة قيمر من كي دي دي، مثالية للحلويات والأطباق الكريمية. معبأة في عبوة تحتوي على 4 علب × 125 جرام."
+  },
+  {
+    "name": "الأسره سكر خشن 5 كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h7a/h8f/61902873329694/147615_main.jpg?im=Resize=400"
+    ],
+    "price": 25.9,
+    "description": "سكر خشن من الأسرة، مثالي لتحضير الحلويات والمشروبات التقليدية. معبأ في كيس 5 كجم."
+  },
+  {
+    "name": "الأولي طحين لجميع الاستخدامات 5 كيلو",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h92/hda/48028180906014/686068_main.jpg?im=Resize=400"
+    ],
+    "price": 15.75,
+    "discount": 18,
+    "description": "طحين متعدد الاستخدامات من الأولى، مثالي للمخبوزات والعجائن. معبأ في كيس 5 كجم."
+  },
+  {
+    "name": "ساف ليفور خميرة فورية 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hd7/h7e/14083193274398/515783_main.jpg?im=Resize=400"
+    ],
+    "price": 23.25,
+    "description": "خميرة فورية من ساف ليفور، مثالية لتحضير الخبز والمعجنات المنزلية. معبأة في عبوة 500 جرام."
+  },
+  {
+    "name": "بيتي كروكر خليط كيك شوكولاتة الحليب 430 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746405/1738576803/746405_main.jpg?im=Resize=400"
+    ],
+    "price": 18,
+    "discount": 34,
+    "description": "خليط كيك شوكولاتة الحليب من بيتي كروكر، مثالي لتحضير كيك لذيذ بسرعة. معبأ في عبوة 430 جرام."
+  },
+  {
+    "name": "لوتس بيسكوف بسكويت قابل للدهن 400 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/561331/1735454403/561331_main.jpg?im=Resize=400"
+    ],
+    "price": 32.95,
+    "description": "كريمة بسكويت لوتس بيسكوف قابلة للدهن، مثالية للحلويات والفطور. معبأة في عبوة 400 جرام."
+  },
+  {
+    "name": "هيرشي - رقائق الشوكولاتة شبه الحلوة للخبز 285 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/743021/1734415205/743021_main.jpg?im=Resize=400"
+    ],
+    "price": 28.25,
+    "description": "رقائق شوكولاتة شبه حلوة من هيرشي، مثالية للخبز وتزيين الحلويات. معبأة في عبوة 285 جرام."
+  },
+  {
+    "name": "بوك شبيه القشطة معقم 160جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hf5/h48/63885866565662/86137_main.jpg?im=Resize=400"
+    ],
+    "price": 4.5,
+    "discount": 23,
+    "description": "شبيه قشطة معقم من بوك، مثالي لتحضير الحلويات والأطباق الكريمية. معبأ في علبة 160 جرام."
+  },
+  {
+    "name": "الأسرة سكر ناعم 2 كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h3c/h90/61902873395230/4692_main.jpg?im=Resize=400"
+    ],
+    "price": 10.5,
+    "description": "سكر ناعم من الأسرة، مثالي للاستخدام اليومي في المشروبات والحلويات. معبأ في كيس 2 كجم."
+  },
+  {
+    "name": "فكتوريا خميرة فورية 125 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h4f/h57/14836860354590/643568_main.jpg?im=Resize=400"
+    ],
+    "price": 8.75,
+    "description": "خميرة فورية من فكتوريا، مثالية لتحضير المعجنات والخبز المنزلي. معبأة في عبوة 125 جرام."
+  },
+  {
+    "name": "ستيفيانا محلي 125 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/he5/hba/9908236779550/258959_main.jpg?im=Resize=400"
+    ],
+    "price": 16.5,
+    "discount": 9,
+    "description": "محلي ستيفيانا، بديل صحي للسكر مثالي للمشروبات والطهي. معبأ في عبوة 125 جرام."
+  },
+  {
+    "name": "الاسره سكر خشن 10 كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha2/h96/61902873559070/4695_main.jpg?im=Resize=400"
+    ],
+    "price": 49.95,
+    "discount": 14,
+    "description": "سكر خشن من الأسرة، مثالي للاستخدام العائلي الكبير في الحلويات التقليدية. معبأ في كيس 10 كجم."
+  },
+  {
+    "name": "نادك شبيه القشطة 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/641577/1739179803/641577_main.jpg?im=Resize=400"
+    ],
+    "price": 4.5,
+    "discount": 23,
+    "description": "شبيه قشطة من نادك، مثالي لتحضير الحلويات والأطباق الكريمية. معبأ في علبة 170 جرام."
+  },
+  {
+    "name": "بوني حليب مبخر كامل الدسم 170 جرام × 5 + 1 مجانا",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hbc/hf9/13502416453662/608260_main.jpg?im=Resize=400"
+    ],
+    "price": 21.25,
+    "description": "حليب مبخر كامل الدسم من بوني، مثالي للمشروبات والحلويات. يأتي مع عرض 5 علب + 1 مجاناً × 170 جرام."
+  },
+  {
+    "name": "جرينزنكهة فانيليا 28 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/had/h6b/14836860944414/643307_main.jpg?im=Resize=400"
+    ],
+    "price": 3.75,
+    "description": "نكهة فانيليا من جرينز، مثالية لإضافة طعم مميز للحلويات والمخبوزات. معبأة في زجاجة 28 مل."
+  },
+  {
+    "name": "حليب مكثف ومحلى 90 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h49/h6a/11175756365854/126415_main.jpg?im=Resize=400"
+    ],
+    "price": 4.5,
+    "description": "حليب مكثف محلى من نستله، مثالي لتحضير الحلويات السريعة. معبأ في علبة 90 جرام."
+  },
+  {
+    "name": "رينرز مركز روح نكهة الفانيليا 28 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/he0/h8d/9211937161246/620524_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "مركز نكهة فانيليا من رينرز، مثالي لإضافة طعم غني للحلويات والكيك. معبأ في زجاجة 28 مل."
+  },
+  {
+    "name": "هيرشي - رقائق شوكولاتة الحليب للخبز 285 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/743020/1734415205/743020_main.jpg?im=Resize=400"
+    ],
+    "price": 28.25,
+    "description": "رقائق شوكولاتة الحليب من هيرشي، مثالية للخبز وتزيين الحلويات. معبأة في عبوة 285 جرام."
+  },
+  {
+    "name": "لونا قشطة سادة (شبيه) 155 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/he3/hd4/27794815516702/657462_main.jpg?im=Resize=400"
+    ],
+    "price": 3.75,
+    "description": "شبيه قشطة سادة من لونا، مثالي لتحضير الحلويات والأطباق الكريمية. معبأ في علبة 155 جرام."
+  },
+  {
+    "name": "التاج قشطة 155 جرام × 6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h20/hec/27427497574430/613325_main.jpg?im=Resize=400"
+    ],
+    "price": 30.25,
+    "description": "قشطة من التاج، مثالية للحلويات العربية والوصفات الكريمية. معبأة في عبوة تحتوي على 6 علب × 155 جرام."
+  },
+  {
+    "name": "فينا دقيق لجميع الاستعمالات 10كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0b/h7b/52370254495774/696452_main.jpg?im=Resize=400"
+    ],
+    "price": 12.5,
+    "discount": 16,
+    "description": "دقيق متعدد الاستخدامات من فينا، مثالي للمخبوزات والعجائن العائلية. معبأ في كيس 10 كجم."
+  },
+  {
+    "name": "جرينيز كارميل الأصلية 49 جرام × 36",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h1f/h33/9020987572254/185994_main.jpg?im=Resize=400"
+    ],
+    "price": 75.5,
+    "discount": 10,
+    "description": "كريم كراميل أصلي من جرينيز، مثالي لتحضير حلوى سريعة بكمية كبيرة. معبأ في عبوة تحتوي على 36 كيس × 49 جرام."
+  },
+  {
+    "name": "رياض فود كريم كراميل 50 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h12/h67/10200760188958/86101_main.jpg?im=Resize=400"
+    ],
+    "price": 1.25,
+    "description": "كريم كراميل من رياض فود، مثالي لتحضير حلوى كلاسيكية بسرعة. معبأ في كيس 50 جرام."
+  },
+  {
+    "name": "العلالي حلوى جيلاتين بطعم الفراولة 80 جرام ×6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hf9/h77/27427496263710/538537_main.jpg?im=Resize=400"
+    ],
+    "price": 21.25,
+    "discount": 16,
+    "description": "حلوى جيلاتين بنكهة الفراولة من العلالي، مثالية للحلويات المنعشة. معبأة في عبوة تحتوي على 6 أكياس × 80 جرام."
+  },
+  {
+    "name": "بوني حليب مبخر كامل الدسم 15 جرام × 10",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hc2/hed/14055379763230/131445_main.jpg?im=Resize=400"
+    ],
+    "price": 6.95,
+    "description": "حليب مبخر كامل الدسم من بوني في عبوات صغيرة، مثالي للقهوة والشاي. معبأ في عبوة تحتوي على 10 × 15 جرام."
+  },
+  {
+    "name": "كارفور كومبوت خوخ حلى 580 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hf7/h52/51176140472350/596341_main.jpg?im=Resize=400"
+    ],
+    "price": 14.95,
+    "description": "كومبوت خوخ حلو من كارفور، مثالي للحلويات أو كوجبة خفيفة. معبأ في برطمان 580 جرام."
+  },
+  {
+    "name": "أبو قوس حليب مبخر الأصلي 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h21/h64/13513402646558/105142_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "حليب مبخر أصلي من أبو قوس، مثالي للمشروبات والحلويات. معبأ في علبة 170 جرام."
+  },
+  {
+    "name": "جرينز فانيلا بودره 60 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h52/hf9/9234005950494/600690_main.jpg?im=Resize=400"
+    ],
+    "price": 5.5,
+    "description": "بودرة فانيليا من جرينز، مثالية لإضافة نكهة غنية للحلويات والمخبوزات. معبأة في عبوة 60 جرام."
+  },
+  {
+    "name": "كارفور كومبوت المشمش 580جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hd4/h8d/50550993125406/671859_main.jpg?im=Resize=400"
+    ],
+    "price": 21.5,
+    "description": "كومبوت مشمش من كارفور، مثالي للحلويات أو كوجبة خفيفة منعشة. معبأ في برطمان 580 جرام."
+  },
+  {
+    "name": "بيتي كروكر رقائق الشوكولاتة بالحليب 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h8a/h0f/10126353334302/613098_main.jpg?im=Resize=400"
+    ],
+    "price": 18.5,
+    "discount": 14,
+    "description": "رقائق شوكولاتة الحليب من بيتي كروكر، مثالية للخبز وتزيين الحلويات. معبأة في عبوة 200 جرام."
+  },
+  {
+    "name": "كارفور كريمه الخفق 72 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h71/h6c/51176143552542/608578_main.jpg?im=Resize=400"
+    ],
+    "price": 6.5,
+    "description": "كريمة خفق من كارفور، مثالية لتزيين الكيك والحلويات. معبأة في عبوة 72 جرام."
+  },
+  {
+    "name": "نستله كوفي ميت 900 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hb1/hed/11158853550110/126148_main.jpg?im=Resize=400"
+    ],
+    "price": 41.25,
+    "description": "مبيض قهوة كوفي ميت من نستله، مثالي لتحسين طعم القهوة اليومية. معبأ في عبوة 900 جرام."
+  },
+  {
+    "name": "أبو قوس حليب مبخر لايت 170 جرام × 5 + 1 مجانا",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hcd/h0c/17565303635998/655594_main.jpg?im=Resize=400"
+    ],
+    "price": 19.75,
+    "discount": 12,
+    "description": "حليب مبخر لايت من أبو قوس، مثالي للمشروبات بقيمة دهنية أقل. يأتي مع عرض 5 علب + 1 مجاناً × 170 جرام."
+  },
+  {
+    "name": "جرينز بيكنج باودر 100 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h68/h6c/11514173751326/610253_main.jpg?im=Resize=400"
+    ],
+    "price": 4.5,
+    "description": "بيكنج باودر من جرينز، مثالي لرفع العجائن وتحضير المخبوزات. معبأ في عبوة 100 جرام."
+  },
+  {
+    "name": "لونا حليب مبخر كامل الدسم 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h46/h94/9020861874206/26580_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "حليب مبخر كامل الدسم من لونا، مثالي للقهوة والحلويات. معبأ في علبة 170 جرام."
+  },
+  {
+    "name": "بوني حليب مبخر كامل الدسم 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0c/haf/14055378944030/131440_main.jpg?im=Resize=400"
+    ],
+    "price": 3.95,
+    "discount": 18,
+    "description": "حليب مبخر كامل الدسم من بوني، مثالي للمشروبات والطبخ. معبأ في علبة 170 جرام."
+  },
+  {
+    "name": "بيتي كروكر رقائق الشوكولاتة شبه محلاة 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h33/h0f/10126353367070/613099_main.jpg?im=Resize=400"
+    ],
+    "price": 18.5,
+    "discount": 14,
+    "description": "رقائق شوكولاتة شبه محلاة من بيتي كروكر، مثالية للخبز وتزيين الحلويات. معبأة في عبوة 200 جرام."
+  },
+  {
+    "name": "التاج قشطة 95 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h15/h25/9250722480158/74710_main.jpg?im=Resize=400"
+    ],
+    "price": 5.25,
+    "description": "قشطة من التاج، مثالية لتحضير الحلويات والوصفات الكريمية. معبأة في علبة 95 جرام."
+  },
+  {
+    "name": "قودي شيرة البانكيك الأصلية 710 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h5a/h17/10137088753694/126123_main.jpg?im=Resize=400"
+    ],
+    "price": 17.25,
+    "description": "شيرة بانكيك أصلية من قودي، مثالية لتزيين البانكيك والحلويات. معبأة في زجاجة 710 مل."
+  },
+  {
+    "name": "العلالي جيلاتين الفراولة 80 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h58/hb3/16507647655966/59918_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "جيلاتين بنكهة الفراولة من العلالي، مثالي لتحضير حلوى منعشة. معبأ في كيس 80 جرام."
+  },
+  {
+    "name": "لونا حليب مبخر كامل الدسم 410 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h58/h4f/10814516330526/379990_main.jpg?im=Resize=400"
+    ],
+    "price": 6.75,
+    "description": "حليب مبخر كامل الدسم من لونا، مثالي للمشروبات والطبخ. معبأ في علبة 410 جرام."
+  },
+  {
+    "name": "جرينز خليط حلوى بنكهة الفانيليا مع صوص الكراميل 70 جرام × 12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hdc/hf2/12734459641886/185993_main.jpg?im=Resize=400"
+    ],
+    "price": 45.95,
+    "discount": 29,
+    "description": "خليط حلوى بنكهة الفانيليا مع صوص كراميل من جرينز، مثالي لتحضير حلوى غنية. معبأ في عبوة تحتوي على 12 كيس × 70 جرام."
+  },
+  {
+    "name": "المراعي خليط بودرة كريمة الخفق 35جرام ×2 ظرف",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hbe/h8e/61652651409438/725833_main.jpg?im=Resize=400"
+    ],
+    "price": 8.75,
+    "description": "خليط بودرة كريمة خفق من المراعي، مثالي لتزيين الحلويات. يأتي في عبوة تحتوي على 2 ظرف × 35 جرام."
+  },
+  {
+    "name": "حليب بوني مبخر كامل الدسم 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h13/h7b/14055381008414/485810_main.jpg?im=Resize=400"
+    ],
+    "price": 5.95,
+    "discount": 17,
+    "description": "حليب مبخر كامل الدسم من بوني، مثالي للمشروبات والحلويات. معبأ في زجاجة 170 جرام."
+  },
+  {
+    "name": "حدائق أورنيت بيكربونات الصوديوم 340 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h4a/h06/14549639004190/555801_main.jpg?im=Resize=400"
+    ],
+    "price": 14.45,
+    "discount": 17,
+    "description": "بيكربونات الصوديوم من حدائق أورنيت، مثالي للخبز والاستخدامات المنزلية. معبأ في عبوة 340 جرام."
+  },
+  {
+    "name": "العلالي جيلاتين بودرة بدون لون و نكهة 50 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h19/h31/52126624448542/623872_main.jpg?im=Resize=400"
+    ],
+    "price": 12.95,
+    "description": "جيلاتين بودرة بدون نكهة من العلالي، مثالي لتحضير الحلويات والوصفات المتنوعة. معبأ في عبوة 50 جرام."
+  },
+  {
+    "name": "الرياض فود بيكنج بودر 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h3c/h43/27066113032222/666680_main.jpg?im=Resize=400"
+    ],
+    "price": 13,
+    "discount": 33,
+    "description": "بيكنج باودر من رياض فود، مثالي لرفع العجائن وتحضير المخبوزات. معبأ في عبوة 500 جرام."
+  },
+  {
+    "name": "هيلتوب شراب القيقب العنبر 230جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/haa/hc6/62442975461406/723259_main.jpg?im=Resize=400"
+    ],
+    "price": 31.25,
+    "description": "شراب القيقب العنبر من هيلتوب، مثالي لتزيين البانكيك والحلويات. معبأ في زجاجة 230 جرام."
+  },
+  {
+    "name": "جرينز جيلي توت80 جرام × 12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha6/hdd/14686049337374/257846_main.jpg?im=Resize=400"
+    ],
+    "price": 38,
+    "discount": 12,
+    "description": "جيلي بنكهة التوت من جرينز، مثالي لتحضير حلوى منعشة. معبأ في عبوة تحتوي على 12 كيس × 80 جرام."
+  },
+  {
+    "name": "قودي شيرة 710 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/he3/h15/10131053346846/126215_main.jpg?im=Resize=400"
+    ],
+    "price": 17.5,
+    "description": "شيرة عربية حلوة من قودي، مثالية لتزيين الحلويات التقليدية. معبأة في زجاجة 710 مل."
+  },
+  {
+    "name": "المراعي خليط بودرة كريمة الخفق 35جرام ×4 ظرف",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h16/h57/61652645871646/726264_main.jpg?im=Resize=400"
+    ],
+    "price": 16.75,
+    "discount": 20,
+    "description": "خليط بودرة كريمة خفق من المراعي، مثالي لتزيين الكيك والحلويات. يأتي في عبوة تحتوي على 4 أظرف × 35 جرام."
+  },
+  {
+    "name": "رياض فود نشاء الذرة 400 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hfb/hcf/10200761106462/86117_main.jpg?im=Resize=400"
+    ],
+    "price": 5,
+    "discount": 16,
+    "description": "نشاء الذرة من رياض فود، مثالي لتكثيف الصلصات والحلويات. معبأ في عبوة 400 جرام."
+  },
+  {
+    "name": "بوني حليب مكثف محلى 395 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h4c/h18/14055380221982/131444_main.jpg?im=Resize=400"
+    ],
+    "price": 9.5,
+    "description": "حليب مكثف محلى من بوني، مثالي لتحضير الحلويات والمشروبات. معبأ في علبة 395 جرام."
+  },
+  {
+    "name": "فكتوريا خميرة فورية 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h5b/h46/15128694849566/643567_main.jpg?im=Resize=400"
+    ],
+    "price": 23,
+    "description": "خميرة فورية من فكتوريا، مثالية لتحضير الخبز والمعجنات بكميات كبيرة. معبأة في عبوة 500 جرام."
+  },
+  {
+    "name": "العلالي نشاء الذرة عبوة معدنية 400 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0d/h1f/51963556724766/59927_main.jpg?im=Resize=400"
+    ],
+    "price": 11,
+    "description": "نشاء الذرة من العلالي، مثالي لتكثيف الشوربات والحلويات. معبأ في عبوة معدنية 400 جرام."
+  },
+  {
+    "name": "الأولى جريش 1كيلو",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/738350/1728804604/738350_main.jpg?im=Resize=400"
+    ],
+    "price": 9.25,
+    "discount": 27,
+    "description": "جريش من الأولى، مثالي لتحضير الأطباق العربية التقليدية مثل الحساء. معبأ في كيس 1 كجم."
+  },
+  {
+    "name": "بيتي كروكر مزيج كيك الشوكولاتة الداكنة 430 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746406/1738576803/746406_main.jpg?im=Resize=400"
+    ],
+    "price": 18,
+    "discount": 34,
+    "description": "مزيج كيك الشوكولاتة الداكنة من بيتي كروكر، مثالي لتحضير كيك غني بالشوكولاتة. معبأ في عبوة 430 جرام."
+  },
+  {
+    "name": "جرينز جيلي التوت 80 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hd1/h8d/11514566475806/112586_main.jpg?im=Resize=400"
+    ],
+    "price": 3.25,
+    "description": "جيلي بنكهة التوت من جرينز، مثالي لتحضير حلوى منعشة ولذيذة. معبأ في كيس 80 جرام."
+  },
+  {
+    "name": "العلالي كريم كاراميل 50 جرام × 12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h6c/h6b/51847206633502/579271_main.jpg?im=Resize=400"
+    ],
+    "price": 22.5,
+    "discount": 16,
+    "description": "كريم كراميل من العلالي، مثالي لتحضير حلوى كلاسيكية بسرعة. معبأ في عبوة تحتوي على 12 كيس × 50 جرام."
+  },
+  {
+    "name": "بيتي كروكر خليط براوني شوكولاتة داكنة 500جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h47/hf3/61795832168478/506981_main.jpg?im=Resize=400"
+    ],
+    "price": 19.5,
+    "description": "خليط براوني بشوكولاتة داكنة من بيتي كروكر، مثالي لتحضير براوني غني ولذيذ. معبأ في عبوة 500 جرام."
+  },
+  {
+    "name": "المراعي شبيه القشطة كاملة الدسم 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hfc/h3e/50520573542430/604171_main.jpg?im=Resize=400"
+    ],
+    "price": 5.5,
+    "discount": 19,
+    "description": "شبيه قشطة كاملة الدسم من المراعي، مثالي للحلويات والأطباق الكريمية. معبأ في علبة 170 جرام."
+  },
+  {
+    "name": "ويبي كريمة مخفوقة بيضاء 152 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hde/h38/14184900460574/86106_main.jpg?im=Resize=400"
+    ],
+    "price": 9.75,
+    "discount": 18,
+    "description": "كريمة مخفوقة بيضاء من ويبي، مثالية لتزيين الكيك والحلويات. معبأة في عبوة 152 جرام."
+  },
+  {
+    "name": "العلالي نشاء الذرة 400 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hb4/h8b/51963555676190/59926_main.jpg?im=Resize=400"
+    ],
+    "price": 6.5,
+    "description": "نشاء الذرة من العلالي، مثالي لتكثيف الصلصات والحلويات. معبأ في كيس 400 جرام."
+  },
+  {
+    "name": "بوني حليب مبخر كامل الدسم 385 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h4d/hab/14055378812958/131442_main.jpg?im=Resize=400"
+    ],
+    "price": 7.95,
+    "description": "حليب مبخر كامل الدسم من بوني، مثالي للمشروبات والطبخ. معبأ في علبة 385 مل."
+  },
+  {
+    "name": "كابوتو طحين تقليدي، 1 كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h34/h9c/29866625171486/683828_main.jpg?im=Resize=400"
+    ],
+    "price": 20,
+    "description": "طحين تقليدي من كابوتو، مثالي لتحضير البيتزا والمخبوزات الإيطالية. معبأ في كيس 1 كجم."
+  },
+  {
+    "name": "الأولى سميد الناعم 800 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/738352/1730795403/738352_main.jpg?im=Resize=400"
+    ],
+    "price": 9.25,
+    "discount": 27,
+    "description": "سميد ناعم من الأولى، مثالي لتحضير الحلويات العربية مثل البسبوسة. معبأ في كيس 800 جرام."
+  },
+  {
+    "name": "جرينز خليط حلوى بنكهة الفانيلا مع طبقة كاراميل 70 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h7a/h9f/9020606218270/112582_main.jpg?im=Resize=400"
+    ],
+    "price": 3.95,
+    "description": "خليط حلوى بنكهة الفانيليا مع طبقة كراميل من جرينز، مثالي لتحضير حلوى غنية. معبأ في كيس 70 جرام."
+  },
+  {
+    "name": "العلالي باكينج باودر مسحوق التخمير 400 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h94/h86/52126620352542/579270_main.jpg?im=Resize=400"
+    ],
+    "price": 12,
+    "discount": 13,
+    "description": "باكينج باودر من العلالي، مثالي لرفع العجائن وتحضير المخبوزات. معبأ في عبوة 400 جرام."
+  },
+  {
+    "name": "بيتي كروكر سوبر مويست كيك بالفانيليا 250 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hd3/h04/10126353924126/637113_main.jpg?im=Resize=400"
+    ],
+    "price": 17.25,
+    "description": "خليط كيك سوبر مويست بنكهة الفانيليا من بيتي كروكر، مثالي لكيك طري ولذيذ. معبأ في عبوة 250 جرام."
+  },
+  {
+    "name": "العلالي جيلاتين بنكهة الكرز 80 جرام ×6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hc6/h1c/16957403430942/538538_main.jpg?im=Resize=400"
+    ],
+    "price": 21.25,
+    "discount": 16,
+    "description": "جيلاتين بنكهة الكرز من العلالي، مثالي لتحضير حلوى منعشة. معبأ في عبوة تحتوي على 6 أكياس × 80 جرام."
+  },
+  {
+    "name": "جرينز مهلبية 85 جرام × 6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h1c/hf8/9216714539038/259545_main.jpg?im=Resize=400"
+    ],
+    "price": 23.75,
+    "discount": 16,
+    "description": "خليط مهلبية من جرينز، مثالي لتحضير حلوى عربية تقليدية. معبأ في عبوة تحتوي على 6 أكياس × 85 جرام."
+  },
+  {
+    "name": "الأولى، طحين بر لجميع الاستعمالات 1كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h41/h46/48028179693598/681670_main.jpg?im=Resize=400"
+    ],
+    "price": 4,
+    "discount": 44,
+    "description": "طحين بر متعدد الاستخدامات من الأولى، مثالي للمخبوزات الصحية. معبأ في كيس 1 كجم."
+  },
+  {
+    "name": "أبو قوس حليب مبخر بالهيل 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hdd/h08/13513403727902/105144_main.jpg?im=Resize=400"
+    ],
+    "price": 3.75,
+    "description": "حليب مبخر بنكهة الهيل من أبو قوس، مثالي للشاي والقهوة العربية. معبأ في علبة 170 جرام."
+  },
+  {
+    "name": "نستله كريمة القهوة خفيفة خالية من الألبان 450 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h06/hf1/11158853648414/369325_main.jpg?im=Resize=400"
+    ],
+    "price": 28.95,
+    "description": "كريمة قهوة خفيفة خالية من الألبان من نستله، مثالية لتحسين طعم القهوة. معبأة في عبوة 450 جرام."
+  },
+  {
+    "name": "رياض فود كريم كراميل مع طبقة كراميل 70 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hbe/h3a/10309460656158/86100_main.jpg?im=Resize=400"
+    ],
+    "price": 2.75,
+    "discount": 15,
+    "description": "كريم كراميل مع طبقة كراميل من رياض فود، مثالي لحلوى غنية. معبأ في كيس 70 جرام."
+  },
+  {
+    "name": "فرشلي حشوة تورته توت ازرق 595 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h8c/h61/13698601353246/299925_main.jpg?im=Resize=400"
+    ],
+    "price": 27.45,
+    "description": "حشوة تورتة بنكهة التوت الأزرق من فرشلي، مثالية لتزيين الكيك والحلويات. معبأة في عبوة 595 جرام."
+  },
+  {
+    "name": "ستيفانا محلي 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h72/h46/14805015658526/563011_main.jpg?im=Resize=400"
+    ],
+    "price": 21.5,
+    "description": "محلي ستيفانا، بديل صحي للسكر مثالي للمشروبات والطهي. معبأ في عبوة 200 جرام."
+  },
+  {
+    "name": "سيلزا مسحوق الفانيليا 20 جرام × 6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h00/ha7/11526377570334/607495_main.jpg?im=Resize=400"
+    ],
+    "price": 14,
+    "description": "مسحوق فانيليا من سيلزا، مثالي لإضافة نكهة غنية للحلويات. معبأ في عبوة تحتوي على 6 أكياس × 20 جرام."
+  },
+  {
+    "name": "كارفور خليط كيك بنكهة الشوكولاتة بالحليب 500جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0c/h41/51176250179614/696763_main.jpg?im=Resize=400"
+    ],
+    "price": 10.5,
+    "description": "خليط كيك بنكهة الشوكولاتة بالحليب من كارفور، مثالي لتحضير كيك لذيذ. معبأ في عبوة 500 جرام."
+  },
+  {
+    "name": "العلالي مسحوق الكاسترد 450 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h6f/h8b/12629701459998/59912_main.jpg?im=Resize=400"
+    ],
+    "price": 9.25,
+    "discount": 30,
+    "description": "مسحوق كاسترد من العلالي، مثالي لتحضير حلوى الكاسترد الكريمية. معبأ في عبوة 450 جرام."
+  },
+  {
+    "name": "كاندريل مُحلي قليل السعرات مع ستيفيا 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha6/hb8/46977914208286/688399_main.jpg?im=Resize=400"
+    ],
+    "price": 33,
+    "description": "محلي قليل السعرات مع ستيفيا من كاندريل، مثالي للنظام الغذائي الصحي. معبأ في عبوة 200 جرام."
+  },
+  {
+    "name": "فينه طحين فاخر لجميع الاستعمالات 2كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h36/hc3/62442962714654/721961_main.jpg?im=Resize=400"
+    ],
+    "price": 4.75,
+    "description": "طحين فاخر متعدد الاستخدامات من فينه، مثالي للمخبوزات والعجائن. معبأ في كيس 2 كجم."
+  },
+  {
+    "name": "رينبو حليب مبخر بنكهة الهيل 170 جرام ×6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h3e/h1d/33629169778718/603908_main.jpg?im=Resize=400"
+    ],
+    "price": 21.25,
+    "discount": 6,
+    "description": "حليب مبخر بنكهة الهيل من رينبو، مثالي للمشروبات العربية. معبأ في عبوة تحتوي على 6 علب × 170 جرام."
+  },
+  {
+    "name": "يمامة ماء الزهر 750 مل",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/360356/1720960203/360356_main.jpg?im=Resize=400"
+    ],
+    "price": 17.75,
+    "description": "ماء الزهر من يمامة، مثالي لإضافة نكهة مميزة للحلويات العربية. معبأ في زجاجة 750 مل."
+  },
+  {
+    "name": "يمامة ماء ورد 750مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h02/h24/63513489997854/360354_main.jpg?im=Resize=400"
+    ],
+    "price": 17.5,
+    "description": "ماء الورد من يمامة، مثالي لتحضير الحلويات والمشروبات التقليدية. معبأ في زجاجة 750 مل."
+  },
+  {
+    "name": "بيتي كروكر خليط بانك بزبدة الحليب 907 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h63/h08/10126353563678/132781_main.jpg?im=Resize=400"
+    ],
+    "price": 22.95,
+    "discount": 7,
+    "description": "خليط بانكيك بزبدة الحليب من بيتي كروكر، مثالي لتحضير فطائر لذيذة. معبأ في عبوة 907 جرام."
+  },
+  {
+    "name": "نستلة كرامل عبوة ضاغطة 450 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h2c/h89/27445429239838/621342_main.jpg?im=Resize=400"
+    ],
+    "price": 20,
+    "description": "كراميل من نستله في عبوة ضاغطة، مثالي لتزيين الحلويات والكيك. معبأ في عبوة 450 جرام."
+  },
+  {
+    "name": "فرشلي حشوة تورته فراولة 595 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h6b/h9c/13115138539550/299928_main.jpg?im=Resize=400"
+    ],
+    "price": 24.45,
+    "description": "حشوة تورتة بنكهة الفراولة من فرشلي، مثالية لتزيين الكيك والحلويات. معبأة في عبوة 595 جرام."
+  },
+  {
+    "name": "بوك قشطة نصف دسم 160 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hac/h55/63885743325214/295768_main.jpg?im=Resize=400"
+    ],
+    "price": 5.5,
+    "discount": 37,
+    "description": "قشطة نصف دسم من بوك، مثالية للحلويات والأطباق الكريمية بقيمة دهنية أقل. معبأة في علبة 160 جرام."
+  },
+  {
+    "name": "العلالي كريم كراميل 70جرام ×6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hf8/h7a/27427496329246/574200_main.jpg?im=Resize=400"
+    ],
+    "price": 22.5,
+    "discount": 16,
+    "description": "كريم كراميل من العلالي، مثالي لتحضير حلوى غنية ولذيذة. معبأ في عبوة تحتوي على 6 أكياس × 70 جرام."
+  },
+  {
+    "name": "بيتي كروكر خليط فطائر البانكيك بالحبوب الكاملة 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h2d/h65/10126352908318/624671_main.jpg?im=Resize=400"
+    ],
+    "price": 22.25,
+    "discount": 13,
+    "description": "خليط بانكيك بالحبوب الكاملة من بيتي كروكر، مثالي لفطائر صحية ولذيذة. معبأ في عبوة 500 جرام."
+  },
+  {
+    "name": "العلالي بايكربونات الصوديوم 150 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hb6/h98/52126724849694/623873_main.jpg?im=Resize=400"
+    ],
+    "price": 4.5,
+    "discount": 12,
+    "description": "بايكربونات الصوديوم من العلالي، مثالي للخبز والاستخدامات المنزلية. معبأ في عبوة 150 جرام."
+  },
+  {
+    "name": "فرشلي كريمة الفستق 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h17/h40/17503827886110/668404_main.jpg?im=Resize=400"
+    ],
+    "price": 41.95,
+    "description": "كريمة الفستق من فرشلي، مثالية لتزيين الحلويات والكيك بنكهة غنية. معبأة في عبوة 200 جرام."
+  },
+  {
+    "name": "قشطة سادة 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha9/hc4/11175762526238/126216_main.jpg?im=Resize=400"
+    ],
+    "price": 6.75,
+    "description": "قشطة سادة من نستله، مثالية لتحضير الحلويات والأطباق الكريمية. معبأة في علبة 170 جرام."
+  },
+  {
+    "name": "بيلسبيري براوني 450 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h44/h0f/13984326090782/644612_main.jpg?im=Resize=400"
+    ],
+    "price": 16.5,
+    "discount": 18,
+    "description": "خليط براوني من بيلسبيري، مثالي لتحضير براوني غني بالشوكولاتة. معبأ في عبوة 450 جرام."
+  },
+  {
+    "name": "الرياض فود العلالي طحين ذرة 450 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h9f/hee/16651934040094/666681_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "discount": 30,
+    "description": "طحين ذرة من رياض فود والعلالي، مثالي لتحضير الوصفات والحلويات. معبأ في عبوة 450 جرام."
+  },
+  {
+    "name": "العلالي باكينج باودر مسحوق التخمير 100 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha8/h94/52126612652062/254797_main.jpg?im=Resize=400"
+    ],
+    "price": 4,
+    "discount": 31,
+    "description": "باكينج باودر من العلالي، مثالي لرفع العجائن وتحضير المخبوزات. معبأ في عبوة 100 جرام."
+  },
+  {
+    "name": "زدني خليط كيك الشوكولاتة 500جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0e/hc5/17287152599070/666676_main.jpg?im=Resize=400"
+    ],
+    "price": 11.5,
+    "discount": 18,
+    "description": "خليط كيك الشوكولاتة من زدني، مثالي لتحضير كيك غني ولذيذ. معبأ في عبوة 500 جرام."
+  },
+  {
+    "name": "يمامة ماء الورد 300 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hbe/h34/11512368988190/360353_main.jpg?im=Resize=400"
+    ],
+    "price": 8.75,
+    "discount": 15,
+    "description": "ماء الورد من يمامة، مثالي لإضافة نكهة مميزة للحلويات والمشروبات. معبأ في زجاجة 300 مل."
+  },
+  {
+    "name": "جرينز جيلي الكرز 80 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hbd/h2f/12734457380894/112591_main.jpg?im=Resize=400"
+    ],
+    "price": 3.25,
+    "description": "جيلي بنكهة الكرز من جرينز، مثالي لتحضير حلوى منعشة ولذيذة. معبأ في كيس 80 جرام."
+  },
+  {
+    "name": "النهلة محلى ستيفيا 250 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h42/ha6/34569694150686/691339_main.jpg?im=Resize=400"
+    ],
+    "price": 30.75,
+    "description": "محلي ستيفيا من النهلة، بديل صحي للسكر مثالي للمشروبات والطهي. معبأ في عبوة 250 جرام."
+  },
+  {
+    "name": "جرينز خليط مهلبية 85 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h04/he1/9476651286558/112585_main.jpg?im=Resize=400"
+    ],
+    "price": 4,
+    "description": "خليط مهلبية من جرينز، مثالي لتحضير حلوى عربية تقليدية. معبأ في كيس 85 جرام."
+  },
+  {
+    "name": "بيتي كروكر خليط كوكيز برقائق الشوكولاتة 496 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h3e/h77/61776213868574/126206_main.jpg?im=Resize=400"
+    ],
+    "price": 19.5,
+    "description": "خليط كوكيز برقائق الشوكولاتة من بيتي كروكر، مثالي لتحضير كوكيز لذيذة. معبأ في عبوة 496 جرام."
+  },
+  {
+    "name": "جرينز جلي مانجو 80 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h57/h69/11514173685790/555033_main.jpg?im=Resize=400"
+    ],
+    "price": 3.25,
+    "description": "جيلي بنكهة المانجو من جرينز، مثالي لتحضير حلوى منعشة واستوائية. معبأ في كيس 80 جرام."
+  },
+  {
+    "name": "أبو قوس حليب مبخر لايت 170 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha7/hd2/13513405464606/105148_main.jpg?im=Resize=400"
+    ],
+    "price": 3.75,
+    "description": "حليب مبخر لايت من أبو قوس، مثالي للمشروبات بقيمة دهنية أقل. معبأ في علبة 170 مل."
+  },
+  {
+    "name": "فوستر كلاركس كريم كاراميل 71 جرام × 6",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0d/h2d/12734456725534/136026_main.jpg?im=Resize=400"
+    ],
+    "price": 26.75,
+    "description": "كريم كراميل من فوستر كلاركس، مثالي لتحضير حلوى غنية بالعسل. معبأ في عبوة تحتوي على 6 أكياس × 71 جرام."
+  },
+  {
+    "name": "بيتي كروكر كريمة تزيين بنكهة الشوكولاتة 400 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hbf/hd5/11506836635678/583648_main.jpg?im=Resize=400"
+    ],
+    "price": 16.25,
+    "description": "كريمة تزيين بنكهة الشوكولاتة من بيتي كروكر، مثالية لتزيين الكيك. معبأة في عبوة 400 جرام."
+  },
+  {
+    "name": "نيستله كوفي ميت كريمة القهوة غير الحليبية الأصلية 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h47/hed/11158853517342/126149_main.jpg?im=Resize=400"
+    ],
+    "price": 10.5,
+    "description": "كريمة قهوة غير حليبية من نستله كوفي ميت، مثالية لتحسين طعم القهوة. معبأة في عبوة 170 جرام."
+  },
+  {
+    "name": "فريشلي شيرة الحلويات العربية 709 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hce/hb1/12733617012766/306531_main.jpg?im=Resize=400"
+    ],
+    "price": 24.45,
+    "discount": 16,
+    "description": "شيرة حلويات عربية من فرشلي، مثالية لتزيين الحلويات التقليدية. معبأة في زجاجة 709 مل."
+  },
+  {
+    "name": "جرينز خميرة جافة وفعالة 100جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hb7/ha3/62167590240286/688934_main.jpg?im=Resize=400"
+    ],
+    "price": 7.25,
+    "description": "خميرة جافة فعالة من جرينز، مثالية لتحضير الخبز والمعجنات. معبأة في عبوة 100 جرام."
+  },
+  {
+    "name": "جرينز خميرة جافة وفعالة 30جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h96/h69/33105517641758/688933_main.jpg?im=Resize=400"
+    ],
+    "price": 4,
+    "description": "خميرة جافة فعالة من جرينز، مثالية لتحضير كميات صغيرة من المعجنات. معبأة في عبوة 30 جرام."
+  },
+  {
+    "name": "فرشلي شيرة 355 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h26/hc8/16687134343198/668304_main.jpg?im=Resize=400"
+    ],
+    "price": 22.75,
+    "description": "شيرة من فرشلي، مثالية لتزيين الحلويات والبانكيك. معبأة في زجاجة 355 مل."
+  },
+  {
+    "name": "العلالي سكر بودرة 300 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h8d/h96/51963553382430/254793_main.jpg?im=Resize=400"
+    ],
+    "price": 9.25,
+    "discount": 14,
+    "description": "سكر بودرة من العلالي، مثالي لتزيين الحلويات والكيك. معبأ في عبوة 300 جرام."
+  },
+  {
+    "name": "جوردانز حبوب إفطار بالشوكولاتة الداكنة 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h4e/ha6/9027024715806/512179_main.jpg?im=Resize=400"
+    ],
+    "price": 30.25,
+    "discount": 19,
+    "description": "حبوب إفطار بالشوكولاتة الداكنة من جوردانز، مثالية لوجبة صباحية غنية. معبأة في عبوة 500 جرام."
+  },
+  {
+    "name": "المراعي حليب مكثف محلى 397 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h76/h2a/50520578654238/606771_main.jpg?im=Resize=400"
+    ],
+    "price": 14,
+    "description": "حليب مكثف محلى من المراعي، مثالي لتحضير الحلويات والمشروبات. معبأ في علبة 397 جرام."
+  },
+  {
+    "name": "بيلسبري خليط كيك فانيلا 360 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746586/1738576803/746586_main.jpg?im=Resize=400"
+    ],
+    "price": 11.5,
+    "discount": 41,
+    "description": "خليط كيك فانيليا من بيلسبري، مثالي لتحضير كيك طري ولذيذ. معبأ في عبوة 360 جرام."
+  },
+  {
+    "name": "العلالي شيره الحلويات العربيه 675 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h8f/ha4/34712326832158/59917_main.jpg?im=Resize=400"
+    ],
+    "price": 19,
+    "discount": 16,
+    "description": "شيرة حلويات عربية من العلالي، مثالية لتزيين البسبوسة والحلويات التقليدية. معبأة في زجاجة 675 جرام."
+  },
+  {
+    "name": "أبو قوس حليب مبخر الأصلي 410 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hba/hca/13513401729054/105143_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "discount": 14,
+    "description": "حليب مبخر أصلي من أبو قوس، مثالي للمشروبات والطبخ. معبأ في علبة 410 جرام."
+  },
+  {
+    "name": "العلالي خليط البسبوسة 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h8e/hd7/12318778916894/59913_main.jpg?im=Resize=400"
+    ],
+    "price": 12.25,
+    "description": "خليط بسبوسة من العلالي، مثالي لتحضير حلوى البسبوسة التقليدية بسهولة. معبأ في عبوة 500 جرام."
+  },
+  {
+    "name": "فريشلي شيرة البانكيك الخفيفة 709 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/he5/hf8/12733616619550/306530_main.jpg?im=Resize=400"
+    ],
+    "price": 21.45,
+    "discount": 16,
+    "description": "شيرة بانكيك خفيفة من فرشلي، مثالية لتزيين البانكيك بطعم خفيف. معبأة في زجاجة 709 مل."
+  },
+  {
+    "name": "الأولى سميد خشن 800 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/738353/1730795403/738353_main.jpg?im=Resize=400"
+    ],
+    "price": 9.25,
+    "discount": 27,
+    "description": "سميد خشن من الأولى، مثالي لتحضير الحلويات والأطباق العربية التقليدية. معبأ في كيس 800 جرام."
+  },
+  {
+    "name": "العلالي نشاء الذرة 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h7b/h36/51963556069406/59925_main.jpg?im=Resize=400"
+    ],
+    "price": 3.25,
+    "description": "نشاء الذرة من العلالي، مثالي لتكثيف الصلصات والحلويات بكمية صغيرة. معبأ في كيس 200 جرام."
+  },
+  {
+    "name": "بيلزبيري خليط البانكيك 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h5a/h3f/10110456594462/623461_main.jpg?im=Resize=400"
+    ],
+    "price": 12.5,
+    "discount": 46,
+    "description": "خليط بانكيك من بيلزبيري، مثالي لتحضير فطائر لذيذة وسريعة. معبأ في عبوة 500 جرام."
+  },
+  {
+    "name": "بيتي كروكر خلطة كيك 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h21/h5f/61776213147678/126192_main.jpg?im=Resize=400"
+    ],
+    "price": 18.5,
+    "description": "خلطة كيك بيضاء من بيتي كروكر، مثالية لتحضير كيك طري ومتعدد الاستخدامات. معبأة في عبوة 500 جرام."
+  },
+  {
+    "name": "اورينت جاردن بيكنج صودا 8 اونص",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h9d/he3/14549640380446/555800_main.jpg?im=Resize=400"
+    ],
+    "price": 19.45,
+    "discount": 18,
+    "description": "بيكنج صودا من اورينت جاردن، مثالي للخبز والاستخدامات المنزلية. معبأ في عبوة 227 جرام (8 أونص)."
+  },
+  {
+    "name": "المراعي قشطة 125 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hdd/h9a/50520577474590/600002_main.jpg?im=Resize=400"
+    ],
+    "price": 4,
+    "description": "قشطة كثيفة من المراعي، مثالية للحلويات والأطباق الكريمية. معبأة في علبة 125 مل."
+  },
+  {
+    "name": "جرينز جيلي ليمون 80 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h81/h21/14448341712926/112589_main.jpg?im=Resize=400"
+    ],
+    "price": 3.25,
+    "description": "جيلي بنكهة الليمون من جرينز، مثالي لتحضير حلوى منعشة وحمضية. معبأ في كيس 80 جرام."
+  },
+  {
+    "name": "العلالي خليط لقمة القاضي مغ الخميرة 453 جرام x2",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha9/h94/12603643396126/623870_main.jpg?im=Resize=400"
+    ],
+    "price": 16.25,
+    "description": "خليط لقمة القاضي مع الخميرة من العلالي، مثالي لتحضير الحلوى التقليدية. معبأ في عبوة مزدوجة 453 جرام × 2."
+  },
+  {
+    "name": "رينبو حليب مبخر عدني 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h92/hbb/15040740917278/664816_main.jpg?im=Resize=400"
+    ],
+    "price": 4.5,
+    "description": "حليب مبخر عدني من رينبو، مثالي لتحضير الشاي والمشروبات التقليدية. معبأ في علبة 170 جرام."
+  },
+  {
+    "name": "جرينز مسحوق نكهة الزعفران 60 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h1f/hcb/14836861632542/643314_main.jpg?im=Resize=400"
+    ],
+    "price": 6.75,
+    "description": "مسحوق نكهة الزعفران من جرينز، مثالي لإضافة لون وطعم للأطباق والحلويات. معبأ في عبوة 60 جرام."
+  },
+  {
+    "name": "بابا زعفران لون اصفر 100 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h93/h05/14686071554078/516816_main.jpg?im=Resize=400"
+    ],
+    "price": 2.5,
+    "description": "لون زعفران أصفر من بابا، مثالي لتلوين الأطباق والحلويات. معبأ في عبوة 100 جرام."
+  },
+  {
+    "name": "بوني حليب مبخر قليل الدسم زجاجة 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hf1/h93/14055381794846/561570_main.jpg?im=Resize=400"
+    ],
+    "price": 5.95,
+    "description": "حليب مبخر قليل الدسم من بوني، مثالي للمشروبات بقيمة دهنية أقل. معبأ في زجاجة 170 جرام."
+  },
+  {
+    "name": "يمامة ماء الزهر 300 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha6/h22/12733614587934/360355_main.jpg?im=Resize=400"
+    ],
+    "price": 8.75,
+    "discount": 15,
+    "description": "ماء الزهر من يمامة، مثالي لإضافة نكهة عطرية للحلويات التقليدية. معبأ في زجاجة 300 مل."
+  },
+  {
+    "name": "جرينز شراب البانكيك الأصلي 355مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0c/h74/62442977001502/723462_main.jpg?im=Resize=400"
+    ],
+    "price": 13.5,
+    "description": "شراب بانكيك أصلي من جرينز، مثالي لتزيين البانكيك والحلويات. معبأ في زجاجة 355 مل."
+  },
+  {
+    "name": "مكاتي ماء جوز الهند مع اللب 310 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h42/h5f/61742986887198/722684_main.jpg?im=Resize=400"
+    ],
+    "price": 4.75,
+    "description": "ماء جوز الهند مع اللب من مكاتي، مثالي كمشروب منعش أو للطهي. معبأ في علبة 310 مل."
+  },
+  {
+    "name": "السعودية شبيه القشطة 155 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h02/h2b/26650368835614/338710_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "شبيه قشطة من السعودية، مثالي للحلويات والأطباق الكريمية. معبأ في علبة 155 جرام."
+  },
+  {
+    "name": "العلالي خليط البان كيك 454 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hc9/h86/12603645886494/52350_main.jpg?im=Resize=400"
+    ],
+    "price": 9,
+    "discount": 14,
+    "description": "خليط بانكيك من العلالي، مثالي لتحضير فطائر سريعة ولذيذة. معبأ في عبوة 454 جرام."
+  },
+  {
+    "name": "الأولى طحين القمح الكامل تشاكي طازج 5كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h77/h27/50551058890782/711604_main.jpg?im=Resize=400"
+    ],
+    "price": 19.5,
+    "discount": 11,
+    "description": "طحين قمح كامل تشاكي طازج من الأولى، مثالي للمخبوزات الصحية. معبأ في كيس 5 كجم."
+  },
+  {
+    "name": "العلالي كريم كراميل مع سائل الكراميل 70 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h7b/h12/12325049368606/518005_main.jpg?im=Resize=400"
+    ],
+    "price": 4,
+    "description": "كريم كراميل مع سائل الكراميل من العلالي، مثالي لحلوى غنية وسهلة. معبأ في كيس 70 جرام."
+  },
+  {
+    "name": "العلالي خليط كريم كراميل 50 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hb5/h0e/51847207288862/579272_main.jpg?im=Resize=400"
+    ],
+    "price": 2,
+    "description": "خليط كريم كراميل من العلالي، مثالي لتحضير حلوى كلاسيكية بسرعة. معبأ في كيس 50 جرام."
+  },
+  {
+    "name": "العلالي خميرة فورية 11 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha7/h46/51887002714142/254799_main.jpg?im=Resize=400"
+    ],
+    "price": 4.75,
+    "discount": 17,
+    "description": "خميرة فورية من العلالي، مثالية لتحضير المعجنات والخبز بسرعة. معبأة في 4 أكياس × 11 جرام."
+  },
+  {
+    "name": "فرشلي زينة للحلوى والكيك - شوكولاتة 397 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h22/h9b/50564278353950/678441_main.jpg?im=Resize=400"
+    ],
+    "price": 28.45,
+    "discount": 16,
+    "description": "زينة شوكولاتة من فرشلي، مثالية لتزيين الحلويات والكيك. معبأة في عبوة 397 جرام."
+  },
+  {
+    "name": "رياض فود كريم كراميل 50 جرام × 36",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h83/h98/10200759894046/133024_main.jpg?im=Resize=400"
+    ],
+    "price": 54.25,
+    "description": "كريم كراميل من رياض فود، مثالي لتحضير حلوى بكمية كبيرة. معبأ في عبوة تحتوي على 36 كيس × 50 جرام."
+  },
+  {
+    "name": "شتورة ماء زهر 300 مل",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hec/he3/14805200240670/661315_main.jpg?im=Resize=400"
+    ],
+    "price": 10.25,
+    "description": "ماء زهر من شتورة، مثالي لإضافة نكهة عطرية للحلويات التقليدية. معبأ في زجاجة 300 مل."
+  },
+  {
+    "name": "جرينز جيلي برتقال 80 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h97/h25/14448341876766/112587_main.jpg?im=Resize=400"
+    ],
+    "price": 3.25,
+    "description": "جيلي بنكهة البرتقال من جرينز، مثالي لتحضير حلوى منعشة وحمضية. معبأ في كيس 80 جرام."
+  },
+  {
+    "name": "فريشكو قشطة 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0f/h6e/14805012217886/313345_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "discount": 23,
+    "description": "قشطة من فريشكو، مثالية لتحضير الحلويات والأطباق الكريمية. معبأة في علبة 170 جرام."
+  },
+  {
+    "name": "فوم طحين غامق 2 كج",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h6e/hec/14953131704350/481902_main.jpg?im=Resize=400"
+    ],
+    "price": 5,
+    "description": "طحين غامق من فوم، مثالي لتحضير المخبوزات الصحية والعجائن. معبأ في كيس 2 كجم."
+  },
+  {
+    "name": "فرشلي خليط البانكيك الاصلية 297 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hfa/ha6/13115138867230/408791_main.jpg?im=Resize=400"
+    ],
+    "price": 19.45,
+    "description": "خليط بانكيك أصلي من فرشلي، مثالي لتحضير فطائر لذيذة وسريعة. معبأ في عبوة 297 جرام."
+  },
+  {
+    "name": "ساف ليفور خميرة جافة نشطة 500 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h6a/hc3/11526225035294/515785_main.jpg?im=Resize=400"
+    ],
+    "price": 28.5,
+    "description": "خميرة جافة نشطة من ساف ليفور، مثالية لتحضير الخبز والمعجنات بكميات كبيرة. معبأة في عبوة 500 جرام."
+  }
+]

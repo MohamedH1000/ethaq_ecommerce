@@ -23,7 +23,7 @@ import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 type Props = {
-  product: IProduct;
+  product: any;
 };
 const ProductDetails = ({ product }: Props) => {
   const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
@@ -71,12 +71,16 @@ const ProductDetails = ({ product }: Props) => {
   const item = generateCartItem(product, selectedVariation);
   async function addToCart() {
     if (!isSelected) return;
+    const finalPrice =
+      product?.discount > 0
+        ? product.price * (1 - product.discount / 100)
+        : product.price;
     try {
       await addProductToCart(
         user.id,
         product?.id,
         selectedQuantity,
-        product.price
+        finalPrice
       );
       toast.success("تم اضافة المنتج الى عربة التسوق بنجاح");
     } catch (error) {
@@ -107,7 +111,7 @@ const ProductDetails = ({ product }: Props) => {
             <h2 className="text-xl font-medium text-gray-800 dark:text-white">
               {product?.name}
             </h2>
-            {product?.unit && isEmpty(variations) ? (
+            {/* {product?.unit && isEmpty(variations) ? (
               <div className="text-sm font-medium md:text-15px hidden md:block">
                 {product?.unit}
               </div>
@@ -117,20 +121,40 @@ const ProductDetails = ({ product }: Props) => {
                 minPrice={product?.min_price}
                 maxPrice={product?.max_price}
               />
-            )}
+            )} */}
+            <div className="mt-10">
+              <h3 className="text-xl text-gray-800 dark:text-white font-medium">
+                تفاصيل المنتج:
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-200 mt-5">
+                {product?.description}
+              </p>
+            </div>
+            <span className="border-t border-dashed w-full" />
             {isEmpty(variations) && (
               <div className="flex flex-col items-start md:flex-row  md:justify-between ">
                 <div className="flex items-center ">
-                  <div className="text-primary font-bold text-base md:text-xl xl:text-[22px]">
-                    {price}
-                  </div>
-                  {discount && (
+                  {product?.discount > 0 ? (
+                    <div className="text-primary font-bold text-base md:text-xl xl:text-[22px]">
+                      {(
+                        product?.price *
+                        (1 - product.discount / 100) *
+                        selectedQuantity
+                      ).toFixed(2)}{" "}
+                      ريال
+                    </div>
+                  ) : (
+                    <div className="text-primary font-bold text-base md:text-xl xl:text-[22px]">
+                      {(product?.price * selectedQuantity).toFixed(2)} ريال
+                    </div>
+                  )}
+                  {product?.discount && (
                     <>
                       <del className="text-sm text-opacity-50 md:text-15px pl-3  text-gray-500 ">
-                        {basePrice}
+                        {(product?.price * selectedQuantity).toFixed(2)}
                       </del>
                       <span className="inline-block rounded font-bold text-xs md:text-sm bg-primary/10  text-primary uppercase px-2 py-1 ml-2.5 ">
-                        {discount} off
+                        {product?.discount}% خصم
                       </span>
                     </>
                   )}
@@ -152,16 +176,6 @@ const ProductDetails = ({ product }: Props) => {
                 </div> */}
               </div>
             )}
-          </div>
-          <span className="border-t border-dashed w-full" />
-
-          <div className="">
-            <h3 className="text-xl text-gray-800 dark:text-white font-medium">
-              تفاصيل المنتج:
-            </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-200">
-              {product?.description}
-            </p>
           </div>
           <span className="border-t border-dashed w-full" />
         </div>

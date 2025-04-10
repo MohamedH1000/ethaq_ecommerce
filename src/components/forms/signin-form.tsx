@@ -67,7 +67,8 @@ export function SignInForm() {
         });
 
         toast.success("تم تسجيل الدخول بنجاح");
-        router.push("/account/dashboard");
+        router.push("/");
+        window.location.reload();
       } else if (signInResult?.error) {
         toast.error("بيانات تسجيل الدخول غير صحيحة");
       }

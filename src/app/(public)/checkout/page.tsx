@@ -2,6 +2,7 @@ import Breadcrumb from "@/components/ui/breadcrumb";
 import { getOrderById } from "@/lib/actions/order.action";
 import CheckoutLeftSite from "@/modules/checkout/CheckoutLeftSite";
 import { Metadata } from "next";
+import RedirectHome from "./components/redirectHome";
 
 export const metadata: Metadata = {
   title: "Checkout",
@@ -14,7 +15,6 @@ const CheckoutPage = async ({
 }) => {
   const orderId: any = searchParams?.orderId;
   const orderDetails = await getOrderById(orderId);
-
   return (
     <div>
       {/* Breadcrumb Section */}
@@ -38,24 +38,25 @@ const CheckoutPage = async ({
               <div className="mt-4">
                 <h3 className="text-md font-medium mb-2">تفاصيل الطلب</h3>
                 <div className="space-y-2">
-                  <p>
+                  {/* <p>
                     <span className="font-semibold">رقم الطلب:</span>{" "}
                     {orderDetails.id}
-                  </p>
+                  </p> */}
                   <p>
                     <span className="font-semibold">تاريخ الطلب:</span>{" "}
                     {new Date(orderDetails.orderDate).toLocaleDateString()}
                   </p>
                   <p>
                     <span className="font-semibold">الحالة:</span>{" "}
-                    {orderDetails.status}
+                    {/* {orderDetails.status} */}
+                    قيد الانتظار
                   </p>
                   <p>
                     <span className="font-semibold">اجمالي السعر:</span>{" "}
                     SAR&nbsp;
                     {orderDetails.totalAmount.toFixed(2)}
                   </p>
-                  <p>
+                  {/* <p>
                     <span className="font-semibold">القيمة المدفوعة:</span>{" "}
                     SAR&nbsp;
                     {orderDetails.paidAmount.toFixed(2)}
@@ -72,13 +73,12 @@ const CheckoutPage = async ({
                   <p>
                     <span className="font-semibold">رقم المستخدم:</span>{" "}
                     {orderDetails.userId}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             )}
-            <button className="w-full mt-4 bg-primary text-white p-4 rounded-lg font-bold text-md">
-              التحويل لصفحة الدفع
-            </button>
+
+            <RedirectHome />
           </div>
         </div>
       </div>

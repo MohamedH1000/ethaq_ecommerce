@@ -1,0 +1,494 @@
+// category id 67f43eb349e57d3fa16aa152
+[
+  {
+    "name": "شيتوس كرنشي حار نار 23 جرام × 12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h9d/hb4/51542156279838/584530_main.jpg?im=Resize=400"
+    ],
+    "price": 16.95,
+    "discount": 24,
+    "description": "شيتوس كرنشي بنكهة حارة نار، وجبة خفيفة مقرمشة ومثالية لمحبي النكهات القوية. معبأة في عبوة تحتوي على 12 كيس × 23 جرام."
+  },
+  {
+    "name": "دوريتوس رقائق الذرة بجبنة الناتشو 25 جرام × 12",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/287666/1739181604/287666_main.jpg?im=Resize=400"
+    ],
+    "price": 15.95,
+    "discount": 19,
+    "description": "دوريتوس رقائق الذرة بنكهة جبنة الناتشو، وجبة خفيفة لذيذة ومقرمشة. معبأة في عبوة تحتوي على 12 كيس × 25 جرام."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالملح والخل 155 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0b/h6c/64112148807710/50314_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "description": "شرائح بطاطس ليز بنكهة الملح والخل، وجبة خفيفة كلاسيكية بطعم مميز. معبأة في كيس 155 جرام."
+  },
+  {
+    "name": "البطل فشار بالجبنة معد بضغط الهواء 23 جرام ×10",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h64/hc3/14184889188382/333436_main.jpg?im=Resize=400"
+    ],
+    "price": 10.95,
+    "discount": 21,
+    "description": "فشار البطل بنكهة الجبنة معد بضغط الهواء، خفيف ومقرمش. معبأ في عبوة تحتوي على 10 أكياس × 23 جرام."
+  },
+  {
+    "name": "ليز بطاطس بالجبنة 21 جرام ×12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h47/h1f/64112142352414/219944_main.jpg?im=Resize=400"
+    ],
+    "price": 15.95,
+    "description": "شرائح بطاطس ليز بنكهة الجبنة، وجبة خفيفة غنية بالطعم. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالملح 21 جرام × 12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h92/h0a/64112142975006/219949_main.jpg?im=Resize=400"
+    ],
+    "price": 15.95,
+    "description": "شرائح بطاطس ليز بنكهة الملح الكلاسيكية، وجبة خفيفة بسيطة ولذيذة. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
+  },
+  {
+    "name": "دوريتوس رقائق الدرة حار وحلو 175 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/287670/1739181604/287670_main.jpg?im=Resize=400"
+    ],
+    "price": 8.5,
+    "description": "دوريتوس رقائق الذرة بنكهة حار وحلو، مزيج مثالي من النكهات المميزة. معبأة في كيس 175 جرام."
+  },
+  {
+    "name": "ليز بطاطس بالفلفل 21 جرام ×12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h7e/h43/64112143138846/219948_main.jpg?im=Resize=400"
+    ],
+    "price": 15.95,
+    "description": "شرائح بطاطس ليز بنكهة الفلفل الحار، وجبة خفيفة لمحبي النكهات القوية. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الجبن 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746714/1743069606/746714_main.jpg?im=Resize=400"
+    ],
+    "price": 11.5,
+    "description": "منتفخات مستر تيتو بنكهة الجبن، وجبة خفيفة مقرمشة وغنية بالطعم. معبأة في كيس 200 جرام."
+  },
+  {
+    "name": "ليز بطاطس بكاتشاب الطماطم 155 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/had/h57/64112148217886/50312_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "description": "شرائح بطاطس ليز بنكهة كاتشاب الطماطم، وجبة خفيفة بطعم حلو وحامض. معبأة في كيس 155 جرام."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالفلفل الحار 155 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0c/hd6/64112149823518/50315_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "description": "شرائح بطاطس ليز بنكهة الفلفل الحار، وجبة خفيفة حارة ومقرمشة. معبأة في كيس 155 جرام."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالملح 155 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h9b/h77/51542153789470/50313_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "description": "شرائح بطاطس ليز بنكهة الملح الكلاسيكية، وجبة خفيفة بسيطة ومحبوبة. معبأة في كيس 155 جرام."
+  },
+  {
+    "name": "دوريتوس رقائق الذرة بجبنة الناتشو 175 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/287671/1739181604/287671_main.jpg?im=Resize=400"
+    ],
+    "price": 8.5,
+    "description": "دوريتوس رقائق الذرة بنكهة جبنة الناتشو، وجبة خفيفة غنية ومقرمشة. معبأة في كيس 175 جرام."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة البيتزا 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746713/1743069606/746713_main.jpg?im=Resize=400"
+    ],
+    "price": 11.5,
+    "description": "منتفخات مستر تيتو بنكهة البيتزا، وجبة خفيفة بطعم البيتزا المميز. معبأة في كيس 200 جرام."
+  },
+  {
+    "name": "تسالي شرائح البطاطس بالفلفل الحار 25 جرام × 12",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/516988/1729150203/516988_main.jpg?im=Resize=400"
+    ],
+    "price": 16.5,
+    "description": "شرائح بطاطس تسالي بنكهة الفلفل الحار، وجبة خفيفة حارة ومقرمشة. معبأة في عبوة تحتوي على 12 كيس × 25 جرام."
+  },
+  {
+    "name": "تسالي شيبس كمون وليمون 25 جرام * 12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hce/h0e/51542162833438/667027_main.jpg?im=Resize=400"
+    ],
+    "price": 16.5,
+    "description": "شيبس تسالي بنكهة الكمون والليمون، وجبة خفيفة بنكهة منعشة ومميزة. معبأة في عبوة تحتوي على 12 كيس × 25 جرام."
+  },
+  {
+    "name": "توستيتوس - سيمبلي أورجانيك، رقائق تورتيلا الذرة الزرقاء بالملح البحري 255جرام - مستورد",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h72/h6e/48754925731870/695881_main.jpg?im=Resize=400"
+    ],
+    "price": 34.25,
+    "description": "رقائق تورتيلا الذرة الزرقاء من توستيتوس سيمبلي أورجانيك بنكهة الملح البحري، وجبة خفيفة عضوية مستوردة. معبأة في كيس 255 جرام."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بالملح 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h17/h8e/51176232091678/633635_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "description": "رقائق بطاطس كارفور بنكهة الملح، وجبة خفيفة كلاسيكية وبأسعار مناسبة. معبأة في كيس 170 جرام."
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بالكريمة الحامضة والبصل 140جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h30/hbf/51176243626014/671754_main.jpg?im=Resize=400"
+    ],
+    "price": 9.95,
+    "description": "رقائق بطاطس كارفور مطبوخة يدويًا بنكهة الكريمة الحامضة والبصل، وجبة خفيفة مميزة. معبأة في كيس 140 جرام."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بالملح 40 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h2e/h46/9785907707934/633640_main.jpg?im=Resize=400"
+    ],
+    "price": 1.95,
+    "description": "رقائح بطاطس كارفور بنكهة الملح بحجم صغير، وجبة خفيفة سريعة. معبأة في كيس 40 جرام."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الفلفل الحار والليمون 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746715/1743069606/746715_main.jpg?im=Resize=400"
+    ],
+    "price": 11.5,
+    "description": "منتفخات مستر تيتو بنكهة الفلفل الحار والليمون، وجبة خفيفة منعشة وحارة. معبأة في كيس 200 جرام."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهات متنوعة 70 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746703/1743069606/746703_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "منتفخات مستر تيتو بنكهات متنوعة، وجبة خفيفة بحجم صغير وطعم مميز. معبأة في كيس 70 جرام."
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بالملح والخل 40 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hb8/hb5/51176243396638/671751_main.jpg?im=Resize=400"
+    ],
+    "price": 2.95,
+    "description": "رقائق بطاطس كارفور مطبوخة يدويًا بنكهة الملح والخل، وجبة خفيفة صغيرة ومقرمشة. معبأة في كيس 40 جرام."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهات متنوعة 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746717/1743069606/746717_main.jpg?im=Resize=400"
+    ],
+    "price": 11.5,
+    "description": "منتفخات مستر تيتو بنكهات متنوعة، وجبة خفيفة غنية بالنكهات المختلفة. معبأة في كيس 200 جرام."
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بالملح والخل 140 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hae/hc6/51176243888158/671752_main.jpg?im=Resize=400"
+    ],
+    "price": 9.95,
+    "description": "رقائق بطاطس كارفور مطبوخة يدويًا بنكهة الملح والخل، وجبة خفيفة مميزة. معبأة في كيس 140 جرام."
+  },
+  {
+    "name": "كارفور كورنيز بالفلفل الحار 145 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h14/h4e/51176255029278/706891_main.jpg?im=Resize=400"
+    ],
+    "price": 6.5,
+    "description": "كورنيز كارفور بنكهة الفلفل الحار، وجبة خفيفة مقرمشة وحارة. معبأة في كيس 145 جرام."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الفلفل الحار والليمون 70 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746701/1743069606/746701_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "منتفخات مستر تيتو بنكهة الفلفل الحار والليمون بحجم صغير، وجبة خفيفة منعشة. معبأة في كيس 70 جرام."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بكتشب الطماطم 170 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hc3/h8a/51176232189982/633636_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "description": "رقائق بطاطس كارفور بنكهة كتشب الطماطم، وجبة خفيفة بطعم حلو وحامض. معبأة في كيس 170 جرام."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بالفلفل الحار 40 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h60/h3c/9785907445790/633637_main.jpg?im=Resize=400"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس كارفور بنكهة الفلفل الحار بحجم صغير، وجبة خفيفة حارة. معبأة في كيس 40 جرام."
+  },
+  {
+    "name": "مستر تيتو فشار نكهة الزبدة 70 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746702/1743069606/746702_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "فشار مستر تيتو بنكهة الزبدة، وجبة خفيفة خفيفة وغنية بالطعم. معبأ في كيس 70 جرام."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بكتشب الطماطم 40 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hef/h46/9785907773470/633641_main.jpg?im=Resize=400"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس كارفور بنكهة كتشب الطماطم بحجم صغير، وجبة خفيفة لذيذة. معبأة في كيس 40 جرام."
+  },
+  {
+    "name": "ليز فورنو بالفلفل الأسود 160 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hee/h42/51556145102878/502145_main.jpg?im=Resize=400"
+    ],
+    "price": 7.95,
+    "description": "ليز فورنو بنكهة الفلفل الأسود، وجبة خفيفة مخبوزة بطعم قوي ومميز. معبأة في كيس 160 جرام."
+  },
+  {
+    "name": "ليز بطاطس بالجبنة الفرنسية 155 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h2d/hc9/64112149495838/50316_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "description": "شرائح بطاطس ليز بنكهة الجبنة الفرنسية، وجبة خفيفة غنية ومقرمشة. معبأة في كيس 155 جرام."
+  },
+  {
+    "name": "كريسبي حلقات بالجبنة 23 جرام × 18",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h56/hda/13044130742302/653754_main.jpg?im=Resize=400"
+    ],
+    "price": 12.95,
+    "description": "حلقات كريسبي بنكهة الجبنة، وجبة خفيفة مقرمشة وممتعة. معبأة في عبوة تحتوي على 18 كيس × 23 جرام."
+  },
+  {
+    "name": "مكسيتا رقائق التورتيلا حامض وحلو 23جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h22/ha7/27057123426334/661898_main.jpg?im=Resize=400"
+    ],
+    "price": 1.5,
+    "description": "رقائق تورتيلا مكسيتا بنكهة حامض وحلو، وجبة خفيفة صغيرة بطعم مميز. معبأة في كيس 23 جرام."
+  },
+  {
+    "name": "مهباج فشار 1 كيلو",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h05/h23/47619685253150/642931_main.jpg?im=Resize=400"
+    ],
+    "price": 12.25,
+    "description": "فشار مهباج بحجم عائلي، مثالي للتحميص المنزلي والاستمتاع بالوجبات الخفيفة. معبأ في كيس 1 كجم."
+  },
+  {
+    "name": "برينجلز رقائق البطاطس الأصلية 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h06/hef/12844244533278/610644_main.jpg?im=Resize=400"
+    ],
+    "price": 17.95,
+    "discount": 28,
+    "description": "رقائق بطاطس برينجلز الأصلية، وجبة خفيفة كلاسيكية بقوام مميز. معبأة في علبة 200 جرام."
+  },
+  {
+    "name": "ليز بطاطس فورنو بالجبنة الأصلية 160جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h1a/h19/51556144513054/502146_main.jpg?im=Resize=400"
+    ],
+    "price": 7.95,
+    "description": "ليز فورنو بنكهة الجبنة الأصلية، وجبة خفيفة مخبوزة وغنية بالطعم. معبأة في كيس 160 جرام."
+  },
+  {
+    "name": "شيتوس شيبس حار نار 200جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0a/hc1/51542164701214/667040_main.jpg?im=Resize=400"
+    ],
+    "price": 8.25,
+    "description": "شيتوس كرنشي بنكهة حارة نار مع لمسة الليمون، وجبة خفيفة قوية ومقرمشة. معبأة في كيس 200 جرام."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالكاتشب الطماطم 21 جرام ×12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/ha8/h0e/64112142811166/219943_main.jpg?im=Resize=400"
+    ],
+    "price": 15.95,
+    "description": "شرائح بطاطس ليز بنكهة كاتشاب الطماطم، وجبة خفيفة صغيرة بطعم مميز. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
+  },
+  {
+    "name": "كريسبي حروف بطاطس بنكهة الكاتشب 80 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h16/h69/11006741315614/541140_main.jpg?im=Resize=400"
+    ],
+    "price": 4.5,
+    "discount": 28,
+    "description": "حروف بطاطس كريسبي بنكهة الكاتشب، وجبة خفيفة ممتعة للأطفال والكبار. معبأة في كيس 80 جرام."
+  },
+  {
+    "name": "كتكو بليس أصابع الخضروات الهشة بالزعتر مع الزبادي الكريمي 135 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hc4/hd7/12935530250270/638083_main.jpg?im=Resize=400"
+    ],
+    "price": 17.25,
+    "description": "أصابع خضروات كتكو بليس بنكهة الزعتر والزبادي الكريمي، وجبة خفيفة صحية وهشة. معبأة في كيس 135 جرام."
+  },
+  {
+    "name": "ليز ماكس رقائق الفلفل الحار المكسيكي 160 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hcb/h50/51542168043550/687137_main.jpg?im=Resize=400"
+    ],
+    "price": 7.5,
+    "description": "رقائق ليز ماكس بنكهة الفلفل الحار المكسيكي، وجبة خفيفة حارة ومقرمشة. معبأة في كيس 160 جرام."
+  },
+  {
+    "name": "مرامي رقائق البطاطس فلفل حار 100 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hd7/hbd/9260701384734/120_main.jpg?im=Resize=400"
+    ],
+    "price": 6,
+    "description": "رقائق بطاطس مرامي بنكهة الفلفل الحار، وجبة خفيفة بطعم قوي. معبأة في كيس 100 جرام."
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة بطعم الجبن 15 جرام × 12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h06/h58/9750814720030/448013_main.jpg?im=Resize=400"
+    ],
+    "price": 19.25,
+    "discount": 12,
+    "description": "قراقيش ذرة بيوقلز بنكهة الجبن، وجبة خفيفة صغيرة ومقرمشة. معبأة في عبوة تحتوي على 12 كيس × 15 جرام."
+  },
+  {
+    "name": "فرفشة عيدان بطاطس طبيعية بالشطة و الليمون 15 جرام × 24",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h17/h8b/63391566495774/616482_main.jpg?im=Resize=400"
+    ],
+    "price": 18.75,
+    "description": "عيدان بطاطس فرفشة بنكهة الشطة والليمون، وجبة خفيفة حارة ومنعشة. معبأة في عبوة تحتوي على 24 كيس × 15 جرام."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الجبن 70 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746700/1743069606/746700_main.jpg?im=Resize=400"
+    ],
+    "price": 3.5,
+    "description": "منتفخات مستر تيتو بنكهة الجبن بحجم صغير، وجبة خفيفة غنية بالطعم. معبأة في كيس 70 جرام."
+  },
+  {
+    "name": "فرفشة عيدان بطاطس طبيعية بالجبنة الفرنسية 15جرام ×24",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h6d/h8b/63391566463006/616480_main.jpg?im=Resize=400"
+    ],
+    "price": 18.75,
+    "description": "عيدان بطاطس فرفشة بنكهة الجبنة الفرنسية، وجبة خفيفة غنية ومقرمشة. معبأة في عبوة تحتوي على 24 كيس × 15 جرام."
+  },
+  {
+    "name": "برينجلز بنكهة الباربكيو 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h3d/hfc/12844244172830/610648_main.jpg?im=Resize=400"
+    ],
+    "price": 18.25,
+    "discount": 29,
+    "description": "رقائق بطاطس برينجلز بنكهة الباربكيو، وجبة خفيفة بطعم الشواء المميز. معبأة في علبة 200 جرام."
+  },
+  {
+    "name": "كتكو سبيرلز بطاطس بالفلفل الحلو 14 جرام × 20",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hbc/h11/13402540769310/638091_main.jpg?im=Resize=400"
+    ],
+    "price": 13,
+    "description": "سبيرلز كتكو بنكهة الفلفل الحلو، وجبة خفيفة حلزونية ومقرمشة. معبأة في عبوة تحتوي على 20 كيس × 14 جرام."
+  },
+  {
+    "name": "فرفشة رقائق البطاطس بالملح 21جرام ×12",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h6d/h6b/16781828915230/660754_main.jpg?im=Resize=400"
+    ],
+    "price": 12.75,
+    "discount": 30,
+    "description": "رقائق بطاطس فرفشة بنكهة الملح، وجبة خفيفة كلاسيكية ومقرمشة. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
+  },
+  {
+    "name": "شيتوس كرنشي بالجبنة 205 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h52/h95/12783964061726/386879_main.jpg?im=Resize=400"
+    ],
+    "price": 8.25,
+    "description": "شيتوس كرنشي بنكهة الجبنة، وجبة خفيفة غنية ومقرمشة. معبأة في كيس 205 جرام."
+  },
+  {
+    "name": "البطل فشار بالزبدة معد بضغط الهواء 90 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h22/hd1/29511486177310/339784_main.jpg?im=Resize=400"
+    ],
+    "price": 6.25,
+    "discount": 12,
+    "description": "فشار البطل بنكهة الزبدة معد بضغط الهواء، وجبة خفيفة خفيفة ولذيذة. معبأ في كيس 90 جرام."
+  },
+  {
+    "name": "فرشلي فشار 906 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h64/had/51509465514014/533862_main.jpg?im=Resize=400"
+    ],
+    "price": 22.25,
+    "discount": 13,
+    "description": "فشار فرشلي بحجم كبير، مثالي للتحميص المنزلي والاستمتاع العائلي. معبأ في وعاء 906 جرام."
+  },
+  {
+    "name": "فيركو أصابع البطاطس بالفلفل الحار 45جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h03/hfe/61851463581726/649146_main.jpg?im=Resize=400"
+    ],
+    "price": 4.25,
+    "discount": 19,
+    "description": "أصابع بطاطس فيركو بنكهة الفلفل الحار، وجبة خفيفة حارة ومقرمشة. معبأة في كيس 45 جرام."
+  },
+  {
+    "name": "مرامي شيبس بالملح والخل 100جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hed/h2a/26516760363038/121_main.jpg?im=Resize=400"
+    ],
+    "price": 6,
+    "description": "رقائق بطاطس مرامي بنكهة الملح والخل، وجبة خفيفة بطعم كلاسيكي. معبأة في كيس 100 جرام."
+  },
+  {
+    "name": "ليز فورنو بطاطس بالجبنة الأصلية 40 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h89/he1/51542152773662/502144_main.jpg?im=Resize=400"
+    ],
+    "price": 3,
+    "description": "ليز فورنو بنكهة الجبنة الأصلية بحجم صغير، وجبة خفيفة مخبوزة ولذيذة. معبأة في كيس 40 جرام."
+  },
+  {
+    "name": "مرامي رقائق البطاطس كاتشب 100 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h0e/h6b/9258463330334/119_main.jpg?im=Resize=400"
+    ],
+    "price": 6,
+    "description": "رقائق بطاطس مرامي بنكهة الكاتشب، وجبة خفيفة بطعم حلو وحامض. معبأة في كيس 100 جرام."
+  },
+  {
+    "name": "صن رينج كراكر الجبن 60 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/hfa/he1/16701899276318/415034_main.jpg?im=Resize=400"
+    ],
+    "price": 6.75,
+    "description": "كراكر صن رينج بنكهة الجبن، وجبة خفيفة مقرمشة ومناسبة للعائلة. معبأة في كيس 60 جرام."
+  },
+  {
+    "name": "شيتوس كرنشي حار نار 200 جرام",
+    "images": [
+      "https://cdn.mafrservices.com/sys-master-root/h07/he9/51542152511518/412609_main.jpg?im=Resize=400"
+    ],
+    "price": 8.25,
+    "description": "شيتوس كرنشي بنكهة حارة نار، وجبة خفيفة قوية ومقرمشة لمحبي النكهات الحارة. معبأة في كيس 200 جرام."
+  }
+]

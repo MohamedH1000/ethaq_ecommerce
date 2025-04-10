@@ -4,6 +4,10 @@ import { ColumnDef } from "@tanstack/react-table";
 import { toast } from "sonner";
 import { CheckCircle, XCircle, Edit, Trash2 } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { useState } from "react";
 
 // Define the shape of Category data based on your Prisma schema
 export type Category = {
@@ -21,6 +25,10 @@ export const columns: ColumnDef<Category>[] = [
   {
     accessorKey: "orderDate",
     header: "تاريخ الطلب",
+    cell: ({ row }) => {
+      const date = new Date(row.original.orderDate);
+      return `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
+    },
   },
   // {
   //   accessorKey: "images",
@@ -42,35 +50,85 @@ export const columns: ColumnDef<Category>[] = [
   {
     accessorKey: "status",
     header: "حالة الطلب",
-    // cell: ({ row }) => <span>{row?.original?.products?.length || 0} منتج</span>,
+    cell: ({ row }) => {
+      const status = row.original.status;
+      const statusMap = {
+        pending: "قيد الانتظار",
+        processing: "قيد المعالجة",
+        shipped: "تم الشحن",
+        delivered: "تم التسليم",
+        cancelled: "ملغى",
+      };
+
+      return statusMap[status] || status; // Fallback to raw status if not found
+    },
   },
   {
     accessorKey: "totalAmount",
     header: "اجمالي المبلغ",
-    cell: ({ row }) => <span>{row.original.totalAmount} SAR</span>,
+    cell: ({ row }) => <span>{row.original.totalAmount.toFixed(2)} ريال</span>,
   },
   {
-    accessorKey: "paidAmount",
-    header: "المبلغ المدفوع",
-    cell: ({ row }) => <span>{row.original.paidAmount} SAR</span>,
+    accessorKey: "orderItems",
+    header: "تفاصيل الطلب",
+    size: 250,
+    minSize: 200,
+    cell: ({ row }) => {
+      const router = useRouter();
+      return (
+        <Button
+          onClick={() => router.push(`/account/orders/${row.original.id}`)}
+          variant="outline"
+          className="min-w-[180px] bg-primary text-white rounded-xl hover:!bg-primary text-sm
+        hover:!text-white"
+        >
+          عرض الطلب
+          {/* ({row.original.orderItems?.length || 0}) */}
+        </Button>
+      );
+    },
   },
-  {
-    accessorKey: "remainingAmount",
-    header: "المبلغ المتبقي",
-    cell: ({ row }) => <span>{row.original.remainingAmount} SAR</span>,
-  },
-  {
-    accessorKey: "isPaidFully",
-    header: "حالة انتهاء الدفع",
-  },
-  {
-    accessorKey: "address",
-    header: "العنوان",
-  },
-  {
-    accessorKey: "userId",
-    header: "رقم المستخدم",
-  },
+
+  // {
+  //   accessorKey: "paidAmount",
+  //   header: "المبلغ المدفوع",
+  //   cell: ({ row }) => <span>{row.original.paidAmount} SAR</span>,
+  // },
+  // {
+  //   accessorKey: "remainingAmount",
+  //   header: "المبلغ المتبقي",
+  //   cell: ({ row }) => <span>{row.original.remainingAmount} SAR</span>,
+  // },
+  // {
+  //   accessorKey: "isPaidFully",
+  //   header: "حالة انتهاء الدفع",
+  // },
+  // {
+  //   accessorKey: "address",
+  //   header: "العنوان",
+  // },
+  // {
+  //   accessorKey: "userId",
+  //   header: "رقم المستخدم",
+  // },
+  // {
+  //   accessorKey: "details",
+  //   header: "عرض التفاصيل",
+  //   cell: ({ row }) => {
+  //     const router = useRouter();
+  //     const handleRowClick = (id: string) => {
+  //       router.push(`/account/orders/${id}`);
+  //     };
+  //     return (
+  //       <Button
+  //         onClick={() => handleRowClick(row.original.id)}
+  //         className="bg-primay text-white"
+  //       >
+  //         عرض التفاصيل
+  //       </Button>
+  //     );
+  //   },
+  // },
   // {
   //   accessorKey: "actions",
   //   header: "الإجراءات",
@@ -120,3 +178,59 @@ export const columns: ColumnDef<Category>[] = [
   //   },
   // },
 ];
+// {/* <Dialog>
+// <DialogTrigger asChild>
+//   <Button
+//     onClick={() =>
+//       router.push(`/account/orders/${row.original.id}`)
+//     }
+//     variant="outline"
+//     className="min-w-[180px] bg-primary text-white rounded-md hover:!bg-primary text-sm
+//     hover:!text-white"
+//   >
+//     عرض الطلب
+//     {/* ({row.original.orderItems?.length || 0}) */}
+//   </Button>
+// </DialogTrigger>
+// <DialogContent className="sm:max-w-[500px]">
+
+//   <div className="space-y-4 max-h-[60vh] overflow-y-auto">
+
+//     {row.original.orderItems?.map((item: any) => (
+//       <div
+//         key={item.id}
+//         className="flex items-start border-b pb-4 gap-4"
+//       >
+//         <div className="w-24 h-24 bg-gray-100 rounded-md overflow-hidden flex-shrink-0">
+//           {item.product.images[0] && (
+//             <Image
+//               src={item.product.images[0]}
+//               alt={item.product.name}
+//               width={96}
+//               height={96}
+//               className="object-cover w-full h-full"
+//             />
+//           )}
+//         </div>
+//         <div className="flex-1 text-right">
+//           <h3 className="font-medium text-gray-800">
+//             {item.product.name}
+//           </h3>
+//           <p className="text-sm text-gray-500 line-clamp-2">
+//             {item.product.description}
+//           </p>
+//           <div className="mt-2 flex justify-between items-center">
+//             <span className="text-gray-600">
+//               {item.quantity} × {item.priceAtPurchase} ر.س
+//             </span>
+//             <span className="font-medium">
+//               {(item.quantity * item.priceAtPurchase).toFixed(2)}{" "}
+//               ر.س
+//             </span>
+//           </div>
+//         </div>
+//       </div>
+//     ))}
+//   </div>
+// </DialogContent>
+// </Dialog> */}
