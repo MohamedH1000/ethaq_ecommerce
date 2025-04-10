@@ -18,13 +18,9 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Icons } from "@/components/ui/icons";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { dashboardConfig } from "@/configs/dashboard";
 import Link from "next/link";
-import { useEffect } from "react";
 import { getCurrentUser } from "@/lib/actions/user.action";
-import console from "console";
-
 interface DashboardLayoutProps {
   children: React.ReactNode;
 }

@@ -20,7 +20,7 @@ const AccountWallets = ({ currentUser }: { currentUser: User }) => {
         <WalletIcon className="w-12 h-12 text-primary" />
         <div className="">
           <h5 className="text-gray-600">المبلغ المتبقي</h5>
-          <h6>{currentUser.remainingAmount.toFixed(2)} ريال</h6>
+          <h6>{currentUser?.remainingAmount?.toFixed(2)} ريال</h6>
         </div>
         <span className="absolute -right-3 md:-right-6 top-1/2 -translate-y-1/2 group-hover:-rotate-12 group-hover:-right-2 md:group-hover:-right-4 transition-all duration-500">
           <WalletIcon className="w-16 h-16 text-gray-200 " />

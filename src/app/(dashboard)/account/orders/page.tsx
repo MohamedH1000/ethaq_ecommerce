@@ -5,17 +5,8 @@ import { getCurrentUser } from "@/lib/actions/user.action";
 import { getMyOrders } from "@/lib/actions/order.action";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+
 import {
   Table,
   TableBody,
@@ -50,7 +41,7 @@ const MyOrders = async () => {
             <CardTitle>المبلغ المتبقي</CardTitle>
           </CardHeader>
           <CardContent>
-            {currentUser.remainingAmount.toFixed(2)} ريال
+            {currentUser?.remainingAmount?.toFixed(2)} ريال
           </CardContent>
         </Card>
         <Dialog>
