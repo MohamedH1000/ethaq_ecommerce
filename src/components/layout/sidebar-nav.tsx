@@ -43,7 +43,7 @@ export function SidebarNav({ items, className, ...props }: SidebarNavProps) {
         <div className="h-[80px] w-[80px] rounded-full  absolute -bottom-2 left-1/2 -translate-x-1/2 ">
           <Avatar className="h-20 w-20  rounded-full ring-4 ring-white ">
             <AvatarImage
-              src={currentUser?.image}
+              src={currentUser?.image || "/assets/avatar.png"}
               alt={currentUser?.name}
               className=""
             />

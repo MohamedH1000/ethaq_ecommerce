@@ -7,11 +7,14 @@ import AddressFrom from "@/components/forms/AddressForm";
 import { Shell } from "@/components/shells/shell";
 import { Metadata } from "next";
 import React from "react";
+import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 
 export const metadata: Metadata = {
-  title: "New Address",
-  description: "Add a new address to your account",
+  title: "عنوان جديد",
+  description: "اضافة عنوان جديد لحسابك",
 };
+
 const NewAddress = () => {
   return (
     <Shell variant={"sidebar"}>

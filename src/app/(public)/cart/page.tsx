@@ -6,9 +6,9 @@ import ClientOnly from "@/components/common/shared/ClientOnly";
 const CartPage = async () => {
   return (
     <div className="">
-      <div className="py-3 bg-gray-100 dark:bg-gray-800">
+      {/* <div className="py-3 bg-gray-100 dark:bg-gray-800">
         <Breadcrumb />
-      </div>
+      </div> */}
       <ClientOnly>
         <CartItemsDetails />
       </ClientOnly>

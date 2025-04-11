@@ -28,9 +28,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const user = await getCurrentUser();
-  if (user?.isAdmin) {
-    redirect(`${process.env.NEXTAUTH_ADMIN_URL}`);
-  }
+
   return (
     <html lang="ar" suppressHydrationWarning dir="rtl">
       <head />

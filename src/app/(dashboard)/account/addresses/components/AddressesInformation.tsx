@@ -2,18 +2,12 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Icons } from "@/components/ui/icons";
-import { useAddress } from "@/hooks/api/addresses/useAddress";
-import { useGetAddresses } from "@/hooks/api/addresses/useGetAddresses";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import AddressCard from "./AddressCard";
 
-const AddressesInformation = () => {
-  const { data, isLoading } = useGetAddresses();
-  const { addressDeleteLoading, attemptToDeleteAddress } = useAddress();
-  // if(isLoading){
-  //   return AddressesLoading()
-  // }
+const AddressesInformation = ({ data }: any) => {
+  const [isLoading, setIsLoading] = useState(false);
   return (
     <section className="grid  md:grid-cols-2 lg:grid-cols-3  gap-3">
       <Card className=" min-h-[350px]">
@@ -28,12 +22,12 @@ const AddressesInformation = () => {
           </div>
         </CardContent>
       </Card>
-      {data?.docs?.map((address, index) => (
+      {data?.map((address: any, index: any) => (
         <React.Fragment key={index}>
           <AddressCard
             className="addresses-list__item"
             address={address}
-            label={address.default ? <span>الافتراضي</span> : <span></span>}
+            label={address?.default ? <span>الافتراضي</span> : <span></span>}
             loading={isLoading}
             footer={
               <React.Fragment>
@@ -47,10 +41,9 @@ const AddressesInformation = () => {
                 <Button
                   variant={"link"}
                   className="p-0"
-                  disabled={addressDeleteLoading}
+                  disabled={isLoading}
                   onClick={(event) => {
                     event.preventDefault();
-                    attemptToDeleteAddress(address._id);
                   }}
                 >
                   حذف

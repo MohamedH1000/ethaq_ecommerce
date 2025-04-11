@@ -108,7 +108,7 @@ const Header = ({ currentUser }: { currentUser: User }) => {
                   <div className="relative flex gap-2 items-center cursor-pointer">
                     <Avatar className="h-8 w-8  rounded-full">
                       <AvatarImage
-                        src={currentUser?.image}
+                        src={currentUser?.image || "/assets/avatar.png"}
                         alt={currentUser.name}
                       />
                       <AvatarFallback>{currentUser?.name}</AvatarFallback>

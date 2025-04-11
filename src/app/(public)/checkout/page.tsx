@@ -2,7 +2,6 @@ import Breadcrumb from "@/components/ui/breadcrumb";
 import { getOrderById } from "@/lib/actions/order.action";
 import CheckoutLeftSite from "@/modules/checkout/CheckoutLeftSite";
 import { Metadata } from "next";
-import RedirectHome from "./components/redirectHome";
 
 export const metadata: Metadata = {
   title: "Checkout",
@@ -78,7 +77,7 @@ const CheckoutPage = async ({
               </div>
             )}
 
-            <RedirectHome />
+            {/* <RedirectHome /> */}
           </div>
         </div>
       </div>

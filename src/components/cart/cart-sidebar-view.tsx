@@ -16,22 +16,80 @@ import {
   increaseOrderItem,
   decreaseOrderItem,
 } from "@/lib/actions/order.action";
-import { getCurrentUser } from "@/lib/actions/user.action";
+import {
+  addAddress,
+  getCurrentUser,
+  myAddresses,
+} from "@/lib/actions/user.action";
 import { Loader } from "lucide-react";
 import { toast } from "sonner";
 import { useUser } from "@/context/UserContext";
 import { useCartStore } from "@/store/cart/cart.store";
+import {
+  Dialog,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "../ui/dialog";
+import { Button } from "../ui/button";
 
 const CartSidebarView = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [orderItems, setOrderItems] = useState([]);
   const { user } = useUser(); // Changed to null for better initial state
+  const [addressDialogOpen, setAddressDialogOpen] = useState(false);
+  const [addresses, setAddresses] = useState([]);
+  const [selectedAddressId, setSelectedAddressId] = useState(null);
+  const [isCreatingAddress, setIsCreatingAddress] = useState(false);
   const globalModal = useGlobalModalStateStore((state) => state);
   const router = useRouter();
   // console.log("orderItems", orderItems);
   // Fetch current user
-
+  const fetchAddresses = useCallback(async () => {
+    if (!user?.id) return;
+    const userAddresses = await myAddresses(user.id);
+    // console.log("user addresses", userAddresses);
+    setAddresses(userAddresses);
+  }, [user?.id]);
+  useEffect(() => {
+    if (addressDialogOpen) {
+      fetchAddresses();
+    }
+  }, [addressDialogOpen, fetchAddresses]);
   // Fetch order items - memoized
+  const handleRequestWithAddress = async () => {
+    if (!selectedAddressId) {
+      toast.error("الرجاء اختيار عنوان التوصيل");
+      return;
+    }
+
+    const response = await createOrder(user.id, orderItems, selectedAddressId);
+    if (response.success) {
+      toast.success("تم إنشاء الطلب بنجاح");
+      setAddressDialogOpen(false);
+      globalModal.closeCartState();
+      useCartStore.getState().setOrderItems([]);
+      // Clear cart and close modal
+    } else {
+      toast.error(response.message);
+    }
+  };
+
+  const handleCreateNewAddress = async (addressData: any) => {
+    setIsCreatingAddress(true);
+    try {
+      const newAddress = await addAddress(addressData);
+      setAddresses((prev: any) => [...prev, newAddress]);
+      setSelectedAddressId(newAddress.id);
+      toast.success("تم إضافة العنوان بنجاح");
+    } catch (error) {
+      toast.error("فشل في إضافة العنوان");
+    } finally {
+      setIsCreatingAddress(false);
+    }
+  };
   const fetchOrderItems = useCallback(async () => {
     if (!user?.id) return;
 
@@ -201,7 +259,82 @@ const CartSidebarView = () => {
           >
             <span className="py-0.5">عرض عربة التسوق</span>
           </Link>
-          <Link
+          <Dialog open={addressDialogOpen} onOpenChange={setAddressDialogOpen}>
+            <DialogTrigger asChild>
+              <Button
+                className={cn(
+                  "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-primary rounded font-semibold text-sm sm:text-15px text-white",
+                  {
+                    "cursor-not-allowed": orderItems.length === 0,
+                  }
+                )}
+                disabled={orderItems.length === 0}
+              >
+                <span className="py-0.5">انشاء طلب</span>
+              </Button>
+            </DialogTrigger>
+
+            <DialogContent className="max-w-md z-[1000]">
+              {" "}
+              {/* Added z-index here */}
+              <DialogHeader>
+                <DialogTitle>اختر عنوان التوصيل</DialogTitle>
+              </DialogHeader>
+              <div className="space-y-4">
+                {addresses?.length > 0 ? (
+                  <div className="space-y-2">
+                    {addresses?.map((address) => (
+                      <div
+                        key={address?.id}
+                        className={`p-4 border rounded-lg cursor-pointer ${
+                          selectedAddressId === address?.id
+                            ? "border-primary bg-primary/10"
+                            : "border-gray-200"
+                        }`}
+                        onClick={() => setSelectedAddressId(address?.id)}
+                      >
+                        <p>
+                          {address?.street}, {address?.city}
+                        </p>
+                        <p>
+                          {address?.country}, {address?.postcode}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-center py-4">لا يوجد عناوين مسجلة</p>
+                )}
+
+                <Button
+                  variant="outline"
+                  className="w-full"
+                  onClick={() => {
+                    globalModal.closeCartState();
+                    setAddressDialogOpen(false);
+                    router.push("/account/addresses/new");
+                  }}
+                >
+                  إضافة عنوان جديد
+                </Button>
+              </div>
+              <DialogFooter>
+                <Button
+                  variant="outline"
+                  onClick={() => setAddressDialogOpen(false)}
+                >
+                  إلغاء
+                </Button>
+                <Button
+                  onClick={handleRequestWithAddress}
+                  disabled={!selectedAddressId}
+                >
+                  تأكيد الطلب
+                </Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
+          {/* <Link
             href={`${ROUTES.CHECKOUT}`}
             className={cn(
               "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-primary rounded font-semibold text-sm sm:text-15px text-white focus:outline-none transition duration-300 hover:bg-opacity-90",
@@ -216,7 +349,7 @@ const CartSidebarView = () => {
             }}
           >
             <span className="py-0.5">انشاء طلب</span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

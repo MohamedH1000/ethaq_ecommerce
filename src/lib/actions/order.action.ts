@@ -70,7 +70,11 @@ export async function getMyOrders(userId: string) {
     console.log(error);
   }
 }
-export async function createOrder(userId: string, orderItems: any[]) {
+export async function createOrder(
+  userId: string,
+  orderItems: any[],
+  addressId: string
+) {
   try {
     // First, check the user's unpaid balance
     const user = await prisma.user.findUnique({
@@ -133,11 +137,20 @@ export async function createOrder(userId: string, orderItems: any[]) {
     const newOrder = await prisma.order.create({
       data: {
         userId,
+        addressId,
         totalAmount: newOrderTotal,
         remainingAmount: newOrderTotal,
         status: "pending",
         orderDate: new Date(),
         isPaidFully: false,
+      },
+      include: {
+        address: true,
+        orderItems: {
+          include: {
+            product: true,
+          },
+        },
       },
     });
 

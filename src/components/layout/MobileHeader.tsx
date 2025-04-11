@@ -71,7 +71,7 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
                 <div className="relative flex gap-2 items-center cursor-pointer">
                   <Avatar className="h-8 w-8  rounded-full">
                     <AvatarImage
-                      src={currentUser?.image}
+                      src={currentUser?.image || "/assets/avatar.png"}
                       alt={currentUser.name}
                     />
                     <AvatarFallback>{currentUser.name}</AvatarFallback>
@@ -95,10 +95,9 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
                     <Link href="/account/dashboard">
                       <Icons.user className="mr-2 h-4 w-4" aria-hidden="true" />
                       الحساب
-                      <DropdownMenuShortcut>⇧⌘A</DropdownMenuShortcut>
                     </Link>
                   </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
+                  {/* <DropdownMenuItem asChild>
                     <Link href="/account/dashboard">
                       <Icons.terminal
                         className="mr-2 h-4 w-4"
@@ -107,7 +106,7 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
                       لوحة التحكم
                       <DropdownMenuShortcut>⌘D</DropdownMenuShortcut>
                     </Link>
-                  </DropdownMenuItem>
+                  </DropdownMenuItem> */}
                   {/* <DropdownMenuItem asChild disabled>
                     <Link href="/account/settings">
                       <Icons.settings
@@ -124,7 +123,6 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
                   <Link href="/signout">
                     <Icons.logout className="mr-2 h-4 w-4" aria-hidden="true" />
                     تسجيل الخروج
-                    <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
                   </Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>

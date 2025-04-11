@@ -19,7 +19,7 @@ import { Input } from "../ui/input";
 import { PasswordInput } from "../ui/password-input";
 import { Icons } from "../ui/icons";
 import { toast } from "sonner";
-import { Loader } from "lucide-react";
+import prisma from "@/lib/prisma";
 
 const loginSchema = z.object({
   email: z.string().email("يرجى إدخال بريد إلكتروني صالح"),
@@ -50,6 +50,17 @@ export function SignInForm() {
   const attemptToLogin = async (data: LoginFormData) => {
     setIsSubmitting(true);
     try {
+      const user = await prisma.user.findUnique({
+        where: { email: data.email.toLowerCase() },
+        select: { isAdmin: true, status: true },
+      });
+
+      // Check if user exists and is admin
+      if (user && !user.isAdmin) {
+        toast.error("غير مسموح لك بالدخول. يجب أن تكون مسؤولاً للنظام");
+        return;
+      }
+
       const signInResult = await signIn("credentials", {
         email: data.email,
         password: data.password,

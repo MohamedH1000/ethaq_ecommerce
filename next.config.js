@@ -11,6 +11,9 @@ const nextConfig = {
       "cdn.mafrservices.com",
     ],
   },
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
   eslint: {
     ignoreDuringBuilds: true, // Only if you have separate CI checks
   },

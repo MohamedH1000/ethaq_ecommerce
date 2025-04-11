@@ -3,53 +3,79 @@ import React from "react";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-  UncontrolledFormMessage,
 } from "../ui/form";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
 import { Icons } from "../ui/icons";
 import { Checkbox } from "../ui/checkbox";
-import { IAddress } from "@/types";
-import { useAddress } from "@/hooks/api/addresses/useAddress";
 
+import { zodResolver } from "@hookform/resolvers/zod";
+import { infer, z } from "zod";
+import { useForm } from "react-hook-form";
+import { toast } from "sonner";
+import { addAddress } from "@/lib/actions/user.action";
+import { addressSchema } from "@/lib/schemas/address";
+
+type AddressFormData = z.infer<typeof addressSchema>;
 const AddressFrom = () => {
-  const {
-    addressForm,
-    IsAddressError,
-    addressLoading,
-    attemptToCreateAddress,
-  } = useAddress();
+  const form = useForm<z.infer<typeof addressSchema>>({
+    resolver: zodResolver(addressSchema),
+    defaultValues: {
+      name: "",
+      country: "المملكة العربية السعودية", // Default for KSA
+      street: "",
+      city: "",
+      state: "",
+      postcode: "",
+      email: "",
+      phone: "",
+      default: false,
+    },
+  });
 
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+
+  const onSubmit = async (data: z.infer<typeof addressSchema>) => {
+    setIsSubmitting(true);
+    try {
+      const result = await addAddress(data);
+      if (result.success) {
+        toast.success("تم إضافة العنوان بنجاح");
+        form.reset();
+      }
+    } catch (error) {
+      toast.error(
+        error instanceof Error ? error.message : "حدث خطأ أثناء إضافة العنوان"
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   return (
-    <Form {...addressForm}>
-      <form
-        className="grid gap-6 "
-        onSubmit={(...args) =>
-          void addressForm.handleSubmit(attemptToCreateAddress)(...args)
-        }
-      >
+    <Form {...form}>
+      <form className="grid gap-6 " onSubmit={form.handleSubmit(onSubmit)}>
         <FormField
-          control={addressForm.control}
+          control={form.control}
           name="name"
           render={({ field }) => (
             <FormItem>
               <FormLabel>الاسم</FormLabel>
               <FormControl>
-                <Input placeholder="Jone" {...field} />
+                <Input placeholder="الاسم الكامل" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
 
+        {/* Country Field */}
         <FormField
-          control={addressForm.control}
+          control={form.control}
           name="country"
           render={({ field }) => (
             <FormItem>
@@ -61,8 +87,10 @@ const AddressFrom = () => {
             </FormItem>
           )}
         />
+
+        {/* Street Field */}
         <FormField
-          control={addressForm.control}
+          control={form.control}
           name="street"
           render={({ field }) => (
             <FormItem>
@@ -75,8 +103,9 @@ const AddressFrom = () => {
           )}
         />
 
+        {/* City Field */}
         <FormField
-          control={addressForm.control}
+          control={form.control}
           name="city"
           render={({ field }) => (
             <FormItem>
@@ -88,21 +117,25 @@ const AddressFrom = () => {
             </FormItem>
           )}
         />
+
+        {/* State Field */}
         <FormField
-          control={addressForm.control}
+          control={form.control}
           name="state"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>State</FormLabel>
+              <FormLabel>المنطقة</FormLabel>
               <FormControl>
-                <Input placeholder="State" {...field} />
+                <Input placeholder="المنطقة" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
+
+        {/* Postcode Field */}
         <FormField
-          control={addressForm.control}
+          control={form.control}
           name="postcode"
           render={({ field }) => (
             <FormItem>
@@ -115,37 +148,39 @@ const AddressFrom = () => {
           )}
         />
 
+        {/* Email and Phone */}
         <div className="flex flex-col items-start gap-6 sm:flex-row">
-          <FormItem className="w-full">
-            <FormLabel>الايميل</FormLabel>
-            <FormControl>
-              <Input
-                aria-invalid={!!addressForm.formState.errors.state}
-                placeholder="example@gmail.com"
-                {...addressForm.register("email")}
-              />
-            </FormControl>
-            <UncontrolledFormMessage
-              message={addressForm.formState.errors?.state?.message}
-            />
-          </FormItem>
-          <FormItem className="w-full">
-            <FormLabel>رقم المحمول</FormLabel>
-            <FormControl>
-              <Input
-                aria-invalid={!!addressForm.formState.errors.state}
-                placeholder="+88016******"
-                {...addressForm.register("phone")}
-              />
-            </FormControl>
-            <UncontrolledFormMessage
-              message={addressForm.formState.errors?.state?.message}
-            />
-          </FormItem>
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem className="w-full">
+                <FormLabel>الايميل</FormLabel>
+                <FormControl>
+                  <Input placeholder="example@gmail.com" {...field} />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name="phone"
+            render={({ field }) => (
+              <FormItem className="w-full">
+                <FormLabel>رقم المحمول</FormLabel>
+                <FormControl>
+                  <Input placeholder="+966501234567" {...field} />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
         </div>
 
+        {/* Default Address Checkbox */}
         <FormField
-          control={addressForm.control}
+          control={form.control}
           name="default"
           render={({ field }) => (
             <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
@@ -162,14 +197,11 @@ const AddressFrom = () => {
           )}
         />
 
-        <Button disabled={addressLoading} className=" " size={"sm"}>
-          {addressLoading && (
-            <Icons.spinner
-              className="mr-2 h-4 w-4 animate-spin"
-              aria-hidden="true"
-            />
+        <Button type="submit" disabled={isSubmitting}>
+          {isSubmitting && (
+            <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
           )}
-          حفظ
+          حفظ العنوان
         </Button>
       </form>
     </Form>
