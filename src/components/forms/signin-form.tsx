@@ -50,14 +50,21 @@ export function SignInForm() {
   const attemptToLogin = async (data: LoginFormData) => {
     setIsSubmitting(true);
     try {
-      const user = await prisma.user.findUnique({
-        where: { email: data.email.toLowerCase() },
-        select: { isAdmin: true, status: true },
+      const adminCheckResponse = await fetch("/api/check-admin", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email: data.email }),
       });
+      if (!adminCheckResponse.ok) {
+        throw new Error("Failed to check admin status");
+      }
+      const user = await adminCheckResponse.json();
 
       // Check if user exists and is admin
-      if (user && !user.isAdmin) {
-        toast.error("غير مسموح لك بالدخول. يجب أن تكون مسؤولاً للنظام");
+      if (user && user.isAdmin) {
+        toast.error("غير مسموح لك بالدخول. الصفحة خاصة بالمستخدم");
         return;
       }
 

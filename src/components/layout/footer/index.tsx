@@ -182,16 +182,21 @@ export const Footer = () => {
       </div>
       <div className="bg-[#000957]">
         <div className="container py-5 flex items-center justify-center  flex-wrap gap-5">
-          <p className="text-sm text-gray-400 md:text-start text-center">
+          <p className="text-sm text-gray-400 md:text-start text-center flex ">
             &copy; {new Date().getFullYear()} حقوق النشر محفوظة لإيثاق للحلول
             المالية . تم التطوير بواسطة &nbsp;
             <Link
-              href="https://vercel.com"
+              href="https://nashamatech.tech/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline text-brand whitespace-nowrap"
             >
-              Vercel
+              <Image
+                src={"/assets/nashama.jpg"}
+                alt="Nashama Technology"
+                height={20}
+                width={20}
+                className="rounded-md"
+              />
             </Link>
           </p>
 
