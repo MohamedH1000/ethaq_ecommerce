@@ -31,6 +31,23 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useGlobalModalStateStore } from "@/store/modal";
+import { zodResolver } from "@hookform/resolvers/zod";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+  UncontrolledFormMessage,
+  useFormField,
+} from "@/components/ui/form";
+import { addressSchema } from "@/lib/schemas/address";
+import { z } from "zod";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Icons } from "@/components/ui/icons";
+import { useForm } from "react-hook-form";
 
 const CartItemsDetails = () => {
   const [items, setItems] = useState([]);
@@ -38,11 +55,20 @@ const CartItemsDetails = () => {
   const [user, setUser] = useState();
   const router = useRouter();
   const [addressDialogOpen, setAddressDialogOpen] = useState(false);
+  const [newAddressDialogOpen, setNewAddressDialogOpen] = useState(false);
   const [addresses, setAddresses] = useState([]);
-  const globalModal = useGlobalModalStateStore((state) => state);
-
   const [selectedAddressId, setSelectedAddressId] = useState(null);
   const [isCreatingAddress, setIsCreatingAddress] = useState(false);
+  const globalModal = useGlobalModalStateStore((state) => state);
+  const addressForm = useForm<z.infer<typeof addressSchema>>({
+    resolver: zodResolver(addressSchema),
+    defaultValues: {
+      street: "",
+      city: "",
+      state: "",
+      postcode: "",
+    },
+  });
   // console.log("user", user);
   const fetchAddresses = useCallback(async () => {
     if (!user?.id) return;
@@ -61,32 +87,57 @@ const CartItemsDetails = () => {
       toast.error("الرجاء اختيار عنوان التوصيل");
       return;
     }
-
-    const response = await createOrder(user?.id, items, selectedAddressId);
-    if (response.success) {
-      toast.success("تم إنشاء الطلب بنجاح");
-      setAddressDialogOpen(false);
-      globalModal.closeCartState();
-      useCartStore.getState().setOrderItems([]);
-      router.push("/");
-      // Clear cart and close modal
-    } else {
-      toast.error(response.message);
+    setIsLoading(true);
+    try {
+      const response = await createOrder(user?.id, items, selectedAddressId);
+      if (response.success) {
+        toast.success("تم إنشاء الطلب بنجاح");
+        setAddressDialogOpen(false);
+        globalModal.closeCartState();
+        useCartStore.getState().setOrderItems([]);
+        router.push("/");
+        // Clear cart and close modal
+      } else {
+        toast.error(response.message);
+      }
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
-  const handleCreateNewAddress = async (addressData: any) => {
+  const handleCreateNewAddress = async (
+    data: z.infer<typeof addressSchema>
+  ) => {
+    console.log("Form submitted with data:", data); // This should log first
     setIsCreatingAddress(true);
     try {
-      const newAddress = await addAddress(addressData);
+      const newAddress = await addAddress(data);
+      console.log("API response:", newAddress); // Check API response
+      console.log("Creating address with data:", data);
       setAddresses((prev: any) => [...prev, newAddress]);
-      setSelectedAddressId(newAddress.id);
+      setSelectedAddressId(newAddress?.id);
       toast.success("تم إضافة العنوان بنجاح");
+      setNewAddressDialogOpen(false);
+      setAddressDialogOpen(true); // Reopen the address selection dialog
+      addressForm.reset(); // Reset form after successful submission
     } catch (error) {
       toast.error("فشل في إضافة العنوان");
+      console.error("Error creating address:", error);
     } finally {
       setIsCreatingAddress(false);
     }
+  };
+
+  const handleOpenNewAddressDialog = () => {
+    setAddressDialogOpen(false);
+    setNewAddressDialogOpen(true);
+  };
+
+  const handleBackToAddressSelection = () => {
+    setNewAddressDialogOpen(false);
+    setAddressDialogOpen(true);
   };
   useEffect(() => {
     const fetchCurrentUser = async () => {
@@ -166,28 +217,6 @@ const CartItemsDetails = () => {
   }, [items, totalPrice]);
 
   const total = Number(totalPrice) + taxAmount;
-  const handleRequest = async () => {
-    if (!user?.id || items.length === 0) return;
-    // console.log("we reached here");
-    setIsLoading(true);
-    try {
-      const response = await createOrder(user?.id, items, selectedAddressId);
-      if (response.success) {
-        // Close the cart modal and redirect to checkout or order confirmation
-        router.push(`${ROUTES.CHECKOUT}?orderId=${response.orderId}`);
-
-        setItems([]); // Optionally clear the cart
-        useCartStore.getState().setOrderItems([]);
-      } else {
-        toast.error(response.message);
-        console.error(response.message);
-      }
-    } catch (error) {
-      console.log(error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
   return (
     <div className="container flex flex-col xl:flex-row  gap-8 py-12  ">
       <div className="w-full  xl:w-[70%] whitespace-nowrap rounded-md h-auto">
@@ -255,14 +284,13 @@ const CartItemsDetails = () => {
               {total.toFixed(2)} ريال
             </span>
           </div>
-
           <Dialog open={addressDialogOpen} onOpenChange={setAddressDialogOpen}>
             <DialogTrigger asChild>
               <Button
                 className={cn(
                   "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-primary rounded font-semibold text-sm sm:text-15px text-white",
                   {
-                    "cursor-not-allowed": items.length === 0,
+                    "cursor-not-allowed": items?.length === 0,
                   }
                 )}
                 disabled={items.length === 0}
@@ -272,11 +300,10 @@ const CartItemsDetails = () => {
             </DialogTrigger>
 
             <DialogContent className="max-w-md z-[1000]">
-              {" "}
-              {/* Added z-index here */}
               <DialogHeader>
                 <DialogTitle>اختر عنوان التوصيل</DialogTitle>
               </DialogHeader>
+
               <div className="space-y-4">
                 {addresses?.length > 0 ? (
                   <div className="space-y-2">
@@ -302,33 +329,120 @@ const CartItemsDetails = () => {
                 ) : (
                   <p className="text-center py-4">لا يوجد عناوين مسجلة</p>
                 )}
-
-                <Button
-                  variant="outline"
-                  className="w-full"
-                  onClick={() => {
-                    globalModal.closeCartState();
-                    setAddressDialogOpen(false);
-                    router.push("/account/addresses/new");
-                  }}
-                >
-                  إضافة عنوان جديد
-                </Button>
               </div>
-              <DialogFooter>
-                <Button
-                  variant="outline"
-                  onClick={() => setAddressDialogOpen(false)}
-                >
-                  إلغاء
+
+              <DialogFooter className="gap-2">
+                <Button variant="outline" onClick={handleOpenNewAddressDialog}>
+                  إضافة عنوان جديد
                 </Button>
                 <Button
                   onClick={handleRequestWithAddress}
-                  disabled={!selectedAddressId}
+                  disabled={!selectedAddressId || isLoading}
                 >
+                  {isLoading && (
+                    <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                  )}
                   تأكيد الطلب
                 </Button>
               </DialogFooter>
+            </DialogContent>
+          </Dialog>
+
+          {/* New Address Dialog */}
+          <Dialog
+            open={newAddressDialogOpen}
+            onOpenChange={setNewAddressDialogOpen}
+          >
+            <DialogContent className="max-w-md z-[1000]">
+              <DialogHeader>
+                <DialogTitle>إضافة عنوان جديد</DialogTitle>
+              </DialogHeader>
+
+              <Form {...addressForm}>
+                <form
+                  onSubmit={(e) => {
+                    // console.log("Form submit triggered"); // Check if form submits
+                    addressForm.handleSubmit(handleCreateNewAddress)(e);
+                  }}
+                  className="space-y-4"
+                >
+                  <div className="grid grid-cols-2 gap-4">
+                    <FormField
+                      control={addressForm.control}
+                      name="city"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>المدينة</FormLabel>
+                          <FormControl>
+                            <Input placeholder="المدينة" {...field} />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+
+                    <FormField
+                      control={addressForm.control}
+                      name="state"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>المنطقة</FormLabel>
+                          <FormControl>
+                            <Input placeholder="المنطقة" {...field} />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+                  </div>
+                  <FormField
+                    control={addressForm.control}
+                    name="street"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>عنوان الشارع</FormLabel>
+                        <FormControl>
+                          <Textarea
+                            placeholder="رقم المنزل واسم الشارع"
+                            {...field}
+                          />
+                        </FormControl>
+                        <UncontrolledFormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  <FormField
+                    control={addressForm.control}
+                    name="postcode"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>الرمز البريدي</FormLabel>
+                        <FormControl>
+                          <Input placeholder="الرمز البريدي" {...field} />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  <DialogFooter className="gap-2">
+                    <Button
+                      variant="outline"
+                      type="button"
+                      onClick={handleBackToAddressSelection}
+                    >
+                      رجوع
+                    </Button>
+                    <Button type="submit" disabled={isCreatingAddress}>
+                      {isCreatingAddress && (
+                        <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                      )}
+                      حفظ العنوان
+                    </Button>
+                  </DialogFooter>
+                </form>
+              </Form>
             </DialogContent>
           </Dialog>
           {/* <button

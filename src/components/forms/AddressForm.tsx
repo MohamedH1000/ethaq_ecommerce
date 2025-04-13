@@ -26,15 +26,10 @@ const AddressFrom = () => {
   const form = useForm<z.infer<typeof addressSchema>>({
     resolver: zodResolver(addressSchema),
     defaultValues: {
-      name: "",
-      country: "المملكة العربية السعودية", // Default for KSA
       street: "",
       city: "",
       state: "",
       postcode: "",
-      email: "",
-      phone: "",
-      default: false,
     },
   });
 
@@ -59,50 +54,6 @@ const AddressFrom = () => {
   return (
     <Form {...form}>
       <form className="grid gap-6 " onSubmit={form.handleSubmit(onSubmit)}>
-        <FormField
-          control={form.control}
-          name="name"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>الاسم</FormLabel>
-              <FormControl>
-                <Input placeholder="الاسم الكامل" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-
-        {/* Country Field */}
-        <FormField
-          control={form.control}
-          name="country"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>الدولة</FormLabel>
-              <FormControl>
-                <Input placeholder="المملكة العربية السعودية" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-
-        {/* Street Field */}
-        <FormField
-          control={form.control}
-          name="street"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>عنوان الشارع</FormLabel>
-              <FormControl>
-                <Textarea placeholder="رقم المنزل واسم الشارع" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-
         {/* City Field */}
         <FormField
           control={form.control}
@@ -132,6 +83,20 @@ const AddressFrom = () => {
             </FormItem>
           )}
         />
+        {/* Street Field */}
+        <FormField
+          control={form.control}
+          name="street"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>عنوان الشارع</FormLabel>
+              <FormControl>
+                <Textarea placeholder="رقم المنزل واسم الشارع" {...field} />
+              </FormControl>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
 
         {/* Postcode Field */}
         <FormField
@@ -144,55 +109,6 @@ const AddressFrom = () => {
                 <Input placeholder="الرمز البريدي" {...field} />
               </FormControl>
               <FormMessage />
-            </FormItem>
-          )}
-        />
-
-        {/* Email and Phone */}
-        <div className="flex flex-col items-start gap-6 sm:flex-row">
-          <FormField
-            control={form.control}
-            name="email"
-            render={({ field }) => (
-              <FormItem className="w-full">
-                <FormLabel>الايميل</FormLabel>
-                <FormControl>
-                  <Input placeholder="example@gmail.com" {...field} />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name="phone"
-            render={({ field }) => (
-              <FormItem className="w-full">
-                <FormLabel>رقم المحمول</FormLabel>
-                <FormControl>
-                  <Input placeholder="+966501234567" {...field} />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-        </div>
-
-        {/* Default Address Checkbox */}
-        <FormField
-          control={form.control}
-          name="default"
-          render={({ field }) => (
-            <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
-              <FormControl>
-                <Checkbox
-                  checked={field.value}
-                  onCheckedChange={field.onChange}
-                />
-              </FormControl>
-              <div className="space-y-1 leading-none">
-                <FormLabel>تعيين كعنوان افتراضي</FormLabel>
-              </div>
             </FormItem>
           )}
         />

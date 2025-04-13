@@ -168,7 +168,9 @@ export async function createOrder(
         id: userId,
       },
       data: {
-        remainingAmount: newOrderTotal,
+        remainingAmount: {
+          increment: newOrderTotal,
+        },
       },
     });
 

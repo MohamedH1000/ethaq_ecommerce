@@ -9,7 +9,7 @@ import { getCategories } from "@/lib/actions/category.action";
 const CategoriesCarousel = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [allCategories, setAllCategories] = useState([]);
-  console.log("all categories", allCategories);
+  // console.log("all categories", allCategories);
   useEffect(() => {
     setIsLoading(true);
     const fetchCategories = async () => {

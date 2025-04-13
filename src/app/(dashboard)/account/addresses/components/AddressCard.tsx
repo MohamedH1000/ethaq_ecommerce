@@ -41,7 +41,7 @@ function AddressCard(props: Props) {
           <br />
           {address?.street}
         </div>
-        <div className="flex flex-col  ">
+        {/* <div className="flex flex-col  ">
           <div className="text-lg text-gray-500 ">
             <span>Phone Number</span>
           </div>
@@ -56,7 +56,7 @@ function AddressCard(props: Props) {
           <div className="text-lg text-gray-500  font-bold">
             {address?.email}
           </div>
-        </div>
+        </div> */}
 
         {footer && <div className="mt-7">{footer}</div>}
       </CardContent>

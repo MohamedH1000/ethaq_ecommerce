@@ -448,21 +448,21 @@ export const addAddress = async (data: any) => {
   }
 
   // Validate input
-  const validatedData = addressSchema.parse(data);
+  // const validatedData = addressSchema.parse(data);
 
   try {
-    // If this is a default address, first unset any existing default
-    if (validatedData.default) {
-      await prisma.address.updateMany({
-        where: {
-          userId: currentUser.id,
-          isDefault: true,
-        },
-        data: {
-          isDefault: false,
-        },
-      });
-    }
+    // console.log("Sending address data to server:", data);
+    // // If this is a default address, first unset any existing default
+    // if (validatedData.default) {
+    //   await prisma.address.updateMany({
+    //     where: {
+    //       userId: currentUser.id,
+    //     },
+    //     data: {
+    //       isDefault: false,
+    //     },
+    //   });
+    // }
 
     // Create new address record
     const newAddress = await prisma.address.create({
@@ -470,15 +470,10 @@ export const addAddress = async (data: any) => {
         user: {
           connect: { id: currentUser.id },
         },
-        name: validatedData.name,
-        country: validatedData.country,
-        street: validatedData.street,
-        city: validatedData.city,
-        state: validatedData.state,
-        postcode: validatedData.postcode,
-        email: validatedData.email,
-        phone: validatedData.phone,
-        isDefault: validatedData.default || false,
+        street: data.street,
+        city: data.city,
+        state: data.state,
+        postcode: data.postcode,
       },
     });
 
@@ -506,5 +501,18 @@ export const myAddresses = async (id: any) => {
     return myAddresses;
   } catch (error) {
     console.log(error);
+  }
+};
+
+export const deleteAddress = async (id: string) => {
+  try {
+    const response = await prisma.address.delete({
+      where: {
+        id,
+      },
+    });
+    return { success: true, message: "تم حذف العنوان بنجاح", data: response };
+  } catch (error) {
+    console.log(error, "حصل خطا عند حذف العنوان");
   }
 };

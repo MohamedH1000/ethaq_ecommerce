@@ -24,6 +24,12 @@ export const dashboardConfig: DashboardConfig = {
       icon: "order",
       items: [],
     },
+    {
+      title: "سجل الدفعات",
+      href: "/account/payments",
+      icon: "wallet",
+      items: [],
+    },
     // {
     //   title: "Wishlist",
     //   href: "/account/wishlists",

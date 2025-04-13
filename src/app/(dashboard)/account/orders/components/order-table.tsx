@@ -125,7 +125,7 @@ export function OrderTable<TData, TValue>({
                   colSpan={columns.length}
                   className="h-24 text-center"
                 >
-                  لا توجد نتائج
+                  لا توجد طلبات
                 </TableCell>
               </TableRow>
             )}

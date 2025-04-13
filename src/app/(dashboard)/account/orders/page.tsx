@@ -35,78 +35,7 @@ const MyOrders = async () => {
       <div className="flex items-center justify-between w-full">
         <h1 className="font-bold text-xl">المبالغ</h1>
       </div>
-      <div className="mt-5 flex items-center justify-start gap-3">
-        <Card className="w-[250px]">
-          <CardHeader>
-            <CardTitle>المبلغ المتبقي</CardTitle>
-          </CardHeader>
-          <CardContent>
-            {currentUser?.remainingAmount?.toFixed(2)} ريال
-          </CardContent>
-        </Card>
-        <Dialog>
-          <DialogTrigger asChild>
-            <Button className="bg-primary hover:bg-primary text-white hover:text-white">
-              عرض سجل الدفع
-            </Button>
-          </DialogTrigger>
-          <DialogContent className="sm:max-w-[425px]">
-            <>
-              <h2 className="text-xl font-semibold my-4 text-right">
-                الدفعات ({currentUser?.payments.length})
-              </h2>
 
-              {currentUser?.payments.length > 0 ? (
-                <div className="overflow-x-auto">
-                  <Table dir="rtl">
-                    <TableHeader>
-                      <TableRow>
-                        {/* <TableHead className="text-right">رقم الدفعة</TableHead> */}
-                        <TableHead className="text-right">التاريخ</TableHead>
-                        <TableHead className="text-right">المبلغ</TableHead>
-                        <TableHead className="text-right">
-                          طريقة الدفع
-                        </TableHead>
-                        <TableHead className="text-right">ملاحظات</TableHead>
-                      </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                      {currentUser?.payments.map((payment: any) => (
-                        <TableRow key={payment.id} className="hover:bg-gray-50">
-                          {/* <TableCell className="font-medium">
-                            #{payment.id.slice(-6)}
-                          </TableCell> */}
-                          <TableCell>
-                            {format(
-                              new Date(payment.paymentDate),
-                              "d MMM yyyy",
-                              {
-                                locale: arSA,
-                              }
-                            )}
-                          </TableCell>
-                          <TableCell>{payment.amount.toFixed(2)} ر.س</TableCell>
-                          <TableCell>
-                            {payment.paymentMethod === "cash" && "نقدي"}
-                            {payment.paymentMethod === "card" && "بطاقة ائتمان"}
-                            {payment.paymentMethod === "transfer" &&
-                              "تحويل بنكي"}
-                          </TableCell>
-                          <TableCell className="max-w-xs truncate">
-                            {payment.notes || "لا توجد ملاحظات"}
-                          </TableCell>
-                        </TableRow>
-                      ))}
-                    </TableBody>
-                  </Table>
-                </div>
-              ) : (
-                <p className="text-center text-gray-500 py-4">لا توجد دفعات</p>
-              )}
-            </>
-          </DialogContent>
-        </Dialog>
-      </div>
       <div className="mt-5 w-full">
         <OrderTable columns={columns} data={myorders} />
       </div>

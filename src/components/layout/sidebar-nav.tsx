@@ -25,7 +25,7 @@ export function SidebarNav({ items, className, ...props }: SidebarNavProps) {
 
   return (
     <div
-      className={cn("flex w-full flex-col gap-2 relative", className)}
+      className={cn("flex w-full flex-col gap-2 relative h-auto", className)}
       {...props}
     >
       <div className="relative pb-6">
@@ -100,7 +100,7 @@ export function SidebarNav({ items, className, ...props }: SidebarNavProps) {
       <div className=" px-3 flex-col items-center">
         <div className="border-b-2 w-full my-3 self-center" />
 
-        <div className="w-full relative text-white bottom-8 max-lg:bottom-0">
+        <div className="w-full relative text-white ">
           <Button className="w-full rounded-lg">
             <Link href={"/signout"}>تسجيل الخروج</Link>
           </Button>

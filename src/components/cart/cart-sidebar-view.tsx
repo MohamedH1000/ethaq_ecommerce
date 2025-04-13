@@ -1,6 +1,4 @@
 "use client";
-
-import { ROUTES } from "@/configs/routes";
 import { cn } from "@/lib/utils";
 import { useGlobalModalStateStore } from "@/store/modal";
 import Link from "next/link";
@@ -16,11 +14,7 @@ import {
   increaseOrderItem,
   decreaseOrderItem,
 } from "@/lib/actions/order.action";
-import {
-  addAddress,
-  getCurrentUser,
-  myAddresses,
-} from "@/lib/actions/user.action";
+import { addAddress, myAddresses } from "@/lib/actions/user.action";
 import { Loader } from "lucide-react";
 import { toast } from "sonner";
 import { useUser } from "@/context/UserContext";
@@ -34,61 +28,117 @@ import {
   DialogTrigger,
 } from "../ui/dialog";
 import { Button } from "../ui/button";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "../ui/form";
+import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
+import { addressSchema } from "@/lib/schemas/address";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
 
 const CartSidebarView = () => {
   const [isLoading, setIsLoading] = useState(false);
+  const [isOrderLoading, setIsOrderLoading] = useState(false);
   const [orderItems, setOrderItems] = useState([]);
-  const { user } = useUser(); // Changed to null for better initial state
+  const { user } = useUser();
   const [addressDialogOpen, setAddressDialogOpen] = useState(false);
+  const [newAddressDialogOpen, setNewAddressDialogOpen] = useState(false);
   const [addresses, setAddresses] = useState([]);
   const [selectedAddressId, setSelectedAddressId] = useState(null);
   const [isCreatingAddress, setIsCreatingAddress] = useState(false);
   const globalModal = useGlobalModalStateStore((state) => state);
   const router = useRouter();
-  // console.log("orderItems", orderItems);
-  // Fetch current user
+
+  // Address Form
+  const addressForm = useForm<z.infer<typeof addressSchema>>({
+    resolver: zodResolver(addressSchema),
+    defaultValues: {
+      street: "",
+      city: "",
+      state: "",
+      postcode: "",
+    },
+  });
+
   const fetchAddresses = useCallback(async () => {
     if (!user?.id) return;
     const userAddresses = await myAddresses(user.id);
-    // console.log("user addresses", userAddresses);
     setAddresses(userAddresses);
   }, [user?.id]);
+
   useEffect(() => {
     if (addressDialogOpen) {
       fetchAddresses();
     }
   }, [addressDialogOpen, fetchAddresses]);
-  // Fetch order items - memoized
+
   const handleRequestWithAddress = async () => {
     if (!selectedAddressId) {
       toast.error("الرجاء اختيار عنوان التوصيل");
       return;
     }
-
-    const response = await createOrder(user.id, orderItems, selectedAddressId);
-    if (response.success) {
-      toast.success("تم إنشاء الطلب بنجاح");
-      setAddressDialogOpen(false);
-      globalModal.closeCartState();
-      useCartStore.getState().setOrderItems([]);
-      // Clear cart and close modal
-    } else {
-      toast.error(response.message);
+    setIsOrderLoading(true);
+    try {
+      const response = await createOrder(
+        user.id,
+        orderItems,
+        selectedAddressId
+      );
+      if (response.success) {
+        toast.success("تم إنشاء الطلب بنجاح");
+        setAddressDialogOpen(false);
+        globalModal.closeCartState();
+        useCartStore.getState().setOrderItems([]);
+      } else {
+        toast.error(response.message);
+      }
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setIsOrderLoading(false);
     }
   };
-
-  const handleCreateNewAddress = async (addressData: any) => {
+  // useEffect(() => {
+  //   console.log("Form errors:", addressForm.formState.errors);
+  // }, [addressForm.formState.errors]);
+  const handleCreateNewAddress = async (
+    data: z.infer<typeof addressSchema>
+  ) => {
+    // console.log("Form submitted with data:", data); // This should log first
     setIsCreatingAddress(true);
     try {
-      const newAddress = await addAddress(addressData);
+      const newAddress = await addAddress(data);
+      // console.log("API response:", newAddress); // Check API response
+      // console.log("Creating address with data:", data);
       setAddresses((prev: any) => [...prev, newAddress]);
-      setSelectedAddressId(newAddress.id);
+      setSelectedAddressId(newAddress?.id);
       toast.success("تم إضافة العنوان بنجاح");
+      setNewAddressDialogOpen(false);
+      setAddressDialogOpen(true); // Reopen the address selection dialog
+      addressForm.reset(); // Reset form after successful submission
     } catch (error) {
       toast.error("فشل في إضافة العنوان");
+      console.error("Error creating address:", error);
     } finally {
       setIsCreatingAddress(false);
     }
+  };
+
+  const handleOpenNewAddressDialog = () => {
+    setAddressDialogOpen(false);
+    setNewAddressDialogOpen(true);
+  };
+
+  const handleBackToAddressSelection = () => {
+    setNewAddressDialogOpen(false);
+    setAddressDialogOpen(true);
   };
   const fetchOrderItems = useCallback(async () => {
     if (!user?.id) return;
@@ -104,42 +154,23 @@ const CartSidebarView = () => {
     }
   }, [user?.id]);
 
-  // Fetch order items when user is available
   useEffect(() => {
     if (user?.id) {
       fetchOrderItems();
     }
   }, [user?.id, fetchOrderItems]);
-  // Handle order creation
-  const handleRequest = async () => {
-    if (!user?.id || orderItems.length === 0) return;
 
-    const response = await createOrder(user?.id, orderItems);
-    if (response.success) {
-      // Close the cart modal and redirect to checkout or order confirmation
-      globalModal.closeCartState();
-      toast.success("تم انشاء الطلب بنجاح وسيتم ارسال رسالة لكم بتفاصيل الطلب");
-      // router.push(`${ROUTES.CHECKOUT}?orderId=${response.orderId}`);
-
-      setOrderItems([]); // Optionally clear the cart
-      useCartStore.getState().setOrderItems([]);
-    } else {
-      toast.error(response.message);
-      console.error(response.message);
-      // Optionally show an error message to the user
-    }
-  };
   const handleIncrement = useCallback(
     async (id: string) => {
       try {
         await increaseOrderItem(id);
-        await fetchOrderItems(); // Just call it directly
+        await fetchOrderItems();
       } catch (error) {
         console.log(error);
       }
     },
     [fetchOrderItems]
-  ); // Empty dependency array
+  );
 
   const handleDecrement = useCallback(
     async (id: string) => {
@@ -183,6 +214,7 @@ const CartSidebarView = () => {
   }, [orderItems, totalPrice]);
 
   const total = Number(totalPrice) + taxAmount;
+
   if (isLoading) {
     return (
       <div className="min-h-screen w-full flex items-center justify-center">
@@ -190,7 +222,6 @@ const CartSidebarView = () => {
       </div>
     );
   }
-
   return (
     <div className="flex flex-col justify-between w-full h-full dark:bg-[#0c0a09]">
       <div className="relative flex items-center justify-between w-full px-5 py-5 border-b border-gray-base md:px-7">
@@ -275,11 +306,10 @@ const CartSidebarView = () => {
             </DialogTrigger>
 
             <DialogContent className="max-w-md z-[1000]">
-              {" "}
-              {/* Added z-index here */}
               <DialogHeader>
                 <DialogTitle>اختر عنوان التوصيل</DialogTitle>
               </DialogHeader>
+
               <div className="space-y-4">
                 {addresses?.length > 0 ? (
                   <div className="space-y-2">
@@ -305,33 +335,120 @@ const CartSidebarView = () => {
                 ) : (
                   <p className="text-center py-4">لا يوجد عناوين مسجلة</p>
                 )}
-
-                <Button
-                  variant="outline"
-                  className="w-full"
-                  onClick={() => {
-                    globalModal.closeCartState();
-                    setAddressDialogOpen(false);
-                    router.push("/account/addresses/new");
-                  }}
-                >
-                  إضافة عنوان جديد
-                </Button>
               </div>
-              <DialogFooter>
-                <Button
-                  variant="outline"
-                  onClick={() => setAddressDialogOpen(false)}
-                >
-                  إلغاء
+
+              <DialogFooter className="gap-2">
+                <Button variant="outline" onClick={handleOpenNewAddressDialog}>
+                  إضافة عنوان جديد
                 </Button>
                 <Button
                   onClick={handleRequestWithAddress}
-                  disabled={!selectedAddressId}
+                  disabled={!selectedAddressId || isOrderLoading}
                 >
+                  {isOrderLoading && (
+                    <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                  )}
                   تأكيد الطلب
                 </Button>
               </DialogFooter>
+            </DialogContent>
+          </Dialog>
+
+          {/* New Address Dialog */}
+          <Dialog
+            open={newAddressDialogOpen}
+            onOpenChange={setNewAddressDialogOpen}
+          >
+            <DialogContent className="max-w-md z-[1000]">
+              <DialogHeader>
+                <DialogTitle>إضافة عنوان جديد</DialogTitle>
+              </DialogHeader>
+
+              <Form {...addressForm}>
+                <form
+                  onSubmit={(e) => {
+                    console.log("Form submit triggered"); // Check if form submits
+                    addressForm.handleSubmit(handleCreateNewAddress)(e);
+                  }}
+                  className="space-y-4"
+                >
+                  <div className="grid grid-cols-2 gap-4">
+                    <FormField
+                      control={addressForm.control}
+                      name="city"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>المدينة</FormLabel>
+                          <FormControl>
+                            <Input placeholder="المدينة" {...field} />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+
+                    <FormField
+                      control={addressForm.control}
+                      name="state"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>المنطقة</FormLabel>
+                          <FormControl>
+                            <Input placeholder="المنطقة" {...field} />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+                  </div>
+                  <FormField
+                    control={addressForm.control}
+                    name="street"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>عنوان الشارع</FormLabel>
+                        <FormControl>
+                          <Textarea
+                            placeholder="رقم المنزل واسم الشارع"
+                            {...field}
+                          />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  <FormField
+                    control={addressForm.control}
+                    name="postcode"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>الرمز البريدي</FormLabel>
+                        <FormControl>
+                          <Input placeholder="الرمز البريدي" {...field} />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  <DialogFooter className="gap-2">
+                    <Button
+                      variant="outline"
+                      type="button"
+                      onClick={handleBackToAddressSelection}
+                    >
+                      رجوع
+                    </Button>
+                    <Button type="submit" disabled={isCreatingAddress}>
+                      {isCreatingAddress && (
+                        <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                      )}
+                      حفظ العنوان
+                    </Button>
+                  </DialogFooter>
+                </form>
+              </Form>
             </DialogContent>
           </Dialog>
           {/* <Link

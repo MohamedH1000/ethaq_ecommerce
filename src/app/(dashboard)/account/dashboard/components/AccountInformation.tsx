@@ -33,7 +33,7 @@ const AccountInformation = ({ currentUser }: { currentUser: User }) => {
               <AvatarFallback>{me?.lastName}</AvatarFallback>
             </Avatar> */}
             <Image
-              src={currentUser?.image || ("" as string)}
+              src={currentUser?.image || "/assets/avatar.png"}
               alt={currentUser?.name as string}
               width={100}
               height={100}
@@ -58,7 +58,7 @@ const AccountInformation = ({ currentUser }: { currentUser: User }) => {
         <CardContent className="flex flex-col gap-2 h-full">
           {!address && (
             <div className=" flex flex-col   ">
-              <Link href={"/dashboard/addresses/new"}>
+              <Link href={"/account/addresses/new"}>
                 <div className="flex flex-col h-[330px] justify-center items-center gap-3">
                   <Icons.plus className="w-12 h-12 text-primary" />
                   <Button variant={"secondary"}>
@@ -99,11 +99,11 @@ const AccountInformation = ({ currentUser }: { currentUser: User }) => {
                     {address.email}
                   </p>
                 </div>
-                <Button variant={"link"} className="self-start p-0 text-xl">
+                {/* <Button variant={"link"} className="self-start p-0 text-xl">
                   <Link href={`/dashboard/addresses/${address._id}`}>
                     <span>تعديل العنوان</span>
                   </Link>
-                </Button>
+                </Button> */}
               </div>
             </div>
           )}
