@@ -20,6 +20,7 @@ import dynamic from "next/dynamic";
 import { useGlobalModalStateStore } from "@/store/modal";
 import Image from "next/image";
 import { User } from "@prisma/client";
+import Search from "../ui/search/search";
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
   ssr: false,
 });
@@ -47,7 +48,7 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
       </div>
 
       <ul className="items-center shrink-0 flex space-x-10 space-x-reverse">
-        <div className="flex items-center space-x-4 space-x-reverse ">
+        <div className="flex items-center space-x-4 space-x-reverse justify-between">
           <div className="sm:flex items-center space-x-4 space-x-reverse hidden">
             {/* <Link
               href={`${process.env.NEXT_PUBLIC_ADMIN_URL}/signup`}
@@ -63,7 +64,10 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
             <div className="border-r h-6 border-border" />
             <CartCounterButton />
           </div>
-
+          {/* {(headerSearch.showHeaderSearch) && ( */}
+          <div className="w-[60%]   mx-auto overflow-hidden  border-[#000957] border-[1px] rounded-3xl">
+            <Search label="Search" variant="minimal" />
+          </div>
           <div className="border-r h-6 border-border hidden sm:block" />
           {currentUser ? (
             <DropdownMenu>

@@ -30,9 +30,9 @@ const SearchBox: React.FC<Props> = ({
   ...rest
 }) => {
   return (
-    <form onSubmit={onSubmit} className={cn("w-full rounded-full", className)}>
+    <form onSubmit={onSubmit} className={cn("w-full rounded-full ", className)}>
       <div
-        className={cn("relative flex rounded-full", {
+        className={cn("relative flex rounded-full ", {
           // Changed to rounded-full
           "h-14 shadow-900": variant === "normal",
           "h-11 md:h-12": variant === "minimal",
@@ -76,10 +76,10 @@ const SearchBox: React.FC<Props> = ({
         )}
 
         {variant === "normal" ? (
-          <button className="flex h-full min-w-[143px] items-center justify-center rounded-r-full bg-primary px-8 font-semibold text-white transition-colors duration-200 hover:bg-primary/80 focus:bg-primary/80 focus:outline-0">
+          <button className=" flex h-full min-w-[143px] items-center justify-center rounded-r-full bg-primary px-8 font-semibold text-white transition-colors duration-200 hover:bg-primary/80 focus:bg-primary/80 focus:outline-0">
             {" "}
             {/* // Changed to rounded-r-full */}
-            <Icons.search className="h-4 w-4 mr-2.5 ml-2.5" />
+            <Icons.search className="h-4 w-4 mr-2.5 ml-2.5 max-sm:!mr-10" />
             بحث
           </button>
         ) : (

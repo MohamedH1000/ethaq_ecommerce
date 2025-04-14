@@ -70,6 +70,9 @@ export async function getMyOrders(userId: string) {
     console.log(error);
   }
 }
+function generate6DigitCode() {
+  return Math.floor(100000 + Math.random() * 900000).toString();
+}
 export async function createOrder(
   userId: string,
   orderItems: any[],
@@ -141,6 +144,7 @@ export async function createOrder(
         unpaidBalance: totalUnpaid,
       };
     }
+    const confirmationCode = generate6DigitCode(); // "384756" (random)
 
     // Create the new order
     const newOrder = await prisma.order.create({
@@ -149,6 +153,7 @@ export async function createOrder(
         addressId,
         totalAmount: newOrderTotal,
         remainingAmount: newOrderTotal,
+        confirmNo: confirmationCode,
         status: "pending",
         orderDate: new Date(),
         isPaidFully: false,
@@ -345,8 +350,6 @@ export async function createOrder(
       address?.city
     }, ${address?.state}, ${address?.country}</li>
                 <li><strong>الرمز البريدي:</strong> ${address?.postcode}</li>
-                <li><strong>رقم الهاتف:</strong> ${address?.phone}</li>
-                <li><strong>البريد الإلكتروني:</strong> ${address?.email}</li>
               </ul>
             </div>
           </div>
@@ -375,6 +378,7 @@ export async function createOrder(
               </ul>
             </div>
           </div>
+       
           <p>يرجى اتخاذ الإجراءات اللازمة لمعالجة الطلب في لوحة التحكم.</p>
           <a href="https://four.fortworthtowingtx.com/admin" class="button">الذهاب إلى لوحة التحكم</a>
         </div>
@@ -565,8 +569,13 @@ export async function createOrder(
               </ul>
             </div>
           </div>
+          <p>برجاء تاكيد استلام الطلب على الموقع باستخدام الرقم عند استلام الطلب: ${
+            newOrder.confirmNo
+          }</p>
           <p>سنتواصل معك قريبًا لتأكيد حالة الطلب. يمكنك متابعة حالة طلبك في حسابك.</p>
-          <a href="https://four.fortworthtowingtx.com/orders" class="button">عرض طلباتي</a>
+          <a href="https://four.fortworthtowingtx.com/account/orders/${
+            newOrder.id
+          }" class="button">عرض طلباتي</a>
         </div>
         <div class="footer">
           <p>مع خالص الشكر،<br>فريق إيثاق</p>
@@ -710,4 +719,36 @@ export async function deleteOrderItem(orderId: string) {
     data: null,
     message: "Order item deleted as quantity reached zero",
   };
+}
+
+export async function confirmDelivery(id: string, confirmationCode: string) {
+  const order = await prisma.order.findUnique({
+    where: {
+      id,
+    },
+  });
+
+  if (order?.confirmNo !== confirmationCode) {
+    return { success: false, message: "الكود المدخل غير صحيح" };
+  }
+  try {
+    const response = await prisma.order.update({
+      where: {
+        id,
+      },
+      data: {
+        isDelivered: true,
+        status: "delivered",
+      },
+    });
+
+    return {
+      success: true,
+      message: "تم تاكيد استلام الطلب بنجاح",
+      data: response,
+    };
+  } catch (error) {
+    console.log(error);
+  }
+  revalidatePath("/account/orders");
 }
