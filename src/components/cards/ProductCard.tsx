@@ -14,35 +14,13 @@ import { Card } from "../ui/card";
 import { addOrderItem } from "@/lib/actions/order.action";
 import { useEffect, useState } from "react";
 import { getCurrentUser } from "@/lib/actions/user.action";
+import { User } from "@prisma/client";
 
 interface Props {
   product: any;
-  type: any;
+  user: User;
 }
-const ProductCard = ({ product, type }: Props) => {
-  const [user, setUser] = useState([]);
-  // console.log(user, "user");
-  useEffect(() => {
-    const currentUser = async () => {
-      const response: any = await getCurrentUser();
-      // console.log("response", response);
-      setUser(response);
-    };
-    currentUser();
-  }, []);
-  const { price, basePrice } = usePrice({
-    amount: product?.sale_price ? product?.sale_price : product?.price,
-    baseAmount: product?.price,
-    currencyCode: "SAR",
-  });
-  const { price: minPrice } = usePrice({
-    amount: product?.min_price ?? 0,
-    currencyCode: "SAR",
-  });
-  const { price: maxPrice } = usePrice({
-    amount: product?.max_price ?? 0,
-    currencyCode: "SAR",
-  });
+const ProductCard = ({ product, user }: Props) => {
   let selectedVariation: any = {};
   const globalModal = useGlobalModalStateStore((state) => state);
   const { addItemToCart } = useCartStore((state) => state);
@@ -118,22 +96,11 @@ const ProductCard = ({ product, type }: Props) => {
           <div className="flex gap-3 items-center">
             {product.discount > 0 ? (
               <p className="text-primary font-medium text-xs xs:text-sm md:text-base">
-                {product.product_type === "variable" ? (
-                  `${minPrice} - ${maxPrice}`
-                ) : (
-                  <>
-                    {(product.price * (1 - product.discount / 100)).toFixed(2)}{" "}
-                    ريال
-                  </>
-                )}
+                {(product.price * (1 - product.discount / 100)).toFixed(2)} ريال
               </p>
             ) : (
               <p className="text-primary font-medium text-xs xs:text-sm md:text-base">
-                {product.product_type === "variable" ? (
-                  `${minPrice} - ${maxPrice}`
-                ) : (
-                  <>{product.price.toFixed(2)} ريال</>
-                )}
+                <>{product.price.toFixed(2)} ريال</>
               </p>
             )}
             {product?.discount > 0 && (
@@ -161,11 +128,12 @@ const ProductCard = ({ product, type }: Props) => {
         <Button
           variant={"outline"}
           className="mt-4 rounded-full mx-4 text-white bg-[#000957] 
-          hover:bg-[#000957] hover:text-white"
+          hover:bg-[#000957] dark:bg-[#e11d48] 
+          dark:hover:bg-[#e11d48] hover:text-white"
           onClick={() => globalModal.setQuickViewState(true, product)}
         >
           <p className="sm:hidden">اضافة</p>
-          <p className="hidden sm:block">اضافة للكارت</p>
+          <p className="hidden sm:block">اضافة للسلة</p>
         </Button>
         {product.discount ? (
           <div className="bg-primary p-1 absolute top-3 right-3 rounded-lg">

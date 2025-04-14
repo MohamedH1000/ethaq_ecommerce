@@ -142,7 +142,6 @@ export const CartItemDetails = ({
               className="text-red-400 underline"
               onClick={() => {
                 deleteOrderItem(item.id);
-                window.location.reload();
                 toast.success("تم حذف المنتج من عربة التسوق");
               }}
             >

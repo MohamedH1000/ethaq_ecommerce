@@ -1,9 +1,10 @@
 import ProductCard from "@/components/cards/ProductCard";
-import ProductFeedLoader from "@/components/skelaton/product-feed-loader";
 import { getSomeProducts } from "@/lib/actions/product.action";
+import { getCurrentUser } from "@/lib/actions/user.action";
 
 const OurProductsSection = async ({ type }: any) => {
   const products = await getSomeProducts(type);
+  const user = await getCurrentUser();
   return (
     <section className="py-5 md:py-10  container">
       <div className="flex flex-col items-start mb-10 group">
@@ -22,7 +23,12 @@ const OurProductsSection = async ({ type }: any) => {
       <div className="grid grid-cols-1 xs:grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-6 3xl:grid-cols-7 md:gap-4 2xl:gap-5">
         <>
           {products?.map((product) => (
-            <ProductCard key={product.id} {...{ product }} type={"offers"} />
+            <ProductCard
+              key={product.id}
+              user={user}
+              {...{ product }}
+              type={"offers"}
+            />
           ))}
         </>
       </div>

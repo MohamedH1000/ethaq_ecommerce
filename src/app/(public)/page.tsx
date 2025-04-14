@@ -12,6 +12,7 @@ import {
 import PromoCarousel from "@/components/layout/promoCaraousel";
 import PerfumeBanner from "@/components/layout/perfumeBanner";
 import BannerCarousel from "@/components/layout/BannerCaraousel";
+import { getCategories } from "@/lib/actions/category.action";
 
 export default async function IndexPage() {
   const bannerImages = [
@@ -20,6 +21,8 @@ export default async function IndexPage() {
     "/assets/902.png",
     "/assets/903.png",
   ];
+  const allCategories: any = await getCategories();
+
   return (
     <div className="">
       <Carousel className="w-full">
@@ -43,7 +46,15 @@ export default async function IndexPage() {
           <PromotionalBannerCarousel />
         </div>
       </div> */}
-
+      <div className="py-5 md:py-10  container mt-10">
+        <div className="flex items-center justify-between">
+          <h1 className="text-3xl font-bold font-sans ">التسوق بالفئات</h1>
+          <Link href={"/products"}>جميع الفئات</Link>
+        </div>
+      </div>
+      <div className="py-4  border-t-2 mt-3">
+        <CategoriesCarousel allCategories={allCategories} />
+      </div>
       <OurProductsSection type={"offers"} />
       <div>
         <PromoCarousel />
@@ -54,16 +65,7 @@ export default async function IndexPage() {
       <div>
         <BannerCarousel />
       </div>
-      <div className="py-5 md:py-10  container mt-10">
-        <div className="flex items-center justify-between">
-          <h1 className="text-3xl font-bold font-sans ">التسوق بالفئات</h1>
-          <Link href={"/products"}>جميع الفئات</Link>
-        </div>
 
-        <div className="py-4  border-t-2 mt-3">
-          <CategoriesCarousel />
-        </div>
-      </div>
       {/* <TopRateProducts /> */}
     </div>
   );

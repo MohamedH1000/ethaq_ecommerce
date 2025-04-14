@@ -14,6 +14,7 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
+
 import { Icons } from "../ui/icons";
 import { HeartIcon } from "lucide-react";
 import dynamic from "next/dynamic";
@@ -21,11 +22,14 @@ import { useGlobalModalStateStore } from "@/store/modal";
 import Image from "next/image";
 import { User } from "@prisma/client";
 import Search from "../ui/search/search";
+import { useIsHomePage } from "@/hooks/use-is-homepage";
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
   ssr: false,
 });
 const MobileHeader = ({ currentUser }: { currentUser: User }) => {
   const globalModal = useGlobalModalStateStore();
+  const isHomePage = useIsHomePage();
+
   return (
     <header className="flex justify-between w-full items-center">
       <div className="flex items-center gap-2 w-full -ml-6">
@@ -65,9 +69,16 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
             <CartCounterButton />
           </div>
           {/* {(headerSearch.showHeaderSearch) && ( */}
-          <div className="w-[60%]   mx-auto overflow-hidden  border-[#000957] border-[1px] rounded-3xl">
-            <Search label="Search" variant="minimal" />
-          </div>
+          {isHomePage ? (
+            <>
+              {/* {(headerSearch.showHeaderSearch) && ( */}
+              <div className="w-[60%] mx-auto overflow-hidden  border-[#000957] border-[1px] rounded-3xl">
+                <Search label="Search" variant="minimal" />
+              </div>
+              {/* )} */}
+            </>
+          ) : null}
+
           <div className="border-r h-6 border-border hidden sm:block" />
           {currentUser ? (
             <DropdownMenu>

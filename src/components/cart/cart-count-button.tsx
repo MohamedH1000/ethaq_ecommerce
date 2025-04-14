@@ -12,15 +12,13 @@ const CartCounterButton = ({ orderItems }: { orderItems: OrderItem }) => {
   function handleCartSidebar() {
     globalModal.onCartState();
   }
-  const storeOrderItems = useCartStore((state) => state.orderItems);
-  const itemsToDisplay = storeOrderItems;
 
   return (
     <button className="flex relative" onClick={handleCartSidebar}>
       <Icons.cart className="w-5" />
-      {itemsToDisplay?.length > 0 && (
+      {orderItems?.length > 0 && (
         <span className="min-w-[20px] h-5 flex items-center justify-center rounded-full bg-primary text-white text-[10px] absolute left-1/2 -top-1/2">
-          {itemsToDisplay?.length}
+          {orderItems?.length}
         </span>
       )}
     </button>

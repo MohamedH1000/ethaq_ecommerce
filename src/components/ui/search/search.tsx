@@ -29,8 +29,8 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
   const [isLoading, setIsLoading] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const params = useSearchParams();
-  console.log("searchResults", searchResults);
-  console.log("searchTerm", searchTerm);
+  // console.log("searchResults", searchResults);
+  // console.log("searchTerm", searchTerm);
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -143,7 +143,9 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
                     <Link
                       href={`/products/${product.id}`}
                       className="flex items-center gap-3 p-3 hover:bg-gray-100 dark:hover:bg-gray-700"
-                      onClick={() => setSearchResults([])} // Close dropdown when product is selected
+                      onClick={() => {
+                        setSearchResults([]);
+                      }} // Close dropdown when product is selected
                     >
                       <img
                         src={product.images[0]}

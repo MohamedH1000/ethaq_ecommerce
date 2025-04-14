@@ -8,9 +8,9 @@ import { Loader } from "lucide-react";
 const ProductsPage = () => {
   return (
     <div>
-      <section className="h-12 py-10 bg-gray-100 dark:bg-gray-900 flex justify-center items-center">
+      {/* <section className="h-12 py-10 bg-gray-100 dark:bg-gray-900 flex justify-center items-center">
         <Breadcrumb />
-      </section>
+      </section> */}
 
       <div className="container py-5 overflow-hidden">
         <div className="flex pt-8 pb-16 lg:pb-20">

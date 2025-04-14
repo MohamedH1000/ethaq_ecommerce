@@ -94,8 +94,6 @@ const CartSidebarView = () => {
       if (response.success) {
         toast.success("تم إنشاء الطلب بنجاح");
         setAddressDialogOpen(false);
-        globalModal.closeCartState();
-        useCartStore.getState().setOrderItems([]);
       } else {
         toast.error(response.message);
       }
@@ -191,8 +189,6 @@ const CartSidebarView = () => {
         if (response.success) {
           toast.success("تم حذف المنتج بنجاح من عربة التسوق");
           await fetchOrderItems();
-          const updatedItems = await getOrdersItemsByUserId(user.id);
-          useCartStore.getState().setOrderItems(updatedItems);
         }
       } catch (error) {
         toast.error("حصل خطا اثناء حذف المنتج من عربة التسوق");
@@ -210,7 +206,7 @@ const CartSidebarView = () => {
   }, [orderItems]);
 
   const taxAmount = useMemo(() => {
-    return Number(totalPrice) * (16 / 100);
+    return Number(totalPrice) * (15 / 100);
   }, [orderItems, totalPrice]);
 
   const total = Number(totalPrice) + taxAmount;
@@ -249,138 +245,177 @@ const CartSidebarView = () => {
           </div>
         </div>
       ) : (
-        <EmptyCart />
+        <div className="flex flex-col justify-center h-full">
+          <EmptyCart />
+        </div>
       )}
-
-      <div className="px-5 pt-5 pb-5 border-t border-border-base md:px-7 md:pt-6 md:pb-6 bg-gray-100 dark:bg-black">
-        {/* <h6 className="text-sm text-gray-500 py-2">
-          يتم احتساب الشحن والضرائب عند التحويل للدفع
-        </h6> */}
-        <div className="flex justify-between my-2">
-          <div>
-            <h3 className="mb-2.5 text-sm font-normal text-gray-500 dark:text-white">
-              ضريبة القيمة المضافة 16%:
-            </h3>
+      {orderItems && orderItems.length > 0 && (
+        <div className="px-5 pt-5 pb-5 border-t border-border-base md:px-7 md:pt-6 md:pb-6 bg-gray-100 dark:bg-black">
+          {/* <h6 className="text-sm text-gray-500 py-2">
+   يتم احتساب الشحن والضرائب عند التحويل للدفع
+ </h6> */}
+          <div className="flex justify-between my-2">
+            <div>
+              <h3 className="mb-2.5 text-sm font-normal text-gray-500 dark:text-white">
+                ضريبة القيمة المضافة 15%:
+              </h3>
+            </div>
+            <div className="shrink-0 font-semibold text-sm md:text-sm text-primary -mt-0.5 min-w-[80px] text-left">
+              {taxAmount.toFixed(2)} ريال
+            </div>
           </div>
-          <div className="shrink-0 font-semibold text-sm md:text-sm text-primary -mt-0.5 min-w-[80px] text-left">
-            {taxAmount.toFixed(2)} ريال
+          <div className="flex justify-between pb-5 md:pb-7">
+            <div>
+              <h3 className="mb-2.5 text-lg font-semibold text-gray-800 dark:text-white">
+                المجموع:
+              </h3>
+            </div>
+            <div className="shrink-0 font-semibold text-base md:text-lg text-primary -mt-0.5 min-w-[80px] text-left">
+              {total.toFixed(2)} ريال
+            </div>
           </div>
-        </div>
-        <div className="flex justify-between pb-5 md:pb-7">
-          <div>
-            <h3 className="mb-2.5 text-lg font-semibold text-gray-800 dark:text-white">
-              المجموع:
-            </h3>
-          </div>
-          <div className="shrink-0 font-semibold text-base md:text-lg text-primary -mt-0.5 min-w-[80px] text-left">
-            {total.toFixed(2)} ريال
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 w-full">
-          <Link
-            href={`/cart`}
-            className={cn(
-              "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-white rounded font-semibold text-sm sm:text-15px text-primary focus:outline-none transition duration-300 hover:bg-opacity-90 border-2 border-primary dark:bg-black",
-              {
-                "cursor-not-allowed !text-gray-800 !bg-[#EEEEEE] hover:!bg-[#EEEEEE]":
-                  orderItems.length === 0,
-              }
-            )}
-            onClick={() => globalModal.closeCartState()}
-          >
-            <span className="py-0.5">عرض عربة التسوق</span>
-          </Link>
-          <Dialog open={addressDialogOpen} onOpenChange={setAddressDialogOpen}>
-            <DialogTrigger asChild>
-              <Button
-                className={cn(
-                  "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-primary rounded font-semibold text-sm sm:text-15px text-white",
-                  {
-                    "cursor-not-allowed": orderItems.length === 0,
-                  }
-                )}
-                disabled={orderItems.length === 0}
-              >
-                <span className="py-0.5">انشاء طلب</span>
-              </Button>
-            </DialogTrigger>
-
-            <DialogContent className="max-w-md z-[1000]">
-              <DialogHeader>
-                <DialogTitle>اختر عنوان التوصيل</DialogTitle>
-              </DialogHeader>
-
-              <div className="space-y-4">
-                {addresses?.length > 0 ? (
-                  <div className="space-y-2">
-                    {addresses?.map((address) => (
-                      <div
-                        key={address?.id}
-                        className={`p-4 border rounded-lg cursor-pointer ${
-                          selectedAddressId === address?.id
-                            ? "border-primary bg-primary/10"
-                            : "border-gray-200"
-                        }`}
-                        onClick={() => setSelectedAddressId(address?.id)}
-                      >
-                        <p>
-                          {address?.street}, {address?.city}
-                        </p>
-                        <p>
-                          {address?.country}, {address?.postcode}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-                ) : (
-                  <p className="text-center py-4">لا يوجد عناوين مسجلة</p>
-                )}
-              </div>
-
-              <DialogFooter className="gap-2">
-                <Button variant="outline" onClick={handleOpenNewAddressDialog}>
-                  إضافة عنوان جديد
-                </Button>
+          <div className="flex flex-col gap-4 w-full">
+            <Link
+              href={`/cart`}
+              className={cn(
+                "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-white rounded font-semibold text-sm sm:text-15px text-primary focus:outline-none transition duration-300 hover:bg-opacity-90 border-2 border-primary dark:bg-black",
+                {
+                  "cursor-not-allowed !text-gray-800 !bg-[#EEEEEE] hover:!bg-[#EEEEEE]":
+                    orderItems.length === 0,
+                }
+              )}
+              onClick={() => globalModal.closeCartState()}
+            >
+              <span className="py-0.5">عرض عربة التسوق</span>
+            </Link>
+            <Dialog
+              open={addressDialogOpen}
+              onOpenChange={setAddressDialogOpen}
+            >
+              <DialogTrigger asChild>
                 <Button
-                  onClick={handleRequestWithAddress}
-                  disabled={!selectedAddressId || isOrderLoading}
-                >
-                  {isOrderLoading && (
-                    <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                  className={cn(
+                    "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-primary rounded font-semibold text-sm sm:text-15px text-white",
+                    {
+                      "cursor-not-allowed": orderItems.length === 0,
+                    }
                   )}
-                  تأكيد الطلب
-                </Button>
-              </DialogFooter>
-            </DialogContent>
-          </Dialog>
-
-          {/* New Address Dialog */}
-          <Dialog
-            open={newAddressDialogOpen}
-            onOpenChange={setNewAddressDialogOpen}
-          >
-            <DialogContent className="max-w-md z-[1000]">
-              <DialogHeader>
-                <DialogTitle>إضافة عنوان جديد</DialogTitle>
-              </DialogHeader>
-
-              <Form {...addressForm}>
-                <form
-                  onSubmit={(e) => {
-                    console.log("Form submit triggered"); // Check if form submits
-                    addressForm.handleSubmit(handleCreateNewAddress)(e);
-                  }}
-                  className="space-y-4"
+                  disabled={orderItems.length === 0}
                 >
-                  <div className="grid grid-cols-2 gap-4">
+                  <span className="py-0.5">انشاء طلب</span>
+                </Button>
+              </DialogTrigger>
+
+              <DialogContent className="max-w-md z-[1000]">
+                <DialogHeader>
+                  <DialogTitle>اختر عنوان التوصيل</DialogTitle>
+                </DialogHeader>
+
+                <div className="space-y-4">
+                  {addresses?.length > 0 ? (
+                    <div className="space-y-2">
+                      {addresses?.map((address) => (
+                        <div
+                          key={address?.id}
+                          className={`p-4 border rounded-lg cursor-pointer ${
+                            selectedAddressId === address?.id
+                              ? "border-primary bg-primary/10"
+                              : "border-gray-200"
+                          }`}
+                          onClick={() => setSelectedAddressId(address?.id)}
+                        >
+                          <p>
+                            {address?.street}, {address?.city}
+                          </p>
+                          <p>
+                            {address?.country}, {address?.postcode}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-center py-4">لا يوجد عناوين مسجلة</p>
+                  )}
+                </div>
+
+                <DialogFooter className="gap-2">
+                  <Button
+                    variant="outline"
+                    onClick={handleOpenNewAddressDialog}
+                  >
+                    إضافة عنوان جديد
+                  </Button>
+                  <Button
+                    onClick={handleRequestWithAddress}
+                    disabled={!selectedAddressId || isOrderLoading}
+                  >
+                    {isOrderLoading && (
+                      <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                    )}
+                    تأكيد الطلب
+                  </Button>
+                </DialogFooter>
+              </DialogContent>
+            </Dialog>
+
+            {/* New Address Dialog */}
+            <Dialog
+              open={newAddressDialogOpen}
+              onOpenChange={setNewAddressDialogOpen}
+            >
+              <DialogContent className="max-w-md z-[1000]">
+                <DialogHeader>
+                  <DialogTitle>إضافة عنوان جديد</DialogTitle>
+                </DialogHeader>
+
+                <Form {...addressForm}>
+                  <form
+                    onSubmit={(e) => {
+                      console.log("Form submit triggered"); // Check if form submits
+                      addressForm.handleSubmit(handleCreateNewAddress)(e);
+                    }}
+                    className="space-y-4"
+                  >
+                    <div className="grid grid-cols-2 gap-4">
+                      <FormField
+                        control={addressForm.control}
+                        name="city"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>المدينة</FormLabel>
+                            <FormControl>
+                              <Input placeholder="المدينة" {...field} />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+
+                      <FormField
+                        control={addressForm.control}
+                        name="state"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>المنطقة</FormLabel>
+                            <FormControl>
+                              <Input placeholder="المنطقة" {...field} />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+                    </div>
                     <FormField
                       control={addressForm.control}
-                      name="city"
+                      name="street"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>المدينة</FormLabel>
+                          <FormLabel>عنوان الشارع</FormLabel>
                           <FormControl>
-                            <Input placeholder="المدينة" {...field} />
+                            <Textarea
+                              placeholder="رقم المنزل واسم الشارع"
+                              {...field}
+                            />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -389,86 +424,56 @@ const CartSidebarView = () => {
 
                     <FormField
                       control={addressForm.control}
-                      name="state"
+                      name="postcode"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>المنطقة</FormLabel>
+                          <FormLabel>الرمز البريدي</FormLabel>
                           <FormControl>
-                            <Input placeholder="المنطقة" {...field} />
+                            <Input placeholder="الرمز البريدي" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
                       )}
                     />
-                  </div>
-                  <FormField
-                    control={addressForm.control}
-                    name="street"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>عنوان الشارع</FormLabel>
-                        <FormControl>
-                          <Textarea
-                            placeholder="رقم المنزل واسم الشارع"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
 
-                  <FormField
-                    control={addressForm.control}
-                    name="postcode"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>الرمز البريدي</FormLabel>
-                        <FormControl>
-                          <Input placeholder="الرمز البريدي" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-
-                  <DialogFooter className="gap-2">
-                    <Button
-                      variant="outline"
-                      type="button"
-                      onClick={handleBackToAddressSelection}
-                    >
-                      رجوع
-                    </Button>
-                    <Button type="submit" disabled={isCreatingAddress}>
-                      {isCreatingAddress && (
-                        <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
-                      )}
-                      حفظ العنوان
-                    </Button>
-                  </DialogFooter>
-                </form>
-              </Form>
-            </DialogContent>
-          </Dialog>
-          {/* <Link
-            href={`${ROUTES.CHECKOUT}`}
-            className={cn(
-              "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-primary rounded font-semibold text-sm sm:text-15px text-white focus:outline-none transition duration-300 hover:bg-opacity-90",
-              {
-                "cursor-not-allowed !text-brand-dark !text-opacity-25 !bg-[#EEEEEE] hover:!bg-[#EEEEEE]":
-                  orderItems.length === 0,
-              }
-            )}
-            onClick={(e) => {
-              e.preventDefault(); // Prevent default navigation until order is created
-              handleRequest();
-            }}
-          >
-            <span className="py-0.5">انشاء طلب</span>
-          </Link> */}
+                    <DialogFooter className="gap-2">
+                      <Button
+                        variant="outline"
+                        type="button"
+                        onClick={handleBackToAddressSelection}
+                      >
+                        رجوع
+                      </Button>
+                      <Button type="submit" disabled={isCreatingAddress}>
+                        {isCreatingAddress && (
+                          <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                        )}
+                        حفظ العنوان
+                      </Button>
+                    </DialogFooter>
+                  </form>
+                </Form>
+              </DialogContent>
+            </Dialog>
+            {/* <Link
+     href={`${ROUTES.CHECKOUT}`}
+     className={cn(
+       "w-full px-5 py-3 md:py-4 flex items-center justify-center bg-primary rounded font-semibold text-sm sm:text-15px text-white focus:outline-none transition duration-300 hover:bg-opacity-90",
+       {
+         "cursor-not-allowed !text-brand-dark !text-opacity-25 !bg-[#EEEEEE] hover:!bg-[#EEEEEE]":
+           orderItems.length === 0,
+       }
+     )}
+     onClick={(e) => {
+       e.preventDefault(); // Prevent default navigation until order is created
+       handleRequest();
+     }}
+   >
+     <span className="py-0.5">انشاء طلب</span>
+   </Link> */}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

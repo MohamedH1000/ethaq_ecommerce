@@ -4,7 +4,10 @@ import React from "react";
 
 const TopBar = () => {
   return (
-    <section className="bg-[#000957] py-3 overflow-hidden">
+    <section
+      className="bg-[#000957] dark:bg-[#e11d48] 
+   py-3 overflow-hidden"
+    >
       {" "}
       {/* Lighter color */}
       <div className="container">

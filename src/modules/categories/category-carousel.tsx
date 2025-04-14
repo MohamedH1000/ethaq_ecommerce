@@ -6,24 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import CategoryCard from "./CategoryCard";
 import { getCategories } from "@/lib/actions/category.action";
 
-const CategoriesCarousel = () => {
+const CategoriesCarousel = ({ allCategories }: any) => {
   const [isLoading, setIsLoading] = useState(false);
-  const [allCategories, setAllCategories] = useState([]);
-  // console.log("all categories", allCategories);
-  useEffect(() => {
-    setIsLoading(true);
-    const fetchCategories = async () => {
-      try {
-        const allCategories: any = await getCategories();
-        setAllCategories(allCategories);
-      } catch (error) {
-        console.log(error);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-    fetchCategories();
-  }, []);
+
   return (
     <React.Fragment>
       {isLoading ? (

@@ -180,9 +180,9 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#000957]">
+      <div className="bg-[#000957] dark:bg-[#e11d48]">
         <div className="container py-5 flex items-center justify-center  flex-wrap gap-5">
-          <p className="text-sm text-gray-400 md:text-start text-center flex ">
+          <p className="text-sm text-gray-400 md:text-start text-center flex dark:text-[white]">
             &copy; {new Date().getFullYear()} حقوق النشر محفوظة لإيثاق للحلول
             المالية . تم التطوير بواسطة &nbsp;
             <Link

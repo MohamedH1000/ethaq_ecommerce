@@ -10,7 +10,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { buttonVariants } from "../ui/button";
 import { DropdownMenuShortcut } from "../ui/dropdown-menu";
 import { Icons } from "../ui/icons";
-import { User } from "@prisma/client";
+import { OrderItem, User } from "@prisma/client";
 import { signOut } from "next-auth/react";
 import Image from "next/image";
 import { getOrdersItemsByUserId } from "@/lib/actions/order.action";
@@ -22,29 +22,21 @@ const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
   ssr: false,
 });
 
-const Header = ({ currentUser }: { currentUser: User }) => {
+const Header = ({
+  currentUser,
+  orderItems,
+}: {
+  currentUser: User;
+  orderItems: OrderItem;
+}) => {
   const { totalItems } = useCartStore((state) => state);
   const isHomePage = useIsHomePage();
   const router = useRouter();
   const [isSigningOut, setIsSigningOut] = useState(false); // Optional: for loading state
-  const [orderItems, setOrderItems] = useState([]);
   // console.log("orderItems", orderItems);
   const { user } = useUser();
   // console.log(user, "user");
 
-  const fetchOrderItems = useCallback(async () => {
-    if (!user?.id) return;
-    try {
-      const response: any = await getOrdersItemsByUserId(user.id);
-      setOrderItems(response);
-    } catch (error) {
-      console.error("Failed to fetch order items:", error);
-    }
-  }, [user?.id]);
-
-  useEffect(() => {
-    fetchOrderItems();
-  }, [fetchOrderItems]);
   const handleSignOut = async () => {
     setIsSigningOut(true); // Optional: show loading state
     try {

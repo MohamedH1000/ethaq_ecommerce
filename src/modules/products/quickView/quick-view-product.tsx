@@ -20,12 +20,14 @@ import {
 } from "@/lib/actions/order.action";
 import { Loader } from "lucide-react";
 import { useUser } from "@/context/UserContext";
+import { useRouter } from "next/navigation";
 export const QuickViewProduct = () => {
   const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
   const globalModal = useGlobalModalStateStore((state) => state);
   const { isInCart, getItemFromCart, isInStock } = useCartStore(
     (state) => state
   );
+  const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   const [selectedQuantity, setSelectedQuantity] = useState(1);
   const product = globalModal.quickViewState as any;
@@ -76,9 +78,7 @@ export const QuickViewProduct = () => {
         selectedQuantity,
         finalPrice
       );
-      const updatedItems = await getOrdersItemsByUserId(user.id);
-      useCartStore.getState().setOrderItems(updatedItems);
-
+      router.refresh();
       toast.success("تم اضافة المنتج لعربة التسوق بنجاح");
       globalModal.setQuickViewState(false, null);
     } catch (error) {
