@@ -91,7 +91,10 @@ const Header = ({
           {/* <div className="border-r h-6 border-border" />
           <HeartIcon className="w-5" /> */}
           <div className="border-r h-6 border-border" />
-          <CartCounterButton orderItems={orderItems} />
+          <CartCounterButton
+            orderItems={orderItems}
+            currentUser={currentUser}
+          />
           <div className="border-r h-6 border-border" />
           {currentUser ? (
             <Menu as="div" className="relative inline-block text-left">

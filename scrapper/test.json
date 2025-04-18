@@ -1,0 +1,74 @@
+[
+  {
+    "name": "موز الشربتلي",
+    "url": "https://www.carrefourksa.com/mafsau/ar/banana/banana-sharbatly/p/78160",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/h2e/he3/14379756027934/78160_main.jpg?im=Resize=400",
+    "price": 5.5
+  },
+  {
+    "name": "توت أزرق عبوة 125 جرام",
+    "url": "https://www.carrefourksa.com/mafsau/ar/berries/blueberries-punnet-125-gms/p/613170",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/h70/hf2/45022183915550/613170_main.jpg?im=Resize=400",
+    "price": 6.95,
+    "original_price": 8.25,
+    "discount": 16
+  },
+  {
+    "name": "مانجو تيمور (للكيلو)",
+    "url": "https://www.carrefourksa.com/mafsau/ar/mango/mango-tymor/p/514661",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/h8a/hee/63026591629342/514661_main.jpg?im=Resize=400",
+    "price": 20.95
+  },
+  {
+    "name": "تفاح فوجي",
+    "url": "https://www.carrefourksa.com/mafsau/ar/apple/apple-fuji/p/77698",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/hed/h14/9378719727646/77698_main.jpg?im=Resize=400",
+    "price": 7.7
+  },
+  {
+    "name": "افوكادو هاس (للكيلو)",
+    "url": "https://www.carrefourksa.com/mafsau/ar/exotic-fruit/avocado-hass/p/497096",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/hb5/h00/9452357877790/497096_main.jpg?im=Resize=400",
+    "price": 9.47
+  },
+  {
+    "name": "عنب ابيض بدون بذور",
+    "url": "https://www.carrefourksa.com/mafsau/ar/grapes/grapes-white-seedless/p/77852",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/hce/hcc/9452359614494/77852_main.jpg?im=Resize=400",
+    "price": 6.97,
+    "original_price": 7.72,
+    "discount": 10
+  },
+  {
+    "name": "برتقال ابو صرة",
+    "url": "https://www.carrefourksa.com/mafsau/ar/orange/orange-navel/p/78034",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/ha1/h80/63026597298206/78034_main.jpg?im=Resize=400",
+    "price": 5.5
+  },
+  {
+    "name": "برتقال فالنسيا للعصير",
+    "url": "https://www.carrefourksa.com/mafsau/ar/orange/orange-valencia/p/78056",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/hbf/h59/9180053700638/78056_main.jpg?im=Resize=400",
+    "price": 3.95,
+    "original_price": 4.2,
+    "discount": 6
+  },
+  {
+    "name": "تفاح رويال جالا",
+    "url": "https://www.carrefourksa.com/mafsau/ar/apple/apple-royal-gala/p/77791",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/h15/h99/9216713883678/77791_main.jpg?im=Resize=400",
+    "price": 7.25
+  },
+  {
+    "name": "ليمون",
+    "url": "https://www.carrefourksa.com/mafsau/ar/lemon-lime/lemon/p/77972",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/h66/hc9/9452359516190/77972_main.jpg?im=Resize=400",
+    "price": 5
+  },
+  {
+    "name": "كيوي طازج (للكيلو)",
+    "url": "https://www.carrefourksa.com/mafsau/ar/kiwi/kiwi/p/78210",
+    "image_url": "https://cdn.mafrservices.com/sys-master-root/h23/h9a/9216715685918/78210_main.jpg?im=Resize=400",
+    "price": 6.72
+  }
+]

@@ -52,13 +52,12 @@ const buttonVariants = {
 
 const loginSchema = z.object({
   email: z.string().email("يرجى إدخال بريد إلكتروني صالح"),
-  password: z
-    .string()
-    .min(8, "كلمة المرور يجب أن تكون 8 أحرف على الأقل")
-    .regex(
-      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/,
-      "كلمة المرور يجب أن تحتوي على حرف صغير، حرف كبير، ورقم على الأقل"
-    ),
+  password: z.string(),
+  // .min(8, "كلمة المرور يجب أن تكون 8 أحرف على الأقل")
+  // .regex(
+  //   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/,
+  //   "كلمة المرور يجب أن تحتوي على حرف صغير، حرف كبير، ورقم على الأقل"
+  // ),
 });
 
 type LoginFormData = z.infer<typeof loginSchema>;
@@ -91,8 +90,6 @@ export function SignInForm() {
         throw new Error("Failed to check admin status");
       }
       const user = await adminCheckResponse.json();
-
-      // Check if user exists and is admin
       if (user && user.isAdmin) {
         toast.error("غير مسموح لك بالدخول. الصفحة خاصة بالمستخدم", {
           icon: (
@@ -107,6 +104,36 @@ export function SignInForm() {
         });
         return;
       }
+      const approvalCheckResponse = await fetch("/api/check-approvel", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email: data.email }),
+      });
+
+      const approvalCheck = await approvalCheckResponse.json();
+
+      // Handle approval check messages
+      if (!approvalCheck.success) {
+        toast.error(
+          approvalCheck.message || "Failed to check approval status",
+          {
+            icon: (
+              <motion.div
+                initial={{ rotate: -10, scale: 0.8 }}
+                animate={{ rotate: 0, scale: 1 }}
+                transition={{ duration: 0.3 }}
+              >
+                ❌
+              </motion.div>
+            ),
+          }
+        );
+        return;
+      }
+      // if ()
+      // Check if user exists and is admin
 
       const signInResult = await signIn("credentials", {
         email: data.email,

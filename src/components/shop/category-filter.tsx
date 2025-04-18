@@ -2,6 +2,7 @@ import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import React, { useState, useEffect } from "react";
 import { Checkbox } from "../ui/checkbox";
 import { Label } from "../ui/label";
+import { useGlobalModalStateStore } from "@/store/modal";
 
 export const CategoryFilter = () => {
   const pathname = usePathname();
@@ -62,6 +63,7 @@ export const CategoryFilter = () => {
 
     router.replace(`${pathname}?${params.toString()}`);
   }, [selectedCategory, pathname, router, searchParams]);
+  const { closeSideFilter } = useGlobalModalStateStore((state) => state);
 
   return (
     <div className="block border-b border-gray-300 pb-7 mb-7">
@@ -75,7 +77,10 @@ export const CategoryFilter = () => {
             <Checkbox
               id={`category-${item.id}`}
               checked={selectedCategory === item.id} // Only true if this item is selected
-              onCheckedChange={() => handleItemClick(item.id)}
+              onCheckedChange={() => {
+                handleItemClick(item.id);
+                closeSideFilter();
+              }}
             />
             <Label htmlFor={`category-${item.id}`}>{item.name}</Label>
           </div>

@@ -211,13 +211,13 @@ const CartSidebarView = () => {
 
   const total = Number(totalPrice) + taxAmount;
 
-  if (isLoading) {
-    return (
-      <div className="min-h-screen w-full flex items-center justify-center">
-        <Loader className="animate-spin" />;
-      </div>
-    );
-  }
+  // if (isLoading) {
+  //   return (
+  //     <div className="min-h-screen w-full flex items-center justify-center">
+  //       <Loader className="animate-spin" />;
+  //     </div>
+  //   );
+  // }
   return (
     <div className="flex flex-col justify-between w-full h-full dark:bg-[#0c0a09]">
       <div className="relative flex items-center justify-between w-full px-5 py-5 border-b border-gray-base md:px-7">

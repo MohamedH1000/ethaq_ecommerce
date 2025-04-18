@@ -37,14 +37,14 @@ export default async function DashboardLayout({
   return (
     <div className="relative flex min-h-screen flex-col">
       <SiteHeader currentUser={currentUser} />
-      <section className="h-12 py-10 bg-gray-100 dark:bg-gray-900 flex justify-center items-center my-6">
+      {/* <section className="h-12 py-10 bg-gray-100 dark:bg-gray-900 flex justify-center items-center my-6">
         <Breadcrumb />
-      </section>
+      </section> */}
       <div className="container flex-1 items-start md:grid md:grid-cols-[260px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[340px_minmax(0,1fr)] lg:gap-10 mb-8">
         <DropdownMenu>
           <DropdownMenuTrigger asChild className="md:hidden my-5">
             <Button size="sm" className="bg-purple-600 border-none">
-              <Icons.menu className="h-4 w-4" aria-hidden="true" />
+              <Icons.menu className="h-4 w-4" aria-hidden="true" /> القائمة
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="w-56" align="end" forceMount>

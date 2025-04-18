@@ -18,7 +18,7 @@ const ProductsPage = () => {
             <Suspense
               fallback={
                 <div className="flex items-center justify-center">
-                  تحميل المصفيات... <Loader className="animate-spin" />
+                  تحميل التصفية... <Loader className="animate-spin" />
                 </div>
               }
             >

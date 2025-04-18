@@ -1,8 +1,9 @@
 "use client";
-import { FilterIcon } from "lucide-react";
+import { FilterIcon, MoveRight } from "lucide-react";
 import Drawer from "../ui/drawer";
 import { useGlobalModalStateStore } from "@/store/modal";
 import FilterSidebar from "./filter-sidebar";
+import Link from "next/link";
 
 export default function SearchTopBar() {
   const { sideFilter, onSideFilter, closeSideFilter } =
@@ -18,8 +19,15 @@ export default function SearchTopBar() {
         onClick={onSideFilter}
       >
         <FilterIcon className="w-4" />
-        <span className="pl-2.5 ">المصفيات</span>
+        <span className="pl-2.5 ">التصفية</span>
       </button>
+      <Link
+        href={"/"}
+        className=" font-bold p-2  border-[1px] rounded-md flex items-center justify-center gap-1 text-sm"
+      >
+        <MoveRight />
+        الرجوع الى المتجر
+      </Link>
       {/* TODO: need to use just one drawer component */}
       <Drawer variant={"left"} open={sideFilter} onClose={closeSideFilter}>
         <FilterSidebar />

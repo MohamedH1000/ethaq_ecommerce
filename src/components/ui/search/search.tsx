@@ -135,7 +135,7 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
             <div className="flex items-center justify-center p-4 w-[600px] max-sm:w-[250px]">
               <Icons.spinner className="h-5 w-5 animate-spin" />
             </div>
-          ) : searchResults.length > 0 ? (
+          ) : searchResults?.length > 0 ? (
             <>
               <ul className="divide-y divide-gray-200 dark:divide-gray-700">
                 {searchResults.map((product) => (

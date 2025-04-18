@@ -1,6 +1,5 @@
 "use server";
 import { PrismaClient } from "@prisma/client";
-import { equal } from "assert";
 
 const prisma = new PrismaClient();
 
@@ -29,7 +28,31 @@ export async function searchProducts({
       active: true,
       OR: [
         {
-          name: { contains: query, mode: "insensitive" },
+          name: {
+            contains: ` ${query} `,
+            mode: "insensitive",
+          },
+        },
+        // Match word at start of string
+        {
+          name: {
+            startsWith: `${query} `,
+            mode: "insensitive",
+          },
+        },
+        // Match word at end of string
+        {
+          name: {
+            endsWith: ` ${query}`,
+            mode: "insensitive",
+          },
+        },
+        // Match exact string (single word case)
+        {
+          name: {
+            equals: query,
+            mode: "insensitive",
+          },
         },
       ],
     };

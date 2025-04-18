@@ -39,7 +39,7 @@ export const ProductsFilters: React.FC = () => {
       <div className="block border-b border-gray-300 pb-7 mb-7">
         <div className="flex items-center justify-between mb-2.5">
           <h2 className="font-semibold text-heading text-xl md:text-2xl">
-            المصفيات
+            التصفية
           </h2>
           <button
             className="flex-shrink text-xs mt-0.5 transition duration-150 ease-in focus:outline-none hover:text-heading"

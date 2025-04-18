@@ -17,7 +17,7 @@ const FilterSidebar = () => {
           <span className="sr-only">left</span>
         </button>
         <h2 className="font-bold text-xl md:text-2xl m-0 text-gray-900 w-full text-center pr-6 ">
-          المصفيات
+          التصفية
         </h2>
       </div>
 

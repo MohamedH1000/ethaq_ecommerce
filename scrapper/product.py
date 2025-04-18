@@ -1,5 +1,47 @@
 import json
+import requests
 from bs4 import BeautifulSoup
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+import time
+import re
+from urllib.parse import urlparse
+
+# Configure Cloudinary
+cloudinary.config(
+    cloud_name="dkfvlgdd3",
+    api_key="481299973458484",
+    api_secret="nosiR0ZaXLOL7HyOtujwqSB--lk"
+)
+
+def generate_image_name(product_name):
+    # Remove special characters and extra spaces
+    name = re.sub(r'[^\w\s-]', '', product_name)
+    name = re.sub(r'[\s-]+', '-', name)
+    return name.lower()
+    
+def upload_to_cloudinary(image_url, product_name):
+    print(f"🔄 Uploading image: {image_url}")
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        response = requests.get(image_url, headers=headers, timeout=15)
+
+        if response.status_code == 200:
+            image_name = generate_image_name(product_name) + ".jpg"
+            upload_result = cloudinary.uploader.upload(
+                response.content, 
+                public_id=image_name
+            )
+            print(f"✅ Image uploaded successfully: {upload_result['secure_url']}")
+            return upload_result['secure_url']
+        else:
+            print(f"❌ Failed to download image: {image_url}, code: {response.status_code}")
+            return None
+    except Exception as e:
+        print(f"❌ Error during processing: {e}")
+        return None
+    time.sleep(1.5)
 
 def clean_price(price_str):
     """Convert price string to float, removing currency and cleaning decimals"""
@@ -16,7 +58,6 @@ def clean_price(price_str):
     
     try:
         price_float = float(numeric_str)
-        # Remove unnecessary decimal zeros and convert to int if possible
         return int(price_float) if price_float.is_integer() else price_float
     except (ValueError, TypeError):
         return None
@@ -39,15 +80,30 @@ for card in product_cards:
     name_tag = card.find('a', {'data-testid': 'product_name'})
     if name_tag:
         product['name'] = name_tag.get_text(strip=True)
-        product['url'] = 'https://www.carrefourksa.com' + name_tag['href']
     
-    # Extract image URL
+    # Extract image URL and upload to Cloudinary
     img_tag = card.find('img', {'data-testid': 'product_image_main'})
-    if img_tag:
-        product['image_url'] = img_tag['src']
+    if img_tag and 'src' in img_tag.attrs:
+        original_image_url = img_tag['src']
+        if original_image_url.startswith('http'):
+            cloudinary_url = upload_to_cloudinary(original_image_url, product.get('name', ''))
+            if cloudinary_url:
+                product['images'] = [cloudinary_url]  # Changed to array format
     
-    # Extract current price (as number)
-    price_tag = card.find('div', {'data-testid': 'product-card-discount-price'}) or card.find('div', {'data-testid': 'product-card-original-price'})
+    # Extract discount percentage (as integer)
+    discount_tag = card.find('span', {'data-testid': 'headerStickerId', 'type': 'discount'})
+    if discount_tag:
+        discount_text = discount_tag.get_text(strip=True)
+        numeric_discount = ''.join(c for c in discount_text if c.isdigit())
+        if numeric_discount:
+            try:
+                product['discount'] = int(numeric_discount)
+            except (ValueError, TypeError):
+                pass
+    
+    # Extract price (always included, using original price)
+    price_tag = card.find('div', {'data-testid': 'product-card-original-price'}) or \
+                card.find('div', {'data-testid': 'product-card-discount-price'})
     if price_tag:
         price_parts = price_tag.find_all('div', recursive=False)
         if len(price_parts) >= 1:
@@ -60,35 +116,23 @@ for card in product_cards:
                     decimal_price = decimal_part.get_text(strip=True)
             
             price_str = f"{main_price}.{decimal_price}" if decimal_price else main_price
-            product['price'] = clean_price(price_str)
+            product['price'] = clean_price(price_str)  # Changed to just 'price'
     
-    # Extract original price if there's a discount (as number)
-    original_price_tag = card.find('div', {'data-testid': 'product-card-original-price', 'type': 'original'})
-    if original_price_tag and original_price_tag != price_tag:
-        original_price_parts = original_price_tag.find_all('div', recursive=False)
-        if len(original_price_parts) >= 1:
-            main_original_price = original_price_parts[0].get_text(strip=True)
-            decimal_original_price = ''
+    # Extract discounted price (only if available)
+    discount_price_tag = card.find('div', {'data-testid': 'product-card-discount-price'})
+    if discount_price_tag:
+        discount_price_parts = discount_price_tag.find_all('div', recursive=False)
+        if len(discount_price_parts) >= 1:
+            main_discount_price = discount_price_parts[0].get_text(strip=True)
+            decimal_discount_price = ''
             
-            if len(original_price_parts) > 1:
-                decimal_original_part = original_price_parts[1].find('div', class_='css-1pjcwg4')
-                if decimal_original_part:
-                    decimal_original_price = decimal_original_part.get_text(strip=True)
+            if len(discount_price_parts) > 1:
+                decimal_discount_part = discount_price_parts[1].find('div', class_='css-1pjcwg4')
+                if decimal_discount_part:
+                    decimal_discount_price = decimal_discount_part.get_text(strip=True)
             
-            original_price_str = f"{main_original_price}.{decimal_original_price}" if decimal_original_price else main_original_price
-            product['original_price'] = clean_price(original_price_str)
-    
-    # Extract discount percentage (as integer)
-    discount_tag = card.find('span', {'data-testid': 'headerStickerId', 'type': 'discount'})
-    if discount_tag:
-        discount_text = discount_tag.get_text(strip=True)
-        # Extract only numbers from discount text
-        numeric_discount = ''.join(c for c in discount_text if c.isdigit())
-        if numeric_discount:
-            try:
-                product['discount'] = int(numeric_discount)
-            except (ValueError, TypeError):
-                pass
+            discount_price_str = f"{main_discount_price}.{decimal_discount_price}" if decimal_discount_price else main_discount_price
+            product['discounted_price'] = clean_price(discount_price_str)
     
     if product:  # Only add if we found at least some data
         products.append(product)

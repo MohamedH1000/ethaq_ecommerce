@@ -37,7 +37,7 @@ export const CartItemDetails = ({
               alt={item?.name}
               width={80}
               height={80}
-              className="w-20 h-20"
+              className="w-20 h-20 rounded-lg"
             />
           </div>
           <div className="flex flex-col">
@@ -45,12 +45,12 @@ export const CartItemDetails = ({
               {item?.name}
             </h1>
             <div className="flex flex-col mt-2">
-              <div className="flex gap-1 items-center">
+              {/* <div className="flex gap-1 items-center">
                 <h6 className="text-gray-800 font-semibold dark:text-white">
                   تم البيع بواسطة:
                 </h6>
                 <p className=" text-gray-500">ايثاق ماركت</p>
-              </div>
+              </div> */}
               {item?.unit && (
                 <div className="flex gap-1 items-center">
                   <h6 className="text-gray-800 font-semibold dark:text-white">
@@ -145,7 +145,7 @@ export const CartItemDetails = ({
                 toast.success("تم حذف المنتج من عربة التسوق");
               }}
             >
-              ازالة العنصر
+              سلة المهملات
             </button>
           </div>
         </div>

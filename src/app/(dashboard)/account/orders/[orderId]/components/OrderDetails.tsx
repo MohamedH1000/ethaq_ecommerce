@@ -1,14 +1,54 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Icons } from "@/components/ui/icons";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { confirmDelivery } from "@/lib/actions/order.action";
 import { format } from "date-fns";
 import { arSA } from "date-fns/locale";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { toast } from "sonner";
 
 interface OrderDetailsProps {
   order: any;
 }
 
 export default function OrderDetails({ order }: OrderDetailsProps) {
+  const [open, setOpen] = useState(false);
+  const [confirmationCode, setConfirmationCode] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const router = useRouter();
+
+  const handleConfirmDelivery = async () => {
+    setIsLoading(true);
+    try {
+      const response = await confirmDelivery(order?.id, confirmationCode);
+
+      if (!response?.success) {
+        toast.error(response?.message);
+      } else {
+        toast.success(response.message);
+      }
+
+      router.refresh(); // Refresh the page to update the order status
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setIsLoading(false);
+      setOpen(false);
+    }
+  };
   if (!order) return <div className="text-center py-8">لا يوجد طلب</div>;
 
   return (
@@ -98,7 +138,62 @@ export default function OrderDetails({ order }: OrderDetailsProps) {
           </div> */}
         </div>
       </div>
+      {order?.isDelivered === false && (
+        <Button
+          onClick={() => setOpen(true)}
+          variant="outline"
+          className="min-w-[180px] bg-primary text-white rounded-xl hover:!bg-primary text-sm hover:!text-white"
+          disabled={order?.isDelivered} // Disable if already delivered
+        >
+          {order?.isDelivered === "DELIVERED"
+            ? "تم الاستلام"
+            : "تأكيد الاستلام"}
+        </Button>
+      )}
 
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="sm:max-w-[425px]">
+          <DialogHeader>
+            <DialogTitle className="text-right">تأكيد استلام الطلب</DialogTitle>
+            <DialogDescription className="text-right">
+              الرجاء إدخال كود التأكيد المرسل إليك
+            </DialogDescription>
+          </DialogHeader>
+          <div className="grid gap-4 py-4">
+            <div className="grid grid-cols-4 items-center gap-4">
+              <Label htmlFor="confirmationCode" className="text-right">
+                كود التأكيد
+              </Label>
+              <Input
+                id="confirmationCode"
+                value={confirmationCode}
+                onChange={(e) => setConfirmationCode(e.target.value)}
+                className="col-span-3"
+                placeholder="أدخل الكود المكون من 6 أرقام"
+              />
+            </div>
+          </div>
+          <DialogFooter className="flex gap-2">
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => setOpen(false)}
+            >
+              إلغاء
+            </Button>
+            <Button
+              type="button"
+              onClick={handleConfirmDelivery}
+              disabled={isLoading || !confirmationCode}
+            >
+              {isLoading && (
+                <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+              )}
+              تأكيد
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
       {/* Shipping Address */}
       {order.address && (
         <div className="mb-6">

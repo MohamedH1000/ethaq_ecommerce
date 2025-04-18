@@ -3,6 +3,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Checkbox } from "../ui/checkbox";
 import { Label } from "../ui/label";
+import { useGlobalModalStateStore } from "@/store/modal";
 
 const priceFilterItems = [
   {
@@ -69,6 +70,7 @@ export const PriceFilter = () => {
   const handleItemClick = (identifier: string) => {
     setSelectedPrice((prev) => (prev === identifier ? "" : identifier));
   };
+  const { closeSideFilter } = useGlobalModalStateStore((state) => state);
 
   return (
     <div className="block border-b border-gray-300 pb-7 mb-7">
@@ -81,7 +83,10 @@ export const PriceFilter = () => {
             <Checkbox
               name={item.name.toLowerCase()}
               checked={selectedPrice.includes(item.slug)}
-              onCheckedChange={() => handleItemClick(item.slug)} // Pass the slug to handleItemClick
+              onCheckedChange={() => {
+                handleItemClick(item.slug);
+                closeSideFilter();
+              }} // Pass the slug to handleItemClick
             />
 
             <Label>{item.name}</Label>

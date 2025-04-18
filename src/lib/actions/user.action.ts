@@ -75,7 +75,7 @@ export async function createUser(userData: any) {
     if (existingUser) {
       return {
         success: false,
-        error: "حدث خطأ اثناء ارسال طلب التسجيل للمستخدم",
+        error: "تم تسجيل هذا الايميل",
         status: 409, // Conflict status code
       };
     }

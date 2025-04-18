@@ -120,15 +120,15 @@ export async function createOrder(
     const potentialTotal = totalUnpaid + newOrderTotal;
 
     // Check if potential total exceeds 5000 SAR
-    if (potentialTotal > 5000) {
-      const remainingCredit = 5000 - totalUnpaid;
+    if (potentialTotal > 2000) {
+      const remainingCredit = 2000 - totalUnpaid;
       return {
         success: false,
         message: `لا يمكن إنشاء طلب جديد. الرصيد المتاح لك هو ${remainingCredit.toFixed(
           2
         )} ريال. الطلب الحالي ${newOrderTotal.toFixed(
           2
-        )} ريال يتجاوز الحد الأقصى المسموح به (5000 ريال)`,
+        )} ريال يتجاوز الحد الأقصى المسموح به (2000 ريال)`,
         unpaidBalance: totalUnpaid,
         remainingCredit: remainingCredit,
         newOrderAmount: newOrderTotal,
@@ -136,11 +136,11 @@ export async function createOrder(
     }
 
     // Check if user already has 5000 SAR in unpaid orders
-    if (totalUnpaid >= 5000) {
+    if (totalUnpaid >= 2000) {
       return {
         success: false,
         message:
-          "لا يمكن إنشاء طلب جديد. لديك رصيد غير مدفوع بقيمة 5000 ريال أو أكثر.",
+          "لا يمكن إنشاء طلب جديد. لديك رصيد غير مدفوع بقيمة 2000 ريال أو أكثر.",
         unpaidBalance: totalUnpaid,
       };
     }
@@ -345,7 +345,6 @@ export async function createOrder(
             <h3>عنوان التوصيل</h3>
             <div class="info-list">
               <ul>
-                <li><strong>الاسم:</strong> ${address?.name}</li>
                 <li><strong>العنوان:</strong> ${address?.street}, ${
       address?.city
     }, ${address?.state}, ${address?.country}</li>
@@ -534,13 +533,11 @@ export async function createOrder(
             <h3>عنوان التوصيل</h3>
             <div class="info-list">
               <ul>
-                <li><strong>الاسم:</strong> ${address?.name}</li>
                 <li><strong>العنوان:</strong> ${address?.street}, ${
       address?.city
     }, ${address?.state}, ${address?.country}</li>
                 <li><strong>الرمز البريدي:</strong> ${address?.postcode}</li>
-                <li><strong>رقم الهاتف:</strong> ${address?.phone}</li>
-                <li><strong>البريد الإلكتروني:</strong> ${address?.email}</li>
+              
               </ul>
             </div>
           </div>
@@ -575,7 +572,7 @@ export async function createOrder(
           <p>سنتواصل معك قريبًا لتأكيد حالة الطلب. يمكنك متابعة حالة طلبك في حسابك.</p>
           <a href="https://four.fortworthtowingtx.com/account/orders/${
             newOrder.id
-          }" class="button">عرض طلباتي</a>
+          }" class="button">عرض الطلب</a>
         </div>
         <div class="footer">
           <p>مع خالص الشكر،<br>فريق إيثاق</p>
