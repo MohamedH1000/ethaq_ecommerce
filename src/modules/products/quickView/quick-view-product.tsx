@@ -143,7 +143,7 @@ export const QuickViewProduct = () => {
               <h3 className="text-xl text-gray-800 dark:text-white font-medium text-right">
                 تفاصيل المنتج:
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-200 text-right">
+              <p className="text-sm text-gray-600 dark:text-gray-200 text-right mt-3">
                 {product?.description}
               </p>
             </div>
@@ -181,7 +181,7 @@ export const QuickViewProduct = () => {
               )}
               {product?.discount && (
                 <>
-                  <del className="text-sm text-opacity-50 md:text-15px pl-3  text-gray-500 ">
+                  <del className="text-sm text-opacity-50 md:text-15px pl-3  text-gray-500 dark:text-white mr-2">
                     {(product.price * selectedQuantity).toFixed(2)} ريال
                   </del>
                   <span className="inline-block rounded font-bold text-xs md:text-sm bg-primary/10  text-primary uppercase px-2 py-1 ml-2.5 ">

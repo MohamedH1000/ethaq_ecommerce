@@ -83,7 +83,7 @@ const ProductCard = ({ product, user }: Props) => {
         </div>
         <div className="flex flex-col px-4">
           <Link
-            className="text-sm sm:text-base font-semibold text-gray-800 dark:text-white w-full line-clamp-1 text-ellipsis"
+            className="text-sm sm:text-base font-semibold mt-2 text-gray-800 dark:text-white w-full line-clamp-1 text-ellipsis"
             href={`/products/${product.id}`}
           >
             {product.name}
@@ -104,7 +104,7 @@ const ProductCard = ({ product, user }: Props) => {
               </p>
             )}
             {product?.discount > 0 && (
-              <del className="mx-1 text-xs md:text-sm text-gray-600 text-opacity-70">
+              <del className="mx-1 text-xs md:text-sm text-gray-600 dark:text-white text-opacity-70">
                 {product.price.toFixed(2)} ريال
               </del>
             )}

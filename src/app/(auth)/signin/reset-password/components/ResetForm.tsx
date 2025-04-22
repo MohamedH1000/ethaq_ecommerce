@@ -10,6 +10,13 @@ import {
 } from "@/components/ui/form";
 import { Icons } from "@/components/ui/icons";
 import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { sendResetPassword } from "@/lib/actions/user.action";
 import { zodResolver } from "@hookform/resolvers/zod";
 import React from "react";
@@ -19,15 +26,32 @@ import { z } from "zod";
 
 const ResetForm = () => {
   const resetSchema = z.object({
-    email: z.string().email("يرجى إدخال بريد إلكتروني الخاص بك"),
+    countryCode: z.string().min(1, "يجب اختيار رمز الدولة"),
+    phoneNumber: z
+      .string()
+      .min(9, "يجب أن يكون رقم الهاتف 9 أرقام على الأقل")
+      .max(15, "يجب أن يكون رقم الهاتف 15 رقماً كحد أقصى")
+      .regex(/^[0-9]+$/, "يجب أن يحتوي رقم الهاتف على أرقام فقط"),
   });
-
+  const countryCodes = [
+    { code: "+966", name: "السعودية", flag: "🇸🇦" },
+    { code: "+20", name: "مصر", flag: "🇪🇬" },
+    { code: "+971", name: "الإمارات", flag: "🇦🇪" },
+    { code: "+973", name: "البحرين", flag: "🇧🇭" },
+    { code: "+974", name: "قطر", flag: "🇶🇦" },
+    { code: "+968", name: "عمان", flag: "🇴🇲" },
+    { code: "+965", name: "الكويت", flag: "🇰🇼" },
+    { code: "+962", name: "الأردن", flag: "🇯🇴" },
+    { code: "+963", name: "سوريا", flag: "🇸🇾" },
+    { code: "+964", name: "العراق", flag: "🇮🇶" },
+  ];
   type ResetFormSchema = z.infer<typeof resetSchema>;
 
   const form = useForm<ResetFormSchema>({
     resolver: zodResolver(resetSchema),
     defaultValues: {
-      email: "",
+      countryCode: "+966",
+      phoneNumber: "",
     },
   });
 
@@ -43,7 +67,9 @@ const ResetForm = () => {
       if (!response.success) {
         toast.error(response.message);
       } else {
-        toast.success("تم ارسال الباسوورد الجديد على الايميل بنجاح");
+        toast.success(
+          "تم ارسال الباسوورد الجديد على رقم الهاتف عبر الواتساب بنجاح"
+        );
       }
 
       //   console.log("is submmitting", isSubmitting);
@@ -57,23 +83,62 @@ const ResetForm = () => {
 
   return (
     <Form {...form}>
-      <form
-        className="grid gap-4"
-        onSubmit={(...args) => void form.handleSubmit(attemptToReset)(...args)}
-      >
-        <FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>الايميل</FormLabel>
-              <FormControl>
-                <Input placeholder="example@gmail.com" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+      <form className="grid gap-4" onSubmit={form.handleSubmit(attemptToReset)}>
+        <div className="grid grid-cols-3 gap-2">
+          <div className="col-span-2">
+            <FormField
+              control={form.control}
+              name="phoneNumber"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>
+                    <span>رقم الهاتف</span>
+                  </FormLabel>
+                  <FormControl>
+                    <Input
+                      {...field}
+                      type="tel"
+                      placeholder="5XXXXXXXX"
+                      disabled={isSubmitting}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          </div>
+          <div className="col-span-1">
+            <FormField
+              control={form.control}
+              name="countryCode"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>
+                    <span>رمز الدولة</span>
+                  </FormLabel>
+                  <Select
+                    onValueChange={field.onChange}
+                    defaultValue={field.value}
+                  >
+                    <FormControl>
+                      <SelectTrigger>
+                        <SelectValue placeholder="اختر رمز الدولة" />
+                      </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                      {countryCodes.map((country) => (
+                        <SelectItem key={country.code} value={country.code}>
+                          {country.flag} {country.name} ({country.code})
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          </div>
+        </div>
         <Button type="submit" disabled={isSubmitting}>
           {isSubmitting && (
             <Icons.spinner
@@ -81,8 +146,8 @@ const ResetForm = () => {
               aria-hidden="true"
             />
           )}
-          استعادة الباسوورد
-          <span className="sr-only">reset password</span>
+          استعادة كلمة المرور
+          <span className="sr-only">Reset password</span>
         </Button>
       </form>
     </Form>

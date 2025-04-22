@@ -3,6 +3,7 @@
 import Counter from "@/components/ui/counter";
 import usePrice from "@/hooks/use-price";
 import { deleteOrderItem } from "@/lib/actions/order.action";
+import { Trash2 } from "lucide-react";
 import Image from "next/image";
 import { toast } from "sonner";
 
@@ -134,7 +135,7 @@ export const CartItemDetails = ({
         </div>
 
         <div className="flex flex-col">
-          <h1 className="text-gray-600 dark:text-white">الاجراء</h1>
+          {/* <h1 className="text-gray-600 dark:text-white">سلة المهملات</h1> */}
           <div className="flex flex-col mt-2">
             {/* <button className="text-green-400 underline">الحفظ لاحقا</button> */}
 
@@ -145,7 +146,7 @@ export const CartItemDetails = ({
                 toast.success("تم حذف المنتج من عربة التسوق");
               }}
             >
-              سلة المهملات
+              <Trash2 />
             </button>
           </div>
         </div>

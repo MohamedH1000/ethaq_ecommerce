@@ -22,7 +22,7 @@
     --destructive-foreground: 0 0% 98%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 346.8 77.2% 49.8%;
+    --ring: 232.3 100% 17.1%;
     --radius: 0.3rem;
   }
 
@@ -77,5 +77,7 @@
 .animate-stripes {
   animation: stripes 1s linear infinite;
 }
-
+.sonner-toast[data-position="top-center"] {
+  top: 20px !important;
+}
 @import "./custom-plugins.css";

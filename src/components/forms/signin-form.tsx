@@ -4,8 +4,6 @@ import * as React from "react";
 import { useRouter } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { signIn } from "next-auth/react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import {
@@ -19,9 +17,27 @@ import {
 import { Input } from "../ui/input";
 import { PasswordInput } from "../ui/password-input";
 import { Icons } from "../ui/icons";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { z } from "zod";
 import { toast } from "sonner";
+import { signIn } from "next-auth/react";
+import { CardFooter } from "../ui/card";
+import Link from "next/link";
+import {
+  InputOTP,
+  InputOTPGroup,
+  InputOTPSeparator,
+  InputOTPSlot,
+} from "../ui/input-otp";
+import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
 
-// Animation variants
+// ... (keep your existing variants and countryCodes definitions)
 const formVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -44,51 +60,122 @@ const itemVariants = {
   },
 };
 
-const buttonVariants = {
-  idle: { scale: 1 },
-  hover: { scale: 1.03, transition: { duration: 0.2 } },
-  tap: { scale: 0.97, transition: { duration: 0.1 } },
-};
+// Country codes data
+const countryCodes = [
+  { code: "+966", name: "السعودية", flag: "🇸🇦" },
+  { code: "+20", name: "مصر", flag: "🇪🇬" },
+  { code: "+971", name: "الإمارات", flag: "🇦🇪" },
+  { code: "+973", name: "البحرين", flag: "🇧🇭" },
+  { code: "+974", name: "قطر", flag: "🇶🇦" },
+  { code: "+968", name: "عمان", flag: "🇴🇲" },
+  { code: "+965", name: "الكويت", flag: "🇰🇼" },
+  { code: "+962", name: "الأردن", flag: "🇯🇴" },
+  { code: "+963", name: "سوريا", flag: "🇸🇾" },
+  { code: "+964", name: "العراق", flag: "🇮🇶" },
+];
 
+// Updated schema to use phoneNumber with country code
 const loginSchema = z.object({
-  email: z.string().email("يرجى إدخال بريد إلكتروني صالح"),
-  password: z.string(),
-  // .min(8, "كلمة المرور يجب أن تكون 8 أحرف على الأقل")
-  // .regex(
-  //   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/,
-  //   "كلمة المرور يجب أن تحتوي على حرف صغير، حرف كبير، ورقم على الأقل"
-  // ),
+  phoneNumber: z
+    .string()
+    .min(9, "يجب أن يكون رقم الهاتف 9 أرقام على الأقل")
+    .max(15, "يجب أن يكون رقم الهاتف 15 رقماً كحد أقصى")
+    .regex(/^[0-9]+$/, "يجب أن يحتوي رقم الهاتف على أرقام فقط"),
+  countryCode: z.string().min(1, "يجب اختيار رمز الدولة"),
+  otp: z.string().optional(),
 });
 
 type LoginFormData = z.infer<typeof loginSchema>;
-
 export function SignInForm() {
   const router = useRouter();
+  const [otpSent, setOtpSent] = React.useState(false);
+  const [step, setStep] = React.useState<"phone" | "otp">("phone");
+  const [countdown, setCountdown] = React.useState(0);
 
   const form = useForm<LoginFormData>({
     resolver: zodResolver(loginSchema),
     defaultValues: {
-      email: "",
-      password: "",
+      phoneNumber: "",
+      countryCode: "+966",
+      otp: "",
     },
   });
-
+  React.useEffect(() => {
+    if (countdown > 0) {
+      const timer = setTimeout(() => setCountdown(countdown - 1), 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [countdown]);
   const [isSubmitting, setIsSubmitting] = React.useState(false);
+  const [isResending, setIsResending] = React.useState(false);
   const [focusedField, setFocusedField] = React.useState<string | null>(null);
-
-  const attemptToLogin = async (data: LoginFormData) => {
+  const sendOtp = async (countryCode: string, phoneNumber: string) => {
     setIsSubmitting(true);
     try {
+      // Send OTP via WhatsApp
+      const response = await fetch("/api/send-otp", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          phoneNumber: `${countryCode}${phoneNumber}`,
+        }),
+      });
+      // console.log(response, "response");
+      if (!response.ok) {
+        const errorData = await response.json();
+        toast.error(errorData.message);
+        // Handle error in UI
+        return;
+      }
+
+      setOtpSent(true);
+      setCountdown(300); // 60 seconds countdown
+      setStep("otp");
+      toast.success("تم إرسال رمز التحقق إلى واتساب الخاص بك", {
+        icon: "✅",
+      });
+    } catch (error) {
+      toast.error("فشل إرسال رمز التحقق", {
+        icon: "❌",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+  const verifyOtp = async (data: LoginFormData) => {
+    setIsSubmitting(true);
+    try {
+      const fullPhoneNumber = `${data?.countryCode}${data.phoneNumber}`;
+      const response = await fetch("/api/verify-otp", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          phoneNumber: `${data?.countryCode}${data?.phoneNumber}`,
+          otp: data?.otp,
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        toast.error(errorData.message);
+        return;
+      }
       const adminCheckResponse = await fetch("/api/check-admin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email: data.email }),
+        body: JSON.stringify({ phoneNumber: fullPhoneNumber }),
       });
+
       if (!adminCheckResponse.ok) {
         throw new Error("Failed to check admin status");
       }
+
       const user = await adminCheckResponse.json();
       if (user && user.isAdmin) {
         toast.error("غير مسموح لك بالدخول. الصفحة خاصة بالمستخدم", {
@@ -104,17 +191,17 @@ export function SignInForm() {
         });
         return;
       }
+
       const approvalCheckResponse = await fetch("/api/check-approvel", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email: data.email }),
+        body: JSON.stringify({ phoneNumber: fullPhoneNumber }),
       });
 
       const approvalCheck = await approvalCheckResponse.json();
 
-      // Handle approval check messages
       if (!approvalCheck.success) {
         toast.error(
           approvalCheck.message || "Failed to check approval status",
@@ -132,23 +219,19 @@ export function SignInForm() {
         );
         return;
       }
-      // if ()
-      // Check if user exists and is admin
 
       const signInResult = await signIn("credentials", {
-        email: data.email,
-        password: data.password,
+        phoneNumber: fullPhoneNumber,
         redirect: false,
       });
 
       if (signInResult?.ok) {
-        // Update last login date after successful login
         await fetch("/api/user/update-last-login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ email: data.email }),
+          body: JSON.stringify({ phoneNumber: fullPhoneNumber }),
         });
 
         toast.success("تم تسجيل الدخول بنجاح", {
@@ -163,10 +246,10 @@ export function SignInForm() {
           ),
         });
 
-        // Animate before redirect
         setTimeout(() => {
           router.push("/");
           window.location.reload();
+          // window.location.reload();
         }, 500);
       } else if (signInResult?.error) {
         toast.error("بيانات تسجيل الدخول غير صحيحة", {
@@ -199,19 +282,34 @@ export function SignInForm() {
     }
   };
 
-  // Custom input component with animation
-  const AnimatedInput = React.forwardRef<
-    HTMLInputElement,
-    React.InputHTMLAttributes<HTMLInputElement> & { isFocused: boolean }
-  >(({ isFocused, ...props }, ref) => {
-    return (
+  const attemptToLogin = async (data: LoginFormData) => {
+    if (step === "phone") {
+      await sendOtp(data.countryCode, data.phoneNumber);
+    } else {
+      await verifyOtp(data);
+    }
+  };
+  // Create refs for each input
+  const phoneNumberRef = React.useRef<HTMLInputElement>(null);
+  const passwordRef = React.useRef<HTMLInputElement>(null);
+
+  // Modified attemptToLogin function (keep your existing implementation)
+
+  // Stable input components that won't re-render unnecessarily
+  const PhoneNumberInput = React.useMemo(() => {
+    return React.forwardRef<
+      HTMLInputElement,
+      React.InputHTMLAttributes<HTMLInputElement>
+    >((props, ref) => (
       <motion.div
-        animate={isFocused ? { scale: 1.01 } : { scale: 1 }}
+        animate={
+          focusedField === "phoneNumber" ? { scale: 1.01 } : { scale: 1 }
+        }
         transition={{ duration: 0.2 }}
         className="relative"
       >
-        <Input ref={ref} {...props} />
-        {isFocused && (
+        <Input ref={ref} type="tel" placeholder="5XXXXXXXX" {...props} />
+        {focusedField === "phoneNumber" && (
           <motion.div
             layoutId="focus-highlight"
             className="absolute inset-0 rounded-md border-2 border-primary pointer-events-none"
@@ -222,23 +320,21 @@ export function SignInForm() {
           />
         )}
       </motion.div>
-    );
-  });
-  AnimatedInput.displayName = "AnimatedInput";
+    ));
+  }, [focusedField]);
 
-  // Custom password input with animation
-  const AnimatedPasswordInput = React.forwardRef<
-    HTMLInputElement,
-    React.InputHTMLAttributes<HTMLInputElement> & { isFocused: boolean }
-  >(({ isFocused, ...props }, ref) => {
-    return (
+  const PasswordInputField = React.useMemo(() => {
+    return React.forwardRef<
+      HTMLInputElement,
+      React.InputHTMLAttributes<HTMLInputElement>
+    >((props, ref) => (
       <motion.div
-        animate={isFocused ? { scale: 1.01 } : { scale: 1 }}
+        animate={focusedField === "password" ? { scale: 1.01 } : { scale: 1 }}
         transition={{ duration: 0.2 }}
         className="relative"
       >
-        <PasswordInput ref={ref} {...props} />
-        {isFocused && (
+        <PasswordInput ref={ref} placeholder="**********" {...props} />
+        {focusedField === "password" && (
           <motion.div
             layoutId="focus-highlight"
             className="absolute inset-0 rounded-md border-2 border-primary pointer-events-none"
@@ -249,139 +345,284 @@ export function SignInForm() {
           />
         )}
       </motion.div>
-    );
-  });
-  AnimatedPasswordInput.displayName = "AnimatedPasswordInput";
+    ));
+  }, [focusedField]);
+  const resendOtp = async () => {
+    if (countdown > 0) return; // Prevent resending during countdown
 
+    setIsResending(true);
+    try {
+      const countryCode = form.getValues("countryCode");
+      const phoneNumber = form.getValues("phoneNumber");
+
+      // Validate phone number again
+      await form.trigger(["countryCode", "phoneNumber"]);
+      if (
+        form.formState.errors.phoneNumber ||
+        form.formState.errors.countryCode
+      ) {
+        toast.error("الرجاء إدخال رقم هاتف صحيح");
+        return;
+      }
+
+      // Call the same sendOtp function but with resend flag
+      const response = await fetch("/api/send-otp", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          phoneNumber: `${countryCode}${phoneNumber}`,
+          isResend: true, // Add this flag if your API needs it
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        toast.error(errorData.message);
+        return;
+      }
+
+      setCountdown(300); // Reset countdown
+      toast.success("تم إعادة إرسال رمز التحقق", {
+        icon: "✅",
+      });
+    } catch (error) {
+      toast.error("فشل إعادة إرسال رمز التحقق", {
+        icon: "❌",
+      });
+      console.error("Resend OTP Error:", error);
+    } finally {
+      setIsResending(false);
+    }
+  };
   return (
-    <motion.div
-      initial="hidden"
-      animate="visible"
-      variants={formVariants}
-      className="w-full"
-    >
-      <Form {...form}>
-        <form
-          className="grid gap-4"
-          onSubmit={(...args) =>
-            void form.handleSubmit(attemptToLogin)(...args)
-          }
-        >
-          <motion.div variants={itemVariants}>
-            <FormField
-              control={form.control}
-              name="email"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>
-                    <motion.span
-                      initial={{ opacity: 0, x: -5 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.3, duration: 0.3 }}
-                    >
-                      الايميل
-                    </motion.span>
-                  </FormLabel>
-                  <FormControl>
-                    <AnimatedInput
-                      placeholder="example@gmail.com"
-                      isFocused={focusedField === "email"}
-                      onFocus={() => setFocusedField("email")}
-                      onBlur={() => setFocusedField(null)}
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage
-                    as={motion.div}
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{
-                      height: form.formState.errors.email ? "auto" : 0,
-                      opacity: form.formState.errors.email ? 1 : 0,
-                    }}
-                    transition={{ duration: 0.3 }}
-                  />
-                </FormItem>
-              )}
-            />
-          </motion.div>
-
-          <motion.div variants={itemVariants}>
-            <FormField
-              control={form.control}
-              name="password"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>
-                    <motion.span
-                      initial={{ opacity: 0, x: -5 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.4, duration: 0.3 }}
-                    >
-                      الباسوورد
-                    </motion.span>
-                  </FormLabel>
-                  <FormControl>
-                    <AnimatedPasswordInput
-                      placeholder="**********"
-                      isFocused={focusedField === "password"}
-                      onFocus={() => setFocusedField("password")}
-                      onBlur={() => setFocusedField(null)}
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage
-                    as={motion.div}
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{
-                      height: form.formState.errors.password ? "auto" : 0,
-                      opacity: form.formState.errors.password ? 1 : 0,
-                    }}
-                    transition={{ duration: 0.3 }}
-                  />
-                </FormItem>
-              )}
-            />
-          </motion.div>
-
-          <motion.div variants={itemVariants} className="mt-2">
-            <motion.div
-              variants={buttonVariants}
-              initial="idle"
-              whileHover="hover"
-              whileTap="tap"
-            >
-              <Button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full transition-all duration-300"
+    <div className="w-full">
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={formVariants}
+        className="w-full"
+      >
+        <Form {...form}>
+          <form
+            className="grid gap-4"
+            onSubmit={form.handleSubmit(attemptToLogin)}
+          >
+            {step === "phone" ? (
+              <motion.div
+                variants={itemVariants}
+                className="grid grid-cols-3 gap-2 max-sm:place-items-end  w-full"
               >
-                {isSubmitting ? (
-                  <motion.div
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    className="flex items-center"
+                <div className="col-span-2">
+                  <FormField
+                    control={form.control}
+                    name="phoneNumber"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>رقم الهاتف</FormLabel>
+                        <FormControl>
+                          <Input
+                            {...field}
+                            type="tel"
+                            placeholder="5XXXXXXXX"
+                            dir="rtl"
+                            className="h-[50px]"
+                          />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                </div>
+                <div className="col-span-1 place-self-end">
+                  <FormField
+                    control={form.control}
+                    name="countryCode"
+                    render={({ field }) => (
+                      <FormItem>
+                        {/* <FormLabel>رمز الدولة</FormLabel> */}
+                        <Select
+                          onValueChange={field.onChange}
+                          defaultValue={field.value}
+                          dir="rtl"
+                        >
+                          <FormControl>
+                            <SelectTrigger dir="rtl" className="h-[50px] ">
+                              <SelectValue placeholder="اختر رمز الدولة" />
+                            </SelectTrigger>
+                          </FormControl>
+                          <SelectContent dir="rtl">
+                            {countryCodes.map((country) => (
+                              <SelectItem
+                                key={country.code}
+                                value={country.code}
+                                dir="rtl"
+                              >
+                                {country.name} ({country.code})
+                              </SelectItem>
+                            ))}
+                          </SelectContent>
+                        </Select>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                </div>
+              </motion.div>
+            ) : (
+              <motion.div variants={itemVariants}>
+                <FormField
+                  control={form.control}
+                  name="otp"
+                  render={({ field }) => (
+                    <FormItem className="w-full">
+                      <FormLabel className="text-right w-full">
+                        رمز التحقق
+                      </FormLabel>
+                      <FormControl>
+                        <div className="flex justify-center w-full" dir="rtl">
+                          <InputOTP
+                            maxLength={6}
+                            {...field}
+                            dir="rtl"
+                            className="w-full justify-center"
+                          >
+                            <InputOTPGroup className="gap-2 max-sm:gap-0">
+                              <InputOTPSlot
+                                index={0}
+                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
+                              />
+                              <InputOTPSlot
+                                index={1}
+                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
+                              />
+                              <InputOTPSlot
+                                index={2}
+                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
+                              />
+                              <InputOTPSlot
+                                index={3}
+                                className="h-14 w-14  max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
+                              />
+                              <InputOTPSlot
+                                index={4}
+                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
+                              />
+                              <InputOTPSlot
+                                index={5}
+                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
+                              />
+                            </InputOTPGroup>
+                          </InputOTP>
+                        </div>
+                      </FormControl>
+                      <FormMessage className="text-right" />
+                    </FormItem>
+                  )}
+                />
+              </motion.div>
+            )}
+
+            <motion.div
+              variants={itemVariants}
+              className="flex w-full justify-center items-center gap-2"
+            >
+              {step === "phone" && (
+                <>
+                  <Button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-auto mt-5"
                   >
-                    <Icons.spinner
-                      className="mr-2 h-4 w-4 animate-spin"
-                      aria-hidden="true"
-                    />
-                    <span>جاري التحميل...</span>
-                  </motion.div>
-                ) : (
-                  <motion.span
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 0.3 }}
+                    {isSubmitting ? (
+                      <>
+                        <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                        جاري الإرسال...
+                      </>
+                    ) : (
+                      "إرسال رمز التحقق"
+                    )}
+                  </Button>
+                </>
+              )}
+              {step === "otp" && (
+                <div className="mt-5 w-full flex flex-col items-start justify-center gap-2">
+                  <Button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-[200px] text-lg "
                   >
-                    تسجيل الدخول
-                  </motion.span>
-                )}
-                <span className="sr-only">Sign in</span>
-              </Button>
+                    {isSubmitting ? (
+                      <>
+                        <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                        جاري التحقق...
+                      </>
+                    ) : (
+                      "تحقق"
+                    )}
+                  </Button>
+
+                  <div className="flex items-center justify-between  w-full mt-3">
+                    <Button
+                      onClick={resendOtp}
+                      variant="outline"
+                      disabled={isResending || countdown > 0}
+                      className="border-none text-sm"
+                    >
+                      {countdown > 0
+                        ? `إعادة إرسال (${countdown})`
+                        : "إعادة إرسال الرمز"}
+                    </Button>
+                    <Button
+                      type="button"
+                      variant="ghost"
+                      onClick={() => {
+                        setOtpSent(false);
+                        setStep("phone");
+                        form.setValue("otp", ""); // Reset OTP field
+                      }}
+                    >
+                      رجوع
+                    </Button>
+                  </div>
+                </div>
+              )}
             </motion.div>
-          </motion.div>
-        </form>
-      </Form>
-    </motion.div>
+            {/* 
+            {step === "otp" && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="text-center text-sm"
+              >
+                <button
+                  type="button"
+                  onClick={() => setStep("phone")}
+                  className="text-primary underline"
+                >
+                  تغيير رقم الهاتف
+                </button>
+              </motion.div>
+            )} */}
+          </form>
+        </Form>
+      </motion.div>
+
+      {step === "phone" && (
+        <CardFooter className="flex flex-col items-start w-full mt-3 px-0">
+          <div className="text-sm text-muted-foreground flex items-center gap-2 ml-0">
+            <span className="hidden sm:inline-block">ليس لديك حساب مسجل؟</span>
+            <Link
+              aria-label="Sign up"
+              href="/signup"
+              className="text-primary underline-offset-4 transition-colors hover:underline"
+            >
+              ارسال طلب تسجيل
+            </Link>
+          </div>
+        </CardFooter>
+      )}
+    </div>
   );
 }

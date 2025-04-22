@@ -24,8 +24,7 @@ model Category {
 model User {
 id              String   @id @default(auto()) @map("_id") @db.ObjectId
 name            String
-email           String   @unique
-phone           String
+phone           String   @unique
 password        String?
 image           String?
 remainingAmount Float    @default(0)
@@ -44,6 +43,22 @@ orders          Order[]
 payments        Payment[]
 notifications   Notification[]
 @@map("users")
+}
+model OTP {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  phoneNumber String
+  code        String
+  expiresAt   DateTime
+  createdAt   DateTime @default(now())
+  verified    Boolean  @default(false)
+  attempts    Int      @default(0)
+  ipAddress   String?  @db.String
+  userAgent   String?  @db.String
+
+  @@index([phoneNumber], name: "phoneNumber_index")
+  @@index([expiresAt], name: "expiresAt_index")
+  @@index([createdAt], name: "createdAt_index")
+  @@map("otps")
 }
 model Address {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId

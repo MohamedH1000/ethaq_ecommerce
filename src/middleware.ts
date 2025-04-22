@@ -1,7 +1,4 @@
-import { NextResponse } from "next/server";
 import { NextRequest } from "next/server";
-
-import { AUTH_TOKEN_KEY } from "./constants";
 
 export function middleware(req: NextRequest) {
   // const userToken = req?.cookies?.get(AUTH_TOKEN_KEY as string)?.value;

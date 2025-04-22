@@ -8,15 +8,11 @@ import { getCurrentUser } from "@/lib/actions/user.action";
 import { cn } from "@/lib/utils";
 import ProductAttributes from "@/modules/products/product-attributes";
 import ThumbnailCarousel from "@/modules/products/thumbnail-carousel";
-import VariationPrice from "@/modules/products/variation-price";
 import { useCartStore } from "@/store/cart/cart.store";
-import { IProduct } from "@/types";
 import { generateCartItem } from "@/utils/generate-cart-item";
 import { getVariations } from "@/utils/get-variations";
-import { User } from "@prisma/client";
-import { id } from "date-fns/locale";
 import { isEmpty, isEqual } from "lodash";
-import { RefreshCwIcon } from "lucide-react";
+import { MoveRight, RefreshCwIcon } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -71,6 +67,10 @@ const ProductDetails = ({ product }: Props) => {
   const item = generateCartItem(product, selectedVariation);
   async function addToCart() {
     if (!isSelected) return;
+    if (!user) {
+      toast.error("برجاء تسجيل الدخول لامكانية اضافة منتجات لعربة التسوق");
+      return;
+    }
     const finalPrice =
       product?.discount > 0
         ? product.price * (1 - product.discount / 100)
@@ -83,6 +83,7 @@ const ProductDetails = ({ product }: Props) => {
         finalPrice
       );
       toast.success("تم اضافة المنتج الى عربة التسوق بنجاح");
+      router.refresh();
     } catch (error) {
       toast.error("حصل خطا اثناء اضافة المنتج");
       console.log(error);
@@ -90,6 +91,12 @@ const ProductDetails = ({ product }: Props) => {
   }
   return (
     <div className="mt-4 flex flex-col md:flex-row gap-5">
+      <Button
+        onClick={() => router.push("/")}
+        className="bg-white text-primary border-[2px] border-primary rounded-lg hover:text-white"
+      >
+        <MoveRight /> عودة الى المتجر
+      </Button>
       <div className="w-full md:w-1/2 product-gallery">
         {!!product?.gallery?.length ? (
           <ThumbnailCarousel gallery={product?.gallery} isSingleProductPage />
@@ -150,7 +157,7 @@ const ProductDetails = ({ product }: Props) => {
                   )}
                   {product?.discount && (
                     <>
-                      <del className="text-sm text-opacity-50 md:text-15px pl-3  text-gray-500 ">
+                      <del className="text-sm text-opacity-50 md:text-15px pl-3  text-gray-500 mr-2 dark:text-white">
                         {(product?.price * selectedQuantity).toFixed(2)}
                       </del>
                       <span className="inline-block rounded font-bold text-xs md:text-sm bg-primary/10  text-primary uppercase px-2 py-1 ml-2.5 ">

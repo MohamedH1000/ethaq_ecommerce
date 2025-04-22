@@ -80,7 +80,7 @@ const SearchBox: React.FC<Props> = ({
             {" "}
             {/* // Changed to rounded-r-full */}
             <Icons.search className="h-4 w-4 mr-2.5 ml-2.5 max-sm:!mr-10" />
-            بحث
+            <p className="max-sm:hidden">بحث</p>
           </button>
         ) : (
           <button className="absolute flex h-full w-10 items-center justify-center transition-colors duration-200 hover:text-primary/60 focus:text-primary/80 focus:outline-0 left-0 right-0 md:w-14">

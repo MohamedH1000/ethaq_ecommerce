@@ -43,7 +43,6 @@ const ProfileForm = () => {
     resolver: zodResolver(profileFormSchema),
     defaultValues: {
       name: "",
-      email: "",
       phone: "",
       image: "",
     },
@@ -58,7 +57,6 @@ const ProfileForm = () => {
         if (currentUser) {
           form.reset({
             name: currentUser.name || "",
-            email: currentUser.email || "",
             phone: currentUser.phone || "",
             image: currentUser.image || "",
           });
@@ -101,7 +99,7 @@ const ProfileForm = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="grid gap-4 w-full"
+        className="grid gap-4 w-full pt-4"
       >
         <FormField
           control={form.control}
@@ -116,23 +114,7 @@ const ProfileForm = () => {
             </FormItem>
           )}
         />
-        <FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>الايميل</FormLabel>
-              <FormControl>
-                <Input
-                  placeholder="example@gmail.com"
-                  {...field}
-                  disabled // Typically email shouldn't be editable
-                />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+
         <FormField
           control={form.control}
           name="phone"
@@ -140,7 +122,7 @@ const ProfileForm = () => {
             <FormItem>
               <FormLabel>رقم الهاتف</FormLabel>
               <FormControl>
-                <Input placeholder="Enter phone number" {...field} />
+                <Input placeholder="Enter phone number" {...field} disabled />
               </FormControl>
               <FormMessage />
             </FormItem>

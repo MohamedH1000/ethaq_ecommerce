@@ -1,1427 +1,1324 @@
-export const formattedMeats = [
-  {
-    name: "لحم بقري مفروم طازج محلي ( للكيلو )",
-    description:
-      "لحم بقري مفروم طازج 100% من مصدر محلي، خالي من الإضافات، مثالي للبرغر والكفتة واليخنات.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h4b/hf4/26516762066974/553261_main.jpg?im=Resize=400",
-    ],
-    price: 21.45,
-  },
-  {
-    name: "إنتاج دجاجة كاملة طازجة 1000 جرام",
-    description:
-      "دجاجة كاملة طازجة من إنتاج متميز، غنية بالبروتين، مناسبة للشوي والطبخ بجميع الطرق.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h95/hf4/63282204344350/91932_main.jpg?im=Resize=400",
-    ],
-    price: 20.25,
-    discount: 14,
-  },
-  {
-    name: "اليوم دجاج فاخر طازج مبرد 1 كجم",
-    description:
-      "دجاج فاخر طازج من علامة اليوم، مبرد بعناية للحفاظ على النضارة والجودة العالية.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h47/h46/50520421662750/504974_main.jpg?im=Resize=400",
-    ],
-    price: 19.95,
-  },
-  {
-    name: "إنتاج صدور دجاج فيليه 450 جرام",
-    description:
-      "صدور دجاج فيليه خالية من العظم والجلد، غنية بالبروتين وقليلة الدهون، مثالية للوجبات الصحية.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/hc7/hea/63282204082206/450442_main.jpg?im=Resize=400",
-    ],
-    price: 24.95,
-    discount: 24,
-  },
-  {
-    name: "اليوم فيليه صدور دجاج مبرد 450 جرام",
-    description:
-      "فيليه صدور دجاج مبرد من علامة اليوم، قطع لحمية ممتازة خالية من العظم، مثالية للشوي والقلي.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h3e/hf8/50520568266782/599582_main.jpg?im=Resize=400",
-    ],
-    price: 21.25,
-  },
-  {
-    name: "لحم عجل طازج مفروم (للكيلو)",
-    description:
-      "لحم عجل طازج مفروم، مصدر محلي، ناعم الملمس، مثالي للكفتة والبرغر واليخنات.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/hd2/h6f/9194856054814/577125_main.jpg?im=Resize=400",
-    ],
-    price: 29.95,
-  },
-  {
-    name: "اليوم شرائح صدور دجاج طازجة 900 جرام",
-    description:
-      "شرائح صدور دجاج طازجة من علامة اليوم، مقطعة بشكل متساوٍ، مثالية للشوي السريع والقلي.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h22/h9f/50520585437214/634473_main.jpg?im=Resize=400",
-    ],
-    price: 44,
-  },
-  {
-    name: "الفروج الذهبي فيليه صدور دجاج طازجة 450جرام",
-    description:
-      "فيليه صدور دجاج طازجة من الفروج الذهبي، خالية من العظم، غنية بالبروتين، ذات جودة عالية.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/hfa/hc4/13926233374750/607937_main.jpg?im=Resize=400",
-    ],
-    price: 22.95,
-    discount: 17,
-  },
-  {
-    name: "اليوم أرجل دجاج كاملة طازجة فاخرة 900 جرام",
-    description:
-      "أرجل دجاج كاملة طازجة من علامة اليوم، غنية بالنكهة، مثالية للشوي والطبخ ببطء.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h29/hfa/50520592646174/652028_main.jpg?im=Resize=400",
-    ],
-    price: 21.5,
-    discount: 35,
-  },
-  {
-    name: "التنمية كيس دجاج طازج 1 كج",
-    description:
-      "دجاج طازج من علامة التنمية، معبأ بعناية للحفاظ على النضارة، مثالي لجميع وصفات الدجاج.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h40/hdc/49802999332894/97658_main.jpg?im=Resize=400",
-    ],
-    price: 21,
-    discount: 12,
-  },
-  {
-    name: "الفروج الذهبي دجاج كامل طازج 1000جرام",
-    description:
-      "دجاج كامل طازج من الفروج الذهبي، ذو جودة عالية، مثالي للشوي والتحمير والطبخ بجميع الطرق.",
-    images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/607934/1732514404/607934_main.jpg?im=Resize=400",
-    ],
-    price: 21,
-    discount: 10,
-  },
-  {
-    name: "دجاج رضوى دجاج مفروم طازج 400 جرام",
-    description:
-      "دجاج مفروم طازج من علامة رضوى، ناعم وسهل التشكيل، مثالي للكفتة والبرغر.",
-    images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/562186/1737874803/562186_main.jpg?im=Resize=400",
-    ],
-    price: 16.25,
-    discount: 14,
-  },
-  {
-    name: "إنتاج دجاجة كاملة طازجة 1.1 كج",
-    description:
-      "دجاجة كاملة طازجة من إنتاج متميز، وزن 1.1 كجم، غنية بالبروتين، مناسبة للعائلات.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/hfd/hf7/63282204442654/91933_main.jpg?im=Resize=400",
-    ],
-    price: 22.95,
-    discount: 9,
-  },
-  {
-    name: "الفروج الذهبي فيليه صدور دجاج طازجة 900جرام",
-    description:
-      "فيليه صدور دجاج طازجة من الفروج الذهبي، خالية من العظم، غنية بالبروتين، مثالية للوجبات الصحية.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h11/hc9/13926233210910/607938_main.jpg?im=Resize=400",
-    ],
-    price: 46.5,
-    discount: 21,
-  },
-  {
-    name: "إنتاج صدور دجاج فيليه 900 جرام",
-    description:
-      "صدور دجاج فيليه طازجة من إنتاج متميز، خالية من العظم، مثالية للشوي والسلق والقلي.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h93/hf7/63282204409886/712029_main.jpg?im=Resize=400",
-    ],
-    price: 43.95,
-    discount: 9,
-  },
-  {
-    name: "التنمية صدور دجاج بدون عظم طازجة 450 جرام",
-    description:
-      "صدور دجاج طازجة من علامة التنمية، منزوعة العظم، غنية بالبروتين، مثالية للوجبات الصحية.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/hb1/hd1/49802999660574/97684_main.jpg?im=Resize=400",
-    ],
-    price: 24.25,
-    discount: 34,
-  },
-  {
-    name: "لحم بقري طازج بدون عظم محلي (للكيلو)",
-    description:
-      "لحم بقري طازج بدون عظم من مصدر محلي، مقطع بشكل ممتاز، مثالي للشوي والطبخ.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h77/hb9/9169095753758/553260_main.jpg?im=Resize=400",
-    ],
-    price: 26.75,
-  },
-  {
-    name: "كتف عجل طازج بدون عظم",
-    description:
-      "كتف عجل طازج بدون عظم، لحم غني بالنكهة، مثالي للطبخ البطيء واليخنات.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h20/h42/52611230040094/713635_main.jpg?im=Resize=400",
-    ],
-    price: 29.95,
-    discount: 17,
-  },
-  {
-    name: "إنتاج قطع دجاج مشكلة طازجة 900 جرام",
-    description:
-      "قطع دجاج مشكلة طازجة من إنتاج متميز، مزيج من الأفخاذ والأجنحة، مثالية للشوي والطبخ.",
-    images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/451037/1742194803/451037_main.jpg?im=Resize=400",
-    ],
-    price: 14.95,
-    discount: 27,
-  },
-  {
-    name: "التنمية دجاج طازج 1100 جرام",
-    description:
-      "دجاج طازج من علامة التنمية، وزن 1100 جرام، ذو جودة عالية، مثالي للعائلات.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/ha4/hc4/49802998677534/97659_main.jpg?im=Resize=400",
-    ],
-    price: 22,
-    discount: 5,
-  },
-  {
-    name: "مفروم خروف نعيمي ذكر",
-    description:
-      "لحم خروف نعيمي مفروم طازج، ذو نكهة مميزة، مثالي للكفتة والبرغر واليخنات.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h5e/h61/11892378009630/577095_main.jpg?im=Resize=400",
-    ],
-    price: 49.95,
-  },
-  {
-    name: "دجاج رضوى شرائح صدور دجاج طازجة 450 جرام",
-    description:
-      "شرائح صدور دجاج طازجة من علامة رضوى، مقطعة بشكل متساوٍ، مثالية للشوي السريع والقلي.",
-    images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/555345/1737882603/555345_main.jpg?im=Resize=400",
-    ],
-    price: 22.95,
-    discount: 9,
-  },
-  {
-    name: "إنتاج دجاج شاورما 500 جرام",
-    description:
-      "دجاج شاورما طازج من إنتاج متميز، متبل بتوابل مميزة، جاهز للشوي والتحضير السريع.",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/hf4/h9b/63282203852830/450437_main.jpg?im=Resize=400",
-    ],
-    price: 21.95,
-    discount: 9,
-  },
-];
-export const meatsAndPoultry = [
-  {
-    name: "لحم بقري مفروم طازج محلي ( للكيلو )",
-    description:
-      "لحم بقري مفروم طازج 100% من مصدر محلي، خالي من الإضافات، مثالي للبرغر والكفتة واليخنات.",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-beef/local-fresh-beef-mince/p/553261",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h4b/hf4/26516762066974/553261_main.jpg?im=Resize=400",
-    price: 21.45,
-  },
-  {
-    name: "إنتاج دجاجة كاملة طازجة 1000 جرام",
-    description:
-      "دجاجة كاملة طازجة من إنتاج متميز، غنية بالبروتين، مناسبة للشوي والطبخ بجميع الطرق.",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/entaj-fresh-chicken-bag-1kg/p/91932",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h95/hf4/63282204344350/91932_main.jpg?im=Resize=400",
-    price: 17.45,
-    original_price: 20.25,
-    discount: 14,
-  },
-  {
-    name: "اليوم دجاج فاخر طازج مبرد 1 كجم",
-    description:
-      "دجاج فاخر طازج من علامة اليوم، مبرد بعناية للحفاظ على النضارة والجودة العالية.",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/alyoum-premium-wholechicken-bag-1kg/p/504974",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h47/h46/50520421662750/504974_main.jpg?im=Resize=400",
-    price: 19.95,
-  },
-  {
-    name: "إنتاج صدور دجاج فيليه 450 جرام",
-    description:
-      "صدور دجاج فيليه خالية من العظم والجلد، غنية بالبروتين وقليلة الدهون، مثالية للوجبات الصحية.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/entaj-freshchickenbreast-fllet/p/450442",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hc7/hea/63282204082206/450442_main.jpg?im=Resize=400",
-    price: 18.95,
-    original_price: 24.95,
-    discount: 24,
-  },
-  {
-    name: "اليوم فيليه صدور دجاج مبرد 450 جرام",
-    description:
-      "فيليه صدور دجاج مبرد من علامة اليوم، قطع لحمية ممتازة خالية من العظم، مثالية للشوي والقلي.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/alyoum-chicken-breast-fillet-450g/p/599582",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h3e/hf8/50520568266782/599582_main.jpg?im=Resize=400",
-    price: 21.25,
-  },
-  {
-    name: "لحم عجل طازج مفروم (للكيلو)",
-    description:
-      "لحم عجل طازج مفروم، مصدر محلي، ناعم الملمس، مثالي للكفتة والبرغر واليخنات.",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-mince-fresh-sc/p/577125",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hd2/h6f/9194856054814/577125_main.jpg?im=Resize=400",
-    price: 29.95,
-  },
-  {
-    name: "اليوم شرائح صدور دجاج طازجة 900 جرام",
-    description:
-      "شرائح صدور دجاج طازجة من علامة اليوم، مقطعة بشكل متساوٍ، مثالية للشوي السريع والقلي.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/alyoum-chicken-breast-fillet-900g/p/634473",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h22/h9f/50520585437214/634473_main.jpg?im=Resize=400",
-    price: 44,
-  },
-  {
-    name: "الفروج الذهبي فيليه صدور دجاج طازجة 450جرام",
-    description:
-      "فيليه صدور دجاج طازجة من الفروج الذهبي، خالية من العظم، غنية بالبروتين، ذات جودة عالية.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/golden-chicken-fresh-breast-450g/p/607937",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hfa/hc4/13926233374750/607937_main.jpg?im=Resize=400",
-    price: 18.95,
-    original_price: 22.95,
-    discount: 17,
-  },
-  {
-    name: "اليوم أرجل دجاج كاملة طازجة فاخرة 900 جرام",
-    description:
-      "أرجل دجاج كاملة طازجة من علامة اليوم، غنية بالنكهة، مثالية للشوي والطبخ ببطء.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-leg/alyoum-fresh-chicken-whole-leg-900g/p/652028",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h29/hfa/50520592646174/652028_main.jpg?im=Resize=400",
-    price: 13.95,
-    original_price: 21.5,
-    discount: 35,
-  },
-  {
-    name: "التنمية كيس دجاج طازج 1 كج",
-    description:
-      "دجاج طازج من علامة التنمية، معبأ بعناية للحفاظ على النضارة، مثالي لجميع وصفات الدجاج.",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/tanmiah-fresh-chicken-bag-1kg/p/97658",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h40/hdc/49802999332894/97658_main.jpg?im=Resize=400",
-    price: 18.45,
-    original_price: 21,
-    discount: 12,
-  },
-  {
-    name: "الفروج الذهبي دجاج كامل طازج 1000جرام",
-    description:
-      "دجاج كامل طازج من الفروج الذهبي، ذو جودة عالية، مثالي للشوي والتحمير والطبخ بجميع الطرق.",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/golden-chicken-fresh-bag-1kg/p/607934",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/607934/1732514404/607934_main.jpg?im=Resize=400",
-    price: 18.95,
-    original_price: 21,
-    discount: 10,
-  },
-  {
-    name: "دجاج رضوى دجاج مفروم طازج 400 جرام",
-    description:
-      "دجاج مفروم طازج من علامة رضوى، ناعم وسهل التشكيل، مثالي للكفتة والبرغر.",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/radwa-fresh-minced-chicken-400g/p/562186",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/562186/1737874803/562186_main.jpg?im=Resize=400",
-    price: 13.95,
-    original_price: 16.25,
-    discount: 14,
-  },
-  {
-    name: "إنتاج دجاجة كاملة طازجة 1.1 كج",
-    description:
-      "دجاجة كاملة طازجة من إنتاج متميز، وزن 1.1 كجم، غنية بالبروتين، مناسبة للعائلات.",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/entaj-fresh-chicken-bag-1-1kg/p/91933",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hfd/hf7/63282204442654/91933_main.jpg?im=Resize=400",
-    price: 20.95,
-    original_price: 22.95,
-    discount: 9,
-  },
-  {
-    name: "الفروج الذهبي فيليه صدور دجاج طازجة 900جرام",
-    description:
-      "فيليه صدور دجاج طازجة من الفروج الذهبي، خالية من العظم، غنية بالبروتين، مثالية للوجبات الصحية.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/golden-chicken-fresh-breast-900g/p/607938",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h11/hc9/13926233210910/607938_main.jpg?im=Resize=400",
-    price: 36.95,
-    original_price: 46.5,
-    discount: 21,
-  },
-  {
-    name: "إنتاج صدور دجاج فيليه 900 جرام",
-    description:
-      "صدور دجاج فيليه طازجة من إنتاج متميز، خالية من العظم، مثالية للشوي والسلق والقلي.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/entaj-ckn-breast-fillet-900g/p/712029",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h93/hf7/63282204409886/712029_main.jpg?im=Resize=400",
-    price: 39.95,
-    original_price: 43.95,
-    discount: 9,
-  },
-  {
-    name: "التنمية صدور دجاج بدون عظم طازجة 450 جرام",
-    description:
-      "صدور دجاج طازجة من علامة التنمية، منزوعة العظم، غنية بالبروتين، مثالية للوجبات الصحية.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/tanmiah-fresh-chicken-breast-450g/p/97684",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hb1/hd1/49802999660574/97684_main.jpg?im=Resize=400",
-    price: 15.95,
-    original_price: 24.25,
-    discount: 34,
-  },
-  {
-    name: "لحم بقري طازج بدون عظم محلي (للكيلو)",
-    description:
-      "لحم بقري طازج بدون عظم من مصدر محلي، مقطع بشكل ممتاز، مثالي للشوي والطبخ.",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-beef/local-fresh-beef-boneless/p/553260",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h77/hb9/9169095753758/553260_main.jpg?im=Resize=400",
-    price: 26.75,
-  },
-  {
-    name: "كتف عجل طازج بدون عظم",
-    description:
-      "كتف عجل طازج بدون عظم، لحم غني بالنكهة، مثالي للطبخ البطيء واليخنات.",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-shoulder-fresh-boneless/p/713635",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h20/h42/52611230040094/713635_main.jpg?im=Resize=400",
-    price: 24.95,
-    original_price: 29.95,
-    discount: 17,
-  },
-  {
-    name: "إنتاج قطع دجاج مشكلة طازجة 900 جرام",
-    description:
-      "قطع دجاج مشكلة طازجة من إنتاج متميز، مزيج من الأفخاذ والأجنحة، مثالية للشوي والطبخ.",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/entaj-mixed-chicken-portion-900g/p/451037",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/451037/1742194803/451037_main.jpg?im=Resize=400",
-    price: 10.95,
-    original_price: 14.95,
-    discount: 27,
-  },
-  {
-    name: "التنمية دجاج طازج 1100 جرام",
-    description:
-      "دجاج طازج من علامة التنمية، وزن 1100 جرام، ذو جودة عالية، مثالي للعائلات.",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/tanmiah-fresh-chicken-bag-1-1kg/p/97659",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/ha4/hc4/49802998677534/97659_main.jpg?im=Resize=400",
-    price: 20.95,
-    original_price: 22,
-    discount: 5,
-  },
-  {
-    name: "مفروم خروف نعيمي ذكر",
-    description:
-      "لحم خروف نعيمي مفروم طازج، ذو نكهة مميزة، مثالي للكفتة والبرغر واليخنات.",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-lamb-mince-male/p/577095",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h5e/h61/11892378009630/577095_main.jpg?im=Resize=400",
-    price: 49.95,
-  },
-  {
-    name: "دجاج رضوى شرائح صدور دجاج طازجة 450 جرام",
-    description:
-      "شرائح صدور دجاج طازجة من علامة رضوى، مقطعة بشكل متساوٍ، مثالية للشوي السريع والقلي.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/radwa-chicken-breast-fillet-450g/p/555345",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/555345/1737882603/555345_main.jpg?im=Resize=400",
-    price: 20.95,
-    original_price: 22.95,
-    discount: 9,
-  },
-  {
-    name: "إنتاج دجاج شاورما 500 جرام",
-    description:
-      "دجاج شاورما طازج من إنتاج متميز، متبل بتوابل مميزة، جاهز للشوي والتحضير السريع.",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/entaj-shawarma-chicken-500g/p/450437",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hf4/h9b/63282203852830/450437_main.jpg?im=Resize=400",
-    price: 19.95,
-    original_price: 21.95,
-    discount: 9,
-  },
-];
 // categorie Id 67e47004b9ff67ae7d25f777
-const allProducts = [
-  ({
+
+[
+  {
     name: "لحم بقري مفروم طازج محلي ( للكيلو )",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-beef/local-fresh-beef-mince/p/553261",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h4b/hf4/26516762066974/553261_main.jpg?im=Resize=400",
-    price: 21.45,
-  },
-  {
-    name: "إنتاج دجاجة كاملة طازجة 1000 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/entaj-fresh-chicken-bag-1kg/p/91932",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h95/hf4/63282204344350/91932_main.jpg?im=Resize=400",
-    price: 17.45,
-    original_price: 20.25,
-    discount: 14,
-  },
-  {
-    name: "اليوم دجاج فاخر طازج مبرد 1 كجم",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/alyoum-premium-wholechicken-bag-1kg/p/504974",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h47/h46/50520421662750/504974_main.jpg?im=Resize=400",
-    price: 19.95,
-  },
-  {
-    name: "إنتاج صدور دجاج فيليه 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/entaj-freshchickenbreast-fllet/p/450442",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hc7/hea/63282204082206/450442_main.jpg?im=Resize=400",
-    price: 18.95,
-    original_price: 24.95,
-    discount: 24,
+    description:
+      "لحم بقري مفروم طازج من مصادر محلية عالية الجودة، مثالي لتحضير البرغر والكفتة والأطباق المنزلية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101426/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D9%85%D9%81%D8%B1%D9%88%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%85%D8%AD%D9%84%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88-.jpg.jpg",
+    ],
+    price: 22.45,
   },
   {
     name: "اليوم فيليه صدور دجاج مبرد 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/alyoum-chicken-breast-fillet-450g/p/599582",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h3e/hf8/50520568266782/599582_main.jpg?im=Resize=400",
+    description:
+      "فيليه صدور دجاج مبردة طازجة، خالية من العظام، مثالية للشواء أو الطهي السريع.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101427/%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%A8%D8%B1%D8%AF-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
     price: 21.25,
   },
   {
+    name: "اليوم دجاج  فاخر طازج مبرد  1 كجم",
+    description:
+      "دجاج كامل طازج وفاخر بوزن 1 كجم، مثالي لتحضير وجبات عائلية مشوية أو مطهية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101429/%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%81%D8%A7%D8%AE%D8%B1-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%85%D8%A8%D8%B1%D8%AF-1-%D9%83%D8%AC%D9%85.jpg.jpg",
+    ],
+    discount: 6,
+    price: 21.25,
+    discounted_price: 19.95,
+  },
+  {
+    name: "اليوم أرجل دجاج كاملة طازجة فاخرة 900 جرام",
+    description:
+      "أرجل دجاج طازجة وفاخرة بوزن 900 جرام، مثالية للشواء أو الطهي بالفرن.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101430/%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A3%D8%B1%D8%AC%D9%84-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 21,
+    price: 21.5,
+    discounted_price: 16.95,
+  },
+  {
+    name: "إنتاج دجاجة كاملة طازجة 1000 جرام",
+    description:
+      "دجاجة كاملة طازجة بوزن 1000 جرام، مثالية لتحضير وجبات عائلية غنية بالنكهة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101431/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%AF%D8%AC%D8%A7%D8%AC%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 18.45,
+  },
+  {
+    name: "إنتاج صدور دجاج فيليه 450 جرام",
+    description:
+      "صدور دجاج فيليه طازجة بوزن 450 جرام، خالية من العظام، مثالية للوجبات الصحية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101433/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%81%D9%8A%D9%84%D9%8A%D9%87-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 36,
+    price: 24.95,
+    discounted_price: 15.95,
+  },
+  {
     name: "لحم عجل طازج مفروم (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-mince-fresh-sc/p/577125",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hd2/h6f/9194856054814/577125_main.jpg?im=Resize=400",
+    description:
+      "لحم عجل مفروم طازج بجودة عالية، مثالي لتحضير الكباب والكفتة والأطباق الشرقية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101439/%D9%84%D8%AD%D9%85-%D8%B9%D8%AC%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%85%D9%81%D8%B1%D9%88%D9%85-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
     price: 29.95,
   },
   {
     name: "اليوم شرائح صدور دجاج طازجة 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/alyoum-chicken-breast-fillet-900g/p/634473",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h22/h9f/50520585437214/634473_main.jpg?im=Resize=400",
+    description:
+      "شرائح صدور دجاج طازجة بوزن 900 جرام، مثالية لتحضير الساندويتشات أو الأطباق السريعة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101440/%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 21,
     price: 44,
+    discounted_price: 34.95,
   },
   {
-    name: "الفروج الذهبي فيليه صدور دجاج طازجة 450جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/golden-chicken-fresh-breast-450g/p/607937",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hfa/hc4/13926233374750/607937_main.jpg?im=Resize=400",
-    price: 18.95,
-    original_price: 22.95,
-    discount: 17,
-  },
-  {
-    name: "اليوم أرجل دجاج كاملة طازجة فاخرة 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-leg/alyoum-fresh-chicken-whole-leg-900g/p/652028",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h29/hfa/50520592646174/652028_main.jpg?im=Resize=400",
-    price: 13.95,
-    original_price: 21.5,
-    discount: 35,
-  },
-  {
-    name: "التنمية كيس دجاج طازج 1 كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/tanmiah-fresh-chicken-bag-1kg/p/97658",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h40/hdc/49802999332894/97658_main.jpg?im=Resize=400",
-    price: 18.45,
-    original_price: 21,
-    discount: 12,
-  },
-  {
-    name: "الفروج الذهبي دجاج كامل طازج 1000جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/golden-chicken-fresh-bag-1kg/p/607934",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/607934/1732514404/607934_main.jpg?im=Resize=400",
-    price: 18.95,
-    original_price: 21,
-    discount: 10,
-  },
-  {
-    name: "دجاج رضوى دجاج مفروم طازج 400 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/radwa-fresh-minced-chicken-400g/p/562186",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/562186/1737874803/562186_main.jpg?im=Resize=400",
-    price: 13.95,
-    original_price: 16.25,
-    discount: 14,
-  },
-  {
-    name: "إنتاج دجاجة كاملة طازجة 1.1 كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/entaj-fresh-chicken-bag-1-1kg/p/91933",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hfd/hf7/63282204442654/91933_main.jpg?im=Resize=400",
-    price: 20.95,
-    original_price: 22.95,
+    name: "الفروج الذهبي دجاج كامل طازج 1100جرام",
+    description:
+      "دجاج كامل طازج من الفروج الذهبي بوزن 1100 جرام، مثالي للوجبات العائلية المشوية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101442/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%83%D8%A7%D9%85%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC-1100%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
     discount: 9,
+    price: 22,
+    discounted_price: 19.95,
   },
   {
     name: "الفروج الذهبي فيليه صدور دجاج طازجة 900جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/golden-chicken-fresh-breast-900g/p/607938",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h11/hc9/13926233210910/607938_main.jpg?im=Resize=400",
-    price: 36.95,
-    original_price: 46.5,
-    discount: 21,
+    description:
+      "فيليه صدور دجاج طازجة من الفروج الذهبي بوزن 900 جرام، مثالية للطهي الصحي.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101444/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-900%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 36,
+    price: 46.5,
+    discounted_price: 29.95,
   },
   {
-    name: "إنتاج صدور دجاج فيليه 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/entaj-ckn-breast-fillet-900g/p/712029",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h93/hf7/63282204409886/712029_main.jpg?im=Resize=400",
-    price: 39.95,
-    original_price: 43.95,
-    discount: 9,
+    name: "الفروج الذهبي فيليه صدور دجاج طازجة 450جرام",
+    description:
+      "فيليه صدور دجاج طازجة من الفروج الذهبي بوزن 450 جرام، مثالية للوجبات الخفيفة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101445/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 11,
+    price: 22.95,
+    discounted_price: 20.45,
   },
   {
     name: "التنمية صدور دجاج بدون عظم طازجة 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/tanmiah-fresh-chicken-breast-450g/p/97684",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hb1/hd1/49802999660574/97684_main.jpg?im=Resize=400",
-    price: 15.95,
-    original_price: 24.25,
-    discount: 34,
+    description:
+      "صدور دجاج طازجة بدون عظم من التنمية بوزن 450 جرام، مثالية للشواء أو السلق.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101446/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%B8%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 26,
+    price: 24.25,
+    discounted_price: 17.95,
   },
   {
-    name: "لحم بقري طازج بدون عظم محلي (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-beef/local-fresh-beef-boneless/p/553260",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h77/hb9/9169095753758/553260_main.jpg?im=Resize=400",
-    price: 26.75,
-  },
-  {
-    name: "كتف عجل طازج بدون عظم",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-shoulder-fresh-boneless/p/713635",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h20/h42/52611230040094/713635_main.jpg?im=Resize=400",
-    price: 24.95,
-    original_price: 29.95,
+    name: "لحم بقري مفروم مبرد برازيلي",
+    description:
+      "لحم بقري مفروم مبرد من البرازيل، عالي الجودة، مثالي لتحضير الأطباق الشهية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101448/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D9%85%D9%81%D8%B1%D9%88%D9%85-%D9%85%D8%A8%D8%B1%D8%AF-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A.jpg.jpg",
+    ],
     discount: 17,
+    price: 34.95,
+    discounted_price: 28.9,
   },
   {
     name: "إنتاج قطع دجاج مشكلة طازجة 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/entaj-mixed-chicken-portion-900g/p/451037",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/451037/1742194803/451037_main.jpg?im=Resize=400",
-    price: 10.95,
-    original_price: 14.95,
+    description:
+      "قطع دجاج مشكلة طازجة بوزن 900 جرام، مثالية لتحضير اليخنات والشوربات.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101449/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D9%82%D8%B7%D8%B9-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
     discount: 27,
+    price: 14.95,
+    discounted_price: 10.95,
+  },
+  {
+    name: "لحم بقري مكعبات مبرد برازيلي",
+    description:
+      "لحم بقري مقطع مكعبات مبرد من البرازيل، مثالي لتحضير اليخنات والأطباق الشتوية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101450/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D9%85%D8%A8%D8%B1%D8%AF-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A.jpg.jpg",
+    ],
+    discount: 17,
+    price: 34.95,
+    discounted_price: 28.9,
   },
   {
     name: "التنمية دجاج طازج 1100 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/tanmiah-fresh-chicken-bag-1-1kg/p/97659",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/ha4/hc4/49802998677534/97659_main.jpg?im=Resize=400",
-    price: 20.95,
-    original_price: 22,
-    discount: 5,
+    description:
+      "دجاج كامل طازج من التنمية بوزن 1100 جرام، مثالي للوجبات العائلية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101452/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC-1100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 21.45,
   },
   {
-    name: "مفروم خروف نعيمي ذكر",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-lamb-mince-male/p/577095",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h5e/h61/11892378009630/577095_main.jpg?im=Resize=400",
-    price: 49.95,
-  },
-  {
-    name: "دجاج رضوى شرائح صدور دجاج طازجة 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/radwa-chicken-breast-fillet-450g/p/555345",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/555345/1737882603/555345_main.jpg?im=Resize=400",
-    price: 20.95,
-    original_price: 22.95,
-    discount: 9,
-  },
-  {
-    name: "إنتاج دجاج شاورما 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/entaj-shawarma-chicken-500g/p/450437",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hf4/h9b/63282203852830/450437_main.jpg?im=Resize=400",
-    price: 19.95,
-    original_price: 21.95,
-    discount: 9,
-  },
-  {
-    name: "لحم بقري طازج بالعظم محلي (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-beef/local-fresh-beef-stew/p/553262",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h7e/he8/51509472624670/553262_main.jpg?im=Resize=400",
-    price: 32.9,
-  },
-  {
-    name: "لحم بقري برازيلي مفروم قليلة الدسم مبرد (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/brazilian-beef/brazilia-beef-mince-low-fat-chilled/p/571448",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hbc/h26/12066793422878/571448_main.jpg?im=Resize=400",
-    price: 28.45,
-  },
-  {
-    name: "ربع خروف أمامي استرالي",
-    url: "https://www.carrefourksa.com/mafsau/ar/australian-lamb/aust-lamb-forquarter-chilled-/p/4953",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h82/hb2/9881923911710/4953_main.jpg?im=Resize=400",
-    price: 224.75,
-  },
-  {
-    name: "تيس طازج كامل، 10-12 كجم",
-    url: "https://www.carrefourksa.com/mafsau/ar/goat/fresh-goat-piece/p/550845",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h17/h92/63026592251934/550845_main.jpg?im=Resize=400",
-    price: 849,
-  },
-  {
-    name: "لحم حاشي بالعظم طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/camel/camel-stew-fresh/p/115817",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h95/h92/51509337686046/115817_main.jpg?im=Resize=400",
-    price: 34.9,
-  },
-  {
-    name: "قطع خروف نعيمي ذكر",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-lamb-stew-male/p/5172",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h12/h76/51509455192094/5172_main.jpg?im=Resize=400",
+    name: "لحم بقري برازيلي مبرد ريب أي (للكيلو)",
+    description:
+      "لحم بقري برازيلي مبرد ريب أي، مثالي للشواء وتحضير الستيك اللذيذ.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101453/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF-%D8%B1%D9%8A%D8%A8-%D8%A3%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
     price: 37.95,
   },
   {
-    name: "لحم خروف نعيمي بدون عظم ذكر",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-leg-boneless-male/p/577094",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h20/hbb/51509473247262/577094_main.jpg?im=Resize=400",
-    price: 49.95,
+    name: "إنتاج دجاجة كاملة طازجة 900 جرام",
+    description:
+      "دجاجة كاملة طازجة بوزن 900 جرام، مثالية لتحضير الأطباق التقليدية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101454/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%AF%D8%AC%D8%A7%D8%AC%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 11,
+    price: 18.95,
+    discounted_price: 16.95,
+  },
+  {
+    name: "كتف عجل طازج بدون عظم",
+    description: "كتف عجل طازج بدون عظم، مثالي لتحضير الأطباق المطهية ببطء.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101455/%D9%83%D8%AA%D9%81-%D8%B9%D8%AC%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%B8%D9%85.jpg.jpg",
+    ],
+    discount: 17,
+    price: 29.95,
+    discounted_price: 24.95,
+  },
+  {
+    name: "التنمية كيس دجاج طازج 1 كج",
+    description:
+      "كيس دجاج طازج من التنمية بوزن 1 كجم، مثالي لتحضير وجبات متنوعة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101456/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D9%83%D9%8A%D8%B3-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC-1-%D9%83%D8%AC.jpg.jpg",
+    ],
+    discount: 12,
+    price: 21,
+    discounted_price: 18.45,
+  },
+  {
+    name: "دجاج رضوى شرائح صدور دجاج طازجة 450 جرام",
+    description:
+      "شرائح صدور دجاج طازجة من رضوى بوزن 450 جرام، مثالية للساندويتشات.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101458/%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B1%D8%B6%D9%88%D9%89-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 8,
+    price: 22.75,
+    discounted_price: 20.95,
+  },
+  {
+    name: "البشاير قطع دجاج مشكلة 800 جرام",
+    description:
+      "قطع دجاج مشكلة طازجة من البشاير بوزن 800 جرام، مثالية للطهي اليومي.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101459/%D8%A7%D9%84%D8%A8%D8%B4%D8%A7%D9%8A%D8%B1-%D9%82%D8%B7%D8%B9-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%B4%D9%83%D9%84%D8%A9-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 8.95,
   },
   {
     name: "لحم عجل بالعظم طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-bone-in-fresh/p/5088",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hb2/hd5/51509451391006/5088_main.jpg?im=Resize=400",
-    price: 19.95,
-    original_price: 29.95,
-    discount: 33,
+    description: "لحم عجل طازج بالعظم، مثالي لتحضير اليخنات والمرقات الغنية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101460/%D9%84%D8%AD%D9%85-%D8%B9%D8%AC%D9%84-%D8%A8%D8%A7%D9%84%D8%B9%D8%B8%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    discount: 11,
+    price: 22.5,
+    discounted_price: 19.95,
   },
   {
-    name: "فخذ حاشي بدون عظم طازج (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/camel/camel-legs-fresh-boneless-sc/p/577131",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h51/h47/51509474525214/577131_main.jpg?im=Resize=400",
-    price: 24.95,
-  },
-  {
-    name: "كتف خروف نعيمي ذكر",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-lamb-shoulder-male/p/577098",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/he7/hb0/51509473542174/577098_main.jpg?im=Resize=400",
-    price: 42.45,
-  },
-  {
-    name: "إنتاج دجاجة كاملة طازجة 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/entaj-fresh-chicken-900g/p/91931",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h84/hf1/63282204278814/91931_main.jpg?im=Resize=400",
-    price: 17.95,
-    original_price: 18.95,
-    discount: 5,
-  },
-  {
-    name: "اليوم سيقان دجاج فاخرة وطازجة 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/alyoum-drumstiks-900g-20-/p/713579",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h7c/h29/50551067246622/713579_main.jpg?im=Resize=400",
-    price: 15.95,
-    original_price: 20.5,
-    discount: 22,
-  },
-  {
-    name: "التنمية قطع دجاج مشكلة طازجة 800 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/tanmiah-fresh-ckn-mix-portion-800g/p/695535",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/he1/h0b/49802996744222/695535_main.jpg?im=Resize=400",
-    price: 11.95,
-    original_price: 14.25,
-    discount: 16,
-  },
-  {
-    name: "اليوم فيليه أفخاذ دجاج طازجة فاخرة 450 غرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-thigh/alyoum-thigh-fillet-450g/p/642154",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h14/haf/50520588910622/642154_main.jpg?im=Resize=400",
-    price: 17.95,
-    original_price: 22.5,
-    discount: 20,
-  },
-  {
-    name: "لحم عجل ٍمحلي مكعبات طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-cube-fresh/p/5089",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h21/hc2/9384328986654/5089_main.jpg?im=Resize=400",
-    price: 33.95,
-  },
-  {
-    name: "اليوم دجاج فاخر طازج 1200 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/alyoum-premium-wholechkn-tray-1-2kg/p/642645",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h0f/h3d/11672581570590/642645_main.jpg?im=Resize=400",
-    price: 20.95,
-  },
-  {
-    name: "التنمية دجاج مفروم طازج 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/tanmiah-fresh-chicken-ground-450g/p/97687",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h1b/hd2/49802999627806/97687_main.jpg?im=Resize=400",
-    price: 12.95,
-    original_price: 15,
-    discount: 14,
-  },
-  {
-    name: "اليوم قطع دجاج مشكلة 900 جرام +20%",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/alyoum-mixed-parts-900g-20-/p/713577",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h3e/haf/51206614908958/713577_main.jpg?im=Resize=400",
-    price: 13.95,
-    original_price: 16.75,
-    discount: 17,
-  },
-  {
-    name: "أجنحة اليوم 900 جرام +20%",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/alyoum-wings-900g-20-/p/713578",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hfe/h91/50551065968670/713578_main.jpg?im=Resize=400",
-    price: 7.95,
-    original_price: 10.5,
-    discount: 24,
-  },
-  {
-    name: "الفروج الذهبي شاورما دجاج طازج 400جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/gc-fresh-marinated-shawarma-400g/p/620030",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h23/h93/61894000181278/620030_main.jpg?im=Resize=400",
-    price: 16.95,
-    original_price: 22.5,
-    discount: 25,
-  },
-  {
-    name: "دجاج رضوى شرائح صدور دجاج طازجه 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/radwa-chicken-breast-fillet-900g/p/555355",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/555355/1737874803/555355_main.jpg?im=Resize=400",
-    price: 43,
-  },
-  {
-    name: "لحم غنم أسترالي، لكل كغ",
-    url: "https://www.carrefourksa.com/mafsau/ar/australian-lamb/aust-lamb-stew/p/714420",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h31/h31/50868895776798/714420_main.jpg?im=Resize=400",
-    price: 27.95,
-  },
-  {
-    name: "لحم بقري محلي مكعبات قليل الدهون - محلي (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-beef/local-beef-cubes-low-fat/p/606878",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h80/h28/63026593234974/606878_main.jpg?im=Resize=400",
-    price: 26.45,
-  },
-  {
-    name: "إسكالوب عجل محلي طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-escalope-fresh/p/5090",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/5090/1722151803/5090_main.jpg?im=Resize=400",
-    price: 37.45,
-  },
-  {
-    name: "كبدة غنم طازجة",
-    url: "https://www.carrefourksa.com/mafsau/ar/lamb-offals/lamb-liver-fresh/p/5270",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h11/he3/51509456273438/5270_main.jpg?im=Resize=400",
-    price: 29.95,
-  },
-  {
-    name: "لحم بقر طازج محلي ستيك (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-beef/local-fresh-beef-steak/p/553268",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h32/hc2/27675590098974/553268_main.jpg?im=Resize=400",
-    price: 29.95,
-  },
-  {
-    name: "فخذ خروف نعيمي ذكر",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-lamb-leg-male/p/577093",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h07/hdf/51509472395294/577093_main.jpg?im=Resize=400",
-    price: 41.25,
-  },
-  {
-    name: "موزات عجل محلي بالعظم طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-osso-bucco-fresh/p/4944",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hd1/he8/9384331411486/4944_main.jpg?im=Resize=400",
-    price: 32.45,
-  },
-  {
-    name: "التنمية كبدة الدجاج الطازج 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/poultry-offals/tanmiah-fresh-chicken-liver-450g/p/97688",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h0f/he6/49802999070750/97688_main.jpg?im=Resize=400",
-    price: 6.2,
-    original_price: 8.25,
-    discount: 25,
-  },
-  {
-    name: "موزات لحم خروف استرالي مبرد",
-    url: "https://www.carrefourksa.com/mafsau/ar/australian-lamb/aust-lamb-hind-shank-chilled/p/4950",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h12/h7e/16411384807454/4950_main.jpg?im=Resize=400",
-    price: 54.95,
-  },
-  {
-    name: "لحم بقري برازيلي مبرد ستروجنوف (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/brazilian-beef/brazilian-beef-strogonoff-chilled/p/571441",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hfe/hdd/9384328134686/571441_main.jpg?im=Resize=400",
-    price: 27.45,
-  },
-  {
-    name: "اليوم دجاج فاخر طازج مبرد 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/alyoum-premium-whole-chckn-bag-900g/p/504973",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h90/h1f/50520422514718/504973_main.jpg?im=Resize=400",
-    price: 19.25,
-  },
-  {
-    name: "التنمية سيقان دجاج طازجة 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-leg/tanmiah-fresh-chickn-drumstick-450g/p/97695",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h19/hd5/49802999562270/97695_main.jpg?im=Resize=400",
-    price: 9.95,
-    original_price: 11.75,
-    discount: 15,
-  },
-  {
-    name: "التنمية أفخاذ دجاج طازجة منزوعة العظم 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/tanmiah-fresh-thigh-boneless-450g/p/739153",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/739153/1724682604/739153_main.jpg?im=Resize=400",
-    price: 20.95,
-    original_price: 24.75,
-    discount: 15,
-  },
-  {
-    name: "الفروج الذهبي قطع دجاج طازجة 800جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/golden-chicken-mixed-parts-800g/p/627581",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h9a/h9a/50564262985758/627581_main.jpg?im=Resize=400",
-    price: 10.95,
-    original_price: 15,
-    discount: 27,
-  },
-  {
-    name: "ريش غنم روماني طازجة (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/african-other-lamb/romani-lamb-ribs/p/623400",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/ha2/h69/52081511858206/623400_main.jpg?im=Resize=400",
-    price: 42.45,
-  },
-  {
-    name: "لحم بقري برازيلي مبرد ستربلوين (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/brazilian-beef/brazilian-beef-striploin-chilled/p/571422",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/he8/h6c/9384329379870/571422_main.jpg?im=Resize=400",
-    price: 34.95,
-  },
-  {
-    name: "الفروج الذهبي شاورما دجاج ايطاليانو طازج 400جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/gc-fresh-mari-itali-shwarma-400g/p/620032",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h33/h78/13926236356638/620032_main.jpg?im=Resize=400",
-    price: 16.95,
-    original_price: 22.5,
-    discount: 25,
-  },
-  {
-    name: "موزات خروف نعيمي ذكر",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-lamb-shank-male/p/536430",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/536430/1742980204/536430_main.jpg?im=Resize=400",
-    price: 44.95,
-  },
-  {
-    name: "دجاج رضوى سيقان دجاج طازجة 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-leg/radwa-fresh-chicken-drumstick-900g/p/577653",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/577653/1737874803/577653_main.jpg?im=Resize=400",
-    price: 20,
-  },
-  {
-    name: "لحم العجل بدون عظم",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-boneless/p/577122",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hf5/h1f/16749202112542/577122_main.jpg?im=Resize=400",
-    price: 32.45,
-  },
-  {
-    name: "كتف خروف روماني طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/african-other-lamb/romani-lamb-shoulder/p/623401",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h2d/h18/51509491499038/623401_main.jpg?im=Resize=400",
-    price: 29.95,
-    original_price: 33.95,
-    discount: 12,
-  },
-  {
-    name: "كبدة عجل محلي طازجة (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/veal-offals/veal-liver/p/5261",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/ha6/hdd/9384328167454/5261_main.jpg?im=Resize=400",
+    name: "لحم بقري طازج بدون عظم محلي (للكيلو)",
+    description:
+      "لحم بقري طازج بدون عظم من مصادر محلية، مثالي للشواء والطهي السريع.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101462/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%B8%D9%85-%D9%85%D8%AD%D9%84%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
     price: 24.98,
   },
   {
-    name: "لحم بقري برازيلي توب سايد (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/brazilian-beef/brazilian-chilled-beef-topsides/p/571433",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/ha7/hb4/51509473411102/571433_main.jpg?im=Resize=400",
-    price: 27.45,
-  },
-  {
-    name: "دجاج رضوى أرجل دجاج طازجة 1 كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-leg/radwa-fresh-chicken-leg-1kg/p/562185",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/562185/1737874803/562185_main.jpg?im=Resize=400",
-    price: 21.25,
-  },
-  {
-    name: "رقبة خروف نعيمي ذكر",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-lamb-neck-male/p/577096",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h3d/h70/9384329281566/577096_main.jpg?im=Resize=400",
-    price: 39.95,
-  },
-  {
-    name: "لحم بقري طازج محلي - شرائح من الظهر (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-beef/local-fresh-beef-striploin/p/553265",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/he3/hbd/9194855890974/553265_main.jpg?im=Resize=400",
-    price: 29.95,
-  },
-  {
-    name: "إنتاج صدور دجاج بالعظم مبرد 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/entaj-chicken-whole-breast-500g/p/595605",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/595605/1737373999/595605_main.png?im=Resize=400",
-    price: 13.45,
-    original_price: 14.95,
-    discount: 10,
-  },
-  {
-    name: "التنمية صدور دجاج بدون عظم طازجة 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/tanmiah-fresh-chicken-breast-900g/p/97699",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/he9/hdb/49802999365662/97699_main.jpg?im=Resize=400",
-    price: 41.95,
-    original_price: 46.25,
+    name: "اليوم فيليه أفخاذ دجاج طازجة فاخرة 450 غرام",
+    description: "فيليه أفخاذ دجاج طازجة فاخرة بوزن 450 جرام، مثالية للشواء.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101463/%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%A3%D9%81%D8%AE%D8%A7%D8%B0-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-450-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
     discount: 9,
+    price: 22.5,
+    discounted_price: 20.45,
   },
   {
-    name: "اليوم دجاج كامل فاخر 1 كجم × 2",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/alyoum-premium-whole-chicken-1kg-2/p/633712",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h59/h3f/50520586158110/633712_main.jpg?im=Resize=400",
-    price: 43.25,
+    name: "مفروم خروف نعيمي ذكر",
+    description: "لحم خروف نعيمي مفروم طازج، مثالي لتحضير الكفتة والبرغر.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101465/%D9%85%D9%81%D8%B1%D9%88%D9%85-%D8%AE%D8%B1%D9%88%D9%81-%D9%86%D8%B9%D9%8A%D9%85%D9%8A-%D8%B0%D9%83%D8%B1.jpg.jpg",
+    ],
+    price: 49.95,
   },
   {
-    name: "دجاج رضوى دجاج مبرد فاخر 1100 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/radwa-fresh-chicken-tray-1-1kg/p/555332",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/555332/1737874803/555332_main.jpg?im=Resize=400",
-    price: 23.5,
+    name: "فخذ حاشي بدون عظم طازج (للكيلو)",
+    description:
+      "فخذ حاشي طازج بدون عظم، مثالي لتحضير الأطباق التقليدية الشهية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101467/%D9%81%D8%AE%D8%B0-%D8%AD%D8%A7%D8%B4%D9%8A-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%B8%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 26.75,
   },
   {
-    name: "ديامانتينا - ستيك تندرلوين بقر واجيو أسترالي 250\n                            جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/australian-beef/tenderloin-waguy/p/701802",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hed/h26/51343278604318/701802_main.jpg?im=Resize=400",
-    price: 107.9,
+    name: "إنتاج صدور دجاج فيليه 900 جرام",
+    description:
+      "صدور دجاج فيليه طازجة بوزن 900 جرام، مثالية للوجبات الصحية والسريعة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101468/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%81%D9%8A%D9%84%D9%8A%D9%87-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 43.95,
   },
   {
-    name: "التنمية أجنحة الدجاج الطازج 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-wings/tanmiah-fresh-chicken-wing-450g/p/97681",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h03/hd6/16889020874782/97681_main.jpg?im=Resize=400",
-    price: 6.45,
-    original_price: 7.5,
-    discount: 14,
-  },
-  {
-    name: "كفتة لحم غنم طازجة",
-    url: "https://www.carrefourksa.com/mafsau/ar/prepared-lamb/lamb-kofta/p/5218",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h25/h0c/11892377616414/5218_main.jpg?im=Resize=400",
-    price: 34.98,
-  },
-  {
-    name: "الفروج الذهبي شيش طاووق طازج 400 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/golden-chicken-shish-tawook-400g/p/630058",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h0b/hde/13926237208606/630058_main.jpg?im=Resize=400",
-    price: 16.95,
-    original_price: 23.25,
-    discount: 27,
-  },
-  {
-    name: "طيبة دجاج مفروم طازج 400 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/poultry-offals/tabya-fresh-minced-chicken-400g/p/712241",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h1e/h4d/51002653212702/712241_main.jpg?im=Resize=400",
-    price: 15,
-  },
-  {
-    name: "الاسياح صدوردجاج بالعظم طازجة 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/al-asyah-frsh-chkn-breast-bone-500g/p/301569",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h20/h21/9226093723678/301569_main.jpg?im=Resize=400",
-    price: 13.25,
-  },
-  {
-    name: "فخذ غنم روماني طازج (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/african-other-lamb/romani-lamb-leg/p/623399",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h9e/h77/51509492187166/623399_main.jpg?im=Resize=400",
-    price: 29.95,
-    original_price: 34.95,
-    discount: 14,
-  },
-  {
-    name: "كفتة لحم بقر طازجة",
-    url: "https://www.carrefourksa.com/mafsau/ar/prepared-beef/beef-kofta/p/5197",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/he4/h0f/11892377747486/5197_main.jpg?im=Resize=400",
-    price: 14.95,
-    original_price: 19.95,
-    discount: 25,
-  },
-  {
-    name: "إنتاج دجاجة كاملة متبلة تتبيلة حارة 600 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/entaj-marinated-spicy-chicken-600g/p/536786",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h6d/hed/63282204114974/536786_main.jpg?im=Resize=400",
-    price: 14.95,
-    original_price: 16.95,
-    discount: 12,
-  },
-  {
-    name: "الفروج الذهبي، قطع دجاج متبل بخلطة البرياني\n                            700جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/gc-marnated-ckn-parts-biriyani-700g/p/683675",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h22/he1/51925145288734/683675_main.jpg?im=Resize=400",
-    price: 10.75,
-  },
-  {
-    name: "ضلوع خروف متبلة",
-    url: "https://www.carrefourksa.com/mafsau/ar/prepared-lamb/lamb-ribs-marinate/p/562890",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/he1/hc2/15846371065886/562890_main.jpg?im=Resize=400",
-    price: 45.95,
-  },
-  {
-    name: "ريش خروف نعيمي ذكر",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-arabic-lamb/naimy-lamb-ribs-male/p/5168",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h4a/h34/12066793816094/5168_main.jpg?im=Resize=400",
-    price: 64.95,
-  },
-  {
-    name: "لحم العجل الطازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-topside-frsh/p/650314",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hb7/h8c/14624789528606/650314_main.jpg?im=Resize=400",
-    price: 37.45,
-  },
-  {
-    name: "طيبة فيليه دجاج طازج 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/tayba-fresh-chicken-fillet-450g/p/712226",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h9d/h54/51002653474846/712226_main.jpg?im=Resize=400",
-    price: 17.95,
-    original_price: 22.25,
-    discount: 19,
-  },
-  {
-    name: "إنتاج أرجل دجاجة كاملة مبردة 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-leg/entaj-fresh-chicken-leg-500g/p/450439",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hf2/h9e/63282203918366/450439_main.jpg?im=Resize=400",
-    price: 9.7,
-    original_price: 10.95,
-    discount: 11,
-  },
-  {
-    name: "طيبة قطع دجاج مشكلة طازجة 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/tayba-fresh-chicken-mix-parts-900g/p/712233",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hd4/hc6/51002655965214/712233_main.jpg?im=Resize=400",
-    price: 12.45,
-    original_price: 15,
-    discount: 17,
-  },
-  {
-    name: "لحم جاموس مفروم - الهند",
-    url: "https://www.carrefourksa.com/mafsau/ar/buffalo/indian-buffal-mince/p/702953",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hd5/hfd/49217183973406/702953_main.jpg?im=Resize=400",
-    price: 27.9,
-  },
-  {
-    name: "إنتاج - أفخاذ دجاج متبلة 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/entaj-marinated-chicken-thighs-500g/p/744320",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/744320/1734859803/744320_main.jpg?im=Resize=400",
-    price: 10.45,
-    original_price: 11.95,
-    discount: 13,
-  },
-  {
-    name: "لحم بقري برازيلي مبرد روست",
-    url: "https://www.carrefourksa.com/mafsau/ar/brazilian-beef/brazilian-beef-roast-chilled/p/571428",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h64/h77/9384329052190/571428_main.jpg?im=Resize=400",
-    price: 29.95,
-  },
-  {
-    name: "إنتاج سيقان دجاج طازج 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/entaj-fresh-chicken-drumstick-450g/p/450441",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hc5/hed/63282204147742/450441_main.jpg?im=Resize=400",
-    price: 9.7,
-    original_price: 10.95,
-    discount: 11,
-  },
-  {
-    name: "دايامانتينا - ستيك آنجوس تندرلوين أسترالي",
-    url: "https://www.carrefourksa.com/mafsau/ar/australian-beef/tenderloin-angus/p/701810",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hfb/ha2/51308363939870/701810_main.jpg?im=Resize=400",
-    price: 71.9,
-  },
-  {
-    name: "الفروج الذهبي فاهيتا الدجاج الطازجة 400 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/gc-fresh-fajita-chicken-400g/p/738181",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/738181/1721196603/738181_main.jpg?im=Resize=400",
-    price: 16.95,
-    original_price: 24.75,
-    discount: 32,
-  },
-  {
-    name: "ساق لحم العجل الطازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-shank-frsh/p/650312",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h68/h7e/14624789987358/650312_main.jpg?im=Resize=400",
-    price: 32.95,
-  },
-  {
-    name: "التنمية دجاج تندوري متبل طازج 600 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/tanmiah-marnted-tandori-chickn-600g/p/442776",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h42/h16/49802991927326/442776_main.jpg?im=Resize=400",
-    price: 17.45,
-    original_price: 19,
-    discount: 8,
-  },
-  {
-    name: "إنتاج دجاج مفروم طازج 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/entaj-fresh-minced-chicken-400g/p/450443",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h3e/hf4/63282204311582/450443_main.jpg?im=Resize=400",
-    price: 16.95,
-  },
-  {
-    name: "اليوم - دجاج متبل بنكهة الكاري 750 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/alyoum-marinatd-ckn-curry-fla-750g/p/695857",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hd0/h6d/49346526314526/695857_main.jpg?im=Resize=400",
-    price: 15.95,
-    original_price: 20,
-    discount: 20,
-  },
-  {
-    name: "قطع لحم فاخرة من متن العجل",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-tenderloin/p/662840",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h85/hbe/51509605335070/662840_main.jpg?im=Resize=400",
-    price: 50.95,
-  },
-  {
-    name: "كتف عجل محلي بالعظم طازج (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-shoulder-fresh-bone-in/p/5092",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h07/h63/9384329642014/5092_main.jpg?im=Resize=400",
-    price: 27.95,
-  },
-  {
-    name: "أضلع عجل محلي بالعظم طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/local-veal/veal-ribs-fresh-bone-in-sc/p/577124",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/had/h94/29941174042654/577124_main.jpg?im=Resize=400",
-    price: 31.45,
-  },
-  {
-    name: "التنمية قلوب دجاج طازجة 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/poultry-offals/tanmiah-fresh-chicken-heart-450g/p/97691",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h5a/hd1/49802999693342/97691_main.jpg?im=Resize=400",
-    price: 5.95,
-    original_price: 8,
+    name: "الفروج الذهبي دجاج كامل طازج 1200جرام",
+    description:
+      "دجاج كامل طازج من الفروج الذهبي بوزن 1200 جرام، مثالي للشواء.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101470/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%83%D8%A7%D9%85%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC-1200%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
     discount: 26,
+    price: 23,
+    discounted_price: 16.95,
   },
   {
-    name: "اليوم أفخاذ دجاج طازجة فاخرة مجمدة 450 غرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/alyoum-fresh-chicken-drumstick-450g/p/652029",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/he6/h9e/50520593596446/652029_main.jpg?im=Resize=400",
-    price: 7.95,
-    original_price: 12,
-    discount: 34,
+    name: "لحم حاشي بالعظم طازج",
+    description: "لحم حاشي طازج بالعظم، مثالي لتحضير الأطباق التقليدية الغنية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101471/%D9%84%D8%AD%D9%85-%D8%AD%D8%A7%D8%B4%D9%8A-%D8%A8%D8%A7%D9%84%D8%B9%D8%B8%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 39.9,
   },
   {
-    name: "التنمية صدور دجاج طازجة مع أوميجا3 - 400جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-breast/tanmiah-omega3-fresh-ckn-brest-400g/p/702711",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h58/hb3/49802998153246/702711_main.jpg?im=Resize=400",
-    price: 22.95,
-    original_price: 25,
-    discount: 8,
+    name: "قطع خروف نعيمي ذكر",
+    description: "قطع خروف نعيمي طازجة، مثالية لتحضير الأطباق الشرقية الفاخرة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101472/%D9%82%D8%B7%D8%B9-%D8%AE%D8%B1%D9%88%D9%81-%D9%86%D8%B9%D9%8A%D9%85%D9%8A-%D8%B0%D9%83%D8%B1.jpg.jpg",
+    ],
+    price: 37.95,
   },
   {
-    name: "كباب لحم غنم",
-    url: "https://www.carrefourksa.com/mafsau/ar/prepared-lamb/lamb-kebab/p/5219",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h1b/hf3/15846368870430/5219_main.jpg?im=Resize=400",
-    price: 32.45,
+    name: "دجاج رضوى دجاج مفروم طازج 400 جرام",
+    description: "دجاج مفروم طازج من رضوى بوزن 400 جرام، مثالي لتحضير الكفتة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101474/%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B1%D8%B6%D9%88%D9%89-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D9%81%D8%B1%D9%88%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 16.25,
   },
   {
-    name: "التنمية دجاجة كاملة طازجة مع أوميجا3 - 1000جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/tanmiah-omega3-fresh-chicken-1000g/p/702707",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h7e/h50/49802997366814/702707_main.jpg?im=Resize=400",
-    price: 22.45,
-    original_price: 24.5,
-    discount: 8,
+    name: "لحم عجل ٍمحلي مكعبات طازج",
+    description: "لحم عجل محلي مقطع مكعبات طازج، مثالي لتحضير اليخنات والكباب.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101475/%D9%84%D8%AD%D9%85-%D8%B9%D8%AC%D9%84-%D9%85%D8%AD%D9%84%D9%8A-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 33.95,
   },
   {
-    name: "دجاج رضوى نقانق دجاج طازج 400 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/radwa-fresh-chicken-franks-400g/p/592729",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/592729/1737882603/592729_main.jpg?im=Resize=400",
-    price: 7.7,
-    original_price: 8.25,
-    discount: 7,
-  },
-  {
-    name: "لحم بقري مكعبات قليلة الدسم مبرد برازيلي\n                            (للكيلو)",
-    url: "https://www.carrefourksa.com/mafsau/ar/brazilian-beef/brazilian-beef-cube-low-fat-chilled/p/571446",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hd0/h23/9181587734558/571446_main.jpg?im=Resize=400",
+    name: "لحم بقري برازيلي مفروم قليلة الدسم مبرد (للكيلو)",
+    description: "لحم بقري برازيلي مفروم قليل الدسم، مثالي للوجبات الصحية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101477/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D9%85%D9%81%D8%B1%D9%88%D9%85-%D9%82%D9%84%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%AF%D8%B3%D9%85-%D9%85%D8%A8%D8%B1%D8%AF-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
     price: 28.45,
   },
   {
-    name: "إنتاج أفخاذ دجاج طازجة 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/chicken-thigh/entaj-fresh-chicken-thigh-450g/p/450438",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h5c/h9f/63282203951134/450438_main.jpg?im=Resize=400",
-    price: 9.45,
-    original_price: 9.95,
-    discount: 5,
+    name: "إنتاج دجاجة كاملة طازجة 1.1 كج",
+    description: "دجاجة كاملة طازجة بوزن 1.1 كجم، مثالية لتحضير وجبات عائلية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101479/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%AF%D8%AC%D8%A7%D8%AC%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-11-%D9%83%D8%AC.jpg.jpg",
+    ],
+    discount: 11,
+    price: 22.95,
+    discounted_price: 20.45,
   },
   {
-    name: "كتف لحم بقري برازيلي",
-    url: "https://www.carrefourksa.com/mafsau/ar/brazilian-beef/brazilian-beef-shoulder-paleron/p/571444",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h3f/h77/49346340847646/571444_main.jpg?im=Resize=400",
-    price: 22.45,
+    name: "لحم بقر طازج محلي ستيك (للكيلو)",
+    description: "لحم بقر محلي طازج مقطع ستيك، مثالي للشواء والطهي السريع.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101480/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%85%D8%AD%D9%84%D9%8A-%D8%B3%D8%AA%D9%8A%D9%83-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 29.95,
+  },
+  {
+    name: "كبدة غنم طازجة",
+    description:
+      "كبدة غنم طازجة، مثالية لتحضير الأطباق الشرقية الغنية بالنكهة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101481/%D9%83%D8%A8%D8%AF%D8%A9-%D8%BA%D9%86%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9.jpg.jpg",
+    ],
+    price: 29.95,
+  },
+  {
+    name: "لحم بقري محلي مكعبات قليل الدهون - محلي (للكيلو)",
+    description: "لحم بقري محلي مقطع مكعبات قليل الدهون، مثالي للوجبات الصحية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101483/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D9%85%D8%AD%D9%84%D9%8A-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D9%82%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D9%87%D9%88%D9%86-%D9%85%D8%AD%D9%84%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 27.45,
+  },
+  {
+    name: "كتف خروف نعيمي ذكر",
+    description:
+      "كتف خروف نعيمي طازج، مثالي لتحضير الأطباق الفاخرة المطهية ببطء.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101484/%D9%83%D8%AA%D9%81-%D8%AE%D8%B1%D9%88%D9%81-%D9%86%D8%B9%D9%8A%D9%85%D9%8A-%D8%B0%D9%83%D8%B1.jpg.jpg",
+    ],
+    discount: 6,
+    price: 42.45,
+    discounted_price: 39.95,
+  },
+  {
+    name: "التنمية صدور دجاج بدون عظم طازجة 900 جرام",
+    description:
+      "صدور دجاج بدون عظم طازجة من التنمية بوزن 900 جرام، مثالية للشواء.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101485/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%B8%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 11,
+    price: 46.25,
+    discounted_price: 40.95,
+  },
+  {
+    name: "لحم بقري برازيلي مبرد ستروجنوف (للكيلو)",
+    description:
+      "لحم بقري برازيلي مبرد مقطع ستروجنوف، مثالي لتحضير الأطباق الكريمية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101487/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF-%D8%B3%D8%AA%D8%B1%D9%88%D8%AC%D9%86%D9%88%D9%81-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 27.45,
+  },
+  {
+    name: "خروف استرالي مبرد حوالي 14 ~ 16 كج",
+    description:
+      "خروف استرالي مبرد بوزن 14-16 كجم، مثالي للمناسبات الكبيرة والعزائم.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101488/%D8%AE%D8%B1%D9%88%D9%81-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF-%D8%AD%D9%88%D8%A7%D9%84%D9%8A-14-16-%D9%83%D8%AC.jpg.jpg",
+    ],
+    price: 813.9,
+  },
+  {
+    name: "الفروج الذهبي شاورما دجاج ايطاليانو طازج 400جرام",
+    description:
+      "شاورما دجاج ايطاليانو طازجة من الفروج الذهبي بوزن 400 جرام، مثالية للساندويتشات.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101489/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A7%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A7%D9%86%D9%88-%D8%B7%D8%A7%D8%B2%D8%AC-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 14,
+    price: 22.5,
+    discounted_price: 19.45,
+  },
+  {
+    name: "إسكالوب عجل محلي طازج",
+    description:
+      "إسكالوب عجل محلي طازج، مثالي لتحضير الأطباق الأوروبية الشهية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101491/%D8%A5%D8%B3%D9%83%D8%A7%D9%84%D9%88%D8%A8-%D8%B9%D8%AC%D9%84-%D9%85%D8%AD%D9%84%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 37.45,
+  },
+  {
+    name: "لحم العجل بدون عظم",
+    description: "لحم عجل طازج بدون عظم، مثالي لتحضير الأطباق المتنوعة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101493/%D9%84%D8%AD%D9%85-%D8%A7%D9%84%D8%B9%D8%AC%D9%84-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%B8%D9%85.jpg.jpg",
+    ],
+    price: 27.5,
+  },
+  {
+    name: "لحم عجل بالعظم باكستاني مبرد",
+    description: "لحم عجل باكستاني مبرد بالعظم، مثالي لتحضير المرقات واليخنات.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101495/%D9%84%D8%AD%D9%85-%D8%B9%D8%AC%D9%84-%D8%A8%D8%A7%D9%84%D8%B9%D8%B8%D9%85-%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF.jpg.jpg",
+    ],
+    price: 14.95,
+  },
+  {
+    name: "ريش خروف نعيمي ذكر",
+    description: "ريش خروف نعيمي طازج، مثالي للشواء وتحضير الأطباق الفاخرة.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101497/%D8%B1%D9%8A%D8%B4-%D8%AE%D8%B1%D9%88%D9%81-%D9%86%D8%B9%D9%8A%D9%85%D9%8A-%D8%B0%D9%83%D8%B1.jpg.jpg",
+    ],
+    price: 64.95,
+  },
+  {
+    name: "كفتة لحم بقر طازجة",
+    description:
+      "كفتة لحم بقر طازجة، جاهزة للشواء أو الطهي، مثالية للوجبات العائلية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101499/%D9%83%D9%81%D8%AA%D8%A9-%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9.jpg.jpg",
+    ],
+    price: 19.95,
+  },
+  {
+    name: "فخذ غنم روماني طازج (للكيلو)",
+    description:
+      "فخذ غنم روماني طازج، مثالي لتحضير الأطباق الفاخرة المطهية ببطء.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101501/%D9%81%D8%AE%D8%B0-%D8%BA%D9%86%D9%85-%D8%B1%D9%88%D9%85%D8%A7%D9%86%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 34.95,
+  },
+  {
+    name: "سجق بقري مرقاز طازج (للكيلو)",
+    description:
+      "سجق بقري مرقاز طازج، مثالي للشواء أو تحضير الساندويتشات الشهية.",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101502/%D8%B3%D8%AC%D9%82-%D8%A8%D9%82%D8%B1%D9%8A-%D9%85%D8%B1%D9%82%D8%A7%D8%B2-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 23.45,
+  },
+  {
+    name: "التنمية أجنحة الدجاج الطازج 450 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101504/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A3%D8%AC%D9%86%D8%AD%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 14,
+    price: 7.5,
+    discounted_price: 6.45,
+    description:
+      "أجنحة دجاج طازجة من التنمية، مثالية للشواء أو القلي، تتميز بجودتها العالية ونكهتها الرائعة.",
+  },
+  {
+    name: "لحم غنم أسترالي، لكل كغ",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101505/%D9%84%D8%AD%D9%85-%D8%BA%D9%86%D9%85-%D8%A3%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A-%D9%84%D9%83%D9%84-%D9%83%D8%BA.jpg.jpg",
+    ],
+    price: 27.95,
+    description:
+      "لحم غنم أسترالي طازج، يتميز بنكهته الغنية وملمسه الطري، مثالي للطهي بمختلف الوصفات.",
+  },
+  {
+    name: "اليوم أفخاذ دجاج طازجة 450 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101506/%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A3%D9%81%D8%AE%D8%A7%D8%B0-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 10,
+    price: 10.25,
+    discounted_price: 9.2,
+    description:
+      "أفخاذ دجاج طازجة من اليوم، مثالية لتحضير وجبات شهية، غنية بالنكهة وسهلة التحضير.",
+  },
+  {
+    name: "رضوى دجاج طازج فاخر مبرد 1 كج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101508/%D8%B1%D8%B6%D9%88%D9%89-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%81%D8%A7%D8%AE%D8%B1-%D9%85%D8%A8%D8%B1%D8%AF-1-%D9%83%D8%AC.jpg.jpg",
+    ],
+    price: 22.5,
+    description:
+      "دجاج رضوى فاخر مبرد، يتميز بجودته العالية وطراوته، مثالي لتحضير وجبات عائلية لذيذة.",
+  },
+  {
+    name: "الفروج الذهبي كبد دجاج طازج 400جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101509/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%83%D8%A8%D8%AF-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 16,
+    price: 9.5,
+    discounted_price: 7.95,
+    description:
+      "كبد دجاج طازج من الفروج الذهبي، غني بالعناصر الغذائية ومثالي لتحضير أطباق متنوعة.",
+  },
+  {
+    name: "ريش غنم روماني طازجة (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101510/%D8%B1%D9%8A%D8%B4-%D8%BA%D9%86%D9%85-%D8%B1%D9%88%D9%85%D8%A7%D9%86%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 42.45,
+    description:
+      "ريش غنم روماني طازجة، تتميز بنكهتها الفريدة وملمسها الطري، مثالية للشواء.",
+  },
+  {
+    name: "فخذ خروف بدون عظم مبرد أسترالي",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101511/%D9%81%D8%AE%D8%B0-%D8%AE%D8%B1%D9%88%D9%81-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%B8%D9%85-%D9%85%D8%A8%D8%B1%D8%AF-%D8%A3%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A.jpg.jpg",
+    ],
+    price: 125.85,
+    description:
+      "فخذ خروف أسترالي مبرد بدون عظم، مثالي لتحضير وجبات فاخرة ومميزة.",
+  },
+  {
+    name: "تنمية - صحن دجاج طازج 700 جرام × 3",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101513/%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%B5%D8%AD%D9%86-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC-700-%D8%AC%D8%B1%D8%A7%D9%85-3.jpg.jpg",
+    ],
+    discount: 22,
+    price: 48.75,
+    discounted_price: 37.95,
+    description:
+      "صحن دجاج طازج من التنمية، عبوة اقتصادية تحتوي على 3 صواني، مثالية للعائلات.",
+  },
+  {
+    name: "إنتاج دجاجة كاملة متبلة تتبيلة حارة 600 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101514/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%AF%D8%AC%D8%A7%D8%AC%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%85%D8%AA%D8%A8%D9%84%D8%A9-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 12,
+    price: 16.95,
+    discounted_price: 14.95,
+    description:
+      "دجاجة كاملة متبلة بتتبيلة حارة من إنتاج، جاهزة للطهي ومليئة بالنكهات الشهية.",
+  },
+  {
+    name: "دجاج رضوى دجاج مبرد فاخر فاخر 1200 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101515/%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B1%D8%B6%D9%88%D9%89-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%A8%D8%B1%D8%AF-%D9%81%D8%A7%D8%AE%D8%B1-%D9%81%D8%A7%D8%AE%D8%B1-1200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 24.5,
+    description:
+      "دجاج رضوى مبرد فاخر، يتميز بجودته العالية وحجمه الكبير، مثالي للوجبات العائلية.",
+  },
+  {
+    name: "دجاج رضوى أرجل دجاج طازجة 1 كج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101516/%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B1%D8%B6%D9%88%D9%89-%D8%A3%D8%B1%D8%AC%D9%84-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-1-%D9%83%D8%AC.jpg.jpg",
+    ],
+    discount: 13,
+    price: 21.25,
+    discounted_price: 18.45,
+    description:
+      "أرجل دجاج طازجة من رضوى، مثالية لتحضير أطباق غنية بالنكهة والعصارة.",
+  },
+  {
+    name: "لحم بقري برازيلي مبرد ستربلوين (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101518/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF-%D8%B3%D8%AA%D8%B1%D8%A8%D9%84%D9%88%D9%8A%D9%86-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 34.95,
+    description:
+      "لحم بقري برازيلي مبرد ستربلوين، يتميز بطراوته ونكهته الغنية، مثالي للشواء.",
+  },
+  {
+    name: "كتف خروف روماني طازج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101519/%D9%83%D8%AA%D9%81-%D8%AE%D8%B1%D9%88%D9%81-%D8%B1%D9%88%D9%85%D8%A7%D9%86%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 33.95,
+    description:
+      "كتف خروف روماني طازج، مثالي للطهي البطيء أو الشواء، يتميز بنكهته المميزة.",
+  },
+  {
+    name: "الفروج الذهبي شيش طاووق طازج 400 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101520/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%B4%D9%8A%D8%B4-%D8%B7%D8%A7%D9%88%D9%88%D9%82-%D8%B7%D8%A7%D8%B2%D8%AC-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 12,
+    price: 23.25,
+    discounted_price: 20.45,
+    description:
+      "شيش طاووق طازج من الفروج الذهبي، متبل وجاهز للشواء، يتميز بنكهته الشهية.",
+  },
+  {
+    name: "ربع خروف أمامي استرالي",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101522/%D8%B1%D8%A8%D8%B9-%D8%AE%D8%B1%D9%88%D9%81-%D8%A3%D9%85%D8%A7%D9%85%D9%8A-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A.jpg.jpg",
+    ],
+    price: 159.5,
+    description:
+      "ربع خروف أمامي أسترالي، مثالي لتحضير وجبات عائلية فاخرة، يتميز بجودته العالية.",
+  },
+  {
+    name: "رقبة خروف نعيمي ذكر",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101524/%D8%B1%D9%82%D8%A8%D8%A9-%D8%AE%D8%B1%D9%88%D9%81-%D9%86%D8%B9%D9%8A%D9%85%D9%8A-%D8%B0%D9%83%D8%B1.jpg.jpg",
+    ],
+    price: 39.95,
+    description:
+      "رقبة خروف نعيمي ذكر، مثالية لتحضير أطباق اليخنات والمرقات، غنية بالنكهة.",
+  },
+  {
+    name: "كبدة عجل محلي طازجة (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101526/%D9%83%D8%A8%D8%AF%D8%A9-%D8%B9%D8%AC%D9%84-%D9%85%D8%AD%D9%84%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 22.5,
+    description:
+      "كبدة عجل محلية طازجة، غنية بالعناصر الغذائية ومثالية لتحضير أطباق صحية.",
+  },
+  {
+    name: "برجر لحم لبقر محلي",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101528/%D8%A8%D8%B1%D8%AC%D8%B1-%D9%84%D8%AD%D9%85-%D9%84%D8%A8%D9%82%D8%B1-%D9%85%D8%AD%D9%84%D9%8A.jpg.jpg",
+    ],
+    price: 7.98,
+    description:
+      "برجر لحم بقري محلي، مثالي لتحضير ساندويتشات البرجر اللذيذة في المنزل.",
+  },
+  {
+    name: "الاسياح دجاج طازج 350 جرام × 2",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101529/%D8%A7%D9%84%D8%A7%D8%B3%D9%8A%D8%A7%D8%AD-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC-350-%D8%AC%D8%B1%D8%A7%D9%85-2.jpg.jpg",
+    ],
+    price: 25,
+    description:
+      "دجاج طازج من الأسياح، عبوة تحتوي على قطعتين، مثالية لتحضير وجبات متنوعة.",
   },
   {
     name: "إنتاج - أفخاذ دجاج متبل حار 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/entaj-marinatd-spcy-chkn-thigh-500g/p/744317",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/744317/1734859803/744317_main.jpg?im=Resize=400",
-    price: 10.45,
-    original_price: 11.95,
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101530/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A3%D9%81%D8%AE%D8%A7%D8%B0-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%AA%D8%A8%D9%84-%D8%AD%D8%A7%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
     discount: 13,
+    price: 11.95,
+    discounted_price: 10.45,
+    description:
+      "أفخاذ دجاج متبلة بتتبيلة حارة من إنتاج، جاهزة للطهي ومليئة بالنكهات.",
+  },
+  {
+    name: "رضوى شاورما دجاج فاخر حارة ومتبلة 400جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101533/%D8%B1%D8%B6%D9%88%D9%89-%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%81%D8%A7%D8%AE%D8%B1-%D8%AD%D8%A7%D8%B1%D8%A9-%D9%88%D9%85%D8%AA%D8%A8%D9%84%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 17.75,
+    description:
+      "شاورما دجاج فاخرة من رضوى، متبلة بنكهة حارة، مثالية لتحضير ساندويتشات شهية.",
+  },
+  {
+    name: "لحم بقري طازج محلي - شرائح من الظهر (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101534/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%85%D8%AD%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D9%85%D9%86-%D8%A7%D9%84%D8%B8%D9%87%D8%B1-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 29.95,
+    description:
+      "شرائح لحم بقري محلي طازج من الظهر، مثالية للشواء أو الطهي السريع.",
+  },
+  {
+    name: "إنتاج - فيليه أفخاذ دجاج طازجة 450 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101538/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%A3%D9%81%D8%AE%D8%A7%D8%B0-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 7,
+    price: 22.95,
+    discounted_price: 21.45,
+    description:
+      "فيليه أفخاذ دجاج طازجة من إنتاج، خالية من العظم ومثالية لتحضير وجبات صحية.",
+  },
+  {
+    name: "التنمية أرجل دجاج طازجة، عبوة ترويجية، 900 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101539/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A3%D8%B1%D8%AC%D9%84-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D8%B9%D8%A8%D9%88%D8%A9-%D8%AA%D8%B1%D9%88%D9%8A%D8%AC%D9%8A%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 15.95,
+    description:
+      "أرجل دجاج طازجة من التنمية، عبوة ترويجية اقتصادية، مثالية للوجبات العائلية.",
+  },
+  {
+    name: "تنمية 4 قطع دجاج طازجة مع أوميجا 3 900 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101540/%D8%AA%D9%86%D9%85%D9%8A%D8%A9-4-%D9%82%D8%B7%D8%B9-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%85%D8%B9-%D8%A3%D9%88%D9%85%D9%8A%D8%AC%D8%A7-3-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 18,
+    price: 20,
+    discounted_price: 16.45,
+    description:
+      "قطع دجاج طازجة من التنمية غنية بأوميجا 3، صحية ومثالية لتحضير وجبات متوازنة.",
+  },
+  {
+    name: "التنمية دجاجة كاملة طازجة مع أوميجا3 - 1000جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101542/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%AF%D8%AC%D8%A7%D8%AC%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%85%D8%B9-%D8%A3%D9%88%D9%85%D9%8A%D8%AC%D8%A73-1000%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 12,
+    price: 24.5,
+    discounted_price: 21.45,
+    description:
+      "دجاجة كاملة طازجة من التنمية غنية بأوميجا 3، مثالية لتحضير وجبات صحية ولذيذة.",
+  },
+  {
+    name: "دجاج رضوى مرتديلا دجاج 500 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101543/%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B1%D8%B6%D9%88%D9%89-%D9%85%D8%B1%D8%AA%D8%AF%D9%8A%D9%84%D8%A7-%D8%AF%D8%AC%D8%A7%D8%AC-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 25,
+    price: 16.75,
+    discounted_price: 12.5,
+    description:
+      "مرتديلا دجاج من رضوى، مثالية للساندويتشات والوجبات الخفيفة، تتميز بنكهتها الغنية.",
+  },
+  {
+    name: "الفروج الذهبي لحم دجاج مفروم طازج 400جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101544/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%84%D8%AD%D9%85-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D9%81%D8%B1%D9%88%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 6,
+    price: 17,
+    discounted_price: 15.95,
+    description:
+      "لحم دجاج مفروم طازج من الفروج الذهبي، مثالي لتحضير الكفتة أو البرجر.",
+  },
+  {
+    name: "لحم ضلوع غنم أسترالي مبرد",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101546/%D9%84%D8%AD%D9%85-%D8%B6%D9%84%D9%88%D8%B9-%D8%BA%D9%86%D9%85-%D8%A3%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF.jpg.jpg",
+    ],
+    price: 49.95,
+    description:
+      "ضلوع غنم أسترالي مبرد، مثالية للشواء أو الطهي البطيء، تتميز بنكهتها الغنية.",
+  },
+  {
+    name: "التنمية شاورما دجاج حراق 450 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101547/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%AD%D8%B1%D8%A7%D9%82-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 10,
+    price: 18.25,
+    discounted_price: 16.45,
+    description:
+      "شاورما دجاج حراق من التنمية، متبلة بنكهة قوية، مثالية لتحضير وجبات سريعة.",
+  },
+  {
+    name: "دجاج رضوى مرتديلا دجاج 250 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101548/%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B1%D8%B6%D9%88%D9%89-%D9%85%D8%B1%D8%AA%D8%AF%D9%8A%D9%84%D8%A7-%D8%AF%D8%AC%D8%A7%D8%AC-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 27,
+    price: 9.25,
+    discounted_price: 6.75,
+    description:
+      "مرتديلا دجاج من رضوى بحجم صغير، مثالية للوجبات الخفيفة والساندويتشات.",
+  },
+  {
+    name: "إنتاج أفخاذ دجاج طازجة 450 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101550/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A3%D9%81%D8%AE%D8%A7%D8%B0-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 10,
+    price: 9.95,
+    discounted_price: 8.95,
+    description:
+      "أفخاذ دجاج طازجة من إنتاج، مثالية لتحضير وجبات غنية بالنكهة والعصارة.",
+  },
+  {
+    name: "التنمية دجاجة كاملة طازجة مع أوميجا3 - 1100جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101552/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%AF%D8%AC%D8%A7%D8%AC%D8%Aedx%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%85%D8%B9-%D8%A3%D9%88%D9%85%D9%8A%D8%AC%D8%A73-1100%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 14,
+    price: 25.5,
+    discounted_price: 21.95,
+    description:
+      "دجاجة كاملة طازجة من التنمية غنية بأوميجا 3، مثالية لتحضير وجبات صحية.",
   },
   {
     name: "إنتاج - أفخاذ دجاج طازج 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/entaj-fresh-chicken-drumstick-900g/p/744316",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/744316/1734859803/744316_main.jpg?im=Resize=400",
-    price: 18.95,
-    original_price: 21.95,
-    discount: 14,
-  },
-  {
-    name: "اليوم دجاج متبل حار 750 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/alyoum-marinated-chicken-spicy-750g/p/656895",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h06/hff/50520592842782/656895_main.jpg?im=Resize=400",
-    price: 15.95,
-    original_price: 19.5,
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101554/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A3%D9%81%D8%AE%D8%A7%D8%B0-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
     discount: 18,
+    price: 21.95,
+    discounted_price: 17.95,
+    description:
+      "أفخاذ دجاج طازجة من إنتاج، عبوة كبيرة اقتصادية، مثالية للوجبات العائلية.",
   },
   {
-    name: "ضلوع جمل طازجة",
-    url: "https://www.carrefourksa.com/mafsau/ar/camel/camel-ribs-fresh/p/115821",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/hb8/h32/51410992267294/115821_main.jpg?im=Resize=400",
-    price: 44.9,
+    name: "لحم بقري روست مبرد نيوزلندي (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101555/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%B1%D9%88%D8%B3%D8%AA-%D9%85%D8%A8%D8%B1%D8%AF-%D9%86%D9%8A%D9%88%D8%B2%D9%84%D9%86%D8%AF%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 39.95,
+    description:
+      "لحم بقري روست نيوزلندي مبرد، مثالي للطهي البطيء أو الشواء، يتميز بنكهته الغنية.",
+  },
+  {
+    name: "التنمية أسرار الطعم صدور دجاج طازجة وطرية تندوري 400 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101557/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%B7%D8%B9%D9%85-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%88%D8%B7%D8%B1%D9%8A%D8%A9-%D8%AA%D9%86%D8%AF%D9%88%D8%B1%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 17,
+    price: 27.75,
+    discounted_price: 22.95,
+    description:
+      "صدور دجاج طازجة متبلة بنكهة تندوري من التنمية، مثالية لتحضير وجبات شهية.",
+  },
+  {
+    name: "برجر برازيلي (قطعتان)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101559/%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D9%82%D8%B7%D8%B9%D8%AA%D8%A7%D9%86.jpg.jpg",
+    ],
+    price: 18.45,
+    description:
+      "برجر لحم بقري برازيلي، قطعتان جاهزتان للشواء، مثالي لتحضير وجبات سريعة.",
   },
   {
     name: "إنتاج أحشاء دجاج طازجة 450 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/poultry-offals/entaj-fresh-chicken-gizzard-350g/p/450445",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h54/hf8/63282204475422/450445_main.jpg?im=Resize=400",
-    price: 8.45,
-    original_price: 10.95,
-    discount: 23,
-  },
-  {
-    name: "الفروج الذهبي بروستد قطع دجاجة كاملة طازجة- النكهة\n                            الأصلية 1000 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/ready-to-cook-poultry/gc-marinated-wholechickn-broast-1kg/p/657250",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h58/h0a/13926243336222/657250_main.jpg?im=Resize=400",
-    price: 22.95,
-    original_price: 28.25,
-    discount: 19,
-  },
-  {
-    name: "الفروج الذهبي دجاج طازج بالزبدة 400 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/whole-chicken/gc-fresh-butter-chicken-400g/p/738180",
-    image_url:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/738180/1721196603/738180_main.jpg?im=Resize=400",
-    price: 17.95,
-    original_price: 24.75,
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101560/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A3%D8%AD%D8%B4%D8%A7%D8%A1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
     discount: 27,
+    price: 10.95,
+    discounted_price: 7.95,
+    description:
+      "أحشاء دجاج طازجة من إنتاج، مثالية لتحضير أطباق تقليدية غنية بالنكهة.",
   },
   {
-    name: "تنمية 8 أرباع دجاج طازجة مع أوميجا 3 900 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/drumstick/tanmiah-omega3-fresh-ckn-8-pcs-900g/p/702709",
-    image_url:
-      "https://cdn.mafrservices.com/sys-master-root/h79/h08/49802996842526/702709_main.jpg?im=Resize=400",
-    price: 17.45,
-    original_price: 20,
-    discount: 13,
-  }),
+    name: "لحم بقري برازيلي مبرد توب سايد مكعبات (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101561/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF-%D8%AA%D9%88%D8%A8-%D8%B3%D8%A7%D9%8A%D8%AF-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 29.95,
+    description:
+      "مكعبات لحم بقري برازيلي توب سايد، مثالية لتحضير اليخنات أو الأطباق المشوية.",
+  },
+  {
+    name: "الفروج الذهبي قوانص دجاج طازجة 350جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101563/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%82%D9%88%D8%A7%D9%86%D8%B5-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-350%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 9.5,
+    description:
+      "قوانص دجاج طازجة من الفروج الذهبي، مثالية لتحضير أطباق جانبية لذيذة.",
+  },
+  {
+    name: "لحم بقري ريب اي مبرد نيوزلندي (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101564/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%B1%D9%8A%D8%A8-%D8%A7%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF-%D9%86%D9%8A%D9%88%D8%B2%D9%84%D9%86%D8%AF%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 68.45,
+    description:
+      "لحم بقري ريب آي نيوزلندي مبرد، فاخر ومثالي لتحضير شرائح اللحم المشوية.",
+  },
+  {
+    name: "لحم بقري ستروجنوف مبرد نيوزلندي (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101566/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%B3%D8%AA%D8%B1%D9%88%D8%AC%D9%86%D9%88%D9%81-%D9%85%D8%A8%D8%B1%D8%AF-%D9%86%D9%8A%D9%88%D8%B2%D9%84%D9%86%D8%AF%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 30.95,
+    description:
+      "لحم بقري ستروجنوف نيوزلندي مبرد، شرائح رفيعة مثالية لتحضير أطباق الكريمة.",
+  },
+  {
+    name: "دجاج رضوى نقانق دجاج طازجة بالجبن 400 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101568/%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B1%D8%B6%D9%88%D9%89-%D9%86%D9%82%D8%A7%D9%86%D9%82-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 7,
+    price: 8.25,
+    discounted_price: 7.7,
+    description:
+      "نقانق دجاج طازجة بالجبن من رضوى، مثالية للشواء أو الطهي السريع.",
+  },
+  {
+    name: "التنمية قلوب دجاج طازجة 450 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101570/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D9%82%D9%84%D9%88%D8%A8-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 19,
+    price: 8,
+    discounted_price: 6.45,
+    description:
+      "قلوب دجاج طازجة من التنمية، غنية بالبروتين ومثالية لتحضير أطباق متنوعة.",
+  },
+  {
+    name: "فروج الاسياح - قطع دجاج مشكلة 900 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101571/%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%A7%D8%B3%D9%8A%D8%A7%D8%AD-%D9%82%D8%B7%D8%B9-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%B4%D9%83%D9%84%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 17.5,
+    description:
+      "قطع دجاج مشكلة من فروج الأسياح، مثالية لتحضير وجبات عائلية متنوعة.",
+  },
+  {
+    name: "إنتاج قلوب دجاج طازجة 400 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101573/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D9%82%D9%84%D9%88%D8%A8-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 27,
+    price: 10.95,
+    discounted_price: 7.95,
+    description:
+      "قلوب دجاج طازجة من إنتاج، مثالية لتحضير أطباق غنية بالنكهة والعناصر الغذائية.",
+  },
+  {
+    name: "فروج الأسياح دجاج متبل أرجل كاملة 600 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101575/%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%A3%D8%B3%D9%8A%D8%A7%D8%AD-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%AA%D8%A8%D9%84-%D8%A3%D8%B1%D8%AC%D9%84-%D9%83%D8%A7%D9%85%D9%84%D8%A9-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 16.25,
+    description:
+      "أرجل دجاج متبلة من فروج الأسياح، جاهزة للطهي ومليئة بالنكهات الشهية.",
+  },
+  {
+    name: "لحم بقري برازيلي مبرد سمانة (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101576/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF-%D8%B3%D9%85%D8%A7%D9%86%D8%A9-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 28.45,
+    description:
+      "لحم بقري برازيلي مبرد سمانة، مثالي لتحضير اليخنات أو الأطباق التقليدية.",
+  },
+  {
+    name: "الفروج الذهبي أرجل دجاج طازجة 500جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101578/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%A3%D8%B1%D8%AC%D9%84-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 12,
+    description:
+      "أرجل دجاج طازجة من الفروج الذهبي، مثالية لتحضير وجبات غنية بالنكهة.",
+  },
+  {
+    name: "أضلع عجل محلي بالعظم طازج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101579/%D8%A3%D8%B6%D9%84%D8%B9-%D8%B9%D8%AC%D9%84-%D9%85%D8%AD%D9%84%D9%8A-%D8%A8%D8%A7%D9%84%D8%B9%D8%B8%D9%85-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 31.45,
+    description:
+      "أضلع عجل محلي طازج بالعظم، مثالية للشواء أو الطهي البطيء، غنية بالنكهة.",
+  },
+  {
+    name: "موزات لحم خروف استرالي مبرد",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101581/%D9%85%D9%88%D8%B2%D8%A7%D8%AA-%D9%84%D8%AD%D9%85-%D8%AE%D8%B1%D9%88%D9%81-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF.jpg.jpg",
+    ],
+    price: 39.9,
+    description:
+      "موزات لحم خروف أسترالي مبرد، مثالية لتحضير أطباق اليخنات اللذيذة.",
+  },
+  {
+    name: "روست عجل محلي طازج (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101582/%D8%B1%D9%88%D8%B3%D8%AA-%D8%B9%D8%AC%D9%84-%D9%85%D8%AD%D9%84%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 36.45,
+    description:
+      "لحم عجل محلي طازج عالي الجودة، مثالي لتحضير أطباق الروست اللذيذة.",
+  },
+  {
+    name: "التنمية دجاج متبل حراق 600 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101584/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%AA%D8%A8%D9%84-%D8%AD%D8%B1%D8%A7%D9%82-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 11,
+    price: 19,
+    discounted_price: 16.95,
+    description:
+      "دجاج متبل بنكهة حارة من التنمية، جاهز للشواء أو الطهي، وزن 600 جرام.",
+  },
+  {
+    name: "الفروج الذهبي سيقان دجاج طازجة 450جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101586/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%B3%D9%8A%D9%82%D8%A7%D9%86-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 12,
+    description:
+      "سيقان دجاج طازجة من الفروج الذهبي، مثالية للشواء أو الطهي، وزن 450 جرام.",
+  },
+  {
+    name: "مفصل لحم العجل طازج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101587/%D9%85%D9%81%D8%B5%D9%84-%D9%84%D8%AD%D9%85-%D8%A7%D9%84%D8%B9%D8%AC%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 37.45,
+    description: "مفصل لحم عجل طازج، مناسب لتحضير أطباق اليخنات والطواجن.",
+  },
+  {
+    name: "التنمية صدور دجاج طازجة مع أوميجا3 - 400جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101588/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%85%D8%B9-%D8%A3%D9%88%D9%85%D9%8A%D8%AC%D8%A73-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 10,
+    price: 25,
+    discounted_price: 22.45,
+    description:
+      "صدور دجاج طازجة غنية بأوميجا 3 من التنمية، صحية ولذيذة، وزن 400 جرام.",
+  },
+  {
+    name: "موزات خروف نعيمي ذكر",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101592/%D9%85%D9%88%D8%B2%D8%A7%D8%AA-%D8%AE%D8%B1%D9%88%D9%81-%D9%86%D8%B9%D9%8A%D9%85%D9%8A-%D8%B0%D9%83%D8%B1.jpg.jpg",
+    ],
+    price: 44.95,
+    description:
+      "موزات خروف نعيمي ذكر طازجة، مثالية للطهي البطيء والأطباق الشهية.",
+  },
+  {
+    name: "لحم بقري برازيلي توب سايد",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101593/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D8%AA%D9%88%D8%A8-%D8%B3%D8%A7%D9%8A%D8%AF.jpg.jpg",
+    ],
+    price: 27.45,
+    description: "لحم بقري برازيلي توب سايد عالي الجودة، مناسب",
+  },
+  {
+    name: "روست عجل محلي طازج (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101582/%D8%B1%D9%88%D8%B3%D8%AA-%D8%B9%D8%AC%D9%84-%D9%85%D8%AD%D9%84%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 36.45,
+    description:
+      "لحم عجل محلي طازج عالي الجودة، مثالي لتحضير أطباق الروست اللذيذة.",
+  },
+  {
+    name: "التنمية دجاج متبل حراق 600 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101584/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%85%D8%AA%D8%A8%D9%84-%D8%AD%D8%B1%D8%A7%D9%82-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 11,
+    price: 19,
+    discounted_price: 16.95,
+    description:
+      "دجاج متبل بنكهة حارة من التنمية، جاهز للشواء أو الطهي، وزن 600 جرام.",
+  },
+  {
+    name: "الفروج الذهبي سيقان دجاج طازجة 450جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101586/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%B3%D9%8A%D9%82%D8%A7%D9%86-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-450%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 12,
+    description:
+      "سيقان دجاج طازجة من الفروج الذهبي، مثالية للشواء أو الطهي، وزن 450 جرام.",
+  },
+  {
+    name: "مفصل لحم العجل طازج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101587/%D9%85%D9%81%D8%B5%D9%84-%D9%84%D8%AD%D9%85-%D8%A7%D9%84%D8%B9%D8%AC%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 37.45,
+    description: "مفصل لحم عجل طازج، مناسب لتحضير أطباق اليخنات والطواجن.",
+  },
+  {
+    name: "التنمية صدور دجاج طازجة مع أوميجا3 - 400جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101588/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D9%85%D8%B9-%D8%A3%D9%88%D9%85%D9%8A%D8%AC%D8%A73-400%D8%AC%D 400 جرام.jpg",
+    ],
+    discount: 10,
+    price: 25,
+    discounted_price: 22.45,
+    description:
+      "صدور دجاج طازجة غنية بأوميجا 3 من التنمية، صحية ولذيذة، وزن 400 جرام.",
+  },
+  {
+    name: "موزات خروف نعيمي ذكر",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101592/%D9%85%D9%88%D8%B2%D8%A7%D8%AA-%D8%AE%D8%B1%D9%88%D9%81-%D9%86%D8%B9%D9%8A%D9%85%D9%8A-%D8%B0%D9%83%D8%B1.jpg.jpg",
+    ],
+    price: 44.95,
+    description:
+      "موزات خروف نعيمي ذكر طازجة، مثالية للطهي البطيء والأطباق الشهية.",
+  },
+  {
+    name: "لحم بقري برازيلي توب سايد",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101593/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D8%AA%D9%88%D8%A8-%D8%B3%D8%A7%D9%8A%D8%AF.jpg.jpg",
+    ],
+    price: 27.45,
+    description:
+      "لحم بقري برازيلي توب سايد عالي الجودة، مناسب للشواء أو الطهي.",
+  },
+  {
+    name: "جوزديل برجر أنغوس 160 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101595/%D8%AC%D9%88%D8%B2%D8%AF%D9%8A%D9%84-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A3%D9%86%D8%BA järل-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 14.9,
+    description: "برجر أنغوس من جوزديل، مصنوع من لحم بقري فاخر، وزن 160 جرام.",
+  },
+  {
+    name: "كتف لحم بقري برازيلي",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101597/%D9%83%D8%AA%D9%81-%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A.jpg.jpg",
+    ],
+    price: 22.45,
+    description: "كتف لحم بقري برازيلي طازج، مثالي للطهي البطيء واليخنات.",
+  },
+  {
+    name: "لحم بقري برازيلي مبرد روست",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101602/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A-%D9%85%D8%A8%D8%B1%D8%AF-%D8%B1%D9%88%D8%B3%D8%AA.jpg.jpg",
+    ],
+    price: 29.95,
+    description: "لحم بقري برازيلي مبرد للروست، عالي الجودة ومثالي للتحمير.",
+  },
+  {
+    name: "أرجل عجل طازجة",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101604/%D8%A3%D8%B1%D8%AC%D9%84-%D8%B9%D8%AC%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9.jpg.jpg",
+    ],
+    price: 19.95,
+    description: "أرجل عجل طازجة، غنية بالكولاجين ومثالية لتحضير المرق.",
+  },
+  {
+    name: "التنمية شيش طاووق 400 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101606/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%B4%D9%8A%D8%B4-%D8%B7%D8%A7%D9%88%D9%88%D9%82-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 12,
+    price: 27.75,
+    discounted_price: 24.45,
+    description: "شيش طاووق متبل من التنمية، جاهز للشواء، وزن 400 جرام.",
+  },
+  {
+    name: "لحم بقري مكعبات توب سايد طازج نيوزلندي (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101607/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D8%AA%D9%88%D8%A8-%D8%B3%D8%A7%D9%8A%D8%AF-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%86%D9%8A%D9%88%D8%B2%D9%84%D9%86%D8%AF%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 31.45,
+    description: "مكعبات لحم بقري نيوزلندي طازج، مثالية للطهي السريع واليخنات.",
+  },
+  {
+    name: "إنتاج - أفخاذ دجاج كاملة طازجة 900 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101609/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A3%D9%81%D8%AE%D8%A7%D8%B0-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 18,
+    price: 21.95,
+    discounted_price: 17.95,
+    description:
+      "أفخاذ دجاج كاملة طازجة من إنتاج، مثالية للشواء، وزن 900 جرام.",
+  },
+  {
+    name: "الفروج الذهبي صدور دجاج طازجة بالعظم 500جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101611/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%B5%D8%AF%D9%88%D8%B1-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%B8%D9%85-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 15.75,
+    description: "صدور دجاج طازجة بالعظم من الفروج الذهبي، وزن 500 جرام.",
+  },
+  {
+    name: "شرائح لحم بقري بافيت لحم الخاصرة (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101614/%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%A8%D8%A7%D9%81%D9%8A%D8%AA-%D9%84%D8%AD%D9%85-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%B1%D8%A9-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 45.95,
+    description: "شرائح لحم بقري بافيت من لحم الخاصرة، مثالية للشواء.",
+  },
+  {
+    name: "لحم بقري توب سايد مبرد نيوزلندي (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101616/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%AA%D9%88%D8%A8-%D8%B3%D8%A7%D9%8A%D8%AF-%D9%85%D8%A8%D8%B1%D8%AF-%D9%86%D9%8A%D9%88%D8%B2%D9%84%D9%86%D8%AF%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 34.95,
+    description: "لحم بقري توب سايد مبرد من نيوزلندا، عالي الجودة للطهي.",
+  },
+  {
+    name: "كتف لحم الضأن مبرد",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101617/%D9%83%D8%AA%D9%81-%D9%84%D8%AD%D9%85-%D8%A7%D9%84%D8%B6%D8%A3%D9%86-%D9%85%D8%A8%D8%B1%D8%AF.jpg.jpg",
+    ],
+    price: 32.95,
+    description: "كتف لحم ضأن مبرد، مثالي للأطباق التقليدية والشواء.",
+  },
+  {
+    name: "شيش طاووق باربيكيو",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101618/%D8%B4%D9%8A%D8%B4-%D8%B7%D8%A7%D9%88%D9%88%D9%82-%D8%A8%D8%A7%D8%B1%D8%A8%D9%8A%D9%83%D9%8A%D9%88.jpg.jpg",
+    ],
+    price: 22.95,
+    description: "شيش طاووق بنكهة الباربيكيو، جاهز للشواء ومليء بالنكهة.",
+  },
+  {
+    name: "لحم بقري ستربلوين مبرد نيوزلندي (للكيلو)",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101620/%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D8%B3%D8%AA%D8%B1%D8%A8%D9%84%D9%88%D9%8A%D9%86-%D9%85%D8%A8%D8%B1%D8%AF-%D9%86%D9%8A%D9%88%D8%B2%D9%84%D9%86%D8%AF%D9%8A-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg",
+    ],
+    price: 54.95,
+    description: "لحم بقري ستربلوين مبرد من نيوزلندا، فاخر ومثالي للستيك.",
+  },
+  {
+    name: "امعاء خروف طازجة",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101621/%D8%A7%D9%85%D8%B9%D8%A7%D8%A1-%D8%AE%D8%B1%D9%88%D9%81-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9.jpg.jpg",
+    ],
+    price: 14.95,
+    description: "أمعاء خروف طازجة، مثالية لتحضير الأطباق التقليدية.",
+  },
+  {
+    name: "قلب عجل طازج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101622/%D9%82%D9%84%D8%A8-%D8%B9%D8%AC%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 33.68,
+    description: "قلب عجل طازج، غني بالنكهة ومناسب للطهي التقليدي.",
+  },
+  {
+    name: "الفروج الذهبي دجاج كامل طازج فاخر 900جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101624/%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%83%D8%A7%D9%85%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%81%D8%A7%D8%AE%D8%B1-900%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 21,
+    description: "دجاج كامل طازج فاخر من الفروج الذهبي، وزن 900 جرام.",
+  },
+  {
+    name: "شرائح فخذ خروف مبرد أسترالي",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101626/%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D9%81%D8%AE%D8%B0-%D8%AE%D8%B1%D9%88%D9%81-%D9%85%D8%A8%D8%B1%D8%AF-%D8%A3%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A.jpg.jpg",
+    ],
+    price: 187.25,
+    description: "شرائح فخذ خروف أسترالي مبرد، فاخرة ومثالية للشواء.",
+  },
+  {
+    name: "مخ بقر طازج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101627/%D9%85%D8%AE-%D8%A8%D9%82%D8%B1-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 47.45,
+    description: "مخ بقر طازج، غني بالنكهة ومثالي للأطباق التقليدية.",
+  },
+  {
+    name: "ضلوع جمل طازجة",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101628/%D8%B6%D9%84%D9%88%D8%B9-%D8%AC%D9%85%D9%84-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9.jpg.jpg",
+    ],
+    price: 44.9,
+    description: "ضلوع جمل طازجة، مثالية للطهي البطيء والأطباق الشهية.",
+  },
+  {
+    name: "أرجل خروف طازجة",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101632/%D8%A3%D8%B1%D8%AC%D9%84-%D8%AE%D8%B1%D9%88%D9%81-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9.jpg.jpg",
+    ],
+    price: 14.95,
+    description: "أرجل خروف طازجة، غنية بالكولاجين ومثالية للمرق.",
+  },
+  {
+    name: "قلب ضان طازج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101633/%D9%82%D9%84%D8%A8-%D8%B6%D8%A7%D9%86-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 28.45,
+    description: "قلب ضان طازج، مثالي لتحضير الأطباق التقليدية.",
+  },
+  {
+    name: "شيش طاووق - بنكهة الثوم",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101635/%D8%B4%D9%8A%D8%B4-%D8%B7%D8%A7%D9%88%D9%88%D9%82-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AB%D9%88%D9%85.jpg.jpg",
+    ],
+    price: 22.95,
+    description: "شيش طاووق بنكهة الثوم الغنية، جاهز للشواء.",
+  },
+  {
+    name: "دجاج بلدي 1 كج إلى 1.2 كج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101637/%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A8%D9%84%D8%AF%D9%8A-1-%D9%83%D8%AC-%D8%A5%D9%84%D9%89-12-%D9%83%D8%AC.jpg.jpg",
+    ],
+    price: 33.9,
+    description: "دجاج بلدي طازج، وزن 1 إلى 1.2 كجم، مثالي للأطباق التقليدية.",
+  },
+  {
+    name: "نصف دجاجة مع تتبيلة حارة",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101638/%D9%86%D8%B5%D9%81-%D8%AF%D8%AC%D8%A7%D8%AC%D8%A9-%D9%85%D8%B9-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9.jpg.jpg",
+    ],
+    price: 14.9,
+    description: "نصف دجاجة متبلة بنكهة حارة، جاهزة للشواء أو الفرن.",
+  },
+  {
+    name: "فخذ جنوب أفريقي",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101640/%D9%81%D8%AE%D8%B0-%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A.jpg.jpg",
+    ],
+    price: 47.9,
+    description: "فخذ لحم جنوب أفريقي، عالي الجودة ومثالي للشواء.",
+  },
 ];

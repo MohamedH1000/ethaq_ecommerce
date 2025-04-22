@@ -10,9 +10,9 @@ from urllib.parse import urlparse
 
 # Configure Cloudinary
 cloudinary.config(
-    cloud_name="dkfvlgdd3",
-    api_key="481299973458484",
-    api_secret="nosiR0ZaXLOL7HyOtujwqSB--lk"
+    cloud_name="dbyc0sncy",
+    api_key="879596477713364",
+    api_secret="lhtglSKnDUGnG5RG9OjCpdcOfVg"
 )
 
 def generate_image_name(product_name):
@@ -75,7 +75,7 @@ products = []
 
 for card in product_cards:
     product = {}
-    
+
     # Extract product name
     name_tag = card.find('a', {'data-testid': 'product_name'})
     if name_tag:

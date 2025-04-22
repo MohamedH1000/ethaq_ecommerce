@@ -1,884 +1,360 @@
 // category id 67e470bab9ff67ae7d25f778
 
-export const formattedFishes = [
+[
   {
     name: "فيليه سمك السلمون الطازج - النرويج",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/hb5/h48/9191258095646/5368_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101038/%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC-%D8%A7%D9%84%D9%86%D8%B1%D9%88%D9%8A%D8%AC.jpg.jpg",
+    ],
+    price: 54.98,
+    description:
+      "فيليه سلمون طازج من النرويج، غني بالأوميغا 3، مثالي للشواء أو الطهي في الفرن.",
+  },
+  {
+    name: "شريحة لحم سمك السلمون الطازج - النرويج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101041/%D8%B4%D8%B1%D9%8A%D8%AD%D8%A9-%D9%84%D8%AD%D9%85-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC-%D8%A7%D9%84%D9%86%D8%B1%D9%88%D9%8A%D8%AC.jpg.jpg",
     ],
     price: 49.98,
-    discount: 21,
     description:
-      "استمتع بأجود أنواع السلمون الطازج المستورد من النرويج! فيليه السلمون هذا يتميز بلحمه الطري الغني بالنكهة وملمسه الكريمي، مثالي لتحضير أطباق صحية ولذيذة. مع خصم 21%، هو الخيار المثالي لعشاق المأكولات البحرية الفاخرة.",
+      "شرائح سلمون طازجة من النرويج، مثالية لتحضير وجبات صحية ولذيذة.",
   },
   {
-    name: "شريحة لحم سمك السلمون الطازج - النرويج",
+    name: "نقاوة روبيان مزارع 50 - 60 جرام",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h0e/h46/9191258128414/5369_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101042/%D9%86%D9%82%D8%A7%D9%88%D8%A9-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D9%85%D8%B2%D8%A7%D8%B1%D8%B9-50-60-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
     ],
-    price: 44.98,
-    discount: 22,
+    price: 23.98,
     description:
-      "شريحة سلمون طازجة من النرويج، تتميز بلونها البرتقالي الزاهي ونكهتها الغنية. مثالية للشواء أو الطهي على البخار، مع خصم 22%. أضف لمسة من الفخامة إلى مائدتك مع هذا المنتج المميز!",
+      "روبيان مزارع عالي الجودة، مقشر وجاهز للطهي، مثالي للأطباق البحرية.",
   },
   {
-    name: "نقاوة روبيان مزارع 30 - 40 جرام",
+    name: "سمك الدنيس - تبوك",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/hb0/h94/12368430596126/588930_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101043/%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%B3-%D8%AA%D8%A8%D9%88%D9%83.jpg.jpg",
     ],
-    price: 33.98,
-    discount: 29,
-    description:
-      "روبيان نقاوة طازج من المزارع، بحجم 30-40 جرام، مثالي لتحضير أطباق المأكولات البحرية المتنوعة. يتميز بجودته العالية ونكهته الطازجة، مع خصم 29%. جرب الطعم الأصلي للروبيان الطازج!",
+    discount: 9,
+    price: 43.95,
+    discounted_price: 39.95,
+    description: "سمك دنيس طازج من تبوك، مثالي للشواء أو القلي، غني بالنكهة.",
   },
   {
-    name: "أرابيان جمبري مجمد حجم كبير - 500 جرام",
+    name: "سمك الرنجة المدخن",
     images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736658/1720427403/736658_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101044/%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B1%D9%86%D8%AC%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D8%AE%D9%86.jpg.jpg",
     ],
-    price: 29.95,
-    description:
-      "جمبري مجمد من أرابيان بحجم كبير (500 جرام)، مثالي لتحضير وجبات عائلية شهية. يتميز بجودته العالية وطعمه اللذيذ، سواء في القلي أو الشواء. اختيار رائع لمحبي المأكولات البحرية!",
+    price: 45.95,
+    description: "رنجة مدخنة بنكهة غنية، مثالية للساندويتشات أو كمقبلات.",
   },
   {
-    name: "شرائح سرطان البحر",
+    name: "محار هولندي فئة رقم NR3، (محارة واحدة)",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/he3/hb0/49346334883870/157083_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101046/%D9%85%D8%AD%D8%A7%D8%B1-%D9%87%D9%88%D9%84%D9%86%D8%AF%D9%8A-%D9%81%D8%A6%D8%A9-%D8%B1%D9%82%D9%85-nr3-%D9%85%D8%AD%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg",
     ],
-    price: 12.45,
+    price: 11.95,
     description:
-      "شرائح سرطان البحر المجمدة، تقدم لك تجربة طعم فريدة ومميزة. مثالية لتحضير أطباق جانبية أو كوجبة خفيفة مليئة بالنكهة. استمتع بمذاق البحر الأصيل بسعر مناسب!",
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم جامبو - 500 جرام",
-    images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736657/1720427403/736657_main.jpg?im=Resize=400",
-    ],
-    price: 37.95,
-    description:
-      "جمبري مجمد بحجم جامبو من أرابيان (500 جرام)، يتميز بحجمه الكبير ونكهته الغنية. مثالي لتحضير أطباق فاخرة مثل الجمبري المشوي أو المقلي. جرب الجودة والطعم الرائع!",
-  },
-  {
-    name: "سمك هامور فيليه طازج",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/he0/hee/9384331280414/5361_main.jpg?im=Resize=400",
-    ],
-    price: 71.47,
-    description:
-      "فيليه سمك هامور طازج، يتميز بلحمه الأبيض الطري ونكهته المميزة. مثالي لتحضير أطباق عربية تقليدية مثل الصيادية أو الشواء. اختيار صحي ولذيذ لعشاق السمك!",
+      "محار هولندي طازج، فئة NR3، مثالي لمحبي المأكولات البحرية الفاخرة.",
   },
   {
     name: "سمك السلمون النرويجي الطازج 2-3 كج",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h3d/h15/51509467021342/5370_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101047/%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A7%D9%84%D9%86%D8%B1%D9%88%D9%8A%D8%AC%D9%8A-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC-2-3-%D9%83%D8%AC.jpg.jpg",
     ],
-    price: 124.88,
-    description:
-      "سمك السلمون النرويجي الطازج بوزن 2-3 كجم، يتميز بجودته العالية ونكهته الغنية. مثالي لتحضير وجبات عائلية فاخرة، سواء مشويًا أو مطهيًا. استمتع بمذاق السلمون الأصلي!",
+    price: 132.38,
+    description: "سلمون نرويجي طازج بوزن 2-3 كجم، مثالي للمناسبات الكبيرة.",
   },
   {
-    name: "سمك دينيس حجم كبير",
+    name: "سمك هامور فيليه طازج",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/he3/h6e/49411374710814/695263_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101048/%D8%B3%D9%85%D9%83-%D9%87%D8%A7%D9%85%D9%88%D8%B1-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
     ],
-    price: 15.95,
-    description:
-      "سمك دينيس طازج بحجم كبير، يتميز بلحمه الأبيض الطري وطعمه اللذيذ. مثالي للشواء أو القلي، ويعتبر خيارًا اقتصاديًا لتحضير وجبة بحرية شهية.",
+    price: 65.98,
+    description: "فيليه هامور طازج، غني بالنكهة، مثالي للشواء أو الطهي بالفرن.",
   },
   {
-    name: "ناكوا فيليه سمك البحر",
+    name: "شرائح سرطان البحر",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/hda/hdf/14374157516830/530755_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101049/%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1.jpg.jpg",
     ],
-    price: 43.98,
+    price: 12.45,
+    description: "شرائح سرطان بحر طازجة، مثالية للسلطات أو الأطباق الرئيسية.",
+  },
+  {
+    name: "فيليه سمك شعري",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101052/%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%B4%D8%B9%D8%B1%D9%8A.jpg.jpg",
+    ],
+    price: 36.48,
+    description: "فيليه سمك شعري طازج، خفيف وسهل التحضير، مثالي للقلي.",
+  },
+  {
+    name: "أرابيان جمبري مجمد حجم جامبو - 500 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101054/%D8%A3%D8%B1%D8%A7%D8%A8%D9%8A%D8%A7%D9%86-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-%D8%AD%D8%AC%D9%85-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 37.95,
     description:
-      "فيليه سمك البحر من ناكوا، مع الجلد، يتميز بنكهته الرقيقة وملمسه الطري. مثالي لتحضير أطباق صحية وخفيفة، سواء مشويًا أو مطهيًا على البخار. جرب الطعم الأصيل!",
+      "جمبري مجمد حجم جامبو، 500 جرام، مثالي للشواء أو الأطباق الآسيوية.",
   },
   {
     name: "أرابيان جمبري مجمد حجم متوسط - 500 جرام",
     images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736659/1720427403/736659_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101056/%D8%A3%D8%B1%D8%A7%D8%A8%D9%8A%D8%A7%D9%86-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
     ],
     price: 26.95,
     description:
-      "جمبري مجمد بحجم متوسط من أرابيان (500 جرام)، مثالي لتحضير أطباق متنوعة مثل الكاري أو الجمبري المقلي. يتميز بجودته العالية وطعمه الطازج بأفضل سعر!",
+      "جمبري مجمد حجم متوسط، 500 جرام، مناسب لمختلف الوصفات البحرية.",
   },
   {
-    name: "أرابيان جمبري مجمد حجم صغير - 500 جرام",
+    name: "أرابيان جمبري مجمد حجم كبير - 500 جرام",
     images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736661/1720427403/736661_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101058/%D8%A3%D8%B1%D8%A7%D8%A8%D9%8A%D8%A7%D9%86-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-%D8%AD%D8%AC%D9%85-%D9%83%D8%A8%D9%8A%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
     ],
-    price: 23.95,
-    description:
-      "جمبري مجمد بحجم صغير من أرابيان (500 جرام)، مثالي لتحضير وجبات خفيفة أو إضافته إلى السلطات والمعكرونة. طعم لذيذ وجودة مضمونة بسعر اقتصادي!",
+    price: 29.95,
+    description: "جمبري مجمد حجم كبير، 500 جرام، مثالي للأطباق الرئيسية.",
   },
   {
-    name: "الحبار الأحمر الصغير",
+    name: "سالمون مدخن جورميه 100 جرام",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/hb6/ha3/9384330166302/5438_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101060/%D8%B3%D8%A7%D9%84%D9%85%D9%88%D9%86-%D9%85%D8%AF%D8%AE%D9%86-%D8%AC%D9%88%D8%B1%D9%85%D9%8A%D9%87-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
     ],
-    price: 16.48,
+    discount: 16,
+    price: 34.5,
+    discounted_price: 28.95,
+    description: "سلمون مدخن فاخر، 100 جرام، مثالي للساندويتشات أو المقبلات.",
+  },
+  {
+    name: "جورماتا سلمون مدخن 200 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101061/%D8%AC%D9%88%D8%B1%D9%85%D8%A7%D8%AA%D8%A7-%D8%B3%D9%84%D9%85%D9%88%D9%86-%D9%85%D8%AF%D8%AE%D9%86-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    discount: 16,
+    price: 67.5,
+    discounted_price: 56.95,
+    description: "سلمون مدخن فاخر، 200 جرام، مثالي للوجبات الخفيفة أو العشاء.",
+  },
+  {
+    name: "سمك شعري عماني",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101063/%D8%B3%D9%85%D9%83-%D8%B4%D8%B9%D8%B1%D9%8A-%D8%B9%D9%85%D8%A7%D9%86%D9%8A.jpg.jpg",
+    ],
+    price: 50.9,
+    description: "سمك شعري طازج من عمان، مثالي للقلي أو الشواء.",
+  },
+  {
+    name: "نقوة روبيان مقشر جاهز للطبخ مع الذيل 450 جرام غني بالبروتين سريع التحضير 3-5 دقائق - أنتاج السعودية",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101065/%D9%86%D9%82%D9%88%D8%A9-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D9%85%D9%82%D8%B4%D8%B1-%D8%AC%D8%A7%D9%87%D8%B2-%D9%84%D9%84%D8%B7%D8%A8%D8%AE-%D9%85%D8%B9-%D8%A7%D9%84%D8%B0%D9%8A%D9%84-450-%D8%AC%D8%B1%D8%A7%D9%85-%D8%BA%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86-%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-3-5-%D8%AF%D9%82%D8%A7%D8%A6%D9%82-%D8%A3%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.jpg.jpg",
+    ],
+    price: 39.95,
     description:
-      "الحبار الأحمر الصغير، يتميز بملمسه الطري ونكهته البحرية الأصيلة. مثالي لتحضير أطباق المقبلات أو إضافته إلى المعكرونة البحرية. استمتع بمذاق البحر الطازج!",
+      "روبيان مقشر جاهز للطبخ، غني بالبروتين، سريع التحضير، إنتاج سعودي.",
+  },
+  {
+    name: "ناكوا فيليه سمك البحر",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101066/%D9%86%D8%A7%D9%83%D9%88%D8%A7-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1.jpg.jpg",
+    ],
+    price: 43.98,
+    description: "فيليه سمك بحر طازج، مثالي لتحضير أطباق صحية ولذيذة.",
   },
   {
     name: "سيما سلمون نرويجي مطبوخ بالبهارات الكورية، 125جرام ×2، عبوة واحدة",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h44/h58/50333505454110/713781_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101068/%D8%B3%D9%8A%D9%85%D8%A7-%D8%B3%D9%84%D9%85%D9%88%D9%86-%D9%86%D8%B1%D9%88%D9%8A%D8%AC%D9%8A-%D9%85%D8%B7%D8%A8%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D8%A8%D9%87%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%8A%D8%A9-125%D8%AC%D8%B1%D8%A7%D9%85-2-%D8%B9%D8%A8%D9%88%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg",
     ],
     price: 75.75,
     description:
-      "سلمون نرويجي مطبوخ من سيما، متبل بالبهارات الكورية الشهية، بعبوة تحتوي على 125 جرام ×2. مثالي لتحضير وجبات خفيفة أو إضافته إلى الساندويتشات. نكهة مميزة وفاخرة!",
+      "سلمون نرويجي مطبوخ بالبهارات الكورية، جاهز للتقديم، عبوة مزدوجة.",
   },
   {
-    name: "محار نصف مجمد",
+    name: "سمك البياض النيلي فيليه",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h8d/h06/49346352283678/683657_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101069/%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D8%B6-%D8%A7%D9%84%D9%86%D9%8A%D9%84%D9%8A-%D9%81%D9%8A%D9%84%D9%8A%D9%87.jpg.jpg",
     ],
-    price: 80.95,
-    description:
-      "محار نصف مجمد، يتميز بنكهته الغنية وملمسه الطري. مثالي لتحضير أطباق المأكولات البحرية الفاخرة، سواء مطهيًا مع الصلصات أو مشويًا. تجربة بحرية لا تُنسى!",
-  },
-  {
-    name: "سمك السلمون النرويجي الطازج 4-5كج",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h91/hf3/11416870748190/523850_main.jpg?im=Resize=400",
-    ],
-    price: 319.28,
-    discount: 17,
-    description:
-      "سمك السلمون النرويجي الطازج بوزن 4-5 كجم، مثالي للتجمعات العائلية الكبيرة. يتميز بجودته العالية ونكهته الغنية، مع خصم 17%. استمتع بتحضير أطباق فاخرة لا تُنسى!",
-  },
-  {
-    name: "سيما سلمون نرويجي مطبوخ، 125جرام ×2، عبوة واحدة",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h1b/h71/50333507158046/713782_main.jpg?im=Resize=400",
-    ],
-    price: 75.75,
-    description:
-      "سلمون نرويجي مطبوخ من سيما، بنكهة طبيعية، بعبوة تحتوي على 125 جرام ×2. مثالي لتحضير وجبات خفيفة صحية أو إضافته إلى السلطات. جودة فاخرة وطعم لا يُضاهى!",
+    price: 56.67,
+    description: "فيليه سمك البياض النيلي، طازج ومثالي للقلي أو الشواء.",
   },
   {
     name: "نقوة روبيان مقشر جاهز للطبخ مبخر مع الذيل 450 جرام غني بالبروتين سريع التحضير 3-5 دقائق أنتاج السعودية",
     images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/744251/1736748174/744251_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101071/%D9%86%D9%82%D9%88%D8%A9-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D9%85%D9%82%D8%B4%D8%B1-%D8%AC%D8%A7%D9%87%D8%B2-%D9%84%D9%84%D8%B7%D8%A8%D8%AE-%D9%85%D8%A8%D8%AE%D8%B1-%D9%85%D8%B9-%D8%A7%D9%84%D8%B0%D9%8A%D9%84-450-%D8%AC%D8%B1%D8%A7%D9%85-%D8%BA%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86-%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-3-5-%D8%AF%D9%82%D8%A7%D8%A6%D9%82-%D8%A3%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.jpg.jpg",
     ],
     price: 39.95,
-    description:
-      "روبيان نقوة مقشر وجاهز للطبخ، مبخر مع الذيل (450 جرام)، غني بالبروتين وسريع التحضير في 3-5 دقائق فقط. إنتاج سعودي بجودة عالية، مثالي لتحضير وجبات صحية ولذيذة بسرعة!",
+    description: "روبيان مقشر مبخر جاهز للطبخ، غني بالبروتين، إنتاج سعودي.",
   },
   {
-    name: "سمك الببغاء حجم وسط",
+    name: "أرابيان جمبري مجمد حجم صغير - 500 جرام",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h8a/h1e/49346336718878/5333_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101072/%D8%A3%D8%B1%D8%A7%D8%A8%D9%8A%D8%A7%D9%86-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-%D8%AD%D8%AC%D9%85-%D8%B5%D8%BA%D9%8A%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
     ],
-    price: 16.45,
-    description:
-      "سمك الببغاء بحجم وسط، يتميز بلحمه الأبيض الطري ونكهته الفريدة. مثالي للشواء أو القلي، ويعتبر خيارًا اقتصاديًا لتحضير وجبة بحرية لذيذة لعائلتك.",
+    price: 23.95,
+    description: "جمبري مجمد حجم صغير، 500 جرام، مثالي لتحضير الأطباق السريعة.",
   },
   {
-    name: "سلمون مدخن 200 جرام",
+    name: "الحبار الأحمر الصغير",
     images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/727941/1723536004/727941_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101073/%D8%A7%D9%84%D8%AD%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1.jpg.jpg",
     ],
-    price: 75.95,
+    discount: 22,
+    price: 14.98,
+    discounted_price: 11.75,
+    description: "حبار أحمر صغير، مثالي للقلي أو تحضير الأطباق البحرية.",
+  },
+  {
+    name: "باراموندي البحر الأحمر فيليه شرائح بدون جلد 400 جرام غني بالأوميغا 3 سريع التحضير أنتاج السعودية",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101075/%D8%A8%D8%A7%D8%B1%D8%A7%D9%85%D9%88%D9%86%D8%AF%D9%8A-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%AF%D9%88%D9%86-%D8%AC%D9%84%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85-%D8%BA%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%A3%D9%88%D9%85%D9%8A%D8%BA%D8%A7-3-%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D8%A3%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.jpg.jpg",
+    ],
+    price: 33.95,
     description:
-      "سلمون مدخن بوزن 200 جرام، يتميز بنكهته المدخنة الغنية وملمسه الطري. مثالي لتحضير الساندويتشات أو إضافته إلى السلطات. تجربة فاخرة لمحبي المأكولات البحرية!",
+      "فيليه باراموندي بدون جلد، غني بالأوميغا 3، إنتاج سعودي، سريع التحضير.",
+  },
+  {
+    name: "محار نصف مجمد",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101076/%D9%85%D8%AD%D8%A7%D8%B1-%D9%86%D8%B5%D9%81-%D9%85%D8%AC%D9%85%D8%AF.jpg.jpg",
+    ],
+    price: 80.95,
+    description: "محار نصف مجمد، مثالي لتحضير الأطباق البحرية الفاخرة.",
+  },
+  {
+    name: "باراموندي البحر الأحمر فيليه كامل 400 جرام غني بالأوميغا 3 سريع التحضير أنتاج السعودية",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101077/%D8%A8%D8%A7%D8%B1%D8%A7%D9%85%D9%88%D9%86%D8%AF%D9%8A-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D9%83%D8%A7%D9%85%D9%84-400-%D8%AC%D8%B1%D8%A7%D9%85-%D8%BA%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%A3%D9%88%D9%85%D9%8A%D8%BA%D8%A7-3-%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D8%A3%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.jpg.jpg",
+    ],
+    price: 38.95,
+    description:
+      "فيليه باراموندي كامل، غني بالأوميغا 3، إنتاج سعودي، سريع التحضير.",
   },
   {
     name: "سمك ساردين مجفف",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h4b/hc0/11892375846942/5385_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101079/%D8%B3%D9%85%D9%83-%D8%B3%D8%A7%D8%B1%D8%AF%D9%8A%D9%86-%D9%85%D8%AC%D9%81%D9%81.jpg.jpg",
     ],
-    price: 8.7,
-    description:
-      "سمك ساردين مجفف، يتميز بنكهته القوية واستخدامه في تحضير الأطباق التقليدية. مثالي لإضافته إلى الشوربات أو الأطباق الجانبية. خيار اقتصادي ومليء بالنكهة!",
+    price: 9.95,
+    description: "ساردين مجفف، مثالي لتحضير الأطباق التقليدية أو كوجبة خفيفة.",
   },
   {
-    name: "سمك ملك كامل طازج",
+    name: "سيما سلمون نرويجي مطبوخ، 125جرام ×2، عبوة واحدة",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h63/ha8/14661727387678/5319_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101080/%D8%B3%D9%8A%D9%85%D8%A7-%D8%B3%D9%84%D9%85%D9%88%D9%86-%D9%86%D8%B1%D9%88%D9%8A%D8%AC%D9%8A-%D9%85%D8%B7%D8%A8%D9%88%D8%AE-125%D8%AC%D8%B1%D8%A7%D9%85-2-%D8%B9%D8%A8%D9%88%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg",
     ],
-    price: 577.13,
+    price: 75.75,
+    description: "سلمون نرويجي مطبوخ، جاهز للتقديم، عبوة مزدوجة.",
+  },
+  {
+    name: "البوري الرمادي الطازج",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101082/%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC.jpg.jpg",
+    ],
+    price: 16.48,
+    description: "سمك بوري رمادي طازج، مثالي للشواء أو القلي.",
+  },
+  {
+    name: "سمك السلمون المدخن 100 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101083/%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%AF%D8%AE%D9%86-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 39.95,
+    description: "سلمون مدخن، 100 جرام، مثالي للمقبلات أو الساندويتشات.",
+  },
+  {
+    name: "سلمون مدخن 200 جرام",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101084/%D8%B3%D9%84%D9%85%D9%88%D9%86-%D9%85%D8%AF%D8%AE%D9%86-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
+    ],
+    price: 77.95,
+    description: "سلمون مدخن، 200 جرام، مثالي للوجبات الخفيفة أو العشاء.",
+  },
+  {
+    name: "محار طازج من إسبانيا 1 كجم",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101085/%D9%85%D8%AD%D8%A7%D8%B1-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%85%D9%86-%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-1-%D9%83%D8%AC%D9%85.jpg.jpg",
+    ],
+    price: 69.95,
+    description: "محار طازج من إسبانيا، 1 كجم، مثالي لتحضير الأطباق الفاخرة.",
+  },
+  {
+    name: "محار عضوي طازج من إسبانيا 1 كجم",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101087/%D9%85%D8%AD%D8%A7%D8%B1-%D8%B9%D8%B6%D9%88%D9%8A-%D8%B7%D8%A7%D8%B2%D8%AC-%D9%85%D9%86-%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-1-%D9%83%D8%AC%D9%85.jpg.jpg",
+    ],
+    price: 72.95,
     description:
-      "سمك ملك كامل طازج، يتميز بحجمه الكبير ولحمه الغني بالنكهة. مثالي للتجمعات العائلية الكبيرة، سواء مشويًا أو مطهيًا. اختيار فاخر لعشاق السمك!",
+      "محار عضوي طازج من إسبانيا، 1 كجم، مثالي لمحبي المأكولات الصحية.",
   },
   {
     name: "شركة الأسماك العربية سمك سوري جاف",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h1f/h0f/62129496981534/698531_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101088/%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B3%D9%85%D9%83-%D8%B3%D9%88%D8%B1%D9%8A-%D8%AC%D8%A7%D9%81.jpg.jpg",
     ],
-    price: 8.95,
-    description:
-      "سمك سوري جاف من شركة الأسماك العربية، يتميز بنكهته التقليدية القوية. مثالي لتحضير الأطباق الشعبية أو كوجبة خفيفة. خيار اقتصادي بجودة مضمونة!",
-  },
-  {
-    name: "سمك الرنجة المدخن",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h5c/h0b/49346551480350/707072_main.jpg?im=Resize=400",
-    ],
-    price: 39.95,
-    discount: 25,
-    description:
-      "سمك الرنجة المدخن، يتميز بنكهته المدخنة الفريدة وطعمه الغني. مثالي كوجبة خفيفة أو لتحضير السلطات، مع خصم 25%. استمتع بمذاق البحر الأصيل!",
+    price: 9.95,
+    description: "سمك سوري جاف، مثالي لتحضير الأطباق التقليدية.",
   },
   {
     name: "شركة الأسماك العربية أنشوجة جافة",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h15/h20/62129496490014/698530_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101089/%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D9%86%D8%B4%D9%88%D8%AC%D8%A9-%D8%AC%D8%A7%D9%81%D8%A9.jpg.jpg",
     ],
-    price: 8.95,
-    description:
-      "أنشوجة جافة من شركة الأسماك العربية، تتميز بنكهتها المميزة واستخدامها في تحضير الصلصات والأطباق الجانبية. خيار اقتصادي يضيف نكهة قوية لوجباتك!",
-  },
-  {
-    name: "ستيك سمك الملك",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h57/h83/10218947870750/5362_main.jpg?im=Resize=400",
-    ],
-    price: 54.98,
-    description:
-      "ستيك سمك الملك الطازج، يتميز بلحمه السميك ونكهته الغنية. مثالي للشواء أو القلي، ويعتبر خيارًا رائعًا لتحضير وجبة بحرية فاخرة.",
-  },
-  {
-    name: "فيليه سمك شعري",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/hc0/h12/52720260513822/5373_main.jpg?im=Resize=400",
-    ],
-    price: 36.48,
-    description:
-      "فيليه سمك شعري طازج، يتميز بلحمه الأبيض الطري ونكهته الرقيقة. مثالي لتحضير أطباق خفيفة وصحية، سواء مشويًا أو مطهيًا. اختيار مثالي لمحبي السمك!",
+    price: 9.95,
+    description: "أنشوجة جافة، مثالية لإضافة نكهة مميزة للسلطات والأطباق.",
   },
   {
     name: "فيليه سمك السلمون العضوي - النرويج",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/hde/hd2/11892379287582/633456_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101090/%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A-%D8%A7%D9%84%D9%86%D8%B1%D9%88%D9%8A%D8%AC.jpg.jpg",
     ],
-    price: 89.97,
+    price: 89.98,
     description:
-      "فيليه سلمون عضوي من النرويج، يتميز بجودته العالية ونكهته الطبيعية. مثالي لتحضير أطباق صحية وفاخرة، خالٍ من المواد الحافظة. استمتع بمذاق السلمون الأصلي!",
+      "فيليه سلمون عضوي طازج من النرويج، غني بالأوميغا 3، مثالي للطهي الصحي.",
   },
   {
-    name: "سمك حريد كبير",
+    name: "سمك السلمون النرويجي الطازج 4-5كج",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/h4c/h1b/34925818347550/695261_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101092/%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A7%D9%84%D9%86%D8%B1%D9%88%D9%8A%D8%AC%D9%8A-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC-4-5%D9%83%D8%AC.jpg.jpg",
     ],
-    price: 59.9,
-    description:
-      "سمك حريد بحجم كبير، يتميز بلحمه الطري ونكهته المميزة. مثالي للشواء أو القلي، ويعتبر خيارًا رائعًا لتحضير وجبة بحرية شهية لعائلتك.",
+    price: 323.78,
+    description: "سلمون نرويجي طازج بوزن 4-5 كجم، مثالي للمناسبات الكبيرة.",
   },
   {
-    name: "سمك هامور ابيض طازج 1.5 - 2.5 كج",
+    name: "ستيك سمك الملك",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/hc7/ha6/9384330231838/5318_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101093/%D8%B3%D8%AA%D9%8A%D9%83-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D9%85%D9%84%D9%83.jpg.jpg",
     ],
-    price: 67.9,
-    description:
-      "سمك هامور أبيض طازج بوزن 1.5-2.5 كجم، يتميز بلحمه الأبيض الغني بالنكهة. مثالي لتحضير أطباق عربية تقليدية مثل الصيادية. اختيار فاخر لمحبي السمك!",
-  },
-  {
-    name: "سمك شعري عماني",
-    images: [
-      "https://cdn.mafrservices.com/sys-master-root/h60/h72/13159218642974/5341_main.jpg?im=Resize=400",
-    ],
-    price: 39.9,
-    description:
-      "سمك شعري عماني طازج، يتميز بنكهته الرقيقة ولحمه الطري. مثالي لتحضير أطباق خفيفة وصحية، سواء مشويًا أو مطهيًا. جرب الطعم الأصيل للسمك العماني!",
+    price: 49.48,
+    description: "ستيك سمك الملك، طازج ومثالي للشواء أو الطهي بالفرن.",
   },
   {
     name: "فيليه سمك موسى",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/hbc/h81/49346337538078/5337_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101094/%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D9%85%D9%88%D8%B3%D9%89.jpg.jpg",
     ],
     price: 98.95,
-    description:
-      "فيليه سمك موسى، يتميز بملمسه الناعم ونكهته الرقيقة. مثالي لتحضير أطباق فاخرة وصحية، سواء مشويًا أو مطهيًا مع الصلصات. تجربة بحرية فاخرة!",
+    description: "فيليه سمك موسى طازج، غني بالنكهة، مثالي للقلي أو الشواء.",
   },
   {
     name: "الشركة العربية للأسماك - سمك القد المجمد 420 جرام",
     images: [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/740455/1728802803/740455_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101095/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D9%82%D8%AF-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%AF-420-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg",
     ],
     price: 48.95,
-    description:
-      "سمك القد المجمد من الشركة العربية للأسماك (420 جرام)، يتميز بلحمه الأبيض الطري ونكهته المميزة. مثالي لتحضير أطباق صحية وخفيفة. جودة مضمونة بطعم رائع!",
+    description: "سمك القد المجمد، 420 جرام، مثالي لتحضير الأطباق الأوروبية.",
   },
   {
-    name: "سمك سبطي",
+    name: "سمك السلمون النرويجي الطازج 5-6كج",
     images: [
-      "https://cdn.mafrservices.com/sys-master-root/hd4/h52/49411326640158/631448_main.jpg?im=Resize=400",
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101097/%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A7%D9%84%D9%86%D8%B1%D9%88%D9%8A%D8%AC%D9%8A-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC-5-6%D9%83%D8%AC.jpg.jpg",
     ],
-    price: 71.95,
-    description:
-      "سمك سبطي طازج، يتميز بلحمه الغني بالنكهة وملمسه الطري. مثالي للشواء أو القلي، ويعتبر خيارًا رائعًا لتحضير وجبة بحرية لذيذة لعائلتك.",
-  },
-];
-export const fishes = [
-  {
-    name: "فيليه سمك السلمون الطازج - النرويج",
-    url: "https://www.carrefourksa.com/mafsau/ar/sea-food/fresh-salmon-fillet-norway-x1/p/5368",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hb5/h48/9191258095646/5368_main.jpg?im=Resize=400",
-    price: 39.48,
-    original_price: 49.98,
-    discount: 21,
-    description:
-      "استمتع بأجود أنواع السلمون الطازج المستورد من النرويج! فيليه السلمون هذا يتميز بلحمه الطري الغني بالنكهة وملمسه الكريمي، مثالي لتحضير أطباق صحية ولذيذة. مع خصم 21%، هو الخيار المثالي لعشاق المأكولات البحرية الفاخرة.",
-  },
-  {
-    name: "شريحة لحم سمك السلمون الطازج - النرويج",
-    url: "https://www.carrefourksa.com/mafsau/ar/sea-food/fresh-salmon-steak-norway-x1/p/5369",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h0e/h46/9191258128414/5369_main.jpg?im=Resize=400",
-    price: 34.98,
-    original_price: 44.98,
-    discount: 22,
-    description:
-      "شريحة سلمون طازجة من النرويج، تتميز بلونها البرتقالي الزاهي ونكهتها الغنية. مثالية للشواء أو الطهي على البخار، مع خصم 22%. أضف لمسة من الفخامة إلى مائدتك مع هذا المنتج المميز!",
-  },
-  {
-    name: "نقاوة روبيان مزارع 30 - 40 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/fresh-shrimp/naqua-raw-shrimps-30-40/p/588930",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hb0/h94/12368430596126/588930_main.jpg?im=Resize=400",
-    price: 23.98,
-    original_price: 33.98,
-    discount: 29,
-    description:
-      "روبيان نقاوة طازج من المزارع، بحجم 30-40 جرام، مثالي لتحضير أطباق المأكولات البحرية المتنوعة. يتميز بجودته العالية ونكهته الطازجة، مع خصم 29%. جرب الطعم الأصلي للروبيان الطازج!",
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم كبير - 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frozen-shrimp-large-500g/p/736658",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736658/1720427403/736658_main.jpg?im=Resize=400",
-    price: 29.95,
-    description:
-      "جمبري مجمد من أرابيان بحجم كبير (500 جرام)، مثالي لتحضير وجبات عائلية شهية. يتميز بجودته العالية وطعمه اللذيذ، سواء في القلي أو الشواء. اختيار رائع لمحبي المأكولات البحرية!",
-  },
-  {
-    name: "شرائح سرطان البحر",
-    url: "https://www.carrefourksa.com/mafsau/ar/crab/frozen-crab-steak/p/157083",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/he3/hb0/49346334883870/157083_main.jpg?im=Resize=400",
-    price: 12.45,
-    description:
-      "شرائح سرطان البحر المجمدة، تقدم لك تجربة طعم فريدة ومميزة. مثالية لتحضير أطباق جانبية أو كوجبة خفيفة مليئة بالنكهة. استمتع بمذاق البحر الأصيل بسعر مناسب!",
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم جامبو - 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frozen-shrimp-jumbo-500g/p/736657",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736657/1720427403/736657_main.jpg?im=Resize=400",
-    price: 37.95,
-    description:
-      "جمبري مجمد بحجم جامبو من أرابيان (500 جرام)، يتميز بحجمه الكبير ونكهته الغنية. مثالي لتحضير أطباق فاخرة مثل الجمبري المشوي أو المقلي. جرب الجودة والطعم الرائع!",
-  },
-  {
-    name: "سمك هامور فيليه طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/hamour-fillet/p/5361",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/he0/hee/9384331280414/5361_main.jpg?im=Resize=400",
-    price: 71.47,
-    description:
-      "فيليه سمك هامور طازج، يتميز بلحمه الأبيض الطري ونكهته المميزة. مثالي لتحضير أطباق عربية تقليدية مثل الصيادية أو الشواء. اختيار صحي ولذيذ لعشاق السمك!",
-  },
-  {
-    name: "سمك السلمون النرويجي الطازج 2-3 كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/fresh-salmon-fish-norway-2-3-kg/p/5370",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h3d/h15/51509467021342/5370_main.jpg?im=Resize=400",
-    price: 124.88,
-    description:
-      "سمك السلمون النرويجي الطازج بوزن 2-3 كجم، يتميز بجودته العالية ونكهته الغنية. مثالي لتحضير وجبات عائلية فاخرة، سواء مشويًا أو مطهيًا. استمتع بمذاق السلمون الأصلي!",
-  },
-  {
-    name: "سمك دينيس حجم كبير",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/denis-big/p/695263",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/he3/h6e/49411374710814/695263_main.jpg?im=Resize=400",
-    price: 15.95,
-    description:
-      "سمك دينيس طازج بحجم كبير، يتميز بلحمه الأبيض الطري وطعمه اللذيذ. مثالي للشواء أو القلي، ويعتبر خيارًا اقتصاديًا لتحضير وجبة بحرية شهية.",
-  },
-  {
-    name: "ناكوا فيليه سمك البحر",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/naqua-sea-bass-skin-on-fillet/p/530755",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hda/hdf/14374157516830/530755_main.jpg?im=Resize=400",
-    price: 43.98,
-    description:
-      "فيليه سمك البحر من ناكوا، مع الجلد، يتميز بنكهته الرقيقة وملمسه الطري. مثالي لتحضير أطباق صحية وخفيفة، سواء مشويًا أو مطهيًا على البخار. جرب الطعم الأصيل!",
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم متوسط - 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frozen-shrimp-medium-500g/p/736659",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736659/1720427403/736659_main.jpg?im=Resize=400",
-    price: 26.95,
-    description:
-      "جمبري مجمد بحجم متوسط من أرابيان (500 جرام)، مثالي لتحضير أطباق متنوعة مثل الكاري أو الجمبري المقلي. يتميز بجودته العالية وطعمه الطازج بأفضل سعر!",
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم صغير - 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frozen-shrimp-small-500g/p/736661",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736661/1720427403/736661_main.jpg?im=Resize=400",
-    price: 23.95,
-    description:
-      "جمبري مجمد بحجم صغير من أرابيان (500 جرام)، مثالي لتحضير وجبات خفيفة أو إضافته إلى السلطات والمعكرونة. طعم لذيذ وجودة مضمونة بسعر اقتصادي!",
-  },
-  {
-    name: "الحبار الأحمر الصغير",
-    url: "https://www.carrefourksa.com/mafsau/ar/shellfish-molluscs/red-squid/p/5438",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hb6/ha3/9384330166302/5438_main.jpg?im=Resize=400",
-    price: 16.48,
-    description:
-      "الحبار الأحمر الصغير، يتميز بملمسه الطري ونكهته البحرية الأصيلة. مثالي لتحضير أطباق المقبلات أو إضافته إلى المعكرونة البحرية. استمتع بمذاق البحر الطازج!",
-  },
-  {
-    name: "سيما سلمون نرويجي مطبوخ بالبهارات الكورية، 125جرام ×2، عبوة واحدة",
-    url: "https://www.carrefourksa.com/mafsau/ar/smoked-fish/seama-salmon-portn-seasoned-250g/p/713781",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h44/h58/50333505454110/713781_main.jpg?im=Resize=400",
-    price: 75.75,
-    description:
-      "سلمون نرويجي مطبوخ من سيما، متبل بالبهارات الكورية الشهية، بعبوة تحتوي على 125 جرام ×2. مثالي لتحضير وجبات خفيفة أو إضافته إلى الساندويتشات. نكهة مميزة وفاخرة!",
-  },
-  {
-    name: "محار نصف مجمد",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/frozen-half-shell-mussels/p/683657",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h8d/h06/49346352283678/683657_main.jpg?im=Resize=400",
-    price: 80.95,
-    description:
-      "محار نصف مجمد، يتميز بنكهته الغنية وملمسه الطري. مثالي لتحضير أطباق المأكولات البحرية الفاخرة، سواء مطهيًا مع الصلصات أو مشويًا. تجربة بحرية لا تُنسى!",
-  },
-  {
-    name: "سمك السلمون النرويجي الطازج 4-5كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/fresh-salmon-norway-4-5-kg/p/523850",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h91/hf3/11416870748190/523850_main.jpg?im=Resize=400",
-    price: 265.28,
-    original_price: 319.28,
-    discount: 17,
-    description:
-      "سمك السلمون النرويجي الطازج بوزن 4-5 كجم، مثالي للتجمعات العائلية الكبيرة. يتميز بجودته العالية ونكهته الغنية، مع خصم 17%. استمتع بتحضير أطباق فاخرة لا تُنسى!",
-  },
-  {
-    name: "سيما سلمون نرويجي مطبوخ، 125جرام ×2، عبوة واحدة",
-    url: "https://www.carrefourksa.com/mafsau/ar/smoked-fish/seama-salmon-portn-natural-250g/p/713782",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h1b/h71/50333507158046/713782_main.jpg?im=Resize=400",
-    price: 75.75,
-    description:
-      "سلمون نرويجي مطبوخ من سيما، بنكهة طبيعية، بعبوة تحتوي على 125 جرام ×2. مثالي لتحضير وجبات خفيفة صحية أو إضافته إلى السلطات. جودة فاخرة وطعم لا يُضاهى!",
-  },
-  {
-    name: "نقوة روبيان مقشر جاهز للطبخ مبخر مع الذيل 450 جرام غني بالبروتين سريع التحضير 3-5 دقائق أنتاج السعودية",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/nagwa-shrimp-peeled-deveined-to-c/p/744251",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/744251/1736748174/744251_main.jpg?im=Resize=400",
-    price: 39.95,
-    description:
-      "روبيان نقوة مقشر وجاهز للطبخ، مبخر مع الذيل (450 جرام)، غني بالبروتين وسريع التحضير في 3-5 دقائق فقط. إنتاج سعودي بجودة عالية، مثالي لتحضير وجبات صحية ولذيذة بسرعة!",
-  },
-  {
-    name: "سمك الببغاء حجم وسط",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/parrot-fish-medium/p/5333",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h8a/h1e/49346336718878/5333_main.jpg?im=Resize=400",
-    price: 16.45,
-    description:
-      "سمك الببغاء بحجم وسط، يتميز بلحمه الأبيض الطري ونكهته الفريدة. مثالي للشواء أو القلي، ويعتبر خيارًا اقتصاديًا لتحضير وجبة بحرية لذيذة لعائلتك.",
-  },
-  {
-    name: "سلمون مدخن 200 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/smoked-salmon-200g/p/727941",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/727941/1723536004/727941_main.jpg?im=Resize=400",
-    price: 75.95,
-    description:
-      "سلمون مدخن بوزن 200 جرام، يتميز بنكهته المدخنة الغنية وملمسه الطري. مثالي لتحضير الساندويتشات أو إضافته إلى السلطات. تجربة فاخرة لمحبي المأكولات البحرية!",
-  },
-  {
-    name: "سمك ساردين مجفف",
-    url: "https://www.carrefourksa.com/mafsau/ar/dry-fish/isalnd-fish-dried-sardines/p/5385",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h4b/hc0/11892375846942/5385_main.jpg?im=Resize=400",
-    price: 8.7,
-    description:
-      "سمك ساردين مجفف، يتميز بنكهته القوية واستخدامه في تحضير الأطباق التقليدية. مثالي لإضافته إلى الشوربات أو الأطباق الجانبية. خيار اقتصادي ومليء بالنكهة!",
-  },
-  {
-    name: "سمك ملك كامل طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/king-fish-whole/p/5319",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h63/ha8/14661727387678/5319_main.jpg?im=Resize=400",
-    price: 577.13,
-    description:
-      "سمك ملك كامل طازج، يتميز بحجمه الكبير ولحمه الغني بالنكهة. مثالي للتجمعات العائلية الكبيرة، سواء مشويًا أو مطهيًا. اختيار فاخر لعشاق السمك!",
-  },
-  {
-    name: "شركة الأسماك العربية سمك سوري جاف",
-    url: "https://www.carrefourksa.com/mafsau/ar/dry-fish/arabian-fish-dry-suri/p/698531",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h1f/h0f/62129496981534/698531_main.jpg?im=Resize=400",
-    price: 8.95,
-    description:
-      "سمك سوري جاف من شركة الأسماك العربية، يتميز بنكهته التقليدية القوية. مثالي لتحضير الأطباق الشعبية أو كوجبة خفيفة. خيار اقتصادي بجودة مضمونة!",
-  },
-  {
-    name: "سمك الرنجة المدخن",
-    url: "https://www.carrefourksa.com/mafsau/ar/dry-fish/smoked-herring-fish/p/707072",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h5c/h0b/49346551480350/707072_main.jpg?im=Resize=400",
-    price: 29.95,
-    original_price: 39.95,
-    discount: 25,
-    description:
-      "سمك الرنجة المدخن، يتميز بنكهته المدخنة الفريدة وطعمه الغني. مثالي كوجبة خفيفة أو لتحضير السلطات، مع خصم 25%. استمتع بمذاق البحر الأصيل!",
-  },
-  {
-    name: "شركة الأسماك العربية أنشوجة جافة",
-    url: "https://www.carrefourksa.com/mafsau/ar/dry-fish/arabian-fish-dry-anchovy/p/698530",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h15/h20/62129496490014/698530_main.jpg?im=Resize=400",
-    price: 8.95,
-    description:
-      "أنشوجة جافة من شركة الأسماك العربية، تتميز بنكهتها المميزة واستخدامها في تحضير الصلصات والأطباق الجانبية. خيار اقتصادي يضيف نكهة قوية لوجباتك!",
-  },
-  {
-    name: "ستيك سمك الملك",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/king-fish-steak/p/5362",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h57/h83/10218947870750/5362_main.jpg?im=Resize=400",
-    price: 54.98,
-    description:
-      "ستيك سمك الملك الطازج، يتميز بلحمه السميك ونكهته الغنية. مثالي للشواء أو القلي، ويعتبر خيارًا رائعًا لتحضير وجبة بحرية فاخرة.",
-  },
-  {
-    name: "فيليه سمك شعري",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/sherri-fillet/p/5373",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hc0/h12/52720260513822/5373_main.jpg?im=Resize=400",
-    price: 36.48,
-    description:
-      "فيليه سمك شعري طازج، يتميز بلحمه الأبيض الطري ونكهته الرقيقة. مثالي لتحضير أطباق خفيفة وصحية، سواء مشويًا أو مطهيًا. اختيار مثالي لمحبي السمك!",
-  },
-  {
-    name: "فيليه سمك السلمون العضوي - النرويج",
-    url: "https://www.carrefourksa.com/mafsau/ar/sea-food/organic-salmon-fillet-norway/p/633456",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hde/hd2/11892379287582/633456_main.jpg?im=Resize=400",
-    price: 89.97,
-    description:
-      "فيليه سلمون عضوي من النرويج، يتميز بجودته العالية ونكهته الطبيعية. مثالي لتحضير أطباق صحية وفاخرة، خالٍ من المواد الحافظة. استمتع بمذاق السلمون الأصلي!",
-  },
-  {
-    name: "سمك حريد كبير",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/parrot-fish-big/p/695261",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h4c/h1b/34925818347550/695261_main.jpg?im=Resize=400",
-    price: 59.9,
-    description:
-      "سمك حريد بحجم كبير، يتميز بلحمه الطري ونكهته المميزة. مثالي للشواء أو القلي، ويعتبر خيارًا رائعًا لتحضير وجبة بحرية شهية لعائلتك.",
-  },
-  {
-    name: "سمك هامور ابيض طازج 1.5 - 2.5 كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/hamour-fresh-white/p/5318",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hc7/ha6/9384330231838/5318_main.jpg?im=Resize=400",
-    price: 67.9,
-    description:
-      "سمك هامور أبيض طازج بوزن 1.5-2.5 كجم، يتميز بلحمه الأبيض الغني بالنكهة. مثالي لتحضير أطباق عربية تقليدية مثل الصيادية. اختيار فاخر لمحبي السمك!",
-  },
-  {
-    name: "سمك شعري عماني",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/sherri-omani/p/5341",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h60/h72/13159218642974/5341_main.jpg?im=Resize=400",
-    price: 39.9,
-    description:
-      "سمك شعري عماني طازج، يتميز بنكهته الرقيقة ولحمه الطري. مثالي لتحضير أطباق خفيفة وصحية، سواء مشويًا أو مطهيًا. جرب الطعم الأصيل للسمك العماني!",
-  },
-  {
-    name: "فيليه سمك موسى",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/sole-fillet/p/5337",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hbc/h81/49346337538078/5337_main.jpg?im=Resize=400",
-    price: 98.95,
-    description:
-      "فيليه سمك موسى، يتميز بملمسه الناعم ونكهته الرقيقة. مثالي لتحضير أطباق فاخرة وصحية، سواء مشويًا أو مطهيًا مع الصلصات. تجربة بحرية فاخرة!",
-  },
-  {
-    name: "الشركة العربية للأسماك - سمك القد المجمد 420 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frzn-cod-flt-portion-420gm/p/740455",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/740455/1728802803/740455_main.jpg?im=Resize=400",
-    price: 48.95,
-    description:
-      "سمك القد المجمد من الشركة العربية للأسماك (420 جرام)، يتميز بلحمه الأبيض الطري ونكهته المميزة. مثالي لتحضير أطباق صحية وخفيفة. جودة مضمونة بطعم رائع!",
-  },
-  {
-    name: "سمك سبطي",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/tabuk-sepaty-fish/p/631448",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hd4/h52/49411326640158/631448_main.jpg?im=Resize=400",
-    price: 71.95,
-    description:
-      "سمك سبطي طازج، يتميز بلحمه الغني بالنكهة وملمسه الطري. مثالي للشواء أو القلي، ويعتبر خيارًا رائعًا لتحضير وجبة بحرية لذيذة لعائلتك.",
-  },
-];
-
-export const allProducts = [
-  {
-    name: "فيليه سمك السلمون الطازج - النرويج",
-    url: "https://www.carrefourksa.com/mafsau/ar/sea-food/fresh-salmon-fillet-norway-x1/p/5368",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hb5/h48/9191258095646/5368_main.jpg?im=Resize=400",
-    price: 39.48,
-    original_price: 49.98,
-    discount: 21,
-  },
-  {
-    name: "شريحة لحم سمك السلمون الطازج - النرويج",
-    url: "https://www.carrefourksa.com/mafsau/ar/sea-food/fresh-salmon-steak-norway-x1/p/5369",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h0e/h46/9191258128414/5369_main.jpg?im=Resize=400",
-    price: 34.98,
-    original_price: 44.98,
-    discount: 22,
-  },
-  {
-    name: "نقاوة روبيان مزارع 30 - 40 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/fresh-shrimp/naqua-raw-shrimps-30-40/p/588930",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hb0/h94/12368430596126/588930_main.jpg?im=Resize=400",
-    price: 23.98,
-    original_price: 33.98,
-    discount: 29,
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم كبير - 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frozen-shrimp-large-500g/p/736658",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736658/1720427403/736658_main.jpg?im=Resize=400",
-    price: 29.95,
-  },
-  {
-    name: "شرائح سرطان البحر",
-    url: "https://www.carrefourksa.com/mafsau/ar/crab/frozen-crab-steak/p/157083",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/he3/hb0/49346334883870/157083_main.jpg?im=Resize=400",
-    price: 12.45,
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم جامبو - 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frozen-shrimp-jumbo-500g/p/736657",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736657/1720427403/736657_main.jpg?im=Resize=400",
-    price: 37.95,
-  },
-  {
-    name: "سمك هامور فيليه طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/hamour-fillet/p/5361",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/he0/hee/9384331280414/5361_main.jpg?im=Resize=400",
-    price: 71.47,
-  },
-  {
-    name: "سمك السلمون النرويجي الطازج 2-3 كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/fresh-salmon-fish-norway-2-3-kg/p/5370",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h3d/h15/51509467021342/5370_main.jpg?im=Resize=400",
-    price: 124.88,
-  },
-  {
-    name: "سمك دينيس حجم كبير",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/denis-big/p/695263",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/he3/h6e/49411374710814/695263_main.jpg?im=Resize=400",
-    price: 15.95,
-  },
-  {
-    name: "ناكوا فيليه سمك البحر",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/naqua-sea-bass-skin-on-fillet/p/530755",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hda/hdf/14374157516830/530755_main.jpg?im=Resize=400",
-    price: 43.98,
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم متوسط - 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frozen-shrimp-medium-500g/p/736659",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736659/1720427403/736659_main.jpg?im=Resize=400",
-    price: 26.95,
-  },
-  {
-    name: "أرابيان جمبري مجمد حجم صغير - 500 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frozen-shrimp-small-500g/p/736661",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/736661/1720427403/736661_main.jpg?im=Resize=400",
-    price: 23.95,
-  },
-  {
-    name: "الحبار الأحمر الصغير",
-    url: "https://www.carrefourksa.com/mafsau/ar/shellfish-molluscs/red-squid/p/5438",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hb6/ha3/9384330166302/5438_main.jpg?im=Resize=400",
-    price: 16.48,
-  },
-  {
-    name: "سيما سلمون نرويجي مطبوخ بالبهارات الكورية، 125جرام\n                            ×2، عبوة واحدة",
-    url: "https://www.carrefourksa.com/mafsau/ar/smoked-fish/seama-salmon-portn-seasoned-250g/p/713781",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h44/h58/50333505454110/713781_main.jpg?im=Resize=400",
-    price: 75.75,
-  },
-  {
-    name: "محار نصف مجمد",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/frozen-half-shell-mussels/p/683657",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h8d/h06/49346352283678/683657_main.jpg?im=Resize=400",
-    price: 80.95,
-  },
-  {
-    name: "سمك السلمون النرويجي الطازج 4-5كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/fresh-salmon-norway-4-5-kg/p/523850",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h91/hf3/11416870748190/523850_main.jpg?im=Resize=400",
-    price: 265.28,
-    original_price: 319.28,
-    discount: 17,
-  },
-  {
-    name: "سيما سلمون نرويجي مطبوخ، 125جرام ×2، عبوة واحدة",
-    url: "https://www.carrefourksa.com/mafsau/ar/smoked-fish/seama-salmon-portn-natural-250g/p/713782",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h1b/h71/50333507158046/713782_main.jpg?im=Resize=400",
-    price: 75.75,
-  },
-  {
-    name: "نقوة روبيان مقشر جاهز للطبخ مبخر مع الذيل 450 جرام\n                            غني بالبروتين سريع التحضير 3-5 دقائق أنتاج السعودية",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/nagwa-shrimp-peeled-deveined-to-c/p/744251",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/744251/1736748174/744251_main.jpg?im=Resize=400",
-    price: 39.95,
-  },
-  {
-    name: "سمك الببغاء حجم وسط",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/parrot-fish-medium/p/5333",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h8a/h1e/49346336718878/5333_main.jpg?im=Resize=400",
-    price: 16.45,
-  },
-  {
-    name: "سلمون مدخن 200 جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/smoked-salmon-200g/p/727941",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/727941/1723536004/727941_main.jpg?im=Resize=400",
-    price: 75.95,
-  },
-  {
-    name: "سمك ساردين مجفف",
-    url: "https://www.carrefourksa.com/mafsau/ar/dry-fish/isalnd-fish-dried-sardines/p/5385",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h4b/hc0/11892375846942/5385_main.jpg?im=Resize=400",
-    price: 8.7,
-  },
-  {
-    name: "سمك ملك كامل طازج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/king-fish-whole/p/5319",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h63/ha8/14661727387678/5319_main.jpg?im=Resize=400",
-    price: 577.13,
-  },
-  {
-    name: "شركة الأسماك العربية سمك سوري جاف",
-    url: "https://www.carrefourksa.com/mafsau/ar/dry-fish/arabian-fish-dry-suri/p/698531",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h1f/h0f/62129496981534/698531_main.jpg?im=Resize=400",
-    price: 8.95,
-  },
-  {
-    name: "سمك الرنجة المدخن",
-    url: "https://www.carrefourksa.com/mafsau/ar/dry-fish/smoked-herring-fish/p/707072",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h5c/h0b/49346551480350/707072_main.jpg?im=Resize=400",
-    price: 29.95,
-    original_price: 39.95,
-    discount: 25,
-  },
-  {
-    name: "شركة الأسماك العربية أنشوجة جافة",
-    url: "https://www.carrefourksa.com/mafsau/ar/dry-fish/arabian-fish-dry-anchovy/p/698530",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h15/h20/62129496490014/698530_main.jpg?im=Resize=400",
-    price: 8.95,
-  },
-  {
-    name: "ستيك سمك الملك",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/king-fish-steak/p/5362",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h57/h83/10218947870750/5362_main.jpg?im=Resize=400",
-    price: 54.98,
-  },
-  {
-    name: "فيليه سمك شعري",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/sherri-fillet/p/5373",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hc0/h12/52720260513822/5373_main.jpg?im=Resize=400",
-    price: 36.48,
-  },
-  {
-    name: "فيليه سمك السلمون العضوي - النرويج",
-    url: "https://www.carrefourksa.com/mafsau/ar/sea-food/organic-salmon-fillet-norway/p/633456",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hde/hd2/11892379287582/633456_main.jpg?im=Resize=400",
-    price: 89.97,
-  },
-  {
-    name: "سمك حريد كبير",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/parrot-fish-big/p/695261",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h4c/h1b/34925818347550/695261_main.jpg?im=Resize=400",
-    price: 59.9,
-  },
-  {
-    name: "سمك هامور ابيض طازج 1.5 - 2.5 كج",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/hamour-fresh-white/p/5318",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hc7/ha6/9384330231838/5318_main.jpg?im=Resize=400",
-    price: 67.9,
-  },
-  {
-    name: "سمك شعري عماني",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/sherri-omani/p/5341",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/h60/h72/13159218642974/5341_main.jpg?im=Resize=400",
-    price: 39.9,
-  },
-  {
-    name: "فيليه سمك موسى",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/sole-fillet/p/5337",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hbc/h81/49346337538078/5337_main.jpg?im=Resize=400",
-    price: 98.95,
-  },
-  {
-    name: "الشركة العربية للأسماك - سمك القد المجمد 420\n                            جرام",
-    url: "https://www.carrefourksa.com/mafsau/ar/seafood-delicatessen/arabian-frzn-cod-flt-portion-420gm/p/740455",
-    images:
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/740455/1728802803/740455_main.jpg?im=Resize=400",
-    price: 48.95,
-  },
-  {
-    name: "سمك سبطي",
-    url: "https://www.carrefourksa.com/mafsau/ar/fish/tabuk-sepaty-fish/p/631448",
-    images:
-      "https://cdn.mafrservices.com/sys-master-root/hd4/h52/49411326640158/631448_main.jpg?im=Resize=400",
-    price: 71.95,
+    price: 406.73,
+    description: "سلمون نرويجي طازج بوزن 5-6 كجم، مثالي للمناسبات الكبيرة.",
+  },
+  {
+    name: "سمك السول المحلي",
+    images: [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101098/%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%88%D9%84-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A.jpg.jpg",
+    ],
+    price: 42.95,
+    description: "سمك السول المحلي الطازج، مثالي للشواء أو القلي.",
   },
 ];

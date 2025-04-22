@@ -10,7 +10,6 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import PromoCarousel from "@/components/layout/promoCaraousel";
-import PerfumeBanner from "@/components/layout/perfumeBanner";
 import BannerCarousel from "@/components/layout/BannerCaraousel";
 import { getCategories } from "@/lib/actions/category.action";
 

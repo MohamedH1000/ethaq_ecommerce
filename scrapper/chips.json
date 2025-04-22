@@ -1,494 +1,2928 @@
 // category id 67f43eb349e57d3fa16aa152
+
 [
   {
     "name": "شيتوس كرنشي حار نار 23 جرام × 12",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h9d/hb4/51542156279838/584530_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105921/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D9%83%D8%B1%D9%86%D8%B4%D9%8A-%D8%AD%D8%A7%D8%B1-%D9%86%D8%A7%D8%B1-23-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
     ],
     "price": 16.95,
-    "discount": 24,
-    "description": "شيتوس كرنشي بنكهة حارة نار، وجبة خفيفة مقرمشة ومثالية لمحبي النكهات القوية. معبأة في عبوة تحتوي على 12 كيس × 23 جرام."
+    "description": "رقائق الذرة المقرمشة بنكهة حارة للغاية، مثالية لعشاق النكهات القوية، تأتي في عبوة تحتوي على 12 كيس بحجم 23 جرام."
   },
   {
     "name": "دوريتوس رقائق الذرة بجبنة الناتشو 25 جرام × 12",
     "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/287666/1739181604/287666_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105922/%D8%AF%D9%88%D8%B1%D9%8A%D8%AA%D9%88%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-25-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
     ],
     "price": 15.95,
-    "discount": 19,
-    "description": "دوريتوس رقائق الذرة بنكهة جبنة الناتشو، وجبة خفيفة لذيذة ومقرمشة. معبأة في عبوة تحتوي على 12 كيس × 25 جرام."
+    "description": "رقائق الذرة المقرمشة بنكهة جبنة الناتشو الغنية، تأتي في عبوة تحتوي على 12 كيس بحجم 25 جرام، مثالية للتسلية."
   },
   {
-    "name": "ليز شرائح بطاطس بالملح والخل 155 جرام",
+    "name": "تسالي شرائح البطاطس كاتشب 25 جرام × 12",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h0b/h6c/64112148807710/50314_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105923/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-25-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
     ],
-    "price": 7.5,
-    "description": "شرائح بطاطس ليز بنكهة الملح والخل، وجبة خفيفة كلاسيكية بطعم مميز. معبأة في كيس 155 جرام."
-  },
-  {
-    "name": "البطل فشار بالجبنة معد بضغط الهواء 23 جرام ×10",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h64/hc3/14184889188382/333436_main.jpg?im=Resize=400"
-    ],
-    "price": 10.95,
-    "discount": 21,
-    "description": "فشار البطل بنكهة الجبنة معد بضغط الهواء، خفيف ومقرمش. معبأ في عبوة تحتوي على 10 أكياس × 23 جرام."
-  },
-  {
-    "name": "ليز بطاطس بالجبنة 21 جرام ×12",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h47/h1f/64112142352414/219944_main.jpg?im=Resize=400"
-    ],
-    "price": 15.95,
-    "description": "شرائح بطاطس ليز بنكهة الجبنة، وجبة خفيفة غنية بالطعم. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
-  },
-  {
-    "name": "ليز شرائح بطاطس بالملح 21 جرام × 12",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h92/h0a/64112142975006/219949_main.jpg?im=Resize=400"
-    ],
-    "price": 15.95,
-    "description": "شرائح بطاطس ليز بنكهة الملح الكلاسيكية، وجبة خفيفة بسيطة ولذيذة. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
-  },
-  {
-    "name": "دوريتوس رقائق الدرة حار وحلو 175 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/287670/1739181604/287670_main.jpg?im=Resize=400"
-    ],
-    "price": 8.5,
-    "description": "دوريتوس رقائق الذرة بنكهة حار وحلو، مزيج مثالي من النكهات المميزة. معبأة في كيس 175 جرام."
-  },
-  {
-    "name": "ليز بطاطس بالفلفل 21 جرام ×12",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h7e/h43/64112143138846/219948_main.jpg?im=Resize=400"
-    ],
-    "price": 15.95,
-    "description": "شرائح بطاطس ليز بنكهة الفلفل الحار، وجبة خفيفة لمحبي النكهات القوية. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
-  },
-  {
-    "name": "مستر تيتو منتفخات نكهة الجبن 200 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746714/1743069606/746714_main.jpg?im=Resize=400"
-    ],
-    "price": 11.5,
-    "description": "منتفخات مستر تيتو بنكهة الجبن، وجبة خفيفة مقرمشة وغنية بالطعم. معبأة في كيس 200 جرام."
-  },
-  {
-    "name": "ليز بطاطس بكاتشاب الطماطم 155 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/had/h57/64112148217886/50312_main.jpg?im=Resize=400"
-    ],
-    "price": 7.5,
-    "description": "شرائح بطاطس ليز بنكهة كاتشاب الطماطم، وجبة خفيفة بطعم حلو وحامض. معبأة في كيس 155 جرام."
-  },
-  {
-    "name": "ليز شرائح بطاطس بالفلفل الحار 155 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h0c/hd6/64112149823518/50315_main.jpg?im=Resize=400"
-    ],
-    "price": 7.5,
-    "description": "شرائح بطاطس ليز بنكهة الفلفل الحار، وجبة خفيفة حارة ومقرمشة. معبأة في كيس 155 جرام."
-  },
-  {
-    "name": "ليز شرائح بطاطس بالملح 155 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h9b/h77/51542153789470/50313_main.jpg?im=Resize=400"
-    ],
-    "price": 7.5,
-    "description": "شرائح بطاطس ليز بنكهة الملح الكلاسيكية، وجبة خفيفة بسيطة ومحبوبة. معبأة في كيس 155 جرام."
-  },
-  {
-    "name": "دوريتوس رقائق الذرة بجبنة الناتشو 175 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/287671/1739181604/287671_main.jpg?im=Resize=400"
-    ],
-    "price": 8.5,
-    "description": "دوريتوس رقائق الذرة بنكهة جبنة الناتشو، وجبة خفيفة غنية ومقرمشة. معبأة في كيس 175 جرام."
-  },
-  {
-    "name": "مستر تيتو منتفخات نكهة البيتزا 200 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746713/1743069606/746713_main.jpg?im=Resize=400"
-    ],
-    "price": 11.5,
-    "description": "منتفخات مستر تيتو بنكهة البيتزا، وجبة خفيفة بطعم البيتزا المميز. معبأة في كيس 200 جرام."
+    "price": 16.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الكاتشب اللذيذة، تأتي في عبوة تحتوي على 12 كيس بحجم 25 جرام، مثالية للوجبات الخفيفة."
   },
   {
     "name": "تسالي شرائح البطاطس بالفلفل الحار 25 جرام × 12",
     "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/516988/1729150203/516988_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105925/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-25-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
     ],
     "price": 16.5,
-    "description": "شرائح بطاطس تسالي بنكهة الفلفل الحار، وجبة خفيفة حارة ومقرمشة. معبأة في عبوة تحتوي على 12 كيس × 25 جرام."
+    "description": "شرائح بطاطس مقرمشة بنكهة الفلفل الحار المميزة، تأتي في عبوة تحتوي على 12 كيس بحجم 25 جرام، مثالية لمحبي النكهات الحارة."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالملح 21 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105926/%D9%84%D9%8A%D8%B2-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 15.95,
+    "description": "شرائح بطاطس مقرمشة بنكهة الملح الكلاسيكية، تأتي في عبوة تحتوي على 12 كيس بحجم 21 جرام، مثالية لجميع الأوقات."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالفلفل الحار 155 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105927/%D9%84%D9%8A%D8%B2-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 7.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الفلفل الحار، بحجم عائلي 155 جرام، مثالية للمشاركة مع الأصدقاء والعائلة."
+  },
+  {
+    "name": "ليز بطاطس بكاتشاب الطماطم 155 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105928/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%83%D8%A7%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 7.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الكاتشب الطازج، بحجم عائلي 155 جرام، مثالية للتسلية أثناء مشاهدة الأفلام."
+  },
+  {
+    "name": "دوريتوس رقائق الذرة بجبنة الناتشو 175 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105930/%D8%AF%D9%88%D8%B1%D9%8A%D8%AA%D9%88%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 27,
+    "price": 8.5,
+    "description": "رقائق الذرة المقرمشة بنكهة جبنة الناتشو الغنية، بحجم عائلي 175 جرام، مثالية للحفلات والتجمعات."
   },
   {
     "name": "تسالي شيبس كمون وليمون 25 جرام * 12",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hce/h0e/51542162833438/667027_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105931/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%83%D9%85%D9%88%D9%86-%D9%88%D9%84%D9%8A%D9%85%D9%88%D9%86-25-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
     ],
     "price": 16.5,
-    "description": "شيبس تسالي بنكهة الكمون والليمون، وجبة خفيفة بنكهة منعشة ومميزة. معبأة في عبوة تحتوي على 12 كيس × 25 جرام."
+    "description": "شرائح بطاطس مقرمشة بنكهة الكمون والليمون المنعشة، تأتي في عبوة تحتوي على 12 كيس بحجم 25 جرام."
   },
   {
-    "name": "توستيتوس - سيمبلي أورجانيك، رقائق تورتيلا الذرة الزرقاء بالملح البحري 255جرام - مستورد",
+    "name": "مستر تيتو منتفخات نكهة الجبن 200 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h72/h6e/48754925731870/695881_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105932/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 34.25,
-    "description": "رقائق تورتيلا الذرة الزرقاء من توستيتوس سيمبلي أورجانيك بنكهة الملح البحري، وجبة خفيفة عضوية مستوردة. معبأة في كيس 255 جرام."
+    "price": 11.5,
+    "description": "منتفخات الذرة بنكهة الجبن اللذيذة، بحجم عائلي 200 جرام، مثالية للمشاركة أو التسلية الفردية."
   },
   {
-    "name": "كارفور رقائق البطاطس بالملح 170 جرام",
+    "name": "مستر تيتو منتفخات نكهة البيتزا 200 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h17/h8e/51176232091678/633635_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105933/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA%D8%B2%D8%A7-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7.5,
-    "description": "رقائق بطاطس كارفور بنكهة الملح، وجبة خفيفة كلاسيكية وبأسعار مناسبة. معبأة في كيس 170 جرام."
-  },
-  {
-    "name": "كارفور رقائق البطاطس المطبوخة يدويا بالكريمة الحامضة والبصل 140جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h30/hbf/51176243626014/671754_main.jpg?im=Resize=400"
-    ],
-    "price": 9.95,
-    "description": "رقائق بطاطس كارفور مطبوخة يدويًا بنكهة الكريمة الحامضة والبصل، وجبة خفيفة مميزة. معبأة في كيس 140 جرام."
-  },
-  {
-    "name": "كارفور رقائق البطاطس بالملح 40 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h2e/h46/9785907707934/633640_main.jpg?im=Resize=400"
-    ],
-    "price": 1.95,
-    "description": "رقائح بطاطس كارفور بنكهة الملح بحجم صغير، وجبة خفيفة سريعة. معبأة في كيس 40 جرام."
+    "price": 11.5,
+    "description": "منتفخات الذرة بنكهة البيتزا الشهية، بحجم عائلي 200 جرام، مثالية لمحبي النكهات الإيطالية."
   },
   {
     "name": "مستر تيتو منتفخات نكهة الفلفل الحار والليمون 200 جرام",
     "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746715/1743069606/746715_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105935/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 11.5,
-    "description": "منتفخات مستر تيتو بنكهة الفلفل الحار والليمون، وجبة خفيفة منعشة وحارة. معبأة في كيس 200 جرام."
-  },
-  {
-    "name": "مستر تيتو منتفخات نكهات متنوعة 70 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746703/1743069606/746703_main.jpg?im=Resize=400"
-    ],
-    "price": 3.5,
-    "description": "منتفخات مستر تيتو بنكهات متنوعة، وجبة خفيفة بحجم صغير وطعم مميز. معبأة في كيس 70 جرام."
-  },
-  {
-    "name": "كارفور رقائق البطاطس المطبوخة يدويا بالملح والخل 40 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hb8/hb5/51176243396638/671751_main.jpg?im=Resize=400"
-    ],
-    "price": 2.95,
-    "description": "رقائق بطاطس كارفور مطبوخة يدويًا بنكهة الملح والخل، وجبة خفيفة صغيرة ومقرمشة. معبأة في كيس 40 جرام."
+    "description": "منتفخات الذرة بنكهة الفلفل الحار والليمون المنعشة، بحجم عائلي 200 جرام، مثالية لعشاق النكهات الحادة."
   },
   {
     "name": "مستر تيتو منتفخات نكهات متنوعة 200 جرام",
     "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746717/1743069606/746717_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105936/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 11.5,
-    "description": "منتفخات مستر تيتو بنكهات متنوعة، وجبة خفيفة غنية بالنكهات المختلفة. معبأة في كيس 200 جرام."
+    "description": "منتفخات الذرة بنكهات متنوعة لإرضاء جميع الأذواق، بحجم عائلي 200 جرام، مثالية للحفلات."
   },
   {
-    "name": "كارفور رقائق البطاطس المطبوخة يدويا بالملح والخل 140 جرام",
+    "name": "كارفور رقائق البطاطس بالملح 170 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hae/hc6/51176243888158/671752_main.jpg?im=Resize=400"
-    ],
-    "price": 9.95,
-    "description": "رقائق بطاطس كارفور مطبوخة يدويًا بنكهة الملح والخل، وجبة خفيفة مميزة. معبأة في كيس 140 جرام."
-  },
-  {
-    "name": "كارفور كورنيز بالفلفل الحار 145 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h14/h4e/51176255029278/706891_main.jpg?im=Resize=400"
-    ],
-    "price": 6.5,
-    "description": "كورنيز كارفور بنكهة الفلفل الحار، وجبة خفيفة مقرمشة وحارة. معبأة في كيس 145 جرام."
-  },
-  {
-    "name": "مستر تيتو منتفخات نكهة الفلفل الحار والليمون 70 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746701/1743069606/746701_main.jpg?im=Resize=400"
-    ],
-    "price": 3.5,
-    "description": "منتفخات مستر تيتو بنكهة الفلفل الحار والليمون بحجم صغير، وجبة خفيفة منعشة. معبأة في كيس 70 جرام."
-  },
-  {
-    "name": "كارفور رقائق البطاطس بكتشب الطماطم 170 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hc3/h8a/51176232189982/633636_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105937/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 7.5,
-    "description": "رقائق بطاطس كارفور بنكهة كتشب الطماطم، وجبة خفيفة بطعم حلو وحامض. معبأة في كيس 170 جرام."
+    "description": "رقائق بطاطس مقرمشة بنكهة الملح الكلاسيكية، بحجم عائلي 170 جرام، مثالية للتسلية اليومية."
   },
   {
-    "name": "كارفور رقائق البطاطس بالفلفل الحار 40 جرام",
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بملح الهامالايا 40جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h60/h3c/9785907445790/633637_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105938/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D9%87%D8%A7%D9%85%D8%A7%D9%84%D8%A7%D9%8A%D8%A7-40%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 1.95,
-    "description": "رقائق بطاطس كارفور بنكهة الفلفل الحار بحجم صغير، وجبة خفيفة حارة. معبأة في كيس 40 جرام."
+    "price": 2.95,
+    "description": "رقائق بطاطس مطبوخة يدويًا بنكهة ملح الهيمالايا الفاخر، بحجم 40 جرام، مثالية لمحبي النكهات الطبيعية."
   },
   {
-    "name": "مستر تيتو فشار نكهة الزبدة 70 جرام",
+    "name": "مستر تيتو منتفخات نكهات متنوعة 70 جرام",
     "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746702/1743069606/746702_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105939/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 3.5,
-    "description": "فشار مستر تيتو بنكهة الزبدة، وجبة خفيفة خفيفة وغنية بالطعم. معبأ في كيس 70 جرام."
-  },
-  {
-    "name": "كارفور رقائق البطاطس بكتشب الطماطم 40 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hef/h46/9785907773470/633641_main.jpg?im=Resize=400"
-    ],
-    "price": 1.95,
-    "description": "رقائق بطاطس كارفور بنكهة كتشب الطماطم بحجم صغير، وجبة خفيفة لذيذة. معبأة في كيس 40 جرام."
-  },
-  {
-    "name": "ليز فورنو بالفلفل الأسود 160 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hee/h42/51556145102878/502145_main.jpg?im=Resize=400"
-    ],
-    "price": 7.95,
-    "description": "ليز فورنو بنكهة الفلفل الأسود، وجبة خفيفة مخبوزة بطعم قوي ومميز. معبأة في كيس 160 جرام."
+    "description": "منتفخات الذرة بنكهات متنوعة، بحجم 70 جرام، مثالية كوجبة خفيفة سريعة لجميع الأعمار."
   },
   {
     "name": "ليز بطاطس بالجبنة الفرنسية 155 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h2d/hc9/64112149495838/50316_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105940/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
+    "discount": 17,
     "price": 7.5,
-    "description": "شرائح بطاطس ليز بنكهة الجبنة الفرنسية، وجبة خفيفة غنية ومقرمشة. معبأة في كيس 155 جرام."
+    "description": "شرائح بطاطس مقرمشة بنكهة الجبنة الفرنسية الغنية، بحجم عائلي 155 جرام، مثالية للتسلية."
   },
   {
-    "name": "كريسبي حلقات بالجبنة 23 جرام × 18",
+    "name": "كارفور رقائق البطاطس بالفلفل الحار 40 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h56/hda/13044130742302/653754_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105942/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 12.95,
-    "description": "حلقات كريسبي بنكهة الجبنة، وجبة خفيفة مقرمشة وممتعة. معبأة في عبوة تحتوي على 18 كيس × 23 جرام."
+    "price": 1.95,
+    "description": "رقائق بطاطس مقرمشة بنكهة الفلفل الحار، بحجم 40 جرام، مثالية كوجبة خفيفة حارة."
   },
   {
-    "name": "مكسيتا رقائق التورتيلا حامض وحلو 23جرام",
+    "name": "مستر تيتو فشار نكهة الزبدة 70 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h22/ha7/27057123426334/661898_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105943/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%81%D8%B4%D8%A7%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 1.5,
-    "description": "رقائق تورتيلا مكسيتا بنكهة حامض وحلو، وجبة خفيفة صغيرة بطعم مميز. معبأة في كيس 23 جرام."
+    "price": 3.5,
+    "description": "فشار مقرمش بنكهة الزبدة الكريمية، بحجم 70 جرام، مثالي لمشاهدة الأفلام أو التسلية."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الفلفل الحار والليمون 70 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105944/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "منتفخات الذرة بنكهة الفلفل الحار والليمون الحادة، بحجم 70 جرام، مثالية لمحبي النكهات القوية."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بكتشب الطماطم 40 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105946/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%83%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس مقرمشة بنكهة الكاتشب الطازج، بحجم 40 جرام، مثالية كوجبة خفيفة يومية."
+  },
+  {
+    "name": "ليز فورنو بالفلفل الأسود 160 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105947/%D9%84%D9%8A%D8%B2-%D9%81%D9%88%D8%B1%D9%86%D9%88-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.95,
+    "description": "رقائق بطاطس مخبوزة بنكهة الفلفل الأسود المميزة، بحجم عائلي 160 جرام، مثالية لمحبي النكهات الراقية."
+  },
+  {
+    "name": "ليز بطاطس بالفلفل الحار 21 جرام ×12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105948/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 15.95,
+    "description": "شرائح بطاطس مقرمشة بنكهة الفلفل الحار، تأتي في عبوة تحتوي على 12 كيس بحجم 21 جرام، مثالية للتسلية."
   },
   {
     "name": "مهباج فشار 1 كيلو",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h05/h23/47619685253150/642931_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105949/%D9%85%D9%87%D8%A8%D8%A7%D8%AC-%D9%81%D8%B4%D8%A7%D8%B1-1-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
     ],
+    "discount": 21,
     "price": 12.25,
-    "description": "فشار مهباج بحجم عائلي، مثالي للتحميص المنزلي والاستمتاع بالوجبات الخفيفة. معبأ في كيس 1 كجم."
+    "description": "فشار طبيعي بحجم عائلي 1 كيلو، مثالي للتجمعات الكبيرة والحفلات، يمكن تحضيره بسهولة في المنزل."
   },
   {
-    "name": "برينجلز رقائق البطاطس الأصلية 200 جرام",
+    "name": "ليز شيبس حار نار 180 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h06/hef/12844244533278/610644_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105952/%D9%84%D9%8A%D8%B2-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%AD%D8%A7%D8%B1-%D9%86%D8%A7%D8%B1-180-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 17.95,
-    "discount": 28,
-    "description": "رقائق بطاطس برينجلز الأصلية، وجبة خفيفة كلاسيكية بقوام مميز. معبأة في علبة 200 جرام."
+    "discount": 16,
+    "price": 8.95,
+    "description": "رقائق بطاطس مقرمشة بنكهة حارة للغاية، بحجم عائلي 180 جرام، مثالية لعشاق النكهات القوية."
   },
   {
-    "name": "ليز بطاطس فورنو بالجبنة الأصلية 160جرام",
+    "name": "ليز بطاطس فورنو بالجبنة الاصلية 160جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h1a/h19/51556144513054/502146_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105953/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%81%D9%88%D8%B1%D9%86%D9%88-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D8%B5%D9%84%D9%8A%D8%A9-160%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 7.95,
-    "description": "ليز فورنو بنكهة الجبنة الأصلية، وجبة خفيفة مخبوزة وغنية بالطعم. معبأة في كيس 160 جرام."
+    "description": "رقائق بطاطس مخبوزة بنكهة الجبنة الأصلية، بحجم عائلي 160 جرام، مثالية لمحبي النكهات الكريمية."
   },
   {
-    "name": "شيتوس شيبس حار نار 200جرام",
+    "name": "برنقلز رقائق البطاطس بالكريمة والبصل 200 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h0a/hc1/51542164701214/667040_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105954/%D8%A8%D8%B1%D9%86%D9%82%D9%84%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D8%A8%D8%B5%D9%84-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.25,
-    "description": "شيتوس كرنشي بنكهة حارة نار مع لمسة الليمون، وجبة خفيفة قوية ومقرمشة. معبأة في كيس 200 جرام."
-  },
-  {
-    "name": "ليز شرائح بطاطس بالكاتشب الطماطم 21 جرام ×12",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/ha8/h0e/64112142811166/219943_main.jpg?im=Resize=400"
-    ],
-    "price": 15.95,
-    "description": "شرائح بطاطس ليز بنكهة كاتشاب الطماطم، وجبة خفيفة صغيرة بطعم مميز. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
-  },
-  {
-    "name": "كريسبي حروف بطاطس بنكهة الكاتشب 80 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h16/h69/11006741315614/541140_main.jpg?im=Resize=400"
-    ],
-    "price": 4.5,
-    "discount": 28,
-    "description": "حروف بطاطس كريسبي بنكهة الكاتشب، وجبة خفيفة ممتعة للأطفال والكبار. معبأة في كيس 80 جرام."
-  },
-  {
-    "name": "كتكو بليس أصابع الخضروات الهشة بالزعتر مع الزبادي الكريمي 135 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hc4/hd7/12935530250270/638083_main.jpg?im=Resize=400"
-    ],
-    "price": 17.25,
-    "description": "أصابع خضروات كتكو بليس بنكهة الزعتر والزبادي الكريمي، وجبة خفيفة صحية وهشة. معبأة في كيس 135 جرام."
-  },
-  {
-    "name": "ليز ماكس رقائق الفلفل الحار المكسيكي 160 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hcb/h50/51542168043550/687137_main.jpg?im=Resize=400"
-    ],
-    "price": 7.5,
-    "description": "رقائق ليز ماكس بنكهة الفلفل الحار المكسيكي، وجبة خفيفة حارة ومقرمشة. معبأة في كيس 160 جرام."
-  },
-  {
-    "name": "مرامي رقائق البطاطس فلفل حار 100 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hd7/hbd/9260701384734/120_main.jpg?im=Resize=400"
-    ],
-    "price": 6,
-    "description": "رقائق بطاطس مرامي بنكهة الفلفل الحار، وجبة خفيفة بطعم قوي. معبأة في كيس 100 جرام."
-  },
-  {
-    "name": "بيوقلز قراقيش ذرة بطعم الجبن 15 جرام × 12",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h06/h58/9750814720030/448013_main.jpg?im=Resize=400"
-    ],
-    "price": 19.25,
-    "discount": 12,
-    "description": "قراقيش ذرة بيوقلز بنكهة الجبن، وجبة خفيفة صغيرة ومقرمشة. معبأة في عبوة تحتوي على 12 كيس × 15 جرام."
-  },
-  {
-    "name": "فرفشة عيدان بطاطس طبيعية بالشطة و الليمون 15 جرام × 24",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h17/h8b/63391566495774/616482_main.jpg?im=Resize=400"
-    ],
-    "price": 18.75,
-    "description": "عيدان بطاطس فرفشة بنكهة الشطة والليمون، وجبة خفيفة حارة ومنعشة. معبأة في عبوة تحتوي على 24 كيس × 15 جرام."
+    "discount": 9,
+    "price": 17.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة الكريمة والبصل الغنية، بحجم عائلي 200 جرام، مثالية للتسلية."
   },
   {
     "name": "مستر تيتو منتفخات نكهة الجبن 70 جرام",
     "images": [
-      "https://cdn.mafrservices.com/pim-content/SAU/media/product/746700/1743069606/746700_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105956/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 3.5,
-    "description": "منتفخات مستر تيتو بنكهة الجبن بحجم صغير، وجبة خفيفة غنية بالطعم. معبأة في كيس 70 جرام."
+    "description": "منتفخات الذرة بنكهة الجبن اللذيذة، بحجم 70 جرام، مثالية كوجبة خفيفة سريعة."
   },
   {
-    "name": "فرفشة عيدان بطاطس طبيعية بالجبنة الفرنسية 15جرام ×24",
+    "name": "البطل فشار فلفل حار معد بضغط الهواء 23 جرام ×10",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h6d/h8b/63391566463006/616480_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105957/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D9%81%D9%84%D9%81%D9%84-%D8%AD%D8%A7%D8%B1-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-23-%D8%AC%D8%B1%D8%A7%D9%85-10.jpg.jpg"
     ],
-    "price": 18.75,
-    "description": "عيدان بطاطس فرفشة بنكهة الجبنة الفرنسية، وجبة خفيفة غنية ومقرمشة. معبأة في عبوة تحتوي على 24 كيس × 15 جرام."
+    "price": 10.95,
+    "description": "فشار مقرمش بنكهة الفلفل الحار، معد بضغط الهواء، يأتي في عبوة تحتوي على 10 أكياس بحجم 23 جرام."
   },
   {
-    "name": "برينجلز بنكهة الباربكيو 200 جرام",
+    "name": "ليز ماكس رقائق الفلفل الحار المكسيكي 160 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h3d/hfc/12844244172830/610648_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105958/%D9%84%D9%8A%D8%B2-%D9%85%D8%A7%D9%83%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%83%D8%B3%D9%8A%D9%83%D9%8A-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 18.25,
-    "discount": 29,
-    "description": "رقائق بطاطس برينجلز بنكهة الباربكيو، وجبة خفيفة بطعم الشواء المميز. معبأة في علبة 200 جرام."
+    "price": 7.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة الفلفل الحار المكسيكي القوية، بحجم عائلي 160 جرام، مثالية للحفلات."
   },
   {
-    "name": "كتكو سبيرلز بطاطس بالفلفل الحلو 14 جرام × 20",
+    "name": "مكسيتا رقائق التورتيلا حامض وحلو 23جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hbc/h11/13402540769310/638091_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105959/%D9%85%D9%83%D8%B3%D9%8A%D8%AA%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%A7%D9%85%D8%B6-%D9%88%D8%AD%D9%84%D9%88-23%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13,
-    "description": "سبيرلز كتكو بنكهة الفلفل الحلو، وجبة خفيفة حلزونية ومقرمشة. معبأة في عبوة تحتوي على 20 كيس × 14 جرام."
+    "price": 1.5,
+    "description": "رقائق التورتيلا بنكهة حامض وحلو مميزة، بحجم 23 جرام، مثالية كوجبة خفيفة سريعة."
   },
   {
-    "name": "فرفشة رقائق البطاطس بالملح 21جرام ×12",
+    "name": "فرفشة عيدان بطاطس طبيعية بالشطة و الليمون 15 جرام × 24",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h6d/h6b/16781828915230/660754_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105960/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B9%D9%8A%D8%AF%D8%A7%D9%86-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%B4%D8%B7%D8%A9-%D9%88-%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-15-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
     ],
-    "price": 12.75,
-    "discount": 30,
-    "description": "رقائق بطاطس فرفشة بنكهة الملح، وجبة خفيفة كلاسيكية ومقرمشة. معبأة في عبوة تحتوي على 12 كيس × 21 جرام."
-  },
-  {
-    "name": "شيتوس كرنشي بالجبنة 205 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h52/h95/12783964061726/386879_main.jpg?im=Resize=400"
-    ],
-    "price": 8.25,
-    "description": "شيتوس كرنشي بنكهة الجبنة، وجبة خفيفة غنية ومقرمشة. معبأة في كيس 205 جرام."
-  },
-  {
-    "name": "البطل فشار بالزبدة معد بضغط الهواء 90 جرام",
-    "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h22/hd1/29511486177310/339784_main.jpg?im=Resize=400"
-    ],
-    "price": 6.25,
     "discount": 12,
-    "description": "فشار البطل بنكهة الزبدة معد بضغط الهواء، وجبة خفيفة خفيفة ولذيذة. معبأ في كيس 90 جرام."
+    "price": 18.75,
+    "description": "عيدان بطاطس طبيعية مقرمشة بنكهة الشطة والليمون، تأتي في عبوة تحتوي على 24 كيس بحجم 15 جرام."
   },
   {
     "name": "فرشلي فشار 906 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h64/had/51509465514014/533862_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105961/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-906-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 22.25,
     "discount": 13,
-    "description": "فشار فرشلي بحجم كبير، مثالي للتحميص المنزلي والاستمتاع العائلي. معبأ في وعاء 906 جرام."
+    "price": 22.25,
+    "description": "فشار طبيعي بحجم عائلي 906 جرام، مثالي للتحضير في المنزل للتجمعات والحفلات الكبيرة."
   },
   {
-    "name": "فيركو أصابع البطاطس بالفلفل الحار 45جرام",
+    "name": "قودي فشار بالزيدة 255جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h03/hfe/61851463581726/649146_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105962/%D9%82%D9%88%D8%AF%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D8%B2%D9%8A%D8%AF%D8%A9-255%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.25,
-    "discount": 19,
-    "description": "أصابع بطاطس فيركو بنكهة الفلفل الحار، وجبة خفيفة حارة ومقرمشة. معبأة في كيس 45 جرام."
+    "discount": 17,
+    "price": 13.25,
+    "description": "فشار مقرمش بنكهة الزبدة الكريمية، بحجم 255 جرام، مثالي للتسلية أثناء مشاهدة الأفلام."
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة بطعم الجبن 15 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105963/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-15-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 21.95,
+    "description": "قراقيش الذرة المقرمشة بنكهة الجبن، تأتي في عبوة تحتوي على 12 كيس بحجم 15 جرام، مثالية للأطفال."
+  },
+  {
+    "name": "البطل فشار بالزبدة معد بضغط الهواء 90 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105964/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25,
+    "description": "فشار مقرمش بنكهة الزبدة، معد بضغط الهواء، بحجم 90 جرام، مثالي للتسلية اليومية."
+  },
+  {
+    "name": "مرامي بطاطس الرقائق طبيعي 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105965/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6,
+    "description": "رقائق بطاطس طبيعية مقرمشة بدون نكهات مضافة، بحجم 100 جرام، مثالية لمحبي النكهات البسيطة."
+  },
+  {
+    "name": "كتكو سبيرلز بطاطس بالفلفل الحلو 14 جرام × 20",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105967/%D9%83%D8%AA%D9%83%D9%88-%D8%B3%D8%A8%D9%8A%D8%B1%D9%84%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D9%84%D9%88-14-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "price": 13,
+    "description": "عيدان بطاطس مقرمشة بنكهة الفلفل الحلو، تأتي في عبوة تحتوي على 20 كيس بحجم 14 جرام، مثالية للتسلية."
+  },
+  {
+    "name": "السعودية كريسبي حلقات الجبن 90 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105968/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%83%D8%B1%D9%8A%D8%B3%D8%A8%D9%8A-%D8%AD%D9%84%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "حلقات الذرة المقرمشة بنكهة الجبن، بحجم 90 جرام، مثالية كوجبة خفيفة للأطفال والكبار."
+  },
+  {
+    "name": "مرامي شيبس بالكتشب 12 جرام × 18",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105969/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%AA%D8%B4%D8%A8-12-%D8%AC%D8%B1%D8%A7%D9%85-18.jpg.jpg"
+    ],
+    "price": 14,
+    "description": "رقائق بطاطس مقرمشة بنكهة الكاتشب، تأتي في عبوة تحتوي على 18 كيس بحجم 12 جرام، مثالية للتسلية."
+  },
+  {
+    "name": "قودي فشار 450جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105970/%D9%82%D9%88%D8%AF%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-450%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "فشار طبيعي بحجم 450 جرام، مثالي للتحضير في المنزل للتجمعات العائلية."
+  },
+  {
+    "name": "فريشلي فشار مايكروويف 297 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105971/%D9%81%D8%B1%D9%8A%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D9%88%D9%8A%D9%81-297-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.95,
+    "description": "فشار للتحضير في الميكروويف، بحجم 297 جرام، مثالي للتسلية السريعة والسهلة."
+  },
+  {
+    "name": "شيتوس كرنشي بالجبنة 205 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105973/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D9%83%D8%B1%D9%86%D8%B4%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-205-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25,
+    "description": "رقائق الذرة المقرمشة بنكهة الجبنة الغنية، بحجم عائلي 205 جرام، مثالية للحفلات."
+  },
+  {
+    "name": "شيتوس لولبي بالجبنة 150 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105921/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D9%83%D8%B1%D9%86%D8%B4%D9%8A-%D8%AD%D8%A7%D8%B1-%D9%86%D8%A7%D8%B1-23-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 16.95,
+    "description": "رقائق الذرة المقرمشة بنكهة حارة للغاية، مثالية لعشاق النكهات القوية، تأتي في عبوة تحتوي على 12 كيس بحجم 23 جرام."
+  },
+  {
+    "name": "دوريتوس رقائق الذرة بجبنة الناتشو 25 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105922/%D8%AF%D9%88%D8%B1%D9%8A%D8%AA%D9%88%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-25-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 15.95,
+    "description": "رقائق الذرة المقرمشة بنكهة جبنة الناتشو الغنية، تأتي في عبوة تحتوي على 12 كيس بحجم 25 جرام، مثالية للتسلية."
+  },
+  {
+    "name": "تسالي شرائح البطاطس كاتشب 25 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105923/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-25-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 16.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الكاتشب اللذيذة، تأتي في عبوة تحتوي على 12 كيس بحجم 25 جرام، مثالية للوجبات الخفيفة."
+  },
+  {
+    "name": "تسالي شرائح البطاطس بالفلفل الحار 25 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105925/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-25-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 16.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الفلفل الحار المميزة، تأتي في عبوة تحتوي على 12 كيس بحجم 25 جرام، مثالية لمحبي النكهات الحارة."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالملح 21 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105926/%D9%84%D9%8A%D8%B2-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 15.95,
+    "description": "شرائح بطاطس مقرمشة بنكهة الملح الكلاسيكية، تأتي في عبوة تحتوي على 12 كيس بحجم 21 جرام، مثالية لجميع الأوقات."
+  },
+  {
+    "name": "ليز شرائح بطاطس بالفلفل الحار 155 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105927/%D9%84%D9%8A%D8%B2-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 7.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الفلفل الحار، بحجم عائلي 155 جرام، مثالية للمشاركة مع الأصدقاء والعائلة."
+  },
+  {
+    "name": "ليز بطاطس بكاتشاب الطماطم 155 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105928/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%83%D8%A7%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 7.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الكاتشب الطازج، بحجم عائلي 155 جرام، مثالية للتسلية أثناء مشاهدة الأفلام."
+  },
+  {
+    "name": "دوريتوس رقائق الذرة بجبنة الناتشو 175 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105930/%D8%AF%D9%88%D8%B1%D9%8A%D8%AA%D9%88%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 27,
+    "price": 8.5,
+    "description": "رقائق الذرة المقرمشة بنكهة جبنة الناتشو الغنية، بحجم عائلي 175 جرام، مثالية للحفلات والتجمعات."
+  },
+  {
+    "name": "تسالي شيبس كمون وليمون 25 جرام * 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105931/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%83%D9%85%D9%88%D9%86-%D9%88%D9%84%D9%8A%D9%85%D9%88%D9%86-25-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 16.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الكمون والليمون المنعشة، تأتي في عبوة تحتوي على 12 كيس بحجم 25 جرام."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الجبن 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105932/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "منتفخات الذرة بنكهة الجبن اللذيذة، بحجم عائلي 200 جرام، مثالية للمشاركة أو التسلية الفردية."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة البيتزا 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105933/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA%D8%B2%D8%A7-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "منتفخات الذرة بنكهة البيتزا الشهية، بحجم عائلي 200 جرام، مثالية لمحبي النكهات الإيطالية."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الفلفل الحار والليمون 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105935/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "منتفخات الذرة بنكهة الفلفل الحار والليمون المنعشة، بحجم عائلي 200 جرام، مثالية لعشاق النكهات الحادة."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهات متنوعة 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105936/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "منتفخات الذرة بنكهات متنوعة لإرضاء جميع الأذواق، بحجم عائلي 200 جرام، مثالية للحفلات."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بالملح 170 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105937/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة الملح الكلاسيكية، بحجم عائلي 170 جرام، مثالية للتسلية اليومية."
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بملح الهامالايا 40جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105938/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D9%87%D8%A7%D9%85%D8%A7%D9%84%D8%A7%D9%8A%D8%A7-40%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2.95,
+    "description": "رقائق بطاطس مطبوخة يدويًا بنكهة ملح الهيمالايا الفاخر، بحجم 40 جرام، مثالية لمحبي النكهات الطبيعية."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهات متنوعة 70 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105939/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "منتفخات الذرة بنكهات متنوعة، بحجم 70 جرام، مثالية كوجبة خفيفة سريعة لجميع الأعمار."
+  },
+  {
+    "name": "ليز بطاطس بالجبنة الفرنسية 155 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105940/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 7.5,
+    "description": "شرائح بطاطس مقرمشة بنكهة الجبنة الفرنسية الغنية، بحجم عائلي 155 جرام، مثالية للتسلية."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بالفلفل الحار 40 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105942/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس مقرمشة بنكهة الفلفل الحار، بحجم 40 جرام، مثالية كوجبة خفيفة حارة."
+  },
+  {
+    "name": "مستر تيتو فشار نكهة الزبدة 70 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105943/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%81%D8%B4%D8%A7%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "فشار مقرمش بنكهة الزبدة الكريمية، بحجم 70 جرام، مثالي لمشاهدة الأفلام أو التسلية."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الفلفل الحار والليمون 70 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105944/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "منتفخات الذرة بنكهة الفلفل الحار والليمون الحادة، بحجم 70 جرام، مثالية لمحبي النكهات القوية."
+  },
+  {
+    "name": "كارفور رقائق البطاطس بكتشب الطماطم 40 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105946/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%83%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس مقرمشة بنكهة الكاتشب الطازج، بحجم 40 جرام، مثالية كوجبة خفيفة يومية."
+  },
+  {
+    "name": "ليز فورنو بالفلفل الأسود 160 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105947/%D9%84%D9%8A%D8%B2-%D9%81%D9%88%D8%B1%D9%86%D9%88-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.95,
+    "description": "رقائق بطاطس مخبوزة بنكهة الفلفل الأسود المميزة، بحجم عائلي 160 جرام، مثالية لمحبي النكهات الراقية."
+  },
+  {
+    "name": "ليز بطاطس بالفلفل الحار 21 جرام ×12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105948/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 15.95,
+    "description": "شرائح بطاطس مقرمشة بنكهة الفلفل الحار القوية، تأتي في عبوة تحتوي على 12 كيس بحجم 21 جرام، مثالية لمحبي النكهات الحارة."
+  },
+  {
+    "name": "مهباج فشار 1 كيلو",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105949/%D9%85%D9%87%D8%A8%D8%A7%D8%AC-%D9%81%D8%B4%D8%A7%D8%B1-1-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
+    ],
+    "discount": 21,
+    "price": 12.25,
+    "description": "فشار طبيعي بحجم عائلي 1 كيلو، مثالي للتحضير في المنزل للتجمعات الكبيرة والحفلات، يوفر تجربة تسلية ممتعة."
+  },
+  {
+    "name": "ليز شيبس حار نار 180 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105952/%D9%84%D9%8A%D8%B2-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%AD%D8%A7%D8%B1-%D9%86%D8%A7%D8%B1-180-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 8.95,
+    "description": "رقائق بطاطس مقرمشة بنكهة حارة للغاية، بحجم عائلي 180 جرام، مثالية لعشاق النكهات الجريئة والمشاركة في الحفلات."
+  },
+  {
+    "name": "ليز بطاطس فورنو بالجبنة الاصلية 160جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105953/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%81%D9%88%D8%B1%D9%86%D9%88-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D8%B5%D9%84%D9%8A%D8%A9-160%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.95,
+    "description": "رقائق بطاطس مخبوزة بنكهة الجبنة الأصلية الكريمية، بحجم عائلي 160 جرام، مثالية لمحبي النكهات الغنية والخفيفة."
+  },
+  {
+    "name": "برنقلز رقائق البطاطس بالكريمة والبصل 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105954/%D8%A8%D8%B1%D9%86%D9%82%D9%84%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D8%A8%D8%B5%D9%84-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 17.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة الكريمة والبصل اللذيذة، بحجم عائلي 200 جرام، مثالية للتسلية والمشاركة في التجمعات."
+  },
+  {
+    "name": "مستر تيتو منتفخات نكهة الجبن 70 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105956/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "منتفخات الذرة بنكهة الجبن الغنية، بحجم 70 جرام، مثالية كوجبة خفيفة سريعة للأطفال والكبار."
+  },
+  {
+    "name": "البطل فشار فلفل حار معد بضغط الهواء 23 جرام ×10",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105957/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D9%81%D9%84%D9%81%D9%84-%D8%AD%D8%A7%D8%B1-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-23-%D8%AC%D8%B1%D8%A7%D9%85-10.jpg.jpg"
+    ],
+    "price": 10.95,
+    "description": "فشار مقرمش بنكهة الفلفل الحار، معد بضغط الهواء للحصول على قوام خفيف، يأتي في عبوة تحتوي على 10 أكياس بحجم 23 جرام."
+  },
+  {
+    "name": "ليز ماكس رقائق الفلفل الحار المكسيكي 160 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105958/%D9%84%D9%8A%D8%B2-%D9%85%D8%A7%D9%83%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%83%D8%B3%D9%8A%D9%83%D9%8A-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة الفلفل الحار المكسيكي الجريئة، بحجم عائلي 160 جرام، مثالية لمحبي النكهات العالمية."
+  },
+  {
+    "name": "مكسيتا رقائق التورتيلا حامض وحلو 23جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105959/%D9%85%D9%83%D8%B3%D9%8A%D8%AA%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%A7%D9%85%D8%B6-%D9%88%D8%AD%D9%84%D9%88-23%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "رقائق التورتيلا المقرمشة بنكهة حامض وحلو مميزة، بحجم 23 جرام، مثالية كوجبة خفيفة سريعة وممتعة."
+  },
+  {
+    "name": "فرفشة عيدان بطاطس طبيعية بالشطة و الليمون 15 جرام × 24",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105960/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B9%D9%8A%D8%AF%D8%A7%D9%86-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%B4%D8%B7%D8%A9-%D9%88-%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-15-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 18.75,
+    "description": "عيدان بطاطس طبيعية مقرمشة بنكهة الشطة والليمون الحادة، تأتي في عبوة تحتوي على 24 كيس بحجم 15 جرام، مثالية للتسلية."
+  },
+  {
+    "name": "فرشلي فشار 906 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105961/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-906-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 22.25,
+    "description": "فشار طبيعي بحجم عائلي 906 جرام، مثالي للتحضير في المنزل للتجمعات الكبيرة والحفلات، يوفر تجربة تسلية ممتعة."
+  },
+  {
+    "name": "قودي فشار بالزيدة 255جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105962/%D9%82%D9%88%D8%AF%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D8%B2%D9%8A%D8%AF%D8%A9-255%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 13.25,
+    "description": "فشار مقرمش بنكهة الزبدة الكريمية، بحجم 255 جرام، مثالي للتسلية أثناء مشاهدة الأفلام أو التجمعات العائلية."
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة بطعم الجبن 15 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105963/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-15-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 21.95,
+    "description": "قراقيش الذرة المقرمشة بنكهة الجبن اللذيذة، تأتي في عبوة تحتوي على 12 كيس بحجم 15 جرام، مثالية للأطفال والتسلية."
+  },
+  {
+    "name": "البطل فشار بالزبدة معد بضغط الهواء 90 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105964/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25,
+    "description": "فشار مقرمش بنكهة الزبدة الكريمية، معد بضغط الهواء للحصول على قوام خفيف، بحجم 90 جرام، مثالي للتسلية."
+  },
+  {
+    "name": "مرامي بطاطس الرقائق طبيعي 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105965/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6,
+    "description": "رقائق بطاطس طبيعية مقرمشة بدون نكهات مضافة، بحجم 100 جرام، مثالية لمحبي النكهات البسيطة والأصلية."
+  },
+  {
+    "name": "كتكو سبيرلز بطاطس بالفلفل الحلو 14 جرام × 20",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105967/%D9%83%D8%AA%D9%83%D9%88-%D8%B3%D8%A8%D9%8A%D8%B1%D9%84%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D9%84%D9%88-14-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "price": 13,
+    "description": "عيدان بطاطس مقرمشة بنكهة الفلفل الحلو المميزة، تأتي في عبوة تحتوي على 20 كيس بحجم 14 جرام، مثالية للتسلية."
+  },
+  {
+    "name": "السعودية كريسبي حلقات الجبن 90 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105968/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%83%D8%B1%D9%8A%D8%B3%D8%A8%D9%8A-%D8%AD%D9%84%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "حلقات الذرة المقرمشة بنكهة الجبن الغنية، بحجم 90 جرام، مثالية كوجبة خفيفة للأطفال والكبار."
+  },
+  {
+    "name": "مرامي شيبس بالكتشب 12 جرام × 18",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105969/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%AA%D8%B4%D8%A8-12-%D8%AC%D8%B1%D8%A7%D9%85-18.jpg.jpg"
+    ],
+    "price": 14,
+    "description": "رقائق بطاطس مقرمشة بنكهة الكاتشب اللذيذة، تأتي في عبوة تحتوي على 18 كيس بحجم 12 جرام، مثالية للوجبات الخفيفة."
+  },
+  {
+    "name": "قودي فشار 450جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105970/%D9%82%D9%88%D8%AF%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-450%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "فشار طبيعي بحجم 450 جرام، مثالي للتحضير في المنزل للتجمعات العائلية أو مشاهدة الأفلام."
+  },
+  {
+    "name": "فريشلي فشار مايكروويف 297 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105971/%D9%81%D8%B1%D9%8A%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D9%88%D9%8A%D9%81-297-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.95,
+    "description": "فشار للتحضير في الميكروويف، بحجم 297 جرام، مثالي للتسلية السريعة والسهلة في المنزل."
+  },
+  {
+    "name": "شيتوس كرنشي بالجبنة 205 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105973/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D9%83%D8%B1%D9%86%D8%B4%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-205-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25,
+    "description": "رقائق الذرة المقرمشة بنكهة الجبنة الغنية، بحجم عائلي 205 جرام، مثالية للحفلات والتجمعات."
+  },
+  {
+    "name": "شيتوس لولبي بالجبنة 150 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105974/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D9%84%D9%88%D9%84%D8%A8%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25,
+    "description": "رقائق الذرة اللولبية المقرمشة بنكهة الجبنة اللذيذة، بحجم 150 جرام، مثالية للتسلية والمشاركة."
+  },
+  {
+    "name": "تسالي شرائح البطاطس بالفلفل الحار 155 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105975/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.9,
+    "description": "شرائح بطاطس مقرمشة بنكهة الفلفل الحار القوية، بحجم عائلي 155 جرام، مثالية لمحبي النكهات الحارة."
+  },
+  {
+    "name": "البطل كرات جبنة 18 جرام × 20",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105976/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%83%D8%B1%D8%A7%D8%AA-%D8%AC%D8%A8%D9%86%D8%A9-18-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 12,
+    "description": "كرات الذرة المقرمشة بنكهة الجبنة الغنية، تأتي في عبوة تحتوي على 20 كيس بحجم 18 جرام، مثالية للأطفال."
+  },
+  {
+    "name": "فريشلي فشار مايكروويف 297 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105977/%D9%81%D8%B1%D9%8A%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D9%88%D9%8A%D9%81-297-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "فشار للتحضير في الميكروويف، بحجم 297 جرام، مثالي للتسلية السريعة والسهلة في المنزل."
+  },
+  {
+    "name": "فرفشة عيدان بطاطس طبيعية بالجبنة الفرنسية 15جرام  ×24",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105978/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B9%D9%8A%D8%AF%D8%A7%D9%86-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-15%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 18.75,
+    "description": "عيدان بطاطس طبيعية مقرمشة بنكهة الجبنة الفرنسية الغنية، تأتي في عبوة تحتوي على 24 كيس بحجم 15 جرام."
+  },
+  {
+    "name": "فرفشة عيدان بطاطس طبيعية بالكاتشب 15 جرام  ×24",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105979/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B9%D9%8A%D8%AF%D8%A7%D9%86-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-15-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 18.75,
+    "description": "عيدان بطاطس طبيعية مقرمشة بنكهة الكاتشب اللذيذة، تأتي في عبوة تحتوي على 24 كيس بحجم 15 جرام، مثالية للتسلية."
+  },
+  {
+    "name": "ليز بطاطس بالفلفل الحار 48 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105980/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-48-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "رقائق بطاطس مقرمشة بنكهة الفلفل الحار القوية، بحجم 48 جرام، مثالية كوجبة خفيفة سريعة لمحبي النكهات الحارة."
+  },
+  {
+    "name": "عافية ذُرة الفشار 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105981/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%B0%D8%B1%D8%A9-%D8%A7%D9%84%D9%81%D8%B4%D8%A7%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 10,
+    "description": "ذرة فشار طبيعية بحجم 800 جرام، مثالية للتحضير في المنزل للتجمعات العائلية أو الحفلات."
+  },
+  {
+    "name": "برينجلز بابريكا 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105982/%D8%A8%D8%B1%D9%8A%D9%86%D8%AC%D9%84%D8%B2-%D8%A8%D8%A7%D8%A8%D8%B1%D9%8A%D9%83%D8%A7-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 17.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة البابريكا المدخنة، بحجم عائلي 200 جرام، مثالية للتسلية والمشاركة في الحفلات."
+  },
+  {
+    "name": "ليز رقائق البطاطس بالفلفل الحار والليمون 165 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105984/%D9%84%D9%8A%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-165-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة الفلفل الحار والليمون المنعشة، بحجم عائلي 165 جرام، مثالية لمحبي النكهات الحادة."
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة بالطعم الأصلي 15 جرام× 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105985/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-15-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 21.95,
+    "description": "قراقيش ذرة مقرمشة بنكهة أصلية، مثالية للتناول الخفيف في أي وقت."
+  },
+  {
+    "name": "البطل فشار بالكراميل معد بضغط الهواء 23 جرام ×15",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105986/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-23-%D8%AC%D8%B1%D8%A7%D9%85-15.jpg.jpg"
+    ],
+    "price": 18,
+    "description": "فشار خفيف بنكهة الكراميل الحلو، معد بتقنية ضغط الهواء لقوام مثالي."
+  },
+  {
+    "name": "البطل سناكس ديناصورات بالكاتشب 15 جرام ×20",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105987/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B3%D9%86%D8%A7%D9%83%D8%B3-%D8%AF%D9%8A%D9%86%D8%A5%D8%B5%D9%88%D8%B1%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-15-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "discount": 11,
+    "price": 11.5,
+    "description": "سناكس على شكل ديناصورات بنكهة الكاتشب الشهية، مثالية للأطفال."
+  },
+  {
+    "name": "برينجلز رقائق بطاطس بالكاتشب 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105988/%D8%A8%D8%B1%D9%8A%D9%86%D8%AC%D9%84%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 17.5,
+    "description": "رقائق بطاطس برينجلز بنكهة الكاتشب الغنية، مثالية لمحبي النكهات القوية."
+  },
+  {
+    "name": "البطل فشار كراميل معد بضغط الهواء 140 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105990/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-140-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "فشار بالكراميل اللذيذ، معد بضغط الهواء لتوفير تجربة خفيفة ومقرمشة."
+  },
+  {
+    "name": "البطل فشار بالكراميل وملح البحر معد بضغط الهواء 140 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105991/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%88%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-140-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "فشار بنكهة الكراميل الممزوجة بملح البحر، مزيج مثالي بين الحلو والمالح."
+  },
+  {
+    "name": "قودي فشار طبيعي 255 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105992/%D9%82%D9%88%D8%AF%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-255-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 13.25,
+    "description": "فشار طبيعي خالٍ من النكهات الصناعية، مثالي للتناول الصحي."
+  },
+  {
+    "name": "مرامي شيبس بالملح و الخل 12 جرام × 20",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105993/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%88-%D8%A7%D9%84%D8%AE%D9%84-12-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "price": 14,
+    "description": "شيبس بطاطس بنكهة الملح والخل المنعشة، مثالي للتجمعات."
+  },
+  {
+    "name": "كيتكو ستيكس عيدان بطاطس طبيعية قليل الملح 45 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105994/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-%D8%B9%D9%8A%D8%AF%D8%A7%D9%86-%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D9%82%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%84%D8%AD-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "عيدان بطاطس طبيعية قليلة الملح، خيار صحي لمحبي السناكس."
+  },
+  {
+    "name": "شيتوس لولبي بالجبنة 30 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105995/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D9%84%D9%88%D9%84%D8%A8%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-30-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "شيتوس لولبي بنكهة الجبنة الغنية، تجربة ممتعة ومقرمشة."
+  },
+  {
+    "name": "ليز بطاطس فورنو بالفلفل الاسود 40 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105997/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%81%D9%88%D8%B1%D9%86%D9%88-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A7%D8%B3%D9%88%D8%AF-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "رقائق بطاطس مخبوزة بنكهة الفلفل الأسود الحارة، خيار لذيذ وخفيف."
+  },
+  {
+    "name": "زين بريميوم ذرة الفشار 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105998/%D8%B2%D9%8A%D9%86-%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D9%88%D9%85-%D8%B0%D8%B1%D8%A9-%D8%A7%D9%84%D9%81%D8%B4%D8%A7%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10,
+    "description": "ذرة فشار عالية الجودة، مثالية لتحضير الفشار المنزلي."
+  },
+  {
+    "name": "البطل فشار بنكهة الجبنة معد بضغط الهواء 90 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105999/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25,
+    "description": "فشار بنكهة الجبنة الغنية، معد بضغط الهواء لقوام خفيف ومقرمش."
+  },
+  {
+    "name": "دوريتوس رقائق الذرة حار نار 175 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106000/%D8%AF%D9%88%D8%B1%D9%8A%D8%AA%D9%88%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%AD%D8%A7%D8%B1-%D9%86%D8%A7%D8%B1-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 27,
+    "price": 8.5,
+    "description": "رقائق ذرة دوريتوس بنكهة حارة للغاية، لمحبي النكهات القوية."
+  },
+  {
+    "name": "برينجلز بالجبنة 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106001/%D8%A8%D8%B1%D9%8A%D9%86%D8%AC%D9%84%D8%B2-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 17.5,
+    "description": "رقائق بطاطس برينجلز بنكهة الجبنة الكريمية، مثالية للتناول الخفيف."
+  },
+  {
+    "name": "كتكو بايتس ذره بف جبن 20 × 16 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106002/%D9%83%D8%AA%D9%83%D9%88-%D8%A8%D8%A7%D9%8A%D8%AA%D8%B3-%D8%B0%D8%B1%D9%87-%D8%A8%D9%81-%D8%AC%D8%A8%D9%86-20-16-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 12.25,
+    "description": "كرات ذرة منتفخة بنكهة الجبن، مثالية للتناول أثناء التنقل."
+  },
+  {
+    "name": "بيوقلز سناك ذرة بالباربكيو 125 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106004/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%A8%D9%83%D9%8A%D9%88-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5,
+    "description": "سناك ذرة بنكهة الباربكيو المدخنة، مثالي لمحبي النكهات الغنية."
+  },
+  {
+    "name": "فرشلي فشار الميكروويف بملح البحر 100جرام ×3 عبوات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106005/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%88%D9%8A%D9%81-%D8%A8%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-100%D8%AC%D8%B1%D8%A7%D9%85-3-%D8%B9%D8%A8%D9%88%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "discount": 18,
+    "price": 13.95,
+    "description": "فشار ميكروويف بنكهة ملح البحر، سهل التحضير ومثالي للأمسيات."
+  },
+  {
+    "name": "بوقلز قراقيش الذرة، مشوي مدخن حجم كبير 195 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106006/%D8%A8%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D9%85%D8%B4%D9%88%D9%8A-%D9%85%D8%AF%D8%AE%D9%86-%D8%AD%D8%AC%D9%85-%D9%83%D8%A8%D9%8A%D8%B1-195-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 12.5,
+    "description": "قراقيش ذرة بنكهة المشوي المدخن، حجم كبير للتشارك مع العائلة."
+  },
+  {
+    "name": "كتكو فريتس بطاطس سناك بالملح والخل 14 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106007/%D9%83%D8%AA%D9%83%D9%88-%D9%81%D8%B1%D9%8A%D8%AA%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B3%D9%86%D8%A7%D9%83-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%88%D8%A7%D9%84%D8%AE%D9%84-14-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 13,
+    "description": "سناك بطاطس بنكهة الملح والخل، مثالي للتناول السريع."
+  },
+  {
+    "name": "دوريتوس ديناميتا رقائق التورتيلا الحارة 145جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106008/%D8%AF%D9%88%D8%B1%D9%8A%D8%AA%D9%88%D8%B3-%D8%AF%D9%8A%D9%86%D8%A7%D9%85%D9%8A%D8%AA%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-145%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.5,
+    "description": "رقائق تورتيلا حارة للغاية من دوريتوس، لمحبي الإثارة في النكهات."
   },
   {
     "name": "مرامي شيبس بالملح والخل 100جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hed/h2a/26516760363038/121_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106009/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%88%D8%A7%D9%84%D8%AE%D9%84-100%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 6,
-    "description": "رقائق بطاطس مرامي بنكهة الملح والخل، وجبة خفيفة بطعم كلاسيكي. معبأة في كيس 100 جرام."
+    "description": "شيبس بطاطس بنكهة الملح والخل الكلاسيكية، مثالي للتناول اليومي."
   },
   {
-    "name": "ليز فورنو بطاطس بالجبنة الأصلية 40 جرام",
+    "name": "عافية فشار أصلي 850جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h89/he1/51542152773662/502144_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106011/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A3%D8%B5%D9%84%D9%8A-850%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 3,
-    "description": "ليز فورنو بنكهة الجبنة الأصلية بحجم صغير، وجبة خفيفة مخبوزة ولذيذة. معبأة في كيس 40 جرام."
+    "price": 21.25,
+    "description": "فشار أصلي عالي الجودة، مثالي لتحضير وجبات خفيفة منزلية."
   },
   {
-    "name": "مرامي رقائق البطاطس كاتشب 100 جرام",
+    "name": "كريسبي حروف الملح والخل 80 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h0e/h6b/9258463330334/119_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106012/%D9%83%D8%B1%D9%8A%D8%B3%D8%A8%D9%8A-%D8%AD%D8%B1%D9%88%D9%81-%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%88%D8%A7%D9%84%D8%AE%D9%84-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6,
-    "description": "رقائق بطاطس مرامي بنكهة الكاتشب، وجبة خفيفة بطعم حلو وحامض. معبأة في كيس 100 جرام."
+    "price": 4.5,
+    "description": "مقرمشات على شكل حروف بنكهة الملح والخل، ممتعة للأطفال والكبار."
   },
   {
-    "name": "صن رينج كراكر الجبن 60 جرام",
+    "name": "البطل شيبس بالكاتشب 110جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/hfa/he1/16701899276318/415034_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106013/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-110%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 4.5,
+    "description": "شيبس بطاطس بنكهة الكاتشب الغنية، مثالي لمحبي النكهات الحامضة."
+  },
+  {
+    "name": "مرامي أشكل بطاطس بالذرة بطعم دجاج 14 جرام × 18",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106014/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%A3%D8%B4%D9%83%D9%84-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%AF%D8%AC%D8%A7%D8%AC-14-%D8%AC%D8%B1%D8%A7%D9%85-18.jpg.jpg"
+    ],
+    "price": 14,
+    "description": "سناكس بطاطس وذرة بنكهة الدجاج، مثالي للتناول الخفيف."
+  },
+  {
+    "name": "فيركو أصابع البطاطس المملحة 45جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106016/%D9%81%D9%8A%D8%B1%D9%83%D9%88-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D9%85%D9%84%D8%AD%D8%A9-45%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.25,
+    "description": "أصابع بطاطس مملحة مقرمشة، خيار كلاسيكي للتناول الخفيف."
+  },
+  {
+    "name": "مرامي شيبس بالملح 12 جرام × 18",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106017/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-12-%D8%AC%D8%B1%D8%A7%D9%85-18.jpg.jpg"
+    ],
+    "price": 14,
+    "description": "شيبس بطاطس بنكهة الملح البسيطة، مثالي لجميع الأذواق."
+  },
+  {
+    "name": "برينجلز رقائق بطاطس بالخل والملح 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106018/%D8%A8%D8%B1%D9%8A%D9%86%D8%AC%D9%84%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AE%D9%84-%D9%88%D8%A7%D9%84%D9%85%D9%84%D8%AD-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 17.5,
+    "description": "رقائق بطاطس برينجلز بنكهة الخل والملح، مزيج منعش ومقرمش."
+  },
+  {
+    "name": "صن رينج مقرمشات بطعم البصل 16 جرام × 40",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106019/%D8%B5%D9%86-%D8%B1%D9%8A%D9%86%D8%AC-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A7%D8%AA-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A8%D8%B5%D9%84-16-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
+    ],
+    "price": 48.25,
+    "description": "مقرمشات على شكل حلقات بنكهة البصل، مثالية للتشارك."
+  },
+  {
+    "name": "إكس إل شيبس بطاطس ملح وخل 23 جرام × 14",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106020/%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%85%D9%84%D8%AD-%D9%88%D8%AE%D9%84-23-%D8%AC%D8%B1%D8%A7%D9%85-14.jpg.jpg"
+    ],
+    "discount": 15,
+    "price": 15.25,
+    "description": "شيبس بطاطس بنكهة الملح والخل، مثالي للتناول أثناء التنقل."
+  },
+  {
+    "name": "فرشلي فشار الميكروويف بالزبدة 100جرام ×3 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106022/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%88%D9%8A%D9%81-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-100%D8%AC%D8%B1%D8%A7%D9%85-3-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 13.75,
+    "description": "فشار ميكروويف بنكهة الزبدة الكريمية، سهل التحضير ولذيذ."
+  },
+  {
+    "name": "غولدن رينغ حلقات بطعم البصل 60 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106023/%D8%BA%D9%88%D9%84%D8%AF%D9%86-%D8%B1%D9%8A%D9%86%D8%BA-%D8%AD%D9%84%D9%82%D8%A7%D8%AA-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A8%D8%B5%D9%84-60-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.75,
+    "description": "حلقات مقرمشة بنكهة البصل، مثالية للتناول الخفيف."
+  },
+  {
+    "name": "بيوقلز قراقيش ذره بالفلفل الاحمر الحلو 18 جرام × 15",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106024/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D9%87-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1-%D8%A7%D9%84%D8%AD%D9%84%D9%88-18-%D8%AC%D8%B1%D8%A7%D9%85-15.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 19.25,
+    "description": "قراقيش ذرة بنكهة الفلفل الأحمر الحلو، مزيج لذيذ ومنعش."
+  },
+  {
+    "name": "البطل رقائق البطاطس بالملح 110جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106025/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-110%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 4.5,
+    "description": "رقائق بطاطس مملحة كلاسيكية، مثالية للتناول اليومي."
+  },
+  {
+    "name": "باجة ذرة مملحة 20 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106026/%D8%A8%D8%A7%D8%AC%D8%A9-%D8%B0%D8%B1%D8%A9-%D9%85%D9%85%D9%84%D8%AD%D8%A9-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25,
+    "description": "ذرة مملحة مقرمشة، خيار بسيط ولذيذ للتناول الخفيف."
+  },
+  {
+    "name": "كرسبي شيبس حروف بنكهة الكاتشب الناري 80 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106028/%D9%83%D8%B1%D8%B3%D8%A8%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%AD%D8%B1%D9%88%D9%81-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D9%86%D8%A7%D8%B1%D9%8A-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "مقرمشات حروف بنكهة الكاتشب الحارة، ممتعة ومليئة بالنكهة."
+  },
+  {
+    "name": "كيتكو رقائق البطاطس بملح البحر 150 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106029/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13.75,
+    "description": "رقائق بطاطس بنكهة ملح البحر الطبيعي، مثالية للتناول الخفيف."
+  },
+  {
+    "name": "هانترز غورميه رقائق بطاطس مطبوخة يدويا بنكهة الكمأة السوداء 150 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106029/%D9%87%D8%A7%D9%86%D8%AA%D8%B1%D8%B2-%D8%BA%D9%88%D8%B1%D9%85%D9%8A%D9%87-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D9%85%D8%A3%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 20,
+    "description": "رقائق بطاطس فاخرة مطبوخة يدويًا بنكهة الكمأة السوداء الراقية."
+  },
+  {
+    "name": "ليز بطاطس بكاتشب الطماطم 110 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106031/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-110-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.25,
+    "description": "رقائق بطاطس ليز بنكهة الكاتشب الطماطم الغنية، لذيذة ومقرمشة."
+  },
+  {
+    "name": "كتكو فشار مملح 270 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106032/%D9%83%D8%AA%D9%83%D9%88-%D9%81%D8%B4%D8%A7%D8%B1-%D9%85%D9%85%D9%84%D8%AD-270-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.75,
+    "description": "فشار مملح كلاسيكي، مثالي للتناول أثناء مشاهدة الأفلام."
+  },
+  {
+    "name": "بيوقلز سناك الذرة بارتي مكس 130جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106033/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D8%B1%D8%AA%D9%8A-%D9%85%D9%83%D8%B3-130%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 12.5,
+    "description": "سناك ذرة بنكهات متنوعة، مثالي للحفلات والتجمعات."
+  },
+  {
+    "name": "فرفشة بطاطس شيبس هلابينو 21جرام ×12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106034/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%87%D9%84%D8%A7%D8%A8%D9%8A%D9%86%D9%88-21%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 12.75,
+    "description": "شيبس بطاطس بنكهة الهلابينو الحارة، لمحبي النكهات الجريئة."
+  },
+  {
+    "name": "كتكو سناكس سبيرالز بابريكا 14 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106036/%D9%83%D8%AA%D9%83%D9%88-%D8%B3%D9%86%D8%A7%D9%83%D8%B3-%D8%B3%D8%A8%D9%8A%D8%B1%D8%A7%D9%84%D8%B2-%D8%A8%D8%A7%D8%A8%D8%B1%D9%8A%D9%83%D8%A7-14-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.75,
+    "description": "سناكس لولبية بنكهة البابريكا، خفيفة ومليئة بالنكهة."
+  },
+  {
+    "name": "مرامي شيبس ملح 12 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106037/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%85%D9%84%D8%AD-12-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.9,
+    "description": "شيبس بطاطس مملح بسيط، مثالي للتناول اليومي."
+  },
+  {
+    "name": "كيتكو بايتس كرات جبن الشيدر 16 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106038/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A8%D8%A7%D9%8A%D8%AA%D8%B3-%D9%83%D8%B1%D8%A7%D8%AA-%D8%AC%D8%A8%D9%86-%D8%A7%D9%84%D8%B4%D9%8A%D8%AF%D8%B1-16-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.65,
+    "description": "كرات مقرمشة بنكهة جبن الشيدر الغنية، مثالية للتناول السريع."
+  },
+  {
+    "name": "كيتكو مكسيتا رقائق التورتيلا بالفلفل الحار والليمون 23 جرام × 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106039/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D9%85%D9%83%D8%B3%D9%8A%D8%AA%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-23-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 15.75,
+    "description": "رقائق تورتيلا بنكهة الفلفل الحار والليمون، مزيج منعش وحار."
+  },
+  {
+    "name": "كتكو فشار زبدة 270 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106040/%D9%83%D8%AA%D9%83%D9%88-%D9%81%D8%B4%D8%A7%D8%B1-%D8%B2%D8%A8%D8%AF%D8%A9-270-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.75,
+    "description": "فشار بنكهة الزبدة الكريمية، مثالي لمحبي النكهات الغنية."
+  },
+  {
+    "name": "كيتكو بايتس أصابع البطاطس بالكاتشب 16 جرام × 20",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106042/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A8%D8%A7%D9%8A%D8%AA%D8%B3-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-16-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "price": 12.25,
+    "description": "أصابع بطاطس بنكهة الكاتشب، مثالية للتناول أثناء التنقل."
+  },
+  {
+    "name": "صن رينج حلقات بطعم الجبنة 16 جرام × 40",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106043/%D8%B5%D9%86-%D8%B1%D9%8A%D9%86%D8%AC-%D8%AD%D9%84%D9%82%D8%A7%D8%AA-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-16-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
+    ],
+    "price": 48.25,
+    "description": "حلقات مقرمشة بنكهة الجبنة، مثالية للتشارك في التجمعات."
+  },
+  {
+    "name": "هانتر غورميه رقائق كينوا بنكهة الملح البيروفي وردي 75 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106044/%D9%87%D8%A7%D9%86%D8%AA%D8%B1-%D8%BA%D9%88%D8%B1%D9%85%D9%8A%D9%87-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D9%83%D9%8A%D9%86%D9%88%D8%A7-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D9%8A%D8%B1%D9%88%D9%81%D9%8A-%D9%88%D8%B1%D8%AF%D9%8A-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.75,
+    "description": "رقائق كينوا فاخرة بنكهة الملح البيروفي الوردي، خيار صحي ولذيذ."
+  },
+  {
+    "name": "مقرمشات من منتفخات الحبوب 16 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106045/%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A7%D8%AA-%D9%85%D9%86-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%A8%D9%88%D8%A8-16-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25,
+    "description": "مقرمشات خفيفة من الحبوب المنتفخة، مثالية للتناول السريع."
+  },
+  {
+    "name": "كتكو بليس رقائق الخضروات الأصلي 135 جرام",
+    "description": "رقائق خضروات مقرمشة بنكهة أصلية، مصنوعة من مكونات طبيعية، مثالية للتناول الخفيف في أي وقت.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106046/%D9%83%D8%AA%D9%83%D9%88-%D8%A8%D9%84%D9%8A%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-135-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17.25
+  },
+  {
+    "name": "فرفشة بطاطس شيبس بالشطة والليمون 75 جرام",
+    "description": "شيبس بطاطس بنكهة الشطة الحارة والليمون المنعش، يقدم تجربة طعم جريئة ومثيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106047/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D8%B4%D8%B7%D8%A9-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 3.75
+  },
+  {
+    "name": "البطل شيبس بطاطس ريدجز بنكهة الجبن 155جرام",
+    "description": "رقائق بطاطس مموجة بنكهة الجبن الغنية، تقدم قوامًا مقرمشًا وطعمًا لذيذًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106049/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B1%D9%8A%D8%AF%D8%AC%D8%B2-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-155%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.25
+  },
+  {
+    "name": "البطل فشار نكهة فلفل الهالبينيو والجبنة معد بضغط الهواء 23 جرام ×10",
+    "description": "فشار خفيف بنكهة فلفل الهالبينيو الحار والجبنة الكريمية، معد بتقنية ضغط الهواء لقوام مثالي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106051/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D9%87%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%8A%D9%88-%D9%88%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-23-%D8%AC%D8%B1%D8%A7%D9%85-10.jpg.jpg"
+    ],
+    "price": 11.25
+  },
+  {
+    "name": "ليز رقائق البطاطس بالجبنة الفرنسية 110 جرام",
+    "description": "رقائق بطاطس بنكهة الجبنة الفرنسية الفاخرة، تقدم طعمًا كريميًا ومقرمشًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106054/%D9%84%D9%8A%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-110-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.25
+  },
+  {
+    "name": "بيوقل لمة بطعم جبنة الناتشو مشكل 130جرام",
+    "description": "مزيج مقرمش بنكهة جبنة الناتشو الغنية، مثالي للتجمعات والمشاركة مع الأصدقاء.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106055/%D8%A8%D9%8A%D9%88%D9%82%D9%84-%D9%84%D9%85%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-%D9%85%D8%B4%D9%83%D9%84-130%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 12.5
+  },
+  {
+    "name": "نايس شيبس قليل الملح 150 جرام",
+    "description": "رقائق بطاطس خفيفة بمحتوى ملح منخفض، مثالية لمحبي النكهة البسيطة والصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106059/%D9%86%D8%A7%D9%8A%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%82%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%84%D8%AD-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.75
+  },
+  {
+    "name": "ويذرز أوريجينال فشار بالكاراميل 140جرام",
+    "description": "فشار مغطى بطبقة غنية من الكاراميل الحلو، يقدم تجربة طعم لا تُقاوم.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106060/%D9%88%D9%8A%D8%B0%D8%B1%D8%B2-%D8%A3%D9%88%D8%B1%D9%8A%D8%AC%D9%8A%D9%86%D8%A7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D8%A7%D9%85%D9%8A%D9%84-140%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 21,
+    "price": 22
+  },
+  {
+    "name": "فرفشة بطاطس شيبس بالكاتشب 75 جرام",
+    "description": "شيبس بطاطس بنكهة الكاتشب الكلاسيكية، يقدم طعمًا حامضًا وحلوًا متوازنًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106062/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 3.75
+  },
+  {
+    "name": "ليز ستاكس رقائق البطاطس بنكهة الشواء 170 جرام",
+    "description": "رقائق بطاطس مكدسة بنكهة الشواء المدخنة، تقدم قوامًا متينًا وطعمًا غنيًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106063/%D9%84%D9%8A%D8%B2-%D8%B3%D8%AA%D8%A7%D9%83%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%A1-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13
+  },
+  {
+    "name": "فرفشة بطاطس شيبس بالجبنة الفرنسية 75 جرام",
+    "description": "شيبس بطاطس بنكهة الجبنة الفرنسية الكريمية، مثالي لمحبي النكهات الغنية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106064/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 3.75
+  },
+  {
+    "name": "فيركو بطاطس ستيكس فلامين حارة 45جرام",
+    "description": "عيدان بطاطس بنكهة حارة للغاية، مثالية لعشاق التحدي والنكهات القوية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106066/%D9%81%D9%8A%D8%B1%D9%83%D9%88-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-%D9%81%D9%84%D8%A7%D9%85%D9%8A%D9%86-%D8%AD%D8%A7%D8%B1%D8%A9-45%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.25
+  },
+  {
+    "name": "تشونج يونج وان أوفود رقائق الأعشاب البحرية الأصلية المقرمشة للغاية 35 غرام",
+    "description": "رقائق أعشاب بحرية مقرمشة بنكهة أصلية، خفيفة وصحية للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106068/%D8%AA%D8%B4%D9%88%D9%86%D8%AC-%D9%8A%D9%88%D9%86%D8%AC-%D9%88%D8%A7%D9%86-%D8%A3%D9%88%D9%81%D9%88%D8%AF-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D9%84%D9%84%D8%BA%D8%A7%D9%8A%D8%A9-35-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.25
+  },
+  {
+    "name": "فرفشة، عيدان البطاطس، بطعم الجبنة 15جرام",
+    "description": "عيدان بطاطس مقرمشة بنكهة الجبنة اللذيذة، مثالية كوجبة خفيفة صغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106069/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B9%D9%8A%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-15%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1
+  },
+  {
+    "name": "شيتوس بافس - عبوة جامبو 255جرام",
+    "description": "مقرمشات شيتوس المنفوخة بنكهة الجبن الغنية، بحجم كبير للمشاركة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106070/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D8%A8%D8%A7%D9%81%D8%B3-%D8%B9%D8%A8%D9%88%D8%A9-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-255%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 22.25
+  },
+  {
+    "name": "كيتكو بايتس كرات الجبن 16 جرام × 20",
+    "description": "كرات جبن مقرمشة بنكهة غنية، تأتي في عبوات صغيرة مثالية للتناول أثناء التنقل.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106071/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A8%D8%A7%D9%8A%D8%AA%D8%B3-%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-16-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "price": 12.25
+  },
+  {
+    "name": "كتكو اصابع البطاطس 16 جرام",
+    "description": "أصابع بطاطس مقرمشة بنكهة كلاسيكية، مثالية كوجبة خفيفة سريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106072/%D9%83%D8%AA%D9%83%D9%88-%D8%A7%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-16-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.8
+  },
+  {
+    "name": "البطل شيبس باللبن والنعناع 110 جرام",
+    "description": "رقائق بطاطس بنكهة اللبن المنعش والنعناع، تقدم طعمًا فريدًا ومميزًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106074/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%84%D8%A8%D9%86-%D9%88%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-110-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 4.75
+  },
+  {
+    "name": "فرفشة أصابع مقرمشات الذرة بطعم جبنة الناتشو 100جرام",
+    "description": "أصابع ذرة مقرمشة بنكهة جبنة الناتشو الغنية، مثالية للتناول مع الأصدقاء.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106075/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A7%D8%AA-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-100%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 4.75
+  },
+  {
+    "name": "البطل كاتشب رقائق البطاطس 23 جرام",
+    "description": "رقائق بطاطس صغيرة بنكهة الكاتشب الحامضة، مثالية كوجبة خفيفة سريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106076/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "كيتكو رقائق البطاطس بالجبنة و البصل الأخضر 150 جرام",
+    "description": "رقائق بطاطس بنكهة الجبنة الكريمية والبصل الأخضر المنعش، تقدم طعمًا متوازنًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106077/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%88-%D8%A7%D9%84%D8%A8%D8%B5%D9%84-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13.75
+  },
+  {
+    "name": "كيتكو ستيكس تاباسكو بنكهة الفلفل 45 جرام",
+    "description": "عيدان بطاطس بنكهة تاباسكو الحارة والفلفل، تقدم تجربة طعم قوية ومثيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106078/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-%D8%AA%D8%A7%D8%A8%D8%A7%D8%B3%D9%83%D9%88-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5
+  },
+  {
+    "name": "إكس إل شيبس بطاطس ملح وخل 120 جرام",
+    "description": "رقائق بطاطس بنكهة الملح والخل الكلاسيكية، تقدم توازنًا مثاليًا بين الحموضة والملوحة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106079/%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%85%D9%84%D8%AD-%D9%88%D8%AE%D9%84-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.5
+  },
+  {
+    "name": "بيوقلز قراقيش الذرة  بطعم الأصلي 35 جرام",
+    "description": "قراقيش ذرة مقرمشة بنكهة أصلية، خفيفة ومثالية للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106080/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3
+  },
+  {
+    "name": "نايس شيبس الدجاج 150 جرام",
+    "description": "رقائق بطاطس بنكهة الدجاج المشوي، تقدم طعمًا غنيًا ومقرمشًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106081/%D9%86%D8%A7%D9%8A%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.75
+  },
+  {
+    "name": "كيتكو، وجبة بطاطس الذرة الخفيفة بطعم كوكتيل الروبيان 14جرام ×20",
+    "description": "مقرمشات ذرة خفيفة بنكهة كوكتيل الروبيان، مثالية للتناول أثناء التنقل.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106083/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D9%88%D8%AC%D8%A8%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A7%D9%84%D8%AE%D9%81%D9%8A%D9%81%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D9%83%D9%88%D9%83%D8%AA%D9%8A%D9%84-%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-14%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "price": 13
+  },
+  {
+    "name": "إكس إل شيبس بطاطس حارة 120 جرام",
+    "description": "رقائق بطاطس بنكهة حارة، مثالية لمحبي النكهات القوية والمثيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106084/%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%AD%D8%A7%D8%B1%D8%A9-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8
+  },
+  {
+    "name": "كيتكو بايتس، منتفخات الذرة، بطعم جبنة الشيدر، 16جرام",
+    "description": "منتفخات ذرة بنكهة جبنة الشيدر الغنية، خفيفة ومثالية كوجبة خفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106086/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A8%D8%A7%D9%8A%D8%AA%D8%B3-% germline://%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AF%D8%B1-16%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.65
+  },
+  {
+    "name": "سناكارولو، رقائق البطاطس الكلاسيكية 180 جرام",
+    "description": "رقائق بطاطس كلاسيكية بنكهة نقية، تقدم قوامًا مقرمشًا وطعمًا أصيلًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106088/%D8%B3%D9%86%D8%A7%D9%83%D8%A7%D8%B1%D9%88%D9%84%D9%88-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A%D8%A9-180-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10.5
+  },
+  {
+    "name": "كريسبي حلقات  بالجبنة 18 جرام",
+    "description": "حلقات مقرمشة بنكهة الجبنة اللذيذة، مثالية كوجبة خفيفة صغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106089/%D9%83%D8%B1%D9%8A%D8%B3%D8%A8%D9%8A-%D8%AD%D9%84%D9%82%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25
+  },
+  {
+    "name": "ليز ماكس بطاطس بطعم الفلفل الحارالمكسيكي 45 جرام",
+    "description": "رقائق بطاطس بنكهة الفلفل الحار المكسيكي، تقدم تجربة طعم قوية ومثيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106090/%D9%84%D9%8A%D8%B2-%D9%85%D8%A7%D9%83%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A7%D9%84%D9%85%D9%83%D8%B3%D9%8A%D9%83%D9%8A-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3
+  },
+  {
+    "name": "مرامي رقائق البطاطس فلفل 12 جرام  × 18",
+    "description": "رقائق بطاطس صغيرة بنكهة الفلفل الحار، تأتي في عبوات مثالية للمشاركة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106092/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%81%D9%84%D9%81%D9%84-12-%D8%AC%D8%B1%D8%A7%D9%85-18.jpg.jpg"
+    ],
+    "price": 14
+  },
+  {
+    "name": "بيوقلز سناك ذرة  مقرمش بطعم الكراميل 100 جرام",
+    "description": "سناك ذرة مقرمش مغطى بالكاراميل الحلو، يقدم تجربة طعم لذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106093/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D9%85%D9%82%D8%B1%D9%85%D8%B4-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 9.25
+  },
+  {
+    "name": "بيوقلز قراقيش الذرة  بطعم الجبن 35 جرام",
+    "description": "قراقيش ذرة مقرمشة بنكهة الجبن اللذيذة، خفيفة ومثالية للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106094/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3
+  },
+  {
+    "name": "فرشلي فشار 453 جرام",
+    "description": "فشار نقي بوزن كبير، مثالي للتحضير المنزلي والاستمتاع بجلسات الأفلام.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106095/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-453-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 14.45
+  },
+  {
+    "name": "بيوقلز سناك ذرة بالنكهة الأصلية 125 جرام",
+    "description": "سناك ذرة مقرمش بنكهة أصلية، خفيف ومثالي للتناول في أي وقت.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106097/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5
+  },
+  {
+    "name": "كرات الجبن المقرمشة 90 جرام",
+    "description": "كرات جبن مقرمشة بنكهة غنية، مثالية كوجبة خفيفة ممتعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106098/%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.94
+  },
+  {
+    "name": "إكس إل شيبس بطاطس مملحة 120 جرام",
+    "description": "رقائق بطاطس بنكهة الملح الكلاسيكية، تقدم قوامًا مقرمشًا وطعمًا نقيًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106099/%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%85%D9%85%D9%84%D8%AD%D8%A9-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.5
+  },
+  {
+    "name": "البطل شيبس بالفلفل 23 جرام",
+    "description": "رقائق بطاطس صغيرة بنكهة الفلفل الحار، مثالية كوجبة خفيفة سريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106100/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "كيتكو أصابع البطاطس بنكهة الدجاج المشوي 45 جرام",
+    "description": "أصابع بطاطس مقرمشة بنكهة الدجاج المشوي، تقدم طعمًا غنيًا ومميزًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106102/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A7%D9%84%D9%85%D8%B4%D9%88%D9%8A-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5
+  },
+  {
+    "name": "بيوقلز ذرة مقرمشة حار مثل النار 125 جرام",
+    "description": "سناك ذرة مقرمش بنكهة حارة للغاية، مثالي لعشاق النكهات القوية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106103/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B0%D8%B1%D8%A9-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D8%AD%D8%A7%D8%B1-%D9%85%D8%AB%D9%84-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5
+  },
+  {
+    "name": "برولايف برو تشيبس رقائق البازلاء بنكهة الجبن المتبل 60 جرام",
+    "description": "رقائق بازلاء غنية بالبروتين بنكهة الجبن المتبل، خيار صحي ومقرمش.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106104/%D8%A8%D8%B1%D9%88  germline://%D8%B1%D9%88-%D8%AA%D8%B4%D9%8A%D8%A8%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D9%84-60-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 16.5
+  },
+  {
+    "name": "كتكو نايس رقائق البطاطس قليل الملح 21 جرام ×12",
+    "description": "رقائق بطاطس خفيفة بمحتوى ملح منخفض، تأتي في عبوات صغيرة للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106105/%D9%83%D8%AA%D9%83%D9%88-%D9%86%D8%A7%D9%8A%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%82%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%84%D8%AD-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 13.75
+  },
+  {
+    "name": "نايس شيبس بابريكا 150 جرام",
+    "description": "رقائق بطاطس بنكهة البابريكا المدخنة، تقدم طعمًا غنيًا ومميزًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106106/%D9%86%D8%A7%D9%8A%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D8%A8%D8%B1%D9%8A%D9%83%D8%A7-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.75
+  },
+  {
+    "name": "ليز ستاكس رقائق البطاطس الأصلي 170 جرام",
+    "description": "رقائق بطاطس مكدسة بنكهة أصلية، تقدم قوامًا متينًا وطعمًا نقيًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106107/%D9%84%D9%8A%D8%B2-%D8%B3%D8%AA%D8%A7%D9%83%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة بالفلفل الاحمر الحلو 35 جرام",
+    "description": "قراقيش ذرة مقرمشة بنكهة الفلفل الأحمر الحلو، خفيفة ومثالية للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106109/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1-%D8%A7%D9%84%D8%AD%D9%84%D9%88-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3
+  },
+  {
+    "name": "هنتر فودس هنترز غورميه رقائق بطاطس محضرة يدويا بنكهة فلفل حار 125 جرام",
+    "description": "رقائق بطاطس فاخرة محضرة يدويًا بنكهة الفلفل الحار، تقدم طعمًا غنيًا ومميزًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106110/%D9%87%D9%86%D8%AA%D8%B1-%D9%81%D9%88%D8%AF%D8%B3-%D9%87%D9%86%D8%AA%D8%B1%D8%B2-%D8%BA%D9%88%D8%B1%D9%85%D9%8A%D9%87-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%85%D8%AD%D8%B6%D8%B1%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D8%AD%D8%A7%D8%B1-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.25
+  },
+  {
+    "name": "كتكو بوب كورن جبنة 270 جرام",
+    "description": "فشار مغطى بنكهة الجبنة الغنية، مثالي للمشاركة في التجمعات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106111/%D9%83%D8%AA%D9%83%D9%88-%D8%A8%D9%88%D8%A8-%D9%83%D9%88%D8%B1%D9%86-%D8%AC%D8%A8%D9%86%D8%A9-270-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.75
+  },
+  {
+    "name": "البطل داينر سناكس 15 جرام",
+    "description": "سناك مقرمش بنكهة مميزة، مثالي كوجبة خفيفة صغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106112/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%AF%D8%A7%D9%8A%D9%86%D8%B1-%D8%B3%D9%86%D8%A7%D9%83%D8%B3-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.7
+  },
+  {
+    "name": "البطل فشار نكهة فلفل الهالبينيو والجبنة معد بضغط الهواء 90 جرام",
+    "description": "فشار خفيف بنكهة فلفل الهالبينيو الحار والجبنة الكريمية، معد بتقنية ضغط الهواء.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106114/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D9%87%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%8A%D9%88-%D9%88%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.75
+  },
+  {
+    "name": "لابيرفا رقائق بطاطس غنية بالبروتين بنكهة فلفل حلو وحار 55 غرام",
+    "description": "رقائق بطاطس غنية بالبروتين بنكهة الفلفل الحلو والحار، خيار صحي ولذيذ.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106115/%D9%84%D8%A7%D8%A8%D9%8A%D8%B1%D9%81%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%BA%D9%86%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D8%AD%D9%84%D9%88-%D9%88%D8%AD%D8%A7%D8%B1-55-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.5
+  },
+  {
+    "name": "فرفشة شيبس البطاطس بالملح والخل 21 جرام",
+    "description": "شيبس بطاطس صغير بنكهة الملح والخل، مثالي كوجبة خفيفة سريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106116/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%88%D8%A7%D9%84%D8%AE%D9%84-21-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25
+  },
+  {
+    "name": "بيوقلز سناك ذرة بالفلفل الحار 125 جرام",
+    "description": "سناك ذرة مقرمش بنكهة الفلفل الحار، مثالي لمحبي النكهات القوية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106119/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5
+  },
+  {
+    "name": "إكس إل شيبس بطاطس كاتشاب الطماطم 120 جرام",
+    "description": "رقائق بطاطس بنكهة الكاتشب الحامضة، تقدم طعمًا كلاسيكيًا ومقرمشًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106120/%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%83%D8%A7%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.5
+  },
+  {
+    "name": "كيتكو، شيبس البطاطس، بطعم الدجاج 21جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106121/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-21%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس مقرمشة بنكهة الدجاج اللذيذة، مثالية للتناول الخفيف في أي وقت."
+  },
+  {
+    "name": "كيتكو بايتس وجبة خفيفة من بطاطس الذرة بطعم كوكتيل الروبيان 14 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106122/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A8%D8%A7%D9%8A%D8%AA%D8%B3-%D9%88%D8%AC%D8%A8%D8%A9-%D8%AE%D9%81%D9%8A%D9%81%D8%A9-%D9%85%D9%86-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D9%83%D9%88%D9%83%D8%AA%D9%8A%D9%84-%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-14-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.75,
+    "description": "وجبة خفيفة من بطاطس الذرة بنكهة كوكتيل الروبيان الفريدة، مثالية لمحبي النكهات البحرية."
+  },
+  {
+    "name": "فرفشة عيدان بطاطس طبيعية بالهالبينو 15 جرام × 24",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106124/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B9%D9%8A%D8%AF%D8%A7%D9%86-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%87%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%88-15-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 18.75,
+    "description": "عيدان بطاطس طبيعية بنكهة الهالبينو الحارة، تأتي في عبوة تحتوي على 24 كيس للاستمتاع الجماعي."
+  },
+  {
+    "name": "سان كارلو بيو جوستو بابريكا 150 جم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106125/%D8%B3%D8%A7%D9%86-%D9%83%D8%A7%D8%B1%D9%84%D9%88-%D8%A8%D9%8A%D9%88-%D8%AC%D9%88%D8%B3%D8%AA%D9%88-%D8%A8%D8%A7%D8%A8%D8%B1%D9%8A%D9%83%D8%A7-150-%D8%AC%D9%85.jpg.jpg"
+    ],
+    "price": 10.5,
+    "description": "رقائق بطاطس عضوية بنكهة البابريكا المدخنة، تقدم تجربة طعم غنية ومميزة."
+  },
+  {
+    "name": "تشونج يونج ون أوفود رقائق أعشاب بحرية مقرمشة بنكهة الوسابي 35 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106126/%D8%AA%D8%B4%D9%88%D9%86%D8%AC-%D9%8A%D9%88%D9%86%D8%AC-%D9%88%D9%86-%D8%A3%D9%88%D9%81%D9%88%D8%AF-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8-%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%88%D8%B3%D8%A7%D8%A8%D9%8A-35-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.25,
+    "description": "رقائق أعشاب بحرية مقرمشة بنكهة الوسابي الحارة، تقدم تجربة طعم آسيوية مميزة."
+  },
+  {
+    "name": "البطل جبن كرولز 18 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106128/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%AC%D8%A8%D9%86-%D9%83%D8%B1%D9%88%D9%84%D8%B2-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.8,
+    "description": "وجبة خفيفة مقرمشة بنكهة الجبن الغنية، مثالية للأطفال والكبار على حد سواء."
+  },
+  {
+    "name": "ميستر فريد رقائق التورتيلا بالكرنب و السبانخ خالي من الجلوتين 135 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106129/%D9%85%D9%8A%D8%B3%D8%AA%D8%B1-%D9%81%D8%B1%D9%8A%D8%AF-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D9%86%D8%A8-%D9%88-%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%84%D9%88%D8%AA%D9%8A%D9%86-135-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15,
+    "description": "رقائق تورتيلا صحية خالية من الجلوتين بنكهة الكرنب والسبانخ، مثالية للنظام الغذائي الصحي."
+  },
+  {
+    "name": "مرامي رقائق البطاطس بالفلفل الحار 12 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106130/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-12-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.9,
+    "description": "رقائق بطاطس مقرمشة بنكهة الفلفل الحار، تضيف لمسة من الحرارة لتجربة التناول الخفيف."
+  },
+  {
+    "name": "فرفشة أصابع البطاطس الحارة 15 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106131/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1,
+    "description": "أصابع بطاطس مقرمشة بنكهة حارة، مثالية لمحبي النكهات الجريئة."
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة حار مثل النار  195 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106132/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D8%A9-%D8%AD%D8%A7%D8%B1-%D9%85%D8%AB%D9%84-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-195-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 12.5,
+    "description": "قراقيش ذرة بنكهة حارة للغاية، تقدم تجربة طعم قوية لعشاق النكهات النارية."
+  },
+  {
+    "name": "نايس شبس بالبهارات الحارة 150 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106133/%D9%86%D8%A7%D9%8A%D8%B3-%D8%B4%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D8%A8%D9%87%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 6.75,
-    "description": "كراكر صن رينج بنكهة الجبن، وجبة خفيفة مقرمشة ومناسبة للعائلة. معبأة في كيس 60 جرام."
+    "description": "رقائق بطاطس بنكهة البهارات الحارة، مثالية لمحبي النكهات الشرقية المميزة."
   },
   {
-    "name": "شيتوس كرنشي حار نار 200 جرام",
+    "name": "كيتكو أصابع البطاطا بنكهة الكاتشاب 45 جرام",
     "images": [
-      "https://cdn.mafrservices.com/sys-master-root/h07/he9/51542152511518/412609_main.jpg?im=Resize=400"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106135/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A7%D8%A8-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "أصابع بطاطس مقرمشة بنكهة الكاتشاب الغنية، تقدم تجربة طعم ممتعة ومألوفة."
+  },
+  {
+    "name": "البطل شيبس بالجبن 23 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106136/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة الجبن الكريمية، مثالية للتناول الخفيف."
+  },
+  {
+    "name": "كتكو نايس شيبس بالكاتشب 21 جرام ×12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106137/%D9%83%D8%AA%D9%83%D9%88-%D9%86%D8%A7%D9%8A%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 13.75,
+    "description": "عبوة تحتوي على 12 كيس من رقائق البطاطس بنكهة الكاتشاب، مثالية للمشاركة."
+  },
+  {
+    "name": "هانتر غورميه رقائق كينوا 75 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106139/%D9%87%D8%A7%D9%86%D8%AA%D8%B1-%D8%BA%D9%88%D8%B1%D9%85%D9%8A%D9%87-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D9%83%D9%8A%D9%86%D9%88%D8%A7-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.75,
+    "description": "رقائق كينوا صحية ومقرمشة، تقدم خيارًا مغذيًا للتناول الخفيف."
+  },
+  {
+    "name": "مرامي شيبس على شكل  ونكهة الدجاج  14 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106140/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D9%88%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-14-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.9,
+    "description": "رقائق مقرمشة بنكهة الدجاج اللذيذة، مثالية للتناول أثناء التنقل."
+  },
+  {
+    "name": "كتكو شيبس بطاطس كاتشب 21 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106141/%D9%83%D8%AA%D9%83%D9%88-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-21-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس مقرمشة بنكهة الكاتشاب الحامضة والحلوة، لتجربة طعم لا تُقاوم."
+  },
+  {
+    "name": "أوفود رقائق الأعشاب البحرية بالجبنة المقرمشة 35جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106142/%D8%A3%D9%88%D9%81%D9%88%D8%AF-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-35%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.25,
+    "description": "رقائق أعشاب بحرية مقرمشة بنكهة الجبن، تقدم تجربة طعم فريدة ومغذية."
+  },
+  {
+    "name": "فرفشة رقائق البطاطس بالهالبينو 75 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106143/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%87%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%88-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 3.75,
+    "description": "رقائق بطاطس بنكهة الهالبينو الحارة، مثالية لمحبي النكهات القوية."
+  },
+  {
+    "name": "كتكو مكسيتا رقائق التورتيلا بالفلفل الحار والليمون 23 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106144/%D9%83%D8%AA%D9%83%D9%88-%D9%85%D9%83%D8%B3%D9%8A%D8%AA%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "رقائق تورتيلا بنكهة الفلفل الحار والليمون المنعش، لتجربة طعم مكسيكية أصيلة."
+  },
+  {
+    "name": "ليز ستاكس رقائق البطاطس بالفلفل الحار 170 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106146/%D9%84%D9%8A%D8%B2-%D8%B3%D8%AA%D8%A7%D9%83%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13,
+    "description": "رقائق بطاطس مقرمشة بنكهة الفلفل الحار، مثالية للتناول مع الأصدقاء."
+  },
+  {
+    "name": "اكس ال رقائق البطاطس بالجبنة الفرنسية 120 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106148/%D8%A7%D9%83%D8%B3-%D8%A7%D9%84-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.5,
+    "description": "رقائق بطاطس بنكهة الجبنة الفرنسية الفاخرة، تقدم تجربة طعم أوروبية مميزة."
+  },
+  {
+    "name": "كيتكو، شيبس البطاطس، بالبهارات الحارة 21جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106149/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%A8%D9%87%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-21%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس بنكهة البهارات الحارة، مثالية لمحبي النكهات الجريئة."
+  },
+  {
+    "name": "بيوقلز سناك ذرة بالنكهة الأصلية 18 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106150/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2,
+    "description": "وجبة خفيفة من الذرة بنكهة أصلية، تقدم طعمًا كلاسيكيًا ومقرمشًا."
+  },
+  {
+    "name": "كتكو شيبس بطاطس قليل الملح 21 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106151/%D9%83%D8%AA%D9%83%D9%88-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%82%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%84%D8%AD-21-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس قليلة الملح، مثالية لمن يفضلون النكهات الخفيفة والصحية."
+  },
+  {
+    "name": "البطل فشار مع قطع بسكويت الشوكولاتة معد بضغط الهواء 140 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106152/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D9%85%D8%B9-%D9%82%D8%B7%D8%B9-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-140-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "فشار مقرمش مع قطع بسكويت الشوكولاتة، يقدم مزيجًا لذيذًا من الحلو والمالح."
+  },
+  {
+    "name": "فيركو أصابع البطاطس بالنكهة البرازيلية (الليمون والفلفل الحار) 45جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106153/%D9%81%D9%8A%D8%B1%D9%83%D9%88-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-%D9%88%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-45%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.25,
+    "description": "أصابع بطاطس بنكهة برازيلية منعشة تجمع بين الليمون والفلفل الحار."
+  },
+  {
+    "name": "بيوقلز سناك ذرة بالجبنة 18 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106155/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2,
+    "description": "وجبة خفيفة من الذرة بنكهة الجبنة الكريمية، مثالية للتناول السريع."
+  },
+  {
+    "name": "اكستريم شيبس جبنة فرنسية 23 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106156/%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D9%8A%D9%85-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%AC%D8%A8%D9%86%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "رقائق بطاطس بنكهة الجبنة الفرنسية الفاخرة، تقدم تجربة طعم غنية."
+  },
+  {
+    "name": "تيتو شيبس مطبوخة في غلاية بنكهة الفلفل الأسود 40 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106157/%D8%AA%D9%8A%D8%AA%D9%88-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%81%D9%8A-%D8%BA%D9%84%D8%A7%D9%8A%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4,
+    "description": "رقائق بطاطس مطبوخة في غلاية بنكهة الفلفل الأسود، تقدم طعمًا مميزًا ومقرمشًا."
+  },
+  {
+    "name": "كتكو بطاطس سناك كوكتيل 15 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106158/%D9%83%D8%AA%D9%83%D9%88-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%B3%D9%86%D8%A7%D9%83-%D9%83%D9%88%D9%83%D8%AA%D9%8A%D9%84-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.75,
+    "description": "وجبة خفيفة من البطاطس بنكهة الكوكتيل المنعشة، مثالية للتناول أثناء التنقل."
+  },
+  {
+    "name": "البطل كرات الجبن 18 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106159/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.8,
+    "description": "كرات جبن مقرمشة ولذيذة، تقدم تجربة طعم ممتعة لجميع الأعمار."
+  },
+  {
+    "name": "هانترز رقائق البازلاء اللذيذة 50 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106160/%D9%87%D8%A7%D9%86%D8%AA%D8%B1%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D9%84%D8%B0%D9%8A%D8%B0%D8%A9-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18.5,
+    "description": "رقائق بازلاء مقرمشة وصحية، تقدم خيارًا مغذيًا ولذيذًا للتناول الخفيف."
+  },
+  {
+    "name": "إكس آل شيبس بالفلفل الحار 23 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106161/%D8%A5%D9%83%D8%B3-%D8%A2%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "رقائق بطاطس بنكهة الفلفل الحار، مثالية لمحبي النكهات القوية والحارة."
+  },
+  {
+    "name": "البطل فشار حار معد بضغط الهواء 23 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106163/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%AD%D8%A7%D8%B1-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25,
+    "description": "فشار حار ومقرمش معد بضغط الهواء، يقدم تجربة طعم حارة وخفيفة."
+  },
+  {
+    "name": "فرفشة بطاطس حار 15 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106164/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%AD%D8%A7%D8%B1-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1,
+    "description": "رقائق بطاطس حارة ومقرمشة، مثالية لمحبي النكهات الحادة."
+  },
+  {
+    "name": "بيوقلز سناك ذرة باجنحة البوفالو 125 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106165/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D8%AC%D9%86%D8%AD%D8%A9-%D8%A7%D9%84%D8%A8%D9%88%D9%81%D8%A7%D9%84%D9%88-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5,
+    "description": "وجبة خفيفة من الذرة بنكهة أجنحة البوفالو الحارة، تقدم تجربة طعم أمريكية."
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة بالفلفل الاحمر الحلو 18 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106166/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1-%D8%A7%D9%84%D8%AD%D9%84%D9%88-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2,
+    "description": "قراقيش ذرة بنكهة الفلفل الأحمر الحلو، تقدم طعمًا متوازنًا بين الحلاوة والحرارة."
+  },
+  {
+    "name": "فرشلي بوبكورن بالزبدة خالي من الدهون 94 % 255 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106167/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%A8%D9%88%D8%A8%D9%83%D9%88%D8%B1%D9%86-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D9%87%D9%88%D9%86-94-255-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 12.45,
+    "description": "فشار بالزبدة خالي من الدهون بنسبة 94%، مثالي لمحبي الوجبات الخفيفة الصحية."
+  },
+  {
+    "name": "سان كارلو بيو جوستو طماطم 150 جم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106168/%D8%B3%D8%A7%D9%86-%D9%83%D8%A7%D8%B1%D9%84%D9%88-%D8%A8%D9%8A%D9%88-%D8%AC%D9%88%D8%B3%D8%AA%D9%88-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-150-%D8%AC%D9%85.jpg.jpg"
+    ],
+    "price": 10.5,
+    "description": "رقائق بطاطس عضوية بنكهة الطماطم الطازجة، تقدم طعمًا إيطاليًا أصيلًا."
+  },
+  {
+    "name": "كتكو - رقائق البطاطس - جبنة فرنسية 21 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106169/%D9%83%D8%AA%D9%83%D9%88-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%AC%D8%A8%D9%86%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-21-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "رقائق بطاطس بنكهة الجبنة الفرنسية الكريمية، مثالية للتناول الخفيف."
+  },
+  {
+    "name": "تيتو ستيكس بطاطس بالفلفل الحلو 35 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106170/%D8%AA%D9%8A%D8%AA%D9%88-%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D9%84%D9%88-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.25,
+    "description": "أصابع بطاطس بنكهة الفلفل الحلو، تقدم طعمًا متوازنًا ومقرمشًا."
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة حارة مثل النار 35جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106171/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-%D9%85%D8%AB%D9%84-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-35%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "قراقيش ذرة بنكهة حارة للغاية، مثالية لمحبي النكهات النارية."
+  },
+  {
+    "name": "لابيرفا رقائق الشواء الخفيفة 25جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106173/%D9%84%D8%A7%D8%A8%D9%8A%D8%B1%D9%81%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%A1-%D8%A7%D9%84%D8%AE%D9%81%D9%8A%D9%81%D8%A9-25%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "رقائق بنكهة الشواء الخفيفة، تقدم طعمًا مدخنًا ولذيذًا."
+  },
+  {
+    "name": "فرفشة بطاطس حار هالابينيو 21 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106174/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%AD%D8%A7%D8%B1-%D9%87%D8%A7%D9%84%D8%A7%D8%A8%D9%8A%D9%86%D9%8A%D9%88-21-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25,
+    "description": "رقائق بطاطس بنكهة الهالبينو الحارة، مثالية لمحبي النكهات القوية."
+  },
+  {
+    "name": "برينجلز رقائق البطاطس الحار 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106175/%D8%A8%D8%B1%D9%8A%D9%86%D8%AC%D9%84%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 17.5,
+    "description": "رقائق بطاطس برينجلز بنكهة حارة، تقدم تجربة طعم مقرمشة ومميزة."
+  },
+  {
+    "name": "بيب بوب كورن أصفر مهجن 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106176/%D8%A8%D9%8A%D8%A8-%D8%A8%D9%88%D8%A8-%D9%83%D9%88%D8%B1%D9%86-%D8%A3%D8%B5%D9%81%D8%B1-%D9%85%D9%87%D8%AC%D9%86-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "بوب كورن أصفر مهجن، مثالي لتحضير الفشار المنزلي الطازج."
+  },
+  {
+    "name": "البطل شيبس بالزبادي والنعناع  23 جرام عبوة من 12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106177/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%A7%D8%AF%D9%8A-%D9%88%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-23-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-12.jpg.jpg"
+    ],
+    "price": 15.5,
+    "description": "عبوة تحتوي على 12 كيس من رقائق البطاطس بنكهة الزبادي والنعناع المنعشة."
+  },
+  {
+    "name": "تسالي شرائح البطاطس بالكاتشب 155 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106178/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.9,
+    "description": "شرائح بطاطس مقرمشة بنكهة الكاتشاب، مثالية للتناول مع العائلة."
+  },
+  {
+    "name": "فرشلي فشار مايكرويف بنكهة الزبدة لايت 297 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106180/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D9%8A%D9%81-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D9%84%D8%A7%D9%8A%D8%AA-297-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.95,
+    "description": "فشار مايكرويف بنكهة الزبدة الخفيفة، مثالي للتحضير السريع والاستمتاع."
+  },
+  {
+    "name": "كتكو نايس شيبس بالدجاج 21 جرام ×12",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106181/%D9%83%D8%AA%D9%83%D9%88-%D9%86%D8%A7%D9%8A%D8%B3-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "price": 13.75,
+    "description": "عبوة تحتوي على 12 كيس من رقائق البطاطس بنكهة الدجاج، مثالية للمشاركة."
+  },
+  {
+    "name": "برينجلز بطاطس باربكيو 70 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106182/%D8%A8%D8%B1%D9%8A%D9%86%D8%AC%D9%84%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D8%B1%D8%A8%D9%83%D9%8A%D9%88-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8,
+    "description": "رقائق بطاطس برينجلز بنكهة الباربكيو المدخنة، تقدم طعمًا لذيذًا."
+  },
+  {
+    "name": "سولين صن رينج حلقات بطعم الجبنة 16 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106183/%D8%B3%D9%88%D9%84%D9%8A%D9%86-%D8%B5%D9%86-%D8%B1%D9%8A%D9%86%D8%AC-%D8%AD%D9%84%D9%82%D8%A7%D8%AA-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-16-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25,
+    "description": "حلقات مقرمشة بنكهة الجبنة، مثالية للأطفال والتناول الخفيف."
+  },
+  {
+    "name": "دوريتوس رقائق التورتيلا حار نار بالسيراتشا 195 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106185/%D8%AF%D9%88%D8%B1%D9%8A%D8%AA%D9%88%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%A7%D8%B1-%D9%86%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA%D8%B4%D8%A7-195-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 8.25,
-    "description": "شيتوس كرنشي بنكهة حارة نار، وجبة خفيفة قوية ومقرمشة لمحبي النكهات الحارة. معبأة في كيس 200 جرام."
+    "description": "رقائق تورتيلا بنكهة السيراتشا الحارة جدًا، مثالية لمحبي النكهات النارية."
+  },
+  {
+    "name": "باجة ذرة بنكهة الفلفل الحار 20 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106186/%D8%A8%D8%A7%D8%AC%D8%A9-%D8%B0%D8%B1%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25,
+    "description": "وجبة خفيفة من الذرة بنكهة الفلفل الحار، تقدم طعمًا مقرمشًا وحارًا."
+  },
+  {
+    "name": "ليز بطاطس بالملح والخل 48 جرام",
+    "description": "رقائق بطاطس مقرمشة بنكهة الملح والخل المنعشة، مثالية للتناول الخفيف في أي وقت.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106187/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%88%D8%A7%D9%84%D8%AE%D9%84-48-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3
+  },
+  {
+    "name": "برينجلز بطاطس بالنكهة الأصلية 70 جرام",
+    "description": "رقائق بطاطس برينجلز الأصلية المقرمشة، تقدم طعمًا كلاسيكيًا في كل قضمة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106188/%D8%A8%D8%B1%D9%8A%D9%86%D8%AC%D9%84%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.75
+  },
+  {
+    "name": "تسالي شيبس بالليمون والكمون 155 جرام",
+    "description": "شيبس مقرمش بنكهة الليمون الحامض والكمون الغني، يضيف نكهة مميزة لتجربتك الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106189/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-%D9%88%D8%A7%D9%84%D9%83%D9%85%D9%88%D9%86-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.9
+  },
+  {
+    "name": "بيوقلز سناك ذرة بالجبنة 125 جرام",
+    "description": "سناك ذرة مقرمش بنكهة الجبنة الغنية، مثالي لمحبي النكهات القوية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106191/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5
+  },
+  {
+    "name": "البطل رقائق البطاطس بطعم الباربيكيو 110جرام",
+    "description": "رقائق بطاطس مقرمشة بنكهة الباربيكيو المدخنة، مثالية لعشاق النكهات الجريئة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106192/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%A8%D9%8A%D9%83%D9%8A%D9%88-110%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 11,
+    "price": 5
+  },
+  {
+    "name": "فرفشة اصابع البطاطس بالملح  15 جرام",
+    "description": "أصابع بطاطس خفيفة ومقرمشة بنكهة الملح البسيطة، مثالية للوجبات الخفيفة السريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106193/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A7%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1
+  },
+  {
+    "name": "فرشلي فشار مايكرويف بنكهة الزبدة 297 جرام",
+    "description": "فشار ميكروويف بنكهة الزبدة الكريمية، مثالي لأمسيات الأفلام والتجمعات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106194/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%81%D8%B4%D8%A7%D8%B1-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D9%8A%D9%81-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-297-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.95
+  },
+  {
+    "name": "ليز بطاطس بالملح 48 جرام",
+    "description": "رقائق بطاطس كلاسيكية بنكهة الملح النقية، تقدم تجربة تقليدية ومقرمشة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106196/%D9%84%D9%8A%D8%B2-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-48-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3
+  },
+  {
+    "name": "ليز ماكس بنكهوة اجنحة البافلو 160 جرام",
+    "description": "رقائق بطاطس بنكهة أجنحة البافلو الحارة والغنية، لمحبي النكهات الجريئة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106197/%D9%84%D9%8A%D8%B2-%D9%85%D8%A7%D9%83%D8%B3-%D8%A8%D9%86%D9%83%D9%87%D9%88%D8%A9-%D8%A7%D8%AC%D9%86%D8%AD%D8%A9-%D8%A7%D9%84%D8%A8%D8%A7%D9%81%D9%84%D9%88-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5
+  },
+  {
+    "name": "البطل فشار بالفلفل الحار معد بضغط الهواء 90 جرام",
+    "description": "فشار خفيف بنكهة الفلفل الحار المثيرة، معد بتقنية ضغط الهواء لقرمشة مثالية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106199/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25
+  },
+  {
+    "name": "بيوقلز قراقيش ذرة بالفلفل والليمون الاخضر 125جرام",
+    "description": "قراقيش ذرة بنكهة الفلفل الحار والليمون الأخضر المنعش، مثالية للتناول الخفيف.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106200/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D9%82%D8%B1%D8%A7%D9%82%D9%8A%D8%B4-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D8%AE%D8%B6%D8%B1-125%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5
+  },
+  {
+    "name": "مكسيتا، شيبس التورتيلا، جبنة الناتشو 23جرام",
+    "description": "شيبس تورتيلا مقرمش بنكهة جبنة الناتشو الغنية، مثالي للتناول مع الصلصات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106201/%D9%85%D9%83%D8%B3%D9%8A%D8%AA%D8%A7-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-23%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "لايز شرائح بطاطس حار نار بالسيراتشا 170 جرام",
+    "description": "رقائق بطاطس بنكهة السيراتشا الحارة النارية، لمحبي النكهات القوية والمثيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106204/%D9%84%D8%A7%D9%8A%D8%B2-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%AD%D8%A7%D8%B1-%D9%86%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA%D8%B4%D8%A7-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.25
+  },
+  {
+    "name": "بيوقلز سناك ذرة بالكاتشب 125 جرام",
+    "description": "سناك ذرة مقرمش بنكهة الكاتشب الحلوة والحامضة، مثالي لجميع الأعمار.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106205/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B3%D9%86%D8%A7%D9%83-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5
+  },
+  {
+    "name": "بيوقلز جبنة الناتشو حجم كبير 195 جرام",
+    "description": "سناك ذرة بحجم كبير بنكهة جبنة الناتشو الغنية، مثالي للتشارك مع الأصدقاء.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106206/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-%D8%AD%D8%AC%D9%85-%D9%83%D8%A8%D9%8A%D8%B1-195-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 12.5
+  },
+  {
+    "name": "البطل فشار بنكهة التوفي والقهوة معد بضغط الهواء 140 جرام",
+    "description": "فشار بنكهة التوفي الحلوة والقهوة العطرية، معد بضغط الهواء لتجربة خفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106208/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D9%81%D9%8A-%D9%88%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-140-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5
+  },
+  {
+    "name": "مكسيتا تورتيلا شيبس بنكهة جبنة الناتشو 180 جرام",
+    "description": "شيبس تورتيلا بنكهة جبنة الناتشو الكريمية، مثالي للتناول مع الأصدقاء.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106209/%D9%85%D9%83%D8%B3%D9%8A%D8%AA%D8%A7-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D8%B4%D9%88-180-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.95
+  },
+  {
+    "name": "ليز شرائح بطاطس بطعم الكاتشب 48 جرام",
+    "description": "رقائق بطاطس بنكهة الكاتشب الحلوة والمميزة، مثالية للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106210/%D9%84%D9%8A%D8%B2-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-48-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3
+  },
+  {
+    "name": "فرفشة  اصابع البطاطس بالكاتشب 15 جرام",
+    "description": "أصابع بطاطس مقرمشة بنكهة الكاتشب الغنية، مثالية للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106211/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A7%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1
+  },
+  {
+    "name": "هانترز رقائق خضروات مشكلة جورميه 75 جرام",
+    "description": "رقائق خضروات مشكلة فاخرة، تقدم طعمًا صحيًا ومقرمشًا لمحبي الوجبات الخفيفة الراقية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106212/%D9%87%D8%A7%D9%86%D8%AA%D8%B1%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%AC%D9%88%D8%B1%D9%85%D9%8A%D9%87-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18.5
+  },
+  {
+    "name": "إكس إل رقائق شطة 21 جرام × 12",
+    "description": "رقائق بطاطس بنكهة الشطة الحارة، تأتي في عبوات صغيرة مثالية للتشارك.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106213/%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%B4%D8%B7%D8%A9-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "discount": 15,
+    "price": 15.25
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بالكريمة الحامضة والبصل 40جرام",
+    "description": "رقائق بطاطس مطبوخة يدويًا بنكهة الكريمة الحامضة والبصل، تقدم طعمًا غنيًا ومميزًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106215/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D9%88%D8%A7%D9%84%D8%A8%D8%B5%D9%84-40%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2.95
+  },
+  {
+    "name": "كيتكو بلويس - أصابع الخضراوات الهشة، 27 جم × 4 عبوات، الطعم الأصلي",
+    "description": "أصابع خضراوات هشة بنكهة أصلية، تأتي في عبوات صغيرة مثالية للوجبات الخفيفة الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106216/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A8%D9%84%D9%88%D9%8A%D8%B3-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D8%B4%D8%A9-27-%D8%AC%D9%85-4-%D8%B9%D8%A8%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A.jpg.jpg"
+    ],
+    "price": 10.75
+  },
+  {
+    "name": "باجة ذرة بالجبن 20 جرام",
+    "description": "سناك ذرة مقرمش بنكهة الجبن اللذيذة، مثالي للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106217/%D8%A8%D8%A7%D8%AC%D8%A9-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25
+  },
+  {
+    "name": "البطل رقائق البطاطس باللفلفل الحار 110 جرام",
+    "description": "رقائق بطاطس بنكهة الفلفل الحار المثيرة، مثالية لمحبي النكهات النارية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106218/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-110-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 4.5
+  },
+  {
+    "name": "البطل بطاطس بالملح  23 جرام",
+    "description": "رقائق بطاطس خفيفة بنكهة الملح البسيطة، مثالية للتناول السريع.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106219/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "لابيرفا رقائق البروتين بالباربيكيو 55جرام",
+    "description": "رقائق بروتين بنكهة الباربيكيو الغنية، مثالية لمحبي الوجبات الخفيفة الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106220/%D9%84%D8%A7%D8%A8%D9%8A%D8%B1%D9%81%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%A8%D9%83%D9%8A%D9%88-55%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.5
+  },
+  {
+    "name": "فرفشة رقائق البطاطس بالجبنة الفرنسية  21جرام ×12",
+    "description": "رقائق بطاطس بنكهة الجبنة الفرنسية الكريمية، تأتي في عبوات صغيرة مثالية للتشارك.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106221/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-21%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 12.75
+  },
+  {
+    "name": "كرسبي ليترز كاتشب 18 جرام",
+    "description": "رقائق مقرمشة بنكهة الكاتشب الحلوة، مثالية للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106223/%D9%83%D8%B1%D8%B3%D8%A8%D9%8A-%D9%84%D9%8A%D8%AA%D8%B1%D8%B2-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25
+  },
+  {
+    "name": "كتكو بطاطس بالبهارات الحارة 20 جرام",
+    "description": "رقائق بطاطس بنكهة البهارات الحارة المثيرة، مثالية لمحبي النكهات القوية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106224/%D9%83%D8%AA%D9%83%D9%88-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%A8%D9%87%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95
+  },
+  {
+    "name": "مكسيتا تورتيلا شيبس بنكهة حلو وحامض 180 جرام",
+    "description": "شيبس تورتيلا بنكهة حلوة وحامضة متوازنة، مثالي للتناول مع الأصدقاء.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106225/%D9%85%D9%83%D8%B3%D9%8A%D8%AA%D8%A7-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%AD%D9%84%D9%88-%D9%88%D8%AD%D8%A7%D9%85%D8%B6-180-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.95
+  },
+  {
+    "name": "توستيتوس - سيمبلي أورجانيك، رقائق تورتيلا الذرة الزرقاء بالملح البحري 255جرام - مستورد",
+    "description": "رقائق تورتيلا عضوية من الذرة الزرقاء بنكهة ملح البحر، تقدم طعمًا صحيًا وفاخرًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106227/%D8%AA%D9%88%D8%B3%D8%AA%D9%8A%D8%AA%D9%88%D8%B3-%D8%B3%D9%8A%D9%85%D8%A8%D9%84%D9%8A-%D8%A3%D9%88%D8%B1%D8%AC%D8%A7%D9%86%D9%8A%D9%83-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A7%D9%84%D8%B2%D8%B1%D9%82%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A-255%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D8%B3%D8%AA%D9%88%D8%B1%D8%AF.jpg.jpg"
+    ],
+    "price": 34.25
+  },
+  {
+    "name": "مستر تيتو فشار نكهة الزبدة 200 جرام",
+    "description": "فشار بنكهة الزبدة الكريمية، مثالي للتشارك خلال الأمسيات العائلية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106228/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%81%D8%B4%D8%A7%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5
+  },
+  {
+    "name": "البطل شيبس بالملح والخل 23 جرام",
+    "description": "شيبس بطاطس بنكهة الملح والخل المنعشة، مثالي للوجبات الخفيفة السريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106229/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%88%D8%A7%D9%84%D8%AE%D9%84-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "تي تو صوص البطاطس الحار 35 جرام",
+    "description": "صوص بطاطس بنكهة حارة ومثيرة، مثالي لإضافة نكهة قوية لوجباتك الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106230/%D8%AA%D9%8A-%D8%AA%D9%88-%D8%B5%D9%88%D8%B5-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.25
+  },
+  {
+    "name": "كتكو فشار كراميل 270 جرام",
+    "description": "فشار بنكهة الكراميل الحلوة والمقرمشة، مثالي لمحبي الحلويات الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106231/%D9%83%D8%AA%D9%83%D9%88-%D9%81%D8%B4%D8%A7%D8%B1-%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-270-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.75
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بنكهة الجبن 140 جرام",
+    "description": "رقائق بطاطس مطبوخة يدويًا بنكهة الجبن الكريمية، تقدم تجربة فاخرة ومميزة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106233/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-140-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.95
+  },
+  {
+    "name": "كارفور رقائق البطاطس بالجبنة الفرنسية 170 جرام",
+    "description": "رقائق بطاطس بنكهة الجبنة الفرنسية الغنية، مثالية للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106234/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5
+  },
+  {
+    "name": "كارفور كورنيز بالفلفل الحار 13 جرام",
+    "description": "سناك ذرة مقرمش بنكهة الفلفل الحار، مثالي للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106236/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-13-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.95
+  },
+  {
+    "name": "كيدزي شيبس عضوي بالجبنة والأعشاب 12 جرام",
+    "description": "شيبس عضوي بنكهة الجبنة والأعشاب، مثالي للأطفال ومحبي الوجبات الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106237/%D9%83%D9%8A%D8%AF%D8%B2%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%B9%D8%B6%D9%88%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8-12-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 4.15
+  },
+  {
+    "name": "ليز شرائح بطاطس بطعم الكاتشب 48 جرام",
+    "description": "رقائق بطاطس بنكهة الكاتشب الحلوة والمميزة، مثالية للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106210/%D9%84%D9%8A%D8%B2-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-48-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3
+  },
+  {
+    "name": "فرفشة اصابع البطاطس بالكاتشب 15 جرام",
+    "description": "أصابع بطاطس مقرمشة بنكهة الكاتشب الغنية، مثالية للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106211/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A7%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1
+  },
+  {
+    "name": "هانترز رقائق خضروات مشكلة جورميه 75 جرام",
+    "description": "رقائق خضروات مشكلة فاخرة، تقدم طعمًا صحيًا ومقرمشًا لمحبي الوجبات الخفيفة الراقية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106212/%D9%87%D8%A7%D9%86%D8%AA%D8%B1%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%AC%D9%88%D8%B1%D9%85%D9%8A%D9%87-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18.5
+  },
+  {
+    "name": "إكس إل رقائق شطة 21 جرام × 12",
+    "description": "رقائق بطاطس بنكهة الشطة الحارة، تأتي في عبوات صغيرة مثالية للتشارك.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106213/%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%B4%D8%B7%D8%A9-21-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "discount": 15,
+    "price": 15.25
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بالكريمة الحامضة والبصل 40جرام",
+    "description": "رقائق بطاطس مطبوخة يدويًا بنكهة الكريمة الحامضة والبصل، تقدم طعمًا غنيًا ومميزًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106215/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D9%88%D8%A7%D9%84%D8%A8%D8%B5%D9%84-40%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2.95
+  },
+  {
+    "name": "كيتكو بلويس - أصابع الخضراوات الهشة، 27 جم × 4 عبوات، الطعم الأصلي",
+    "description": "أصابع خضراوات هشة بنكهة أصلية، تأتي في عبوات صغيرة مثالية للوجبات الخفيفة الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106216/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%A8%D9%84%D9%88%D9%8A%D8%B3-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D8%B4%D8%A9-27-%D8%AC%D9%85-4-%D8%B9%D8%A8%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A.jpg.jpg"
+    ],
+    "price": 10.75
+  },
+  {
+    "name": "باجة ذرة بالجبن 20 جرام",
+    "description": "سناك ذرة مقرمش بنكهة الجبن اللذيذة، مثالي للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106217/%D8%A8%D8%A7%D8%AC%D8%A9-%D8%B0%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25
+  },
+  {
+    "name": "البطل رقائق البطاطس بالفلفل الحار 110 جرام",
+    "description": "رقائق بطاطس بنكهة الفلفل الحار المثيرة، مثالية لمحبي النكهات النارية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106218/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-110-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 4.5
+  },
+  {
+    "name": "البطل بطاطس بالملح 23 جرام",
+    "description": "رقائق بطاطس خفيفة بنكهة الملح البسيطة، مثالية للتناول السريع.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106219/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "لابيرفا رقائق البروتين بالباربيكيو 55جرام",
+    "description": "رقائق بروتين بنكهة الباربيكيو الغنية، مثالية لمحبي الوجبات الخفيفة الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106220/%D9%84%D8%A7%D8%A8%D9%8A%D8%B1%D9%81%D8%A7-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%A8%D9%83%D9%8A%D9%88-55%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.5
+  },
+  {
+    "name": "فرفشة رقائق البطاطس بالجبنة الفرنسية 21جرام ×12",
+    "description": "رقائق بطاطس بنكهة الجبنة الفرنسية الكريمية، تأتي في عبوات صغيرة مثالية للتشارك.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106221/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-21%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 12.75
+  },
+  {
+    "name": "كرسبي ليترز كاتشب 18 جرام",
+    "description": "رقائق مقرمشة بنكهة الكاتشب الحلوة، مثالية للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106223/%D9%83%D8%B1%D8%B3%D8%A8%D9%8A-%D9%84%D9%8A%D8%AA%D8%B1%D8%B2-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.25
+  },
+  {
+    "name": "كتكو بطاطس بالبهارات الحارة 20 جرام",
+    "description": "رقائق بطاطس بنكهة البهارات الحارة المثيرة، مثالية لمحبي النكهات القوية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106224/%D9%83%D8%AA%D9%83%D9%88-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%A8%D9%87%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.95
+  },
+  {
+    "name": "مكسيتا تورتيلا شيبس بنكهة حلو وحامض 180 جرام",
+    "description": "شيبس تورتيلا بنكهة حلوة وحامضة متوازنة، مثالي للتناول مع الأصدقاء.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106225/%D9%85%D9%83%D8%B3%D9%8A%D8%AA%D8%A7-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%AD%D9%84%D9%88-%D9%88%D8%AD%D8%A7%D9%85%D8%B6-180-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.95
+  },
+  {
+    "name": "توستيتوس - سيمبلي أورجانيك، رقائق تورتيلا الذرة الزرقاء بالملح البحري 255جرام - مستورد",
+    "description": "رقائق تورتيلا عضوية من الذرة الزرقاء بنكهة ملح البحر، تقدم طعمًا صحيًا وفاخرًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106227/%D8%AA%D9%88%D8%B3%D8%AA%D9%8A%D8%AA%D9%88%D8%B3-%D8%B3%D9%8A%D9%85%D8%A8%D9%84%D9%8A-%D8%A3%D9%88%D8%B1%D8%AC%D8%A7%D9%86%D9%8A%D9%83-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A7%D9%84%D8%B2%D8%B1%D9%82%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A-255%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D8%B3%D8%AA%D9%88%D8%B1%D8%AF.jpg.jpg"
+    ],
+    "price": 34.25
+  },
+  {
+    "name": "مستر تيتو فشار نكهة الزبدة 200 جرام",
+    "description": "فشار بنكهة الزبدة الكريمية، مثالي للتشارك خلال الأمسيات العائلية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106228/%D9%85%D8%B3%D8%AA%D8%B1-%D8%AA%D9%8A%D8%AA%D9%88-%D9%81%D8%B4%D8%A7%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5
+  },
+  {
+    "name": "البطل شيبس بالملح والخل 23 جرام",
+    "description": "شيبس بطاطس بنكهة الملح والخل المنعشة، مثالي للوجبات الخفيفة السريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106229/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%88%D8%A7%D9%84%D8%AE%D9%84-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "تي تو صوص البطاطس الحار 35 جرام",
+    "description": "صوص بطاطس بنكهة حارة ومثيرة، مثالي لإضافة نكهة قوية لوجباتك الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106230/%D8%AA%D9%8A-%D8%AA%D9%88-%D8%B5%D9%88%D8%B5-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.25
+  },
+  {
+    "name": "كتكو فشار كراميل 270 جرام",
+    "description": "فشار بنكهة الكراميل الحلوة والمقرمشة، مثالي لمحبي الحلويات الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106231/%D9%83%D8%AA%D9%83%D9%88-%D9%81%D8%B4%D8%A7%D8%B1-%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-270-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.75
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بنكهة الجبن 140 جرام",
+    "description": "رقائق بطاطس مطبوخة يدويًا بنكهة الجبن الكريمية، تقدم تجربة فاخرة ومميزة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106233/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-140-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.95
+  },
+  {
+    "name": "كارفور رقائق البطاطس بالجبنة الفرنسية 170 جرام",
+    "description": "رقائق بطاطس بنكهة الجبنة الفرنسية الغنية، مثالية للتناول اليومي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106234/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5
+  },
+  {
+    "name": "كارفور كورنيز بالفلفل الحار 13 جرام",
+    "description": "سناك ذرة مقرمش بنكهة الفلفل الحار، مثالي للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106236/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-13-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.95
+  },
+  {
+    "name": "كيدزي شيبس عضوي بالجبنة والأعشاب 12 جرام",
+    "description": "شيبس عضوي بنكهة الجبنة والأعشاب، مثالي للأطفال ومحبي الوجبات الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106237/%D9%83%D9%8A%D8%AF%D8%B2%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%B9%D8%B6%D9%88%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8-12-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 4.15
+  },
+  {
+    "name": "البطل سناك دبي 15 جرام",
+    "description": "سناك خفيف بنكهة دبي المميزة، مثالي للوجبات الخفيفة السريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106238/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D8%B3%D9%86%D8%A7%D9%83-%D8%AF%D8%A8%D9%8A-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.65
+  },
+  {
+    "name": "مرامي مشويات على شكل بطاطس بالذرة 14 جرام × 18",
+    "description": "سناك ذرة على شكل بطاطس بنكهة المشويات، مثالي للتشارك في التجمعات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106239/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D9%85%D8%B4%D9%88%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-14-%D8%AC%D8%B1%D8%A7%D9%85-18.jpg.jpg"
+    ],
+    "price": 14
+  },
+  {
+    "name": "بيوقلز ذرة مقرمشة حار حلو 125 جرام",
+    "description": "سناك ذرة مقرمش بنكهة حارة وحلوة متوازنة، مثالي لمحبي النكهات المميزة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106240/%D8%A8%D9%8A%D9%88%D9%82%D9%84%D8%B2-%D8%B0%D8%B1%D8%A9-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D8%AD%D8%A7%D8%B1-%D8%AD%D9%84%D9%88-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 8.5
+  },
+  {
+    "name": "فرفشة اصابع مقرمشات الذرة الحارة 75 جرام",
+    "description": "أصابع ذرة مقرمشة بنكهة حارة، مثالية لمحبي الوجبات الخفيفة المثيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106242/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A7%D8%B5%D8%A7%D8%A8%D8%B9-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A7%D8%AA-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 3.75
+  },
+  {
+    "name": "شيتوس رقائق الذرة كرانشي حار نار بالسيراتشا 140 جرام",
+    "description": "رقائق ذرة كرانشي بنكهة السيراتشا الحارة النارية، مثالية لمحبي النكهات الجريئة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106243/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D9%83%D8%B1%D8%A7%D9%86%D8%B4%D9%8A-%D8%AD%D8%A7%D8%B1-%D9%86%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA%D8%B4%D8%A7-140-%D8%AD%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25
+  },
+  {
+    "name": "تيتو رقائق البطاطس المقلية مع الكمأة السوداء 40 جرام",
+    "description": "رقائق بطاطس مقلية بنكهة الكمأة السوداء الفاخرة، تقدم تجربة راقية ومميزة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106244/%D8%AA%D9%8A%D8%AA%D9%88-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D9%82%D9%84%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D9%83%D9%85%D8%A3%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4
+  },
+  {
+    "name": "البطل فشار بالكراميل معد بضغط الهواء 23 جرام",
+    "description": "فشار خفيف بنكهة الكراميل الحلوة، معد بضغط الهواء لقرمشة مثالية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106245/%D8%A7%D9%84%D8%A8%D8%B7%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D8%B9%D8%AF-%D8%A8%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.45
+  },
+  {
+    "name": "تيتو شيبس مطبوخة في غلاية بنكهة ناتشو تشيز 40 جرام",
+    "description": "شيبس بطاطس مطبوخة في غلاية بنكهة جبنة الناتشو الغنية، تقدم تجربة مقرمشة ولذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106246/%D8%AA%D9%8A%D8%AA%D9%88-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%81%D9%8A-%D8%BA%D9%84%D8%A7%D9%8A%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D9%86%D8%A7%D8%AA%D8%B4%D9%88-%D8%AA%D8%B4%D9%8A%D8%B2-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4
+  },
+  {
+    "name": "هانترز رقائق الشمندر اللذيذة 60جرام",
+    "description": "رقائق شمندر مقرمشة تقدم طعمًا صحيًا ومميزًا، مثالية لمحبي الوجبات الخفيفة الطبيعية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106247/%D9%87%D8%A7%D9%86%D8%AA%D8%B1%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B4%D9%85%D9%86%D8%AF%D8%B1-%D8%A7%D9%84%D9%84%D8%B0%D9%8A%D8%B0%D8%A9-60%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18.5
+  },
+  {
+    "name": "شيتوس رقائق جبنة مقرمشة 226 جرام",
+    "description": "رقائق ذرة بنكهة الجبنة المقرمشة، مثالية للتشارك في التجمعات العائلية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106248/%D8%B4%D9%8A%D8%AA%D9%88%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%AC%D8%A8%D9%86%D8%A9-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-226-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 22.75
+  },
+  {
+    "name": "إكس إل شيبس بطاطس ملح وخل 23 جرام",
+    "description": "شيبس بطاطس بنكهة الملح والخل المنعشة، مثالي للوجبات الخفيفة السريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106249/%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D9%85%D9%84%D8%AD-%D9%88%D8%AE%D9%84-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "روفلز رقائق بطاطس بكريمة حامضة وبصل 184.2 جرام",
+    "description": "رقائق بطاطس بنكهة الكريمة الحامضة والبصل، تقدم طعمًا غنيًا ومقرمشًا.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106251/%D8%B1%D9%88%D9%81%D9%84%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D9%88%D8%A8%D8%B5%D9%84-1842-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 23.25
+  },
+  {
+    "name": "كيتكو رقائق البطاطس بملح البحر وخل التفاح 150 جرام",
+    "description": "رقائق بطاطس بنكهة ملح البحر وخل التفاح المنعش، تقدم تجربة خفيفة ولذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106252/%D9%83%D9%8A%D8%AA%D9%83%D9%88-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D9%88%D8%AE%D9%84-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13.75
+  },
+  {
+    "name": "مرامي شيبس بالخل والملح 12 جرام",
+    "description": "شيبس بطاطس بنكهة الخل والملح المنعشة، مثالي للوجبات الخفيفة الصغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106253/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D8%AE%D9%84-%D9%88%D8%A7%D9%84%D9%85%D9%84%D8%AD-12-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.9
+  },
+  {
+    "name": "كتكو بليس - أصابع الخضروات الهشة زعتر مع الزبادي الكريمي 27 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106255/%D9%83%D8%AA%D9%83%D9%88-%D8%A8%D9%84%D9%8A%D8%B3-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D8%B4%D8%A9-%D8%B2%D8%B9%D8%AA%D8%B1-%D9%85%D8%B9-%D8%A7%D9%84%D8%B2%D8%A8%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D9%8A-27-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.25,
+    "description": "أصابع خضروات مقرمشة بنكهة الزعتر الغنية مع لمسة من الزبادي الكريمي، مثالية للتناول الخفيف."
+  },
+  {
+    "name": "ليز ماكس شيكاغو هوت وينجز 45 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106256/%D9%84%D9%8A%D8%B2-%D9%85%D8%A7%D9%83%D8%B3-%D8%B4%D9%8A%D9%83%D8%A7%D8%BA%D9%88-%D9%87%D9%88%D8%AA-%D9%88%D9%8A%D9%86%D8%AC%D8%B2-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "رقائق بطاطس بنكهة أجنحة شيكاغو الحارة، تقدم تجربة طعم جريئة ومثيرة."
+  },
+  {
+    "name": "مرامي أشكال البطاطس بالذرة مشوي 14 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106257/%D9%85%D8%B1%D8%A7%D9%85%D9%8A-%D8%A3%D8%B4%D9%83%D8%A7%D9%84-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D9%85%D8%B4%D9%88%D9%8A-14-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 0.9,
+    "description": "وجبة خفيفة مشوية من البطاطس والذرة بأشكال ممتعة، مثالية للأطفال والكبار."
+  },
+  {
+    "name": "كتكو شيبس 150 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106258/%D9%83%D8%AA%D9%83%D9%88-%D8%B4%D9%8A%D8%A8%D8%B3-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.5,
+    "description": "رقائق بطاطس كلاسيكية مقرمشة، مثالية للمشاركة في التجمعات العائلية."
+  },
+  {
+    "name": "هانترز غورميه رقائق البطاطس المطبوخة يدويا مع الكمأة السوداء 125 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106259/%D9%87%D8%A7%D9%86%D8%AA%D8%B1%D8%B2-%D8%BA%D9%88%D8%B1%D9%85%D9%8A%D9%87-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D9%85%D8%B9-%D8%A7%D9%84%D9%83%D9%85%D8%A3%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 16,
+    "description": "رقائق بطاطس فاخرة مطبوخة يدويًا بنكهة الكمأة السوداء الغنية، لمحبي النكهات الراقية."
+  },
+  {
+    "name": "برينجلز رقائق البطاطس بطعم الجبن والبصل 200جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106260/%D8%A8%D8%B1%D9%8A%D9%86%D8%AC%D9%84%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AC%D8%A8%D9%86-%D9%88%D8%A7%D9%84%D8%A8%D8%B5%D9%84-200%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17.5,
+    "description": "رقائق برينجلز المقرمشة بنكهة الجبن والبصل، مثالية لعشاق النكهات القوية."
+  },
+  {
+    "name": "برو هيروز منتفخات الذرة المدعمة بالفيتامينات بنكهة الفلفل الحلو، 30 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106261/%D8%A8%D8%B1%D9%88-%D9%87%D9%8A%D8%B1%D9%88%D8%B2-%D9%85%D9%86%D8%AA%D9%81%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D8%B9%D9%85%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AA%D8%A7%D9%85%D9%8A%D9%86%D8%A7%D8%AA-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D9%84%D9%88-30-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.75,
+    "description": "منتفخات ذرة صحية مدعمة بالفيتامينات بنكهة الفلفل الحلو، خيار مغذي ولذيذ."
+  },
+  {
+    "name": "حافل - فشار المايكرويف، بالزبدة، 300جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106263/%D8%AD%D8%A7%D9%81%D9%84-%D9%81%D8%B4%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D9%8A%D9%81-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-300%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.5,
+    "description": "فشار مايكرويف بنكهة الزبدة الغنية، مثالي لأمسيات الأفلام المنزلية."
+  },
+  {
+    "name": "إكس أل شيبس بالكاتشاب 23 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106264/%D8%A5%D9%83%D8%B3-%D8%A3%D9%84-%D8%B4%D9%8A%D8%A8%D8%B3-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A7%D8%A8-23-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "رقائق بطاطس مقرمشة بنكهة الكاتشاب الكلاسيكية، وجبة خفيفة سريعة."
+  },
+  {
+    "name": "تيتو ستيكس بطاطس بالطماطم والكاتشب 35 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106265/%D8%AA%D9%8A%D8%AA%D9%88-%D8%B3%D8%A7%D8%AA%D9%8A%D9%83%D8%B3-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%88%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.25,
+    "description": "أصابع بطاطس بنكهة الطماطم والكاتشاب، تقدم طعمًا حامضيًا منعشًا."
+  },
+  {
+    "name": "تسالي شرائح بطاطس بالجبنة الكريمية الحارة 155 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106267/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-155-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.75,
+    "description": "شرائح بطاطس بنكهة الجبنة الكريمية الحارة، لمحبي النكهات الجريئة."
+  },
+  {
+    "name": "تسالي شرائح بطاطس بالجبنة الكريمية الحارة 55 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106268/%D8%AA%D8%B3%D8%A7%D9%84%D9%8A-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-55-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2.75,
+    "description": "شرائح بطاطس مقرمشة بنكهة الجبنة الكريمية الحارة في عبوة صغيرة مريحة."
+  },
+  {
+    "name": "لورينز رقائق البطاطس بطعم بابريكا 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106269/%D9%84%D9%88%D8%B1%D9%8A%D9%86%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A8%D8%A7%D8%A8%D8%B1%D9%8A%D9%83%D8%A7-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.25,
+    "description": "رقائق بطاطس بنكهة البابريكا المدخنة، تقدم طعمًا غنيًا ومميزًا."
+  },
+  {
+    "name": "لورينز رقائق البطاطا بالكريمة الحامضة 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106271/%D9%84%D9%88%D8%B1%D9%8A%D9%86%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.25,
+    "description": "رقائق بطاطس بنكهة الكريمة الحامضة الكلاسيكية، مثالية لمحبي النكهات الناعمة."
+  },
+  {
+    "name": "لورينز بومستيكس بطعم البابريكا 85جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106272/%D9%84%D9%88%D8%B1%D9%8A%D9%86%D8%B2-%D8%A8%D9%88%D9%85%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8%D8%B1%D9%8A%D9%83%D8%A7-85%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.5,
+    "description": "أصابع بطاطس مقرمشة بنكهة البابريكا، وجبة خفيفة مليئة بالنكهة."
+  },
+  {
+    "name": "لورينز بومستيك أصابع البطاطس المملحة 85جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106273/%D9%84%D9%88%D8%B1%D9%8A%D9%86%D8%B2-%D8%A8%D9%88%D9%85%D8%B3%D8%AA%D9%8A%D9%83-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D9%85%D9%84%D8%AD%D8%A9-85%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.5,
+    "description": "أصابع بطاطس مملحة خفيفة ومقرمشة، خيار كلاسيكي للتناول اليومي."
+  },
+  {
+    "name": "لورينز كرن شيبس مملح 85 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106274/%D9%84%D9%88%D8%B1%D9%8A%D9%86%D8%B2-%D9%83%D8%B1%D9%86-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%85%D9%85%D9%84%D8%AD-85-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.75,
+    "description": "رقائق ذرة مملحة مقرمشة، تقدم نكهة خفيفة وممتعة."
+  },
+  {
+    "name": "كارفور رقائق البطاطس المطبوخة يدويا بنكهة الفلفل الحار 40 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106276/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D9%8A%D8%AF%D9%88%D9%8A%D8%A7-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2.95,
+    "description": "رقائق بطاطس مطبوخة يدويًا بنكهة الفلفل الحار، لعشاق النكهات الحادة."
+  },
+  {
+    "name": "لورينز رقائق البطاطا الحارة 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106277/%D9%84%D9%88%D8%B1%D9%8A%D9%86%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.5,
+    "description": "رقائق بطاطس حارة تقدم تجربة طعم قوية ومثيرة."
+  },
+  {
+    "name": "لورينز رقائق البطاطا بملح البحر 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106278/%D9%84%D9%88%D8%B1%D9%8A%D9%86%D8%B2-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D8%A8%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.25,
+    "description": "رقائق بطاطس بنكهة ملح البحر النقي، خيار بسيط ولذيذ."
+  },
+  {
+    "name": "فرفشة بطاطس بالهالبينو 21 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106279/%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-%D8%A8%D8%A7%D9%84%D9%87%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%88-21-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.15,
+    "description": "رقائق بطاطس بنكهة الهالبينو الحارة، وجبة خفيفة مليئة بالإثارة."
+  },
+  {
+    "name": "ديمه فرفشة شيبس كاتشب 21 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106280/%D8%AF%D9%8A%D9%85%D9%87-%D9%81%D8%B1%D9%81%D8%B4%D8%A9-%D8%B4%D9%8A%D8%A8%D8%B3-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-21-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 1.15,
+    "description": "رقائق بطاطس بنكهة الكاتشاب المحببة، مثالية للتناول أثناء التنقل."
   }
 ]

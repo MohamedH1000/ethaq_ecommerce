@@ -1,0 +1,1360 @@
+[
+  {
+    "name": "نوتيلا شوكولاتة مع البندق قابلة للدهن 825 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108482/%D9%86%D9%88%D8%AA%D9%8A%D9%84%D8%A7-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-825-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 29.95,
+    "description": "كريمة الشوكولاتة والبندق اللذيذة من نوتيلا، مثالية للدهن على الخبز أو استخدامها في الحلويات."
+  },
+  {
+    "name": "قودي زبدة الفول السوداني الناعمة 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108483/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B9%D9%85%D8%A9-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 21.5,
+    "discounted_price": 18.95,
+    "description": "زبدة الفول السوداني الناعمة من قودي، غنية بالبروتين ومثالية للفطور أو الوجبات الخفيفة."
+  },
+  {
+    "name": "حلواني مربى فراولة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108484/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.75,
+    "description": "مربى الفراولة من حلواني، مصنوع من فواكه طازجة لنكهة طبيعية لذيذة."
+  },
+  {
+    "name": "الشفاء عسل طبيعي 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108486/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 42.5,
+    "description": "عسل طبيعي 100% من الشفاء، مثالي لتحلية المشروبات أو كمكمل غذائي صحي."
+  },
+  {
+    "name": "سان دالفور مربى الفراولة 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108487/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 29.25,
+    "discounted_price": 24.45,
+    "description": "مربى الفراولة الفاخرة من سان دالفور، خالية من السكر المضاف ومليئة بالنكهة الطبيعية."
+  },
+  {
+    "name": "روضة النحل عسل طبيعي 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108488/%D8%B1%D9%88%D8%B6%D8%A9-%D8%A7%D9%84%D9%86%D8%AD%D9%84-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 28,
+    "description": "عسل طبيعي من روضة النحل، نقي وصحي لإضافة نكهة مميزة لأطباقك."
+  },
+  {
+    "name": "قودي زبدة الفول السوداني خشنة 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108489/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%AE%D8%B4%D9%86%D8%A9-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 21.5,
+    "discounted_price": 18.95,
+    "description": "زبدة الفول السوداني الخشنة من قودي، تقدم قواماً مقرمشاً وطعماً غنياً."
+  },
+  {
+    "name": "الشفاء عسل طبيعي 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108490/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 48.5,
+    "description": "عسل الشفاء الطبيعي، مثالي للاستخدام اليومي كمُحلي صحي ومغذي."
+  },
+  {
+    "name": "ساري عسل طبيعي 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108491/%D8%B3%D8%A7%D8%B1%D9%8A-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 23.95,
+    "description": "عسل ساري الطبيعي، يقدم نكهة مميزة وجودة عالية بسعر مناسب."
+  },
+  {
+    "name": "لانجنيز عسل نحل صافي 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108492/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D8%B9%D8%B3%D9%84-%D9%86%D8%AD%D9%84-%D8%B5%D8%A7%D9%81%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 20,
+    "price": 44.95,
+    "discounted_price": 35.95,
+    "description": "عسل النحل الصافي من لانجنيز، نقي وغني بالمغذيات لتحلية طبيعية."
+  },
+  {
+    "name": "بينر عسل صافي 375 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108493/%D8%A8%D9%8A%D9%86%D8%B1-%D8%B9%D8%B3%D9%84-%D8%B5%D8%A7%D9%81%D9%8A-375-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10,
+    "description": "عسل صافي من بينر، مثالي للاستخدام اليومي بقيمة اقتصادية."
+  },
+  {
+    "name": "قودي زبدة الفول السوداني الناعمة 1000 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108494/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B9%D9%85%D8%A9-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 30.95,
+    "discounted_price": 28.45,
+    "description": "زبدة الفول السوداني الناعمة من قودي بحجم عائلي، غنية ومغذية."
+  },
+  {
+    "name": "حلواني حلاوة طحينية سادة 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108495/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D8%B3%D8%A7%D8%AF%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 18,
+    "price": 24.95,
+    "discounted_price": 20.45,
+    "description": "حلاوة طحينية سادة من حلواني، تقدم نكهة تقليدية غنية ومغذية."
+  },
+  {
+    "name": "السعودية - عسل طبيعي 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108496/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 41.25,
+    "description": "عسل طبيعي من السعودية، نقي ومثالي للاستخدام في التحلية أو كعلاج طبيعي."
+  },
+  {
+    "name": "كارفور مربى 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108498/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.95,
+    "description": "مربى كارفور بنكهة غنية، مثالي للإفطار أو كإضافة للحلويات."
+  },
+  {
+    "name": "كارفور عسل الأكاسيا 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108499/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 39.95,
+    "description": "عسل الأكاسيا من كارفور، يتميز بنكهة خفيفة ونقية مثالية للتحلية."
+  },
+  {
+    "name": "كارفور عسل اكاسيا 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108501/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%B3%D9%84-%D8%A7%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 39.95,
+    "description": "عسل الأكاسيا النقي من كارفور، مثالي للاستخدام اليومي بنكهة خفيفة."
+  },
+  {
+    "name": "حلاوة طحينية شعر",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108502/%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D8%B4%D8%B9%D8%B1.jpg.jpg"
+    ],
+    "price": 6.86,
+    "description": "حلاوة طحينية شعر، تقدم قواماً خفيفاً وطعماً حلواً تقليدياً."
+  },
+  {
+    "name": "الشفاء عسل طبيعي 100% 1كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108503/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-100-1%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 74.95,
+    "description": "عسل طبيعي 100% من الشفاء بحجم كبير، مثالي للاستخدام العائلي."
+  },
+  {
+    "name": "كارفور مربى المشمش 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108504/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%85%D8%B4%D9%85%D8%B4-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.95,
+    "description": "مربى المشمش من كارفور، مصنوع من فواكه طازجة لنكهة غنية."
+  },
+  {
+    "name": "المنى حلاوة طحينية سادة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108505/%D8%A7%D9%84%D9%85%D9%86%D9%89-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D8%B3%D8%A7%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 6.36,
+    "description": "حلاوة طحينية سادة من المنى، تقدم طعماً تقليدياً غنياً."
+  },
+  {
+    "name": "حلاوة طحينية سادة (للكيلو)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108506/%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D8%B3%D8%A7%D8%AF%D8%A9-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
+    ],
+    "price": 6.86,
+    "description": "حلاوة طحينية سادة بالكيلو، مثالية للاستخدام اليومي بطعم غني."
+  },
+  {
+    "name": "قودي زبدة الفول السوداني الخشنة 1كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108507/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%AE%D8%B4%D9%86%D8%A9-1%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 11,
+    "price": 32.95,
+    "discounted_price": 29.45,
+    "description": "زبدة الفول السوداني الخشنة من قودي بحجم كبير، تقدم قواماً مقرمشاً."
+  },
+  {
+    "name": "لوتس دهن البسكويت المقرمش 380 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108508/%D9%84%D9%88%D8%AA%D8%B3-%D8%AF%D9%87%D9%86-%D8%A7%D9%84%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4-380-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 36,
+    "description": "دهن البسكويت المقرمش من لوتس، مثالي للدهن أو إضافته للحلويات."
+  },
+  {
+    "name": "المراعي عسل الزهور البرية الطبيعي 950 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108509/%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%B9%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%B2%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-950-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 74,
+    "description": "عسل الزهور البرية الطبيعي من المراعي، نقي ومثالي للاستخدام العائلي."
+  },
+  {
+    "name": "المراعي عسل الزهور البرية الطبيعي 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108510/%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%B9%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%B2%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 39,
+    "description": "عسل الزهور البرية من المراعي، نقي ومناسب للاستخدام اليومي."
+  },
+  {
+    "name": "العلالي مربى الفراولة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108511/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "مربى الفراولة من العلالي، مصنوع من فواكه طازجة بنكهة غنية."
+  },
+  {
+    "name": "بيب زبدة الفول السوداني ناعمة 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108512/%D8%A8%D9%8A%D8%A8-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%86%D8%A7%D8%B9%D9%85%D8%A9-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.95,
+    "description": "زبدة الفول السوداني الناعمة من بيب، غنية بالبروتين ومثالية للوجبات الخفيفة."
+  },
+  {
+    "name": "المراعي عسل الزهور البرية الطبيعي 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108514/%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%B9%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%B2%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 41.5,
+    "discounted_price": 34.45,
+    "description": "عسل الزهور البرية من المراعي، نقي ومغذي بنكهة طبيعية."
+  },
+  {
+    "name": "سان دالفور مربى بالفواكه بدون سكر 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108516/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%A8%D8%AF%D9%88%D9%86-%D8%B3%D9%83%D8%B1-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى الفواكه من سان دالفور، خالية من السكر المضاف ومليئة بالنكهة."
+  },
+  {
+    "name": "نتكاو كريمة قابلة للدهن بالبندق والكاكاو خالِ من السكر المضاف 350 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108517/%D9%86%D8%AA%D9%83%D8%A7%D9%88-%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-%D9%88%D8%A7%D9%84%D9%83%D8%A7%D9%83%D8%A7%D9%88-%D8%AE%D8%A7%D9%84-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%A7%D9%84%D9%85%D8%B6%D8%A7%D9%81-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 34,
+    "description": "كريمة البندق والكاكاو من نتكاو، خالية من السكر المضاف ومثالية للدهن."
+  },
+  {
+    "name": "مربى الفراولة (لكل كيلو)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108518/%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%84%D9%83%D9%84-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
+    ],
+    "price": 5.49,
+    "description": "مربى الفراولة بالكيلو، اقتصادية ومثالية للاستخدام اليومي."
+  },
+  {
+    "name": "بون مامان مربى توت العليق الفرنسي 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108520/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7%D9%86-%D9%85%D8%B1%D8%A8%D9%89-%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 31.5,
+    "description": "مربى توت العليق الفاخرة من بون مامان، بنكهة فرنسية أصيلة."
+  },
+  {
+    "name": "وادي النحل عسل روضة النحل 220 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108521/%D9%88%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%86%D8%AD%D9%84-%D8%B9%D8%B3%D9%84-%D8%B1%D9%88%D8%B6%D8%A9-%D8%A7%D9%84%D9%86%D8%AD%D9%84-220-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.75,
+    "description": "عسل روضة النحل من وادي النحل، نقي ومثالي للاستخدام اليومي."
+  },
+  {
+    "name": "بون مامان مربى الفراولة 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108522/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7%D9%86-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 31.5,
+    "description": "مربى الفراولة الفاخرة من بون مامان، مصنوعة من فواكه طازجة."
+  },
+  {
+    "name": "حب يمامة - كريمة البندق والكاكاو 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108524/%D8%AD%D8%A8-%D9%8A%D9%85%D8%A7%D9%85%D8%A9-%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-%D9%88%D8%A7%D9%84%D9%83%D8%A7%D9%83%D8%A7%D9%88-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 21.25,
+    "description": "كريمة البندق والكاكاو من حب يمامة، مثالية للدهن أو الحلويات."
+  },
+  {
+    "name": "الشفاء عسل سدر 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108526/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%B3%D8%AF%D8%B1-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 175,
+    "description": "عسل السدر الفاخر من الشفاء، يتميز بنكهة غنية وقيمة غذائية عالية."
+  },
+  {
+    "name": "فرشلي زبدة فول السوداني ناعمه 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108527/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%86%D8%A7%D8%B9%D9%85%D9%87-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 19.95,
+    "discounted_price": 17.95,
+    "description": "زبدة الفول السوداني الناعمة من فرشلي، غنية ومثالية للوجبات الخفيفة."
+  },
+  {
+    "name": "سان دالفور مربى توت العليق الأحمر بدون سكر 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108528/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%A8%D8%AF%D9%88%D9%86-%D8%B3%D9%83%D8%B1-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى توت العليق الأحمر من سان دالفور، خالية من السكر بنكهة طبيعية."
+  },
+  {
+    "name": "وادى النحل عسل روضة النحل 1000 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108529/%D9%88%D8%A7%D8%AF%D9%89-%D8%A7%D9%84%D9%86%D8%AD%D9%84-%D8%B9%D8%B3%D9%84-%D8%B1%D9%88%D8%B6%D8%A7%D8%A9-%D8%A7%D9%84%D9%86%D8%AD%D9%84-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 52.75,
+    "description": "عسل روضة النحل من وادي النحل بحجم كبير، نقي ومثالي للاستخدام العائلي."
+  },
+  {
+    "name": "دربو مربى فراولة 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108530/%D8%AF%D8%B1%D8%A8%D9%88-%D9%85%D8%B1%D8%A8%D9%89-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 23,
+    "discounted_price": 19.95,
+    "description": "مربى الفراولة من دربو، مصنوع من فواكه طازجة بنكهة غنية."
+  },
+  {
+    "name": "حلواني حلاوة طحينية سادة 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108531/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D8%B3%D8%A7%D8%AF%D8%A9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.25,
+    "description": "حلاوة طحينية سادة من حلواني، تقدم نكهة تقليدية بقوام ناعم."
+  },
+  {
+    "name": "لانجنيز عسل الغابة 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108532/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 87.5,
+    "description": "عسل الغابة الفاخر من لانجنيز، يتميز بنكهة عميقة وغنية."
+  },
+  {
+    "name": "مستر شوكو شوكولاتة بالبندق قابلة للدهن 350جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108533/%D9%85%D8%B3%D8%AA%D8%B1-%D8%B4%D9%88%D9%83%D9%88-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-350%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 35,
+    "description": "كريمة الشوكولاتة والبندق من مستر شوكو، مثالية للدهن والحلويات."
+  },
+  {
+    "name": "سان دالفور مربى بالتوت الأزرق 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108534/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%A8%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى التوت الأزرق من سان دالفور، خالية من السكر بنكهة طبيعية."
+  },
+  {
+    "name": "العلالي مربى الكرز 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108535/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%83%D8%B1%D8%B2-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "مربى الكرز من العلالي، مصنوع من فواكه طازجة بنكهة مميزة."
+  },
+  {
+    "name": "العلالي مربى التوت 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108536/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "مربى التوت من العلالي، تقدم نكهة غنية وطبيعية."
+  },
+  {
+    "name": "غرانا سان فرانسيسكو عسل نحل صافي 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108537/%D8%BA%D8%B1%D8%A7%D9%86%D8%A7-%D8%B3%D8%A7%D9%86-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%8A%D8%B3%D9%83%D9%88-%D8%B9%D8%B3%D9%84-%D9%86%D8%AD%D9%84-%D8%B5%D8%A7%D9%81%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 45.25,
+    "description": "عسل نحل صافي من غرانا سان فرانسيسكو، نقي ومثالي للتحلية."
+  },
+  {
+    "name": "بيب زبدة الفول السوداني الناعمة 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108538/%D8%A8%D9%8A%D8%A8-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B9%D9%85%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 15,
+    "price": 23.45,
+    "discounted_price": 19.95,
+    "description": "زبدة الفول السوداني الناعمة من بيب بحجم كبير، غنية ومغذية."
+  },
+  {
+    "name": "حلواني مربى فراولة (قطع) 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108539/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%82%D8%B7%D8%B9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13.95,
+    "description": "مربى الفراولة بقطع الفاكهة من حلواني، تقدم نكهة طبيعية غنية."
+  },
+  {
+    "name": "الشفاء عسل طبيعي 125 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108540/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 12,
+    "description": "عسل طبيعي من الشفاء بحجم صغير، مثالي للاستخدام الفردي."
+  },
+  {
+    "name": "لانجنيز عسل نحل صافي 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108542/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D8%B9%D8%B3%D9%84-%D9%86%D8%AD%D9%84-%D8%B5%D8%A7%D9%81%D9%8A-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 26.25,
+    "description": "عسل نحل صافي من لانجنيز بحجم صغير، نقي ومثالي للتحلية."
+  },
+  {
+    "name": "الشفاء عسل طبيعي 750 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108543/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-750-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 60.5,
+    "description": "عسل طبيعي من الشفاء، نقي ومثالي للاستخدام اليومي."
+  },
+  {
+    "name": "حلواني مربى الفراولة 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108544/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 27.25,
+    "description": "مربى الفراولة الفاخرة من حلواني، مصنوعة من أجود أنواع الفراولة الطازجة، مثالية للإفطار أو كإضافة للحلويات."
+  },
+  {
+    "name": "جبنة بيضاء بالزيت والنعناع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108545/%D8%AC%D8%A8%D9%86%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D8%B2%D9%8A%D8%AA-%D9%88%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9.jpg.jpg"
+    ],
+    "price": 8.24,
+    "description": "جبنة بيضاء طازجة مغمورة بزيت الزيتون وممزوجة بالنعناع، تضفي نكهة مميزة على وجباتك."
+  },
+  {
+    "name": "سان دالفور مربى فاكهة المشمش السميك 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108546/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D9%81%D8%A7%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D9%85%D8%B4-%D8%A7%D9%84%D8%B3%D9%85%D9%8A%D9%83-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 29.25,
+    "discounted_price": 24.45,
+    "description": "مربى المشمش السميك من سان دالفور، مصنوع من فواكه طبيعية بنكهة غنية، مثالي للدهن على الخبز."
+  },
+  {
+    "name": "مربى مشمش (للكيلو)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108548/%D9%85%D8%B1%D8%A8%D9%89-%D9%85%D8%B4%D9%85%D8%B4-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
+    ],
+    "price": 5.49,
+    "description": "مربى المشمش الطازج، يتميز بنكهته الطبيعية وقوامه المثالي، مثالي للإفطار أو الحلويات."
+  },
+  {
+    "name": "بينت بتر اند كو زبدة الفول السوداني مع الشوكولاته الغامقة 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108549/%D8%A8%D9%8A%D9%86%D8%AA-%D8%A8%D8%AA%D8%B1-%D8%A7%D9%86%D8%AF-%D9%83%D9%88-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%85%D8%B9-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A7%D9%84%D8%BA%D8%A7%D9%85%D9%82%D8%A9-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 40.5,
+    "description": "زبدة الفول السوداني الممزوجة بالشوكولاتة الغامقة، تجمع بين النكهة الغنية والقوام الكريمي."
+  },
+  {
+    "name": "أوفومالتين شوكولاتة كريمية، مقرمشة قابلة للدهن 380 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108550/%D8%A3%D9%88%D9%81%D9%88%D9%85%D8%A7%D9%84%D8%AA%D9%8A%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%83%D8%B1%D9%8A%D9%85%D9%8A%D8%A9-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-380-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 37,
+    "description": "شوكولاتة أوفومالتين الكريمية المقرمشة، مثالية للدهن على الخبز أو كوجبة خفيفة لذيذة."
+  },
+  {
+    "name": "فرشلي زبدة الفول السوداني الخشنة 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108551/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%AE%D8%B4%D9%86%D8%A9-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 20.45,
+    "discounted_price": 17.95,
+    "description": "زبدة الفول السوداني الخشنة من فرشلي، غنية بالنكهة ومثالية لمحبي القوام المقرمش."
+  },
+  {
+    "name": "سان دالفور مربى توت العليق الأسود 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108552/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى توت العليق الأسود من سان دالفور، مصنوع من فواكه طبيعية بنكهة غنية ومميزة."
+  },
+  {
+    "name": "لانجنيز عسل جبلي مشبع بالغذاء الملكي 375 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108554/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D8%B9%D8%B3%D9%84-%D8%AC%D8%A8%D9%84%D9%8A-%D9%85%D8%B4%D8%A8%D8%B9-%D8%A8%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A-375-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 167,
+    "description": "عسل جبلي فاخر من لانجنيز، مشبع بالغذاء الملكي، يوفر طاقة طبيعية وفوائد صحية."
+  },
+  {
+    "name": "هنتز عسل الغابة السوداء 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108555/%D9%87%D9%86%D8%AA%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 57.95,
+    "description": "عسل الغابة السوداء الطبيعي من هنتز، يتميز بنكهته العميقة وفوائده الصحية."
+  },
+  {
+    "name": "حلواني النخلة حلاوة طحينية فاخرة سادة 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108556/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%AE%D9%84%D8%A9-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-%D8%B3%D8%A7%D8%AF%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 42.5,
+    "description": "حلاوة طحينية فاخرة من حلواني النخلة، مصنوعة من السمسم الطبيعي، مثالية كوجبة خفيفة."
+  },
+  {
+    "name": "وادي النحل عسل روضة النحل 380 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108557/%D9%88%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%86%D8%AD%D9%84-%D8%B9%D8%B3%D9%84-%D8%B1%D9%88%D8%B6%D8%A9-%D8%A7%D9%84%D9%86%D8%AD%D9%84-380-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 24.75,
+    "description": "عسل روضة النحل الطبيعي من وادي النحل، نقي وغني بالفوائد الصحية."
+  },
+  {
+    "name": "المنى حلاوة بالفستق",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108558/%D8%A7%D9%84%D9%85%D9%86%D9%89-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D8%B3%D8 “‘%D8%A7.jpg.jpg"
+    ],
+    "price": 7.49,
+    "description": "حلاوة المنى الممزوجة بالفستق، تقدم نكهة غنية وقوامًا ناعمًا."
+  },
+  {
+    "name": "الشفاء عسل طبيعي 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108559/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 23.5,
+    "description": "عسل طبيعي نقي من الشفاء، مثالي للتحلية أو كمكمل غذائي صحي."
+  },
+  {
+    "name": "المراعي عسل الغابة السوداء 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108560/%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%B9%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 106,
+    "description": "عسل الغابة السوداء الفاخر من المراعي، يتميز بنكهته الغنية وفوائده الصحية."
+  },
+  {
+    "name": "فرشلي زبدة الفول السوداني ناعمة 340 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108561/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%86%D8%A7%D8%B9%D9%85%D8%A9- was%.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 14.45,
+    "discounted_price": 12.45,
+    "description": "زبدة الفول السوداني الناعمة من فرشلي، مثالية للدهن أو كمكون في الحلويات."
+  },
+  {
+    "name": "العلالي مربى فواكه مشكلة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108563/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D9%81%D9%88%D8%A7%D9%83%D9%87-%D9%85%D8%B4%D9%83%D9%84%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "مربى فواكه مشكلة من العلالي، يجمع بين نكهات الفواكه المتنوعة في قوام لذيذ."
+  },
+  {
+    "name": "بون مامان مربى قطع الفواكه الأربع الحمراء الفرنسي 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108564/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7%D9%86-%D9%85%D8%B1%D8%A8%D9%89-%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 31.5,
+    "description": "مربى فواكه حمراء فاخرة من بون مامان، مصنوعة على الطريقة الفرنسية التقليدية."
+  },
+  {
+    "name": "بسكوف اللوتس ناعم 400 جرام + 100 جرام مجاناً",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108566/%D8%A8%D8%B3%D9%83%D9%88%D9%81-%D8%A7%D9%84%D9%84%D9%88%D8%AA%D8%B3-%D9%86%D8%A7%D8%B9%D9%85-400-%D8%AC%D8%B1%D8%A7%D9%85-100-%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D8%AC%D8%A7%D9%86%D8%A7.jpg.jpg"
+    ],
+    "price": 36,
+    "description": "كريمة اللوتس الناعمة من بسكوف، مثالية للدهن أو كحشوة للحلويات، مع 100 جرام إضافية مجانًا."
+  },
+  {
+    "name": "سان دالفور مربى مشمش 28 جم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108567/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D9%85%D8%B4%D9%85%D8%B4-28-%D8%AC%D9%85.jpg.jpg"
+    ],
+    "discount": 19,
+    "price": 5.5,
+    "discounted_price": 4.45,
+    "description": "مربى المشمش بحجم صغير من سان دالفور، مثالي للاستخدام الفردي أو أثناء التنقل."
+  },
+  {
+    "name": "حلواني اخوان، سمسمة، حلاوة قابلة للدهن، فستق، 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108568/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%B3%D9%85%D8%B3%D9%85%D8%A9-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-%D9%81%D8%B3%D8%AA%D9%82-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 27.75,
+    "discounted_price": 24.95,
+    "description": "حلاوة سمسمة قابلة للدهن من حلواني إخوان، ممزوجة بالفستق لنكهة غنية."
+  },
+  {
+    "name": "حب يمامة - حلاوة طحينية قابلة للدهن 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108569/%D8%AD%D8%A8-%D9%8A%D9%85%D8%A7%D9%85%D8%A9-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 21.25,
+    "description": "حلاوة طحينية قابلة للدهن من حب يمامة، مصنوعة من السمسم النقي بنكهة تقليدية."
+  },
+  {
+    "name": "جرانجا سان فرانسيسكو عسل نحل صافي من رحيق الأزهار 350 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108570/%D8%AC%D8%B1%D8%A7%D9%86%D8%AC%D8%A7-%D8%B3%D8%A7%D9%86-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%8A%D8%B3%D9%83%D9%88-%D8%B9%D8%B3%D9%84-%D9%86%D8%AD%D9%84-%D8%B5%D8%A7%D9%81%D9%8A-%D9%85%D9%86-%D8%B1%D8%AD%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D8%B2%D9%87%D8%A7%D8%B1-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 35,
+    "description": "عسل نحل صافي من رحيق الأزهار من جرانجا سان فرانسيسكو، نقي وطبيعي."
+  },
+  {
+    "name": "سان دالفور مربى التفاح والقرفة 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108571/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D9%88%D8%A7%D9%84%D9%82%D8%B1%D9%81%D8%A9-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى التفاح والقرفة من سان دالفور، يجمع بين نكهة التفاح الطازج ودفء القرفة."
+  },
+  {
+    "name": "جرين فارمز عسل طبيعي 300 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108572/%D8%AC%D8%B1%D9%8A%D9%86-%D9%81%D8%A7%D8%B1%D9%85%D8%B2-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 28.75,
+    "description": "عسل طبيعي نقي من جرين فارمز، مثالي للتحلية أو كمكمل غذائي صحي."
+  },
+  {
+    "name": "جرين فارمز عسل طبيعي 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108574/%D8%AC%D8%B1%D9%8A%D9%86-%D9%81%D8%A7%D8%B1%D9%85%D8%B2-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 30,
+    "price": 44,
+    "discounted_price": 30.95,
+    "description": "عسل طبيعي نقي بحجم أكبر من جرين فارمز، يوفر فوائد صحية ونكهة مميزة."
+  },
+  {
+    "name": "لونا زبدة الفول السوداني 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108575/%D9%84%D9%88%D9%86%D8%A7-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17.75,
+    "description": "زبدة الفول السوداني الناعمة من لونا، غنية بالبروتين ومثالية للإفطار."
+  },
+  {
+    "name": "ساري عسل الغابة الطبيعي 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108576/%D8%B3%D8%A7%D8%B1%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 114.5,
+    "description": "عسل الغابة الطبيعي من ساري بحجم كبير، يتميز بنكهته الغنية وفوائده الصحية."
+  },
+  {
+    "name": "مربى التوت",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108577/%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D8%AA.jpg.jpg"
+    ],
+    "price": 5.49,
+    "description": "مربى التوت الطازج، يقدم نكهة حلوة وحامضة مثالية للإفطار أو الحلويات."
+  },
+  {
+    "name": "بينت بتر اند كو زبدة الفول السوداني بالشوكولاتة البيضاء الرائعة، 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108579/%D8%A8%D9%8A%D9%86%D8%AA-%D8%A8%D8%AA%D8%B1-%D8%A7%D9%86%D8%AF-%D9%83%D9%88-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B1%D8%A7%D8%A6%D8%B9%D8%A9-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 40.5,
+    "description": "زبدة الفول السوداني الممزوجة بالشوكولاتة البيضاء، تقدم تجربة نكهة فاخرة."
+  },
+  {
+    "name": "حلواني اخوان مربى مشمش 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108580/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D9%85%D8%B1%D8%A8%D9%89-%D9%85%D8%B4%D9%85%D8%B4-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.25,
+    "description": "مربى المشمش الفاخر من حلواني إخوان، مصنوع من المشمش الطازج بنكهة طبيعية."
+  },
+  {
+    "name": "العلالي مربى مشمش 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108581/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D9%85%D8%B4%D9%85%D8%B4-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "مربى المشمش من العلالي، يقدم نكهة حلوة وقوامًا مثاليًا للإفطار."
+  },
+  {
+    "name": "حلواني حلاوة طحينية سادة 2 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108582/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D8%B3%D8%A7%D8%AF%D8%A9-2-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 65,
+    "description": "حلاوة طحينية سادة بحجم كبير من حلواني، مصنوعة من السمسم النقي."
+  },
+  {
+    "name": "سان دالفور مربى توت و الرمان 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108583/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%AA%D9%88%D8%AA-%D9%88-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D9%86-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى التوت والرمان من سان دالفور، يجمع بين النكهات الحلوة والحامضة."
+  },
+  {
+    "name": "أرض الطبيعة عسل عضوي، 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108585/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%B9%D8%B3%D9%84-%D8%B9%D8%B6%D9%88%D9%8A-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 60.75,
+    "description": "عسل عضوي نقي من أرض الطبيعة، مصدره طبيعي وخالٍ من الإضافات."
+  },
+  {
+    "name": "بينت بتر اند كو زبدة الفول السوداني بالعسل 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108586/%D8%A8%D9%8A%D9%86%D8%AA-%D8%A8%D8%AA%D8%B1-%D8%A7%D9%86%D8%AF-%D9%83%D9%88-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%B9%D8%B3%D9%84-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 40.5,
+    "description": "زبدة الفول السوداني الممزوجة بالعسل من بينت بتر، تقدم نكهة حلوة وصحية."
+  },
+  {
+    "name": "هنتز عسل صافي اكاسيا 500 جم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108587/%D9%87%D9%86%D8%AA%D8%B2-%D8%B9%D8%B3%D9%84-%D8%B5%D8%A7%D9%81%D9%8A-%D8%A7%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-500-%D8%AC%D9%85.jpg.jpg"
+    ],
+    "price": 67.5,
+    "description": "عسل أكاسيا صافي من هنتز، يتميز بنكهته الخفيفة وقوامه الناعم."
+  },
+  {
+    "name": "دربو مربى مشمش 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108588/%D8%AF%D8%B1%D8%A8%D9%88-%D9%85%D8%B1%D8%A8%D9%89-%D9%85%D8%B4%D9%85%D8%B4-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 23,
+    "discounted_price": 19.95,
+    "description": "مربى المشمش من دربو، مصنوع من فواكه طازجة بنكهة غنية."
+  },
+  {
+    "name": "لانجنيز عسل أكاسيا بالشمع الطبيعي 500 جم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108590/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-%D8%A8%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D8%B9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-500-%D8%AC%D9%85.jpg.jpg"
+    ],
+    "price": 117.25,
+    "description": "عسل أكاسيا فاخر بالشمع الطبيعي من لانجنيز، يقدم نكهة نقية وفوائد صحية."
+  },
+  {
+    "name": "بون ماما كستناء قابلة للدهن 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108591/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7-%D9%83%D8%B3%D8%AA%D9%86%D8%A7%D8%A1-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 31.5,
+    "description": "كريمة الكستناء القابلة للدهن من بون ماما، تقدم نكهة فريدة على الطريقة الفرنسية."
+  },
+  {
+    "name": "فرشلي زبدة الفول السوداني الناعمة 793 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108592/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B9%D9%85%D8%A9-793-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 30.45,
+    "description": "زبدة الفول السوداني الناعمة بحجم كبير من فرشلي، مثالية للعائلات."
+  },
+  {
+    "name": "الشفاء مانوكا عسل نيوزيلاندي MGO250+ 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108594/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D9%85%D8%A7%D9%86%D9%88%D9%83%D8%A7-%D8%B9%D8%B3%D9%84-%D9%86%D9%8A%D9%88%D8%B2%D9%8A%D9%84%D8%A7%D9%86%D8%AF%D9%8A-mgo250-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 167.75,
+    "description": "عسل مانوكا نيوزيلاندي فاخر من الشفاء، غني بالفوائد الصحية بتصنيف MGO250+."
+  },
+  {
+    "name": "اس تي دالفور مربى مانجو و باشن فروت 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108595/%D8%A7%D8%B3-%D8%AA%D9%8A-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%88-%D8%A8%D8%A7%D8%B4%D9%86-%D9%81%D8%B1%D9%88%D8%AA-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى المانجو والباشن فروت من اس تي دالفور، يقدم نكهة استوائية منعشة."
+  },
+  {
+    "name": "حدائق اورينت جيلي بزبدة الفول السوداني 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108596/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D9%8A%D9%84%D9%8A-%D8%A8%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 24.95,
+    "description": "جيلي ممزوج بزبدة الفول السوداني من حدائق أورينت، مثالي للإفطار أو الساندويتشات."
+  },
+  {
+    "name": "أرض الطبيعة - عسل الأكاسيا العضوي 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108598/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 108.75,
+    "description": "عسل أكاسيا عضوي من أرض الطبيعة، نقي وخالٍ من الإضافات بنكهة خفيفة."
+  },
+  {
+    "name": "أرض الطبيعة زبدة الفول السوداني 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/JPEG/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 26.75,
+    "description": "زبدة الفول السوداني الطبيعية من أرض الطبيعة، خالية من الإضافات وغنية بالبروتين."
+  },
+  {
+    "name": "دربو مربى الكرز 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108600/%D8%AF%D8%B1%D8%A8%D9%88-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%83%D8%B1%D8%B2-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 22.25,
+    "discounted_price": 19.45,
+    "description": "مربى الكرز من دربو، مصنوع من الكرز الطازج بنكهة حلوة ومميزة."
+  },
+  {
+    "name": "لانجنيز عسل أكاسيا 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108601/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 49.25,
+    "description": "عسل أكاسيا نقي من لانجنيز، يتميز بنكهته الخفيفة وقوامه الناعم."
+  },
+  {
+    "name": "جبن مش",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108602/%D8%AC%D8%A8%D9%86-%D9%85%D8%B4.jpg.jpg"
+    ],
+    "price": 8.24,
+    "description": "جبن مش تقليدي، يقدم نكهة غنية وملمسًا ناعمًا، مثالي للمقبلات."
+  },
+  {
+    "name": "حلواني مربى تين 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108603/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D8%AA%D9%8A%D9%86-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.25,
+    "description": "مربى التين الفاخر من حلواني، مصنوع من التين الطازج بنكهة حلوة طبيعية."
+  },
+  {
+    "name": "سان دالفور مربى التوت البري الأزرق 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108605/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى التوت البري الأزرق من سان دالفور، يقدم نكهة مميزة وقوامًا غنيًا."
+  },
+  {
+    "name": "بيتوتي - عسل طبيعي، 450جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108606/%D8%A8%D9%8A%D8%AA%D9%88%D8%AA%D9%8A-%D8%B9%D8%B3%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-450%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 39.5,
+    "description": "عسل طبيعي نقي من بيتوتي، مثالي للتحلية أو كمكمل غذائي صحي."
+  },
+  {
+    "name": "بيب زبدة الفول السوداني ناعمة 227 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108607/%D8%A8%D9%8A%D8%A8-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%86%D8%A7%D8%B9%D9%85%D8%A9-227-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 6.45,
+    "discounted_price": 5.45,
+    "description": "زبدة الفول السوداني الناعمة من بيب، بحجم صغير مثالي للاستخدام اليومي."
+  },
+  {
+    "name": "لانجنيز عسل الغابة السوداء 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108608/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 45,
+    "description": "عسل الغابة السوداء من لانجنيز، يتميز بنكهته العميقة وفوائده الصحية."
+  },
+  {
+    "name": "حلواني حلاوة طحينية محشوة بالفستق 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108609/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D9%85%D8%AD%D8%B4%D9%88%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D8%B3%D8%AA%D9%82-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 16.5,
+    "description": "حلاوة طحينية فاخرة من حلواني، محشوة بالفستق المقرمش، تقدم طعماً غنياً ومميزاً، مثالية للإفطار أو كوجبة خفيفة."
+  },
+  {
+    "name": "سان دالفور رابسودي دي فروت مربى بنكهة الكرز الأسود 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108610/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D8%B1%D8%A7%D8%A8%D8%B3%D9%88%D8%AF%D9%8A-%D8%AF%D9%8A-%D9%81%D8%B1%D9%88%D8%AA-%D9%85%D8%B1%D8%A8%D9%89-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D8%B2-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى فاخر من سان دالفور بنكهة الكرز الأسود، مصنوع من فواكه طبيعية 100%، خالٍ من السكر المضاف، مثالي للدهن على الخبز."
+  },
+  {
+    "name": "أرض الطبيعة زبدة السمسم، 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108611/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D9%85-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 36,
+    "description": "زبدة سمسم طبيعية من أرض الطبيعة، غنية بالنكهة والفوائد الصحية، مثالية للإفطار أو كمكون في الوصفات."
+  },
+  {
+    "name": "بون مامان مربى المشمش الفرنسي 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108613/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7%D9%86-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%85%D8%B4%D9%85%D8%B4-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 31.5,
+    "description": "مربى المشمش الفرنسي الفاخر من بون مامان، يتميز بنكهة غنية وطبيعية، مثالي للإفطار أو الحلويات."
+  },
+  {
+    "name": "سان دالفور مربى برتقال ب Respiratory systemقطع سميكة قابلة للدهن 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108614/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%A8%D8%B1%D8%AA%D9%82%D8%A7%D9%84-%D8%A8%D9%82%D8%B7%D8%B9-%D8%B3%D9%85%D9%8A%D9%83%D8%A9-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 19,
+    "price": 5.5,
+    "discounted_price": 4.45,
+    "description": "مربى البرتقال الفاخر من سان دالفور، يحتوي على قطع سميكة من قشر البرتقال، خالٍ من السكر المضاف، مثالي للدهن."
+  },
+  {
+    "name": "قودي فول سوداني قابل للدهن 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108615/%D9%82%D9%88%D8%AF%D9%8A-%D9%81%D9%88%D9%84-%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%82%D8%A7%D8%A8%D9%84-%D9%84%D9%84%D8%AF%D9%87%D9%86-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 24.5,
+    "description": "زبدة الفول السوداني الناعمة من قودي، غنية بالبروتين وسهلة الدهن، مثالية للساندويتشات أو كوجبة خفيفة."
+  },
+  {
+    "name": "فرشلي زبدة الفول السوداني مع العسل 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108617/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%85%D8%B9-%D8%A7%D9%84%D8%B9%D8%B3%D9%84-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 36.25,
+    "discounted_price": 31.45,
+    "description": "زبدة الفول السوداني من فرشلي ممزوجة بالعسل الطبيعي، تقدم طعماً حلواً ومغذياً، مثالية للإفطار."
+  },
+  {
+    "name": "حلواني مربى المشمش 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108618/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%85%D8%B4%D9%85%D8%B4-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 27.25,
+    "description": "مربى المشمش الفاخر من حلواني، مصنوع من فواكه طازجة، مثالي للدهن على الخبز أو استخدامه في الحلويات."
+  },
+  {
+    "name": "أمريكان جاردن زبدة اللوز المقرمشة، 340 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108619/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%84%D9%88%D8%B2-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 55,
+    "description": "زبدة اللوز المقرمشة من أمريكان جاردن، غنية بالنكهة والبروتين، مثالية كوجبة خفيفة صحية أو للدهن."
+  },
+  {
+    "name": "بون ماما مربى الكشمش الأسود 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108621/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%83%D8%B4%D9%85%D8%B4-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 31.5,
+    "description": "مربى الكشمش الأسود الفاخر من بون ماما، يتميز بنكهة غنية ومميزة، مثالي للإفطار أو الحلويات."
+  },
+  {
+    "name": "اورينت جاردين زبدة الفول السوداني مقرمشة 12 اونصة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108622/%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%8A%D9%86-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-12-%D8%A7%D9%88%D9%86%D8%B5%D8%A9.jpg.jpg"
+    ],
+    "price": 14.95,
+    "description": "زبدة الفول السوداني المقرمشة من اورينت جاردين، غنية بالنكهة والبروتين، مثالية للساندويتشات أو الوجبات الخفيفة."
+  },
+  {
+    "name": "فرشلي زبدة الفول السوداني الكريمية 340جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108623/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D9%8A%D8%A9-340%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.45,
+    "description": "زبدة الفول السوداني الكريمية من فرشلي، ناعمة وسهلة الدهن، مثالية للإفطار أو الوجبات الخفيفة."
+  },
+  {
+    "name": "جبنة بيضاء بالزيتون (للكيلو)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108624/%D8%AC%D8%A8%D9%86%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
+    ],
+    "price": 9.24,
+    "description": "جبنة بيضاء طازجة ممزوجة بالزيتون، تقدم نكهة مميزة ومنعشة، مثالية للسلطات أو الساندويتشات."
+  },
+  {
+    "name": "سان دالفور مربى بنكهة البرتقال والعنب 284 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108625/%D8%B3%D8%A7%D9%86-%D8%AF%D8%A7%D9%84%D9%81%D9%88%D8%B1-%D9%85%D8%B1%D8%A8%D9%89-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D9%82%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D8%B9%D9%86%D8%A8-284-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28.5,
+    "discounted_price": 23.95,
+    "description": "مربى فاخر من سان دالفور بنكهة البرتقال والعنب، خالٍ من السكر المضاف، مثالي للدهن على الخبز."
+  },
+  {
+    "name": "حدائق اورينت زبدة الفول السوداني الناعمة 227جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108628/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B9%D9%85%D8%A9-227%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25,
+    "description": "زبدة الفول السوداني الناعمة من حدائق اورينت، غنية بالنكهة والبروتين، مثالية للدهن أو الطهي."
+  },
+  {
+    "name": "مكعبات جبنة بالخضار",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108629/%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D8%AC%D8%A8%D9%86%D8%A9-%D8%A8%D8%A7%D9%84%D8%AE%D8%B6%D8%A7%D8%B1.jpg.jpg"
+    ],
+    "price": 10.99,
+    "description": "مكعبات جبنة ممزوجة بالخضروات الطازجة، تقدم نكهة غنية ومنعشة، مثالية كوجبة خفيفة أو للسلطات."
+  },
+  {
+    "name": "حلواني اخوان، سمسمة، حلاوة قابلة للدهن، توت بري، 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108630/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%B3%D9%85%D8%B3%D9%85%D8%A9-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-%D8%AA%D9%88%D8%AA-%D8%A8%D8%B1%D9%8A-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 27.75,
+    "discounted_price": 24.95,
+    "description": "حلاوة سمسمة بنكهة التوت البري من حلواني اخوان، قابلة للدهن وغنية بالنكهة، مثالية للإفطار."
+  },
+  {
+    "name": "العلالي مربى الأناناس 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108631/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D9%86%D8%A7%D8%B3-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18,
+    "description": "مربى الأناناس الفاخر من العلالي، مصنوع من فواكه طازجة، مثالي للدهن أو استخدامه في الحلويات."
+  },
+  {
+    "name": "فيتا سلطة الحارة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108633/%D9%81%D9%8A%D8%AA%D8%A7-%D8%B3%D9%84%D8%B7%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9.jpg.jpg"
+    ],
+    "price": 24.48,
+    "description": "جبنة فيتا ممزوجة بنكهات حارة، مثالية للسلطات أو كوجبة خفيفة، تضيف لمسة مميزة لوجباتك."
+  },
+  {
+    "name": "بيتوتي عسل أكاسيا 225جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108634/%D8%A8%D9%8A%D8%AA%D9%88%D8%AA%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-225%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 42.75,
+    "description": "عسل أكاسيا طبيعي من بيتوتي، يتميز بنكهة خفيفة وحلوة، مثالي للتحلية أو كمكمل غذائي."
+  },
+  {
+    "name": "العلالي مربى الكرز 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108635/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%83%D8%B1%D8%B2-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13.75,
+    "description": "مربى الكرز الفاخر من العلالي، مصنوع من الكرز الطازج، مثالي للدهن أو استخدامه في الحلويات."
+  },
+  {
+    "name": "كاستانيا فول سوداني بالقشرة 200جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108636/%D9%83%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D9%8A%D8%A7-%D9%81%D9%88%D9%84-%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D9%82%D8%B4%D8%B1%D8%A9-200%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "فول سوداني محمص بالقشرة من كاستانيا، وجبة خفيفة مقرمشة وغنية بالنكهة، مثالية للتسلية."
+  },
+  {
+    "name": "بون مامان كريمة الكاكاو بالبندق 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108638/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7%D9%86-%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%83%D8%A7%D9%88-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 20,
+    "price": 34.5,
+    "discounted_price": 27.45,
+    "description": "كريمة الكاكاو بالبندق الفاخرة من بون مامان، مثالية للدهن على الخبز أو كحشوة للحلويات."
+  },
+  {
+    "name": "حلواني إخوان مربى التوت 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108640/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A5%D8%AE%D9%88%D8%A7%D9%86-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 15.25,
+    "discounted_price": 14,
+    "description": "مربى التوت الفاخر من حلواني إخوان، مصنوع من التوت الطازج، مثالي للإفطار أو الحلويات."
+  },
+  {
+    "name": "بون مامان كريمة الكاكاو بالبندق 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108641/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7%D9%86-%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%83%D8%A7%D9%88-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 20,
+    "price": 26.25,
+    "discounted_price": 20.95,
+    "description": "كريمة الكاكاو بالبندق من بون مامان، ناعمة وغنية بالنكهة، مثالية للدهن أو الحلويات."
+  },
+  {
+    "name": "شهد زبادي كامل الدسم 1.5 كج + 200جرام مجانا",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108643/%D8%B4%D9%87%D8%AF-%D8%B2%D8%A8%D8%A7%D8%AF%D9%8A-%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AF%D8%B3%D9%85-15-%D9%83%D8%AC-200%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D8%AC%D8%A7%D9%86%D8%A7.jpg.jpg"
+    ],
+    "price": 10.95,
+    "description": "زبادي كامل الدسم من شهد، غني بالكريمة والبروتين، مثالي للوجبات الصحية أو كمكون في الطهي."
+  },
+  {
+    "name": "قودي زبدة الفول السوداني الناعمة 340 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108644/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B9%D9%85%D8%A9-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.5,
+    "description": "زبدة الفول السوداني الناعمة من قودي، غنية بالنكهة وسهلة الدهن، مثالية للساندويتشات."
+  },
+  {
+    "name": "قودي زبده فول سوداني خشنة 340 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108645/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D8%A8%D8%AF%D9%87-%D9%81%D9%88%D9%84-%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%AE%D8%B4%D9%86%D8%A9-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.5,
+    "description": "زبدة الفول السوداني المقرمشة من قودي، تقدم نكهة غنية وملمساً مقرمشاً، مثالية للإفطار."
+  },
+  {
+    "name": "دربو مربى توت أحمر 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108646/%D8%AF%D8%B1%D8%A8%D9%88-%D9%85%D8%B1%D8%A8%D9%89-%D8%AA%D9%88%D8%AA-%D8%A3%D8%AD%D9%85%D8%B1-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 22.25,
+    "discounted_price": 19.45,
+    "description": "مربى التوت الأحمر الفاخر من دربو، مصنوع من التوت الطازج، مثالي للدهن أو الحلويات."
+  },
+  {
+    "name": "حلواني اخوان، سمسمة، حلاوة سادة قابلة للدهن 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108648/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%B3%D9%85%D8%B3%D9%85%D8%A9-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B3%D8%A7%D8%AF%D8%A9-%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D9%84%D9%84%D8%AF%D9%87%D9%86-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 23.75,
+    "discounted_price": 20.95,
+    "description": "حلاوة سمسمة سادة من حلواني اخوان، قابلة للدهن وغنية بالنكهة، مثالية للإفطار أو الوجبات الخفيفة."
+  },
+  {
+    "name": "ريجانو زبدة الفول السوداني الطبيعية، خشنة 510 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108649/%D8%B1%D9%8A%D8%AC%D8%A7%D9%86%D9%88-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D8%AE%D8%B4%D9%86%D8%A9-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17.75,
+    "description": "زبدة الفول السوداني الطبيعية المقرمشة من ريجانو، خالية من الإضافات، مثالية للوجبات الصحية."
+  },
+  {
+    "name": "لانجنيز عسل الغابة السوداء 1000 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108650/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 203.75,
+    "discounted_price": 177.95,
+    "description": "عسل الغابة السوداء الفاخر من لانجنيز، يتميز بنكهة غنية وقوية، مثالي للتحلية أو كمكمل غذائي."
+  },
+  {
+    "name": "حلوى طحينية خالية من السكر",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108652/%D8%AD%D9%84%D9%88%D9%89-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1.jpg.jpg"
+    ],
+    "price": 12.99,
+    "description": "حلوى طحينية خالية من السكر، غنية بالنكهة والفوائد الصحية، مثالية لمحبي الحلويات الصحية."
+  },
+  {
+    "name": "العلالي مربى كرز 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108653/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B1%D8%A8%D9%89-%D9%83%D8%B1%D8%B2-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18.5,
+    "description": "مربى الكرز الفاخر من العلالي، مصنوع من الكرز الطازج، مثالي للدهن أو استخدامه في الحلويات."
+  },
+  {
+    "name": "بون ماما مربى الكراميل 370 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108654/%D8%A8%D9%88%D9%86-%D9%85%D8%A7%D9%85%D8%A7-%D9%85%D8%B1%D8%A8%D9%89-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 32.5,
+    "description": "مربى الكراميل الفاخر من بون ماما، يتميز بنكهة حلوة وكريمية، مثالي للدهن أو الحلويات."
+  },
+  {
+    "name": "بيتوتي عسل المزارع الطبيعي 115جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108655/%D8%A8%D9%8A%D8%AA%D9%88%D8%AA%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D9%85%D8%B2%D8%A7%D8%B1%D8%B9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-115%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 12.5,
+    "description": "عسل المزارع الطبيعي من بيتوتي، يتميز بنكهة نقية وطبيعية، مثالي للتحلية أو كمكمل غذائي."
+  },
+  {
+    "name": "المنى حلاوة شوكولاتة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108657/%D8%A7%D9%84%D9%85%D9%86%D9%89-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9.jpg.jpg"
+    ],
+    "price": 7.49,
+    "description": "حلاوة الشوكولاتة الفاخرة من المنى، تقدم طعماً غنياً وحلواً، مثالية كوجبة خفيفة."
+  },
+  {
+    "name": "حلاوة باللوز (للكيلو)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108659/%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%A8%D8%A7%D9%84%D9%84%D9%88%D8%B2-%D9%84%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
+    ],
+    "price": 7.49,
+    "description": "حلاوة باللوز غنية بالنكهة والمقرمشة، مثالية كوجبة خفيفة أو للتقديم في المناسبات."
+  },
+  {
+    "name": "لانجنيز مانوكا عسل الغابة السوداء 375 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108660/%D9%84%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B2-%D9%85%D8%A7%D9%86%D9%88%D9%83%D8%A7-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-375-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 164.75,
+    "description": "عسل مانوكا الفاخر من لانجنيز، يتميز بنكهة قوية وفوائد صحية، مثالي كمكمل غذائي."
+  },
+  {
+    "name": "هينتز عسل الغابة السوداء 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108661/%D9%87%D9%8A%D9%86%D8%AA%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 32.75,
+    "description": "عسل الغابة السوداء من هينتز، يتميز بنكهة غنية وعميقة، مثالي للتحلية أو كمكمل غذائي."
+  },
+  {
+    "name": "لا بيل مربى كرز فاخر 310 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108662/%D9%84%D8%A7-%D8%A8%D9%8A%D9%84-%D9%85%D8%B1%D8%A8%D9%89-%D9%83%D8%B1%D8%B2-%D9%81%D8%A7%D8%AE%D8%B1-310-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 21.5,
+    "description": "مربى الكرز الفاخر من لا بيل، مصنوع من الكرز الطازج، مثالي للدهن أو استخدامه في الحلويات."
+  },
+  {
+    "name": "لا بيل مربى مشمش فاخر 310 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108663/%D9%84%D8%A7-%D8%A8%D9%8A%D9%84-%D9%85%D8%B1%D8%A8%D9%89-%D9%85%D8%B4%D9%85%D8%B4-%D9%81%D8%A7%D8%AE%D8%B1-310-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 21.5,
+    "description": "مربى المشمش الفاخر من لا بيل، مصنوع من المشمش الطازج، مثالي للإفطار أو الحلويات."
+  },
+  {
+    "name": "الشفاء عسل غابة الصنوبر 500جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108664/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B5%D9%86%D9%88%D8%A8%D8%B1-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 89.95,
+    "description": "عسل غابة الصنوبر الطبيعي من الشفاء، يتميز بنكهة مميزة وفوائد صحية، مثالي للتحلية."
+  },
+  {
+    "name": "هنتز عسل الغابة السوداء 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108666/%D9%87%D9%86%D8%AA%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 125,
+    "description": "عسل الغابة السوداء الفاخر من هنتز، يتميز بنكهة قوية وغنية، مثالي للتحلية أو كمكمل غذائي."
+  },
+  {
+    "name": "بيتوتي عسل الغابة السوداء 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108667/%D8%A8%D9%8A%D8%AA%D9%88%D8%AA%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 88.75,
+    "description": "عسل الغابة السوداء الطبيعي من بيتوتي، يتميز بنكهة عميقة وفوائد صحية، مثالي للتحلية."
+  },
+  {
+    "name": "بيتوتي عسل أكاسيا المزارع 115جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108669/%D8%A8%D9%8A%D8%AA%D9%88%D8%AA%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%B2%D8%A7%D8%B1%D8%B9-115%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 33.75,
+    "description": "عسل أكاسيا المزارع الطبيعي من بيتوتي، يتميز بنكهة خفيفة وحلوة، مثالي للتحلية."
+  },
+  {
+    "name": "العلالي - حليب كامل الدسم 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108670/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%AD%D9%84%D9%8A%D8%A8-%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AF%D8%B3%D9%85-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 42.25,
+    "description": "حليب كامل الدسم من العلالي، غني بالكريمة والفيتامينات، مثالي للشرب أو استخدامه في الطهي."
+  },
+  {
+    "name": "الشفاء عسل زهرة الأكاسيا 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108671/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B9%D8%B3%D9%84-%D8%B2%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 85.5,
+    "description": "عسل زهرة الأكاسيا الطبيعي من الشفاء، يتميز بنكهة خفيفة وحلوة، مثالي للتحلية أو كمكمل غذائي."
+  },
+  {
+    "name": "جرين فارمز عسل الأكاسيا 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108673/%D8%AC%D8%B1%D9%8A%D9%86-%D9%81%D8%A7%D8%B1%D9%85%D8%B2-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 63.5,
+    "description": "عسل الأكاسيا الطبيعي من جرين فارمز، يتميز بنكهة نقية وخفيفة، مثالي للتحلية أو كمكمل غذائي."
+  },
+  {
+    "name": "بيتوتي عسل الغابة السوداء 225 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108674/%D8%A8%D9%8A%D8%AA%D9%88%D8%AA%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-225-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 52.95,
+    "description": "عسل الغابة السوداء الطبيعي من بيتوتي، يتميز بنكهة غنية وعميقة، مثالي للتحلية."
+  },
+  {
+    "name": "بيتوتي عسل أكاسيا 450جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108676/%D8%A8%D9%8A%D8%AA%D9%88%D8%AA%D9%8A-%D8%B9%D8%B3%D9%84-%D8%A3%D9%83%D8%A7%D8%B3%D9%8A%D8%A7-450%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 79.25,
+    "description": "عسل أكاسيا طبيعي من بيتوتي، يتميز بنكهة خفيفة وحلوة، مثالي للتحلية أو كمكمل غذائي."
+  },
+  {
+    "name": "الشفاء زنجبيل في عسل صافي 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108678/%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%A1-%D8%B2%D9%86%D8%AC%D8%A8%D9%8A%D9%84-%D9%81%D9%8A-%D8%B9%D8%B3%D9%84-%D8%B5%D8%A7%D9%81%D9%8A-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 58.95,
+    "description": "عسل صافي ممزوج بالزنجبيل الطبيعي من الشفاء، يقدم نكهة دافئة وفوائد صحية، مثالي للتحلية."
+  },
+  {
+    "name": "حدائق اورينت زبدة الفول السوداني كرانشي 794جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745108680/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%83%D8%B1%D8%A7%D9%86%D8%B4%D9%8A-794%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 26.95,
+    "description": "زبدة الفول السوداني المقرمشة من حدائق اورينت، غنية بالنكهة والبروتين، مثالية للدهن أو الطهي."
+  }
+]

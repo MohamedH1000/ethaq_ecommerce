@@ -94,6 +94,8 @@ const CartSidebarView = () => {
       if (response.success) {
         toast.success("تم إنشاء الطلب بنجاح");
         setAddressDialogOpen(false);
+        globalModal.closeCartState();
+        setOrderItems([]);
       } else {
         toast.error(response.message);
       }

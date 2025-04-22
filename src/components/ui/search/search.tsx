@@ -123,7 +123,7 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
         onChange={handleOnChange}
         value={searchTerm}
         name="search"
-        placeholder="بحث"
+        placeholder=""
         variant={variant}
         {...props}
       />

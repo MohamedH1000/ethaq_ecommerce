@@ -36,6 +36,21 @@ const Header = ({
   // console.log("orderItems", orderItems);
   const { user } = useUser();
   // console.log(user, "user");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    // Initial check
+    checkMobile();
+
+    // Listen for resize events
+    window.addEventListener("resize", checkMobile);
+
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   const handleSignOut = async () => {
     setIsSigningOut(true); // Optional: show loading state
@@ -68,8 +83,12 @@ const Header = ({
           {isHomePage ? (
             <>
               {/* {(headerSearch.showHeaderSearch) && ( */}
-              <div className="w-[60%] hidden  mx-auto overflow-hidden lg:block border-[#000957] border-[1px] rounded-3xl mr-[250px]">
-                <Search label="Search" variant="minimal" />
+              <div className="w-full lg:w-[60%] mx-auto overflow-hidden border-[#000957] border-[1px] rounded-3xl lg:mr-[250px] px-8 lg:px-0">
+                <Search
+                  label="Search"
+                  variant={isMobile ? "minimal-mobile" : "minimal"}
+                  className="text-sm lg:text-base"
+                />
               </div>
               {/* )} */}
             </>

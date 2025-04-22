@@ -1,8 +1,6 @@
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import bcrypt from "bcrypt";
-
 import prisma from "@/lib/prisma";
 
 export const authOptions = {
@@ -11,56 +9,46 @@ export const authOptions = {
     CredentialsProvider({
       name: "credentials",
       credentials: {
-        email: { label: "email", type: "text" },
-        password: { label: "password", type: "password" },
+        phoneNumber: { label: "Phone Number", type: "text" },
       },
       async authorize(credentials) {
-        if (!credentials?.email || !credentials?.password) {
-          throw new Error("Invalid credentials");
+        if (!credentials?.phoneNumber) {
+          throw new Error("رقم الهاتف مطلوب");
         }
 
-        const user = await prisma.user.findUnique({
-          where: { email: credentials.email },
+        // Find or create user based on phone number
+        let user = await prisma.user.findUnique({
+          where: { phone: credentials.phoneNumber },
         });
 
         if (!user) {
-          throw new Error("Invalid credentials");
+          throw new Error("فشل تسجيل الدخول");
         }
 
-        const isCorrectPassword = await bcrypt.compare(
-          credentials.password,
-          user.password
-        );
-
-        if (!isCorrectPassword) {
-          throw new Error("Invalid credentials");
-        }
-
-        return user; // Make sure to return the user object
+        return user;
       },
     }),
   ],
   session: {
-    strategy: "jwt", // Use JWT-based sessions
-    maxAge: 60 * 60 * 24, // Session expiry duration (1 days)
+    strategy: "jwt",
+    maxAge: 30 * 24 * 60 * 60, // 30 days
   },
   pages: {
-    signIn: "/sign-in", // Custom sign-in page
+    signIn: "/sign-in",
   },
-  debug: process.env.NODE_ENV === "development",
-  secret: process.env.NEXTAUTH_SECRET, // Make sure this is set in your environment
+  secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
     async jwt({ token, user }) {
-      // When the user signs in, we add the email to the JWT token
       if (user) {
-        token.email = user.email; // Add email to the JWT token
+        token.phone = user.phone;
+        token.id = user.id;
       }
       return token;
     },
     async session({ session, token }) {
-      // Add the email to the session object
-      if (token?.email) {
-        session.user.email = token.email;
+      if (token?.phone) {
+        session.user.phone = token.phone;
+        session.user.id = token.id;
       }
       return session;
     },

@@ -48,27 +48,6 @@ export default async function SignInPage() {
           </div> */}
           <SignInForm />
         </CardContent>
-        <CardFooter className="flex flex-wrap items-center justify-between gap-2">
-          <div className="text-sm text-muted-foreground">
-            <span className="mr-1 hidden sm:inline-block">
-              ليس لديك حساب مسجل؟
-            </span>
-            <Link
-              aria-label="Sign up"
-              href="/signup"
-              className="text-primary underline-offset-4 transition-colors hover:underline"
-            >
-              ارسال طلب تسجيل
-            </Link>
-          </div>
-          <Link
-            aria-label="Reset password"
-            href="/signin/reset-password"
-            className="text-sm text-primary underline-offset-4 transition-colors hover:underline"
-          >
-            استعادة الباسوورد
-          </Link>
-        </CardFooter>
       </Card>
     </Shell>
   );

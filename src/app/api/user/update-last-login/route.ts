@@ -12,18 +12,15 @@ export async function POST(request: NextRequest) {
     }
 
     // Get email from request body
-    const { email } = await request.json();
+    const { phoneNumber } = await request.json();
 
-    if (!email) {
-      return NextResponse.json(
-        { error: "البريد الإلكتروني مطلوب" },
-        { status: 400 }
-      );
+    if (!phoneNumber) {
+      return NextResponse.json({ error: "رقم الهاتف مطلوب" }, { status: 400 });
     }
 
     // Update user's lastLoginDate
     const updatedUser = await prisma.user.update({
-      where: { email },
+      where: { phone: phoneNumber },
       data: {
         lastLoginDate: new Date(),
       },

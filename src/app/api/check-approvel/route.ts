@@ -3,11 +3,11 @@ import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 
 export async function POST(req: Request) {
-  const { email } = await req.json();
+  const { phoneNumber } = await req.json();
 
   try {
     const user = await prisma.user.findUnique({
-      where: { email: email.toLowerCase() },
+      where: { phone: phoneNumber },
     });
 
     if (!user) {
