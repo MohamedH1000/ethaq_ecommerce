@@ -34,7 +34,7 @@ export default async function SignInPage() {
             الرجاء قم بادخال بيانات تسجيل الدخول
           </CardDescription>
         </CardHeader>
-        <CardContent className="grid gap-4">
+        <CardContent className="flex items-center justify-center">
           {/* <OAuthSignIn />
           <div className="relative">
             <div className="absolute inset-0 flex items-center">

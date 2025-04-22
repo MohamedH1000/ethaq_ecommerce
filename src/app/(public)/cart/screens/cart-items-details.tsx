@@ -67,6 +67,16 @@ const CartItemsDetails = ({ user, items }: any) => {
       postcode: "",
     },
   });
+  if (!user?.id) {
+    return (
+      <div className="w-full flex items-center justify-center font-bold text-2xl my-3 min-h-screen flex-col gap-4">
+        <p>لم يتم اضافة منتجات لعربة التسوق</p>
+        <button className="px-4 w-[50%] max-sm:!w-full py-2 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-white rounded-lg grid place-items-center">
+          <Link href="/products">العودة الى المتجر</Link>
+        </button>
+      </div>
+    );
+  }
   // console.log("user", user);
   const fetchAddresses = useCallback(async () => {
     if (!user?.id) return;

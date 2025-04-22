@@ -254,42 +254,41 @@ export function SignUpForm() {
         )}
         {step === "otp" && (
           <>
-            <FormField
-              control={form.control}
-              name="otp"
-              render={({ field }) => (
-                <FormItem className="w-full">
-                  <FormLabel className="text-right w-full">
-                    رمز التحقق
-                  </FormLabel>
-                  <FormControl>
-                    <div className="flex justify-center w-full" dir="rtl">
-                      <InputOTP
-                        maxLength={6}
-                        {...field}
-                        value={field.value || ""} // Ensure value is always a string
-                        onChange={(value) => {
-                          field.onChange(value); // Update form state
-                        }}
-                        dir="rtl"
-                        className="w-full justify-center"
-                      >
-                        <InputOTPGroup className="gap-2 max-sm:gap-0">
-                          {[...Array(6)].map((_, index) => (
-                            <InputOTPSlot
-                              key={index}
-                              index={index}
-                              className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
-                            />
-                          ))}
-                        </InputOTPGroup>
-                      </InputOTP>
-                    </div>
-                  </FormControl>
-                  <FormMessage className="text-right" />
-                </FormItem>
-              )}
-            />
+            <div
+              className="w-full" // Removed grid classes here
+            >
+              <FormField
+                control={form.control}
+                name="otp"
+                render={({ field }) => (
+                  <FormItem className="w-full">
+                    <FormLabel className="text-right w-full block">
+                      رمز التحقق
+                    </FormLabel>
+                    <FormControl>
+                      <div className="flex justify-center w-full">
+                        <InputOTP
+                          maxLength={6}
+                          {...field}
+                          className="w-full justify-center"
+                        >
+                          <InputOTPGroup className="gap-2 max-sm:gap-0 justify-center">
+                            {[...Array(6)].map((_, index) => (
+                              <InputOTPSlot
+                                key={index}
+                                index={index}
+                                className="h-14 w-14 max-sm:w-10 max-sm:h-10 text-xl border-2 border-gray-300 rounded-lg"
+                              />
+                            ))}
+                          </InputOTPGroup>
+                        </InputOTP>
+                      </div>
+                    </FormControl>
+                    <FormMessage className="text-right" />
+                  </FormItem>
+                )}
+              />
+            </div>
 
             <div className="flex items-center justify-between">
               <Button

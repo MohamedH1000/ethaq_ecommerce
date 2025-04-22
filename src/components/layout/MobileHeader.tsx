@@ -1,6 +1,4 @@
 "use client";
-import { useMe } from "@/hooks/api/user/useMe";
-import { motion } from "framer-motion";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { buttonVariants } from "../ui/button";
@@ -11,14 +9,12 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 
 import { Icons } from "../ui/icons";
 import { HeartIcon } from "lucide-react";
 import dynamic from "next/dynamic";
-import { useGlobalModalStateStore } from "@/store/modal";
 import Image from "next/image";
 import { User } from "@prisma/client";
 import Search from "../ui/search/search";
@@ -27,12 +23,11 @@ const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
   ssr: false,
 });
 const MobileHeader = ({ currentUser }: { currentUser: User }) => {
-  const globalModal = useGlobalModalStateStore();
   const isHomePage = useIsHomePage();
 
   return (
     <header className="flex justify-between w-full items-center">
-      <div className="flex items-center gap-2 w-full -ml-6">
+      <div className="flex items-center gap-2 w-[50%] ">
         {/* <motion.button
           whileTap={{ scale: 0.88 }}
           onClick={() => globalModal.onMenubar()}
@@ -51,8 +46,8 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
         </Link>
       </div>
 
-      <ul className="items-center shrink-0 flex space-x-10 space-x-reverse">
-        <div className="flex items-center space-x-4 space-x-reverse justify-between">
+      <ul className="items-center justify-center flex mr-2">
+        <div className="flex items-center  justify-between max-sm:justify-center w-full max-sm:gap-3">
           <div className="sm:flex items-center space-x-4 space-x-reverse hidden">
             {/* <Link
               href={`${process.env.NEXT_PUBLIC_ADMIN_URL}/signup`}
@@ -72,7 +67,10 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
           {isHomePage ? (
             <>
               {/* {(headerSearch.showHeaderSearch) && ( */}
-              <div className="w-[60%] mx-auto overflow-hidden  border-[#000957] border-[1px] rounded-3xl">
+              <div
+                className="w-[80%]  overflow-hidden flex items-center justify-center 
+              border-[#000957] border-[1px] rounded-3xl"
+              >
                 <Search label="Search" variant="minimal" />
               </div>
               {/* )} */}
@@ -87,9 +85,9 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
                   <Avatar className="h-8 w-8  rounded-full">
                     <AvatarImage
                       src={currentUser?.image || "/assets/avatar.png"}
-                      alt={currentUser.name}
+                      alt={currentUser?.name}
                     />
-                    <AvatarFallback>{currentUser.name}</AvatarFallback>
+                    <AvatarFallback>{currentUser?.name}</AvatarFallback>
                   </Avatar>
                 </div>
               </DropdownMenuTrigger>
@@ -97,10 +95,10 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
                 <DropdownMenuLabel className="font-normal">
                   <div className="flex flex-col space-y-1">
                     <p className="text-sm font-medium leading-none">
-                      {currentUser.name}
+                      {currentUser?.name}
                     </p>
                     <p className="text-xs leading-none text-muted-foreground">
-                      {currentUser.email}
+                      {currentUser?.email}
                     </p>
                   </div>
                 </DropdownMenuLabel>

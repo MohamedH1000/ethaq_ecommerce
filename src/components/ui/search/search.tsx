@@ -130,7 +130,12 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
 
       {/* Search Results Dropdown */}
       {searchTerm && (
-        <div className="absolute left-auto max-sm:!left-[50px] top-15 z-50 mt-1 max-h-96 overflow-y-auto rounded-lg border border-gray-200 bg-white shadow-lg dark:border-gray-700 dark:bg-gray-800">
+        <div
+          className="absolute left-auto max-sm:!left-[50px] 
+        top-15 z-50 mt-1 max-h-96 overflow-y-auto 
+        rounded-lg border border-gray-200 bg-white 
+        shadow-lg dark:border-gray-700 dark:bg-gray-800"
+        >
           {isLoading ? (
             <div className="flex items-center justify-center p-4 w-[600px] max-sm:w-[250px]">
               <Icons.spinner className="h-5 w-5 animate-spin" />
@@ -148,7 +153,7 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
                       }} // Close dropdown when product is selected
                     >
                       <img
-                        src={product.images[0]}
+                        src={product?.images[0]}
                         alt={product.name}
                         className="h-10 w-10 rounded object-cover"
                       />

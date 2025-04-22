@@ -29,13 +29,7 @@ import { toast } from "sonner";
 import { signIn } from "next-auth/react";
 import { CardFooter } from "../ui/card";
 import Link from "next/link";
-import {
-  InputOTP,
-  InputOTPGroup,
-  InputOTPSeparator,
-  InputOTPSlot,
-} from "../ui/input-otp";
-import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
+import { InputOTP, InputOTPGroup, InputOTPSlot } from "../ui/input-otp";
 
 // ... (keep your existing variants and countryCodes definitions)
 const formVariants = {
@@ -78,9 +72,21 @@ const countryCodes = [
 const loginSchema = z.object({
   phoneNumber: z
     .string()
-    .min(9, "يجب أن يكون رقم الهاتف 9 أرقام على الأقل")
-    .max(15, "يجب أن يكون رقم الهاتف 15 رقماً كحد أقصى")
-    .regex(/^[0-9]+$/, "يجب أن يحتوي رقم الهاتف على أرقام فقط"),
+    .transform((val) =>
+      val.replace(/[٠-٩]/g, (d) => "٠١٢٣٤٥٦٧٨٩".indexOf(d).toString())
+    ) // Convert Arabic to Western
+    .refine(
+      (val) => /^[0-9]+$/.test(val),
+      "يجب أن يحتوي رقم الهاتف على أرقام فقط"
+    )
+    .refine(
+      (val) => val.length >= 9,
+      "يجب أن يكون رقم الهاتف 9 أرقام على الأقل"
+    )
+    .refine(
+      (val) => val.length <= 15,
+      "يجب أن يكون رقم الهاتف 15 رقماً كحد أقصى"
+    ),
   countryCode: z.string().min(1, "يجب اختيار رمز الدولة"),
   otp: z.string().optional(),
 });
@@ -245,10 +251,10 @@ export function SignInForm() {
             </motion.div>
           ),
         });
-
+        window.location.reload();
         setTimeout(() => {
           router.push("/");
-          window.location.reload();
+          router.refresh();
           // window.location.reload();
         }, 500);
       } else if (signInResult?.error) {
@@ -471,48 +477,33 @@ export function SignInForm() {
                 </div>
               </motion.div>
             ) : (
-              <motion.div variants={itemVariants}>
+              <motion.div
+                variants={itemVariants}
+                className="w-full" // Removed grid classes here
+              >
                 <FormField
                   control={form.control}
                   name="otp"
                   render={({ field }) => (
                     <FormItem className="w-full">
-                      <FormLabel className="text-right w-full">
+                      <FormLabel className="text-right w-full block">
                         رمز التحقق
                       </FormLabel>
                       <FormControl>
-                        <div className="flex justify-center w-full" dir="rtl">
+                        <div className="flex justify-center w-full">
                           <InputOTP
                             maxLength={6}
                             {...field}
-                            dir="rtl"
                             className="w-full justify-center"
                           >
-                            <InputOTPGroup className="gap-2 max-sm:gap-0">
-                              <InputOTPSlot
-                                index={0}
-                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
-                              />
-                              <InputOTPSlot
-                                index={1}
-                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
-                              />
-                              <InputOTPSlot
-                                index={2}
-                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
-                              />
-                              <InputOTPSlot
-                                index={3}
-                                className="h-14 w-14  max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
-                              />
-                              <InputOTPSlot
-                                index={4}
-                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
-                              />
-                              <InputOTPSlot
-                                index={5}
-                                className="h-14 w-14 max-sm:w-[10] max-sm:h-[10] text-xl border-2 border-gray-300 rounded-lg"
-                              />
+                            <InputOTPGroup className="gap-2 max-sm:gap-0 justify-center">
+                              {[...Array(6)].map((_, index) => (
+                                <InputOTPSlot
+                                  key={index}
+                                  index={index}
+                                  className="h-14 w-14 max-sm:w-10 max-sm:h-10 text-xl border-2 border-gray-300 rounded-lg"
+                                />
+                              ))}
                             </InputOTPGroup>
                           </InputOTP>
                         </div>

@@ -45,13 +45,15 @@ export default async function IndexPage() {
           <PromotionalBannerCarousel />
         </div>
       </div> */}
-      <div className="py-5 md:py-10  container mt-10">
+      <div className="  container mt-10 !px-1">
         <div className="flex items-center justify-between">
-          <h1 className="text-3xl font-bold font-sans ">التسوق بالفئات</h1>
-          <Link href={"/products"}>جميع الفئات</Link>
+          {/* <h1 className="text-3xl font-bold font-sans ">التسوق بالفئات</h1> */}
+          <Link href={"/products"} className="text-lg">
+            جميع الفئات
+          </Link>
         </div>
       </div>
-      <div className="py-4  border-t-2 mt-3">
+      <div className="mt-3">
         <CategoriesCarousel allCategories={allCategories} />
       </div>
       <OurProductsSection type={"offers"} />

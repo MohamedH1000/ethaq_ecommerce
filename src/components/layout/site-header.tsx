@@ -13,7 +13,7 @@ export function SiteHeader({
 }) {
   return (
     <header className="sticky top-0 z-50 w-full  bg-[#FAFAFA] dark:bg-black shadow-sm h-16 flex justify-center">
-      <div className="container flex items-center">
+      <div className="container flex items-center max-sm:!px-1">
         <div className="flex flex-1 items-center justify-end space-x-4 z-50">
           <Header currentUser={currentUser} orderItems={orderItems} />
 

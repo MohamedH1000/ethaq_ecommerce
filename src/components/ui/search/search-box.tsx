@@ -12,12 +12,12 @@ export interface Props extends InputHTMLAttributes<HTMLInputElement> {
 
 const classes = {
   normal:
-    "bg-white dark:black/76 pl-6 pr-6 pr-14 pl-14 rounded-lg border border-transparent focus:border-accent",
+    "bg-white dark:bg-gray-800 pl-6 pr-14 rounded-full border border-gray-200 dark:border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary/20",
   minimal:
-    "search-minimal dark:bg-gray-900 bg-gray-100 pl-10 pr-10 pr-4 pl-4 md:pl-14 md:pr-14 rounded-lg border border-transparent focus:border-accent focus:bg-gray-200 dark:focus:bg-gray-800",
-  flat: "bg-white dark:black/76 pl-10 pr-10 pr-4 pl-4 md:pl-14 md:pr-14 rounded-lg border-0",
+    "bg-gray-100 dark:bg-gray-900 px-10 md:px-14 rounded-full border border-transparent focus:bg-gray-200 dark:focus:bg-gray-800 focus:ring-2 focus:ring-primary/20",
+  flat: "bg-white dark:bg-gray-800 px-10 md:px-14 rounded-full border-0 focus:ring-2 focus:ring-primary/20",
   "with-shadow":
-    "search-with-shadow bg-white dark:black/76 pl-10 pr-10 pr-12 pl-12 md:pl-14 md:pr-14 rounded-lg focus:bg-white border-0",
+    "bg-white dark:bg-gray-800 px-12 md:px-14 rounded-full border-0 shadow-md focus:ring-2 focus:ring-primary/20",
 };
 
 const SearchBox: React.FC<Props> = ({
@@ -30,10 +30,9 @@ const SearchBox: React.FC<Props> = ({
   ...rest
 }) => {
   return (
-    <form onSubmit={onSubmit} className={cn("w-full rounded-full", className)}>
+    <form onSubmit={onSubmit} className={cn("w-full", className)}>
       <div
-        className={cn("relative flex rounded-full ", {
-          // Changed to rounded-full
+        className={cn("relative flex w-full", {
           "h-14 shadow-900": variant === "normal",
           "h-11 md:h-12": variant === "minimal",
           "h-auto": variant === "flat",
@@ -50,42 +49,47 @@ const SearchBox: React.FC<Props> = ({
           value={value}
           autoComplete="off"
           className={cn(
-            "focus:ring-primary item-center flex h-full w-full appearance-none overflow-hidden truncate rounded-full text-sm text-stone-800 placeholder-gray-500 transition duration-300 ease-in-out focus:outline-0 dark:text-gray-200", // Changed to rounded-full
-            {
-              "placeholder:text-slate-400": variant === "flat",
-            },
+            "w-full h-full appearance-none overflow-hidden truncate rounded-full text-base text-gray-800 placeholder-gray-400 transition duration-200 ease-in-out focus:outline-none dark:text-gray-200 dark:placeholder-gray-500",
+            "rtl:text-right", // RTL text alignment
             classes[variant]
           )}
           {...rest}
         />
+
+        {/* Clear button (appears when there's input) */}
         {value && (
           <button
             type="button"
             onClick={onClearSearch}
             className={cn(
-              "absolute flex h-full w-10 cursor-pointer items-center justify-center text-gray-400 transition-colors duration-200 hover:text-primary/80 focus:text-primary/80 focus:outline-0 md:w-14",
+              "absolute flex h-full w-10 items-center justify-center text-gray-400 transition-colors duration-200 hover:text-primary focus:outline-none",
               {
-                "right-36": variant === "normal",
-                "right-0": variant !== "normal",
+                "left-36": variant === "normal",
+                "left-0": variant !== "normal",
               }
             )}
           >
-            <span className="sr-only">close</span>
-            <Icons.close className="h-3.5 w-3.5 md:h-3 md:w-3" />
+            <span className="sr-only">إغلاق</span>
+            <Icons.close className="h-4 w-4" />
           </button>
         )}
 
+        {/* Search button */}
         {variant === "normal" ? (
-          <button className=" flex h-full min-w-[143px] items-center justify-center rounded-r-full bg-primary px-8 font-semibold text-white transition-colors duration-200 hover:bg-primary/80 focus:bg-primary/80 focus:outline-0">
-            {" "}
-            {/* // Changed to rounded-r-full */}
-            <Icons.search className="h-4 w-4 mr-2.5 ml-2.5 max-sm:!mr-10" />
-            <p className="max-sm:hidden">بحث</p>
+          <button
+            className="absolute left-0 flex h-full min-w-[120px] items-center justify-center rounded-l-full bg-primary px-4 font-medium text-white transition-colors duration-200 hover:bg-primary/90 focus:outline-none"
+            type="submit"
+          >
+            <Icons.search className="h-5 w-5 ml-2" />
+            <span className="max-sm:hidden">بحث</span>
           </button>
         ) : (
-          <button className="absolute flex h-full w-10 items-center justify-center transition-colors duration-200 hover:text-primary/60 focus:text-primary/80 focus:outline-0 left-0 right-0 md:w-14">
+          <button
+            className="absolute right-0 flex h-full w-12 items-center justify-center text-gray-500 transition-colors duration-200 hover:text-primary focus:outline-none"
+            type="submit"
+          >
             <span className="sr-only">بحث</span>
-            <Icons.search className="h-4 w-4" />
+            <Icons.search className="h-5 w-5" />
           </button>
         )}
       </div>
