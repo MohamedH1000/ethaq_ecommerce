@@ -19,11 +19,13 @@ import Image from "next/image";
 import { User } from "@prisma/client";
 import Search from "../ui/search/search";
 import { useIsHomePage } from "@/hooks/use-is-homepage";
+import { useTheme } from "next-themes";
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
   ssr: false,
 });
 const MobileHeader = ({ currentUser }: { currentUser: User }) => {
   const isHomePage = useIsHomePage();
+  const { resolvedTheme } = useTheme();
 
   return (
     <header className="flex justify-between w-full items-center">
@@ -38,7 +40,11 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
         </motion.button> */}
         <Link href={"/"}>
           <Image
-            src={"/assets/Logo.png"}
+            src={
+              resolvedTheme === "dark"
+                ? "/assets/Logo.png"
+                : "/assets/Logo_light.png"
+            }
             alt={"ايثاق ماركت"}
             width={90}
             height={90}

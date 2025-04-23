@@ -7,18 +7,10 @@ import {
   createOrder,
   decreaseOrderItem,
   deleteOrderItem,
-  getOrdersItemsByUserId,
   increaseOrderItem,
 } from "@/lib/actions/order.action";
-import {
-  addAddress,
-  getCurrentUser,
-  myAddresses,
-} from "@/lib/actions/user.action";
+import { addAddress, myAddresses } from "@/lib/actions/user.action";
 import { useRouter } from "next/navigation";
-import { ROUTES } from "@/configs/routes";
-import { Loader } from "lucide-react";
-import toast from "react-hot-toast";
 import { useCartStore } from "@/store/cart/cart.store";
 import {
   Dialog,
@@ -40,7 +32,6 @@ import {
   FormLabel,
   FormMessage,
   UncontrolledFormMessage,
-  useFormField,
 } from "@/components/ui/form";
 import { addressSchema } from "@/lib/schemas/address";
 import { z } from "zod";
@@ -48,6 +39,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Icons } from "@/components/ui/icons";
 import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 
 const CartItemsDetails = ({ user, items }: any) => {
   const [isLoading, setIsLoading] = useState(false);
@@ -64,7 +56,6 @@ const CartItemsDetails = ({ user, items }: any) => {
       street: "",
       city: "",
       state: "",
-      postcode: "",
     },
   });
   if (!user?.id) {
@@ -72,7 +63,7 @@ const CartItemsDetails = ({ user, items }: any) => {
       <div className="w-full flex items-center justify-center font-bold text-2xl my-3 min-h-screen flex-col gap-4">
         <p>لم يتم اضافة منتجات لعربة التسوق</p>
         <button className="px-4 w-[50%] max-sm:!w-full py-2 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-white rounded-lg grid place-items-center">
-          <Link href="/products">العودة الى المتجر</Link>
+          <Link href="/">العودة الى المتجر</Link>
         </button>
       </div>
     );
@@ -99,7 +90,41 @@ const CartItemsDetails = ({ user, items }: any) => {
     try {
       const response = await createOrder(user?.id, items, selectedAddressId);
       if (response.success) {
-        toast.success("تم إنشاء الطلب بنجاح");
+        toast.success(
+          <div className="flex flex-col items-center gap-4 p-6 w-full">
+            {/* Oversized checkmark icon */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="80"
+              height="80"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="text-green-500"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+
+            {/* Main message */}
+            <h3 className="text-2xl font-bold text-green-700">
+              تم إنشاء الطلب بنجاح
+            </h3>
+          </div>,
+          {
+            duration: 10000, // 10 seconds
+            position: "center",
+            className: "!max-w-md !w-full", // Larger container
+            style: {
+              padding: 0, // Remove default padding
+              borderRadius: "12px", // Rounded corners
+              boxShadow: "0 10px 25px -5px rgb(0 0 0 / 0.1)", // Deeper shadow
+            },
+          }
+        );
         setAddressDialogOpen(false);
         globalModal.closeCartState();
         useCartStore.getState().setOrderItems([]);
@@ -207,7 +232,7 @@ const CartItemsDetails = ({ user, items }: any) => {
             <div className="w-full flex items-center justify-center font-bold text-2xl my-3 min-h-screen flex-col gap-4">
               <p>لم يتم اضافة منتجات لعربة التسوق</p>
               <button className="px-4 w-[50%] max-sm:!w-full py-2 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-white rounded-lg grid place-items-center">
-                <Link href="/products">العودة الى المتجر</Link>
+                <Link href="/">العودة الى المتجر</Link>
               </button>
             </div>
           )}
@@ -393,7 +418,7 @@ const CartItemsDetails = ({ user, items }: any) => {
                       )}
                     />
 
-                    <FormField
+                    {/* <FormField
                       control={addressForm.control}
                       name="postcode"
                       render={({ field }) => (
@@ -405,7 +430,7 @@ const CartItemsDetails = ({ user, items }: any) => {
                           <FormMessage />
                         </FormItem>
                       )}
-                    />
+                    /> */}
 
                     <DialogFooter className="gap-2">
                       <Button
@@ -441,7 +466,7 @@ const CartItemsDetails = ({ user, items }: any) => {
     </button> */}
 
             <button className="px-4 w-full py-2 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-white rounded-lg grid place-items-center">
-              <Link href="/products">العودة الى المتجر</Link>
+              <Link href="/">العودة الى المتجر</Link>
             </button>
           </div>
         </div>

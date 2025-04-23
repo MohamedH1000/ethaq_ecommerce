@@ -550,7 +550,6 @@ export const addAddress = async (data: any) => {
         street: data.street,
         city: data.city,
         state: data.state,
-        postcode: data.postcode,
       },
     });
 

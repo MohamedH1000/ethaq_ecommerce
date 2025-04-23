@@ -18,7 +18,6 @@ import "swiper/css/pagination";
 import "swiper/css/thumbs";
 import { UserProvider } from "@/context/UserContext";
 import { getCurrentUser } from "@/lib/actions/user.action";
-import { notFound, redirect } from "next/navigation";
 
 export const metadata: Metadata = defaultMetadata;
 

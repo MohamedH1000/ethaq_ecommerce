@@ -5,17 +5,16 @@ import { useCartStore } from "@/store/cart/cart.store";
 import { Menu, Transition } from "@headlessui/react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { Fragment, useCallback, useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { buttonVariants } from "../ui/button";
-import { DropdownMenuShortcut } from "../ui/dropdown-menu";
 import { Icons } from "../ui/icons";
 import { OrderItem, User } from "@prisma/client";
 import { signOut } from "next-auth/react";
 import Image from "next/image";
-import { getOrdersItemsByUserId } from "@/lib/actions/order.action";
 import { useRouter } from "next/navigation";
 import { useUser } from "@/context/UserContext";
+import { useTheme } from "next-themes"; // Install with: npm install next-themes
 
 const Search = dynamic(() => import("@/components/ui/search/search"));
 const CartCounterButton = dynamic(() => import("../cart/cart-count-button"), {
@@ -29,6 +28,7 @@ const Header = ({
   currentUser: User;
   orderItems: OrderItem;
 }) => {
+  const { resolvedTheme } = useTheme();
   const { totalItems } = useCartStore((state) => state);
   const isHomePage = useIsHomePage();
   const router = useRouter();
@@ -69,7 +69,11 @@ const Header = ({
       <div className="flex items-center w-full ">
         <Link href={"/"}>
           <Image
-            src={"/assets/Logo.png"}
+            src={
+              resolvedTheme === "dark"
+                ? "/assets/Logo.png"
+                : "/assets/Logo_light.png"
+            }
             alt={"ايثاق ماركت"}
             width={90}
             height={90}

@@ -63,7 +63,7 @@ const CartSidebarView = () => {
       street: "",
       city: "",
       state: "",
-      postcode: "",
+      // postcode: "",
     },
   });
 
@@ -424,7 +424,7 @@ const CartSidebarView = () => {
                       )}
                     />
 
-                    <FormField
+                    {/* <FormField
                       control={addressForm.control}
                       name="postcode"
                       render={({ field }) => (
@@ -436,7 +436,7 @@ const CartSidebarView = () => {
                           <FormMessage />
                         </FormItem>
                       )}
-                    />
+                    /> */}
 
                     <DialogFooter className="gap-2">
                       <Button

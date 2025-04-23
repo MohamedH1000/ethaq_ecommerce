@@ -12,14 +12,14 @@ import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
 import { Icons } from "../ui/icons";
-import { Checkbox } from "../ui/checkbox";
 
 import { zodResolver } from "@hookform/resolvers/zod";
-import { infer, z } from "zod";
+import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { addAddress } from "@/lib/actions/user.action";
 import { addressSchema } from "@/lib/schemas/address";
+import { useRouter } from "next/navigation";
 
 type AddressFormData = z.infer<typeof addressSchema>;
 const AddressFrom = () => {
@@ -29,12 +29,11 @@ const AddressFrom = () => {
       street: "",
       city: "",
       state: "",
-      postcode: "",
     },
   });
 
   const [isSubmitting, setIsSubmitting] = React.useState(false);
-
+  const router = useRouter();
   const onSubmit = async (data: z.infer<typeof addressSchema>) => {
     setIsSubmitting(true);
     try {
@@ -49,6 +48,7 @@ const AddressFrom = () => {
       );
     } finally {
       setIsSubmitting(false);
+      router.refresh();
     }
   };
   return (
@@ -99,7 +99,7 @@ const AddressFrom = () => {
         />
 
         {/* Postcode Field */}
-        <FormField
+        {/* <FormField
           control={form.control}
           name="postcode"
           render={({ field }) => (
@@ -111,7 +111,7 @@ const AddressFrom = () => {
               <FormMessage />
             </FormItem>
           )}
-        />
+        /> */}
 
         <Button type="submit" disabled={isSubmitting}>
           {isSubmitting && (

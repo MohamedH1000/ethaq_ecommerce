@@ -22,27 +22,27 @@ model Category {
   @@map("categories")
 }
 model User {
-id              String   @id @default(auto()) @map("_id") @db.ObjectId
-name            String
-phone           String   @unique
-password        String?
-image           String?
-remainingAmount Float    @default(0)
-paidAmount      Float    @default(0)
-balance         Float?   @default(0)
-status          String   @default("pending") // pending, active, suspended
-creditLimit     Float    @default(5000)
-creditUsed      Float    @default(0)
-registrationDate DateTime @default(now())
-isAdmin         Boolean  @default(false)
-lastLoginDate   DateTime?
-// Relations
-addresses       Address[] // Relation to Address model
-orderItems      OrderItem[]
-orders          Order[]
-payments        Payment[]
-notifications   Notification[]
-@@map("users")
+  id              String   @id @default(auto()) @map("_id") @db.ObjectId
+  name            String
+  phone           String   @unique
+  password        String?
+  image           String?
+  remainingAmount Float    @default(0)
+  paidAmount      Float    @default(0)
+  balance         Float?   @default(0)
+  status          String   @default("pending") // pending, active, suspended
+  creditLimit     Float    @default(5000)
+  creditUsed      Float    @default(0)
+  registrationDate DateTime @default(now())
+  isAdmin         Boolean  @default(false)
+  lastLoginDate   DateTime?
+  // Relations
+  addresses       Address[] // Relation to Address model
+  orderItems      OrderItem[]
+  orders          Order[]
+  payments        Payment[]
+  notifications   Notification[]
+  @@map("users")
 }
 model OTP {
   id          String   @id @default(auto()) @map("_id") @db.ObjectId
@@ -67,7 +67,7 @@ model Address {
   street    String
   city      String
   state     String
-  postcode  String
+  postcode  String?
   createdAt DateTime @default(now())
   orders          Order[]
   @@map("addresses")
