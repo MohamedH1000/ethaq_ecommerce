@@ -13,8 +13,8 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
     <div className="grid min-h-screen grid-cols-1 overflow-hidden md:grid-cols-3 lg:grid-cols-2">
       <AspectRatio ratio={16 / 9}>
         <Image
-          src="/login.png"
-          alt="A skateboarder doing a high drop"
+          src="https://res.cloudinary.com/dbyc0sncy/image/upload/v1745439354/Login_cuuhqh.png"
+          alt="Ethaq Mart"
           fill
           className="absolute inset-0 object-cover"
           priority

@@ -9,6 +9,7 @@ const nextConfig = {
       "mcprod.hyperone.com.eg",
       "cdnprod.mafretailproxy.com",
       "cdn.mafrservices.com",
+      "res-console.cloudinary.com",
     ],
   },
   experimental: {

@@ -42,8 +42,8 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
           <Image
             src={
               resolvedTheme === "dark"
-                ? "/assets/Logo.png"
-                : "/assets/Logo_light.png"
+                ? "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745439492/Logo_ge50rv.png"
+                : "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745439493/Logo_light_h4dulg.png"
             }
             alt={"ايثاق ماركت"}
             width={90}
