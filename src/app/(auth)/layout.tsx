@@ -22,13 +22,13 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-background to-background/60 md:to-background/40" />
         <Link
           href="/"
-          className="absolute left-8 top-6 z-20 flex items-center text-lg font-bold tracking-tight"
+          className="absolute right-8 top-6 z-20 flex items-center text-lg font-bold tracking-tight"
         >
           <Image
             src={"/assets/Logo.png"}
             alt={"ايثاق ماركت"}
-            width={190}
-            height={190}
+            width={90}
+            height={90}
           />
         </Link>
       </AspectRatio>

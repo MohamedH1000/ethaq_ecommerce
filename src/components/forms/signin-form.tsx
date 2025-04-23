@@ -75,10 +75,7 @@ const loginSchema = z.object({
     .transform((val) =>
       val.replace(/[٠-٩]/g, (d) => "٠١٢٣٤٥٦٧٨٩".indexOf(d).toString())
     ) // Convert Arabic to Western
-    .refine(
-      (val) => /^[0-9]+$/.test(val),
-      "يجب أن يحتوي رقم الهاتف على أرقام فقط"
-    )
+    .refine((val) => /^[0-9]+$/.test(val), "لا يمكن ان يكون الرقم فارغ")
     .refine(
       (val) => val.length >= 9,
       "يجب أن يكون رقم الهاتف 9 أرقام على الأقل"
@@ -418,59 +415,69 @@ export function SignInForm() {
             {step === "phone" ? (
               <motion.div
                 variants={itemVariants}
-                className="grid grid-cols-3 gap-2 max-sm:place-items-end  w-full"
+                className="grid grid-cols-3 gap-2 w-full items-start" // Added items-start
               >
-                <div className="col-span-2">
+                {/* Phone Number Field - Adjusted */}
+                <div className="col-span-2 flex flex-col">
                   <FormField
                     control={form.control}
                     name="phoneNumber"
                     render={({ field }) => (
-                      <FormItem>
+                      <FormItem className="flex flex-col h-full">
                         <FormLabel>رقم الهاتف</FormLabel>
-                        <FormControl>
-                          <Input
-                            {...field}
-                            type="tel"
-                            placeholder="5XXXXXXXX"
-                            dir="rtl"
-                            className="h-[50px]"
-                          />
-                        </FormControl>
-                        <FormMessage />
+                        <div className="flex flex-col flex-grow">
+                          <FormControl>
+                            <Input
+                              {...field}
+                              type="number"
+                              placeholder="5XXXXXXXX"
+                              dir="rtl"
+                              className="h-[50px]"
+                            />
+                          </FormControl>
+                          <FormMessage className="mt-1 text-right" />{" "}
+                          {/* Moved message here */}
+                        </div>
                       </FormItem>
                     )}
                   />
                 </div>
-                <div className="col-span-1 place-self-end">
+
+                {/* Country Code Selector - Adjusted */}
+                <div className="col-span-1 flex flex-col">
                   <FormField
                     control={form.control}
                     name="countryCode"
                     render={({ field }) => (
-                      <FormItem>
-                        {/* <FormLabel>رمز الدولة</FormLabel> */}
-                        <Select
-                          onValueChange={field.onChange}
-                          defaultValue={field.value}
-                          dir="rtl"
-                        >
-                          <FormControl>
-                            <SelectTrigger dir="rtl" className="h-[50px] ">
-                              <SelectValue placeholder="اختر رمز الدولة" />
-                            </SelectTrigger>
-                          </FormControl>
-                          <SelectContent dir="rtl">
-                            {countryCodes.map((country) => (
-                              <SelectItem
-                                key={country.code}
-                                value={country.code}
-                                dir="rtl"
-                              >
-                                {country.name} ({country.code})
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                        <FormMessage />
+                      <FormItem className="flex flex-col h-full">
+                        <FormLabel className="invisible">رمز الدولة</FormLabel>{" "}
+                        {/* Hidden but maintains alignment */}
+                        <div className="flex-grow">
+                          <Select
+                            onValueChange={field.onChange}
+                            defaultValue={field.value}
+                            dir="rtl"
+                          >
+                            <FormControl>
+                              <SelectTrigger dir="rtl" className="h-[50px]">
+                                <SelectValue placeholder="اختر رمز الدولة" />
+                              </SelectTrigger>
+                            </FormControl>
+                            <SelectContent dir="rtl">
+                              {countryCodes.map((country) => (
+                                <SelectItem
+                                  key={country.code}
+                                  value={country.code}
+                                  dir="rtl"
+                                >
+                                  {country.name} ({country.code})
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                          <FormMessage className="mt-1" />{" "}
+                          {/* Added message container */}
+                        </div>
                       </FormItem>
                     )}
                   />

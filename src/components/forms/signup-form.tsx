@@ -43,9 +43,21 @@ const formSchema = z.object({
   username: z.string().min(2),
   phoneNumber: z
     .string()
-    .min(9, "رقم الهاتف يجب أن يكون 9 أرقام على الأقل")
-    .max(10, "رقم الهاتف يجب ألا يتجاوز 10 أرقام")
-    .regex(/^[0-9]+$/, "يجب أن يحتوي رقم الهاتف على أرقام فقط"),
+    .transform((val) =>
+      val.replace(/[٠-٩]/g, (d) => "٠١٢٣٤٥٦٧٨٩".indexOf(d).toString())
+    ) // Convert Arabic to Western
+    .refine(
+      (val) => /^[0-9]+$/.test(val),
+      "يجب أن يحتوي رقم الهاتف على أرقام فقط"
+    )
+    .refine(
+      (val) => val.length >= 9,
+      "يجب أن يكون رقم الهاتف 9 أرقام على الأقل"
+    )
+    .refine(
+      (val) => val.length <= 15,
+      "يجب أن يكون رقم الهاتف 15 رقماً كحد أقصى"
+    ),
   countryCode: z.string(),
   otp: z.string().optional(),
 });

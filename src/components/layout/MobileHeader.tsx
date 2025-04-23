@@ -40,8 +40,8 @@ const MobileHeader = ({ currentUser }: { currentUser: User }) => {
           <Image
             src={"/assets/Logo.png"}
             alt={"ايثاق ماركت"}
-            width={170}
-            height={170}
+            width={90}
+            height={90}
           />
         </Link>
       </div>

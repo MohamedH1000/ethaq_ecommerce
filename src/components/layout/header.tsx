@@ -71,8 +71,8 @@ const Header = ({
           <Image
             src={"/assets/Logo.png"}
             alt={"ايثاق ماركت"}
-            width={190}
-            height={190}
+            width={90}
+            height={90}
           />
         </Link>
 
