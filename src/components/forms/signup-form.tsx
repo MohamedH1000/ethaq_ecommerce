@@ -284,7 +284,10 @@ export function SignUpForm() {
                           {...field}
                           className="w-full justify-center"
                         >
-                          <InputOTPGroup className="gap-2 max-sm:gap-0 justify-center">
+                          <InputOTPGroup
+                            className="gap-2 max-sm:gap-0 justify-center"
+                            dir="ltr"
+                          >
                             {[...Array(6)].map((_, index) => (
                               <InputOTPSlot
                                 key={index}

@@ -114,8 +114,9 @@ export async function createOrder(
       .map((item) => item.priceAtPurchase * item.quantity)
       .reduce((sum, priceAtPurchase) => sum + priceAtPurchase, 0);
 
-    const taxAmount = (15 / 100) * orderAmount;
-    const newOrderTotal = orderAmount + taxAmount;
+    const profitAmount = (15 / 100) * orderAmount;
+    const taxAmount = (profitAmount + orderAmount) * (15 / 100);
+    const newOrderTotal = orderAmount + taxAmount + profitAmount;
 
     // Calculate potential total (existing unpaid + new order)
     const potentialTotal = totalUnpaid + newOrderTotal;

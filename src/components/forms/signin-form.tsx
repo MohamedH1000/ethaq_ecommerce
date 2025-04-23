@@ -30,6 +30,7 @@ import { signIn } from "next-auth/react";
 import { CardFooter } from "../ui/card";
 import Link from "next/link";
 import { InputOTP, InputOTPGroup, InputOTPSlot } from "../ui/input-otp";
+import { cn } from "@/lib/utils";
 
 // ... (keep your existing variants and countryCodes definitions)
 const formVariants = {
@@ -503,12 +504,19 @@ export function SignInForm() {
                             {...field}
                             className="w-full justify-center"
                           >
-                            <InputOTPGroup className="gap-2 max-sm:gap-0 justify-center">
+                            <InputOTPGroup
+                              className="gap-2 max-sm:gap-0 justify-center"
+                              dir="ltr"
+                            >
                               {[...Array(6)].map((_, index) => (
                                 <InputOTPSlot
                                   key={index}
                                   index={index}
-                                  className="h-14 w-14 max-sm:w-10 max-sm:h-10 text-xl border-2 border-gray-300 rounded-lg"
+                                  className={cn(
+                                    "h-14 w-14 max-sm:w-10 max-sm:h-10",
+                                    "text-xl border-2 border-gray-300",
+                                    "rounded-lg [&_input]:text-center" /* Center digits */
+                                  )}
                                 />
                               ))}
                             </InputOTPGroup>

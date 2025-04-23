@@ -208,12 +208,14 @@ const CartItemsDetails = ({ user, items }: any) => {
       .reduce((sum, priceAtPurchase) => sum + priceAtPurchase, 0)
       .toFixed(2);
   }, [items]); // Only depends on items now
-
-  const taxAmount = useMemo(() => {
+  const profitAmount = useMemo(() => {
     return Number(totalPrice) * (15 / 100);
   }, [items, totalPrice]);
+  const taxAmount = useMemo(() => {
+    return (Number(profitAmount) + Number(totalPrice)) * (15 / 100);
+  }, [items, totalPrice, profitAmount]);
 
-  const total = Number(totalPrice) + taxAmount;
+  const total = Number(totalPrice) + taxAmount + profitAmount;
   return (
     <div className="container flex flex-col xl:flex-row  gap-8 py-12  ">
       <div className="w-full  xl:w-[70%] whitespace-nowrap rounded-md h-auto">
@@ -264,6 +266,14 @@ const CartItemsDetails = ({ user, items }: any) => {
         التكلفة عند الدفع
       </span>
     </div>  */}
+            <div className="flex gap-2">
+              <h1 className=" text-gray-600 dark:text-white font-semibold">
+                قيمة نسبة المرابحة
+              </h1>
+              <span className="ml-auto  text-gray-600 dark:text-white font-semibold">
+                {profitAmount.toFixed(2)} ريال
+              </span>
+            </div>
             <div className="flex gap-2">
               <h1 className=" text-gray-600 dark:text-white font-semibold">
                 الضريبة التكلفة عند الدفع

@@ -26,7 +26,8 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
         <Link
           href={"/"}
           className=" font-bold p-2  border-[1px] rounded-md flex 
-          items-center justify-center gap-1 text-sm bg-white"
+          items-center justify-center gap-1 text-sm bg-white 
+          dark:bg-black dark:text-white dark:border-white"
         >
           <MoveRight />
           الرجوع الى المتجر

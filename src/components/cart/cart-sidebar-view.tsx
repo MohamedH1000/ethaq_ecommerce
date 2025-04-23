@@ -92,7 +92,41 @@ const CartSidebarView = () => {
         selectedAddressId
       );
       if (response.success) {
-        toast.success("تم إنشاء الطلب بنجاح");
+        toast.success(
+          <div className="flex flex-col items-center gap-4 p-6 w-full">
+            {/* Oversized checkmark icon */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="80"
+              height="80"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="text-green-500"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+
+            {/* Main message */}
+            <h3 className="text-2xl font-bold text-green-700">
+              تم إنشاء الطلب بنجاح
+            </h3>
+          </div>,
+          {
+            duration: 10000, // 10 seconds
+            position: "center",
+            className: "!max-w-md !w-full", // Larger container
+            style: {
+              padding: 0, // Remove default padding
+              borderRadius: "12px", // Rounded corners
+              boxShadow: "0 10px 25px -5px rgb(0 0 0 / 0.1)", // Deeper shadow
+            },
+          }
+        );
         setAddressDialogOpen(false);
         globalModal.closeCartState();
         setOrderItems([]);
@@ -206,12 +240,14 @@ const CartSidebarView = () => {
       .reduce((sum, priceAtPurchase) => sum + priceAtPurchase, 0)
       .toFixed(2);
   }, [orderItems]);
-
-  const taxAmount = useMemo(() => {
+  const profitAmount = useMemo(() => {
     return Number(totalPrice) * (15 / 100);
   }, [orderItems, totalPrice]);
+  const taxAmount = useMemo(() => {
+    return (Number(profitAmount) + Number(totalPrice)) * (15 / 100);
+  }, [orderItems, totalPrice, profitAmount]);
 
-  const total = Number(totalPrice) + taxAmount;
+  const total = Number(totalPrice) + taxAmount + profitAmount;
 
   // if (isLoading) {
   //   return (
@@ -256,6 +292,16 @@ const CartSidebarView = () => {
           {/* <h6 className="text-sm text-gray-500 py-2">
    يتم احتساب الشحن والضرائب عند التحويل للدفع
  </h6> */}
+          <div className="flex justify-between my-2">
+            <div>
+              <h3 className="mb-2.5 text-sm font-normal text-gray-500 dark:text-white">
+                قيمة نسبة المرابحة 15%:
+              </h3>
+            </div>
+            <div className="shrink-0 font-semibold text-sm md:text-sm text-primary -mt-0.5 min-w-[80px] text-left">
+              {profitAmount.toFixed(2)} ريال
+            </div>
+          </div>
           <div className="flex justify-between my-2">
             <div>
               <h3 className="mb-2.5 text-sm font-normal text-gray-500 dark:text-white">
