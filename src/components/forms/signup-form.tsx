@@ -221,7 +221,10 @@ export function SignUpForm() {
                       <FormControl>
                         <Input
                           placeholder="5XXXXXXXX"
-                          type="tel"
+                          type="tel" // Better for phone numbers
+                          inputMode="numeric" //
+                          pattern="[0-9]*"
+                          autoComplete="off"
                           {...field}
                           disabled={otpSent}
                         />
@@ -251,7 +254,7 @@ export function SignUpForm() {
                         <SelectContent>
                           {countryCodes.map((country) => (
                             <SelectItem key={country.code} value={country.code}>
-                              {country.flag} {country.name} ({country.code})
+                              {country.name} ({country.code})
                             </SelectItem>
                           ))}
                         </SelectContent>

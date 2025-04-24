@@ -643,7 +643,7 @@ export async function createOrder(
     📌 *${newOrder.confirmNo}* 📌
     
     👉 الرابط المختصر لتأكيد الاستلام:
-    ${`https://four.fortworthtowingtx.com/account/orders/${newOrder?.id}`}
+    ${`${process.env.NEXTAUTH_URL}/account/orders/${newOrder?.id}`}
     
     مع خالص الشكر والتقدير،
     

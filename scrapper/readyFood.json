@@ -4,90 +4,103 @@
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101254/%D8%A7%D9%84%D8%BA%D9%88%D8%A7%D8%B1-%D8%B9%D8%AC%D9%8A%D9%86%D8%A9-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9-1%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "عجينة سمبوسة عادية من الغوار بوزن 1 كجم، مثالية لتحضير السمبوسة المقرمشة في المنزل."
   },
   {
     "name": "تلال غوار - عجينة سمبوسة فاخرة 1كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101255/%D8%AA%D9%84%D8%A7%D9%84-%D8%BA%D9%88%D8%A7%D8%B1-%D8%B9%D8%AC%D9%8A%D9%86%D8%A9-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-1%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 10.95
+    "price": 10.95,
+    "description": "عجينة سمبوسة فاخرة من تلال غوار بوزن 1 كجم، تتميز بجودتها العالية وسهولة تشكيلها."
   },
   {
     "name": "كارفور عجينة  136 جرام ؛ قائق",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101257/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AC%D9%8A%D9%86%D8%A9-136-%D8%AC%D8%B1%D8%A7%D9%85-%D9%82%D8%A7%D8%A6%D9%82.jpg.jpg"
     ],
-    "price": 15.5
+    "price": 15.5,
+    "description": "عجينة قائق من كارفور بوزن 136 جرام، مثالية لتحضير المعجنات الخفيفة والمقرمشة."
   },
   {
     "name": "تلال غوار وردة - عجينة سمبوسة فاخرة 1كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101258/%D8%AA%D9%84%D8%A7%D9%84-%D8%BA%D9%88%D8%A7%D8%B1-%D9%88%D8%B1%D8%AF%D8%A9-%D8%B9%D8%AC%D9%8A%D9%86%D8%A9-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-1%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 8.25
+    "price": 8.25,
+    "description": "عجينة سمبوسة فاخرة من تلال غوار وردة بوزن 1 كجم، مثالية لتحضير سمبوسة ذات طعم مميز."
   },
   {
     "name": "تلال غوار وردة عجينة السمبوسة 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101259/%D8%AA%D9%84%D8%A7%D9%84-%D8%BA%D9%88%D8%A7%D8%B1-%D9%88%D8%B1%D8%AF%D8%A9-%D8%B9%D8%AC%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "عجينة سمبوسة من تلال غوار وردة بوزن 1 كجم، تتميز بجودتها وسهولة الاستخدام."
   },
   {
     "name": "فوشيه أوراق سمبوسة 500جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101261/%D9%81%D9%88%D8%B4%D9%8A%D9%87-%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "أوراق سمبوسة من فوشيه بوزن 500 جرام، مثالية لتحضير السمبوسة الشهية بسرعة."
   },
   {
     "name": "سويتز - سمبوسة 500جرام (50 قطعة)",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101262/%D8%B3%D9%88%D9%8A%D8%AA%D8%B2-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-500%D8%AC%D8%B1%D8%A7%D9%85-50-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "سمبوسة سويتز بوزن 500 جرام تحتوي على 50 قطعة، جاهزة للقلي والتقديم."
   },
   {
     "name": "الغوار سمبوسة جاهزة للقلي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101263/%D8%A7%D9%84%D8%BA%D9%88%D8%A7%D8%B1-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-%D8%AC%D8%A7%D9%87%D8%B2%D8%A9-%D9%84%D9%84%D9%82%D9%84%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 24.75
+    "price": 24.75,
+    "description": "سمبوسة جاهزة للقلي من الغوار بوزن 500 جرام، مثالية لوجبات سريعة ولذيذة."
   },
   {
     "name": "سويتز زيت السمبوسة 1 كجم",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101264/%D8%B3%D9%88%D9%8A%D8%AA%D8%B2-%D8%B2%D9%8A%D8%AA-%D8%A7%D9%84%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-1-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
-    "price": 16.25
+    "price": 16.25,
+    "description": "زيت سمبوسة من سويتز بوزن 1 كجم، مثالي لقلي السمبوسة للحصول على قوام مقرمش."
   },
   {
     "name": "تلال غوار - سمبوسة بالجبن ×30",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101265/%D8%AA%D9%84%D8%A7%D9%84-%D8%BA%D9%88%D8%A7%D8%B1-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86-30.jpg.jpg"
     ],
-    "price": 24.75
+    "price": 24.75,
+    "description": "سمبوسة بالجبن من تلال غوار تحتوي على 30 قطعة، مثالية لمحبي النكهات الغنية."
   },
   {
     "name": "سويتز سمبوسة 1كج (100 ورقة)",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101266/%D8%B3%D9%88%D9%8A%D8%AA%D8%B2-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-1%D9%83%D8%AC-100-%D9%88%D8%B1%D9%82%D8%A9.jpg.jpg"
     ],
-    "price": 16.25
+    "price": 16.25,
+    "description": "سمبوسة سويتز بوزن 1 كجم تحتوي على 100 ورقة، مثالية لتحضير كميات كبيرة."
   },
   {
     "name": "بنت البلد  سمبوسة1 كجم",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101268/%D8%A8%D9%86%D8%AA-%D8%A7%D9%84%D8%A8%D9%84%D8%AF-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A91-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
-    "price": 17
+    "price": 17,
+    "description": "سمبوسة بنت البلد بوزن 1 كجم، تتميز بنكهتها التقليدية وجودتها العالية."
   },
   {
     "name": "سويتز سمبوسة ميني 500 جرام 50 ورقة",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745101269/%D8%B3%D9%88%D9%8A%D8%AA%D8%B2-%D8%B3%D9%85%D8%A8%D9%88%D8%B3%D8%A9-%D9%85%D9%8A%D9%86%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85-50-%D9%88%D8%B1%D9%82%D8%A9.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "سمبوسة ميني من سويتز بوزن 500 جرام تحتوي على 50 ورقة، مثالية للوجبات الخفيفة."
   }
 ]

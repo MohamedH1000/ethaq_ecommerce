@@ -430,7 +430,10 @@ export function SignInForm() {
                           <FormControl>
                             <Input
                               {...field}
-                              type="number"
+                              type="tel" // Better for phone numbers
+                              inputMode="numeric" //
+                              pattern="[0-9]*"
+                              autoComplete="off"
                               placeholder="5XXXXXXXX"
                               dir="rtl"
                               className="h-[50px]"

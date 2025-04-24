@@ -9,14 +9,14 @@ export const defaultMetadata = {
     template: "ايثاق ماركت",
   },
   description:
-    "Welcome to Jazila-bazar, your ultimate online shopping destination! We are your one-stop marketplace for a diverse range of products, all conveniently curated from a multitude of trusted sellers. ",
+    "مرحبًا بكم في ايثاق ماركت، وجهتكم المثالية للتسوق عبر الإنترنت! نحن نقدم سوقًا متكاملًا يشمل مجموعة متنوعة من المنتجات المقدمة من بائعين موثوقين لتجربة تسوق سهلة وآمنة.",
   keywords: metaKeywords.join(", "),
-  creator: "SM Tanimur Rahman",
-  publisher: "SM Tanimur Rahman",
-  applicationName: "Jazila-bazar ",
+  creator: "Nashama Technology",
+  publisher: "Nashama Technology",
+  applicationName: "Ethaq Mart",
   viewport: "width=device-width, initial-scale=1.0",
   colorScheme: "light",
-  category: "Jazila-bazar: Your Ultimate Multi-Vendor Marketplace",
+  category: "ايثاق ماركت: سوق متعدد الفئات لجميع احتياجاتك",
   robots: {
     index: false,
     follow: true,
@@ -32,8 +32,8 @@ export const defaultMetadata = {
   },
   authors: [
     {
-      name: "SM Tanimur Rahman",
-      url: "https://smtanimur.vercel.app/",
+      name: "Nashama Technology",
+      url: "https://nashamatech.tech/",
     },
   ],
   themeColor: "#ffffff",
@@ -46,41 +46,39 @@ export const defaultMetadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    siteName: "Jazila-bazar",
-    title:
-      "Jazila-bazar - Jazila-bazar: Your Ultimate Multi-Vendor Marketplace",
+    siteName: "ايثاق مارت",
+    title: "ايثاق ماركت",
     description:
-      "Welcome to Jazila-bazar, your ultimate online shopping destination! We are your one-stop marketplace for a diverse range of products, all conveniently curated from a multitude of trusted sellers. ",
+      "مرحبًا بكم في ايثاق ماركت، وجهتكم المثالية للتسوق عبر الإنترنت! نحن نقدم سوقًا متكاملًا يشمل مجموعة متنوعة من المنتجات المقدمة من بائعين موثوقين لتجربة تسوق سهلة وآمنة.",
     images: [
       {
-        url: `${siteConfig.url}/images/seo_image.png`,
+        url: `https://res.cloudinary.com/dbyc0sncy/image/upload/v1745439493/Logo_light_h4dulg.png`,
         width: 800,
         height: 600,
-        alt: "Jazila-bazar - Jazila-bazar: Your Ultimate Multi-Vendor Marketplace",
+        alt: "ايثاق ماركت",
       },
     ],
-    emails: ["mushfiqurtanim@gmail.com"],
-    phoneNumbers: ["+880 1648138404"],
-    countryName: "Bangladesh",
+    emails: ["ethaq0@gmail.com"],
+    phoneNumbers: ["00966559681110"],
+    countryName: "Saudi Arabia",
   },
   // icons: {
   //   // TODO: Add icons
   //   icon: {},
   // },
-  twitter: {
-    creator: "@smtanimur",
-    site: "@Jazila-bazar",
+  instagram: {
+    creator: "@ethaq_0",
+    site: "@Ethaq_store",
     card: "summary_large_image",
-    title:
-      "Jazila-bazar - Jazila-bazar: Your Ultimate Multi-Vendor Marketplace",
+    title: "ايثاق ماركت",
     description:
-      "Welcome to Jazila-bazar, your ultimate online shopping destination! We are your one-stop marketplace for a diverse range of products, all conveniently curated from a multitude of trusted sellers. ",
+      "مرحبًا بكم في ايثاق ماركت، وجهتكم المثالية للتسوق عبر الإنترنت! نحن نقدم سوقًا متكاملًا يشمل مجموعة متنوعة من المنتجات المقدمة من بائعين موثوقين لتجربة تسوق سهلة وآمنة.",
     images: [
       {
-        url: `${siteConfig.url}/images/seo_image.png`,
+        url: `https://res.cloudinary.com/dbyc0sncy/image/upload/v1745439493/Logo_light_h4dulg.png`,
         width: 800,
         height: 600,
-        alt: "Jazila-bazar - Jazila-bazar: Your Ultimate Multi-Vendor Marketplace",
+        alt: "ايثاق ماركت",
       },
     ],
   },
