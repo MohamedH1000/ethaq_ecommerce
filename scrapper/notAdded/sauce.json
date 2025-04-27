@@ -1,6 +1,8 @@
+// category id 680d7d6b22f0b5fd5721e42b
 [
   {
     "name": "هاينز كاتشاب طماطم 910 جرام",
+    "description": "كاتشاب طماطم غني وكثيف من هاينز، مثالي لإضافة نكهة لذيذة للساندويتشات والبطاطس المقلية، بوزن 910 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107100/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%83%D8%A7%D8%AA%D8%B4%D8%A7%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-910-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -8,15 +10,16 @@
   },
   {
     "name": "حلواني طحينية فاخرة 500 جرام",
+    "description": "طحينية فاخرة من حلواني، مصنوعة من السمسم الطبيعي بنكهة غنية، مثالية للحمص والمتبل، بوزن 500 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107101/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 20,
-    "price": 29.95,
-    "discounted_price": 23.95
+    "price": 29.95
   },
   {
     "name": "كسيح طحينة ذهبية 900 جرام",
+    "description": "طحينية ذهبية عالية الجودة من كسيح، مثالية لتحضير الأطباق التقليدية والسلطات، بوزن 900 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107102/%D9%83%D8%B3%D9%8A%D8%AD-%D8%B7%D8%AD%D9%8A%D9%86%D8%A9-%D8%B0%D9%87%D8%A8%D9%8A%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -24,15 +27,16 @@
   },
   {
     "name": "هنا مايونيز 1000 مل",
+    "description": "مايونيز كريمي من هنا، مثالي للسلطات والساندويتشات، يأتي بعبوة سعة 1000 مل للاستخدام العائلي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107104/%D9%87%D9%86%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-1000-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 32,
-    "price": 17,
-    "discounted_price": 11.5
+    "price": 17
   },
   {
     "name": "قودي مايونيز 946 جرام",
+    "description": "مايونيز قودي الأصلي بنكهة غنية، مثالي لإضافة قوام كريمي للأطباق، بوزن 946 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107105/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-946-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -40,6 +44,7 @@
   },
   {
     "name": "فرشلي صلصة سلطة رانش 473 مل",
+    "description": "صلصة رانش كريمية من فرشلي، مثالية للسلطات والتغميس، بسعة 473 مل لنكهة مميزة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107106/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B3%D9%84%D8%B7%D8%A9-%D8%B1%D8%A7%D9%86%D8%B4-473-%D9%85%D9%84.jpg.jpg"
     ],
@@ -47,6 +52,7 @@
   },
   {
     "name": "حلواني طحينة 250 جرام",
+    "description": "طحينية حلواني عالية الجودة بوزن 250 جرام، مثالية لتحضير الحمص والصلصات التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107107/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%B7%D8%AD%D9%8A%D9%86%D8%A9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -54,6 +60,7 @@
   },
   {
     "name": "هاينز مايونيز كلاسيكي 940 جرام",
+    "description": "مايونيز كلاسيكي من هاينز بنكهة غنية وقوام كريمي، مثالي للساندويتشات والسلطات، بوزن 940 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107108/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A-940-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -61,6 +68,7 @@
   },
   {
     "name": "قودي خل أبيض طبيعي 473 مل",
+    "description": "خل أبيض طبيعي من قودي، مثالي للسلطات والتتبيلات، بسعة 473 مل للاستخدام اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107110/%D9%82%D9%88%D8%AF%D9%8A-%D8%AE%D9%84-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-473-%D9%85%D9%84.jpg.jpg"
     ],
@@ -68,15 +76,16 @@
   },
   {
     "name": "قودي مايونيز الأصلي 473 مل",
+    "description": "مايونيز قودي الأصلي بقوام كريمي ونكهة متوازنة، مثالي للسلطات والساندويتشات، بسعة 473 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107111/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-473-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 16,
-    "price": 18.95,
-    "discounted_price": 15.95
+    "price": 18.95
   },
   {
     "name": "يمامة دبس الرمان 300 مل",
+    "description": "دبس رمان طبيعي من يمامة، مثالي لإضافة نكهة حامضة وحلوة للسلطات والأطباق، بسعة 300 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107113/%D9%8A%D9%85%D8%A7%D9%85%D8%A9-%D8%AF%D8%A8%D8%B3-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D9%86-300-%D9%85%D9%84.jpg.jpg"
     ],
@@ -84,33 +93,26 @@
   },
   {
     "name": "فرشلي تتبيلة سلطة فرنسية 473 مل",
+    "description": "تتبيلة سلطة فرنسية من فرشلي بنكهة مميزة، مثالية للسلطات الطازجة، بسعة 473 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107114/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%B3%D9%84%D8%B7%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-473-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 13,
-    "price": 18.95,
-    "discounted_price": 16.45
+    "price": 18.95
   },
-  {
-    "name": "هاينز طماطم كاتشب 1.35 كج",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107115/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-135-%D9%83%D8%AC.jpg.jpg"
-    ],
-    "discount": 12,
-    "price": 39,
-    "discounted_price": 34.45
-  },
+
   {
     "name": "نور مايونيز الأصلي 946 مل",
+    "description": "مايونيز نور الأصلي بقوام كريمي ونكهة غنية، مثالي للسلطات والساندويتشات، بسعة 946 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107117/%D9%86%D9%88%D8%B1-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-946-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 22,
-    "price": 18.5,
-    "discounted_price": 14.45
+    "price": 18.5
   },
   {
     "name": "حلواني النخلة طحينية فاخرة 1 كج",
+    "description": "طحينية فاخرة من حلواني النخلة بوزن 1 كجم، مصنوعة من السمسم النقي لنكهة غنية ومميزة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107117/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%86%D8%AE%D9%84%D8%A9-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -118,6 +120,7 @@
   },
   {
     "name": "بيدر طحينة سائلة 500جرام",
+    "description": "طحينية سائلة من بيدر بوزن 500 جرام، مثالية لتحضير الحمص والصلصات بقوام ناعم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107119/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%B7%D8%AD%D9%8A%D9%86%D8%A9-%D8%B3%D8%A7%D8%A6%D9%84%D8%A9-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -125,6 +128,7 @@
   },
   {
     "name": "بيدر طحينة سائلة 250 جرام",
+    "description": "طحينية سائلة من بيدر بوزن 250 جرام، مثالية للاستخدام اليومي في تحضير الأطباق التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107120/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%B7%D8%AD%D9%8A%D9%86%D8%A9-%D8%B3%D8%A7%D8%A6%D9%84%D8%A9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -132,6 +136,7 @@
   },
   {
     "name": "دليسيو تتبيلة الرانش 267 مل",
+    "description": "تتبيلة رانش كريمية من دليسيو، مثالية للسلطات والتغميس، بسعة 267 مل لنكهة لذيذة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107121/%D8%AF%D9%84%D9%8A%D8%B3%D9%8A%D9%88-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D9%86%D8%B4-267-%D9%85%D9%84.jpg.jpg"
     ],
@@ -139,6 +144,7 @@
   },
   {
     "name": "ديليسو تتبيلة فرنسية 267 مل",
+    "description": "تتبيلة فرنسية من ديليسو بنكهة مميزة، مثالية للسلطات الطازجة، بسعة 267 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107122/%D8%AF%D9%8A%D9%84%D9%8A%D8%B3%D9%88-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-267-%D9%85%D9%84.jpg.jpg"
     ],
@@ -146,6 +152,7 @@
   },
   {
     "name": "بيدر دبس رمان 400 جرام",
+    "description": "دبس رمان طبيعي من بيدر بوزن 400 جرام، مثالي لإضافة نكهة مميزة للسلطات والأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107123/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%AF%D8%A8%D8%B3-%D8%B1%D9%85%D8%A7%D9%86-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -153,6 +160,7 @@
   },
   {
     "name": "ليبيز كتشاب الطماطم عبوة ضاغطة 760 جرام",
+    "description": "كاتشاب طماطم ليبيز بعبوة ضاغطة سهلة الاستخدام، مثالي للساندويتشات والبطاطس، بوزن 760 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107124/%D9%84%D9%8A%D8%A8%D9%8A%D8%B2-%D9%83%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%A7%D8%BA%D8%B7%D8%A9-760-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -160,6 +168,7 @@
   },
   {
     "name": "بيدر دبس رمان 700 جرام",
+    "description": "دبس رمان طبيعي من بيدر بوزن 700 جرام، مثالي لتحسين نكهة السلطات والمأكولات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107125/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%AF%D8%A8%D8%B3-%D8%B1%D9%85%D8%A7%D9%86-700-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -167,15 +176,16 @@
   },
   {
     "name": "ديليسيو تتبيلة رانش 532 مل",
+    "description": "تتبيلة رانش كريمية من ديليسيو بسعة 532 مل، مثالية للسلطات والتغميس بنكهة غنية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107126/%D8%AF%D9%8A%D9%84%D9%8A%D8%B3%D9%8A%D9%88-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%B1%D8%A7%D9%86%D8%B4-532-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 14,
-    "price": 19.75,
-    "discounted_price": 16.95
+    "price": 19.75
   },
   {
     "name": "السعودية - مايونيز 430 جرام",
+    "description": "مايونيز السعودية بقوام كريمي ونكهة متوازنة، مثالي للسلطات والساندويتشات، بوزن 430 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107127/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-430-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -183,13 +193,15 @@
   },
   {
     "name": "حدائق أورينت دبس الرمان 250 مل",
+    "description": "دبس رمان طبيعي من حدائق أورينت بسعة 250 مل، مثالي لإضافة نكهة حامضة للسلطات.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107128/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AF%D8%A8%D8%B3-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D9%86-250-%D9%85%D9%84.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107128/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A3%D8%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AF%D8%A8%D8%B3-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D9%86-250-%D9%85%D9%84.jpg.jpg"
     ],
     "price": 14
   },
   {
     "name": "فرشلي خردل 255 جرام",
+    "description": "خردل فرشلي بنكهة قوية ومميزة، مثالي للساندويتشات والتتبيلات، بوزن 255 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107129/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%AE%D8%B1%D8%AF%D9%84-255-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -197,6 +209,7 @@
   },
   {
     "name": "بيدر كاتشب 2 كج",
+    "description": "كاتشاب طماطم بيدر بوزن 2 كجم، مثالي للاستخدام العائلي مع نكهة غنية وكثيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107130/%D8%A8%D9%8A%D8%AF%D8%B1-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-2-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -204,15 +217,16 @@
   },
   {
     "name": "قودي صلصة البرجر 250 مل",
+    "description": "صلصة برجر من قودي بنكهة مميزة، مثالية لتعزيز طعم الساندويتشات، بسعة 250 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107131/%D9%82%D9%88%D8%AF%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D8%AC%D8%B1-250-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 16,
-    "price": 17.25,
-    "discounted_price": 14.45
+    "price": 17.25
   },
   {
     "name": "لويزيانا شطة فلفل كايين حار كريستال 474 مل",
+    "description": "شطة فلفل كايين حارة من لويزيانا، مثالية لعشاق النكهات الحارة، بسعة 474 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107132/%D9%84%D9%88%D9%8A%D8%B2%D9%8A%D8%A7%D9%86%D8%A7-%D8%B4%D8%B7%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D9%83%D8%A7%D9%8A%D9%8A%D9%86-%D8%AD%D8%A7%D8%B1-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84-474-%D9%85%D9%84.jpg.jpg"
     ],
@@ -220,15 +234,16 @@
   },
   {
     "name": "نور مايونيز الأصلي 500 مل × 2",
+    "description": "عرض مايونيز نور الأصلي بعبوتين سعة 500 مل لكل منهما، مثالي للاستخدام العائلي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107135/%D9%86%D9%88%D8%B1-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-500-%D9%85%D9%84-2.jpg.jpg"
     ],
     "discount": 18,
-    "price": 19.95,
-    "discounted_price": 16.45
+    "price": 19.95
   },
   {
     "name": "سريراتشا صلصة حارة 740 مل",
+    "description": "صلصة سريراتشا الحارة بنكهة قوية ومميزة، مثالية للأطباق الآسيوية والتغميس، بسعة 740 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107136/%D8%B3%D8%B1%D9%8A%D8%B1%D8%A7%D8%AA%D8%B4%D8%A7-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-740-%D9%85%D9%84.jpg.jpg"
     ],
@@ -236,6 +251,7 @@
   },
   {
     "name": "السعودية كتشاب الطماطم 510 جرام",
+    "description": "كاتشاب طماطم السعودية بنكهة غنية، مثالي للساندويتشات والبطاطس المقلية، بوزن 510 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107137/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%83%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -243,15 +259,16 @@
   },
   {
     "name": "فريشكو، صلصة حارة 474 مل",
+    "description": "صلصة حارة من فريشكو بنكهة مميزة، مثالية لإضافة الحرارة للأطباق، بسعة 474 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107138/%D9%81%D8%B1%D9%8A%D8%B4%D9%83%D9%88-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-474-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 19,
-    "price": 6.75,
-    "discounted_price": 5.45
+    "price": 6.75
   },
   {
     "name": "هاينز كاتشاب طماطم 342 جرام",
+    "description": "كاتشاب طماطم هاينز بوزن 342 جرام، مثالي للاستخدام اليومي مع نكهة غنية وكثيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107139/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%83%D8%A7%D8%AA%D8%B4%D8%A7%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-342-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -259,6 +276,7 @@
   },
   {
     "name": "كارفور صلصة حارة، 88 مل",
+    "description": "صلصة حارة من كارفور بسعة 88 مل، مثالية لإضافة نكهة حارة للأطباق الصغيرة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107140/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-88-%D9%85%D9%84.jpg.jpg"
     ],
@@ -266,6 +284,7 @@
   },
   {
     "name": "قودي تتبيلة فرنسية 250مل",
+    "description": "تتبيلة فرنسية من قودي بنكهة مميزة، مثالية للسلطات الطازجة، بسعة 250 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107141/%D9%82%D9%88%D8%AF%D9%8A-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-250%D9%85%D9%84.jpg.jpg"
     ],
@@ -273,6 +292,7 @@
   },
   {
     "name": "كارفور صلصة حارة، 177 مل",
+    "description": "صلصة حارة من كارفور بسعة 177 مل، مثالية لإضافة نكهة حارة للأطباق المتنوعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107142/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-177-%D9%85%D9%84.jpg.jpg"
     ],
@@ -280,6 +300,7 @@
   },
   {
     "name": "يمامة دبس الرمان 1000جرام",
+    "description": "دبس رمان طبيعي من يمامة بوزن 1000 جرام، مثالي للاستخدام العائلي في السلطات والأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107143/%D9%8A%D9%85%D8%A7%D9%85%D8%A9-%D8%AF%D8%A8%D8%B3-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D9%86-1000%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -287,6 +308,7 @@
   },
   {
     "name": "ديليشيو صلصة فرنسية لايت 267 مل",
+    "description": "صلصة فرنسية لايت من ديليشيو، مثالية للسلطات مع نكهة خفيفة، بسعة 267 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107145/%D8%AF%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D9%88-%D8%B5%D9%84%D8%B5%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-%D9%84%D8%A7%D9%8A%D8%AA-267-%D9%85%D9%84.jpg.jpg"
     ],
@@ -294,24 +316,25 @@
   },
   {
     "name": "كسيح طحينية ذهبية 450 جرام",
+    "description": "طحينية ذهبية من كسيح بوزن 450 جرام، مثالية لتحضير الحمص والصلصات التقليدية.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107146/%D9%83%D8%B3%D9%8A%D8%AD-%D8%B7%D8%AD%D9%8A%D9%86%D9%8A%D8%A9-%D8%B0%D9%87%D8%A8%D9%8A%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107146/%D9%83%D8%B3%D9%8A%D8%AD-%D8%B7%D8%AD%D9%8A%D9%86%D8%A9-%D8%B0%D9%87%D8%A8%D9%8A%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 7,
-    "price": 21.5,
-    "discounted_price": 19.95
+    "price": 21.5
   },
   {
     "name": "تريفا كاتشب طماطم 950جرام",
+    "description": "كاتشاب طماطم تريفا بوزن 950 جرام، مثالي للساندويتشات والبطاطس المقلية بنكهة غنية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107147/%D8%AA%D8%B1%D9%8A%D9%81%D8%A7-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-950%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 16,
-    "discounted_price": 13.95
+    "price": 16
   },
   {
     "name": "فرشلي كلاسيك بلسميك كريم 150 مل",
+    "description": "بلسميك كريم كلاسيك من فرشلي، مثالي لتزيين السلطات والأطباق، بسعة 150 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107148/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83-%D8%A8%D9%84%D8%B3%D9%85%D9%8A%D9%83-%D9%83%D8%B1%D9%8A%D9%85-150-%D9%85%D9%84.jpg.jpg"
     ],
@@ -319,6 +342,7 @@
   },
   {
     "name": "بيدر خل أبيض طبيعي 473 مل",
+    "description": "خل أبيض طبيعي من بيدر، مثالي للسلطات والتتبيلات، بسعة 473 مل للاستخدام اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107149/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%AE%D9%84-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-473-%D9%85%D9%84.jpg.jpg"
     ],
@@ -326,31 +350,33 @@
   },
   {
     "name": "قودي خل أبيض طبيعي 980 مل",
+    "description": "خل أبيض طبيعي من قودي بسعة 980 مل، مثالي للاستخدام العائلي في السلطات والتتبيلات.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107150/%D9%82%D9%88%D8%AF%D9%8A-%D8%AE%D9%84-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-980-%D9%85%D9%84.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107150/%D9%82%D9%88%D8%AE%D9%84-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-980-%D9%85%D9%84.jpg.jpg"
     ],
     "price": 5.95
   },
   {
     "name": "تيفاني كاتشب طماطم 500 جرام 3 حبات",
+    "description": "عرض كاتشاب طماطم تيفاني، 3 عبوات بوزن 500 جرام لكل واحدة، مثالي للاستخدام العائلي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107151/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-500-%D8%AC%D8%B1%D8%A7%D9%85-3-%D8%AD%D8%A8%D8%A7%D8%AA.jpg.jpg"
     ],
     "discount": 18,
-    "price": 25,
-    "discounted_price": 20.45
+    "price": 25
   },
   {
     "name": "السعودي مايونيز 946 جرام",
+    "description": "مايونيز السعودي بقوام كريمي ونكهة غنية، مثالي للسلطات والساندويتشات، بوزن 946 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107152/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-946-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 11,
-    "price": 17.95,
-    "discounted_price": 15.95
+    "price": 17.95
   },
   {
     "name": "فرشلي خل أبيض طبيعي مقطر 1 جالون",
+    "description": "خل أبيض طبيعي مقطر من فرشلي بسعة 1 جالون، مثالي للاستخدام العائلي والتتبيلات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107153/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%AE%D9%84-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D9%85%D9%82%D8%B7%D8%B1-1-%D8%AC%D8%A7%D9%84%D9%88%D9%86.jpg.jpg"
     ],
@@ -358,6 +384,7 @@
   },
   {
     "name": "هاينز سيزر 400 مل",
+    "description": "صلصة سيزر كريمية من هاينز، مثالية للسلطات الكلاسيكية، بسعة 400 مل لنكهة مميزة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107154/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D8%B3%D9%8A%D8%B2%D8%B1-400-%D9%85%D9%84.jpg.jpg"
     ],
@@ -365,15 +392,16 @@
   },
   {
     "name": "قودي مايونيز سيراتشا مع خلطة الثوم 250 مل",
+    "description": "مايونيز سيراتشا من قودي مع خلطة الثوم، مثالي لإضافة نكهة حارة ومميزة، بسعة 250 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107156/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA%D8%B4%D8%A7-%D9%85%D8%B9-%D8%AE%D9%84%D8%B7%D8%A9-%D8%A7%D9%84%D8%AB%D9%88%D9%85-250-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 16,
-    "price": 17.25,
-    "discounted_price": 14.45
+    "price": 17.25
   },
   {
     "name": "سيريراتشا صلصة فلفل حارة 266 مل",
+    "description": "صلصة سيريراتشا الحارة بنكهة قوية، مثالية للأطباق الآسيوية والتغميس، بسعة 266 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107157/%D8%B3%D9%8A%D8%B1%D9%8A%D8%B1%D8%A7%D8%AA%D8%B4%D8%A7-%D8%B5%D9%84%D8%B5%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D8%AD%D8%A7%D8%B1%D8%A9-266-%D9%85%D9%84.jpg.jpg"
     ],
@@ -381,15 +409,16 @@
   },
   {
     "name": "هاينز مايونيز الأصلي 225 مل",
+    "description": "مايونيز هاينز الأصلي بقوام كريمي، مثالي للسلطات والساندويتشات، بسعة 225 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107158/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-225-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 8,
-    "price": 13.5,
-    "discounted_price": 12.45
+    "price": 13.5
   },
   {
     "name": "فرشلي خردل 680 جرام",
+    "description": "خردل فرشلي بنكهة قوية ومميزة، مثالي للساندويتشات والتتبيلات، بوزن 680 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107159/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%AE%D8%B1%D8%AF%D9%84-680-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -397,33 +426,36 @@
   },
   {
     "name": "قودي صلصة شيبوتلي الحارة 290 مل",
+    "description": "صلصة شيبوتلي الحارة من قودي، مثالية لإضافة نكهة مدخنة وحارة للأطباق، بسعة 290 مل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107160/%D9%82%D9%88%D8%AF%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B4%D9%8A%D8%A8%D9%88%D8%AA%D9%84%D9%8A-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-290-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 16,
-    "price": 17.25,
-    "discounted_price": 14.45
+    "price": 17.25
   },
   {
     "name": "العلالي شطة حارة 473 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107162/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%B4%D8%B7%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-473-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 4.75
+    "price": 4.75,
+    "description": "صلصة شطة حارة من العلالي، مثالية لإضافة نكهة حارة ومميزة للأطباق المختلفة، بحجم 473 مل."
   },
   {
     "name": "تباسكو صلصة سريراتشا 250 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107163/%D8%AA%D8%A8%D8%A7%D8%B3%D9%83%D9%88-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B3%D8%B1%D9%8A%D8%B1%D8%A7%D8%AA%D8%B4%D8%A7-250-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 22.95
+    "price": 22.95,
+    "description": "صلصة سريراتشا الحارة من تباسكو، تجمع بين النكهة الحارة والحلوة، مثالية للساندويتشات والمأكولات الآسيوية، بحجم 250 مل."
   },
   {
     "name": "قودي خردل 227 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107164/%D9%82%D9%88%D8%AF%D9%8A-%D8%AE%D8%B1%D8%AF%D9%84-227-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.5
+    "price": 9.5,
+    "description": "خردل قودي الكلاسيكي بنكهة قوية ومميزة، مثالي للساندويتشات والمأكولات المشوية، بحجم 227 جرام."
   },
   {
     "name": "اورينت جاردنز متبل سلطة السيزر القيصر، 237 مل",
@@ -432,7 +464,7 @@
     ],
     "discount": 13,
     "price": 9.45,
-    "discounted_price": 8.2
+    "description": "متبل سلطة السيزر من اورينت جاردنز، بنكهة كريمية غنية، مثالي لتحضير سلطة السيزر الكلاسيكية، بحجم 237 مل."
   },
   {
     "name": "هيلمانز مايونيز لايت 420 جرام",
@@ -441,7 +473,7 @@
     ],
     "discount": 18,
     "price": 25,
-    "discounted_price": 20.45
+    "description": "مايونيز لايت من هيلمانز، خفيف السعرات وغني بالنكهة، مثالي للساندويتشات والسلطات، بحجم 420 جرام."
   },
   {
     "name": "اندوفود صلصلة حارة 340 مل",
@@ -450,7 +482,7 @@
     ],
     "discount": 7,
     "price": 8,
-    "discounted_price": 7.45
+    "description": "صلصة حارة من اندوفود، تضيف نكهة قوية للأطباق الآسيوية والمقليات، بحجم 340 مل."
   },
   {
     "name": "ناندوز صلصلة فلفل بيري متوسطة 250 مل",
@@ -459,7 +491,7 @@
     ],
     "discount": 19,
     "price": 21.5,
-    "discounted_price": 17.45
+    "description": "صلصة فلفل بيري متوسطة الحرارة من ناندوز، مثالية للدجاج المشوي والمأكولات البحرية، بحجم 250 مل."
   },
   {
     "name": "فرشلي خل أبيض طبيعي مقطر 473مل",
@@ -468,14 +500,15 @@
     ],
     "discount": 11,
     "price": 4.45,
-    "discounted_price": 3.95
+    "description": "خل أبيض طبيعي مقطر من فرشلي، مثالي لتحضير التتبيلات والمخللات، بحجم 473 مل."
   },
   {
     "name": "هاينز مايونيز خفيف 940 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107170/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%AE%D9%81%D9%8A%D9%81-940-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 26.75
+    "price": 26.75,
+    "description": "مايونيز خفيف من هاينز، قليل السعرات وغني بالنكهة، مثالي للسلطات والساندويتشات، بحجم 940 جرام."
   },
   {
     "name": "قودي مايونيز الترفل الأسود 250 مل",
@@ -484,21 +517,23 @@
     ],
     "discount": 16,
     "price": 17.25,
-    "discounted_price": 14.45
+    "description": "مايونيز الترفل الأسود من قودي، بنكهة فاخرة ومميزة، مثالي للأطباق الراقية، بحجم 250 مل."
   },
   {
     "name": "تباسكو شطة خضراء هلابينو 60 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107173/%D8%AA%D8%A8%D8%A7%D8%B3%D9%83%D9%88-%D8%B4%D8%B7%D8%A9-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%87%D9%84%D8%A7%D8%A8%D9%8A%D9%86%D9%88-60-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 11.95
+    "price": 11.95,
+    "description": "شطة خضراء هلابينو من تباسكو، بنكهة منعشة وحارة، مثالية للتاكو والمأكولات المكسيكية، بحجم 60 مل."
   },
   {
     "name": "لويزيانا شطة فلفل كايين حار كريستال 176 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107174/%D9%84%D9%88%D9%8A%D8%B2%D9%8A%D8%A7%D9%86%D8%A7-%D8%B4%D8%B7%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D9%83%D8%A7%D9%8A%D9%8A%D9%86-%D8%AD%D8%A7%D8%B1-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84-176-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 6.25
+    "price": 6.25,
+    "description": "شطة فلفل كايين الحارة من لويزيانا، تضيف نكهة قوية للأطباق المشوية والمقليات، بحجم 176 مل."
   },
   {
     "name": "قودي متبيل إيطالي 450 مل",
@@ -507,7 +542,7 @@
     ],
     "discount": 15,
     "price": 17.5,
-    "discounted_price": 14.95
+    "description": "متبيل إيطالي من قودي، بنكهة الأعشاب المتوسطية، مثالي للسلطات والمأكولات الإيطالية، بحجم 450 مل."
   },
   {
     "name": "قودي صلصة ثاوزند ايلاند 450 مل",
@@ -516,14 +551,15 @@
     ],
     "discount": 15,
     "price": 17.5,
-    "discounted_price": 14.95
+    "description": "صلصة ثاوزند ايلاند من قودي، بنكهة كريمية حلوة، مثالية للسلطات والبرغر، بحجم 450 مل."
   },
   {
     "name": "تباسكو شطة حمراء 60 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107177/%D8%AA%D8%A8%D8%A7%D8%B3%D9%83%D9%88-%D8%B4%D8%B7%D8%A9-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-60-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 11.5
+    "price": 11.5,
+    "description": "شطة حمراء كلاسيكية من تباسكو، تضيف نكهة حارة مميزة لجميع الأطباق، بحجم 60 مل."
   },
   {
     "name": "اورينت جاردنز تتبيلة السلطة الفرنسية، 237 مل",
@@ -532,7 +568,7 @@
     ],
     "discount": 13,
     "price": 9.45,
-    "discounted_price": 8.2
+    "description": "تتبيلة سلطة فرنسية من اورينت جاردنز، بنكهة حلوة وحامضة، مثالية للسلطات الخضراء، بحجم 237 مل."
   },
   {
     "name": "ناندوز صلصلة فلفل بيري بنكهة الليمون والأعشاب 250 مل",
@@ -541,14 +577,15 @@
     ],
     "discount": 19,
     "price": 21.5,
-    "discounted_price": 17.45
+    "description": "صلصة فلفل بيري بنكهة الليمون والأعشاب من ناندوز، مثالية للدجاج والمأكولات المشوية، بحجم 250 مل."
   },
   {
     "name": "قودي صلصة الرانش 250مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107180/%D9%82%D9%88%D8%AF%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D9%86%D8%B4-250%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 11.5
+    "price": 11.5,
+    "description": "صلصة الرانش الكريمية من قودي، مثالية للسلطات والتغميس مع الخضروات والمقليات، بحجم 250 مل."
   },
   {
     "name": "قودي صلصة التارتار 290 مل",
@@ -557,42 +594,47 @@
     ],
     "discount": 16,
     "price": 17.25,
-    "discounted_price": 14.45
+    "description": "صلصة التارتار من قودي، بنكهة كريمية مع لمسة المخلل، مثالية للمأكولات البحرية، بحجم 290 مل."
   },
   {
     "name": "بيدر، صلصة تكساس برجر 470 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107182/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AA%D9%83%D8%B3%D8%A7%D8%B3-%D8%A8%D8%B1%D8%AC%D8%B1-470-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 19.5
+    "price": 19.5,
+    "description": "صلصة تكساس برجر من بيدر، بنكهة مدخنة وحلوة، مثالية للبرغر والمأكولات المشوية، بحجم 470 جرام."
   },
   {
     "name": "السعودية كتشاب الطماطم 825 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107184/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%83%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-825-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 18.95
+    "price": 18.95,
+    "description": "كتشاب طماطم من السعودية، بنكهة غنية وكلاسيكية، مثالي للمقليات والساندويتشات، بحجم 825 جرام."
   },
   {
     "name": "بيدر صلصة سلطة فرنسية 310جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107185/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B3%D9%84%D8%B7%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-310%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 12.25
+    "price": 12.25,
+    "description": "صلصة سلطة فرنسية من بيدر، بنكهة حلوة وحامضة، مثالية للسلطات الخضراء، بحجم 310 جرام."
   },
   {
     "name": "فرشلي بلسمك خل العنب 250 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107186/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%A8%D9%84%D8%B3%D9%85%D9%83-%D8%AE%D9%84-%D8%A7%D9%84%D8%B9%D9%86%D8%A8-250-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 15.95
+    "price": 15.95,
+    "description": "خل بلسمك العنب من فرشلي، بنكهة غنية وحلوة، مثالي للسلطات والتتبيلات، بحجم 250 مل."
   },
   {
     "name": "بيدر تتبيلة سلطة الفرنسية 460 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107187/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%B3%D9%84%D8%B7%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-460-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 19.75
+    "price": 19.75,
+    "description": "تتبيلة سلطة فرنسية من بيدر، بنكهة مميزة وحلوة، مثالية للسلطات والخضروات، بحجم 460 جرام."
   },
   {
     "name": "فرشلي خردل أصفر 453 جرام",
@@ -601,21 +643,23 @@
     ],
     "discount": 15,
     "price": 11.45,
-    "discounted_price": 9.7
+    "description": "خردل أصفر كلاسيكي من فرشلي، بنكهة قوية، مثالي للساندويتشات والبرغر، بحجم 453 جرام."
   },
   {
     "name": "فرشلي كاتشب 680 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107190/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-680-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 14.45
+    "price": 14.45,
+    "description": "كاتشب طماطم من فرشلي، بنكهة غنية ومتوازنة، مثالي للمقليات والبرغر، بحجم 680 جرام."
   },
   {
     "name": "قودي مايونيز الأصلي عبوة ضاغطة 491 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107194/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%A7%D8%BA%D8%B7%D8%A9-491-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 20.95
+    "price": 20.95,
+    "description": "مايونيز أصلي من قودي في عبوة ضاغطة، بنكهة كريمية غنية، مثالي للساندويتشات، بحجم 491 مل."
   },
   {
     "name": "قودي صلصة الباربكيو المدخنة 290 مل",
@@ -624,28 +668,31 @@
     ],
     "discount": 16,
     "price": 17.25,
-    "discounted_price": 14.45
+    "description": "صلصة باربكيو مدخنة من قودي، بنكهة غنية ومدخنة، مثالية للشواء والبرغر، بحجم 290 مل."
   },
   {
     "name": "اورينت جاردنز صلصة برجر 340مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107197/%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A8%D8%B1%D8%AC%D8%B1-340%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 14.5
+    "price": 14.5,
+    "description": "صلصة برجر من اورينت جاردنز، بنكهة كريمية وحلوة، مثالية للبرغر والساندويتشات، بحجم 340 مل."
   },
   {
     "name": "هاينز صلصة رانش 400 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107198/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B1%D8%A7%D9%86%D8%B4-400-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 27.5
+    "price": 27.5,
+    "description": "صلصة رانش من هاينز، بنكهة كريمية ومنعشة، مثالية للسلطات والتغميس، بحجم 400 مل."
   },
   {
     "name": "هاينز كاتشب طماطم حار 460 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107199/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%AD%D8%A7%D8%B1-460-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 20.5
+    "price": 20.5,
+    "description": "كاتشب طماطم حار من هاينز، بنكهة حارة وغنية، مثالي للمقليات والبرغر، بحجم 460 جرام."
   },
   {
     "name": "ديليسيو تتبيلة 1000 ايلاند 532 مل",
@@ -654,14 +701,15 @@
     ],
     "discount": 14,
     "price": 19.75,
-    "discounted_price": 16.95
+    "description": "تتبيلة 1000 ايلاند من ديليسيو، بنكهة كريمية وحلوة، مثالية للسلطات والساندويتشات، بحجم 532 مل."
   },
   {
     "name": "هاينز مايونيز بالثوم عبوة ضاغطة 400 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107202/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D8%AB%D9%88%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%A7%D8%BA%D8%B7%D8%A9-400-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 22.95
+    "price": 22.95,
+    "description": "مايونيز بالثوم من هاينز في عبوة ضاغطة، بنكهة غنية بالثوم، مثالي للساندويتشات، بحجم 400 مل."
   },
   {
     "name": "يمامة دبس رمان 750 مل",
@@ -670,35 +718,39 @@
     ],
     "discount": 13,
     "price": 36.25,
-    "discounted_price": 31.45
+    "description": "دبس رمان من يمامة، بنكهة حامضة وحلوة، مثالي للسلطات والتتبيلات، بحجم 750 مل."
   },
   {
     "name": "نور مايونيز أصلي 473 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107204/%D9%86%D9%88%D8%B1-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A3%D8%B5%D9%84%D9%8A-473-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "مايونيز أصلي من نور، بنكهة كريمية غنية، مثالي للسلطات والساندويتشات، بحجم 473 مل."
   },
   {
     "name": "إم إف صلصة دايناميت المميزة 500جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107205/%D8%A5%D9%85-%D8%A5%D9%81-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AF%D8%A7%D9%8A%D9%86%D8%A7%D9%85%D9%8A%D8%AA-%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%D8%A9-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 32
+    "price": 32,
+    "description": "صلصة دايناميت المميزة من إم إف، بنكهة حارة وكريمية، مثالية للمأكولات البحرية والسوشي، بحجم 500 جرام."
   },
   {
     "name": "ديليسو تتبيلة 1000 ايلاند 267 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107206/%D8%AF%D9%8A%D9%84%D9%8A%D8%B3%D9%88-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-1000-%D8%A7%D9%8A%D9%84%D8%A7%D9%86%D8%AF-267-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 10.75
+    "price": 10.75,
+    "description": "تتبيلة 1000 ايلاند من ديليسو، بنكهة كريمية وحلوة، مثالية للسلطات والبرغر، بحجم 267 مل."
   },
   {
     "name": "تيفاني كاتشب 340 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107207/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.75
+    "price": 9.75,
+    "description": "كاتشب طماطم من تيفاني، بنكهة كلاسيكية غنية، مثالي للمقليات والساندويتشات، بحجم 340 جرام."
   },
   {
     "name": "فريشلي كاتشب الطماطم عبوة ضاغطة 567 جرام",
@@ -707,14 +759,15 @@
     ],
     "discount": 13,
     "price": 14.95,
-    "discounted_price": 12.95
+    "description": "كاتشب طماطم من فريشلي في عبوة ضاغطة، بنكهة غنية، مثالي للمقليات والبرغر، بحجم 567 جرام."
   },
   {
     "name": "هاينز مايونيز بالفلفل الحار عبوة ضاغطة 400 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107210/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%A7%D8%BA%D8%B7%D8%A9-400-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 22.95
+    "price": 22.95,
+    "description": "مايونيز بالفلفل الحار من هاينز في عبوة ضاغطة، بنكهة حارة وكريمية، مثالي للساندويتشات، بحجم 400 مل."
   },
   {
     "name": "حلواني اخوان صوص طحينة الوصفة الأصلية 370 جرام",
@@ -723,21 +776,23 @@
     ],
     "discount": 10,
     "price": 15.5,
-    "discounted_price": 13.95
+    "description": "صوص طحينة الوصفة الأصلية من حلواني اخوان، بنكهة غنية وكريمية، مثالي للشاورما والسلطات، بحجم 370 جرام."
   },
   {
     "name": "قودي لايت مايونيز 237 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107213/%D9%82%D9%88%D8%AF%D9%8A-%D9%84%D8%A7%D9%8A%D8%AA-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-237-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "مايونيز لايت من قودي، خفيف السعرات وغني بالنكهة، مثالي للسلطات والساندويتشات، بحجم 237 مل."
   },
   {
     "name": "لويزيانا شطة فلفل كايين حار كريستال 88 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107214/%D9%84%D9%88%D9%8A%D8%B2%D9%8A%D8%A7%D9%86%D8%A7-%D8%B4%D8%B7%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D9%83%D8%A7%D9%8A%D9%8A%D9%86-%D8%AD%D8%A7%D8%B1-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84-88-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 3.95
+    "price": 3.95,
+    "description": "شطة فلفل كايين الحارة من لويزيانا، بنكهة قوية وحارة، مثالية للأطباق المشوية، بحجم 88 مل."
   },
   {
     "name": "جودي، مايونيز بالكمأة السوداء، 425 مل",
@@ -746,56 +801,63 @@
     ],
     "discount": 13,
     "price": 25.75,
-    "discounted_price": 22.45
+    "description": "مايونيز بالكمأة السوداء من جودي، بنكهة فاخرة ومميزة، مثالي للأطباق الراقية، بحجم 425 مل."
   },
   {
     "name": "ليبيز كتشاب الطماطم عبوة ضاغطة 350 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107217/%D9%84%D9%8A%D8%A8%D9%8A%D8%B2-%D9%83%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%A7%D8%BA%D8%B7%D8%A9-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.png"
     ],
-    "price": 13.5
+    "price": 13.5,
+    "description": "كتشاب طماطم من ليبيز في عبوة ضاغطة، بنكهة غنية، مثالي للمقليات والساندويتشات، بحجم 350 جرام."
   },
   {
     "name": "تباسكو شطة حمراء 150 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107218/%D8%AA%D8%A8%D8%A7%D8%B3%D9%83%D9%88-%D8%B4%D8%B7%D8%A9-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-150-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 30.45
+    "price": 30.45,
+    "description": "شطة حمراء كلاسيكية من تباسكو، بنكهة حارة ومميزة، مثالية لجميع الأطباق، بحجم 150 مل."
   },
   {
     "name": "قودي لايت مايونيز سكويز 425 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107219/%D9%82%D9%88%D8%AF%D9%8A-%D9%84%D8%A7%D9%8A%D8%AA-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%B3%D9%83%D9%88%D9%8A%D8%B2-425-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 25.25
+    "price": 25.25,
+    "description": "مايونيز لايت من قودي في عبوة سكويز، خفيف السعرات، مثالي للسلطات والساندويتشات، بحجم 425 مل."
   },
   {
     "name": "البيدر صلصة الباربكيو الأصلية 525جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107220/%D8%A7%D9%84%D8%A8%D9%8A%D8%AF%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%A8%D9%83%D9%8A%D9%88-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-525%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 20.5
+    "price": 20.5,
+    "description": "صلصة باربكيو أصلية من البيدر، بنكهة مدخنة وحلوة، مثالية للشواء والبرغر، بحجم 525 جرام."
   },
   {
     "name": "بيدر كاتشب الطماطم عبوة ضغط 510 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107221/%D8%A8%D9%8A%D8%AF%D8%B1-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%BA%D8%B7-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "كاتشب طماطم من بيدر في عبوة ضغط، بنكهة غنية، مثالي للمقليات والساندويتشات، بحجم 510 جرام."
   },
   {
     "name": "قودي مايونيز كاتشب 250 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107223/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-250-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 14.75
+    "price": 14.75,
+    "description": "مايونيز كاتشب من قودي، مزيج مثالي من المايونيز والكاتشب، مثالي للساندويتشات والبرغر، بحجم 250 مل."
   },
   {
     "name": "تباسكو شطة حارة 350 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107224/%D8%AA%D8%A8%D8%A7%D8%B3%D9%83%D9%88-%D8%B4%D8%B7%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-350-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 56.5
+    "price": 56.5,
+    "description": "شطة حارة كلاسيكية من تباسكو، بنكهة قوية وحارة، مثالية لجميع الأطباق، بحجم 350 مل."
   },
   {
     "name": "ديليسيو كاتشب طماطم 500 جرام",
@@ -804,21 +866,23 @@
     ],
     "discount": 16,
     "price": 10,
-    "discounted_price": 8.45
+    "description": "كاتشب طماطم من ديليسيو، بنكهة غنية ومتوازنة، مثالي للمقليات والبرغر، بحجم 500 جرام."
   },
   {
     "name": "مازولا مايونيز كلاسيك 340 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107226/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83-340-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 16.25
+    "price": 16.25,
+    "description": "مايونيز كلاسيكي كريمي من مازولا، مثالي للساندويتشات والسلطات، يتميز بمذاق غني ومتوازن."
   },
   {
     "name": "حدائق اورينت كاتشب 680 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107227/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-680-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.75
+    "price": 13.75,
+    "description": "كاتشب طماطم غني من حدائق أورينت، مصنوع من الطماطم الطازجة، مثالي للبرجر والبطاطس المقلية."
   },
   {
     "name": "فرينشز خردل أصفر أمريكي كلاسيكي 340 جرام",
@@ -827,7 +891,7 @@
     ],
     "discount": 13,
     "price": 19,
-    "discounted_price": 16.45
+    "description": "خردل أصفر كلاسيكي من فرينشز، يضيف نكهة حادة ومميزة للساندويتشات والمأكولات المشوية."
   },
   {
     "name": "فريشكو، صلصة حارة 176 مل",
@@ -836,14 +900,15 @@
     ],
     "discount": 9,
     "price": 3.25,
-    "discounted_price": 2.95
+    "description": "صلصة حارة من فريشكو، تضيف لمسة من الحرارة والنكهة للأطباق المختلفة، مثالية لعشاق الطعم الحار."
   },
   {
     "name": "ريد روستر صلصة 355 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107231/%D8%B1%D9%8A%D8%AF-%D8%B1%D9%88%D8%B3%D8%AA%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-355-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 11.5
+    "price": 11.5,
+    "description": "صلصة ريد روستر الحارة، مثالية لإضافة نكهة قوية للدجاج المقلي والوجبات السريعة."
   },
   {
     "name": "ناندوز صلصلة فلفل بيري بنكهة الثوم 250 مل",
@@ -852,28 +917,31 @@
     ],
     "discount": 19,
     "price": 21.5,
-    "discounted_price": 17.45
+    "description": "صلصة ناندوز بفلفل بيري ونكهة الثوم، تجمع بين الحرارة والنكهة العطرية لتتبيل الدجاج واللحوم."
   },
   {
     "name": "اورينت جاردنز صلصة سلطة الرانش 454 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107233/%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B3%D9%84%D8%B7%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D9%86%D8%B4-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 14.95
+    "price": 14.95,
+    "description": "صلصة رانش كريمية من أورينت جاردنز، مثالية للسلطات والتغميس مع الخضروات والوجبات الخفيفة."
   },
   {
     "name": "فريشلي صلصة الشواء بالعسل 510 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107234/%D9%81%D8%B1%D9%8A%D8%B4%D9%84%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D8%B9%D8%B3%D9%84-510-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 15.95
+    "price": 15.95,
+    "description": "صلصة شواء بالعسل من فريشلي، تجمع بين الحلاوة والنكهة المدخنة، مثالية للحوم المشوية."
   },
   {
     "name": "اتش بي صلصة بنية اورجنال 285 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107235/%D8%A7%D8%AA%D8%B4-%D8%A8%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A8%D9%86%D9%8A%D8%A9-%D8%A7%D9%88%D8%B1%D8%AC%D9%86%D8%A7%D9%84-285-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 39
+    "price": 39,
+    "description": "صلصة بنية أصلية من اتش بي، غنية بنكهة الفواكه والتوابل، مثالية للحوم والساندويتشات."
   },
   {
     "name": "ناندوز صلصلة فلفل بيري حارة 250 مل",
@@ -882,28 +950,31 @@
     ],
     "discount": 19,
     "price": 21.5,
-    "discounted_price": 17.45
+    "description": "صلصة ناندوز الحارة بفلفل بيري، تضيف نكهة قوية وحارة للدجاج والأطباق المشوية."
   },
   {
     "name": "فرشلي خردل 397 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107237/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%AE%D8%B1%D8%AF%D9%84-397-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.45
+    "price": 13.45,
+    "description": "خردل فرشلي الكلاسيكي، يتميز بنكهة حادة وغنية، مثالي للساندويتشات والتتبيلات."
   },
   {
     "name": "العلالي خل طبيعي 473 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107239/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%AE%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-473-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 6
+    "price": 6,
+    "description": "خل طبيعي من العلالي، مثالي لتتبيل السلطات وإضافة نكهة مميزة للأطباق."
   },
   {
     "name": "العلالي شطة حارة 88 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107241/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%B4%D8%B7%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-88-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 1.5
+    "price": 1.5,
+    "description": "شطة حارة من العلالي، تضيف لمسة من الحرارة للأطباق التقليدية والوجبات السريعة."
   },
   {
     "name": "هيلمانز صلصة باربكيو 285 جرام",
@@ -912,35 +983,39 @@
     ],
     "discount": 11,
     "price": 18,
-    "discounted_price": 15.95
+    "description": "صلصة باربكيو من هيلمانز، بنكهة مدخنة غنية، مثالية للحوم المشوية والدجاج."
   },
   {
     "name": "قودي مايونيز بالثوم 250 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107244/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D8%AB%D9%88%D9%85-250-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 14.75
+    "price": 14.75,
+    "description": "مايونيز قودي بنكهة الثوم الغنية، مثالي للساندويتشات والتغميس."
   },
   {
     "name": "تريفا كاتشب طماطم 340 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107245/%D8%AA%D8%B1%D9%8A%D9%81%D8%A7-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.45
+    "price": 6.45,
+    "description": "كاتشب طماطم من تريفا، مصنوع من مكونات عالية الجودة، مثالي للوجبات اليومية."
   },
   {
     "name": "مازولا مايونيز لايت 946 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107246/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%84%D8%A7%D9%8A%D8%AA-946-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 33.75
+    "price": 33.75,
+    "description": "مايونيز لايت من مازولا، قليل السعرات، مثالي للنظام الغذائي الصحي مع نكهة كريمية."
   },
   {
     "name": "حدائق أورينت معجون الثوم 210جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107247/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D9%85%D8%B9%D8%AC%D9%88%D9%86-%D8%A7%D9%84%D8%AB%D9%88%D9%85-210%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10
+    "price": 10,
+    "description": "معجون الثوم من حدائق أورينت، يضيف نكهة قوية ومميزة للأطباق المطبوخة والتتبيلات."
   },
   {
     "name": "حدائق أورينت، تتبيلة سلطة ثاوزند أيلاند، 237 مل",
@@ -949,14 +1024,15 @@
     ],
     "discount": 13,
     "price": 9.45,
-    "discounted_price": 8.2
+    "description": "تتبيلة ثاوزند أيلاند من حدائق أورينت، كريمية وغنية، مثالية للسلطات والساندويتشات."
   },
   {
     "name": "تويا صلصة حارة لامبونج سومطرا 340 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107250/%D8%AA%D9%88%D9%8A%D8%A7-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-%D9%84%D8%A7%D9%85%D8%A8%D9%88%D9%86%D8%AC-%D8%B3%D9%88%D9%85%D8%B7%D8%B1%D8%A7-340-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 8.5
+    "price": 8.5,
+    "description": "صلصة حارة من تويا بنكهة لامبونج سومطرا الفريدة، مثالية للأطباق الآسيوية."
   },
   {
     "name": "ناندوز صلصلة فلفل بيري حارة جدًا 250 مل",
@@ -965,21 +1041,23 @@
     ],
     "discount": 19,
     "price": 21.5,
-    "discounted_price": 17.45
+    "description": "صلصة ناندوز بفلفل بيري الحارة جدًا، لعشاق النكهات القوية والحارة."
   },
   {
     "name": "فريشكو كاتشب الطماطم 340 جم",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107252/%D9%81%D8%B1%D9%8A%D8%B4%D9%83%D9%88-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-340-%D8%AC%D9%85.jpg.jpg"
     ],
-    "price": 4.75
+    "price": 4.75,
+    "description": "كاتشب طماطم من فريشكو، نكهة غنية وطبيعية، مثالي للبطاطس والساندويتشات."
   },
   {
     "name": "ليبيز كاتشب طماطم عبوة ضغط 580 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107254/%D9%84%D9%8A%D8%A8%D9%8A%D8%B2-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%BA%D8%B7-580-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 19.95
+    "price": 19.95,
+    "description": "كاتشب طماطم ليبيز بعبوة ضغط مريحة، نكهة كلاسيكية للوجبات اليومية."
   },
   {
     "name": "حلواني اخوان صوص طحينة بالكمون والشبت 370 جرام",
@@ -988,7 +1066,7 @@
     ],
     "discount": 10,
     "price": 15.5,
-    "discounted_price": 13.95
+    "description": "صوص طحينة من حلواني إخوان بنكهة الكمون والشبت، مثالي للسلطات والمأكولات العربية."
   },
   {
     "name": "خاينز دليشز مايوتشب، مايونيز بالكاتشب 225مل",
@@ -997,70 +1075,79 @@
     ],
     "discount": 13,
     "price": 15.5,
-    "discounted_price": 13.45
+    "description": "مايوتشب من خاينز، مزيج مايونيز وكاتشب بنكهة مميزة، مثالي للبطاطس والبرجر."
   },
   {
     "name": "قودي مايونيز لايت عبوة سكويز 250 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107257/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%84%D8%A7%D9%8A%D8%AA-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B3%D9%83%D9%88%D9%8A%D8%B2-250-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 16.75
+    "price": 16.75,
+    "description": "مايونيز لايت من قودي بعبوة سكويز، قليل السعرات مع نكهة كريمية للنظام الصحي."
   },
   {
     "name": "العلالي طماطم كاتشب 340 جرام × 2 + 1 مجانا",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107259/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-340-%D8%AC%D8%B1%D8%A7%D9%85-2-1-%D9%85%D8%AC%D8%A7%D9%86%D8%A7.jpg.jpg"
     ],
-    "price": 17.25
+    "price": 17.25,
+    "description": "عرض العلالي: كاتشب طماطم 340 جرام، اشترِ اثنين واحصل على واحد مجانًا."
   },
   {
     "name": "فرشلي خردل حار بني 340 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107261/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%AE%D8%B1%D8%AF%D9%84-%D8%AD%D8%A7%D8%B1-%D8%A8%D9%86%D9%8A-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11.45
+    "price": 11.45,
+    "description": "خردل حار بني من فرشلي، نكهة قوية وحادة، مثالي للحوم والساندويتشات."
   },
   {
     "name": "العلالي طماطم كاتشب 785 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107263/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-785-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 23.25
+    "price": 23.25,
+    "description": "كاتشب طماطم العلالي بحجم عائلي، نكهة غنية للوجبات اليومية."
   },
   {
     "name": "اورينت جاردن صلصة البرجر 280جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107264/%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D8%AC%D8%B1-280%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 14.95
+    "price": 14.95,
+    "description": "صلصة برجر من أورينت جاردن، نكهة غنية وكريمية، مثالية للساندويتشات."
   },
   {
     "name": "مازولا مايونيز شيبوتلي 340 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107266/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%B4%D9%8A%D8%A8%D9%88%D8%AA%D9%84%D9%8A-340-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 16.25
+    "price": 16.25,
+    "description": "مايونيز شيبوتلي من مازولا، بنكهة مدخنة وحارة، مثالي للوجبات المكسيكية."
   },
   {
     "name": "قودي مايونيز الأصلي 237 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107268/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-237-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "مايونيز أصلي من قودي، كريمي وغني، مثالي للسلطات والساندويتشات."
   },
   {
     "name": "فريشلي صلصة السلطة بالخل البلسمي 473 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107269/%D9%81%D8%B1%D9%8A%D8%B4%D9%84%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A9-%D8%A8%D8%A7%D9%84%D8%AE%D9%84-%D8%A7%D9%84%D8%A8%D9%84%D8%B3%D9%85%D9%8A-473-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 18
+    "price": 18,
+    "description": "صلصة سلطة بالخل البلسمي من فرشلي، نكهة مميزة للسلطات الصحية."
   },
   {
     "name": "بونتي أسيتو خل بلسمي 500مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107270/%D8%A8%D9%88%D9%86%D8%AA%D9%8A-%D8%A3%D8%B3%D9%8A%D8%AA%D9%88-%D8%AE%D9%84-%D8%A8%D9%84%D8%B3%D9%85%D9%8A-500%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 28.75
+    "price": 28.75,
+    "description": "خل بلسمي من بونتي، نكهة غنية وعطرية، مثالي للسلطات والتتبيلات."
   },
   {
     "name": "هيلمانز كاتشب طماطم 500 جرام",
@@ -1069,21 +1156,23 @@
     ],
     "discount": 10,
     "price": 20,
-    "discounted_price": 17.95
+    "description": "كاتشب طماطم من هيلمانز، نكهة غنية وطبيعية، مثالي للوجبات السريعة."
   },
   {
     "name": "مازولا صوص ثاوزند ايلند 400 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107272/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D8%B5%D9%88%D8%B5-%D8%AB%D8%A7%D9%88%D8%B2%D9%86%D8%AF-%D8%A7%D9%8A%D9%84%D9%86%D8%AF-400-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 15.25
+    "price": 15.25,
+    "description": "صوص ثاوزند آيلاند من مازولا، كريمي وغني، مثالي للسلطات والتغميس."
   },
   {
     "name": "مهران معجون الزنجبيل 320 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107274/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D9%85%D8%B9%D8%AC%D9%88%D9%86-%D8%A7%D9%84%D8%B2%D9%86%D8%AC%D8%A8%D9%8A%D9%84-320-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.75
+    "price": 9.75,
+    "description": "معجون الزنجبيل من مهران، يضيف نكهة قوية للأطباق الآسيوية والتتبيلات."
   },
   {
     "name": "جودي مايونيز بالثوم 425 مل",
@@ -1092,14 +1181,15 @@
     ],
     "discount": 14,
     "price": 22.5,
-    "discounted_price": 19.45
+    "description": "مايونيز جودي بنكهة الثوم، كريمي وغني، مثالي للساندويتشات والتغميس."
   },
   {
     "name": "السعودية كتشاب الطماطم 340 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107276/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%83%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.5
+    "price": 6.5,
+    "description": "كاتشب طماطم من السعودية، نكهة كلاسيكية، مثالي للبطاطس والبرجر."
   },
   {
     "name": "حدائق أورينت، صلصة سلطة جبنة بلو تشيز، 237 مل",
@@ -1108,14 +1198,15 @@
     ],
     "discount": 13,
     "price": 9.45,
-    "discounted_price": 8.2
+    "description": "صلصة سلطة جبنة بلو تشيز من حدائق أورينت، نكهة غنية للسلطات الفاخرة."
   },
   {
     "name": "هاينز صوص ايطالي 400 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107279/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D8%B5%D9%88%D8%B5-%D8%A7%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-400-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 27.5
+    "price": 27.5,
+    "description": "صوص إيطالي من هاينز، نكهة الأعشاب المتوسطية، مثالي للسلطات والمأكولات الإيطالية."
   },
   {
     "name": "مايونيز ديليسيو أصلي 500 مل",
@@ -1124,63 +1215,71 @@
     ],
     "discount": 16,
     "price": 19,
-    "discounted_price": 15.95
+    "description": "مايونيز ديليسيو الأصلي، كريمي وغني، مثالي للسلطات والساندويتشات."
   },
   {
     "name": "أورينت جاردن مايونيز خفيف 510مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107281/%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%AE%D9%81%D9%8A%D9%81-510%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 16.75
+    "price": 16.75,
+    "description": "مايونيز خفيف من أورينت جاردن، قليل السعرات، مثالي للنظام الغذائي الصحي."
   },
   {
     "name": "فرشلي عصير ليمون طبيعي ومركز 443 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107283/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B9%D8%B5%D9%8A%D8%B1-%D9%84%D9%8A%D9%85%D9%88%D9%86-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D9%88%D9%85%D8%B1%D9%83%D8%B2-443-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 9.7
+    "price": 9.7,
+    "description": "عصير ليمون طبيعي ومركز من فرشلي، مثالي لتحضير التتبيلات والمشروبات."
   },
   {
     "name": "ريجانو - كاتشب طماطم عضوي 490 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107284/%D8%B1%D9%8A%D8%AC%D8%A7%D9%86%D9%88-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%B9%D8%B6%D9%88%D9%8A-490-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 27.25
+    "price": 27.25,
+    "description": "كاتشب طماطم عضوي من ريجانو، مصنوع من مكونات طبيعية، مثالي للنظام الصحي."
   },
   {
-    "name": "هاينز صلصة ثاوزاند ايلاند للسلطة 400 مل",
+    "name": "هاينز صلصة ثاوزند ايلاند للسلطة 400 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107285/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AB%D8%A7%D9%88%D8%B2%D8%A7%D9%86%D8%AF-%D8%A7%D9%8A%D9%84%D8%A7%D9%86%D8%AF-%D9%84%D9%84%D8%B3%D9%84%D8%B7%D8%A9-400-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 27.5
+    "price": 27.5,
+    "description": "صلصة ثاوزند آيلاند من هاينز، كريمية وغنية، مثالية للسلطات والساندويتشات."
   },
   {
     "name": "قودي مايونيز فلفل حار 250 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107287/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%81%D9%84%D9%81%D9%84-%D8%AD%D8%A7%D8%B1-250-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 14.75
+    "price": 14.75,
+    "description": "مايونيز قودي بنكهة الفلفل الحار، يضيف لمسة حارة للساندويتشات والتغميس."
   },
   {
     "name": "أورينت جاردنز عصير ليمون 200مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107288/%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%B9%D8%B5%D9%8A%D8%B1-%D9%84%D9%8A%D9%85%D9%88%D9%86-200%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 7.45
+    "price": 7.45,
+    "description": "عصير ليمون من أورينت جاردنز، طبيعي ومركز، مثالي لتحضير التتبيلات والمشروبات."
   },
   {
     "name": "نور كاتشب أقل سكر وملح، 410 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107289/%D9%86%D9%88%D8%B1-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A3%D9%82%D9%84-%D8%B3%D9%83%D8%B1-%D9%88%D9%85%D9%84%D8%AD-410-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 20.5
+    "price": 20.5,
+    "description": "كاتشب نور بأقل سكر وملح، مثالي للنظام الغذائي الصحي مع نكهة غنية."
   },
   {
     "name": "بيب خل أبيض 473 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107290/%D8%A8%D9%8A%D8%A8-%D8%AE%D9%84-%D8%A3%D8%A8%D9%8A%D8%B6-473-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 3.2
+    "price": 3.2,
+    "description": "خل أبيض من بيب، مثالي لتتبيل السلطات والتنظيف المنزلي."
   },
   {
     "name": "أورينت جارد- مايونيز بالتوابل والفلفل الحار 340 مل",
@@ -1189,26 +1288,28 @@
     ],
     "discount": 13,
     "price": 11.95,
-    "discounted_price": 10.45
+    "description": "مايونيز أورينت جاردن بالتوابل والفلفل الحار، نكهة حارة وغنية للساندويتشات."
   },
   {
     "name": "فريشكو مايونيز أصلي 300مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107292/%D9%81%D8%B1%D9%8A%D8%B4%D9%83%D9%88-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A3%D8%B5%D9%84%D9%8A-300%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "مايونيز أصلي من فريشكو، كريمي وغني، مثالي للسلطات والساندويتشات."
   },
   {
     "name": "هاينز مايونيز بالثوم 225 مل",
+    "description": "مايونيز كريمي بنكهة الثوم الغنية، مثالي للساندويتشات والسلطات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107294/%D9%87%D8%A7%D9%8A%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D8%AB%D9%88%D9%85-225-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 13,
-    "price": 14.25,
-    "discounted_price": 12.45
+    "price": 14.25
   },
   {
     "name": "العلالي طماطم كاتشب 395 جرام × 2",
+    "description": "كاتشب طماطم عالي الجودة، مثالي لإضافة نكهة لذيذة للوجبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107295/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-395-%D8%AC%D8%B1%D8%A7%D9%85-2.jpg.jpg"
     ],
@@ -1216,6 +1317,7 @@
   },
   {
     "name": "أورينت جاردنز - صلصة سلطة رانش بالشيبوتلي 237 مل",
+    "description": "صلصة رانش بنكهة الشيبوتلي المدخنة، مثالية للسلطات والتغميس.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107296/%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B3%D9%84%D8%B7%D8%A9-%D8%B1%D8%A7%D9%86%D8%B4-%D8%A8%D8%A7%D9%84%D8%B4%D9%8A%D8%A8%D9%88%D8%AA%D9%84%D9%8A-237-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1223,6 +1325,7 @@
   },
   {
     "name": "نور مايونيز بالثوم عبوة ضغط 295مل",
+    "description": "مايونيز بالثوم في عبوة ضغط مريحة، يضيف نكهة مميزة للأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107297/%D9%86%D9%88%D8%B1-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D8%AB%D9%88%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%BA%D8%B7-295%D9%85%D9%84.jpg.jpg"
     ],
@@ -1230,6 +1333,7 @@
   },
   {
     "name": "مازولا مايونيز حار عبوة ضاغطة 650 مل",
+    "description": "مايونيز حار بقوام كريمي، مثالي لعشاق النكهات القوية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107298/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%AD%D8%A7%D8%B1-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%A7%D8%BA%D8%B7%D8%A9-650-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1237,6 +1341,7 @@
   },
   {
     "name": "إكسيلنس صلصة حارة من فلفل التاباسكو 177 مل",
+    "description": "صلصة حارة بنكهة فلفل التاباسكو الأصلية، تضيف لمسة حيوية للأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107299/%D8%A5%D9%83%D8%B3%D9%8A%D9%84%D9%86%D8%B3-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-%D9%85%D9%86-%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AA%D8%A7%D8%A8%D8%A7%D8%B3%D9%83%D9%88-177-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1244,6 +1349,7 @@
   },
   {
     "name": "حدائق اورينت عصير ليمون 1 لتر",
+    "description": "عصير ليمون طبيعي، مثالي لتحضير المشروبات والتتبيلات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107301/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B9%D8%B5%D9%8A%D8%B1-%D9%84%D9%8A%D9%85%D9%88%D9%86-1-%D9%84%D8%AA%D8%B1.jpg.jpg"
     ],
@@ -1251,6 +1357,7 @@
   },
   {
     "name": "مهران معجون الزنجبيل 750 جرام",
+    "description": "معجون زنجبيل طازج، مثالي للطهي وإضافة نكهة مميزة للأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107303/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D9%85%D8%B9%D8%AC%D9%88%D9%86-%D8%A7%D9%84%D8%B2%D9%86%D8%AC%D8%A8%D9%8A%D9%84-750-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1258,33 +1365,34 @@
   },
   {
     "name": "حلواني اخوان صوص طحينة بالثوم والأعشاب 370 جرام",
+    "description": "صوص طحينة بنكهة الثوم والأعشاب، مثالي للسلطات والشاورما.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107305/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%B5%D9%88%D8%B5-%D8%B7%D8%AD%D9%8A%D9%86%D8%A9-%D8%A8%D8%A7%D9%84%D8%AB%D9%88%D9%85-%D9%88%D8%A7%D9%84%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 15.5,
-    "discounted_price": 13.95
+    "price": 15.5
   },
   {
     "name": "فرشلي الصلصة الروسية 454 جرام",
+    "description": "صلصة روسية كريمية، مثالية للسلطات والساندويتشات.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107307/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%A7%D9%84%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107307/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%A7%D9%84%D8%B5%D9%84%D8%B5%D8%A7%D8%A9-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 17.25,
-    "discounted_price": 15.45
+    "price": 17.25
   },
   {
     "name": "فريشكو كاتشب طماطم 340 جرام",
+    "description": "كاتشب طماطم غني بالنكهة، مثالي للبطاطس والبرغر.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107308/%D9%81%D8%B1%D9%8A%D8%B4%D9%83%D9%88-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 4,
-    "discounted_price": 3.45
+    "price": 4
   },
   {
     "name": "حدائق اورينت خل أبيض 946 مل",
+    "description": "خل أبيض نقي، مثالي للتتبيلات والتنظيف المنزلي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107310/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AE%D9%84-%D8%A3%D8%A8%D9%8A%D8%B6-946-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1292,6 +1400,7 @@
   },
   {
     "name": "قودي مايونيزعبوة ضاغطة 250 مل",
+    "description": "مايونيز كريمي في عبوة ضغط، مثالي للساندويتشات والتغميس.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107312/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%A7%D8%BA%D8%B7%D8%A9-250-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1299,6 +1408,7 @@
   },
   {
     "name": "رد روستر صلصة حارة 175 مل",
+    "description": "صلصة حارة بنكهة قوية، مثالية لعشاق النكهات الحادة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107315/%D8%B1%D8%AF-%D8%B1%D9%88%D8%B3%D8%AA%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-175-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1306,6 +1416,7 @@
   },
   {
     "name": "بيدر مايونيز ضغط 300جرام",
+    "description": "مايونيز كريمي في عبوة ضغط، مثالي للاستخدام اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107316/%D8%A8%D9%8A%D8%AF%D8%B1-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%B6%D8%BA%D8%B7-300%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1313,6 +1424,7 @@
   },
   {
     "name": "حدائق اورينت صلصة متبل للساندوتش 325 مل",
+    "description": "صلصة متبلة مثالية للساندويتشات، تضيف نكهة شرقية مميزة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107318/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B5%D9%84%D8%B5%D8%A9-%D9%85%D8%AA%D8%A8%D9%84-%D9%84%D9%84%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%AA%D8%B4-325-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1320,6 +1432,7 @@
   },
   {
     "name": "مازولا مايونيز بالثوم 340 مل",
+    "description": "مايونيز بنكهة الثوم الغنية، مثالي للسلطات والساندويتشات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107319/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D8%AB%D9%88%D9%85-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1327,6 +1440,7 @@
   },
   {
     "name": "نور كاتشب الطماطم، 410 جرام",
+    "description": "كاتشب طماطم غني بالنكهة، مثالي للوجبات السريعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107320/%D9%86%D9%88%D8%B1-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-410-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1334,6 +1448,7 @@
   },
   {
     "name": "أورينت جاردنز مايونيز بالثوم 340 مل",
+    "description": "مايونيز كريمي بنكهة الثوم، مثالي للتغميس والتتبيلات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107321/%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D8%AB%D9%88%D9%85-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1341,6 +1456,7 @@
   },
   {
     "name": "فرشلي صلصة جبنة شيدر 3 كجم",
+    "description": "صلصة جبنة شيدر كريمية، مثالية للناتشوز والتغميس.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107323/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AC%D8%A8%D9%86%D8%A9-%D8%B4%D9%8A%D8%AF%D8%B1-3-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
@@ -1348,6 +1464,7 @@
   },
   {
     "name": "ديليسيو - تتبيلة الجبنة الزرقاء 267 مل",
+    "description": "تتبيلة جبنة زرقاء كريمية، مثالية للسلطات والأجنحة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107324/%D8%AF%D9%8A%D9%84%D9%8A%D8%B3%D9%8A%D9%88-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D8%B2%D8%B1%D9%82%D8%A7%D8%A1-267-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1355,6 +1472,7 @@
   },
   {
     "name": "مازولا مايونيز ليمون 340 مل",
+    "description": "مايونيز بنكهة الليمون المنعشة، مثالي للسلطات والمأكولات البحرية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107325/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%84%D9%8A%D9%85%D9%88%D9%86-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1362,6 +1480,7 @@
   },
   {
     "name": "قودي مايونيز ليمون 250 مل",
+    "description": "مايونيز بنكهة الليمون المنعشة، مثالي للساندويتشات والتغميس.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107326/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%84%D9%8A%D9%85%D9%88%D9%86-250-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1369,6 +1488,7 @@
   },
   {
     "name": "تاباسكو شيبوتلي صلصة الفلفل 60 مل",
+    "description": "صلصة فلفل شيبوتلي مدخنة، تضيف نكهة مميزة للأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107328/%D8%AA%D8%A7%D8%A8%D8%A7%D8%B3%D9%83%D9%88-%D8%B4%D9%8A%D8%A8%D9%88%D8%AA%D9%84%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-60-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1376,33 +1496,34 @@
   },
   {
     "name": "بيب خردل عبوة ضغط 227جرام",
+    "description": "خردل بنكهة قوية في عبوة ضغط، مثالي للساندويتشات والتتبيلات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107329/%D8%A8%D9%8A%D8%A8-%D8%AE%D8%B1%D8%AF%D9%84-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%BA%D8%B7-227%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 11,
-    "price": 9.5,
-    "discounted_price": 8.45
+    "price": 9.5
   },
   {
     "name": "قودي مايونيز روزميري 250 مل",
+    "description": "مايونيز بنكهة الروزميري العطرية، مثالي للسلطات واللحوم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107330/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%B1%D9%88%D8%B2%D9%85%D9%8A%D8%B1%D9%8A-250-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 16,
-    "price": 17.25,
-    "discounted_price": 14.45
+    "price": 17.25
   },
   {
     "name": "فرانكس صلصة الفلفل الأحمر الحار الأصلية 354مل",
+    "description": "صلصة فلفل أحمر حارة، مثالية لإضافة نكهة قوية للأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107331/%D9%81%D8%B1%D8%A7%D9%86%D9%83%D8%B3-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-354%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 14,
-    "price": 27.25,
-    "discounted_price": 23.45
+    "price": 27.25
   },
   {
     "name": "تريفا شطة حارة 473 مل",
+    "description": "شطة حارة غنية بالنكهة، مثالية لتحسين طعم الأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107333/%D8%AA%D8%B1%D9%8A%D9%81%D8%A7-%D8%B4%D8%B7%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-473-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1410,6 +1531,7 @@
   },
   {
     "name": "نور كاتشب الطماطم، 300 جرام",
+    "description": "كاتشب طماطم عالي الجودة، مثالي للبطاطس والساندويتشات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107334/%D9%86%D9%88%D8%B1-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1417,6 +1539,7 @@
   },
   {
     "name": "العلالي طماطم كاتشب 585 جرام",
+    "description": "كاتشب طماطم غني بالنكهة، مثالي للوجبات اليومية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107335/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-585-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1424,6 +1547,7 @@
   },
   {
     "name": "تاباسكو صلصة الفلفل 3.7 مل × 6",
+    "description": "عبوات صغيرة من صلصة فلفل تاباسكو الحارة، مثالية للاستخدام الفردي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107336/%D8%AA%D8%A7%D8%A8%D8%A7%D8%B3%D9%83%D9%88-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-37-%D9%85%D9%84-6.jpg.jpg"
     ],
@@ -1431,6 +1555,7 @@
   },
   {
     "name": "بونتي جليز مع الخل البلسمي 250 غرام",
+    "description": "جليز بالخل البلسمي، مثالي لتزيين الأطباق والسلطات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107338/%D8%A8%D9%88%D9%86%D8%AA%D9%8A-%D8%AC%D9%84%D9%8A%D8%B2-%D9%85%D8%B9-%D8%A7%D9%84%D8%AE%D9%84-%D8%A7%D9%84%D8%A8%D9%84%D8%B3%D9%85%D9%8A-250-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1438,15 +1563,16 @@
   },
   {
     "name": "السعودية - صلصة حارة 473 مل",
+    "description": "صلصة حارة بنكهة محلية، مثالية لتحسين طعم الأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107339/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-473-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 23,
-    "price": 7.75,
-    "discounted_price": 5.95
+    "price": 7.75
   },
   {
     "name": "أرض الطبيعة - خل التفاح 750 مل",
+    "description": "خل تفاح عضوي، مثالي للطهي والاستخدام الصحي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107340/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%AE%D9%84-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-750-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1454,6 +1580,7 @@
   },
   {
     "name": "العلالي كاتشب طماطم 1050جرام",
+    "description": "كاتشب طماطم بحجم كبير، مثالي للعائلات والمطاعم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107341/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-1050%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1461,13 +1588,15 @@
   },
   {
     "name": "ديليشيو صلصة رانش سيراشا 267 مل",
+    "description": "صلصة رانش بنكهة السيراشا الحارة، مثالية للسلطات والتغميس.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107342/%D8%AF%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D9%88-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B1%D8%A7%D9%86%D8%B4-%D8%B3%D9%8A%D8%B1%D8%A7%D8%B4%D8%A7-267-%D9%85%D9%84.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107342/%D8%AF%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D9%88-%D8%B5%D9%84%C2%A3%D8%A9-%D8%B1%D8%A7%D9%86%D8%B4-%D8%B3%D9%8A%D8%B1%D8%A7%D8%B4%D8%A7-267-%D9%85%D9%84.jpg.jpg"
     ],
     "price": 12.75
   },
   {
     "name": "بيدر تتبيلة الرانش 460 جرام",
+    "description": "تتبيلة رانش كريمية، مثالية للسلطات والخضروات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107344/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D9%86%D8%B4-460-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1475,6 +1604,7 @@
   },
   {
     "name": "بيدر مايونيز 3.7 لتر",
+    "description": "مايونيز بحجم كبير، مثالي للمطاعم والاستخدام التجاري.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107345/%D8%A8%D9%8A%D8%AF%D8%B1-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-37-%D9%84%D8%AA%D8%B1.jpg.jpg"
     ],
@@ -1482,6 +1612,7 @@
   },
   {
     "name": "ليبيز كتشاب الطماطم 350 جرام",
+    "description": "كاتشب طماطم كلاسيكي، مثالي للوجبات السريعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107346/%D9%84%D9%8A%D8%A8%D9%8A%D8%B2-%D9%83%D8%AA%D8%B4%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1489,22 +1620,24 @@
   },
   {
     "name": "تويا صلصة حارة 473 مل",
+    "description": "صلصة حارة غنية بالنكهة، مثالية لتحسين طعم الأطباق.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107347/%D8%AA%D9%88%D9%8A%D8%A7-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-473-%D9%85%D9%84.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107347/%D8%AA%D9%88%D9%8A%D8%A7-%D8%B5%D9%84%D8%B5%D8%A7%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-473-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 9,
-    "price": 6,
-    "discounted_price": 5.45
+    "price": 6
   },
   {
     "name": "بيدر صلصة حارة 473 مل",
+    "description": "صلصة حارة بقوام مثالي، تضيف نكهة قوية للوجبات.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107348/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-473-%D9%85%D9%84.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107348/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%B5%D9%84%D8%Bіли%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-473-%D9%85%D9%84.jpg.jpg"
     ],
     "price": 5.25
   },
   {
     "name": "مازولا مايونيز تندوري 340 مل",
+    "description": "مايونيز بنكهة التندوري الهندية، مثالي للساندويتشات واللحوم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107349/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%AA%D9%86%D8%AF%D9%88%D8%B1%D9%8A-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1512,15 +1645,16 @@
   },
   {
     "name": "تويا صلصة الفلفل الحار 140 مل",
+    "description": "صلصة فلفل حارة، مثالية لإضافة نكهة قوية للأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107350/%D8%AA%D9%88%D9%8A%D8%A7-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-140-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 12,
-    "price": 4.5,
-    "discounted_price": 3.95
+    "price": 4.5
   },
   {
     "name": "مازولا مايونيز باربيكيو 340 مل",
+    "description": "مايونيز بنكهة الباربيكيو المدخنة، مثالي للبرغر واللحوم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107351/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D8%B1%D8%A8%D9%8A%D9%83%D9%8A%D9%88-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1528,15 +1662,16 @@
   },
   {
     "name": "أورينت جاردنز - خل العنب الأحمر 472 مل",
+    "description": "خل عنب أحمر نقي، مثالي للسلطات والتتبيلات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107353/%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%AE%D9%84-%D8%A7%D9%84%D8%B9%D9%86%D8%A8-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-472-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 6,
-    "price": 4.75,
-    "discounted_price": 4.45
+    "price": 4.75
   },
   {
     "name": "هيلمانز مايونيز بالفلفل الحار 235 جرام",
+    "description": "مايونيز بنكهة الفلفل الحار، مثالي للساندويتشات والتغميس.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107354/%D9%87%D9%8A%D9%84%D9%85%D8%A7%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-235-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1544,6 +1679,7 @@
   },
   {
     "name": "فرشلي كاتشب الطماطم 1.81 كج",
+    "description": "كاتشب طماطم بحجم كبير، مثالي للاستخدام العائلي والتجاري.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107355/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-181-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1551,6 +1687,7 @@
   },
   {
     "name": "مهران كاتشب طماطم 300 جرام",
+    "description": "كاتشب طماطم غني بالنكهة، مثالي للبطاطس والبرغر.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107356/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1558,6 +1695,7 @@
   },
   {
     "name": "مازولا مايونيز بالهالبينو 340 مل",
+    "description": "مايونيز بنكهة الهالبينو الحارة، مثالي للساندويتشات والتغميس.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107357/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D9%87%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%88-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1565,6 +1703,7 @@
   },
   {
     "name": "نور مايونيز حار 295مل",
+    "description": "مايونيز حار في عبوة ضغط، مثالي لعشاق النكهات القوية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107358/%D9%86%D9%88%D8%B1-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%AD%D8%A7%D8%B1-295%D9%85%D9%84.jpg.jpg"
     ],
@@ -1572,6 +1711,7 @@
   },
   {
     "name": "إكسيلنس صلصة حارة 177 مل",
+    "description": "صلصة حارة غنية بالنكهة، مثالية لتحسين طعم الأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107359/%D8%A5%D9%83%D8%B3%D9%8A%D9%84%D9%86%D8%B3-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-177-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1579,6 +1719,7 @@
   },
   {
     "name": "بيب خل أحمر صناعي 946مل",
+    "description": "خل أحمر صناعي، مثالي للسلطات والتتبيلات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107361/%D8%A8%D9%8A%D8%A8-%D8%AE%D9%84-%D8%A3%D8%AD%D9%85%D8%B1-%D8%B5%D9%86%D8%A7%D8%B9%D9%8A-946%D9%85%D9%84.jpg.jpg"
     ],
@@ -1586,6 +1727,7 @@
   },
   {
     "name": "بونتي خل تفاح عضوي 500 ملي",
+    "description": "خل تفاح عضوي نقي، مثالي للطهي والاستخدام الصحي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107362/%D8%A8%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D9%84-%D8%AA%D9%81%D8%A7%D8%AD-%D8%B9%D8%B6%D9%88%D9%8A-500-%D9%85%D9%84%D9%8A.jpg.jpg"
     ],
@@ -1593,24 +1735,25 @@
   },
   {
     "name": "فيردا صلصة حارة 88مل",
+    "description": "صلصة حارة بحجم صغير، مثالية للاستخدام الفردي والتجربة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107363/%D9%81%D9%8A%D8%B1%D8%AF%D8%A7-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-88%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 18,
-    "price": 2.25,
-    "discounted_price": 1.85
+    "price": 2.25
   },
   {
     "name": "هيلمانز مايونيز 410 جرام",
+    "description": "مايونيز هيلمانز الكريمي الغني، مثالي للساندويتشات والسلطات، يقدم طعمًا متوازنًا ونكهة لا تُقاوم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107364/%D9%87%D9%8A%D9%84%D9%85%D8%A7%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-410-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 22.5,
-    "discounted_price": 19.45
+    "price": 22.5
   },
   {
     "name": "بييب ضغط الخردل 340جرام",
+    "description": "خردل بييب الحاد واللذيذ، مثالي لإضافة نكهة قوية للبرغر والنقانق، في عبوة ضغط سهلة الاستخدام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107365/%D8%A8%D9%8A%D9%8A%D8%A8-%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%AE%D8%B1%D8%AF%D9%84-340%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1618,6 +1761,7 @@
   },
   {
     "name": "إكسيلنس صلصة حارة هابانرو 177 مل",
+    "description": "صلصة هابانرو الحارة من إكسيلنس، تضيف لمسة نارية للأطباق المفضلة لديك، مثالية لعشاق النكهات الجريئة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107366/%D8%A5%D9%83%D8%B3%D9%8A%D9%84%D9%86%D8%B3-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-%D9%87%D8%A7%D8%A8%D8%A7%D9%86%D8%B1%D9%88-177-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1625,6 +1769,7 @@
   },
   {
     "name": "لونو لايت مايونيز 260 مل",
+    "description": "مايونيز لونو لايت قليل الدسم، يوفر نكهة كريمية لذيذة مع سعرات حرارية أقل، مثالي للأنظمة الغذائية الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107367/%D9%84%D9%88%D9%86%D9%88-%D9%84%D8%A7%D9%8A%D8%AA-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-260-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1632,15 +1777,16 @@
   },
   {
     "name": "ڤيردا كاتشب طماطم 340 جرام",
+    "description": "كاتشب طماطم ڤيردا الغني بالنكهة، مصنوع من الطماطم الطازجة، مثالي للبطاطس المقلية والساندويتشات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107368/%DA%A4%D9%8A%D8%B1%D8%AF%D8%A7-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 20,
-    "price": 7.75,
-    "discounted_price": 6.2
+    "price": 7.75
   },
   {
     "name": "إكسيلنس صلصة فلفل الشبح 177 مل",
+    "description": "صلصة فلفل الشبح من إكسيلنس، تقدم حرارة شديدة ونكهة فريدة، مثالية لمحبي التحديات الحارة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107369/%D8%A5%D9%83%D8%B3%D9%8A%D9%84%D9%86%D8%B3-%D8%B5%D9%84%D8%B5%D8%A9-%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%B4%D8%A8%D8%AD-177-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1648,6 +1794,7 @@
   },
   {
     "name": "بونتي - خل البلسمك الأبيض 250 مل",
+    "description": "خل البلسمك الأبيض من بونتي، يضيف نكهة حلوة وحامضة للسلطات والمأكولات البحرية، مثالي للطهي الراقي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107371/%D8%A8%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D9%84-%D8%A7%D9%84%D8%A8%D9%84%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-250-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1655,6 +1802,7 @@
   },
   {
     "name": "بيب خل أحمر صناعي 473مل",
+    "description": "خل أحمر صناعي من بيب، مثالي لتتبيل السلطات وإضافة نكهة حامضة للأطباق المختلفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107372/%D8%A8%D9%8A%D8%A8-%D8%AE%D9%84-%D8%A3%D8%AD%D9%85%D8%B1-%D8%B5%D9%86%D8%A7%D8%B9%D9%8A-473%D9%85%D9%84.jpg.jpg"
     ],
@@ -1662,6 +1810,7 @@
   },
   {
     "name": "أوفود خل التفاح العضوي 350مل",
+    "description": "خل التفاح العضوي من أوفود، مصنوع من التفاح الطبيعي، مثالي للطهي والعناية الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107373/%D8%A3%D9%88%D9%81%D9%88%D8%AF-%D8%AE%D9%84-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A-350%D9%85%D9%84.jpg.jpg"
     ],
@@ -1669,6 +1818,7 @@
   },
   {
     "name": "نور كاتشب المخلل، 410 جرام",
+    "description": "كاتشب المخلل من نور، يجمع بين نكهة الطماطم والمخللات، مثالي لإضافة لمسة مميزة للوجبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107374/%D9%86%D9%88%D8%B1-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D9%85%D8%AE%D9%84%D9%84-410-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1676,15 +1826,16 @@
   },
   {
     "name": "فرينشز، خردل أصفر 226 جرام",
+    "description": "خردل أصفر كلاسيكي من فرينشز، يقدم نكهة ناعمة وحادة، مثالي للساندويتشات والصوصات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107375/%D9%81%D8%B1%D9%8A%D9%86%D8%B4%D8%B2-%D8%AE%D8%B1%D8%AF%D9%84-%D8%A3%D8%B5%D9%81%D8%B1-226-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 16,
-    "discounted_price": 13.95
+    "price": 16
   },
   {
     "name": "مازولا مايونيز لايت 340 مل",
+    "description": "مايونيز لايت من مازولا، قليل السعرات مع نكهة كريمية غنية، مثالي للأكل الصحي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107377/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%84%D8%A7%D9%8A%D8%AA-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1692,15 +1843,16 @@
   },
   {
     "name": "أورينت جاردنز مايوتشب مايونيز 340 ملي",
+    "description": "مايوتشب من أورينت جاردنز، مزيج مثالي من المايونيز والكاتشب، يضيف نكهة مميزة للساندويتشات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107378/%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D8%AA%D8%B4%D8%A8-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-340-%D9%85%D9%84%D9%8A.jpg.jpg"
     ],
     "discount": 13,
-    "price": 11.95,
-    "discounted_price": 10.45
+    "price": 11.95
   },
   {
     "name": "فريشلي عصير ليمون 946 مل",
+    "description": "عصير ليمون طبيعي من فريشلي، مثالي لتحضير المشروبات والسلطات، يضيف نكهة منعشة لكل طبق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107379/%D9%81%D8%B1%D9%8A%D8%B4%D9%84%D9%8A-%D8%B9%D8%B5%D9%8A%D8%B1-%D9%84%D9%8A%D9%85%D9%88%D9%86-946-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1708,6 +1860,7 @@
   },
   {
     "name": "نور صلصة جبنة الشيدار مع الهلابينو 425 مل",
+    "description": "صلصة جبنة الشيدار مع الهلابينو من نور، مثالية للناتشوز والوجبات الخفيفة، تجمع بين الكريمية والحرارة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107380/%D9%86%D9%88%D8%B1-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AF%D8%A7%D8%B1-%D9%85%D8%B9-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D8%A8%D9%8A%D9%86%D9%88-425-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1715,6 +1868,7 @@
   },
   {
     "name": "مازولا صلصة رانش 400 مل",
+    "description": "صلصة رانش كريمية من مازولا، مثالية للسلطات والتغميس، تقدم نكهة منعشة ومتوازنة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107381/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B1%D8%A7%D9%86%D8%B4-400-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1722,6 +1876,7 @@
   },
   {
     "name": "مازولا مايونيز مايو تشب 340 مل",
+    "description": "مايونيز مايو تشب من مازولا، مزيج من المايونيز والكاتشب، مثالي لإضافة نكهة غنية للوجبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107383/%D9%85%D8%A7%D8%B2%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%85%D8%A7%D9%8A%D9%88-%D8%AA%D8%B4%D8%A8-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1729,15 +1884,16 @@
   },
   {
     "name": "قودي صلصة الباربيكيو الكورية 350 جرام",
+    "description": "صلصة باربيكيو كورية من قودي، تقدم نكهة حلوة ومدخنة، مثالية للشواء والتتبيلات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107384/%D9%82%D9%88%D8%AF%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%A8%D9%8A%D9%83%D9%8A%D9%88-%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%8A%D8%A9-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 16,
-    "price": 16,
-    "discounted_price": 13.45
+    "price": 16
   },
   {
     "name": "اندوفود صلصة حارة سومطرا 140 مل",
+    "description": "صلصة حارة سومطرا من اندوفود، تضيف نكهة آسيوية حارة للأطباق، مثالية لعشاق التوابل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107385/%D8%A7%D9%86%D8%AF%D9%88%D9%81%D9%88%D8%AF-%D8%B5%D9%84%D8%B5%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-%D8%B3%D9%88%D9%85%D8%B7%D8%B1%D8%A7-140-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1745,6 +1901,7 @@
   },
   {
     "name": "نور مايونيز أصلي عبوة ضغط 295مل",
+    "description": "مايونيز أصلي من نور في عبوة ضغط مريحة، يقدم نكهة كريمية مثالية للساندويتشات والسلطات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107386/%D9%86%D9%88%D8%B1-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A3%D8%B5%D9%84%D9%8A-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B6%D8%BA%D8%B7-295%D9%85%D9%84.jpg.jpg"
     ],
@@ -1752,6 +1909,7 @@
   },
   {
     "name": "أورينت جاردنز مايونيز لايت 340 مل",
+    "description": "مايونيز لايت من أورينت جاردنز، قليل الدسم مع نكهة غنية، مثالي للأنظمة الغذائية الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107387/%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D9%84%D8%A7%D9%8A%D8%AA-340-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1759,6 +1917,7 @@
   },
   {
     "name": "رنا خل صناعي 474 مل",
+    "description": "خل صناعي من رنا، مثالي لتتبيل السلطات وإضافة نكهة حامضة للأطباق المتنوعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107388/%D8%B1%D9%86%D8%A7-%D8%AE%D9%84-%D8%B5%D9%86%D8%A7%D8%B9%D9%8A-474-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1766,6 +1925,7 @@
   },
   {
     "name": "اورينت جاردن خل التفاح 453 جرام",
+    "description": "خل التفاح من أورينت جاردن، مصنوع من التفاح الطبيعي، مثالي للطهي والاستخدامات الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107389/%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86-%D8%AE%D9%84-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-453-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1773,6 +1933,7 @@
   },
   {
     "name": "بيدر صوص الحار 88 مل",
+    "description": "صوص حار من بيدر، يضيف نكهة نارية للوجبات الخفيفة والأطباق الرئيسية، في عبوة صغيرة مريحة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107390/%D8%A8%D9%8A%D8%AF%D8%B1-%D8%B5%D9%88%D8%B5-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-88-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1780,15 +1941,16 @@
   },
   {
     "name": "ديليسيو صلصة فرنسية 532 مل",
+    "description": "صلصة فرنسية كريمية من ديليسيو، مثالية للسلطات والتغميس، تقدم نكهة غنية ومتوازنة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107392/%D8%AF%D9%8A%D9%84%D9%8A%D8%B3%D9%8A%D9%88-%D8%B5%D9%84%D8%B5%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-532-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 14,
-    "price": 19.75,
-    "discounted_price": 16.95
+    "price": 19.75
   },
   {
     "name": "شتورة - دبس الرمان 600 مل",
+    "description": "دبس الرمان من شتورة، يقدم نكهة حلوة وحامضة، مثالي للسلطات والتتبيلات الشرقية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107393/%D8%B4%D8%AA%D9%88%D8%B1%D8%A9-%D8%AF%D8%A8%D8%B3-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D9%86-600-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1796,6 +1958,7 @@
   },
   {
     "name": "ام اف صلصلة الفلفل الحلو 435 مل",
+    "description": "صلصة الفلفل الحلو من ام اف، تقدم نكهة حلوة ومميزة، مثالية للدجاج والأطباق الآسيوية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107394/%D8%A7%D9%85-%D8%A7%D9%81-%D8%B5%D9%84%D8%B5%D9%84%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D9%84%D9%88-435-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1803,6 +1966,7 @@
   },
   {
     "name": "فرشلي صلصة السلطة الإيطالية 473 مل",
+    "description": "صلصة السلطة الإيطالية من فرشلي، تضيف نكهة الأعشاب الغنية للسلطات والمأكولات الإيطالية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107395/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A9-%D8%A7%D9%84%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-473-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1810,6 +1974,7 @@
   },
   {
     "name": "ناتشرلاند خل بلسمي عضوي 500 مل",
+    "description": "خل بلسمي عضوي من ناتشرلاند، يقدم نكهة غنية وحلوة، مثالي للسلطات والتتبيلات الراقية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107396/%D9%86%D8%A7%D8%AA%D8%B4%D8%B1%D9%84%D8%A7%D9%86%D8%AF-%D8%AE%D9%84-%D8%A8%D9%84%D8%B3%D9%85%D9%8A-%D8%B9%D8%B6%D9%88%D9%8A-500-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1817,24 +1982,25 @@
   },
   {
     "name": "ڤيردا مايونيز 320 جرام",
+    "description": "مايونيز ڤيردا الكريمي، مثالي للساندويتشات والسلطات، يقدم نكهة غنية ومميزة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107397/%DA%A4%D9%8A%D8%B1%D8%AF%D8%A7-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-320-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 20,
-    "price": 11.25,
-    "discounted_price": 8.95
+    "price": 11.25
   },
   {
     "name": "تشولولا - صلصة الفلفل الأخضر الحارة 150 مل",
+    "description": "صلصة الفلفل الأخضر الحارة من تشولولا، تضيف نكهة مكسيكية حارة ومنعشة للأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107398/%D8%AA%D8%B4%D9%88%D9%84%D9%88%D9%84%D8%A7-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-150-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 13,
-    "price": 22.25,
-    "discounted_price": 19.45
+    "price": 22.25
   },
   {
     "name": "أرض الطبيعة خل تفاح من التفاح الكامل 500 مل",
+    "description": "خل تفاح عضوي من أرض الطبيعة، مصنوع من التفاح الكامل، مثالي للطهي والعناية الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107400/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%AE%D9%84-%D8%AA%D9%81%D8%A7%D8%AD-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-500-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1842,6 +2008,7 @@
   },
   {
     "name": "حدائق اورينت صلصة الشواء المسكيت 500 جرام",
+    "description": "صلصة الشواء المسكيت من حدائق أورينت، تقدم نكهة مدخنة غنية، مثالية للحوم المشوية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107401/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%B3%D9%83%D9%8A%D8%AA-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1849,6 +2016,7 @@
   },
   {
     "name": "تشونج يونج وان أوفود شراب خل تفاح أخضر 900 ملي",
+    "description": "شراب خل التفاح الأخضر من تشونج يونج، مثالي للمشروبات الصحية والطهي، يقدم نكهة منعشة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107402/%D8%AA%D8%B4%D9%88%D9%86%D8%AC-%D9%8A%D9%88%D9%86%D8%AC-%D9%88%D8%A7%D9%86-%D8%A3%D9%88%D9%81%D9%88%D8%AF-%D8%B4%D8%B1%D8%A7%D8%A8-%D8%AE%D9%84-%D8%AA%D9%81%D8%A7%D8%AD-%D8%A3%D8%AE%D8%B6%D8%B1-900-%D9%85%D9%84%D9%8A.jpg.jpg"
     ],
@@ -1856,6 +2024,7 @@
   },
   {
     "name": "ديل مونتي كاتشب الطماطم الأصلي 340جرام",
+    "description": "كاتشب الطماطم الأصلي من ديل مونتي، مصنوع من الطماطم الطازجة، مثالي للوجبات اليومية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107403/%D8%AF%D9%8A%D9%84-%D9%85%D9%88%D9%86%D8%AA%D9%8A-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-340%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1863,6 +2032,7 @@
   },
   {
     "name": "ميسينو خل أبيض عضوي 250 ملي",
+    "description": "خل أبيض عضوي من ميسينو، مثالي لتتبيل السلطات والتنظيف الطبيعي، يقدم نكهة نقية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107404/%D9%85%D9%8A%D8%B3%D9%8A%D9%86%D9%88-%D8%AE%D9%84-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B9%D8%B6%D9%88%D9%8A-250-%D9%85%D9%84%D9%8A.jpg.jpg"
     ],
@@ -1870,6 +2040,7 @@
   },
   {
     "name": "رنا خل بني 180 مل",
+    "description": "خل بني من رنا، يضيف نكهة غنية للسلطات والتتبيلات، مثالي للطهي اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107405/%D8%B1%D9%86%D8%A7-%D8%AE%D9%84-%D8%A8%D9%86%D9%8A-180-%D9%85%D9%84.jpg.jpg"
     ],
@@ -1877,6 +2048,7 @@
   },
   {
     "name": "بيب كاتشب الطماطم 567 جم",
+    "description": "كاتشب الطماطم من بيب، غني بالنكهة ومثالي للبطاطس المقلية والبرغر، في عبوة عائلية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107406/%D8%A8%D9%8A%D8%A8-%D9%83%D8%A7%D8%AA%D8%B4%D8%A8-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-567-%D8%AC%D9%85.jpg.jpg"
     ],
@@ -1884,6 +2056,7 @@
   },
   {
     "name": "حدائق اورينت صلصة الشواء بالجوز 500 جرام",
+    "description": "صلصة الشواء بالجوز من حدائق أورينت، تقدم نكهة غنية ومدخنة، مثالية للحوم والخضروات المشوية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745107408/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B5%D9%84%D8%B5%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D8%AC%D9%88%D8%B2-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],

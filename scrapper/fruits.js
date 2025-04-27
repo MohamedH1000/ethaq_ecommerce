@@ -92,7 +92,6 @@ export const fruits = [
     ],
     discount: 14,
     price: 6.95,
-    discounted_price: 5.95,
   },
   {
     name: "عنب احمر بدون بذور",
@@ -115,7 +114,6 @@ export const fruits = [
     ],
     discount: 16,
     price: 11.95,
-    discounted_price: 10,
   },
   {
     name: "مندرين باكستاني (للكيلو)",
@@ -145,7 +143,6 @@ export const fruits = [
     ],
     discount: 16,
     price: 18.95,
-    discounted_price: 15.95,
   },
   {
     name: "مانجو",
@@ -343,7 +340,6 @@ export const fruits = [
     ],
     discount: 26,
     price: 16.75,
-    discounted_price: 12.38,
   },
   {
     name: "توت أزرق - 510 جرام في علبة",
@@ -352,7 +348,6 @@ export const fruits = [
     ],
     discount: 28,
     price: 38.95,
-    discounted_price: 27.95,
   },
   {
     name: "عنب اسود",
@@ -767,7 +762,6 @@ export const fruits = [
     ],
     discount: 18,
     price: 10.95,
-    discounted_price: 8.95,
   },
   {
     name: "برتقال فالنسيا طبق 6 قطع",
@@ -1461,7 +1455,6 @@ export const fruits = [
     ],
     discount: 14,
     price: 6.95,
-    discounted_price: 5.95,
     description: "موز ديلمونتي ناضج وحلو، مثالي للأكل الطازج أو العصائر.",
   },
   {
@@ -1487,7 +1480,6 @@ export const fruits = [
     ],
     discount: 16,
     price: 11.95,
-    discounted_price: 10,
     description: "أفوكادو طازج كريمي، مثالي لتحضير الجواكامولي أو السلطات.",
   },
   {
@@ -1521,7 +1513,6 @@ export const fruits = [
     ],
     discount: 16,
     price: 18.95,
-    discounted_price: 15.95,
     description: "توت أحمر طازج، مثالي للحلويات أو الإفطار.",
   },
   {
@@ -1747,7 +1738,6 @@ export const fruits = [
     ],
     discount: 26,
     price: 16.75,
-    discounted_price: 12.38,
     description: "شمام طازج وحلو، مثالي للأيام الحارة.",
   },
   {
@@ -1757,7 +1747,6 @@ export const fruits = [
     ],
     discount: 28,
     price: 38.95,
-    discounted_price: 27.95,
     description: "توت أزرق طازج، مثالي للسموذي أو الحلويات.",
   },
   {
@@ -2281,7 +2270,6 @@ export const fruits = [
     ],
     discount: 18,
     price: 10.95,
-    discounted_price: 8.95,
     description:
       "صحن لوز أخضر طازج، غني بالنكهة والفوائد الصحية، مثالي كوجبة خفيفة.",
   },

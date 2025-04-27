@@ -23,8 +23,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104945/%D9%87%D9%86%D8%A7%D8%A1-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-%D9%85%D8%B9%D9%84%D8%A8%D8%A9-340%D8%AC%D8%B1%D8%A7%D9%85-2-1%D9%85%D8%AC%D8%A7%D9%86%D8%A7.jpg.jpg"
     ],
     "discount": 7,
-    "price": 12.25,
-    "discounted_price": 11.45
+    "price": 12.25
   },
   {
     "name": "هناء لحم تونة خفيف 95جرام",
@@ -33,8 +32,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104946/%D9%87%D9%86%D8%A7%D8%A1-%D9%84%D8%AD%D9%85-%D8%AA%D9%88%D9%86%D8%A9-%D8%AE%D9%81%D9%8A%D9%81-95%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 20,
-    "price": 4.95,
-    "discounted_price": 3.95
+    "price": 4.95
   },
   {
     "name": "لونا حليب بودرة عبوة كيس، 2.25كج",
@@ -43,8 +41,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104947/%D9%84%D9%88%D9%86%D8%A7-%D8%AD%D9%84%D9%8A%D8%A8-%D8%A8%D9%88%D8%AF%D8%B1%D8%A9-%D8%B9%D8%A8%D9%88%D8%A9-%D9%83%D9%8A%D8%B3-225%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 20,
-    "price": 79.95,
-    "discounted_price": 63.95
+    "price": 79.95
   },
   {
     "name": "اندومي شعيريه مقليه 80 جرام × 40",
@@ -53,8 +50,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104949/%D8%A7%D9%86%D8%AF%D9%88%D9%85%D9%8A-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D9%87-%D9%85%D9%82%D9%84%D9%8A%D9%87-80-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
     ],
     "discount": 5,
-    "price": 54.75,
-    "discounted_price": 51.95
+    "price": 54.75
   },
   {
     "name": "إندومي شعيرية سريعة التحضير نكهة الدجاج 70 جرام × 40",
@@ -63,8 +59,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104950/%D8%A5%D9%86%D8%AF%D9%88%D9%85%D9%8A-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-70-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
     ],
     "discount": 7,
-    "price": 50.25,
-    "discounted_price": 46.95
+    "price": 50.25
   },
   {
     "name": "إندومي شعيرية سريعة التحضير شعيرية مقلية 80 جرام ×5",
@@ -81,8 +76,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104953/%D8%A7%D9%86%D8%AF%D9%85%D9%8A-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AE%D8%B6%D8%A7%D8%B1-75-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
     ],
     "discount": 5,
-    "price": 52.75,
-    "discounted_price": 49.95
+    "price": 52.75
   },
   {
     "name": "العملاق الأخضر ذرة حلوة 150 جرام × 4",
@@ -91,8 +85,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104954/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-150-%D8%AC%D8%B1%D8%A7%D9%85-4.jpg.jpg"
     ],
     "discount": 11,
-    "price": 19.5,
-    "discounted_price": 17.45
+    "price": 19.5
   },
   {
     "name": "اندومي شعيرية بنكهة الخضار 75 جرام × 10",
@@ -125,8 +118,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104960/%D8%A3%D9%86%D9%83%D9%88%D8%B1-%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D8%AF%D8%B9%D9%85-%D9%85%D8%AC%D9%81%D9%81-%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AF%D8%B3%D9%85-%D9%83%D9%8A%D8%B3-225-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 11,
-    "price": 84.95,
-    "discounted_price": 75.95
+    "price": 84.95
   },
   {
     "name": "كارفور لحم تونا فاتح اسكيبجاك كتل في ماء ملحي 170 جرام × 3",
@@ -151,8 +143,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104964/%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%B9%D9%8A-%D8%A8%D9%88%D8%AF%D8%B1%D8%A9-%D8%AD%D9%84%D9%8A%D8%A8-%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AF%D8%B3%D9%85-225%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D8%AA%D8%B1%D9%88%D9%8A%D8%AC%D9%8A%D8%A9.jpg.jpg"
     ],
     "discount": 9,
-    "price": 86,
-    "discounted_price": 77.95
+    "price": 86
   },
   {
     "name": "قودي تونا بزيت دوار الشمس 185 جرام",
@@ -161,8 +152,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104966/%D9%82%D9%88%D8%AF%D9%8A-%D8%AA%D9%88%D9%86%D8%A7-%D8%A8%D8%B2%D9%8A%D8%AA-%D8%AF%D9%88%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D9%85%D8%B3-185-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 8.75,
-    "discounted_price": 7.7
+    "price": 8.75
   },
   {
     "name": "قودي تونا تندرينا 80 جرام",
@@ -171,8 +161,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104967/%D9%82%D9%88%D8%AF%D9%8A-%D8%AA%D9%88%D9%86%D8%A7-%D8%AA%D9%86%D8%AF%D8%B1%D9%8A%D9%86%D8%A7-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.5,
-    "discounted_price": 4.95
+    "price": 5.5
   },
   {
     "name": "إندومي نكهة الدجاج بالكاري 75 جرام × 40",
@@ -181,8 +170,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104968/%D8%A5%D9%86%D8%AF%D9%88%D9%85%D9%8A-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D9%8A-75-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
     ],
     "discount": 5,
-    "price": 52.75,
-    "discounted_price": 49.95
+    "price": 52.75
   },
   {
     "name": "إندومي شعيرية سريعة التحضير نكهة دجاج خاصة 75 جرام ×10",
@@ -191,8 +179,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104969/%D8%A5%D9%86%D8%AF%D9%88%D9%85%D9%8A-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%AF%D8%AC%D8%A7%D8%AC-%D8%AE%D8%A7%D8%B5%D8%A9-75-%D8%AC%D8%B1%D8%A7%D9%85-10.jpg.jpg"
     ],
     "discount": 16,
-    "price": 14.25,
-    "discounted_price": 11.95
+    "price": 14.25
   },
   {
     "name": "لونا حليب بودرة كامل الدسم 400 جرام",
@@ -209,8 +196,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104974/%D8%A3%D9%86%D9%83%D9%88%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A-%D8%A8%D9%84%D8%B3-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%D8%A9-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%AF%D8%B9%D9%85%D8%A9-%D8%A3%D8%B3%D8%A7%D8%B3%D9%87%D8%A7-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-1800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 37,
-    "price": 56.95,
-    "discounted_price": 35.95
+    "price": 56.95
   },
   {
     "name": "قودي فطر شرائح 400 جرام",
@@ -219,8 +205,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104976/%D9%82%D9%88%D8%AF%D9%8A-%D9%81%D8%B7%D8%B1-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 8.25,
-    "discounted_price": 7.2
+    "price": 8.25
   },
   {
     "name": "فرشلي ذرة حلوة حب سهل الفتح 185 جرام - 3 حبة",
@@ -229,8 +214,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104977/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-%D8%AD%D8%A8-%D8%B3%D9%87%D9%84-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-185-%D8%AC%D8%B1%D8%A7%D9%85-3-%D8%AD%D8%A8%D8%A9.jpg.jpg"
     ],
     "discount": 10,
-    "price": 12.75,
-    "discounted_price": 11.45
+    "price": 12.75
   },
   {
     "name": "إندومي شعيرية سريعة التحضير بنكهة الدجاج 70 جرام ×5",
@@ -279,8 +263,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104985/%D8%A8%D9%88%D8%AA%D8%A7%D9%86-%D9%84%D8%AD%D9%85-%D8%AA%D9%88%D9%86%D8%A7-%D8%AE%D9%81%D9%8A%D9%81-185-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 8.5,
-    "discounted_price": 7.45
+    "price": 8.5
   },
   {
     "name": "إندومي شعيرية سريعة التحضير نكهة كاري الدجاج 75 جرام ×5",
@@ -297,8 +280,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745104988/%D8%A8%D9%8A%D8%A8-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-580-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 5.75,
-    "discounted_price": 4.7
+    "price": 5.75
   },
   {
     "name": "كارفور كلاسيك الفاصوليا الحمراء 800 غرام",
@@ -371,8 +353,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105000/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%84%D8%A7%D8%B2%D8%A7%D9%86%D9%8A%D8%A7-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 14.95,
-    "discounted_price": 12.45
+    "price": 14.95
   },
   {
     "name": "كوبوليفا زيتون اسود بدون عجو 75 جرام",
@@ -381,8 +362,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105001/%D9%83%D9%88%D8%A8%D9%88%D9%84%D9%8A%D9%81%D8%A7-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D8%B3%D9%88%D8%AF-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%AC%D9%88-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 6.95,
-    "discounted_price": 5.7
+    "price": 6.95
   },
   {
     "name": "كارفور لحم تونة الباكور قطع كبيرة في زيت دوار الشمس 3 × 185 جرام",
@@ -423,8 +403,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105007/%D9%82%D9%88%D8%AF%D9%8A-%D8%AA%D9%88%D9%86%D8%A7-%D8%A8%D8%B2%D9%8A%D8%AA-%D8%AF%D9%88%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D9%85%D8%B3-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.5,
-    "discounted_price": 4.95
+    "price": 5.5
   },
   {
     "name": "كارفور قطع أناناس 340 جرام",
@@ -441,8 +420,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105010/%D9%82%D9%88%D8%AF%D9%8A-%D8%A7%D9%86%D8%A7%D9%86%D8%A7%D8%B3-%D9%82%D8%B7%D8%B9-567-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 8.5,
-    "discounted_price": 7.45
+    "price": 8.5
   },
   {
     "name": "ريو ماري تونا لايت 60 جرام × 3",
@@ -475,7 +453,6 @@
     ],
     "discount": 10,
     "price": 76.75,
-    "discounted_price": 68.95,
     "description": "حليب بودرة كامل الدسم من الطائي، غني بالعناصر الغذائية، مثالي لتحضير المشروبات والحلويات."
   },
   {
@@ -509,7 +486,6 @@
     ],
     "discount": 18,
     "price": 8.5,
-    "discounted_price": 6.95,
     "description": "تونة قودي بالماء المالح، غنية بالبروتين، مثالية للسلطات والساندويتشات."
   },
   {
@@ -527,7 +503,6 @@
     ],
     "discount": 16,
     "price": 111,
-    "discounted_price": 92.95,
     "description": "حليب مجفف مدعم كامل الدسم من أنكور، غني بالفيتامينات، مثالي للاستخدام اليومي."
   },
   {
@@ -561,7 +536,6 @@
     ],
     "discount": 6,
     "price": 5.25,
-    "discounted_price": 4.95,
     "description": "تونة تندرينا من قودي بالماء والملح، خفيفة وصحية، مثالية للوجبات السريعة."
   },
   {
@@ -651,7 +625,6 @@
     ],
     "discount": 8,
     "price": 8.95,
-    "discounted_price": 8.2,
     "description": "تونة تندرينا من قودي، خفيفة وغنية بالبروتين، مثالية للوجبات الصحية."
   },
   {
@@ -661,7 +634,6 @@
     ],
     "discount": 12,
     "price": 8.5,
-    "discounted_price": 7.45,
     "description": "شرائح أناناس معلبة من دولي، حلوة ومنعشة، مثالية للحلويات والسلطات."
   },
   {
@@ -671,7 +643,6 @@
     ],
     "discount": 10,
     "price": 15.5,
-    "discounted_price": 14,
     "description": "زيتون أخضر شرائح مع الشطة من حلواني إخوان، يضيف نكهة حارة للسلطات والمقبلات."
   },
   {
@@ -705,7 +676,6 @@
     ],
     "discount": 14,
     "price": 14.45,
-    "discounted_price": 12.45,
     "description": "مخلل خيار حبة كاملة من حدائق أورينت، مقرمش ولذيذ، مثالي كمقبلات."
   },
   {
@@ -715,7 +685,6 @@
     ],
     "discount": 14,
     "price": 5.75,
-    "discounted_price": 4.95,
     "description": "تونة قودي بالماء المالح بحجم صغير، خفيفة وصحية، مثالية للوجبات السريعة."
   },
   {
@@ -725,7 +694,6 @@
     ],
     "discount": 9,
     "price": 8.75,
-    "discounted_price": 7.95,
     "description": "تونة قودي بنكهة الفلفل، تضيف لمسة حارة للسلطات والساندويتشات."
   },
   {
@@ -735,7 +703,6 @@
     ],
     "discount": 25,
     "price": 6.25,
-    "discounted_price": 4.7,
     "description": "تونة خفيفة بزيت نباتي من تريفا، صحية ومناسبة لتحضير الوجبات الخفيفة."
   },
   {
@@ -753,7 +720,6 @@
     ],
     "discount": 9,
     "price": 5.45,
-    "discounted_price": 4.95,
     "description": "تونة بيضاء بالماء من فرشلي، خفيفة وغنية بالبروتين، مثالية للوجبات الصحية."
   },
   {
@@ -771,7 +737,6 @@
     ],
     "discount": 8,
     "price": 33.5,
-    "discounted_price": 30.95,
     "description": "مخلل مختارات مع زيتون حار من حلواني إخوان، يضيف نكهة مميزة للمقبلات."
   },
   {
@@ -781,7 +746,6 @@
     ],
     "discount": 20,
     "price": 4.95,
-    "discounted_price": 3.95,
     "description": "تونة خفيفة بزيت دوار الشمس من جرين فارم، صحية ومثالية للوجبات الخفيفة."
   },
   {
@@ -791,7 +755,6 @@
     ],
     "discount": 15,
     "price": 8.45,
-    "discounted_price": 7.2,
     "description": "شرائح زيتون أسود من حدائق أورينت، مثالية لإضافتها إلى البيتزا والسلطات."
   },
   {
@@ -897,7 +860,6 @@
     ],
     "discount": 21,
     "price": 5,
-    "discounted_price": 3.95,
     "description": "تونة خفيفة من بليمز، صحية وغنية بالبروتين، مثالية للوجبات السريعة."
   },
   {
@@ -907,7 +869,6 @@
     ],
     "discount": 11,
     "price": 5,
-    "discounted_price": 4.45,
     "description": "ذرة حلوة حب كاملة من قودي، مثالية للسلطات والأطباق الجانبية."
   },
   {
@@ -973,8 +934,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105092/%D9%82%D9%88%D8%AF%D9%8A-%D9%88%D8%B1%D9%82-%D8%B9%D9%86%D8%A8-960-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 11,
-    "price": 25.25,
-    "discounted_price": 22.45
+    "price": 25.25
   },
   {
     "name": "ماجي - شوربة كريمة الفطر 68 جرام",
@@ -991,8 +951,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105095/%D9%82%D9%88%D8%AF%D9%8A-%D8%AA%D9%86%D8%AF%D8%B1%D9%8A%D9%86%D8%A7-%D8%AA%D9%88%D9%86%D8%A9-%D8%A8%D9%88%D9%82%D8%A7%D9%84%D9%88-%D8%AD%D8%A7%D8%B1-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.5,
-    "discounted_price": 4.95
+    "price": 5.5
   },
   {
     "name": "ريو ماري سلاتونا خلطة الذرة سلطة الخضار مع التونه 160 جرام × 2",
@@ -1017,8 +976,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105099/%D8%A7%D9%8A%D8%AF%D9%8A%D8%A7%D9%84-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D8%B3%D9%88%D8%AF-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 16,
-    "discounted_price": 13.95
+    "price": 16
   },
   {
     "name": "كوبوليفا زيتون اخضر شرائح  700 جرام",
@@ -1027,8 +985,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105100/%D9%83%D9%88%D8%A8%D9%88%D9%84%D9%8A%D9%81%D8%A7-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D8%AE%D8%B6%D8%B1-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-700-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 22.75,
-    "discounted_price": 19.95
+    "price": 22.75
   },
   {
     "name": "العلالي ورق عنب 970 جرام",
@@ -1061,8 +1018,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105106/%D8%A8%D9%88%D8%B1%D8%AF%D9%88%D9%86-%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1%D9%8A-%D9%85%D8%AD%D9%81%D9%88%D8%B8-198%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 23,
-    "price": 14.95,
-    "discounted_price": 11.45
+    "price": 14.95
   },
   {
     "name": "قودي حمص حب 425 جرام",
@@ -1087,8 +1043,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105110/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D9%85%D8%B4%D9%88%D9%8A-%D9%85%D8%B9-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%A7%D9%84%D9%85%D8%AC%D9%81%D9%81%D8%A9-230-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 15.5,
-    "discounted_price": 13.45
+    "price": 15.5
   },
   {
     "name": "فرشلي لحم تونه أبيض بالماء 200 جرام",
@@ -1105,8 +1060,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105113/%D9%81%D8%B1%D9%8A%D8%B4%D9%84%D9%8A-%D9%81%D9%84%D9%81%D9%84-%D9%87%D8%A7%D9%84%D8%A7%D8%A8%D9%8A%D9%86%D9%88-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-453-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 12.75,
-    "discounted_price": 11.45
+    "price": 12.75
   },
   {
     "name": "قودي فاصوليا مطبوخة بصلصة طماطم 420 جرام",
@@ -1131,8 +1085,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105118/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AE%D8%B6%D8%A7%D8%B1-70%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
     "discount": 17,
-    "price": 7.75,
-    "discounted_price": 6.45
+    "price": 7.75
   },
   {
     "name": "حدائق اورينت سردين مغربي حار 125 جرام",
@@ -1141,8 +1094,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105119/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B3%D8%B1%D8%AF%D9%8A%D9%86-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D8%AD%D8%A7%D8%B1-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 15,
-    "price": 5.25,
-    "discounted_price": 4.45
+    "price": 5.25
   },
   {
     "name": "اندومي شعيريه مقليه متبله و حاره 80 جرام × 40 قطع",
@@ -1151,8 +1103,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105120/%D8%A7%D9%86%D8%AF%D9%88%D9%85%D9%8A-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D9%87-%D9%85%D9%82%D9%84%D9%8A%D9%87-%D9%85%D8%AA%D8%A8%D9%84%D9%87-%D9%88-%D8%AD%D8%A7%D8%B1%D9%87-80-%D8%AC%D8%B1%D8%A7%D9%85-40-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
     "discount": 5,
-    "price": 54.75,
-    "discounted_price": 51.95
+    "price": 54.75
   },
   {
     "name": "لونا بازيلاء 284 جرام",
@@ -1201,8 +1152,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105128/%D9%86%D9%8A%D8%AF%D9%88-%D9%85%D8%B3%D8%AD%D9%88%D9%82-%D8%AD%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D9%85%D8%AF%D8%B9%D9%85-%D8%BA%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%A3%D9%84%D9%8A%D8%A7%D9%81-%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-195%D9%83%D8%AC-%D8%AE%D8%B5%D9%85-10.jpg.jpg"
     ],
     "discount": 11,
-    "price": 85.75,
-    "discounted_price": 75.95
+    "price": 85.75
   },
   {
     "name": "العلالي - سلطة الفاصوليا الحمراء مع التونة 185 جرام",
@@ -1227,8 +1177,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105132/%D9%83%D9%84%D9%88%D9%82%D8%B2-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D9%88%D8%A7%D8%AA-%D9%86%D9%88%D8%AF%D9%84%D8%B2-75%D8%AC%D8%B1%D8%A7%D9%85-5-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
     "discount": 25,
-    "price": 7.25,
-    "discounted_price": 5.45
+    "price": 7.25
   },
   {
     "name": "قودي طماطم مقطعة في عصير الطماطم 400 جرام",
@@ -1245,8 +1194,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105134/%D9%83%D9%88%D8%A8%D9%88%D9%84%D9%8A%D9%81%D8%A7-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%B3%D9%88%D8%AF-%D8%AD%D8%A8%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 6.95,
-    "discounted_price": 5.7
+    "price": 6.95
   },
   {
     "name": "أبو قوس حليب مجفف كامل الدسم طويل الأجل 2 كج",
@@ -1303,8 +1251,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105143/%D9%83%D9%84%D9%88%D9%82%D8%B2-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%85%D9%82%D9%84%D9%8A%D8%A9-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%AC%D8%B1%D8%A7%D9%85-5-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
     "discount": 27,
-    "price": 7.5,
-    "discounted_price": 5.45
+    "price": 7.5
   },
   {
     "name": "الريان لحم تونا ابيض 200جرام",
@@ -1321,8 +1268,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105145/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-580-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 7.25,
-    "discounted_price": 6.2
+    "price": 7.25
   },
   {
     "name": "قودي لحم تونا أبيض بزيت دوار الشمس 185 جرام",
@@ -1411,8 +1357,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105161/%D9%84%D9%88%D9%86%D8%A7-%D8%AD%D9%84%D9%8A%D8%A8-%D8%A8%D9%88%D8%AF%D8%B1%D8%A9-%D9%85%D9%86%D8%B2%D9%88%D8%B9-%D8%A7%D9%84%D8%AF%D8%B3%D9%85-%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-25%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 13,
-    "price": 92.75,
-    "discounted_price": 80.95
+    "price": 92.75
   },
   {
     "name": "كيلوقز - نودلز سريعة التحضير مقلية 85 جرام × 40",
@@ -1421,8 +1366,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105162/%D9%83%D9%8A%D9%84%D9%88%D9%82%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%85%D9%82%D9%84%D9%8A%D8%A9-85-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
     ],
     "discount": 26,
-    "price": 59.5,
-    "discounted_price": 43.95
+    "price": 59.5
   },
   {
     "name": "اندومي نكهة لحم بقر 60 جرام",
@@ -1431,8 +1375,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105164/%D8%A7%D9%86%D8%AF%D9%88%D9%85%D9%8A-%D9%86%D9%83%D9%87%D8%A9-%D9%84%D8%AD%D9%85-%D8%A8%D9%82%D8%B1-60-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 2.5,
-    "discounted_price": 2.25
+    "price": 2.5
   },
   {
     "name": "فرشلي مخلل الخيار الحلو للساندويتش 780جرام",
@@ -1449,8 +1392,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105167/%D8%A3%D9%84%D9%8A%D8%B3%D8%A7-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%AE%D8%B6%D8%B1-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-230-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 12,
-    "discounted_price": 10
+    "price": 12
   },
   {
     "name": "نيدو مسحوق حليب المدعم غني بالألياف علبة معدنية 1.95كج",
@@ -1467,8 +1409,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105170/%D9%83%D9%8A%D9%84%D9%88%D9%82%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D9%8A-%D9%88%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-75-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
     ],
     "discount": 26,
-    "price": 57,
-    "discounted_price": 41.95
+    "price": 57
   },
   {
     "name": "حدائق شتورة حمص للتغميس 380 جرام",
@@ -1477,8 +1418,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105171/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%B4%D8%AA%D9%88%D8%B1%D8%A9-%D8%AD%D9%85%D8%B5-%D9%84%D9%84%D8%AA%D8%BA%D9%85%D9%8A%D8%B3-380-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 16,
-    "price": 6.5,
-    "discounted_price": 5.45
+    "price": 6.5
   },
   {
     "name": "فريشلي فاصوليا بيضاء 580 جرام",
@@ -1487,8 +1427,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105172/%D9%81%D8%B1%D9%8A%D8%B4%D9%84%D9%8A-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-580-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 6.75,
-    "discounted_price": 5.95
+    "price": 6.75
   },
   {
     "name": "ريو ماري سلطة بالتونا تكسانا 160 جرام قطعتين",
@@ -1521,8 +1460,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105176/%D8%B1%D9%8A%D9%88-%D9%85%D8%A7%D8%B1%D9%8A-%D8%AA%D9%88%D9%86%D8%A7-%D8%A8%D8%B2%D9%8A%D8%AA-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-160-%D8%AC%D8%B1%D8%A7%D9%85-%D8%AD%D8%B8%D8%AA%D9%8A%D9%86.jpg.jpg"
     ],
     "discount": 12,
-    "price": 38,
-    "discounted_price": 33.45
+    "price": 38
   },
   {
     "name": "روبيرت لانشون لحم الدجاج 200 جرام",
@@ -1635,8 +1573,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105198/%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%B3%D9%88%D8%AF-230-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 12,
-    "discounted_price": 10
+    "price": 12
   },
   {
     "name": "حدائق اورينت مخلل مفروم 453 جرام",
@@ -1693,8 +1630,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105207/%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%AA%D9%88%D9%86%D8%A7-%D9%84%D8%AD%D9%85-%D8%AE%D9%81%D9%8A%D9%81-%D9%81%D9%8A-%D8%B2%D9%8A%D8%AA-%D8%AF%D9%88%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D9%85%D8%B3-80%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 29,
-    "price": 6.25,
-    "discounted_price": 4.45
+    "price": 6.25
   },
   {
     "name": "فرشلي حلبة بالماء 425 جرام",
@@ -1719,8 +1655,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105212/%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D9%8A-%D9%88%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-75-%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
     "discount": 25,
-    "price": 7.25,
-    "discounted_price": 5.45
+    "price": 7.25
   },
   {
     "name": "بيب شرائح أناناس 567 جرام",
@@ -1801,8 +1736,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105225/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%D8%A7%D8%AA-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%AE%D8%B6%D8%B1-%D8%A8%D8%B2%D9%8A%D8%AA-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-650%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 9,
-    "price": 31.75,
-    "discounted_price": 28.95
+    "price": 31.75
   },
   {
     "name": "لونا زبدة الفول السوداني، خشن، 340 جرام",
@@ -1843,8 +1777,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105233/%D9%83%D9%88%D8%A8%D9%88%D9%84%D9%8A%D9%81%D8%A7-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%AD%D8%A8%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 6.95,
-    "discounted_price": 5.7
+    "price": 6.95
   },
   {
     "name": "كارتير زيتون أسود منزوع النواة، 360 جرام",
@@ -1861,8 +1794,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105235/%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 9.95,
-    "discounted_price": 8.7
+    "price": 9.95
   },
   {
     "name": "حلواني زيتون أسود شرائح 650 جرام",
@@ -1871,8 +1803,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105236/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%8A-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%B3%D9%88%D8%AF-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-650-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 9,
-    "price": 29,
-    "discounted_price": 26.45
+    "price": 29
   },
   {
     "name": "حدائق اورينت ذرة حلوة كاملة 185 جرام",
@@ -1881,8 +1812,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105237/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-185-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 15,
-    "price": 4.95,
-    "discounted_price": 4.2
+    "price": 4.95
   },
   {
     "name": "اليسا زيتون اسود مقطع 500 جرام",
@@ -1891,8 +1821,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105238/%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D8%B3%D9%88%D8%AF-%D9%85%D9%82%D8%B7%D8%B9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 16,
-    "price": 26.75,
-    "discounted_price": 22.45
+    "price": 26.75
   },
   {
     "name": "بيدر مخلل مشكل 370 جرام",
@@ -1909,8 +1838,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105241/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D9%85%D8%AE%D9%84%D9%84-%D8%A7%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D9%84%D8%B4%D8%A8%D8%AA-6804-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 9.7,
-    "discounted_price": 7.95
+    "price": 9.7
   },
   {
     "name": "أكورسا زيتون أخضر محشي 240جرام",
@@ -1967,8 +1895,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105251/%D9%83%D9%8A%D9%84%D9%88%D9%82%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-75-%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
     "discount": 26,
-    "price": 57,
-    "discounted_price": 41.95
+    "price": 57
   },
   {
     "name": "حدائق اورينت شرائح مخلل 680 جرام",
@@ -1993,8 +1920,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105256/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%AE%D8%B6%D8%B1-%D9%85%D8%AD%D8%B4%D9%8A-240-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 7.5,
-    "discounted_price": 6.45
+    "price": 7.5
   },
   {
     "name": "لورف بازلاء خضراء، 400 جرام",
@@ -2027,8 +1953,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105262/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%B4%D8%AA%D9%88%D8%B1%D8%A9-%D9%85%D8%AE%D9%84%D9%84-%D9%83%D8%A8%D9%8A%D8%B3-%D9%85%D8%B4%D9%83%D9%84-1000%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 16,
-    "price": 15.5,
-    "discounted_price": 13
+    "price": 15.5
   },
   {
     "name": "لونا ذرة حب كامل 340 جرام",
@@ -2061,8 +1986,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105268/%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D9%83%D8%B1%D8%B2-%D8%A3%D8%AD%D9%85%D8%B1-%D9%85%D9%84%D9%85%D8%B9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 22.75,
-    "discounted_price": 19.95
+    "price": 22.75
   },
   {
     "name": "أليسا زيتون اسود 100 جرام",
@@ -2071,8 +1995,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105269/%D8%A3%D9%84%D9%8A%D8%B3%D8%A7-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D8%B3%D9%88%D8%AF-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 7,
-    "discounted_price": 5.75
+    "price": 7
   },
   {
     "name": "أورينت جاردنز فلفل أصفر مشوي 355جرام",
@@ -2137,8 +2060,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105280/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%AE%D8%B6%D8%B1-%D9%85%D9%82%D8%B7%D8%B9-240%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 7.75,
-    "discounted_price": 6.7
+    "price": 7.75
   },
   {
     "name": "موريل شرائح الفطر 425 جرام",
@@ -2163,8 +2085,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105285/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D9%85%D8%B4%D9%88%D9%8A-%D9%85%D8%B9-%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-230-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 15.5,
-    "discounted_price": 13.45
+    "price": 15.5
   },
   {
     "name": "العلالي ذرة حب حلوة 200 جرام",
@@ -2205,8 +2126,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105291/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D9%87%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%88-%D8%B7%D8%A7%D8%B2%D8%AC-%D8%B2%D8%AC%D8%A7%D8%AC-16.jpg.jpg"
     ],
     "discount": 10,
-    "price": 12.75,
-    "discounted_price": 11.45
+    "price": 12.75
   },
   {
     "name": "سنبلة - نودلز سريعة التحضير بنكهة الدجاج 70 جرام",
@@ -2263,8 +2183,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105301/%D9%85%D8%AE%D9%84%D9%84-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-350-%D9%85%D9%84.jpg.jpg"
     ],
     "discount": 17,
-    "price": 6.25,
-    "discounted_price": 5.2
+    "price": 6.25
   },
   {
     "name": "فرشلي ذرة حب 425 جرام",
@@ -2273,8 +2192,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105302/%D9%81%D8%B1%D8%B4%D9%84%D9%8A-%D8%B0%D8%B1%D8%A9-%D8%AD%D8%A8-425-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 22,
-    "price": 5.7,
-    "discounted_price": 4.45
+    "price": 5.7
   },
   {
     "name": "اليسا شرائح زيتون اخضر مقطع 500 جرام",
@@ -2283,8 +2201,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105304/%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D8%AE%D8%B6%D8%B1-%D9%85%D9%82%D8%B7%D8%B9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 16,
-    "price": 26.75,
-    "discounted_price": 22.45
+    "price": 26.75
   },
   {
     "name": "حلواني اخوان زيتون أخضر شرائح 325 جرام",
@@ -2349,8 +2266,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105315/%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1-140-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 25,
-    "price": 7.25,
-    "discounted_price": 5.45
+    "price": 7.25
   },
   {
     "name": "قودي زيتون اسود شرائح 240 جرام",
@@ -2359,8 +2275,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105316/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D8%B3%D9%88%D8%AF-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-240-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 7.75,
-    "discounted_price": 6.7
+    "price": 7.75
   },
   {
     "name": "بيدر حمص بالطحينة 380 جرام",
@@ -2393,8 +2308,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105321/%D8%A3%D8%A8%D9%88-%D9%82%D9%88%D8%B3-%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D8%AC%D9%81%D9%81-%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AF%D8%B3%D9%85-18-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 11,
-    "price": 83.25,
-    "discounted_price": 73.95
+    "price": 83.25
   },
   {
     "name": "حدائق اورينت فلفل اخضر مخلل 650 جرام",
@@ -2467,8 +2381,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105333/%D8%AC%D8%B1%D9%8A%D9%86-%D9%81%D8%A7%D8%B1%D9%85%D8%B2-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%B3%D9%88%D8%AF-235-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 8.5,
-    "discounted_price": 6.95
+    "price": 8.5
   },
   {
     "name": "فان هولتنز مخلل حار 261 جرام",
@@ -2797,8 +2710,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105390/%D9%81%D9%83%D8%AA%D9%88%D8%B1%D9%8A%D8%A7-%D8%B1%D8%B2-%D9%85%D8%AD%D8%B4%D9%8A-%D9%88%D8%B1%D9%82-%D8%B9%D9%86%D8%A8-2-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 12,
-    "price": 43,
-    "discounted_price": 37.95
+    "price": 43
   },
   {
     "name": "كارتير زيتون أخضر متبل، 340 جرام",
@@ -2855,8 +2767,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105398/%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%8A-%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4-%D8%AA%D9%88%D9%86%D8%A9-160-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 9.25,
-    "discounted_price": 7.95
+    "price": 9.25
   },
   {
     "name": "ريم - لحم تونة خفيف في زيت دوار الشمس، قطع، 185 جرام",
@@ -3025,8 +2936,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105426/%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5-75-%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
     "discount": 24,
-    "price": 6.5,
-    "discounted_price": 4.95
+    "price": 6.5
   },
   {
     "name": "قودي زيتون أسود كامل 240جرام",
@@ -3035,8 +2945,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105428/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%B3%D9%88%D8%AF-%D9%83%D8%A7%D9%85%D9%84-240%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 6.75,
-    "discounted_price": 5.95
+    "price": 6.75
   },
   {
     "name": "شان مخلل مشكل 320 جرام",
@@ -3053,8 +2962,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105430/%D9%82%D9%88%D8%AF%D9%8A-%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A3%D8%AE%D8%B6%D8%B1-%D9%83%D8%A7%D9%85%D9%84-240%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 6.75,
-    "discounted_price": 5.95
+    "price": 6.75
   },
   {
     "name": "لونا فول مدمس حبة درجة أولى 450جرام ×2 +1 مجانًا",
@@ -3095,8 +3003,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105439/%D8%A3%D8%B7%D9%84%D8%B3-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-580-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 7.25,
-    "discounted_price": 6
+    "price": 7.25
   },
   {
     "name": "الريف ورق عنب 1 كج",
@@ -3153,8 +3060,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105449/%D8%AD%D8%AF%D8%A7%D8%A6%D9%82-%D8%A7%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B3%D8%B1%D8%AF%D9%8A%D9%86-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 15,
-    "price": 5.25,
-    "discounted_price": 4.45
+    "price": 5.25
   },
   {
     "name": "توتي فروتي شكل قلوب 18 جرام",
@@ -3219,8 +3125,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105460/%D9%83%D9%8A%D9%84%D9%88%D9%82%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9-75-%D8%AC%D8%B1%D8%A7%D9%85-40.jpg.jpg"
     ],
     "discount": 23,
-    "price": 51.75,
-    "discounted_price": 39.95
+    "price": 51.75
   },
   {
     "name": "فرشلي كريمة الذرة الحلوة 425 جرام",
@@ -3261,8 +3166,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105468/%D9%83%D9%8A%D9%84%D9%88%D9%82%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B4%D8%B7%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-75-%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
     "discount": 27,
-    "price": 7.5,
-    "discounted_price": 5.45
+    "price": 7.5
   },
   {
     "name": "ماجي شوربة كريمة الدجاج 71 جرام × 12 مغلف",
@@ -3303,8 +3207,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105475/%D9%81%D8%B1%D9%8A%D8%B4%D9%83%D9%88-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%85%D9%82%D8%B4%D8%B1%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 4.75,
-    "discounted_price": 3.95
+    "price": 4.75
   },
   {
     "name": "ديل مونتي فول مدمس وحمص 400جرام",
@@ -3473,8 +3376,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105506/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9-%D8%A3%D9%88%D8%B1%D9%8A%D9%86%D8%AA-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-345-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 11,
-    "price": 9.5,
-    "discounted_price": 8.45
+    "price": 9.5
   },
   {
     "name": "حدائق اورينت زيتون اخضر منزوع النوى 340 جرام",

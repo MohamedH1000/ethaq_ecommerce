@@ -1,3 +1,4 @@
+// category id 680d7a4222f0b5fd5721e427
 [
   {
     "name": "كلوقز كوكو بوبس شوكو حبوب الأفطار 330 جرام",
@@ -6,8 +7,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105537/%D9%83%D9%84%D9%88%D9%82%D8%B2-%D9%83%D9%88%D9%83%D9%88-%D8%A8%D9%88%D8%A8%D8%B3-%D8%B4%D9%88%D9%83%D9%88-%D8%AD%D8%A8%D9%88%D8%A8-%D8%A7%D9%84%D8%A3%D9%81%D8%B7%D8%A7%D8%B1-330-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 23,
-    "price": 30.95,
-    "discounted_price": 23.95
+    "price": 30.95
   },
   {
     "name": "كيلوغز حبوب القمح كوكو بوبس 330 جرام",
@@ -16,8 +16,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105538/%D9%83%D9%8A%D9%84%D9%88%D8%BA%D8%B2-%D8%AD%D8%A8%D9%88%D8%A8-%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D9%83%D9%88%D9%83%D9%88-%D8%A8%D9%88%D8%A8%D8%B3-330-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 23,
-    "price": 30.95,
-    "discounted_price": 23.95
+    "price": 30.95
   },
   {
     "name": "كونتري كورن فيلكس رقائق الذرة 500 جرام",
@@ -50,8 +49,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105544/%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B2%D8%AD%D8%A8%D9%88%D8%A8-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D9%83%D9%88%D9%83%D9%88-%D8%A8%D9%88%D8%A8%D8%B3-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-%D9%83%D8%B1%D8%B3%D8%A8%D9%8A-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-330%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 23,
-    "price": 30.95,
-    "discounted_price": 23.95
+    "price": 30.95
   },
   {
     "name": "كونتري كورن فيلكس رقائق الذرة 1 كج حجم توفيري",
@@ -60,8 +58,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105545/%D9%83%D9%88%D9%86%D8%AA%D8%B1%D9%8A-%D9%83%D9%88%D8%B1%D9%86-%D9%81%D9%8A%D9%84%D9%83%D8%B3-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-1-%D9%83%D8%AC-%D8%AD%D8%AC%D9%85-%D8%AA%D9%88%D9%81%D9%8A%D8%B1%D9%8A.jpg.jpg"
     ],
     "discount": 8,
-    "price": 39.95,
-    "discounted_price": 36.95
+    "price": 39.95
   },
   {
     "name": "نسكويك حبوب الإفطار بطعم الشوكولاتة 330جرام",
@@ -182,8 +179,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105567/%D9%83%D9%8A%D9%84%D9%88%D9%82%D8%B2-%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D9%84%D8%A7-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D9%81%D8%B3%D8%AA%D9%82-320%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 22.25,
-    "discounted_price": 19.95
+    "price": 22.25
   },
   {
     "name": "نستله فتنس حبوب شوكولاتة مورنينج بوست 375 جرام",
@@ -200,8 +196,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105569/%D9%87%D9%86%D8%A7%D8%A1-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%B7%D8%A8%D8%AE-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 8,
-    "price": 6.5,
-    "discounted_price": 5.95
+    "price": 6.5
   },
   {
     "name": "نستله فيتنس حبوب الإفطار مع الشوفان 375جرام",
@@ -290,8 +285,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105583/%D9%86%D8%A7%D8%AA%D8%B4%D8%B1-%D9%81%D8%A7%D9%84%D9%8A-%D8%A3%D9%84%D9%88%D8%A7%D8%AD-%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D9%84%D8%A7-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%B3%D9%84-%D9%88%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-42-%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "نستله ليون وايد حبوب إفطار بالحبوب الكاملة 410 جرام",
@@ -308,8 +302,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105587/%D9%86%D8%A7%D8%AA%D8%B4%D8%B1-%D9%81%D8%A7%D9%84%D9%8A-%D8%A3%D9%84%D9%88%D8%A7%D8%AD-%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D9%84%D8%A7-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%AA-210-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "أورغانتي شوفان عضوي ملفوف 500 جرام",
@@ -342,8 +335,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105592/%D8%AF%D9%88%D8%B1%D8%B3%D8%AA-%D9%85%D9%88%D8%B3%D9%84%D9%8A-%D8%BA%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%A3%D9%84%D9%8A%D8%A7%D9%81-540-%D8%BA.jpg.jpg"
     ],
     "discount": 19,
-    "price": 37,
-    "discounted_price": 29.95
+    "price": 37
   },
   {
     "name": "فيتا بيلا سناك عضوي بالشوكولاتة والبندق 300 جرام (خلي من الجلوتين)",
@@ -352,8 +344,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105593/%D9%81%D9%8A%D8%AA%D8%A7-%D8%A8%D9%8A%D9%84%D8%A7-%D8%B3%D9%86%D8%A7%D9%83-%D8%B9%D8%B6%D9%88%D9%8A-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%88%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-300-%D8%AC%D8%B1%D8%A7%D9%85-%D8%AE%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%84%D9%88%D8%AA%D9%8A%D9%86.jpg.jpg"
     ],
     "discount": 13,
-    "price": 28.25,
-    "discounted_price": 24.45
+    "price": 28.25
   },
   {
     "name": "نستله فيتنس - جرانولا مع العسل، حبوب إفطار، 600 جرام",
@@ -386,8 +377,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105600/%D9%87%D9%86%D8%A7%D8%A1-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D9%83%D8%A7%D9%85%D9%84%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 9.95,
-    "discounted_price": 8.95
+    "price": 9.95
   },
   {
     "name": "شوكابيك شوكولاتة حبوب بار 23.5 جرام × 6",
@@ -404,8 +394,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105602/%D8%B2%D8%AF%D9%86%D9%8A-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%A3%D8%A8%D9%8A%D8%B6-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 7.25,
-    "discounted_price": 5.95
+    "price": 7.25
   },
   {
     "name": "دورست موسلي ديلوكس 620 غ",
@@ -414,8 +403,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105603/%D8%AF%D9%88%D8%B1%D8%B3%D8%AA-%D9%85%D9%88%D8%B3%D9%84%D9%8A-%D8%AF%D9%8A%D9%84%D9%88%D9%83%D8%B3-620-%D8%BA.jpg.jpg"
     ],
     "discount": 19,
-    "price": 37,
-    "discounted_price": 29.95
+    "price": 37
   },
   {
     "name": "كيلوجز قطع الشوفان بالشوكلاتة والبندق 340 جرام",
@@ -424,8 +412,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105605/%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B2-%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D8%A9-%D9%88%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 24.5,
-    "discounted_price": 20.95
+    "price": 24.5
   },
   {
     "name": "كيدزى كورن فليكس كرات الكاكاو 375 جرام",
@@ -474,8 +461,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105613/%D9%81%D9%8A%D8%AA%D8%A7-%D8%A8%D9%8A%D9%84%D8%A7-%D9%83%D9%88%D8%B1%D9%86-%D9%81%D9%84%D9%8A%D9%83%D8%B3-%D8%B9%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%A3%D9%84%D9%8A%D8%A7%D9%81-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-%D8%A7%D9%84%D8%AD%D8%A8%D9%88%D8%A8-340-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%B6%D9%88%D9%8A-%D9%88%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%84%D9%88%D8%AA%D9%8A%D9%86.jpg.jpg"
     ],
     "discount": 13,
-    "price": 28.25,
-    "discounted_price": 24.45
+    "price": 28.25
   },
   {
     "name": "بي كايند لوح شوكولاته داكنة بالمكسرات وملح البحر 40 جرام",
@@ -492,8 +478,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105616/%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B2-%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A%D8%A9-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 24.5,
-    "discounted_price": 20.95
+    "price": 24.5
   },
   {
     "name": "نايتشر فالي لوح جرانولا الشوفان والتفاح 42جرام ×18",
@@ -566,8 +551,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105627/%D9%88%D9%8A%D9%84%D9%88-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%B3%D9%88%D8%A8%D8%B1-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%83%D8%A7%D9%88-%D8%A8%D8%A7%D9%84%D9%86%D8%AF%D9%82-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 24.25,
-    "discounted_price": 21.45
+    "price": 24.25
   },
   {
     "name": "أرض الطبيعة لوح الشوفان، 6 × 20 جرام",
@@ -584,8 +568,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105630/%D9%86%D8%A7%D8%AA%D8%B4%D8%B1-%D9%81%D8%A7%D9%84%D9%8A-%D8%A3%D9%84%D9%88%D8%A7%D8%AD-%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D9%84%D8%A7-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D9%88%D8%AA%D9%81%D8%A7%D8%AD-42%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "أرض الطبيعة لوح الشوفان بالتفاح والجزر، 6 × 20 جرام",
@@ -610,8 +593,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105638/%D9%81%D9%8A%D8%AA%D8%A7-%D8%A8%D9%8A%D9%84%D8%A7-%D9%83%D9%88%D8%B1%D9%86-%D9%81%D9%84%D9%8A%D9%83%D8%B3-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%84%D9%88%D8%AA%D9%8A%D9%86-300-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
     ],
     "discount": 14,
-    "price": 21.5,
-    "discounted_price": 18.45
+    "price": 21.5
   },
   {
     "name": "نايتشر فالي بار بروتين بالشوكولاتة والفول السوداني 40جرام",
@@ -628,8 +610,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105642/%D9%86%D8%A7%D8%AA%D8%B4%D8%B1-%D9%81%D8%A7%D9%84%D9%8A-%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D8%B4%D8%B1%D8%A7%D8%A8-%D8%A7%D9%84%D9%82%D9%8A%D9%82%D8%A8-42-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-5-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "ويلو شوفان سوبر بالتفاح والقرفة، 200 جرام",
@@ -638,8 +619,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105643/%D9%88%D9%8A%D9%84%D9%88-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%B3%D9%88%D8%A8%D8%B1-%D8%A8%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D9%88%D8%A7%D9%84%D9%82%D8%B1%D9%81%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 24.25,
-    "discounted_price": 21.45
+    "price": 24.25
   },
   {
     "name": "شوفان كامل الحبوب (60٪) سكر زيت عباد الشمس عسل قرفة ملح قرفة مستحلب (ليسيثين دوار الشمس) عامل رفع (بيكربونات الصوديوم",
@@ -648,8 +628,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105645/%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D9%88%D8%A8-60-%D8%B3%D9%83%D8%B1-%D8%B2%D9%8A%D8%AA-%D8%B9%D8%A8%D8%A7%D8%AF-%D8%A7%D9%84%D8%B4%D9%85%D8%B3-%D8%B9%D8%B3%D9%84-%D9%82%D8%B1%D9%81%D8%A9-%D9%85%D9%84%D8%AD-%D9  (%D9%85%D8%B3%D8%AA%D8%AD%D9%84%D8%A8-%D9%84%D9%8A%D8%B3%D9%8A%D8%AB%D9%8A%D9%86-%D8%AF%D9%88%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D9%85%D8%B3-%D8%B9%D8%A7%D9%85%D9%84-%D8%B1%D9%81%D8%B9-%D8%A8%D9%8A%D9%83%D8%B1%D8%A8%D9%88%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D9%88%D8%AF%D9%8A%D9%88%D9%85.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "بوبنز كورن فليكس رقائق الذرة المحمصة 1 كج",
@@ -666,8 +645,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105647/%D9%86%D9%8A%D8%AA%D8%B4%D8%B1-%D9%81%D8%A7%D9%84%D9%8A-%D8%A3%D9%84%D9%88%D8%A7%D8%AD-%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D9%84%D8%A7-%D8%AD%D9%84%D9%88%D8%A9-%D9%88%D9%85%D8%A7%D9%84%D8%AD%D8%A9-%D8%A8%D8%A7%D9%84%D9%84%D9%88%D8%B2-42-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-5-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "نايتشر فالي لوح جرانولا الشوفان والتوت 42جرام ×18",
@@ -684,8 +662,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105649/%D9%81%D9%8A%D9%84%D8%AF-%D8%AF%D8%A7%D9%8A-%D9%83%D9%88%D9%83%D9%88-%D9%83%D8%B1%D9%8A%D8%B3%D8%A8%D9%8A-24x15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 15.5,
-    "discounted_price": 13.45
+    "price": 15.5
   },
   {
     "name": "بي كايند لوح وجبة خفيفة بحبوب الشوفان الكاملة والعسل 30 جرام",
@@ -702,8 +679,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105652/%D9%81%D9%8A%D9%84%D8%AF-%D8%AF%D8%A7%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D8%A3%D8%B1%D8%B2-24-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 15.5,
-    "discounted_price": 13.45
+    "price": 15.5
   },
   {
     "name": "ويلو شوفان سوبر بالموز وزبدة الفول السوداني، 200 جرام",
@@ -712,8 +688,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105653/%D9%88%D9%8A%D9%84%D9%88-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%B3%D9%88%D8%A8%D8%B1-%D8%A8%D8%A7%D9%84%D9%85%D9%88%D8%B2-%D9%88%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 24.25,
-    "discounted_price": 21.45
+    "price": 24.25
   },
   {
     "name": "جريسي حبوب الشوفان بقطع الشوكولاتة 500 جرام",
@@ -754,8 +729,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105659/%D9%81%D9%8A%D9%84%D8%AF-%D8%AF%D8%A7%D9%8A-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D9%81%D8%B1%D9%88%D8%B3%D8%AA%D9%8A-24-17-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 15.5,
-    "discounted_price": 13.45
+    "price": 15.5
   },
   {
     "name": "فيلد داي رقائق فروستي فليكس مع نكهة الشوكولاتة البيضاء 17 جرام",
@@ -932,8 +906,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105688/%D8%AF%D9%88%D8%B1%D8%B3%D9%8A%D8%AA-%D8%B3%D9%8A%D9%85%D8%A8%D9%84%D9%8A-%D9%81%D8%B1%D9%88%D8%AA%D9%8A-%D9%85%D9%88%D8%B3%D9%84%D9%8A-620-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 19,
-    "price": 37,
-    "discounted_price": 29.95
+    "price": 37
   },
   {
     "name": "كلوقز كاي رقائق الحبوب الخاصة اللذيذة والمقرمشة 335 جرام",
@@ -958,8 +931,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105616/%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B2-%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A%D8%A9-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 24.5,
-    "discounted_price": 20.95
+    "price": 24.5
   },
   {
     "name": "نايتشر فالي لوح جرانولا الشوفان والتفاح 42جرام ×18",
@@ -1032,8 +1004,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105627/%D9%88%D9%8A%D9%84%D9%88-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%B3%D9%88%D8%A8%D8%B1-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%83%D8%A7%D9%88-%D8%A8%D8%A7%D9%84%D9%86%D8%AF%D9%82-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 24.25,
-    "discounted_price": 21.45
+    "price": 24.25
   },
   {
     "name": "أرض الطبيعة لوح الشوفان، 6 × 20 جرام",
@@ -1050,8 +1021,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105630/%D9%86%D8%A7%D8%AA%D8%B4%D8%B1-%D9%81%D8%A7%D9%84%D9%8A-%D8%A3%D9%84%D9%88%D8%A7%D8%AD-%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D9%84%D8%A7-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D9%88%D8%AA%D9%81%D8%A7%D8%AD-42%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "أرض الطبيعة لوح الشوفان بالتفاح والجزر، 6 × 20 جرام",
@@ -1076,8 +1046,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105638/%D9%81%D9%8A%D8%AA%D8%A7-%D8%A8%D9%8A%D9%84%D8%A7-%D9%83%D9%88%D8%B1%D9%86-%D9%81%D9%84%D9%8A%D9%83%D8%B3-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%84%D9%88%D8%AA%D9%8A%D9%86-300-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
     ],
     "discount": 14,
-    "price": 21.5,
-    "discounted_price": 18.45
+    "price": 21.5
   },
   {
     "name": "نايتشر فالي بار بروتين بالشوكولاتة والفول السوداني 40جرام",
@@ -1094,8 +1063,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105642/%D9%86%D8%A7%D8%AA%D8%B4%D8%B1-%D9%81%D8%A7%D9%84%D9%8A-%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-%D8%B4%D8%B1%D8%A7%D8%A8-%D8%A7%D9%84%D9%82%D9%8A%D9%82%D8%A8-42-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-5-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "ويلو شوفان سوبر بالتفاح والقرفة، 200 جرام",
@@ -1104,8 +1072,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105643/%D9%88%D9%8A%D9%84%D9%88-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%B3%D9%88%D8%A8%D8%B1-%D8%A8%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D9%88%D8%A7%D9%84%D9%82%D8%B1%D9%81%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 24.25,
-    "discounted_price": 21.45
+    "price": 24.25
   },
   {
     "name": "شوفان كامل الحبوب (60٪) سكر زيت عباد الشمس عسل قرفة ملح قرفة مستحلب (ليسيثين دوار الشمس) عامل رفع (بيكربونات الصوديوم)",
@@ -1114,8 +1081,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105645/%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D9%88%D8%A8-60-%D8%B3%D9%83%D8%B1-%D8%B2%D9%8A%D8%AA-%D8%B9%D8%A8%D8%A7%D8%AF-%D8%A7%D9%84%D8%B4%D9%85%D8%B3-%D8%B9%D8%B3%D9%84-%D9%82%D8%B1%D9%81%D8%A9-%D9%85%D9%84%D8%AD-%D9%85%D8%B3%D8%AA%D8%AD%D9%84%D8%A8-%D9%84%D9%8A%D8%B3%D9%8A%D8%AB%D9%8A%D9%86-%D8%AF%D9%88%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D9%85%D8%B3-%D8%B9%D8%A7%D9%85%D9%84-%D8%B1%D9%81%D8%B9-%D8%A8%D9%8A%D9%83%D8%B1%D8%A8%D9%88%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D9%88%D8%AF%D9%8A%D9%88%D9%85.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "بوبنز كورن فليكس رقائق الذرة المحمصة 1 كج",
@@ -1132,8 +1098,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105647/%D9%86%D9%8A%D8%AA%D8%B4%D8%B1-%D9%81%D8%A7%D9%84%D9%8A-%D8%A3%D9%84%D9%88%D8%A7%D8%AD-%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D9%84%D8%A7-%D8%AD%D9%84%D9%88%D8%A9-%D9%88%D9%85%D8%A7%D9%84%D8%AD%D8%A9-%D8%A8%D8%A7%D9%84%D9%84%D9%88%D8%B2-42-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-5-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
     "discount": 7,
-    "price": 17.75,
-    "discounted_price": 16.45
+    "price": 17.75
   },
   {
     "name": "نايتشر فالي لوح جرانولا الشوفان والتوت 42جرام ×18",
@@ -1150,8 +1115,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105649/%D9%81%D9%8A%D9%84%D8%AF-%D8%AF%D8%A7%D9%8A-%D9%83%D9%88%D9%83%D9%88-%D9%83%D8%B1%D9%8A%D8%B3%D8%A8%D9%8A-24x15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 15.5,
-    "discounted_price": 13.45
+    "price": 15.5
   },
   {
     "name": "بي كايند لوح وجبة خفيفة بحبوب الشوفان الكاملة والعسل 30 جرام",
@@ -1168,8 +1132,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105652/%D9%81%D9%8A%D9%84%D8%AF-%D8%AF%D8%A7%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D8%A3%D8%B1%D8%B2-24-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 15.5,
-    "discounted_price": 13.45
+    "price": 15.5
   },
   {
     "name": "ويلو شوفان سوبر بالموز وزبدة الفول السوداني، 200 جرام",
@@ -1178,8 +1141,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105653/%D9%88%D9%8A%D9%84%D9%88-%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%B3%D9%88%D8%A8%D8%B1-%D8%A8%D8%A7%D9%84%D9%85%D9%88%D8%B2-%D9%88%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 24.25,
-    "discounted_price": 21.45
+    "price": 24.25
   },
   {
     "name": "جريسي حبوب الشوفان بقطع الشوكولاتة 500 جرام",
@@ -1220,8 +1182,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105659/%D9%81%D9%8A%D9%84%D8%AF-%D8%AF%D8%A7%D9%8A-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D9%81%D8%B1%D9%88%D8%B3%D8%AA%D9%8A-24-17-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 15.5,
-    "discounted_price": 13.45
+    "price": 15.5
   },
   {
     "name": "فيلد داي رقائق فروستي فليكس مع نكهة الشوكولاتة البيضاء 17 جرام",
@@ -1398,8 +1359,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745105688/%D8%AF%D9%88%D8%B1%D8%B3%D9%8A%D8%AA-%D8%B3%D9%8A%D9%85%D8%A8%D9%84%D9%8A-%D9%81%D8%B1%D9%88%D8%AA%D9%8A-%D9%85%D9%88%D8%B3%D9%84%D9%8A-620-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 19,
-    "price": 37,
-    "discounted_price": 29.95
+    "price": 37
   },
   {
     "name": "كلوقز كاي رقائق الحبوب الخاصة اللذيذة والمقرمشة 335 جرام",

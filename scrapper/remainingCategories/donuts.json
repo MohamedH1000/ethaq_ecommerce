@@ -1,0 +1,139 @@
+// category id 680d74d622f0b5fd5721e41f
+[
+  {
+    "name": "دونات منوعة ×3",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616552/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D9%85%D9%86%D9%88%D8%B9%D8%A9-3.jpg.jpg"
+    ],
+    "price": 9.95,
+    "description": "تشكيلة من ثلاث دونات بنكهات متنوعة، مثالية للاستمتاع بتجربة حلوة ومميزة."
+  },
+  {
+    "name": "دونات بالشوكولاتة الداكنة (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616553/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D9%83%D9%86%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "دونات مغطاة بطبقة غنية من الشوكولاتة الداكنة لعشاق النكهات القوية."
+  },
+  {
+    "name": "دونات بنكهة الشوكولاتة محشية بالبندق (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616555/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%AD%D8%B4%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "دونات بنكهة الشوكولاتة محشية بكريمة البندق اللذيذة لتجربة غنية."
+  },
+  {
+    "name": "دونات الفراولة الوردية (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616558/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D9%88%D8%B1%D8%AF%D9%8A%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "دونات مغطاة بطبقة الفراولة الوردية الناعمة بنكهة منعشة."
+  },
+  {
+    "name": "دونات كرانش (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616559/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D9%83%D8%B1%D8%A7%D9%86%D8%B4-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "دونات مقرمشة مغطاة بطبقة كرانش لذيذة تضيف متعة لكل قضمة."
+  },
+  {
+    "name": "دونات بينكي (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616561/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A8%D9%8A%D9%86%D9%83%D9%8A-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "دونات مغطاة بطبقة وردية حلوة، مثالية لمحبي الحلويات الخفيفة."
+  },
+  {
+    "name": "دونات كيدز كرافتي (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616563/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D9%83%D9%8A%D8%AF%D8%B2-%D9%83%D8%B1%D8%A7%D9%81%D8%AA%D9%8A-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "دونات مزينة بألوان مبهجة، مصممة خصيصًا للأطفال."
+  },
+  {
+    "name": "دونات بحشوة الفراولة (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616564/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "دونات محشية بكريمة الفراولة الطازجة لنكهة فاكهية لذيذة."
+  },
+  {
+    "name": "دونات الشوكولاتة مع قطع شوكولاتة بلجيكية (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616566/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%B9-%D9%82%D8%B7%D8%B9-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D9%84%D8%AC%D9%8A%D9%83%D9%8A%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "دونات مغطاة بالشوكولاتة مع قطع الشوكولاتة البلجيكية الفاخرة."
+  },
+  {
+    "name": "دونات نكهة الفانيليا (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616567/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D8%A7%D9%86%D9%8A%D9%84%D9%8A%D8%A7-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "دونات مغطاة بطبقة الفانيليا الكلاسيكية بنكهة ناعمة وحلوة."
+  },
+  {
+    "name": "دونات وايلد زيبرا (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616569/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D9%8A%D9%84%D8%AF-%D8%B2%D9%8A%D8%A8%D8%B1%D8%A7-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "دونات بتصميم مميز مستوحى من الحمار الوحشي، مغطاة بالشوكولاتة."
+  },
+  {
+    "name": "دونات بحشوة الفانيليا (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616570/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D9%81%D8%A7%D9%86%D9%8A%D9%84%D9%8A%D8%A7-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "دونات محشية بكريمة الفانيليا الكريمية لنكهة غنية."
+  },
+  {
+    "name": "أمريكانا كوكيز موسلي 10 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616572/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D9%83%D9%88%D9%83%D9%8A%D8%B2-%D9%85%D9%88%D8%B3%D9%84%D9%8A-10-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 19.95,
+    "description": "عبوة تحتوي على 10 قطع كوكيز موسلي مغذية ولذيذة."
+  },
+  {
+    "name": "دونات بالشوكولاتة (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616576/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "دونات مغطاة بطبقة الشوكولاتة الكلاسيكية لمحبي الحلويات."
+  },
+  {
+    "name": "دونات لوتس بيسكوف (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616577/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D9%84%D9%88%D8%AA%D8%B3-%D8%A8%D9%8A%D8%B3%D9%83%D9%88%D9%81-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 5.5,
+    "description": "دونات مغطاة بكريمة لوتس بيسكوف الشهية بنكهة الكراميل."
+  },
+  {
+    "name": "دونات فروتي بيري (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616579/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D9%81%D8%B1%D9%88%D8%AA%D9%8A-%D8%A8%D9%8A%D8%B1%D9%8A-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "دونات بنكهة التوت المنعشة مغطاة بطبقة فاكهية لذيذة."
+  },
+  {
+    "name": "دونات بحشوة التوت الأحمر (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616580/%D8%AF%D9%88%D9%86%D8%A7%D8%AA-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "دونات محشية بكريمة التوت الأحمر الطازجة لنكهة فاكهية."
+  }
+]

@@ -1,0 +1,378 @@
+// category id 680d6ec722f0b5fd5721e414
+[
+  {
+    "name": "الكبير ربيان كبير 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534030/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B1%D8%A8%D9%8A%D8%A7%D9%86-%D9%83%D8%A8%D9%8A%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 45.95,
+    "description": "ربيان كبير الحجم من الكبير، مثالي لتحضير أطباق المأكولات البحرية اللذيذة، يتميز بجودته العالية ونكهته الطازجة."
+  },
+  {
+    "name": "سنبلة فيليه سمك السلمون 473 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534031/%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-473-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 103.5,
+    "description": "فيليه سمك السلمون من سنبلة، مصدر غني بالأوميغا 3، مثالي للشواء أو الطهي في الفرن بنكهة غنية."
+  },
+  {
+    "name": "داري سمك فيليه مأكولات بحرية 1000 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534032/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%B3%D9%85%D9%83-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D9%85%D8%A3%D9%83%D9%88%D9%84%D8%A7%D8%AA-%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 29.5,
+    "description": "فيليه سمك من داري، مناسب لتحضير وجبات صحية وسريعة، يتميز بجودته العالية وسهولة التحضير."
+  },
+  {
+    "name": "أسماك سمك فيليه أبيض 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534034/%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%B3%D9%85%D9%83-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%A3%D8%A8%D9%8A%D8%B6-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 36,
+    "description": "فيليه سمك أبيض عالي الجودة، مثالي للقلي أو الشواء، يتميز بنكهة خفيفة وملمس طري."
+  },
+  {
+    "name": "الشركة العربية للأسماك - جمبري مقشر جامبو 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534036/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D9%82%D8%B4%D8%B1-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 32.75,
+    "description": "جمبري مقشر جامبو من الشركة العربية للأسماك، جاهز للطهي ومثالي لتحضير أطباق فاخرة."
+  },
+  {
+    "name": "رضوى - جمبري فاخر كبير 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534039/%D8%B1%D8%B6%D9%88%D9%89-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%81%D8%A7%D8%AE%D8%B1-%D9%83%D8%A8%D9%8A%D8%B1-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 36.75,
+    "description": "جمبري فاخر كبير من رضوى، يتميز بحجمه الكبير ونكهته الغنية، مثالي للشواء أو القلي."
+  },
+  {
+    "name": "الشركة العربية للأسماك - سلمون مدخن مجمد 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534040/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%B3%D9%84%D9%85%D9%88%D9%86-%D9%85%D8%AF%D8%AE%D9%86-%D9%85%D8%AC%D9%85%D8%AF-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 20.5,
+    "description": "سلمون مدخن مجمد من الشركة العربية للأسماك، مثالي للساندويتشات والسلطات بنكهة مدخنة مميزة."
+  },
+  {
+    "name": "أمريكانا زينجز روبيان بالبقسماط 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534041/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%B2%D9%8A%D9%86%D8%AC%D8%B2-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 35.95,
+    "description": "روبيان زينجز من أمريكانا مغطى بالبقسماط المقرمش، مثالي لوجبة سريعة ولذيذة."
+  },
+  {
+    "name": "الكبير ربيان كبير 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534043/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B1%D8%A8%D9%8A%D8%A7%D9%86-%D9%83%D8%A8%D9%8A%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 61.75,
+    "description": "ربيان كبير من الكبير، يتميز بحجمه الكبير وجودته العالية، مثالي لتحضير أطباق المأكولات البحرية."
+  },
+  {
+    "name": "الكبير أصابع سمك مغلفة بالخبز، 300 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534044/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%B3%D9%85%D9%83-%D9%85%D8%BA%D9%84%D9%81%D8%A9-%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B2-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.5,
+    "description": "أصابع سمك من الكبير مغلفة بالخبز المقرمش، وجبة خفيفة وسهلة التحضير للأطفال والكبار."
+  },
+  {
+    "name": "الصياد روبيان بالبقسماط 750 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534048/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D8%AF-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-750-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 65.5,
+    "description": "روبيان بالبقسماط من الصياد، يتميز بقرمشته اللذيذة ونكهته الغنية، مثالي للوجبات العائلية."
+  },
+  {
+    "name": "الكبير روبيان مغلف بالخبز 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534049/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D9%85%D8%BA%D9%84%D9%81-%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B2-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.5,
+    "description": "روبيان مغلف بالخبز من الكبير، مثالي لتحضير وجبة سريعة ومقرمشة تناسب جميع الأذواق."
+  },
+  {
+    "name": "الشركة العربية للأسماك - جمبري مجمد مقشر وسط 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534051/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-%D9%85%D9%82%D8%B4%D8%B1-%D9%88%D8%B3%D8%B7-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 26.5,
+    "description": "جمبري مجمد مقشر وسط من الشركة العربية للأسماك، جاهز للطهي ومناسب لتحضير أطباق متنوعة."
+  },
+  {
+    "name": "أرابيان فيشيري - سردين مقشر 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534053/%D8%A3%D8%B1%D8%A7%D8%A8%D9%8A%D8%A7%D9%86-%D9%81%D9%8A%D8%B4%D9%8A%D8%B1%D9%8A-%D8%B3%D8%B1%D8%AF%D9%8A%D9%86-%D9%85%D9%82%D8%B4%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 25.25,
+    "description": "سردين مقشر من أرابيان فيشيري، مصدر غني بالبروتين، مثالي للقلي أو تحضير الأطباق التقليدية."
+  },
+  {
+    "name": "الكبير فيليه سمك بالبقسماط 330 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534054/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-330-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18.5,
+    "description": "فيليه سمك مغطى بالبقسماط من الكبير، وجبة خفيفة مقرمشة وسهلة التحضير تناسب جميع الأعمار."
+  },
+  {
+    "name": "السنبلة جمبري بالبقسماط 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534056/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 46.25,
+    "description": "جمبري بالبقسماط من السنبلة، يتميز بقرمشته اللذيذة ونكهته الغنية، مثالي للوجبات السريعة."
+  },
+  {
+    "name": "اسماك ربيان 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534057/%D8%A7%D8%B3%D9%85%D8%A7%D9%83-%D8%B1%D8%A8%D9%8A%D8%A7%D9%86-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 42,
+    "description": "ربيان عالي الجودة بوزن 1 كجم، مثالي لتحضير أطباق المأكولات البحرية المتنوعة."
+  },
+  {
+    "name": "الكبير روبيان جامبو 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534059/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 68,
+    "description": "روبيان جامبو من الكبير، يتميز بحجمه الكبير ونكهته الطازجة، مثالي للشواء أو القلي."
+  },
+  {
+    "name": "أسماك ربيان لطبخ 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534060/%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%B1%D8%A8%D9%8A%D8%A7%D9%86-%D9%84%D8%B7%D8%A8%D8%AE-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 15,
+    "price": 24.75,
+    "description": "ربيان جاهز للطبخ من أسماك، مثالي لتحضير أطباق المأكولات البحرية بسرعة وسهولة."
+  },
+  {
+    "name": "رضوى - جمبري متبل بالكاجون 300جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534061/%D8%B1%D8%B6%D9%88%D9%89-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D8%AA%D8%A8%D9%84-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AC%D9%88%D9%86-300%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 35.5,
+    "description": "جمبري متبل بالكاجون من رضوى، يتميز بنكهته الحارة والغنية، مثالي لمحبي النكهات القوية."
+  },
+  {
+    "name": "الكبير روبيان زينج حار 750جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534063/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%B2%D9%8A%D9%86%D8%AC-%D8%AD%D8%A7%D8%B1-750%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 64,
+    "description": "روبيان زينج حار من الكبير، مغطى بطبقة مقرمشة بنكهة حارة، مثالي للوجبات السريعة."
+  },
+  {
+    "name": "أمريكانا روبيان بدون الذيل وسط 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534065/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%A8%D8%AF%D9%88%D9%86-%D8%A7%D9%84%D8%B0%D9%8A%D9%84-%D9%88%D8%B3%D8%B7-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 38,
+    "description": "روبيان بدون الذيل وسط من أمريكانا، جاهز للطهي ومناسب لتحضير أطباق متنوعة."
+  },
+  {
+    "name": "وليمة سمك فيلية أبيض مجمد 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534066/%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D8%B3%D9%85%D9%83-%D9%81%D9%8A%D9%84%D9%8A%D8%A9-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%85%D8%AC%D9%85%D8%AF-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 51.75,
+    "description": "فيليه سمك أبيض مجمد من وليمة، مثالي لتحضير وجبات صحية بنكهة خفيفة وملمس طري."
+  },
+  {
+    "name": "رضوى - جمبري متبل بالتتبيلة سعودية 300جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534068/%D8%B1%D8%B6%D9%88%D9%89-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D8%AA%D8%A8%D9%84-%D8%A8%D8%A7%D9%84%D8%AA%D8%AA%D8%A8%D9%8A%D9%84%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-300%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 35.5,
+    "description": "جمبري متبل بالتتبيلة السعودية من رضوى، يتميز بنكهته التقليدية الغنية، مثالي للشواء."
+  },
+  {
+    "name": "روبيان سيارا بالبقسماط 750 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534070/%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-750-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 79.5,
+    "description": "روبيان بالبقسماط من سيارا، يتميز بقرمشته اللذيذة وجودته العالية، مثالي للوجبات العائلية."
+  },
+  {
+    "name": "الكبير فيليه سمك زنج 750 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534072/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%B2%D9%86%D8%AC-750-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 59.5,
+    "description": "فيليه سمك زنج من الكبير، يتميز بنكهته الغنية وملمسه الطري، مثالي لتحضير أطباق متنوعة."
+  },
+  {
+    "name": "سيارا فيليه سمك أبيض 1 كيلو",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534073/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%A3%D8%A8%D9%8A%D8%B6-1-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
+    ],
+    "price": 49.25,
+    "description": "فيليه سمك أبيض من سيارا، مثالي لتحضير وجبات صحية وخفيفة بنكهة مميزة."
+  },
+  {
+    "name": "تبرك فيليه سمك سوتشي مجمده 2 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534074/%D8%AA%D8%A8%D8%B1%D9%83-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%B3%D9%85%D9%83-%D8%B3%D9%88%D8%AA%D8%B4%D9%8A-%D9%85%D8%AC%D9%85%D8%AF%D9%87-2-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 52.75,
+    "description": "فيليه سمك سوتشي مجمد من تبرك، مثالي لتحضير أطباق السوشي أو الوجبات الصحية."
+  },
+  {
+    "name": "الشركة العربية للأسماك - جمبري مجمد مقشر صغير 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534076/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-%D9%85%D9%82%D8%B4%D8%B1-%D8%B5%D8%BA%D9%8A%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 23.75,
+    "description": "جمبري مجمد مقشر صغير من الشركة العربية للأسماك، مثالي لتحضير السلطات أو الأطباق الجانبية."
+  },
+  {
+    "name": "الكبير أصابع السمك 1  كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534077/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%B3%D9%85%D9%83-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 19,
+    "price": 51.5,
+    "description": "أصابع سمك من الكبير بوزن 1 كجم، مغلفة بالبقسماط المقرمش، مثالية للوجبات العائلية."
+  },
+  {
+    "name": "أسماك ربيان كبير 400 جرام × 20",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534077/%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%B1%D8%A8%D9%8A%D8%A7%D9%86-%D9%83%D8%A8%D9%8A%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 61.5,
+    "description": "ربيان كبير من أسماك، مثالي لتحضير أطباق المأكولات البحرية الفاخرة بكمية وفيرة."
+  },
+  {
+    "name": "رضوى - جمبري بالبقسماط الفاخر، عادي 600جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534079/%D8%B1%D8%B6%D9%88%D9%89-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-%D8%A7%D9%84%D9%81%D8%A7%D8%AE%D8%B1-%D8%B9%D8%A7%D8%AF%D9%8A-600%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 60.5,
+    "description": "جمبري بالبقسماط الفاخر من رضوى، يتميز بقرمشته اللذيذة ونكهته الغنية."
+  },
+  {
+    "name": "أسمك روبيان متوسط ​​400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534080/%D8%A3%D8%B3%D9%85%D9%83-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 36.25,
+    "description": "روبيان متوسط الحجم من أسمك، مثالي لتحضير أطباق المأكولات البحرية المتنوعة."
+  },
+  {
+    "name": "السنبلة روبيان بالبقسماط حار 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534081/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-%D8%AD%D8%A7%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 46.25,
+    "description": "روبيان بالبقسماط الحار من السنبلة، يتميز بنكهته الحارة وقرمشته، مثالي لمحبي النكهات القوية."
+  },
+  {
+    "name": "السنبلة جمبري جامبو بالذيل 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534084/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-%D8%A8%D8%A7%D9%84%D8%B0%D9%8A%D9%84-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 62.95,
+    "description": "جمبري جامبو بالذيل من السنبلة، يتميز بحجمه الكبير ونكهته الطازجة، مثالي للشواء."
+  },
+  {
+    "name": "رضوى - جمبري بالبقسماط الفاخر، حار 600جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534086/%D8%B1%D8%B6%D9%88%D9%89-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-%D8%A7%D9%84%D9%81%D8%A7%D8%AE%D8%B1-%D8%AD%D8%A7%D8%B1-600%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 61.25,
+    "description": "جمبري بالبقسماط الفاخر الحار من رضوى، يتميز بنكهته الحارة وقرمشته اللذيذة."
+  },
+  {
+    "name": "سيارا  زينجزو روبيان بالبقسماط 750 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534087/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D8%B2%D9%8A%D9%86%D8%AC%D8%B2%D9%88-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D8%A8%D9%82%D8%B3%D9%85%D8%A7%D8%B7-750-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 79.5,
+    "description": "روبيان زينجزو بالبقسماط من سيارا، يتميز بقرمشته ونكهته الغنية، مثالي للوجبات العائلية."
+  },
+  {
+    "name": "أمريكانا روبيان بدون الذيل كبير 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534088/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%A8%D8%AF%D9%88%D9%86-%D8%A7%D9%84%D8%B0%D9%8A%D9%84-%D9%83%D8%A8%D9%8A%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 15,
+    "price": 51.5,
+    "description": "روبيان كبير بدون الذيل من أمريكانا، جاهز للطهي ومثالي لتحضير أطباق فاخرة."
+  },
+  {
+    "name": "إيت سلمون - برجر السلمون بالجبنة والهالابينيو 200جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534089/%D8%A5%D9%8A%D8%AA-%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%88%D9%86-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D9%87%D8%A7%D9%84%D8%A7%D8%A8%D9%8A%D9%86%D9%8A%D9%88-200%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 26.75,
+    "description": "برجر السلمون بالجبنة والهالابينيو من إيت سلمون، يتميز بنكهته الحارة والغنية، مثالي لوجبة سريعة."
+  },
+  {
+    "name": "الكبير فيليه دوري مجمد 1 كجم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534090/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D9%81%D9%8A%D9%84%D9%8A%D9%87-%D8%AF%D9%88%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-1-%D9%83%D8%AC%D9%85.jpg.jpg"
+    ],
+    "price": 68,
+    "description": "فيليه دوري مجمد من الكبير، مثالي لتحضير وجبات صحية بنكهة خفيفة وملمس طري."
+  },
+  {
+    "name": "أمريكانا روبيان بدون الذيل جامبو 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534092/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D8%A8%D8%AF%D9%88%D9%86-%D8%A7%D9%84%D8%B0%D9%8A%D9%84-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 77.25,
+    "description": "روبيان جامبو بدون الذيل من أمريكانا، يتميز بحجمه الكبير وجودته العالية، مثالي للشواء."
+  },
+  {
+    "name": "رضوى - جمبري بانكو مقرمش 275جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534094/%D8%B1%D8%B6%D9%88%D9%89-%D8%AC%D9%85%D8%A8%D8%B1%D9%8A-%D8%A8%D8%A7%D9%86%D9%83%D9%88-%D9%85%D9%82%D8%B1%D9%85%D8%B4-275%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 28,
+    "description": "جمبري بانكو مقرمش من رضوى، يتميز بقرمشته اللذيذة ونكهته الغنية، مثالي للوجبات السريعة."
+  },
+  {
+    "name": "الكبير روبيان مغلف بالخبز 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534096/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D9%85%D8%BA%D9%84%D9%81-%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B2-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 69.95,
+    "description": "روبيان مغلف بالخبز من الكبير بوزن 1 كجم، مثالي لتحضير وجبات عائلية مقرمشة."
+  },
+  {
+    "name": "الشركة العربية للأسماك - سلمون مجمد 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534097/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D8%B3%D9%84%D9%85%D9%88%D9%86-%D9%85%D8%AC%D9%85%D8%AF-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 29,
+    "description": "سلمون مجمد من الشركة العربية للأسماك، مصدر غني بالأوميغا 3، مثالي للشواء أو الطهي."
+  },
+  {
+    "name": "أسماك كلاسيك روبيان كبير 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534098/%D8%A3%D8%B3%D9%85%D8%A7%D9%83-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83-%D8%B1%D9%88%D8%A8%D9%8A%D8%A7%D9%86-%D9%83%D8%A8%D9%8A%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 73.75,
+    "description": "روبيان كبير كلاسيك من أسماك، يتميز بحجمه الكبير ونكهته الطازجة، مثالي للأطباق الفاخرة."
+  }
+]

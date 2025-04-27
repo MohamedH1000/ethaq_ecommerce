@@ -3,15 +3,16 @@
 [
   {
     "name": "جالاكسي مجوهرات شوكولاتة متنوعة - عبوة رمضانية - 650جرام",
+    "description": "تشكيلة فاخرة من شوكولاتة جالاكسي المتنوعة، مثالية لمشاركة الفرح في رمضان، بوزن 650 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106378/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D9%85%D8%AC%D9%88%D9%87%D8%B1%D8%A7%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9-%D8%B9%D8%A8%D9%88%D8%A9-%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D9%8A%D8%A9-650%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 20,
-    "price": 69.95,
-    "discounted_price": 55.95
+    "price": 69.95
   },
   {
     "name": "جالاكسي جواهر 900 جرام",
+    "description": "علبة فاخرة من شوكولاتة جالاكسي جواهر، تحتوي على تشكيلة متنوعة بوزن 900 جرام، مثالية للهدايا.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106379/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%AC%D9%88%D8%A7%D9%87%D8%B1-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -19,6 +20,7 @@
   },
   {
     "name": "بيست أوف مينيز شوكولاتة منوعة 710 جرام",
+    "description": "تشكيلة منوعة من الشوكولاتة الصغيرة الحجم، مثالية للمناسبات والمشاركة، بوزن 710 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106380/%D8%A8%D9%8A%D8%B3%D8%AA-%D8%A3%D9%88%D9%81-%D9%85%D9%8A%D9%86%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D9%86%D9%88%D8%B9%D8%A9-710-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -26,15 +28,16 @@
   },
   {
     "name": "بيست أوف مينيز - شوكولاتة بارز 400 جرام.",
+    "description": "شوكولاتة بارز الصغيرة بوزن 400 جرام، تقدم مزيجًا لذيذًا من النكهات المتنوعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106381/%D8%A8%D9%8A%D8%B3%D8%AA-%D8%A3%D9%88%D9%81-%D9%85%D9%8A%D9%86%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D8%B1%D8%B2-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 23,
-    "price": 41.25,
-    "discounted_price": 31.95
+    "price": 41.25
   },
   {
     "name": "نستله كواليتي ستريت علبة 900 جرام",
+    "description": "علبة كواليتي ستريت من نستله تحتوي على تشكيلة من الحلويات والشوكولاتة بوزن 900 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106383/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%AA%D9%8A-%D8%B3%D8%AA%D8%B1%D9%8A%D8%AA-%D8%B9%D9%84%D8%A8%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -42,15 +45,16 @@
   },
   {
     "name": "تيفاني بريك شوكلاته ميني مشكله 384 جرام",
+    "description": "تشكيلة متنوعة من شوكولاتة تيفاني بريك الصغيرة، مثالية للحظات الحلوة، بوزن 384 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106384/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-%D9%85%D9%8A%D9%86%D9%8A-%D9%85%D8%B4%D9%83%D9%84%D9%87-384-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 13.95,
-    "discounted_price": 11.95
+    "price": 13.95
   },
   {
     "name": "كادبوري ميني شوكولاتة إصدار محدود، 60 قطعة، 600 جرام",
+    "description": "إصدار محدود من شوكولاتة كادبوري الصغيرة، يحتوي على 60 قطعة بوزن 600 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106385/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D9%85%D9%8A%D9%86%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D9%85%D8%AD%D8%AF%D9%88%D8%AF-60-%D9%82%D8%B7%D8%B9%D8%A9-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -58,15 +62,16 @@
   },
   {
     "name": "تيفاني بيج بريك كرانشي 31 جرام × 12",
+    "description": "عبوة تحتوي على 12 قطعة من تيفاني بيج بريك الكرانشي، كل قطعة بوزن 31 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106386/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%A8%D9%8A%D8%AC-%D8%A8%D8%B1%D9%8A%D9%83-%D9%83%D8%B1%D8%A7%D9%86%D8%B4%D9%8A-31-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
     ],
     "discount": 22,
-    "price": 13.95,
-    "discounted_price": 10.95
+    "price": 13.95
   },
   {
     "name": "توبس لوح شوكولاتة بحليب بالبندق خالي من السكر محلى بستيفيا 60 جرام",
+    "description": "لوح شوكولاتة بالحليب والبندق خالٍ من السكر، محلى بستيفيا، بوزن 60 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106387/%D8%AA%D9%88%D8%A8%D8%B3-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%AD%D9%84%D9%8A%D8%A8-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D9%85%D8%AD%D9%84%D9%89-%D8%A8%D8%B3%D8%AA%D9%8A%D9%81%D9%8A%D8%A7-60-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -74,6 +79,7 @@
   },
   {
     "name": "توب دراجي بندق مغطى بالشوكولاتة الداكنة خالية من السكر 150 جرام",
+    "description": "بندق مغطى بالشوكولاتة الداكنة الخالية من السكر، بوزن 150 جرام، مثالي لمحبي الحلويات الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106389/%D8%AA%D9%88%D8%A8-%D8%AF%D8%B1%D8%A7%D8%AC%D9%8A-%D8%A8%D9%86%D8%AF%D9%82-%D9%85%D8%BA%D8%B7%D9%89-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D9%83%D9%86%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -81,33 +87,34 @@
   },
   {
     "name": "تيفاني بريك أصابع الويفر بشوكولاتة الحليب الكريمية 12.5 جرام × 24",
+    "description": "أصابع ويفر مغطاة بشوكولاتة الحليب الكريمية، عبوة تحتوي على 24 قطعة، كل قطعة 12.5 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106390/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D9%8A%D8%A9-125-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
     ],
     "discount": 22,
-    "price": 13.95,
-    "discounted_price": 10.95
+    "price": 13.95
   },
   {
     "name": "تفني بريك ريزو 35 جرام 12 قطع",
+    "description": "عبوة تحتوي على 12 قطعة من تيفاني بريك ريزو، كل قطعة بوزن 35 جرام، بنكهة غنية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106392/%D8%AA%D9%81%D9%86%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D8%B1%D9%8A%D8%B2%D9%88-35-%D8%AC%D8%B1%D8%A7%D9%85-12-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
     "discount": 22,
-    "price": 13.95,
-    "discounted_price": 10.95
+    "price": 13.95
   },
   {
     "name": "تيفاني شوكولاتة بريك سوبا 30 جرام × 12",
+    "description": "عبوة تحتوي على 12 قطعة من شوكولاتة تيفاني بريك سوبا، كل قطعة بوزن 30 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106393/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%B1%D9%8A%D9%83-%D8%B3%D9%88%D8%A8%D8%A7-30-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
     ],
     "discount": 22,
-    "price": 13.95,
-    "discounted_price": 10.95
+    "price": 13.95
   },
   {
     "name": "توبس بار شوكولاتة الحليب خالية من السكر مع ورق الزيتون 50جرام",
+    "description": "لوح شوكولاتة الحليب خالٍ من السكر مع نكهة ورق الزيتون، بوزن 50 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106394/%D8%AA%D9%88%D8%A8%D8%B3-%D8%A8%D8%A7%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D9%85%D8%B9-%D9%88%D8%B1%D9%82-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-50%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -115,6 +122,7 @@
   },
   {
     "name": "كارفور حلوى فواكه خالية من السكر 150جرام",
+    "description": "حلوى فواكه خالية من السكر من كارفور، بوزن 150 جرام، مثالية للاستمتاع الصحي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106395/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AD%D9%84%D9%88%D9%89-%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -122,6 +130,7 @@
   },
   {
     "name": "سنيكررز مينتشرز 150جرام",
+    "description": "شوكولاتة سنيكرز ميني بوزن 150 جرام، مثالية لمحبي النكهات الغنية بالفول السوداني.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106396/%D8%B3%D9%86%D9%8A%D9%83%D8%B1%D8%B1%D8%B2-%D9%85%D9%8A%D9%86%D8%AA%D8%B4%D8%B1%D8%B2-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -129,6 +138,7 @@
   },
   {
     "name": "كارفور تمر بالشوكولاتة واللوز متنوع لشهر رمضان 370 غرام",
+    "description": "تشكيلة تمر مغطى بالشوكولاتة واللوز، مثالية لشهر رمضان، بوزن 370 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106398/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AA%D9%85%D8%B1-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%88%D8%A7%D9%84%D9%84%D9%88%D8%B2-%D9%85%D8%AA%D9%86%D9%88%D8%B9-%D9%84%D8%B4%D9%87%D8%B1-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-370-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -136,6 +146,7 @@
   },
   {
     "name": "جالكسي شوكولاتة مع حليب 36 جرام × 5",
+    "description": "عبوة تحتوي على 5 ألواح من شوكولاتة جالاكسي بالحليب، كل لوح بوزن 36 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106399/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%B9-%D8%AD%D9%84%D9%8A%D8%A8-36-%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
@@ -143,24 +154,25 @@
   },
   {
     "name": "كادبوري شوكولاتة ببلي بالحليب 168 جرام",
+    "description": "شوكولاتة كادبوري ببلي بالحليب بوزن 168 جرام، بنكهة غنية وملمس فقاعي مميز.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106400/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A8%D9%84%D9%8A-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-168-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 17.95,
-    "discounted_price": 14.95
+    "price": 17.95
   },
   {
     "name": "سنيكرز ميني 198 جرام",
+    "description": "شوكولاتة سنيكرز ميني بوزن 198 جرام، مثالية للمشاركة أو الاستمتاع الفردي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106401/%D8%B3%D9%86%D9%8A%D9%83%D8%B1%D8%B2-%D9%85%D9%8A%D9%86%D9%8A-198-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 24,
-    "price": 20.25,
-    "discounted_price": 15.45
+    "price": 20.25
   },
   {
     "name": "إم آند إمز شوكولاتة بالفول السوداني 150جرام",
+    "description": "شوكولاتة إم آند إمز بالفول السوداني بوزن 150 جرام، بنكهة مقرمشة ولذيذة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106402/%D8%A5%D9%85-%D8%A2%D9%86%D8%AF-%D8%A5%D9%85%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -168,6 +180,7 @@
   },
   {
     "name": "تويكس شوكلاته مينتشرز 150 جرام",
+    "description": "شوكولاتة تويكس ميني بوزن 150 جرام، بنكهة البسكويت المقرمش والكراميل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106404/%D8%AA%D9%88%D9%8A%D9%83%D8%B3-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-%D9%85%D9%8A%D9%86%D8%AA%D8%B4%D8%B1%D8%B2-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -175,6 +188,7 @@
   },
   {
     "name": "جالاكسي جواهر  400 جرام",
+    "description": "تشكيلة فاخرة من شوكولاتة جالاكسي جواهر بوزن 400 جرام، مثالية للمناسبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106405/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%AC%D9%88%D8%A7%D9%87%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -182,6 +196,7 @@
   },
   {
     "name": "جالاكسي شوكولاتة صغيرة 117جرام (13 حبة)",
+    "description": "عبوة تحتوي على 13 قطعة من شوكولاتة جالاكسي الصغيرة، بوزن إجمالي 117 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106406/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-117%D8%AC%D8%B1%D8%A7%D9%85-13-%D8%AD%D8%A8%D8%A9.jpg.jpg"
     ],
@@ -189,15 +204,16 @@
   },
   {
     "name": "جالاكسي شوكولاتة ميني 162.5جرام",
+    "description": "شوكولاتة جالاكسي ميني بوزن 162.5 جرام، مثالية للحظات الحلوة السريعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106407/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D9%8A%D9%86%D9%8A-1625%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 21,
-    "price": 18.95,
-    "discounted_price": 14.95
+    "price": 18.95
   },
   {
     "name": "جلاكسي ريبل 30 جرام × 4",
+    "description": "عبوة تحتوي على 4 ألواح من شوكولاتة جالاكسي ريبل، كل لوح بوزن 30 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106409/%D8%AC%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%B1%D9%8A%D8%A8%D9%84-30-%D8%AC%D8%B1%D8%A7%D9%85-4.jpg.jpg"
     ],
@@ -205,6 +221,7 @@
   },
   {
     "name": "ليندت ليندور شوكولاتة سويسرية بالحليب مع حشوة سائلة 200 جرام",
+    "description": "شوكولاتة ليندت ليندور السويسرية بالحليب مع حشوة سائلة، بوزن 200 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106410/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D9%84%D9%8A%D9%86%D8%AF%D9%88%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%B3%D9%88%D9%8A%D8%B3%D8%B1%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D8%B9-%D8%AD%D8%B4%D9%88%D8%A9-%D8%B3%D8%A7%D8%A6%D9%84%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -212,42 +229,43 @@
   },
   {
     "name": "كوانتا ادور شوكولاتة ميني بالحليب 275 جرام",
+    "description": "شوكولاتة كوانتا ادور ميني بالحليب، بوزن 275 جرام، مثالية للمشاركة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106411/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D8%A7%D8%AF%D9%88%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-275-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 16,
-    "price": 14.75,
-    "discounted_price": 12.45
+    "price": 14.75
   },
   {
     "name": "ام اند امز مينيز شوكولاته بالحليب 30.6 جرام",
+    "description": "شوكولاتة إم آند إمز ميني بالحليب، بوزن 30.6 جرام، بنكهة غنية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106413/%D8%A7%D9%85-%D8%A7%D9%86%D8%AF-%D8%A7%D9%85%D8%B2-%D9%85%D9%8A%D9%86%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-306-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 20,
-    "price": 5.25,
-    "discounted_price": 4.2
+    "price": 5.25
   },
   {
     "name": "تويكس ميني 200 جرام",
+    "description": "شوكولاتة تويكس ميني بوزن 200 جرام، بنكهة البسكويت والكراميل المحببة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106414/%D8%AA%D9%88%D9%8A%D9%83%D8%B3-%D9%85%D9%8A%D9%86%D9%8A-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 24,
-    "price": 20.25,
-    "discounted_price": 15.45
+    "price": 20.25
   },
   {
     "name": "كونتا شوكلاتة ميني مشكله 384 جرام",
+    "description": "تشكيلة متنوعة من شوكولاتة كونتا ميني، بوزن 384 جرام، مثالية للمناسبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106416/%D9%83%D9%88%D9%86%D8%AA%D8%A7-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D9%8A%D9%86%D9%8A-%D9%85%D8%B4%D9%83%D9%84%D9%87-384-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 14.95,
-    "discounted_price": 12.45
+    "price": 14.95
   },
   {
     "name": "سكيتلز عبوة حلاو بالفواكة 198 جرام",
+    "description": "حلوى سكيتلز بنكهات الفواكه المتنوعة، بوزن 198 جرام، مثالية للحظات المرح.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106417/%D8%B3%D9%83%D9%8A%D8%AA%D9%84%D8%B2-%D8%B9%D8%A8%D9%88%D8%A9-%D8%AD%D9%84%D8%A7%D9%88-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D8%A9-198-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -255,6 +273,7 @@
   },
   {
     "name": "اكسترا علكة نعناع 84 جرام",
+    "description": "علكة اكسترا بنكهة النعناع المنعشة، بوزن 84 جرام، مثالية للانتعاش اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106418/%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D9%86%D8%B9%D9%86%D8%A7%D8%B9-84-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -262,6 +281,7 @@
   },
   {
     "name": "ديمه كيوتي حلويات مكس 700جرام",
+    "description": "تشكيلة متنوعة من حلويات ديمه كيوتي، بوزن 700 جرام، مثالية للمناسبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106419/%D8%AF%D9%8A%D9%85%D9%87-%D9%83%D9%8A%D9%88%D8%AA%D9%8A-%D8%AD%D9%84%D9%88%D9%8A%D8%A7%D8%AA-%D9%85%D9%83%D8%B3-700%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -269,6 +289,7 @@
   },
   {
     "name": "إم آند إمز شوكولاتة 150جرام",
+    "description": "شوكولاتة إم آند إمز بوزن 150 جرام، بنكهة الشوكولاتة الغنية والمقرمشة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106420/%D8%A5%D9%85-%D8%A2%D9%86%D8%AF-%D8%A5%D9%85%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -276,24 +297,25 @@
   },
   {
     "name": "تيفاني دورينو كوكيز حليب شوكولاتة متنوعة 300 جرام",
+    "description": "تشكيلة متنوعة من كوكيز تيفاني دورينو بالحليب والشوكولاتة، بوزن 300 جرام.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106422/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A%D9%86%D9%88-%D9%83%D9%88%D9%83%D9%8A%D8%B2-%D8%AD%D9%84%D9%8A%D8%A8-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106422/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A%D9%86%D9%88-%D9%83%D9%88%D9%83%D9%8A%D8%B2-%D8%AD%D9%84%D9%8A%D8%A8-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%AA%D9%88%D8%B9%D8%A9-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 14.5,
-    "discounted_price": 12.45
+    "price": 14.5
   },
   {
     "name": "ميرسي تشكيلة مختارة من الشوكولاتة 400 جرام",
+    "description": "تشكيلة فاخرة من شوكولاتة ميرسي المختارة، بوزن 400 جرام، مثالية للهدايا.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106423/%D9%85%D9%8A%D8%B1%D8%B3%D9%8A-%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D8%A9-%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 20,
-    "price": 73.25,
-    "discounted_price": 58.95
+    "price": 73.25
   },
   {
     "name": "ليندت ليندور كرات الشوكولاتة المنوعة 600جرام",
+    "description": "كرات شوكولاتة ليندت ليندور المتنوعة بوزن 600 جرام، مع حشوات سائلة فاخرة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106424/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D9%84%D9%8A%D9%86%D8%AF%D9%88%D8%B1-%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B9%D8%A9-600%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -301,15 +323,16 @@
   },
   {
     "name": "مالتيزرس شوكولاتة 175 جرام",
+    "description": "شوكولاتة مالتيزرس بوزن 175 جرام، بنكهة الشوكولاتة المقرمشة المحببة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106425/%D9%85%D8%A7%D9%84%D8%AA%D9%8A%D8%B2%D8%B1%D8%B3-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 8,
-    "price": 17.95,
-    "discounted_price": 16.45
+    "price": 17.95
   },
   {
     "name": "ليندت شوكولاتة ليندور مشكلة بحشوة سائلة 200 جرام",
+    "description": "تشكيلة مشكلة من شوكولاتة ليندت ليندور بحشوة سائلة، بوزن 200 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106427/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%84%D9%8A%D9%86%D8%AF%D9%88%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D8%B3%D8%A7%D8%A6%D9%84%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -317,6 +340,7 @@
   },
   {
     "name": "بورقات مارشميلو كلاسيك، فانيليا وفراولة 150 جرام",
+    "description": "مارشميلو كلاسيكي بنكهتي الفانيليا والفراولة، بوزن 150 جرام، مثالي للحلويات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106428/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D9%85%D8%A7%D8%B1%D8%B4%D9%85%D9%8A%D9%84%D9%88-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83-%D9%81%D8%A7%D9%86%D9%8A%D9%84%D9%8A%D8%A7-%D9%88%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -324,6 +348,7 @@
   },
   {
     "name": "أُوسكار حلاوة على شكل فواكه 1 كج",
+    "description": "حلوى أوسكار على شكل فواكه بوزن 1 كجم، بنكهات متنوعة وممتعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106429/%D8%A3%D9%88%D8%B3%D9%83%D8%A7%D8%B1-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D9%81%D9%88%D8%A7%D9%83%D9%87-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -331,6 +356,7 @@
   },
   {
     "name": "جوديفا لوح شوكولاتة داكنة 72٪ 90 جرام",
+    "description": "لوح شوكولاتة جوديفا الداكنة بنسبة 72%، بوزن 90 جرام، لمحبي النكهات الغنية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106431/%D8%AC%D9%88%D8%AF%D9%8A%D9%81%D8%A7-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-72-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -338,6 +364,7 @@
   },
   {
     "name": "حافل حلاوة بقرة فدج الأصلي 800 جرام",
+    "description": "حلاوة بقرة فدج الأصلية من حافل، بوزن 800 جرام، بنكهة الكراميل الغنية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106432/%D8%AD%D8%A7%D9%81%D9%84-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%A8%D9%82%D8%B1%D8%A9-%D9%81%D8%AF%D8%AC-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -345,6 +372,7 @@
   },
   {
     "name": "كيت كات - إصابع الشوكولاتة - أصلي - 17.7 جرام × 18",
+    "description": "عبوة تحتوي على 18 إصبعًا من كيت كات الأصلي، كل إصبع بوزن 17.7 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106433/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D8%A5%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A3%D8%B5%D9%84%D9%8A-177-%D8%AC%D8%B1%D8%A7%D9%85-18.jpg.jpg"
     ],
@@ -352,15 +380,16 @@
   },
   {
     "name": "نستله مينيس ميكس 35 قطعة 420 جرام",
+    "description": "تشكيلة نستله مينيس ميكس تحتوي على 35 قطعة بوزن 420 جرام، مثالية للمشاركة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106434/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D9%85%D9%8A%D9%86%D9%8A%D8%B3-%D9%85%D9%8A%D9%83%D8%B3-35-%D9%82%D8%B7%D8%B9%D8%A9-420-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 15,
-    "price": 46,
-    "discounted_price": 38.95
+    "price": 46
   },
   {
     "name": "مارس - لوح الشوكولاتة الأصلي بالنوغة والكراميل 45جرام ×5",
+    "description": "عبوة تحتوي على 5 ألواح من شوكولاتة مارس الأصلية بالنوغة والكراميل، كل لوح 45 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106436/%D9%85%D8%A7%D8%B1%D8%B3-%D9%84%D9%88%D8%AD-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-%D8%A8%D8%A7%D9%84%D9%86%D9%88%D8%BA%D8%A9-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-45%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
@@ -368,6 +397,7 @@
   },
   {
     "name": "غندور لبان مستكة الأصلي 100 قطع",
+    "description": "لبان مستكة الأصلي من غندور، عبوة تحتوي على 100 قطعة، بنكهة منعشة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106437/%D8%BA%D9%86%D8%AF%D9%88%D8%B1-%D9%84%D8%A8%D8%A7%D9%86-%D9%85%D8%B3%D8%AA%D9%83%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-100-%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
@@ -375,24 +405,25 @@
   },
   {
     "name": "كوانتا يونكرز لوح شوكولاتة بالفول السوداني 30 جرام عبوة من 12 قطعة",
+    "description": "عبوة تحتوي على 12 لوحًا من شوكولاتة كوانتا يونكرز بالفول السوداني، كل لوح 30 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106438/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D9%8A%D9%88%D9%86%D9%83%D8%B1%D8%B2-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-30-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-12-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
     ],
     "discount": 26,
-    "price": 14.75,
-    "discounted_price": 10.95
+    "price": 14.75
   },
   {
     "name": "كوانتا فيوري شوكولاتة بالحليب 28جرام × 12",
+    "description": "عبوة تحتوي على 12 لوحًا من شوكولاتة كوانتا فيوري بالحليب، كل لوح 28 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106439/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D9%81%D9%8A%D9%88%D8%B1%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-28%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
     ],
     "discount": 26,
-    "price": 14.75,
-    "discounted_price": 10.95
+    "price": 14.75
   },
   {
     "name": "كوانتا أدور شوكولاتة بالحليب 32 جرام × 12قطع",
+    "description": "عبوة تحتوي على 12 لوحًا من شوكولاتة كوانتا أدور بالحليب، كل لوح 32 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106440/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D8%A3%D8%AF%D9%88%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-32-%D8%AC%D8%B1%D8%A7%D9%85-12%D9%82%D8%B7%D8%B9.jpg.jpg"
     ],
@@ -400,15 +431,16 @@
   },
   {
     "name": "توبليرون تايني - شوكولاتة سويسرية بالحليب مع العسل ونوغة اللوز 200جرام",
+    "description": "شوكولاتة سويسرية فاخرة من توبليرون، تجمع بين نكهة الحليب الكريمية مع لمسة العسل الحلو ونوغة اللوز المقرمشة، مثالية لمحبي الحلويات الراقية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106442/%D8%AA%D9%88%D8%A8%D9%84%D9%8A%D8%B1%D9%88%D9%86-%D8%AA%D8%A7%D9%8A%D9%86%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%B3%D9%88%D9%8A%D8%B3%D8%B1%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D8%B9-%D8%A7%D9%84%D8%B9%D8%B3%D9%84-%D9%88%D9%86%D9%88%D8%BA%D8%A9-%D8%A7%D9%84%D9%84%D9%88%D8%B2-200%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 17.95,
-    "discounted_price": 14.95
+    "price": 17.95
   },
   {
     "name": "مالتيزرس شوكولاتة 37 جرام",
+    "description": "مالتيزرس، كرات الشوكولاتة المقرمشة المغطاة بشوكولاتة الحليب الناعمة، تجربة خفيفة ولذيذة تناسب جميع الأوقات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106443/%D9%85%D8%A7%D9%84%D8%AA%D9%8A%D8%B2%D8%B1%D8%B3-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-37-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -416,6 +448,7 @@
   },
   {
     "name": "حافل حلاوة بقرة فدج الأصلي 200 جرام",
+    "description": "حلاوة بقرة الفدج الأصلية من حافل، تقدم طعم الكراميل الغني والقوام الكريمي، مثالية لعشاق الحلويات التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106444/%D8%AD%D8%A7%D9%81%D9%84-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%A8%D9%82%D8%B1%D8%A9-%D9%81%D8%AF%D8%AC-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -423,6 +456,7 @@
   },
   {
     "name": "هيرشيز كيسز التشكيلة الكلاسيكية 325جرام",
+    "description": "تشكيلة كلاسيكية من هيرشيز كيسز، شوكولاتة الحليب الناعمة بأشكال مميزة، مثالية للمشاركة أو الاستمتاع الفردي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106446/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A%D8%B2-%D9%83%D9%8A%D8%B3%D8%B2-%D8%A7%D9%84%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A%D8%A9-325%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -430,6 +464,7 @@
   },
   {
     "name": "ريجليز إكسترا علكة بطعم النعناع البارد 84جرام",
+    "description": "علكة ريجليز إكسترا بنكهة النعناع البارد، تقدم انتعاشاً طويل الأمد، خالية من السكر ومثالية للحفاظ على نفس منعش.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106447/%D8%B1%D9%8A%D8%AC%D9%84%D9%8A%D8%B2-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%AF-84%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -437,15 +472,16 @@
   },
   {
     "name": "ليندت اكسلانس شوكولاتة داكنة 100% 50 جرام",
+    "description": "شوكولاتة داكنة فاخرة من ليندت اكسلانس بنسبة 100% كاكاو، تقدم نكهة قوية وغنية لعشاق الشوكولاتة الداكنة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106448/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%A7%D9%83%D8%B3%D9%84%D8%A7%D9%86%D8%B3-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-100-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 13,
-    "price": 32,
-    "discounted_price": 27.95
+    "price": 32
   },
   {
     "name": "هيرشيز شوكولاتة بيضاء بقطع البسكويت 12.76 جرام × 24 قطعه",
+    "description": "شوكولاتة بيضاء من هيرشيز ممزوجة بقطع البسكويت المقرمشة، عبوة تحتوي على 24 قطعة صغيرة للاستمتاع أو المشاركة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106449/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%A8%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-1276-%D8%AC%D8%B1%D8%A7%D9%85-24-%D9%82%D8%B7%D8%B9%D9%87.jpg.jpg"
     ],
@@ -453,15 +489,16 @@
   },
   {
     "name": "جالكسي جواهر شوكولاتة 700 جرام",
+    "description": "تشكيلة فاخرة من جالكسي جواهر، تحتوي على مجموعة متنوعة من الشوكولاتة الناعمة، مثالية للمناسبات والمشاركة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106450/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%AC%D9%88%D8%A7%D9%87%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-700-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 30,
-    "price": 115,
-    "discounted_price": 79.95
+    "price": 115
   },
   {
     "name": "ليندت - ليندور جولدن باك، كرات شوكولاتة متنوعة 137 جرام",
+    "description": "كرات شوكولاتة ليندور الفاخرة من ليندت، تقدم تشكيلة متنوعة من النكهات بنكهة ناعمة وذائبة في الفم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106452/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D9%84%D9%8A%D9%86%D8%AF%D9%88%D8%B1-%D8%AC%D9%88%D9%84%D8%AF%D9%86-%D8%A8%D8%A7%D9%83-%D9%83%D8%B1%D8%A7%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9-137-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -469,15 +506,16 @@
   },
   {
     "name": "كيت كات الواح ويفر مغطاة بشوكولاتة الحليب عبوة من 18 × 20.5 جرام",
+    "description": "ألواح كيت كات الكلاسيكية، ويفر مقرمش مغطى بشوكولاتة الحليب الناعمة، عبوة تحتوي على 18 قطعة للاستمتاع اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106453/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%A7%D8%AD-%D9%88%D9%8A%D9%81%D8%B1-%D9%85%D8%BA%D8%B7%D8%A7%D8%A9-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-18-205-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 18,
-    "price": 34,
-    "discounted_price": 27.95
+    "price": 34
   },
   {
     "name": "ريتر سبورت ميني شوكولاتة مولنة مشكلة - 133 غرام",
+    "description": "تشكيلة ميني من ريتر سبورت، شوكولاتة مولنة بنكهات متنوعة، مثالية للمشاركة أو الاستمتاع بالنكهات المختلفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106454/%D8%B1%D9%8A%D8%AA%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-%D9%85%D9%8A%D9%86%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D9%88%D9%84%D9%86%D8%A9-%D9%85%D8%B4%D9%83%D9%84%D8%A9-133-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -485,6 +523,7 @@
   },
   {
     "name": "تويكس شوكلاته 50 جرام × 5",
+    "description": "تويكس، ألواح الشوكولاتة المغطاة بالكراميل والبسكويت المقرمش، عبوة تحتوي على 5 قطع للاستمتاع المزدوج.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106455/%D8%AA%D9%88%D9%8A%D9%83%D8%B3-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-50-%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
     ],
@@ -492,6 +531,7 @@
   },
   {
     "name": "غندور سفاري 28 جرام × 12 قطعه",
+    "description": "غندور سفاري، شوكولاتة صغيرة الحجم مغطاة بالشوكولاتة مع حشوة لذيذة، عبوة تحتوي على 12 قطعة مثالية للأطفال.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106456/%D8%BA%D9%86%D8%AF%D9%88%D8%B1-%D8%B3%D9%81%D8%A7%D8%B1%D9%8A-28-%D8%AC%D8%B1%D8%A7%D9%85-12-%D9%82%D8%B7%D8%B9%D9%87.jpg.jpg"
     ],
@@ -499,15 +539,16 @@
   },
   {
     "name": "كوانتا يونكرز، لوح شوكولاتة بالحليب واللوز 30 جرام عبوة من 12 عبوة",
+    "description": "ألواح كوانتا يونكرز، شوكولاتة الحليب الممزوجة باللوز المقرمش، عبوة تحتوي على 12 لوح لتجربة لذيذة وغنية.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106457/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D9%8A%D9%88%D9%86%D9%83%D8%B1%D8%B2-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D8%A7%D9%84%D9%84%D9%88%D8%B2-30-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-12-%D8%B9%D8%A8%D9%88%D8%A9.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106457/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D9%8A%D9%88%D9%86%D9%83%D8%B1%D8%B2-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88豹%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D8%A7%D9%84%D9%84%D9%88%D8%B2-30-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-12-%D8%B9%D8%A8%D9%88%D8%A9.jpg.jpg"
     ],
     "discount": 27,
-    "price": 15.25,
-    "discounted_price": 11.2
+    "price": 15.25
   },
   {
     "name": "اكسترا ميجا مكعبات العلكة بنكهة النعناع خالية من السكر - 23 علكة - علبة 51 جرام",
+    "description": "مكعبات علكة اكسترا ميجا بنكهة النعناع المنعشة، خالية من السكر، تحتوي على 23 قطعة في علبة مريحة للاستخدام اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106459/%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D9%85%D9%8A%D8%AC%D8%A7-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-23-%D8%B9%D9%84%D9%83%D8%A9-%D8%B9%D9%84%D8%A8%D8%A9-51-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -515,6 +556,7 @@
   },
   {
     "name": "ليندت ليندور كرات شوكولاتة الحليب، العبوة الحمراء 137 جرام",
+    "description": "كرات ليندور من ليندت، شوكولاتة الحليب الفاخرة بحشوة ناعمة، في عبوة حمراء أنيقة مثالية للهدايا أو الاستمتاع الشخصي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106460/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D9%84%D9%8A%D9%86%D8%AF%D9%88%D8%B1-%D9%83%D8%B1%D8%A7%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%A9-%D8%A7%D9%84%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-137-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -522,42 +564,43 @@
   },
   {
     "name": "كادبري شوكولاتة فليك ميني 159.5جرام",
+    "description": "كادبري فليك ميني، شوكولاتة الحليب المتفتتة بقوامها الفريد، مثالية لمحبي الشوكولاتة الخفيفة والمقرمشة.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106461/%D9%83%D8%A7%D8%AF%D8%A8%D8%B1%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%81%D9%84%D9%8A%D9%83-%D9%85%D9%8A%D9%86%D9%8A-1595%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106461/%D9%83/dbyc0sncy/image/upload/v1745106461/%D9%83%D8%A7%D8%AF%D8%A8%D8%B1%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%81%D9%84%D9%8A%D9%83-%D9%85%D9%8A%D9%86%D9%8A-1595%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 17.95,
-    "discounted_price": 14.95
+    "price": 17.95
   },
   {
     "name": "كوانتا سكويرز - ألواح الشوكولاتة 344 جرام",
+    "description": "ألواح كوانتا سكويرز، مزيج لذيذ من الشوكولاتة الناعمة، مثالية للمشاركة أو الاستمتاع في أي وقت.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106462/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D8%B3%D9%83%D9%88%D9%8A%D8%B1%D8%B2-%D8%A3%D9%84%D9%88%D8%A7%D8%AD-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-344-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 14.95,
-    "discounted_price": 12.45
+    "price": 14.95
   },
   {
     "name": "لندنت شوكولاتة داكنة 70% كاكاو 100 جرام",
+    "description": "شوكولاتة داكنة فاخرة من لندنت بنسبة 70% كاكاو، تقدم طعماً غنياً ومتوازناً لعشاق الشوكولاتة الداكنة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106463/%D9%84%D9%86%D8%AF%D9%86%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-70-%D9%83%D8%A7%D9%83%D8%A7%D9%88-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 9,
-    "price": 28,
-    "discounted_price": 25.45
+    "price": 28
   },
   {
     "name": "كوانتا فيوري لوح شوكولاتة كراميل 30 جرام × 12 قطعة",
+    "description": "ألواح كوانتا فيوري، شوكولاتة بالكراميل اللذيذ، عبوة تحتوي على 12 قطعة صغيرة للحظات الحلوة السريعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106464/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D9%81%D9%8A%D9%88%D8%B1%D9%8A-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-30-%D8%AC%D8%B1%D8%A7%D9%85-12-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
     ],
     "discount": 26,
-    "price": 14.75,
-    "discounted_price": 10.95
+    "price": 14.75
   },
   {
     "name": "أوسكار - حلوى جيلي نكهات مشكلة شفافة، 400 جرام",
+    "description": "حلوى جيلي من أوسكار بنكهات مشكلة وملمس شفاف، مثالية للأطفال والكبار في الحفلات أو الأوقات العائلية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106465/%D8%A3%D9%88%D8%B3%D9%83%D8%A7%D8%B1-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D9%8A-%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%B4%D9%81%D8%A7%D9%81%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -565,6 +608,7 @@
   },
   {
     "name": "أوسكار كانديز جيلي ميكس نكهات بيضاء 400جرام",
+    "description": "جيلي ميكس من أوسكار بنكهات بيضاء متنوعة، تقدم تجربة حلوة ومنعشة، مثالية للمشاركة في المناسبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106466/%D8%A3%D9%88%D8%B3%D9%83%D8%A7%D8%B1-%D9%83%D8%A7%D9%86%D8%AF%D9%8A%D8%B2-%D8%AC%D9%8A%D9%84%D9%8A-%D9%85%D9%8A%D9%83%D8%B3-%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -572,6 +616,7 @@
   },
   {
     "name": "سنيكرز لوح شوكولاتة بالفول السوداني 45 جرام",
+    "description": "لوح سنيكرز الكلاسيكي، مزيج من الشوكولاتة والكراميل والفول السوداني المقرمش، مثالي كوجبة خفيفة مشبعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106468/%D8%B3%D9%86%D9%8A%D9%83%D8%B1%D8%B2-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -579,15 +624,16 @@
   },
   {
     "name": "تيفاني بريك اصابع ويفر الشوكولاتة بالحليب 25 جرام عبوة من 12 قطعة",
+    "description": "أصابع ويفر تيفاني بريك المغطاة بشوكولاتة الحليب، عبوة تحتوي على 12 قطعة، مثالية للحظات الحلوة السريعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106469/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A7%D8%B5%D8%A7%D8%A8%D8%B9-%D9%88%D9%8A%D9%81%D8%B1-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-25-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-12-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
     ],
     "discount": 22,
-    "price": 13.95,
-    "discounted_price": 10.95
+    "price": 13.95
   },
   {
     "name": "جالكسي شوكلاته فلوتس 4 أصبع 45 جرام",
+    "description": "جالكسي فلوتس، أصابع شوكولاتة الحليب الخفيفة والمتفتتة، مثالية للاستمتاع بتجربة ناعمة ولذيذة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106470/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-%D9%81%D9%84%D9%88%D8%AA%D8%B3-4-%D8%A3%D8%B5%D8%A8%D8%B9-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -595,6 +641,7 @@
   },
   {
     "name": "مارس شوكولاتة مينتشرز 150 جرام",
+    "description": "مارس مينتشرز، قطع صغيرة من الشوكولاتة بحشوة الكراميل والنوجا، مثالية للمشاركة أو الاستمتاع الفردي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106471/%D9%85%D8%A7%D8%B1%D8%B3-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D9%8A%D9%86%D8%AA%D8%B4%D8%B1%D8%B2-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -602,6 +649,7 @@
   },
   {
     "name": "بورجات حلوى جيلاتينية بارتي ميكس 100 جرام",
+    "description": "حلوى جيلاتينية من بورجات بنكهات مشكلة، مثالية للحفلات والتجمعات بفضل ألوانها الزاهية وطعمها اللذيذ.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106472/%D8%A8%D9%88%D8%B1%D8%AC%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D8%A7%D8%AA%D9%8A%D9%86%D9%8A%D8%A9-%D8%A8%D8%A7%D8%B1%D8%AA%D9%8A-%D9%85%D9%8A%D9%83%D8%B3-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -609,15 +657,16 @@
   },
   {
     "name": "كادبري ميني شوكولاتة بالحليب 168جرام",
+    "description": "كادبري ميني، قطع صغيرة من شوكولاتة الحليب الناعمة، مثالية للمشاركة أو الاستمتاع كوجبة خفيفة يومية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106473/%D9%83%D8%A7%D8%AF%D8%A8%D8%B1%D9%8A-%D9%85%D9%8A%D9%86%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-168%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 17,
-    "price": 17.95,
-    "discounted_price": 14.95
+    "price": 17.95
   },
   {
     "name": "بورقات مارشميلو تويدلز 150 جرام",
+    "description": "مارشميلو تويدلز من بورقات، حلوى ناعمة وخفيفة بنكهة لذيذة، مثالية للحفلات أو التحميص.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106474/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D9%85%D8%A7%D8%B1%D8%B4%D9%85%D9%8A%D9%84%D9%88-%D8%AA%D9%88%D9%8A%D8%AF%D9%84%D8%B2-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -625,13 +674,15 @@
   },
   {
     "name": "مارس شوكولاته 51 جرام",
+    "description": "لوح مارس الكلاسيكي، مزيج من الشوكولاتة والكراميل والنوجا، مثالي كوجبة خفيفة لذيذة ومشبعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106476/%D9%85%D8%A7%D8%B1%D8%B3-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-51-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "price": 3.95
   },
   {
-    "name": "ميلكا شوكولاتة  150 جرام",
+    "name": "ميلكا شوكولاتة 150 جرام",
+    "description": "شوكولاتة ميلكا الناعمة المصنوعة من الحليب الألبي، تقدم تجربة حلوة وكريمية لمحبي الشوكولاتة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106477/%D9%85%D9%8A%D9%84%D9%83%D8%A7-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -639,6 +690,7 @@
   },
   {
     "name": "ريجليز إكسترا ريفريشز - علك بطعم النعناع البارد، بدون سكر، 67جرام",
+    "description": "علك ريجليز إكسترا ريفريشز بنكهة النعناع البارد، خالي من السكر، يوفر انتعاشاً طويل الأمد.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106478/%D8%B1%D9%8A%D8%AC%D9%84%D9%8A%D8%B2-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B1%D9%8A%D9%81%D8%B1%D9%8A%D8%B4%D8%B2-%D8%B9%D9%84%D9%83-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%AF-%D8%A8%D8%AF%D9%88%D9%86-%D8%B3%D9%83%D8%B1-67%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -646,6 +698,7 @@
   },
   {
     "name": "بورقات حلاوة جلي رازبيري اند بلاك بيري 100 جرام",
+    "description": "حلاوة جلي من بورقات بنكهتي التوت الأحمر والتوت الأسود، تقدم طعماً منعشاً وحلواً في عبوة صغيرة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106479/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D8%B1%D8%A7%D8%B2%D8%A8%D9%8A%D8%B1%D9%8A-%D8%A7%D9%86%D8%AF-%D8%A8%D9%84%D8%A7%D9%83-%D8%A8%D9%8A%D8%B1%D9%8A-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -653,6 +706,7 @@
   },
   {
     "name": "ماجي خلطة الدجاج بالزبدة 340 جرام",
+    "description": "خلطة ماجي للدجاج بالزبدة، تضيف نكهة غنية وكريمية لأطباق الدجاج، مثالية لتحضير وجبات عائلية شهية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106480/%D9%85%D8%A7%D8%AC%D9%8A-%D8%AE%D9%84%D8%B7%D8%A9-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -660,15 +714,16 @@
   },
   {
     "name": "كيت كات تشانكي مينيز 500جرام",
+    "description": "كيت كات تشانكي مينيز، قطع صغيرة من الويفر المقرمش المغطى بشوكولاتة الحليب، مثالية للمشاركة أو الاستمتاع.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106481/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D8%AA%D8%B4%D8%A7%D9%86%D9%83%D9%8A-%D9%85%D9%8A%D9%86%D9%8A%D8%B2-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 15,
-    "price": 42.5,
-    "discounted_price": 35.95
+    "price": 42.5
   },
   {
     "name": "أوسكار سكاكر جيلي فواكه صغير 350جرام",
+    "description": "سكاكر جيلي من أوسكار بنكهات الفواكه المتنوعة، عبوة كبيرة مثالية للأطفال والمناسبات العائلية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106483/%D8%A3%D9%88%D8%B3%D9%83%D8%A7%D8%B1-%D8%B3%D9%83%D8%A7%D9%83%D8%B1-%D8%AC%D9%8A%D9%84%D9%8A-%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%B5%D8%BA%D9%8A%D8%B1-350%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -676,6 +731,7 @@
   },
   {
     "name": "جوديفا لوح شوكولاتة بالحليب 90 جرام",
+    "description": "لوح شوكولاتة بالحليب الفاخرة من جوديفا، تقدم نكهة ناعمة وكريمية، مثالية للحظات الرفاهية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106484/%D8%AC%D9%88%D8%AF%D9%8A%D9%81%D8%A7-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -683,15 +739,16 @@
   },
   {
     "name": "مارس ميني 198 جرام",
+    "description": "مارس ميني، قطع صغيرة من الشوكولاتة بحشوة الكراميل والنوجا، مثالية للمشاركة أو الاستمتاع كوجبة خفيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106486/%D9%85%D8%A7%D8%B1%D8%B3-%D9%85%D9%8A%D9%86%D9%8A-198-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 24,
-    "price": 20.25,
-    "discounted_price": 15.45
+    "price": 20.25
   },
   {
     "name": "باونتي شوكلاته مينتشرز 150 جرام",
+    "description": "باونتي مينتشرز، قطع صغيرة من الشوكولاتة بحشوة جوز الهند المنعشة، مثالية لمحبي النكهات الاستوائية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106487/%D8%A8%D8%A7%D9%88%D9%86%D8%AA%D9%8A-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-%D9%85%D9%8A%D9%86%D8%AA%D8%B4%D8%B1%D8%B2-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -699,6 +756,7 @@
   },
   {
     "name": "جالكسي شوكولاتة مع الحليب 36 جرام",
+    "description": "جالكسي، لوح شوكولاتة الحليب الناعمة، تقدم تجربة لذيذة وكريمية في كل قضمة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106488/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-36-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -706,6 +764,7 @@
   },
   {
     "name": "تويكس إكسترا شوكولاتة 75 جرام",
+    "description": "تويكس إكسترا، لوح كبير من الشوكولاتة المغطاة بالكراميل والبسكويت المقرمش، لتجربة حلوة مكثفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106489/%D8%AA%D9%88%D9%8A%D9%83%D8%B3-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -713,6 +772,7 @@
   },
   {
     "name": "بورقات مصاصة بطعم فراولة مع علكة 162جرام",
+    "description": "مصاصات بورقات بنكهة الفراولة مع علكة في المنتصف، تقدم تجربة ممتعة وحلوة للأطفال.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106491/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D9%85%D8%B5%D8%A7%D8%B5%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%85%D8%B9-%D8%B9%D9%84%D9%83%D8%A9-162%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -720,15 +780,16 @@
   },
   {
     "name": "بلجيان شوكولاتة أصداف 250 جرام",
+    "description": "شوكولاتة بلجيان الفاخرة على شكل أصداف، تقدم مزيجاً من النكهات الناعمة، مثالية للهدايا أو المناسبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106492/%D8%A8%D9%84%D8%AC%D9%8A%D8%A7%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A3%D8%B5%D8%AF%D8%A7%D9%81-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 25,
-    "price": 48,
-    "discounted_price": 35.95
+    "price": 48
   },
   {
     "name": "جالكسي شوكولاتة بيضاء 38 جرام",
+    "description": "جالكسي، لوح شوكولاتة بيضاء ناعمة وكريمية، مثالي لمحبي النكهات الحلوة الخفيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106493/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-38-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -736,6 +797,7 @@
   },
   {
     "name": "جالكسي شوكولاتة بالبندق 36 جرام × 24",
+    "description": "جالكسي، ألواح شوكولاتة الحليب الممزوجة بالبندق المقرمش، عبوة تحتوي على 24 لوح للمشاركة أو الاستمتاع.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106494/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-36-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
     ],
@@ -743,6 +805,7 @@
   },
   {
     "name": "ليوكز ستارز حلاو مصاص 200 جرام",
+    "description": "حلوى مصاص ليوكز ستارز بنكهات متنوعة، تقدم تجربة ممتعة وحلوة، مثالية للأطفال والمناسبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106495/%D9%84%D9%8A%D9%88%D9%83%D8%B2-%D8%B3%D8%AA%D8%A7%D8%B1%D8%B2-%D8%AD%D9%84%D8%A7%D9%88-%D9%85%D8%B5%D8%A7%D8%B5-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -750,6 +813,7 @@
   },
   {
     "name": "غندور لبان بنكهة النعناع 70.4 جرام",
+    "description": "لبان غندور بنكهة النعناع المنعشة، يوفر نفساً منعشاً طويل الأمد، مثالي للاستخدام اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106497/%D8%BA%D9%86%D8%AF%D9%88%D8%B1-%D9%84%D8%A8%D8%A7%D9%86-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-704-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -757,6 +821,7 @@
   },
   {
     "name": "جالاكسي ريبل لوح شوكولاتة بالحليب 30جرام",
+    "description": "جالكسي ريبل، لوح شوكولاتة الحليب بقوام متموج وناعم، يقدم تجربة لذيذة في كل قضمة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106498/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%B1%D9%8A%D8%A8%D9%84-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-30%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -764,6 +829,7 @@
   },
   {
     "name": "جالكسي شوكولاتة بالبندق 36 جرام",
+    "description": "جالكسي، لوح شوكولاتة الحليب الممزوج بالبندق المقرمش، مثالي لمحبي النكهات الغنية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106499/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-36-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -771,15 +837,16 @@
   },
   {
     "name": "ريتر سبورت شوكولاتة بالحليب واللوز الكامل 100 جرام",
+    "description": "شوكولاتة ريتر سبورت بالحليب مع حبات اللوز الكاملة، تقدم مزيجاً مثالياً من النكهة الكريمية والقرمشة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106501/%D8%B1%D9%8A%D8%AA%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D8%A7%D9%84%D9%84%D9%88%D8%B2-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 21,
-    "price": 18.25,
-    "discounted_price": 14.45
+    "price": 18.25
   },
   {
     "name": "ريجليز إكسترا ريفريشز - علك بطعم الفواكه الإستوائية، بدون سكر، 67جرام",
+    "description": "علك ريجليز إكسترا ريفريشز بنكهة الفواكه الاستوائية، خالي من السكر، يقدم انتعاشاً طويل الأمد.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106502/%D8%B1%D9%8A%D8%AC%D9%84%D9%8A%D8%B2-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B1%D9%8A%D9%81%D8%B1%D9%8A%D8%B4%D8%B2-%D8%B9%D9%84%D9%83-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D8%AF%D9%88%D9%86-%D8%B3%D9%83%D8%B1-67%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -787,15 +854,16 @@
   },
   {
     "name": "سكيتلز بالفواكة 30.6 جرام",
+    "description": "سكيتلز، حلوى ملونة بنكهات الفواكه المتنوعة، تقدم تجربة ممتعة وحلوة في كل حبة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106503/%D8%B3%D9%83%D9%8A%D8%AA%D9%84%D8%B2-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D8%A9-306-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 5,
-    "price": 4.95,
-    "discounted_price": 4.7
+    "price": 4.95
   },
   {
     "name": "جالكسي شوكولاتة بالحليب 36 جرام × 24",
+    "description": "جالكسي، ألواح شوكولاتة الحليب الناعمة، عبوة تحتوي على 24 لوح، مثالية للمشاركة أو الاستمتاع اليومي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106505/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-36-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
     ],
@@ -806,154 +874,176 @@
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106506/%D8%B3%D8%AA%D9%88%D8%B1%D9%83-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-325-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 21.25
+    "price": 21.25,
+    "description": "حلوى الكراميل الناعمة من ستورك بنكهة الحليب الغنية، مثالية للاستمتاع بمذاق كريمي لا يُقاوم."
   },
   {
     "name": "ويرذرز أوريجنال حلوى كريمي بالكراميل 150 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106507/%D9%88%D9%8A%D8%B1%D8%B0%D8%B1%D8%B2-%D8%A3%D9%88%D8%B1%D9%8A%D8%AC%D9%86%D8%A7%D9%84-%D8%AD%D9%84%D9%88%D9%89-%D9%83%D8%B1%D9%8A%D9%85%D9%8A-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11.75
+    "price": 11.75,
+    "description": "حلوى ويرذرز الأصلية بنكهة الكراميل الكريمية، تقدم تجربة ذوبان لذيذة في الفم."
   },
   {
     "name": "سنيكرز دارك ميا 42 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106508/%D8%B3%D9%86%D9%8A%D9%83%D8%B1%D8%B2-%D8%AF%D8%A7%D8%B1%D9%83-%D9%85%D9%8A%D8%A7-42-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "سنيكرز دارك ميا يجمع بين الشوكولاتة الداكنة الغنية والكراميل والفول السوداني لوجبة خفيفة مشبعة."
   },
   {
     "name": "منتوس علك بالفواكه خالي من السكر 54 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106509/%D9%85%D9%86%D8%AA%D9%88%D8%B3-%D8%B9%D9%84%D9%83-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-54-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11
+    "price": 11,
+    "description": "علكة منتوس بنكهات الفواكه المنعشة، خالية من السكر لتجربة مضغ صحية وممتعة."
   },
   {
     "name": "ليووكز حلوى روك لولي بوب 500جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106511/%D9%84%D9%8A%D9%88%D9%88%D9%83%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%B1%D9%88%D9%83-%D9%84%D9%88%D9%84%D9%8A-%D8%A8%D9%88%D8%A8-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 30.75
+    "price": 30.75,
+    "description": "حلوى ليووكز روك لولي بوب بألوان ونكهات متنوعة، مثالية للحفلات والمناسبات."
   },
   {
     "name": "هاريبو ميني هابي كولا ماكسي 200جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106512/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D9%85%D9%8A%D9%86%D9%8A-%D9%87%D8%A7%D8%A8%D9%8A-%D9%83%D9%88%D9%84%D8%A7-%D9%85%D8%A7%D9%83%D8%B3%D9%8A-200%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 14
+    "price": 14,
+    "description": "حلوى هاريبو ميني بنكهة الكولا المحببة، تقدم متعة مضغ ممتعة في عبوة كبيرة."
   },
   {
     "name": "ريجليز إكسترا علك بنكهة النعناع القوي خالي من السكر - عبوة ميجا 51جرام ×6",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106513/%D8%B1%D9%8A%D8%AC%D9%84%D9%8A%D8%B2-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%82%D9%88%D9%8A-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%8A%D8%AC%D8%A7-51%D8%AC%D8%B1%D8%A7%D9%85-6.jpg.jpg"
     ],
-    "price": 87.95
+    "price": 87.95,
+    "description": "علكة ريجليز إكسترا بنكهة النعناع القوية، خالية من السكر في عبوة ميجا اقتصادية."
   },
   {
     "name": "آركور بون أو بون شوكولاتة ويفر بحشوة موس الشوكولاتة 390جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106514/%D8%A2%D8%B1%D9%83%D9%88%D8%B1-%D8%A8%D9%88%D9%86-%D8%A3%D9%88-%D8%A8%D9%88%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D9%85%D9%88%D8%B3-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-390%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 23
+    "price": 23,
+    "description": "شوكولاتة آركور بون أو بون مع ويفر مقرمش وحشوة موس الشوكولاتة الكريمية."
   },
   {
-    "name": "شوكولاتة جالاكسي بالزبيب  والبندق 36 جرام × 24",
+    "name": "شوكولاتة جالاكسي بالزبيب والبندق 36 جرام × 24",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106515/%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%A8-%D9%88%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-36-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
     ],
-    "price": 83.5
+    "price": 83.5,
+    "description": "شوكولاتة جالاكسي بنكهة الزبيب والبندق، عبوة تحتوي على 24 قطعة صغيرة لذيذة."
   },
   {
     "name": "باونتي شوكولاته 285 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106516/%D8%A8%D8%A7%D9%88%D9%86%D8%AA%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-285-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 21
+    "price": 21,
+    "description": "شوكولاتة باونتي بجوز الهند المغطاة بشوكولاتة الحليب الناعمة، مثالية لعشاق النكهات الاستوائية."
   },
   {
     "name": "هولز حلوى جافة بطعم الكرز 22.4 جرام × 20",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106518/%D9%87%D9%88%D9%84%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D8%A7%D9%81%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%83%D8%B1%D8%B2-224-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
     ],
-    "price": 39.95
+    "price": 39.95,
+    "description": "حلوى هولز بنكهة الكرز المنعشة، عبوة تحتوي على 20 قطعة جافة وسهلة الحمل."
   },
   {
     "name": "جوديفا بار كابتشينو 35 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106519/%D8%AC%D9%88%D8%AF%D9%8A%D9%81%D8%A7-%D8%A8%D8%A7%D8%B1-%D9%83%D8%A7%D8%A8%D8%AA%D8%B4%D9%8A%D9%86%D9%88-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "شوكولاتة جوديفا بنكهة الكابتشينو الفاخرة، تقدم تجربة مميزة لمحبي القهوة."
   },
   {
     "name": "ليندت اكسيلنس لوح شوكولاتة داكنة نسبة كاكاو 70% 35 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106520/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%A7%D9%83%D8%B3%D9%8A%D9%84%D9%86%D8%B3-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-%D9%86%D8%B3%D8%A8%D8%A9-%D9%83%D8%A7%D9%83%D8%A7%D9%88-70-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13
+    "price": 13,
+    "description": "شوكولاتة ليندت اكسيلنس الداكنة بنسبة 70% كاكاو، تقدم نكهة قوية ومميزة."
   },
   {
     "name": "كيت كات ميني مومنتس 201 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106521/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D9%85%D9%8A%D9%86%D9%8A-%D9%85%D9%88%D9%85%D9%86%D8%AA%D8%B3-201-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 23.75
+    "price": 23.75,
+    "description": "كيت كات ميني مومنتس، قطع صغيرة من الشوكولاتة المقرمشة للحظات لذيذة."
   },
   {
     "name": "هاريبو مكعبات حلوى إسفنجية ناعمة 80جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106523/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%A5%D8%B3%D9%81%D9%86%D8%AC%D9%8A%D8%A9-%D9%86%D8%A7%D8%B9%D9%85%D8%A9-80%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.5
+    "price": 6.5,
+    "description": "حلوى هاريبو الإسفنجية الناعمة على شكل مكعبات، تقدم نكهات فواكه متنوعة."
   },
   {
     "name": "هيرشيز شوكولاتة بالحليب بقطع البسكويت 12.76 جرام × 24 قطعه",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106524/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A8%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-1276-%D8%AC%D8%B1%D8%A7%D9%85-24-%D9%82%D8%B7%D8%B9%D9%87.jpg.jpg"
     ],
-    "price": 36.5
+    "price": 36.5,
+    "description": "شوكولاتة هيرشيز بالحليب مع قطع البسكويت المقرمشة، عبوة تحتوي على 24 قطعة."
   },
   {
     "name": "ليندت شوكولاتة غامقة بالبرتقال 35 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106525/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%BA%D8%A7%D9%85%D9%82%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D9%82%D8%A7%D9%84-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13
+    "price": 13,
+    "description": "شوكولاتة ليندت الداكنة بنكهة البرتقال المنعشة، مزيج مثالي من الحمضيات والكاكاو."
   },
   {
     "name": "هيرشي كيسيز كوكي إن كريم 325 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106526/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A-%D9%83%D9%8A%D8%B3%D9%8A%D8%B2-%D9%83%D9%88%D9%83%D9%8A-%D8%A5%D9%86-%D9%83%D8%B1%D9%8A%D9%85-325-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 32.75
+    "price": 32.75,
+    "description": "هيرشي كيسيز بنكهة الكوكيز والكريمة، قطع صغيرة مثالية للمشاركة والاستمتاع."
   },
   {
     "name": "كيت كات 2 أصابع شوكولاته بالحليب 20.5 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106528/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-2-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-205-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 1.75
+    "price": 1.75,
+    "description": "كيت كات بإصبعين من الشوكولاتة بالحليب مع ويفر مقرمش، وجبة خفيفة مثالية."
   },
   {
     "name": "كيت-كات عبوة 2 إصبع، ميني، 13.5جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106528/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D8%B9%D8%A8%D9%88%D8%A9-2-%D8%A5%D8%B5%D8%A8%D8%B9-%D9%85%D9%8A%D9%86%D9%8A-135%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 1
+    "price": 1,
+    "description": "كيت كات ميني بإصبعين، شوكولاتة بالحليب مع ويفر مقرمش في حجم صغير."
   },
   {
     "name": "بورقات حلاوة جلي كارز 175 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106530/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D9%83%D8%A7%D8%B1%D8%B2-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.95
+    "price": 8.95,
+    "description": "حلاوة بورقات جلي بنكهة الفواكه على شكل سيارات، ممتعة للأطفال والكبار."
   },
   {
     "name": "هيرشي كيسيز كوكي آند كريم 100 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106531/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A-%D9%83%D9%8A%D8%B3%D9%8A%D8%B2-%D9%83%D9%88%D9%83%D9%8A-%D8%A2%D9%86%D8%AF-%D9%83%D8%B1%D9%8A%D9%85-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 12.75
+    "price": 12.75,
+    "description": "هيرشي كيسيز بنكهة الكوكيز والكريمة في عبوة صغيرة، مثالية للحظات الحلوة."
   },
   {
     "name": "سفن ستيك حلوى جيلي على شكل اسنان 80 جرام",
@@ -962,21 +1052,23 @@
     ],
     "discount": 21,
     "price": 5,
-    "discounted_price": 3.95
+    "description": "حلوى سفن ستيك جيلي على شكل أسنان، بنكهات فواكه ممتعة ومضغ مرن."
   },
   {
     "name": "توفي لوك بسكويت مقرمش بالكراميل مغطى بشوكولاتة الحليب، عبوة دوى باك 160 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106534/%D8%AA%D9%88%D9%81%D9%8A-%D9%84%D9%88%D9%83-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D9%85%D9%82%D8%B1%D9%85%D8%B4-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D8%BA%D8%B7%D9%89-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%B9%D8%A8%D9%88%D8%A9-%D8%AF%D9%88%D9%89-%D8%A8%D8%A7%D9%83-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.95
+    "price": 9.95,
+    "description": "توفي لوك بسكويت مقرمش بالكراميل مغطى بشوكولاتة الحليب، وجبة خفيفة لذيذة."
   },
   {
     "name": "ريغليز اكسترا علكة بالنعناع القوي خالية من السكر 14 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106535/%D8%B1%D9%8A%D8%BA%D9%84%D9%8A%D8%B2-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%82%D9%88%D9%8A-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-14-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 2.75
+    "price": 2.75,
+    "description": "علكة ريغليز إكسترا بنكهة النعناع القوية، خالية من السكر لانتعاش يدوم طويلاً."
   },
   {
     "name": "7 ستيك ديدان جيلي صمغية 80 جرام",
@@ -985,28 +1077,31 @@
     ],
     "discount": 21,
     "price": 5,
-    "discounted_price": 3.95
+    "description": "حلوى سفن ستيك جيلي على شكل ديدان صمغية، بنكهات فواكه ممتعة."
   },
   {
     "name": "إكسترا - علكة بنكهة النعناع 15.6 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106539/%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-156-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.25
+    "price": 4.25,
+    "description": "علكة إكسترا بنكهة النعناع المنعشة، مثالية لانتعاش سريع أثناء اليوم."
   },
   {
     "name": "هيرشيز - كيس كوكيز وكريمة صغير 150 جرام (29 قطعة صغيرة)",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106541/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A%D8%B2-%D9%83%D9%8A%D8%B3-%D9%83%D9%88%D9%83%D9%8A%D8%B2-%D9%88%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1-150-%D8%AC%D8%B1%D8%A7%D9%85-29-%D9%82%D8%B7%D8%B9%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9.jpg.jpg"
     ],
-    "price": 19.5
+    "price": 19.5,
+    "description": "هيرشيز كيسيز كوكيز وكريمة، 29 قطعة صغيرة مثالية للمشاركة أو الاستمتاع الفردي."
   },
   {
     "name": "جلاكسي كراميل ميني 266 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106542/%D8%AC%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D9%8A%D9%86%D9%8A-266-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 25.5
+    "price": 25.5,
+    "description": "جلاكسي ميني بنكهة الكراميل الناعمة، قطع صغيرة مغطاة بشوكولاتة الحليب."
   },
   {
     "name": "ريتر سبورت شوكولاتة بالحيب وبالزبيب والبندق 100 جرام",
@@ -1015,35 +1110,39 @@
     ],
     "discount": 27,
     "price": 21.25,
-    "discounted_price": 15.45
+    "description": "شوكولاتة ريتر سبورت بالحليب مع الزبيب والبندق، مزيج لذيذ من النكهات."
   },
   {
     "name": "كتكات التوت العليق 19.5 جرام × 18",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106544/%D9%83%D8%AA%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D9%82-195-%D8%AC%D8%B1%D8%A7%D9%85-18.jpg.jpg"
     ],
-    "price": 41.75
+    "price": 41.75,
+    "description": "كتكات بنكهة التوت العليق المنعشة، عبوة تحتوي على 18 قطعة صغيرة."
   },
   {
     "name": "باونتي شوكولاته 57 جرام × 24",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106546/%D8%A8%D8%A7%D9%88%D9%86%D8%AA%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-57-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
     ],
-    "price": 91
+    "price": 91,
+    "description": "شوكولاتة باونتي بجوز الهند، عبوة تحتوي على 24 قطعة مغطاة بشوكولاتة الحليب."
   },
   {
     "name": "جالكسي كنز شوكولاتة داكنة 70% كاكاو مع بندق كامل 90 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106547/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D9%83%D9%86%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-70-%D9%83%D8%A7%D9%83%D8%A7%D9%88-%D9%85%D8%B9-%D8%A8%D9%86%D8%AF%D9%82-%D9%83%D8%A7%D9%85%D9%84-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.75
+    "price": 13.75,
+    "description": "جالكسي كنز، شوكولاتة داكنة بنسبة 70% كاكاو مع حبات البندق الكاملة."
   },
   {
     "name": "نوفا علكة بنكهة النعناع الأخضر 70 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106548/%D9%86%D9%88%D9%81%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11.75
+    "price": 11.75,
+    "description": "علكة نوفا بنكهة النعناع الأخضر المنعشة، مثالية لانتعاش يدوم طويلاً."
   },
   {
     "name": "بيلجيان قلوب شوكولاتة بلجيكية 200 جرام",
@@ -1052,28 +1151,31 @@
     ],
     "discount": 25,
     "price": 48,
-    "discounted_price": 35.95
+    "description": "قلوب الشوكولاتة البلجيكية الفاخرة من بيلجيان، مثالية للهدايا أو الاستمتاع الشخصي."
   },
   {
     "name": "ويرذرز توفي كراميل ناعم أصلي 600 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106551/%D9%88%D9%8A%D8%B1%D8%B0%D8%B1%D8%B2-%D8%AA%D9%88%D9%81%D9%8A-%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%86%D8%A7%D8%B9%D9%85-%D8%A3%D8%B5%D9%84%D9%8A-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 47.5
+    "price": 47.5,
+    "description": "توفي ويرذرز الأصلي بنكهة الكراميل الناعمة، عبوة كبيرة لمحبي الحلوى الكريمية."
   },
   {
     "name": "إم آند إمز كرسبي 170 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106552/%D8%A5%D9%85-%D8%A2%D9%86%D8%AF-%D8%A5%D9%85%D8%B2-%D9%83%D8%B1%D8%B3%D8%A8%D9%8A-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 17.25
+    "price": 17.25,
+    "description": "إم آند إمز كرسبي، شوكولاتة مغطاة بحبات الأرز المقرمشة لتجربة ممتعة."
   },
   {
     "name": "جالكسي شوكولاته كرسبي بالأرز المقرمش 36 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106554/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D9%83%D8%B1%D8%B3%D8%A8%D9%8A-%D8%A8%D8%A7%D9%84%D8%A3%D8%B1%D8%B2-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4-36-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 3.75
+    "price": 3.75,
+    "description": "شوكولاتة جالكسي كرسبي مع الأرز المقرمش، وجبة خفيفة لذيذة ومقرمشة."
   },
   {
     "name": "ريتر سبورت شوكولاتة بزبادي الفراولة 100 جرام",
@@ -1082,21 +1184,23 @@
     ],
     "discount": 15,
     "price": 16.5,
-    "discounted_price": 13.95
+    "description": "شوكولاتة ريتر سبورت بحشوة زبادي الفراولة، مزيج منعش ولذيذ."
   },
   {
     "name": "نستله ليون بار إكسترا كرانشي 42 جرام × 24",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106556/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D9%84%D9%8A%D9%88%D9%86-%D8%A8%D8%A7%D8%B1-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D9%83%D8%B1%D8%A7%D9%86%D8%B4%D9%8A-42-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
     ],
-    "price": 82.25
+    "price": 82.25,
+    "description": "نستله ليون بار إكسترا كرانشي، شوكولاتة مع ويفر وكراميل مقرمش، 24 قطعة."
   },
   {
     "name": "أركور بون أو بون شوكولاتة بحشوة الفول السوداني - الأصلية 150جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106557/%D8%A3%D8%B1%D9%83%D9%88%D8%B1-%D8%A8%D9%88%D9%86-%D8%A3%D9%88-%D8%A8%D9%88%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "شوكولاتة أركور بون أو بون بحشوة الفول السوداني الكريمية، نكهة أصلية."
   },
   {
     "name": "ستورك توفيفي نوجا وشوكولاتة 200جرام",
@@ -1105,14 +1209,15 @@
     ],
     "discount": 26,
     "price": 29.5,
-    "discounted_price": 21.95
+    "description": "ستورك توفيفي، مزيج من النوجا والبندق والشوكولاتة في قطع لذيذة."
   },
   {
     "name": "سفن ستيك حلوى جيلي على شكل اسنان 120 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106560/%D8%B3%D9%81%D9%86-%D8%B3%D8%AA%D9%8A%D9%83-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D9%8A-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D8%A7%D8%B3%D9%86%D8%A7%D9%86-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.5
+    "price": 6.5,
+    "description": "حلوى سفن ستيك جيلي على شكل أسنان، بنكهات فواكه ممتعة في عبوة أكبر."
   },
   {
     "name": "بازوكا حلاو بنكهة الزبيب الأسود 15  جرام",
@@ -1121,98 +1226,111 @@
     ],
     "discount": 10,
     "price": 4.4,
-    "discounted_price": 3.95
+    "description": "حلاوة بازوكا بنكهة الزبيب الأسود، وجبة خفيفة صغيرة ومنعشة."
   },
   {
     "name": "لواكر روز اوف ذا دولوميتيز شوكولاتة الحليب 300 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106562/%D9%84%D9%88%D8%A7%D9%83%D8%B1-%D8%B1%D9%88%D8%B2-%D8%A7%D9%88%D9%81-%D8%B0%D8%A7-%D8%AF%D9%88%D9%84%D9%88%D9%85%D9%8A%D8%AA%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 79.75
+    "price": 79.75,
+    "description": "شوكولاتة لواكر روز أوف ذا دولوميتيز بالحليب، فاخرة ومثالية للهدايا."
   },
   {
     "name": "سفن ستيك حلوى جيلي بنكهة الكولا 120 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106563/%D8%B3%D9%81%D9%86-%D8%B3%D8%AA%D9%8A%D9%83-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D9%8A-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%84%D8%A7-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.5
+    "price": 6.5,
+    "description": "حلوى سفن ستيك جيلي بنكهة الكولا المحببة، تقدم تجربة مضغ ممتعة."
   },
   {
     "name": "سفاري ويفر مقرمش مغطى بشوكولاتة الحليب، ميني باك 171 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106564/%D8%B3%D9%81%D8%A7%D8%B1%D9%8A-%D9%88%D9%8A%D9%81%D8%B1-%D9%85%D9%82%D8%B1%D9%85%D8%B4-%D9%85%D8%BA%D8%B7%D9%89-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D8%A7%D9%83-171-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.95
+    "price": 9.95,
+    "description": "سفاري ويفر مقرمش مغطى بشوكولاتة الحليب، ميني باك مثالي للاستمتاع أثناء التنقل."
   },
   {
     "name": "بورغات مارشميلو كلاسيك بنكهة الفانيلا - أبيض، 150 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106565/%D8%A8%D9%88%D8%B1%D8%BA%D8%A7%D8%AA-%D9%85%D8%A7%D8%B1%D8%B4%D9%85%D9%8A%D9%84%D9%88-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D8%A7%D9%86%D9%8A%D9%84%D8%A7-%D8%A3%D8%A8%D9%8A%D8%B6-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.5
+    "price": 6.5,
+    "description": "مارشميلو بورغات الكلاسيكي بنكهة الفانيلا الناعمة، مثالي للحلويات أو التحميص."
   },
   {
     "name": "بورجات - مارشميلو البطيخ 150 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106567/%D8%A8%D9%88%D8%B1%D8%AC%D8%A7%D8%AA-%D9%85%D8%A7%D8%B1%D8%B4%D9%85%D9%8A%D9%84%D9%88-%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.5
+    "price": 6.5,
+    "description": "مارشميلو بورجات بنكهة البطيخ المنعشة، إضافة ممتعة للحلويات والمناسبات."
   },
   {
     "name": "هاريبو مارشميلو ابيض وردي 150 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106568/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D9%85%D8%A7%D8%B1%D8%B4%D9%85%D9%8A%D9%84%D9%88-%D8%A7%D8%A8%D9%8A%D8%B6-%D9%88%D8%B1%D8%AF%D9%8A-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "مارشميلو هاريبو باللونين الأبيض والوردي، ناعم ومثالي للحلويات أو الوجبات الخفيفة."
   },
   {
     "name": "سكيتلز حلوى فواكه 38 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106569/%D8%B3%D9%83%D9%8A%D8%AA%D9%84%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D9%81%D9%88%D8%A7%D9%83%D9%87-38-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 3.75
+    "price": 3.75,
+    "description": "حلوى سكيتلز بنكهات الفواكه الملونة، تقدم تجربة مضغ ممتعة ومنعشة."
   },
   {
     "name": "بورجات حلاوة جلي كيك 100 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106570/%D8%A8%D9%88%D8%B1%D8%AC%D8%A7%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D9%83%D9%8A%D9%83-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.75
+    "price": 4.75,
+    "description": "حلاوة بورجات جلي على شكل كيك، بنكهات فواكه ممتعة ومضغ مرن."
   },
   {
     "name": "جلاكسي ميني شوكولاتة بجوز الهند 162.5 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106571/%D8%AC%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D9%85%D9%8A%D9%86%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%AC%D9%88%D8%B2-%D8%A7%D9%84%D9%87%D9%86%D8%AF-1625-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 18.95
+    "price": 18.95,
+    "description": "جلاكسي ميني بجوز الهند، قطع صغيرة مغطاة بشوكولاتة الحليب بنكهة استوائية."
   },
   {
     "name": "ويرثرز أوريجينال حلوى بالكريمة 50 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106572/%D9%88%D9%8A%D8%B1%D8%AB%D8%B1%D8%B2-%D8%A3%D9%88%D8%B1%D9%8A%D8%AC%D9%8A%D9%86%D8%A7%D9%84-%D8%AD%D9%84%D9%88%D9%89-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D8%A9-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 3.75
+    "price": 3.75,
+    "description": "حلوى ويرثرز أوريجينال بالكريمة الناعمة، مثالية للحظات الحلوة الصغيرة."
   },
   {
     "name": "هاريبو حلوى جيلي نكهة توت 175 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106573/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D9%8A-%D9%86%D9%83%D9%87%D8%A9-%D8%AA%D9%88%D8%AA-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11.25
+    "price": 11.25,
+    "description": "حلوى هاريبو جيلي بنكهة التوت المنعشة، تقدم تجربة مضغ ممتعة ومليئة بالنكهة."
   },
   {
     "name": "ريجليز إكسترا علكة بطعم الفراولة خالية من السكر 84جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106574/%D8%B1%D9%8A%D8%AC%D9%84%D9%8A%D8%B2-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-84%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 16.95
+    "price": 16.95,
+    "description": "علكة خالية من السكر بنكهة الفراولة المنعشة، مثالية للاستمتاع بطعم لذيذ دون القلق بشأن السكر."
   },
   {
     "name": "كت كات ويفر بشوكولاتة الحليب، اصبعين، 20.5 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106576/%D9%83%D8%AA-%D9%83%D8%A7%D8%AA-%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A7%D8%B5%D8%A8%D8%B9%D9%8A%D9%86-205-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 2
+    "price": 2,
+    "description": "ويفر مقرمش مغطى بشوكولاتة الحليب الكريمية، مثالي لتناول وجبة خفيفة سريعة ولذيذة."
   },
   {
     "name": "ريتر شوكولاتة بالكورنفليكس المقرمشة 100 جرام",
@@ -1221,23 +1339,24 @@
     ],
     "discount": 30,
     "price": 22,
-    "discounted_price": 15.45
+    "description": "شوكولاتة غنية ممزوجة بقطع الكورنفليكس المقرمشة، تقدم تجربة طعم فريدة وممتعة."
   },
   {
     "name": "كافندش اند هارفي حلوى المانية بالكرز الحامض 200 جرام",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106578/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D8%B4-%D8%A7%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%B2-%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%B6-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image{KLID}upload/v1745106578/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D8%B4-%D8%A7%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%B2-%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%B6-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 20,
     "price": 14.95,
-    "discounted_price": 11.95
+    "description": "حلوى ألمانية فاخرة بنكهة الكرز الحامض، تقدم توازنًا مثاليًا بين الحلاوة والحموضة."
   },
   {
     "name": "جالكسي شوكولاتة بالفواكه والمكسرات 36 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106579/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B3%D8%B1%D8%A7%D8%AA-36-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 3.75
+    "price": 3.75,
+    "description": "شوكولاتة جالكسي الكريمية مع قطع الفواكه المجففة والمكسرات المقرمشة، لتجربة غنية ومميزة."
   },
   {
     "name": "كافنديش آند هارفي سكاكر مص بالتوت البري خالية من السكر 175 جرام",
@@ -1246,42 +1365,47 @@
     ],
     "discount": 17,
     "price": 19.25,
-    "discounted_price": 15.95
+    "description": "سكاكر مص خالية من السكر بنكهة التوت البري المنعشة، مثالية لمحبي الحلوى الصحية."
   },
   {
     "name": "نستله® كيت كات® - حقيبة صغيرة تشانكي، شوكولاتة بالحليب، 20 × 176 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106581/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D8%AD%D9%82%D9%8A%D8%A8%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-%D8%AA%D8%B4%D8%A7%D9%86%D9%83%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-20-176-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 19.5
+    "price": 19.5,
+    "description": "حقيبة صغيرة تحتوي على قطع كيت كات تشانكي المغطاة بشوكولاتة الحليب، مثالية للمشاركة."
   },
   {
     "name": "هيرشيز ريسيزشوكولاته بالفول السوداني 47 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106582/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A%D8%B2-%D8%B1%D9%8A%D8%B3%D9%8A%D8%B2%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-47-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.75
+    "price": 4.75,
+    "description": "شوكولاتة هيرشيز ريسيس المحشوة بزبدة الفول السوداني الكريمية، مزيج مثالي من النكهات."
   },
   {
     "name": "ريغليز علكة خالية من السكر بالبطيخ 14 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106583/%D8%B1%D9%8A%D8%BA%D9%84%D9%8A%D8%B2-%D8%B9%D9%84%D9%83%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%A8%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE-14-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 2.75
+    "price": 2.75,
+    "description": "علكة خالية من السكر بنكهة البطيخ العصيرية، مثالية للحظات الانتعاش السريعة."
   },
   {
     "name": "مستر بيست فيستابلز شوكولاتة باللوز 60 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106585/%D9%85%D8%B3%D8%AA%D8%B1-%D8%A8%D9%8A%D8%B3%D8%AA-%D9%81%D9%8A%D8%B3%D8%AA%D8%A7%D8%A8%D9%84%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%84%D9%88%D8%B2-60-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 19.95
+    "price": 19.95,
+    "description": "شوكولاتة فاخرة من مستر بيست مع قطع اللوز المقرمشة، تقدم تجربة غنية ومميزة."
   },
   {
     "name": "بيكميت حلوى إكلير بالشوكولاتة 1000 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106586/%D8%A8%D9%8A%D9%83%D9%85%D9%8A%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%A5%D9%83%D9%84%D9%8A%D8%B1-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 35.25
+    "price": 35.25,
+    "description": "حلوى إكلير مغطاة بالشوكولاتة، مثالية للحفلات والمناسبات الكبيرة بحجم عائلي."
   },
   {
     "name": "بازوكا بيج بيبي بوبي حلوى بنكهة التوت الأزرق و الزبيب الأسود 32 جرام",
@@ -1290,56 +1414,63 @@
     ],
     "discount": 8,
     "price": 7,
-    "discounted_price": 6.45
+    "description": "حلوى بازوكا بنكهة التوت الأزرق والزبيب الأسود، تقدم مزيجًا منعشًا وممتعًا."
   },
   {
     "name": "لواكر كريم شوكولاتة الحليب كاكاو 55 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106588/%D9%84%D9%88%D8%A7%D9%83%D8%B1-%D9%83%D8%B1%D9%8A%D9%85-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%83%D8%A7%D9%83%D8%A7%D9%88-55-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.5
+    "price": 13.5,
+    "description": "ويفر لواكر المقرمش بحشوة كريمة شوكولاتة الحليب والكاكاو، مثالي لمحبي النكهات الكلاسيكية."
   },
   {
     "name": "بورقات حلاوة جلي بمبل بير 175 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106590/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D8%A8%D9%85%D8%A8%D9%84-%D8%A8%D9%8A%D8%B1-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.95
+    "price": 8.95,
+    "description": "حلوى جلي بنكهة التوت البري، تقدم تجربة مضغ ممتعة ومنعشة."
   },
   {
     "name": "كوانتا أدور شوكولاتة بالحليب 32 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106591/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D8%A3%D8%AF%D9%88%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-32-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 1.25
+    "price": 1.25,
+    "description": "شوكولاتة بالحليب الناعمة، مثالية للحظات الحلوة السريعة."
   },
   {
     "name": "بورقات مصاصة حامضة بطعم البرتقال والتوت البري 162جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106592/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D9%85%D8%B5%D8%A7%D8%B5%D8%A9-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D9%82%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A-162%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7.5
+    "price": 7.5,
+    "description": "مصاصات حامضة بنكهة البرتقال والتوت البري، تقدم تجربة منعشة وحيوية."
   },
   {
     "name": "7 ستيك - جيلي وورمز جيلاتينية 120جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106593/7-%D8%B3%D8%AA%D9%8A%D9%83-%D8%AC%D9%8A%D9%84%D9%8A-%D9%88%D9%88%D8%B1%D9%85%D8%B2-%D8%AC%D9%8A%D9%84%D8%A7%D8%AA%D9%8A%D9%86%D9%8A%D8%A9-120%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.5
+    "price": 6.5,
+    "description": "حلوى جيلي على شكل ديدان بنكهات متنوعة، ممتعة للأطفال والكبار على حد سواء."
   },
   {
     "name": "ريسيس شوكولاته بار 47 جرام x 18",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106594/%D8%B1%D9%8A%D8%B3%D9%8A%D8%B3-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D8%B1-47-%D8%AC%D8%B1%D8%A7%D9%85-x-18.jpg.jpg"
     ],
-    "price": 82.25
+    "price": 82.25,
+    "description": "عبوة تحتوي على 18 بار ريسيس محشو بزبدة الفول السوداني، مثالية للمشاركة أو التخزين."
   },
   {
     "name": "حافل فادج بنكهة القهوة السعودية 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106596/%D8%AD%D8%A7%D9%81%D9%84-%D9%81%D8%A7%D8%AF%D8%AC-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 17.5
+    "price": 17.5,
+    "description": "فادج ناعم بنكهة القهوة السعودية الأصيلة، يقدم تجربة حلوة مميزة."
   },
   {
     "name": "ريتر سبورت شوكولاتة بالحليب مع سمارتيس، 100 جرام",
@@ -1348,35 +1479,35 @@
     ],
     "discount": 23,
     "price": 19.5,
-    "discounted_price": 14.95
+    "description": "شوكولاتة بالحليب ممزوجة بحبات سمارتيس الملونة، تقدم مزيجًا ممتعًا من النكهات."
   },
   {
-    "name": "ريجلي علكة بنكهة البطيخ 14.4 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106598/%D8%B1%D9%8A%D8%AC%D9%84%D9%8A-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE-144-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "علكة بنكهة البطيخ العصيرية من ريجلي، مثالية للحظات الانتعاش اليومية."
   },
   {
     "name": "ايس بريكرز حلوى حامضة بالبطيخ و التفاح الاخضر 42 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106600/%D8%A7%D9%8A%D8%B3-%D8%A8%D8%B1%D9%8A%D9%83%D8%B1%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE-%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D8%A7%D9%84%D8%A7%D8%AE%D8%B6%D8%B1-42-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.95
+    "price": 10.95,
+    "description": "حلوى حامضة بنكهة البطيخ والتفاح الأخضر، تقدم تجربة منعشة وحيوية."
   },
   {
     "name": "جالكسي شوكولاتة داكنة 40 جرام 24 حبة",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106601/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-40-%D8%AC%D8%B1%D8%A7%D9%85-24-%D8%AD%D8%A8%D8%A9.jpg.jpg"
     ],
-    "price": 92.5
+    "price": 92.5,
+    "description": "عبوة تحتوي على 24 قطعة من شوكولاتة جالكسي الداكنة، مثالية لمحبي النكهات الغنية."
   },
   {
     "name": "بازوكا حلاو بنكهة الفراولة و الكولا 15 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106602/%D8%A8%D8%A7%D8%B2%D9%88%D9%83%D8%A7-%D8%AD%D9%84%D8%A7%D9%88-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%88-%D8%A7%D9%84%D9%83%D9%88%D9%84%D8%A7-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.4
+    "price": 4.4,
+    "description": "حلوى بازوكا بنكهة الفراولة والكولا، تقدم مزيجًا ممتعًا ومنعشًا."
   },
   {
     "name": "كافندش اند هارفي حلوى المانية بالقهوة 200 جرام",
@@ -1385,28 +1516,31 @@
     ],
     "discount": 20,
     "price": 14.95,
-    "discounted_price": 11.95
+    "description": "حلوى ألمانية فاخرة بنكهة القهوة الغنية، مثالية لمحبي النكهات العميقة."
   },
   {
     "name": "بورقات حلوى جيلي بالكولا 80جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106605/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D9%8A-%D8%A8%D8%A7%D9%84%D9%83%D9%88%D9%84%D8%A7-80%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.75
+    "price": 5.75,
+    "description": "حلوى جيلي بنكهة الكولا الفوارة، تقدم تجربة مضغ ممتعة ومنعشة."
   },
   {
     "name": "كاندي كيتنز، حلوى فيغان وايلد ستروبري معسلة، 140 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106606/%D9%83%D8%A7%D9%86%D8%AF%D9%8A-%D9%83%D9%8A%D8%AA%D9%86%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D9%81%D9%8A%D8%BA%D8%A7%D9%86-%D9%88%D8%A7%D9%8A%D9%84%D8%AF-%D8%B3%D8%AA%D8%B1%D9%88%D8%A8%D8%B1%D9%8A-%D9%85%D8%B9%D8%B3%D9%84%D8%A9-140-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 23.5
+    "price": 23.5,
+    "description": "حلوى فيغان بنكهة الفراولة البرية المعسلة، مثالية لمحبي الحلويات النباتية."
   },
   {
     "name": "جنجربن، حلوى الزنجبيل 125 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106607/%D8%AC%D9%86%D8%AC%D8%B1%D8%A8%D9%86-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D8%B2%D9%86%D8%AC%D8%A8%D9%8A%D9%84-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.75
+    "price": 8.75,
+    "description": "حلوى الزنجبيل المنعشة، تقدم نكهة دافئة وحيوية مثالية لجميع الأوقات."
   },
   {
     "name": "ليندت شوكولاتة بالحليب مع البندق 100 جرام",
@@ -1415,14 +1549,15 @@
     ],
     "discount": 25,
     "price": 28,
-    "discounted_price": 20.95
+    "description": "شوكولاتة ليندت الفاخرة بالحليب مع قطع البندق المقرمشة، لتجربة غنية ومميزة."
   },
   {
     "name": "هاريبو شامالوز عبوة الحفلات 150جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106610/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D8%B4%D8%A7%D9%85%D8%A7%D9%84%D9%88%D8%B2-%D8%B9%D8%A8%D9%88%D8%A9-%D8%A7%D9%84%D8%AD%D9%81%D9%84%D8%A7%D8%AA-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "حلوى مارشميلو ناعمة من هاريبو، مثالية للحفلات والمناسبات الخاصة."
   },
   {
     "name": "كافنديش اند هارفي حلوى بالتوت البري 175 جرام",
@@ -1431,14 +1566,15 @@
     ],
     "discount": 20,
     "price": 14.95,
-    "discounted_price": 11.95
+    "description": "حلوى فاخرة بنكهة التوت البري المنعشة، تقدم تجربة حلوة ومميزة."
   },
   {
     "name": "كيت كات بالقهوة - 4 أصابع 36.5 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106613/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-4-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-365-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "كيت كات بأربعة أصابع بنكهة القهوة الغنية، مثالية لمحبي الشوكولاتة والقهوة."
   },
   {
     "name": "بازوكا حلوى بنكهة التوت الأزرق 26 جرام",
@@ -1447,42 +1583,47 @@
     ],
     "discount": 10,
     "price": 10.5,
-    "discounted_price": 9.45
+    "description": "حلوى بازوكا بنكهة التوت الأزرق المنعشة، مثالية للحظات الحلوة."
   },
   {
     "name": "جالاكسي مينيز شوكولاتة بالحليب وقطع الفراولة (13 قطعة) 162.5جرام",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106615/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D9%85%D9%8A%D9%86%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-13-%D9%82%D8%B7%D8%B9%D8%A9-1625%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106615/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D9%85%D9%8A%D9%86%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A1%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-13-%D9%82%D8%B7%D8%B9%D8%A9-1625%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 21.5
+    "price": 21.5,
+    "description": "شوكولاتة جالاكسي مينيز بالحليب مع قطع الفراولة، مثالية للمشاركة أو الاستمتاع الفردي."
   },
   {
     "name": "بورقات حلاوة جلي كيك 175 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106617/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D9%83%D9%8A%D9%83-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.95
+    "price": 8.95,
+    "description": "حلوى جلي بنكهة الكيك اللذيذة، تقدم تجربة مضغ ممتعة ومميزة."
   },
   {
     "name": "أركور بون أو بون، شوكولاتة بحشوة كريمة الكوكيز، 150جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106619/%D8%A3%D8%B1%D9%83%D9%88%D8%B1-%D8%A8%D9%88%D9%86-%D8%A3%D9%88-%D8%A8%D9%88%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%83%D9%8A%D8%B2-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "شوكولاتة بون أو بون بحشوة كريمة الكوكيز، تقدم مزيجًا رائعًا من النكهات."
   },
   {
     "name": "هيرشيز شوكولاتة بيضاء بقطع البسكويت 12.76 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106621/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%A8%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-1276-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 1.5
+    "price": 1.5,
+    "description": "شوكولاتة بيضاء من هيرشيز مع قطع البسكويت المقرمشة، مثالية لمحبي النكهات الناعمة."
   },
   {
     "name": "كادبوري بابلي شوكولاتة 87 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106623/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%A8%D8%A7%D8%A8%D9%84%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-87-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.25
+    "price": 8.25,
+    "description": "شوكولاتة كادبوري بابلي الهوائية، تقدم تجربة خفيفة وممتعة مع كل قضمة."
   },
   {
     "name": "سفن ستيك حلوى جيلي على شكل حلقات 80 جرام",
@@ -1491,28 +1632,31 @@
     ],
     "discount": 21,
     "price": 5,
-    "discounted_price": 3.95
+    "description": "حلوى جيلي على شكل حلقات بنكهات متنوعة، ممتعة ومثالية لجميع الأعمار."
   },
   {
     "name": "سويت زون حلوى على شكل قلوب 170 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106626/%D8%B3%D9%88%D9%8A%D8%AA-%D8%B2%D9%88%D9%86-%D8%AD%D9%84%D9%88%D9%89-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D9%82%D9%84%D9%88%D8%A8-170-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8
+    "price": 8,
+    "description": "حلوى جيلي على شكل قلوب بنكهات فواكه متنوعة، مثالية للمشاركة في المناسبات."
   },
   {
     "name": "جوديفا شكولاتة الداكنة مع حشوة الغاناش 30 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106627/%D8%AC%D9%88%D8%AF%D9%8A%D9%81%D8%A7-%D8%B4%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D9%83%D9%86%D8%A9-%D9%85%D8%B9-%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D8%BA%D8%A7%D9%86%D8%A7%D8%B4-30-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.5
+    "price": 5.5,
+    "description": "شوكولاتة جوديفا الداكنة الفاخرة بحشوة الغاناش الناعمة، لتجربة راقية."
   },
   {
     "name": "ترولي حلوى جلي التوت البري 100 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106630/%D8%AA%D8%B1%D9%88%D9%84%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%84%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6
+    "price": 6,
+    "description": "حلوى جيلي بنكهة التوت البري من ترولي، تقدم تجربة مضغ ممتعة ومنعشة."
   },
   {
     "name": "كافينيش آند هارفي - حلوى فواكه مشكلة خالية من السكر 175 جرام",
@@ -1521,42 +1665,47 @@
     ],
     "discount": 17,
     "price": 19.25,
-    "discounted_price": 15.95
+    "description": "حلوى خالية من السكر بنكهات فواكه مشكلة، مثالية لمحبي الحلويات الصحية."
   },
   {
     "name": "نستله - تولا مينياتشرز بزبدة الفول السوداني 120 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106633/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D8%AA%D9%88%D9%84%D8%A7-%D9%85%D9%8A%D9%86%D9%8A%D8%A7%D8%AA%D8%B4%D8%B1%D8%B2-%D8%A8%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13
+    "price": 13,
+    "description": "شوكولاتة تولا ميني بحشوة زبدة الفول السوداني، مثالية للحظات الحلوة."
   },
   {
     "name": "سكيتلز - بنكهات الحلويات 152جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106634/%D8%B3%D9%83%D9%8A%D8%AA%D9%84%D8%B2-%D8%A8%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%8A%D8%A7%D8%AA-152%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11.95
+    "price": 11.95,
+    "description": "حلوى سكيتلز بنكهات الحلويات المتنوعة، تقدم تجربة ملونة وممتعة."
   },
   {
     "name": "كافنديش اند هارفي حلوى التوت 175 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106635/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D9%8A%D8%B4-%D8%A7%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 23.95
+    "price": 23.95,
+    "description": "حلوى فاخرة بنكهة التوت المنعشة، تقدم تجربة حلوة ومميزة."
   },
   {
     "name": "ستاربرست حلوى مضغ بنكهة الفواكه الأصلية 127 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106637/%D8%B3%D8%AA%D8%A7%D8%B1%D8%A8%D8%B1%D8%B3%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D9%85%D8%B6%D8%BA-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-127-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11.95
+    "price": 11.95,
+    "description": "حلوى ستاربرست المضغوطة بنكهات الفواكه الأصلية، تقدم تجربة مليئة بالنكهات."
   },
   {
     "name": "ليندت ويفر شوكولاتة الحليب 104جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106638/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D9%88%D9%8A%D9%81%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-104%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 33
+    "price": 33,
+    "description": "ويفر ليندت المقرمش مغطى بشوكولاتة الحليب الفاخرة، لتجربة غنية ومميزة."
   },
   {
     "name": "ريتر سبورت نوغة بحشوة البرالين 100 جرام",
@@ -1565,14 +1714,15 @@
     ],
     "discount": 15,
     "price": 16.5,
-    "discounted_price": 13.95
+    "description": "شوكولاتة ريتر سبورت بحشوة نوغة البرالين الكريمية، تقدم تجربة حلوة فاخرة."
   },
   {
     "name": "ريتر سبورت شوكولاتة بالمكسرات - 116 غرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106640/%D8%B1%D9%8A%D8%AA%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%83%D8%B3%D8%B1%D8%A7%D8%AA-116-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 25.25
+    "price": 25.25,
+    "description": "شوكولاتة ريتر سبورت مع مزيج من المكسرات المقرمشة، لتجربة غنية وممتعة."
   },
   {
     "name": "بازوكا جوسي دروب بلاستس حلوى للمضغ 120 جرام",
@@ -1581,1246 +1731,55 @@
     ],
     "discount": 21,
     "price": 8.75,
-    "discounted_price": 6.95
+    "description": "حلوى بازوكا المضغوطة بنكهات عصيرية متنوعة، مثالية للحظات المرح."
   },
   {
     "name": "تيفاني بريك ويفر بشوكولاتة الحليب 25 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106643/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-25-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 1.45
+    "price": 1.45,
+    "description": "ويفر تيفاني المقرمش مغطى بشوكولاتة الحليب، مثالي لوجبة خفيفة سريعة."
   },
   {
     "name": "بورقات فيوجن نومي علك بطعم التوت 15 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106645/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D9%81%D9%8A%D9%88%D8%AC%D9%86-%D9%86%D9%88%D9%85%D9%8A-%D8%B9%D9%84%D9%83-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-15-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 2
+    "price": 2,
+    "description": "علك بطعم التوت المنعش من بورقات، مثالي للحظات الانتعاش اليومية."
   },
   {
     "name": "هاريبو حلوى ديدان حلاوة جيلي 80 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106646/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D8%AD%D9%84%D9%88%D9%89-%D8%AF%D9%8A%D8%AF%D8%A7%D9%86-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%8A%D9%84%D9%8A-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7.25
-  },
-  {
-    "name": "سكيتلز حلوى حامضة 38 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106647/%D8%B3%D9%83%D9%8A%D8%AA%D9%84%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-38-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.75
-  },
-  {
-    "name": "هاريبو فانتازيا حلوي 80جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106648/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D9%81%D8%A7%D9%86%D8%AA%D8%A7%D8%B2%D9%8A%D8%A7-%D8%AD%D9%84%D9%88%D9%8A-80%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6.5
-  },
-  {
-    "name": "ليندت شوكولاتة داكنة مع 34% بندق 150 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106649/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-%D9%85%D8%B9-34-%D8%A8%D9%86%D8%AF%D9%82-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 17,
-    "price": 43.25,
-    "discounted_price": 35.95
-  },
-  {
-    "name": "نوفا علكة بنكهة الفواكه 11.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106650/%D9%86%D9%88%D9%81%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-115-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1
-  },
-  {
-    "name": "في جام - علكة بنكهة النعناع البارد الطازج الخالية من السكر 20 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106651/%D9%81%D9%8A-%D8%AC%D8%A7%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC-%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 9.5
-  },
-  {
-    "name": "ستاربرست حلوى فاف ريدز للمضغ بنكهات الفواكه 127 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106653/%D8%B3%D8%AA%D8%A7%D8%B1%D8%A8%D8%B1%D8%B3%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D9%81%D8%A7%D9%81-%D8%B1%D9%8A%D8%AF%D8%B2-%D9%84%D9%84%D9%85%D8%B6%D8%BA-%D8%A8%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-127-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 11.95
-  },
-  {
-    "name": "بورجات - سباغيتي كاندي حلوة وحامضة بنكهة التفاح الأخضر 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106654/%D8%A8%D9%88%D8%B1%D8%AC%D8%A7%D8%AA-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-%D9%83%D8%A7%D9%86%D8%AF%D9%8A-%D8%AD%D9%84%D9%88%D8%A9-%D9%88%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 5.75
-  },
-  {
-    "name": "ويرذرز أوريجنال حلوى كريميه بالقهوة 50 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106655/%D9%88%D9%8A%D8%B1%D8%B0%D8%B1%D8%B2-%D8%A3%D9%88%D8%B1%D9%8A%D8%AC%D9%86%D8%A7%D9%84-%D8%AD%D9%84%D9%88%D9%89-%D9%83%D8%B1%D9%8A%D9%85%D9%8A%D9%87-%D8%A8%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.75
-  },
-  {
-    "name": "تويكس توب بسكويت مغطى بالكراميل وشوكولاتة الحليب 21جرام ×20",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106656/%D8%AA%D9%88%D9%8A%D9%83%D8%B3-%D8%AA%D9%88%D8%A8-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D9%85%D8%BA%D8%B7%D9%89-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%88%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-21%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
-    ],
-    "price": 41.25
-  },
-  {
-    "name": "دايم عبوة 3 قطع، 84 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106658/%D8%AF%D8%A7%D9%8A%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-3-%D9%82%D8%B7%D8%B9-84-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 14
-  },
-  {
-    "name": "بورقات مو مصاصة بطعم الفراولة والشوكولاتة 162جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106659/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D9%85%D9%88-%D9%85%D8%B5%D8%A7%D8%B5%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-162%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 7.5
-  },
-  {
-    "name": "بورقات سور باور ميني بنكهة الفراولة 150 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106660/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%B3%D9%88%D8%B1-%D8%A8%D8%A7%D9%88%D8%B1-%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 8.95
-  },
-  {
-    "name": "كافندش آند هارفي سكاكر بطعم الخوخ والتوت الأحمر 175جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106662/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D8%B4-%D8%A2%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%B3%D9%83%D8%A7%D9%83%D8%B1-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AE%D9%88%D8%AE-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-175%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 13,
-    "price": 13.75,
-    "discounted_price": 11.95
-  },
-  {
-    "name": "ساور باز حلوى حامضة بنكهة السباغيتي والفراولة 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106663/%D8%B3%D8%A7%D9%88%D8%B1-%D8%A8%D8%A7%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-%D9%88%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6
-  },
-  {
-    "name": "نوفا علكة بنكهة البطيخ 11.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106665/%D9%86%D9%88%D9%81%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE-115-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1
-  },
-  {
-    "name": "هاملت شوكولاتة مقرمشة 125 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106666/%D9%87%D8%A7%D9%85%D9%84%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 19,
-    "price": 29,
-    "discounted_price": 23.45
-  },
-  {
-    "name": "تيفاني بريك بسكويت شوكولاتة 30جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106667/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-30%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.45
-  },
-  {
-    "name": "ليندت ليه غرانديس 32٪ شوكولاتة بيضاء لوز 150 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106668/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D9%84%D9%8A%D9%87-%D8%BA%D8%B1%D8%A7%D9%86%D8%AF%D9%8A%D8%B3-32-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D9%84%D9%88%D8%B2-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 44.75
-  },
-  {
-    "name": "بورقات حلوى الأصابع الحامضة بنكهات مختلفة 75 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106669/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.75
-  },
-  {
-    "name": "بلجين ميني براونيز  176 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106671/%D8%A8%D9%84%D8%AC%D9%8A%D9%86-%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D8%B1%D8%A7%D9%88%D9%86%D9%8A%D8%B2-176-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 34.75
-  },
-  {
-    "name": "سكيتلز نكهات استوائية كيس 152 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106672/%D8%B3%D9%83%D9%8A%D8%AA%D9%84%D8%B2-%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D8%A7%D8%B3%D8%AA%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D9%83%D9%8A%D8%B3-152-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 11.95
-  },
-  {
-    "name": "يم إيرث فروت تشيوز حلوى عضوية بطعم الفواكه 57جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106673/%D9%8A%D9%85-%D8%A5%D9%8A%D8%B1%D8%AB-%D9%81%D8%B1%D9%88%D8%AA-%D8%AA%D8%B4%D9%8A%D9%88%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-57%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 10.75
-  },
-  {
-    "name": "بيك ميت إكلير، حلوى بالكراميل 500 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106674/%D8%A8%D9%8A%D9%83-%D9%85%D9%8A%D8%AA-%D8%A5%D9%83%D9%84%D9%8A%D8%B1-%D8%AD%D9%84%D9%88%D9%89-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 18.5
-  },
-  {
-    "name": "جالكسي فيوجن شوكولاتة شقراء مع ملح البحر 35 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106675/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D9%81%D9%8A%D9%88%D8%AC%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%B4%D9%82%D8%B1%D8%A7%D8%A1-%D9%85%D8%B9-%D9%85%D9%84%D8%AD-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 5.75
-  },
-  {
-    "name": "جالكسي شوكولاتة داكنة 40 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106676/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.95
-  },
-  {
-    "name": "كيت كات 4 أصابع شوكولاته بالحليب 41.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106677/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-4-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-415-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3
-  },
-  {
-    "name": "إكلير بيكميت - حلوى الكراميل مع حشوة الشوكولاتة 1000 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106678/%D8%A5%D9%83%D9%84%D9%8A%D8%B1-%D8%A8%D9%8A%D9%83%D9%85%D9%8A%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D8%B9-%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 35.25
-  },
-  {
-    "name": "نوفاجام علكة بنكهة القرفة 11.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106679/%D9%86%D9%88%D9%81%D8%A7%D8%AC%D8%A7%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%82%D8%B1%D9%81%D8%A9-115-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1
-  },
-  {
-    "name": "هيرشي كوكيز آن كريم لفائف ويفر بالشوكولاتة 18 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106680/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A-%D9%83%D9%88%D9%83%D9%8A%D8%B2-%D8%A2%D9%86-%D9%83%D8%B1%D9%8A%D9%85-%D9%84%D9%81%D8%A7%D8%A6%D9%81-%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 2.25
-  },
-  {
-    "name": "جالاكسي شوكولاتة بالحليب وجوز الهند 36 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106681/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D8%AC%D9%88%D8%B2-%D8%A7%D9%84%D9%87%D9%86%D8%AF-36-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.75
-  },
-  {
-    "name": "ليون لوح شوكلاته 60 جرام × 2 قطع",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106682/%D9%84%D9%8A%D9%88%D9%86-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-60-%D8%AC%D8%B1%D8%A7%D9%85-2-%D9%82%D8%B7%D8%B9.jpg.jpg"
-    ],
-    "discount": 17,
-    "price": 6,
-    "discounted_price": 4.95
-  },
-  {
-    "name": "بورقات® حلوى حامضة ستيكس محشوة بنكهات متعددة  80 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106684/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-%D9%85%D8%AD%D8%B4%D9%88%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6.95
-  },
-  {
-    "name": "هاريبو حلوى الجيلاتين بشكل الديدان 160 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106685/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D8%AC%D9%8A%D9%84%D8%A7%D8%AA%D9%8A%D9%86-%D8%A8%D8%B4%D9%83%D9%84-%D8%A7%D9%84%D8%AF%D9%8A%D8%AF%D8%A7%D9%86-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 12.5
-  },
-  {
-    "name": "يم إيرث جيجلز حلوى مضغ - عضوية  56.7جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106686/%D9%8A%D9%85-%D8%A5%D9%8A%D8%B1%D8%AB-%D8%AC%D9%8A%D8%AC%D9%84%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D9%85%D8%B6%D8%BA-%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-567%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 10.75
-  },
-  {
-    "name": "راتلرز حلاو فروتي 40 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106687/%D8%B1%D8%A7%D8%AA%D9%84%D8%B1%D8%B2-%D8%AD%D9%84%D8%A7%D9%88-%D9%81%D8%B1%D9%88%D8%AA%D9%8A-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.5
-  },
-  {
-    "name": "تشويتس اكستريم بايتس حلوى بطعم التوت 165 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106688/%D8%AA%D8%B4%D9%88%D9%8A%D8%AA%D8%B3-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D9%8A%D9%85-%D8%A8%D8%A7%D9%8A%D8%AA%D8%B3-%D8%AD%D9%84%D9%88%D9%89-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-165-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 13.5
-  },
-  {
-    "name": "اكسترا علكة خالية من السكر بنكهات الفواكه والنعناع 14 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106689/%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D9%88%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-14-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3
-  },
-  {
-    "name": "هاريبو هابي كولا حلاوة جيلي 160 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106691/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D9%87%D8%A7%D8%A8%D9%8A-%D9%83%D9%88%D9%84%D8%A7-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%8A%D9%84%D9%8A-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 12.5
-  },
-  {
-    "name": "ويرذرز أوريجنال إكلير 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106692/%D9%88%D9%8A%D8%B1%D8%B0%D8%B1%D8%B2-%D8%A3%D9%88%D8%B1%D9%8A%D8%AC%D9%86%D8%A7%D9%84-%D8%A5%D9%83%D9%84%D9%8A%D8%B1-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 11.75
-  },
-  {
-    "name": "هاريبو فيز ميكس حامض 150 جرام حلوى جيلي بنكهة الفاكهة يحبها الاطفال والكبار",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106693/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D9%81%D9%8A%D8%B2-%D9%85%D9%8A%D9%83%D8%B3-%D8%AD%D8%A7%D9%85%D8%B6-150-%D8%AC%D8%B1%D8%A7%D9%85-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D9%8A-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D8%A7%D9%83%D9%87%D8%A9-%D9%8A%D8%AD%D8%A8%D9%87%D8%A7-%D8%A7%D9%84%D8%A7%D8%B7%D9%81%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D9%83%D8%A8%D8%A7%D8%B1.jpg.jpg"
-    ],
-    "price": 13.25
-  },
-  {
-    "name": "بازوكا سبلاشز تروبيكال بانش حلوى بعصارة الفواكه  120 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106694/%D8%A8%D8%A7%D8%B2%D9%88%D9%83%D8%A7-%D8%B3%D8%A8%D9%84%D8%A7%D8%B4%D8%B2-%D8%AA%D8%B1%D9%88%D8%A8%D9%8A%D9%83%D8%A7%D9%84-%D8%A8%D8%A7%D9%86%D8%B4-%D8%AD%D9%84%D9%88%D9%89-%D8%A8%D8%B9%D8%B5%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 25,
-    "price": 9.25,
-    "discounted_price": 6.95
-  },
-  {
-    "name": "هاريبو توت حلاوة جيلي 160 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106695/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D8%AA%D9%88%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%8A%D9%84%D9%8A-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 11.75
-  },
-  {
-    "name": "تيفاني بيغ بريك ويفر بالشوكولاتة 31جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106697/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%A8%D9%8A%D8%BA-%D8%A8%D8%B1%D9%8A%D9%83-%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-31%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.45
-  },
-  {
-    "name": "بلجيان، شوكولاتة على شكل قلوب 65جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106698/%D8%A8%D9%84%D8%AC%D9%8A%D8%A7%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D9%82%D9%84%D9%88%D8%A8-65%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 19
-  },
-  {
-    "name": "هاريبو حلاو كولا 175 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106699/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D8%AD%D9%84%D8%A7%D9%88-%D9%83%D9%88%D9%84%D8%A7-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 11.25
-  },
-  {
-    "name": "المونداي شوكولاتة حليب مع لوز محمص 35 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106700/%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D8%A7%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D8%B9-%D9%84%D9%88%D8%B2-%D9%85%D8%AD%D9%85%D8%B5-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.5
-  },
-  {
-    "name": "سكيتلز حلوى بتشكيلة بنكهة الفواكه الاستوائية 38 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106704/%D8%B3%D9%83%D9%8A%D8%AA%D9%84%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%A8%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-38-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.75
-  },
-  {
-    "name": "كادبوري لوح شوكولاتة بالكراميل 120 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106706/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 8.5
-  },
-  {
-    "name": "كافنديش آند هارفي حلوى 2 في 1 بالكشمش الأسود والتفاح حبات الفاكهة المزدوجة 175 غرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106707/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D9%8A%D8%B4-%D8%A2%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-2-%D9%81%D9%8A-1-%D8%A8%D8%A7%D9%84%D9%83%D8%B4%D9%85%D8%B4-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-%D9%88%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D8%AD%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D8%A7%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D8%B2%D8%AF%D9%88%D8%AC%D8%A9-175-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 16,
-    "price": 14.25,
-    "discounted_price": 11.95
-  },
-  {
-    "name": "كاندريل  74g",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106708/%D9%83%D8%A7%D9%86%D8%AF%D8%B1%D9%8A%D9%84-74g.jpg.jpg"
-    ],
-    "price": 24.5
-  },
-  {
-    "name": "في-جام علكة سوداء بالقرفة خالية من السكر - بالفحم والكالسيوم الأسود والشاي الأخضر، عبوة 20 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106710/%D9%81%D9%8A-%D8%AC%D8%A7%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D9%82%D8%B1%D9%81%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%A8%D8%A7%D9%84%D9%81%D8%AD%D9%85-%D9%88%D8%A7%D9%84%D9%83%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-%D9%88%D8%A7%D9%84%D8%B4%D8%A7%D9%8A-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%B9%D8%A8%D9%88%D8%A9-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 5
-  },
-  {
-    "name": "أولكر ألبيني بسكويت مع حشوة الكراميل 72 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106711/%D8%A3%D9%88%D9%84%D9%83%D8%B1-%D8%A3%D9%84%D8%A8%D9%8A%D9%86%D9%8A-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D9%85%D8%B9-%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-72-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.75
-  },
-  {
-    "name": "مينتوس - علكة التفاح الأخضر 45 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106712/%D9%85%D9%8A%D9%86%D8%AA%D9%88%D8%B3-%D8%B9%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.25
-  },
-  {
-    "name": "كادبوري دايري ميلك بالفواكه والمكسرات 49 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106713/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%AF%D8%A7%D9%8A%D8%B1%D9%8A-%D9%85%D9%8A%D9%84%D9%83-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B3%D8%B1%D8%A7%D8%AA-49-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.5
-  },
-  {
-    "name": "هيرشيز شوكولاتة بالحليب بقطع البسكويت 12.76 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106714/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A8%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-1276-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.5
-  },
-  {
-    "name": "كافندش اند هارفي حلوى المانية بالمانجو والكيوي 200 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106715/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D8%B4-%D8%A7%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%88%D8%A7%D9%84%D9%83%D9%8A%D9%88%D9%8A-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 20,
-    "price": 14.95,
-    "discounted_price": 11.95
-  },
-  {
-    "name": "بازوكا ميكس أبز حلوى طرية مع لمسة من الجيلي، والنكهات اللذيذة، 45 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106716/%D8%A8%D8%A7%D8%B2%D9%88%D9%83%D8%A7-%D9%85%D9%8A%D9%83%D8%B3-%D8%A3%D8%A8%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%B7%D8%B1%D9%8A%D8%A9-%D9%85%D8%B9-%D9%84%D9%85%D8%B3%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%8A%D9%84%D9%8A-%D9%88%D8%A7%D9%84%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D8%B0%D9%8A%D8%B0%D8%A9-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4
-  },
-  {
-    "name": "نوم نومز، مارشميلو حلو وحامض، بطعم الخوخ، 150جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106717/%D9%86%D9%88%D9%85-%D9%86%D9%88%D9%85%D8%B2-%D9%85%D8%A7%D8%B1%D8%B4%D9%85%D9%8A%D9%84%D9%88-%D8%AD%D9%84%D9%88-%D9%88%D8%AD%D8%A7%D9%85%D8%B6-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AE%D9%88%D8%AE-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6.75
-  },
-  {
-    "name": "نوفا علكة بنكهة التفاح الأخضر 11.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106718/%D9%86%D9%88%D9%81%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-115-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1
-  },
-  {
-    "name": "ريسز أصابع ويفر بكريمة الفول السوداني مغطاة بالشوكولاتة 42جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106720/%D8%B1%D9%8A%D8%B3%D8%B2-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%85%D8%BA%D8%B7%D8%A7%D8%A9-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-42%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.75
-  },
-  {
-    "name": "سويزلز سلاش بوبي 2 في 1، 600 مل",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106721/%D8%B3%D9%88%D9%8A%D8%B2%D9%84%D8%B2-%D8%B3%D9%84%D8%A7%D8%B4-%D8%A8%D9%88%D8%A8%D9%8A-2-%D9%81%D9%8A-1-600-%D9%85%D9%84.jpg.jpg"
-    ],
-    "price": 9.25
-  },
-  {
-    "name": "ريجلي - علكة منعشة خالية من السكر بنكهة الفراولة والحمضيات 15.6 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106722/%D8%B1%D9%8A%D8%AC%D9%84%D9%8A-%D8%B9%D9%84%D9%83%D8%A9-%D9%85%D9%86%D8%B9%D8%B4%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D9%85%D8%B6%D9%8A%D8%A7%D8%AA-156-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.5
-  },
-  {
-    "name": "جالاكسي كنز شوكولاتة بالحليب والبندق، 90 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106723/%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D9%83%D9%86%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 13.75
-  },
-  {
-    "name": "كيت كات الواح ويفر مغطاة بشوكولاتة الحليب عبوة من 12 × 36.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106725/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%A7%D8%AD-%D9%88%D9%8A%D9%81%D8%B1-%D9%85%D8%BA%D8%B7%D8%A7%D8%A9-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D9%86-12-365-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 42.25
-  },
-  {
-    "name": "هاملت - مقرمشات الشوكولاتة بالكاكاو 125 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106726/%D9%87%D8%A7%D9%85%D9%84%D8%AA-%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%83%D8%A7%D9%88-125-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 20,
-    "price": 29.25,
-    "discounted_price": 23.45
-  },
-  {
-    "name": "سويت زون حلوى بطعم الكولا  170جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106727/%D8%B3%D9%88%D9%8A%D8%AA-%D8%B2%D9%88%D9%86-%D8%AD%D9%84%D9%88%D9%89-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D9%83%D9%88%D9%84%D8%A7-170%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 8
-  },
-  {
-    "name": "بازوكا بيج بيبي بوبي حلوى بنكهة الكولا 32 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106728/%D8%A8%D8%A7%D8%B2%D9%88%D9%83%D8%A7-%D8%A8%D9%8A%D8%AC-%D8%A8%D9%8A%D8%A8%D9%8A-%D8%A8%D9%88%D8%A8%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%84%D8%A7-32-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 8,
-    "price": 7,
-    "discounted_price": 6.45
-  },
-  {
-    "name": "كافندش اند هارفي حلوى المانية بالحمضيات 200 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106729/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D8%B4-%D8%A7%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%85%D8%B6%D9%8A%D8%A7%D8%AA-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 20,
-    "price": 14.95,
-    "discounted_price": 11.95
-  },
-  {
-    "name": "في جم علكة بالنعناع الطازج خالية من السكر 22.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106730/%D9%81%D9%8A-%D8%AC%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-225-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.25
-  },
-  {
-    "name": "ليندت شوكولاتة بالحليب اكسترا كريمة 35 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106732/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D9%83%D8%B1%D9%8A%D9%85%D8%A9-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 13
-  },
-  {
-    "name": "راتلرز حلاو حامض 120 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106733/%D8%B1%D8%A7%D8%AA%D9%84%D8%B1%D8%B2-%D8%AD%D9%84%D8%A7%D9%88-%D8%AD%D8%A7%D9%85%D8%B6-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 17,
-    "price": 7.75,
-    "discounted_price": 6.45
-  },
-  {
-    "name": "بازوكا، سبلاشز فروتي حلوى طرية بنكهة الفواكه، 120 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106735/%D8%A8%D8%A7%D8%B2%D9%88%D9%83%D8%A7-%D8%B3%D8%A8%D9%84%D8%A7%D8%B4%D8%B2-%D9%81%D8%B1%D9%88%D8%AA%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%B7%D8%B1%D9%8A%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-120-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 25,
-    "price": 9.25,
-    "discounted_price": 6.95
-  },
-  {
-    "name": "حلوى اكليرز من بيكميت بنكهة الحليب، 1000 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106736/%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%83%D9%84%D9%8A%D8%B1%D8%B2-%D9%85%D9%86-%D8%A8%D9%8A%D9%83%D9%85%D9%8A%D8%AA-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 35.25
-  },
-  {
-    "name": "اكسترا علكة خالية من السكر بنكهة الفواكه الاستوائية 15.6 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106737/%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-156-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.5
-  },
-  {
-    "name": "تويكس ميني شوكولاتة بالبندق 174 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106738/%D8%AA%D9%88%D9%8A%D9%83%D8%B3-%D9%85%D9%8A%D9%86%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-174-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 17
-  },
-  {
-    "name": "سكيتلز حلوى توت بري 38 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106739/%D8%B3%D9%83%D9%8A%D8%AA%D9%84%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%AA%D9%88%D8%AA-%D8%A8%D8%B1%D9%8A-38-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.75
-  },
-  {
-    "name": "تولة بسكويت بالشوكولاتة والكراميل 31جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106741/%D8%AA%D9%88%D9%84%D8%A9-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-31%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 2
-  },
-  {
-    "name": "سلاش بوبي بخاخ حلوى، 25 مل، مناسب لعمر 3+",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106742/%D8%B3%D9%84%D8%A7%D8%B4-%D8%A8%D9%88%D8%A8%D9%8A-%D8%A8%D8%AE%D8%A7%D8%AE-%D8%AD%D9%84%D9%88%D9%89-25-%D9%85%D9%84-%D9%85%D9%86%D8%A7%D8%B3%D8%A8-%D9%84%D8%B9%D9%85%D8%B1-3.jpg.jpg"
-    ],
-    "price": 6.25
-  },
-  {
-    "name": "غندور كريف - لوح شوكولاتة بالحليب 32 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106743/%D8%BA%D9%86%D8%AF%D9%88%D8%B1-%D9%83%D8%B1%D9%8A%D9%81-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-32-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 36
-  },
-  {
-    "name": "بورقات حلوى حامضة ستيكس محشوة بنكهات متعددة 150جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106744/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-%D9%85%D8%AD%D8%B4%D9%88%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 8.75
-  },
-  {
-    "name": "ترولي حلاوة جلي بنكهة الكولا 175 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106746/%D8%AA%D8%B1%D9%88%D9%84%D9%8A-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%84%D8%A7-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 10.5
-  },
-  {
-    "name": "بورغات ساور باز اسباغيتي الحلوة والحامضة، تذوق الاندفاع! نكهة فوار الكولا، 150 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106747/%D8%A8%D9%88%D8%B1%D8%BA%D8%A7%D8%AA-%D8%B3%D8%A7%D9%88%D8%B1-%D8%A8%D8%A7%D8%B2-%D8%A7%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%AA%D8%B0%D9%88%D9%82-%D8%A7%D9%84%D8%A7%D9%86%D8%AF%D9%81%D8%A7%D8%B9-%D9%86%D9%83%D9%87%D8%A9-%D9%81%D9%88%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%88%D9%84%D8%A7-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 5.75
-  },
-  {
-    "name": "تشويتس اكستريم بايتس حلوى حامضة بالتفاح والليمون 165 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106748/%D8%AA%D8%B4%D9%88%D9%8A%D8%AA%D8%B3-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D9%8A%D9%85-%D8%A8%D8%A7%D9%8A%D8%AA%D8%B3-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%A8%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D9%88%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-165-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 13.5
-  },
-  {
-    "name": "سودان شوكولاتة بالحليب والكراميل مع نوجا والفول السوداني 50 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106749/%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D8%B9-%D9%86%D9%88%D8%AC%D8%A7-%D9%88%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.95
-  },
-  {
-    "name": "غندوركريف - لوح شوكولاتة الحليب بالبندق 32 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106750/%D8%BA%D9%86%D8%AF%D9%88%D8%B1%D9%83%D8%B1%D9%8A%D9%81-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-32-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 36
-  },
-  {
-    "name": "ريتر سبورت ، شوكولاتة بالحليب ميني 33.34 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106752/%D8%B1%D9%8A%D8%AA%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D9%8A%D9%86%D9%8A-3334-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6.25
-  },
-  {
-    "name": "ريتر سبورت بسكويت بالزبدة ميني 33.34 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106753/%D8%B1%D9%8A%D8%AA%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D9%85%D9%8A%D9%86%D9%8A-3334-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6.5
-  },
-  {
-    "name": "نستله - تولا بزبدة الفول السوداني 31 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106754/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D8%AA%D9%88%D9%84%D8%A7-%D8%A8%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-31-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 2.25
-  },
-  {
-    "name": "كيدزي - حلوى جيلاتينية نباتية بطعم التوت 25جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106755/%D9%83%D9%8A%D8%AF%D8%B2%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D8%A7%D8%AA%D9%8A%D9%86%D9%8A%D8%A9-%D9%86%D8%A8%D8%A7%D8%AA%D9%8A%D8%A9-%D8%A8%D8%B7%D8%B9%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-25%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4
-  },
-  {
-    "name": "بازوكا حلوى فليب اند ديب بوش بوب بنكهة التوت الأزرق 25 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106757/%D8%A8%D8%A7%D8%B2%D9%88%D9%83%D8%A7-%D8%AD%D9%84%D9%88%D9%89-%D9%81%D9%84%D9%8A%D8%A8-%D8%A7%D9%86%D8%AF-%D8%AF%D9%8A%D8%A8-%D8%A8%D9%88%D8%B4-%D8%A8%D9%88%D8%A8-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-25-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 9.25
-  },
-  {
-    "name": "ليندت ويفر شوكولاتة الحليب 26 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106758/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D9%88%D9%8A%D9%81%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-26-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 10
-  },
-  {
-    "name": "كافنديش آند هارفي - حلوى الكشمش الأحمر مع حشوة التفاح 175 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106760/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D9%8A%D8%B4-%D8%A2%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%83%D8%B4%D9%85%D8%B4-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D9%85%D8%B9-%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 16,
-    "price": 14.75,
-    "discounted_price": 12.45
-  },
-  {
-    "name": "في جم علكة بالبطيخ الحلو خالية من السكر 22.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106763/%D9%81%D9%8A-%D8%AC%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE-%D8%A7%D9%84%D8%AD%D9%84%D9%88-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-225-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.25
-  },
-  {
-    "name": "في جام - علكة بنكهة المانجو الطازجة الخالية من السكر 20 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106765/%D9%81%D9%8A-%D8%AC%D8%A7%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-20-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 9.5
-  },
-  {
-    "name": "غندور كريف -  شوكولاتة بالحليب 32جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106766/%D8%BA%D9%86%D8%AF%D9%88%D8%B1-%D9%83%D8%B1%D9%8A%D9%81-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-32%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3
-  },
-  {
-    "name": "ألبينليبى حلوى الكراميل الغنية بالحليب الأصلية 32 غرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106767/%D8%A3%D9%84%D8%A8%D9%8A%D9%86%D9%84%D9%8A%D8%A8%D9%89-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D8%BA%D9%86%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-32-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 2
-  },
-  {
-    "name": "بورقات، حلوى على شكل اشرطة بنكهة الفراولة الحامضة 80 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106768/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D8%A7%D8%B4%D8%B1%D8%B7%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6
-  },
-  {
-    "name": "جلاكسي فلوتس أصابع الشوكولاتة  45 جرام × 12",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106769/%D8%AC%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D9%81%D9%84%D9%88%D8%AA%D8%B3-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-45-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
-    ],
-    "price": 40.25
-  },
-  {
-    "name": "كادبوري دايري ميلك هول نت بالبندق 45 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106771/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%AF%D8%A7%D9%8A%D8%B1%D9%8A-%D9%85%D9%8A%D9%84%D9%83-%D9%87%D9%88%D9%84-%D9%86%D8%AA-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-45-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.5
-  },
-  {
-    "name": "فيوري كراميل 40 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106772/%D9%81%D9%8A%D9%88%D8%B1%D9%8A-%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.5
-  },
-  {
-    "name": "تربل حلاو بوش بوب 3 في 1 - 34 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106773/%D8%AA%D8%B1%D8%A8%D9%84-%D8%AD%D9%84%D8%A7%D9%88-%D8%A8%D9%88%D8%B4-%D8%A8%D9%88%D8%A8-3-%D9%81%D9%8A-1-34-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 10
-  },
-  {
-    "name": "كوانتا بالم بيتش لوح شوكولاتة محشو بجوز الهند 30جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106774/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D8%A8%D8%A7%D9%84%D9%85-%D8%A8%D9%8A%D8%AA%D8%B4-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%AD%D8%B4%D9%88-%D8%A8%D8%AC%D9%88%D8%B2-%D8%A7%D9%84%D9%87%D9%86%D8%AF-30%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.45
-  },
-  {
-    "name": "كت كات أصابع الويفر بالبندق 36.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106775/%D9%83%D8%AA-%D9%83%D8%A7%D8%AA-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-365-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.5
-  },
-  {
-    "name": "ويرذرز أوريجنال حلوى كريميه بالشوكلاته محشوة بالكراميل 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106777/%D9%88%D9%8A%D8%B1%D8%B0%D8%B1%D8%B2-%D8%A3%D9%88%D8%B1%D9%8A%D8%AC%D9%86%D8%A7%D9%84-%D8%AD%D9%84%D9%88%D9%89-%D9%83%D8%B1%D9%8A%D9%85%D9%8A%D9%87-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-%D9%85%D8%AD%D8%B4%D9%88%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 11.75
-  },
-  {
-    "name": "هيرشي كيسيز سبيشال سيليكشن 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106778/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A-%D9%83%D9%8A%D8%B3%D9%8A%D8%B2-%D8%B3%D8%A8%D9%8A%D8%B4%D8%A7%D9%84-%D8%B3%D9%8A%D9%84%D9%8A%D9%83%D8%B4%D9%86-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 12.75
-  },
-  {
-    "name": "بورقات حلاوة جلي جلو ستيكس 175 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106779/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D8%AC%D9%84%D9%88-%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 8.95
-  },
-  {
-    "name": "ديمه توفي بالحليب 700 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106780/%D8%AF%D9%8A%D9%85%D9%87-%D8%AA%D9%88%D9%81%D9%8A-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-700-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 18.5
-  },
-  {
-    "name": "جوديفا لوح بالفانيلا والشوكولاتة الكريمية 35 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106782/%D8%AC%D9%88%D8%AF%D9%8A%D9%81%D8%A7-%D9%84%D9%88%D8%AD-%D8%A8%D8%A7%D9%84%D9%81%D8%A7%D9%86%D9%8A%D9%84%D8%A7-%D9%88%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D9%8A%D8%A9-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.5
-  },
-  {
-    "name": "جلاكسي بالبندق ميني 162.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106783/%D8%AC%D9%84%D8%A7%D9%83%D8%B3%D9%8A-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-%D9%85%D9%8A%D9%86%D9%8A-1625-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 21,
-    "price": 18.95,
-    "discounted_price": 14.95
-  },
-  {
-    "name": "جالكسي مينسترلز شوكولاتة مصغرة 42 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106785/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D9%85%D9%8A%D9%86%D8%B3%D8%AA%D8%B1%D9%84%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%B5%D8%BA%D8%B1%D8%A9-42-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.5
-  },
-  {
-    "name": "جالكسي جواهر شوكولاتة مشكلة 200 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106786/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%AC%D9%88%D8%A7%D9%87%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D8%B4%D9%83%D9%84%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 34
-  },
-  {
-    "name": "بورقات حلاوة جلي كولا 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106787/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D9%83%D9%88%D9%84%D8%A7-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.75
-  },
-  {
-    "name": "كادبوري شوكولاتة ميناتشورز 200جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106789/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%85%D9%8A%D9%86%D8%A7%D8%AA%D8%B4%D9%88%D8%B1%D8%B2-200%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 36.95
-  },
-  {
-    "name": "حافل حلاوة بقرة فدج الأصلي 400 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106790/%D8%AD%D8%A7%D9%81%D9%84-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%A8%D9%82%D8%B1%D8%A9-%D9%81%D8%AF%D8%AC-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 20.5
-  },
-  {
-    "name": "غندور، علكة المستكة الأصلية 8.1 جرام × علبة 20 قطعة",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106791/%D8%BA%D9%86%D8%AF%D9%88%D8%B1-%D8%B9%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%83%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-81-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D9%84%D8%A8%D8%A9-20-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
-    ],
-    "price": 15.5
-  },
-  {
-    "name": "كيت كات ميني 2 أصابع شوكولاته بالحليب 250 جرام - 19 حبة",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106792/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D9%85%D9%8A%D9%86%D9%8A-2-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-250-%D8%AC%D8%B1%D8%A7%D9%85-19-%D8%AD%D8%A8%D8%A9.jpg.jpg"
-    ],
-    "price": 21.95
-  },
-  {
-    "name": "هاريبو فيز ميكس 160جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106794/%D9%87%D8%A7%D8%B1%D9%8A%D8%A8%D9%88-%D9%81%D9%8A%D8%B2-%D9%85%D9%8A%D9%83%D8%B3-160%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 11.75
-  },
-  {
-    "name": "جالكسي شوكولاتة بالكراميل 40 جرام × 5",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106795/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-40-%D8%AC%D8%B1%D8%A7%D9%85-5.jpg.jpg"
-    ],
-    "price": 17.95
-  },
-  {
-    "name": "كيت كات ميني 38 قطعة (13.5 جرام × 38)",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106798/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D9%85%D9%8A%D9%86%D9%8A-38-%D9%82%D8%B7%D8%B9%D8%A9-135-%D8%AC%D8%B1%D8%A7%D9%85-38.jpg.jpg"
-    ],
-    "discount": 15,
-    "price": 42.5,
-    "discounted_price": 35.95
-  },
-  {
-    "name": "7 ستيك - جيلي دببة جيلاتينية 120جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106799/7-%D8%B3%D8%AA%D9%8A%D9%83-%D8%AC%D9%8A%D9%84%D9%8A-%D8%AF%D8%A8%D8%A8%D8%A9-%D8%AC%D9%8A%D9%84%D8%A7%D8%AA%D9%8A%D9%86%D9%8A%D8%A9-120%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6.5
-  },
-  {
-    "name": "ليندت شوكولاتة غامقة 35 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106800/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%BA%D8%A7%D9%85%D9%82%D8%A9-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 12.5
-  },
-  {
-    "name": "ليندت ليندور شوكولاته بالحليب 38 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106801/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D9%84%D9%8A%D9%86%D8%AF%D9%88%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-38-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 10.25
-  },
-  {
-    "name": "تويكس توب بسكويت بالشوكولاته 21 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106803/%D8%AA%D9%88%D9%8A%D9%83%D8%B3-%D8%AA%D9%88%D8%A8-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-21-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.75
-  },
-  {
-    "name": "أُوسكار حلاوة بنكهات منوعة 1 كج",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106804/%D8%A3%D9%88%D8%B3%D9%83%D8%A7%D8%B1-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D9%86%D9%88%D8%B9%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
-    ],
-    "price": 32.5
-  },
-  {
-    "name": "بورقات حلوى حامضة متعدد النكهات 75 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106805/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%86%D9%83%D9%87%D8%A7%D8%AA-75-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.75
-  },
-  {
-    "name": "ميلكا شوكو غراين بسكويت بالشوكولاتة بالحليب 126 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106806/%D9%85%D9%8A%D9%84%D9%83%D8%A7-%D8%B4%D9%88%D9%83%D9%88-%D8%BA%D8%B1%D8%A7%D9%8A%D9%86-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-126-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 6.75
-  },
-  {
-    "name": "بورجات حلوى مصاصة على شكل قلب 126جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106808/%D8%A8%D9%88%D8%B1%D8%AC%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D9%85%D8%B5%D8%A7%D8%B5%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D9%82%D9%84%D8%A8-126%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 7.5
-  },
-  {
-    "name": "توكس اكستر شوكولاتة 75 جرام × 30",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106809/%D8%AA%D9%88%D9%83%D8%B3-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-75-%D8%AC%D8%B1%D8%A7%D9%85-30.jpg.jpg"
-    ],
-    "price": 159.95
-  },
-  {
-    "name": "ليون لوح شوكلاته 42 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106810/%D9%84%D9%8A%D9%88%D9%86-%D9%84%D9%88%D8%AD-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-42-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.5
-  },
-  {
-    "name": "كامبفاير مارشميلو ميني أبيض 300 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106811/%D9%83%D8%A7%D9%85%D8%A8%D9%81%D8%A7%D9%8A%D8%B1-%D9%85%D8%A7%D8%B1%D8%B4%D9%85%D9%8A%D9%84%D9%88-%D9%85%D9%8A%D9%86%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 18.75
-  },
-  {
-    "name": "كادبوري بابيلز شوكولاتة 28 جرام × 10 +2 مجاناً",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106813/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%A8%D8%A7%D8%A8%D9%8A%D9%84%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-28-%D8%AC%D8%B1%D8%A7%D9%85-10-2-%D9%85%D8%AC%D8%A7%D9%86%D8%A7.jpg.jpg"
-    ],
-    "price": 29.25
-  },
-  {
-    "name": "زيني بيضة الشوكولاتة 20جرام ×3",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106815/%D8%B2%D9%8A%D9%86%D9%8A-%D8%A8%D9%8A%D8%B6%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-20%D8%AC%D8%B1%D8%A7%D9%85-3.jpg.jpg"
-    ],
-    "discount": 13,
-    "price": 17.25,
-    "discounted_price": 14.95
-  },
-  {
-    "name": "آركور بون أو بون حلوى الشوكولاتة البيضاء بالحشوة والويفر 750جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106816/%D8%A2%D8%B1%D9%83%D9%88%D8%B1-%D8%A8%D9%88%D9%86-%D8%A3%D9%88-%D8%A8%D9%88%D9%86-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D8%AD%D8%B4%D9%88%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D9%8A%D9%81%D8%B1-750%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 44
-  },
-  {
-    "name": "آركور بون أو بون بحشوة كريمة الكوكيز 390جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106818/%D8%A2%D8%B1%D9%83%D9%88%D8%B1-%D8%A8%D9%88%D9%86-%D8%A3%D9%88-%D8%A8%D9%88%D9%86-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%83%D9%8A%D8%B2-390%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 22.25
-  },
-  {
-    "name": "ليندت شوكولاتة كاكاوغامقة 50 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106819/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%83%D8%A7%D9%83%D8%A7%D9%88%D8%BA%D8%A7%D9%85%D9%82%D8%A9-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 15,
-    "price": 32.25,
-    "discounted_price": 27.45
-  },
-  {
-    "name": "نوفا علكة بنكهة النعناع 11.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106820/%D9%86%D9%88%D9%81%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-115-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1
-  },
-  {
-    "name": "كارفور مكعبات شوكلاته داكنه 200 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106821/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D9%87-%D8%AF%D8%A7%D9%83%D9%86%D9%87-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 21
-  },
-  {
-    "name": "نستله رولو 4 حبات 167 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106822/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D8%B1%D9%88%D9%84%D9%88-4-%D8%AD%D8%A8%D8%A7%D8%AA-167-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 13.25
-  },
-  {
-    "name": "كادبوري دايري ميلك بابلي شوكولاتة الحليب 87 جرام ×12",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106824/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%AF%D8%A7%D9%8A%D8%B1%D9%8A-%D9%85%D9%8A%D9%84%D9%83-%D8%A8%D8%A7%D8%A8%D9%84%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-87-%D8%AC%D8%B1%D8%A7%D9%85-12.jpg.jpg"
-    ],
-    "price": 93.5
-  },
-  {
-    "name": "ليندت اكسيلنس شوكولاتة بالنعناع 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106825/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%A7%D9%83%D8%B3%D9%8A%D9%84%D9%86%D8%B3-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 9,
-    "price": 28,
-    "discounted_price": 25.45
-  },
-  {
-    "name": "جالكسي شوكولاتة بيضاء 38 جرام × 24",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106826/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-38-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
-    ],
-    "price": 83.5
-  },
-  {
-    "name": "مالتيزر شوكولاتة 37 جرام × 25",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106827/%D9%85%D8%A7%D9%84%D8%AA%D9%8A%D8%B2%D8%B1-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-37-%D8%AC%D8%B1%D8%A7%D9%85-25.jpg.jpg"
-    ],
-    "price": 115.25
-  },
-  {
-    "name": "بورجات حلاوة جلي كارز 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106828/%D8%A8%D9%88%D8%B1%D8%AC%D8%A7%D8%AA-%D8%AD%D9%84%D8%A7%D9%88%D8%A9-%D8%AC%D9%84%D9%8A-%D9%83%D8%A7%D8%B1%D8%B2-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1
-  },
-  {
-    "name": "كيت كات ابيض 4 اصابع 41.5 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106830/%D9%83%D9%8A%D8%AA-%D9%83%D8%A7%D8%AA-%D8%A7%D8%A8%D9%8A%D8%B6-4-%D8%A7%D8%B5%D8%A7%D8%A8%D8%B9-415-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.25
-  },
-  {
-    "name": "بيلجيان صدف الشوكولاته البلجيكية 65 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106831/%D8%A8%D9%8A%D9%84%D8%AC%D9%8A%D8%A7%D9%86-%D8%B5%D8%AF%D9%81-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-%D8%A7%D9%84%D8%A8%D9%84%D8%AC%D9%8A%D9%83%D9%8A%D8%A9-65-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 18.75
-  },
-  {
-    "name": "جالكسي فيوجنز شوكولاتة داكنة 70% كاكاو 35 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106833/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D9%81%D9%8A%D9%88%D8%AC%D9%86%D8%B2-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%AF%D8%A7%D9%83%D9%86%D8%A9-70-%D9%83%D8%A7%D9%83%D8%A7%D9%88-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 5.75
-  },
-  {
-    "name": "تيفاني بريك أصابع الويفر المقرمشة 12.5جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106834/%D8%AA%D9%8A%D9%81%D8%A7%D9%86%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D9%88%D9%8A%D9%81%D8%B1-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%85%D8%B4%D8%A9-125%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 0.75
-  },
-  {
-    "name": "كوانتا البندق و الشوكولاته 30 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106835/%D9%83%D9%88%D8%A7%D9%86%D8%AA%D8%A7-%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-%D9%88-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D9%87-30-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 1.25
-  },
-  {
-    "name": "كادبوري ديري ميلك بالاوريو 38 جرام × 12 حبة",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106836/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%AF%D9%8A%D8%B1%D9%8A-%D9%85%D9%8A%D9%84%D9%83-%D8%A8%D8%A7%D9%84%D8%A7%D9%88%D8%B1%D9%8A%D9%88-38-%D8%AC%D8%B1%D8%A7%D9%85-12-%D8%AD%D8%A8%D8%A9.jpg.jpg"
-    ],
-    "price": 39.95
-  },
-  {
-    "name": "ليندت شوكولاتة الحليب مع البندق 300 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106837/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 28,
-    "price": 82,
-    "discounted_price": 58.95
-  },
-  {
-    "name": "كادبوري ديري ميلك شوكولاتة 35 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106838/%D9%83%D8%A7%D8%AF%D8%A8%D9%88%D8%B1%D9%8A-%D8%AF%D9%8A%D8%B1%D9%8A-%D9%85%D9%8A%D9%84%D9%83-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-35-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 4.25
-  },
-  {
-    "name": "نستله ايرو، شوكولاتة الحليب، 100 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106840/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D8%A7%D9%8A%D8%B1%D9%88-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 9.5
-  },
-  {
-    "name": "كافندش اند هارفي حلوى المانية بالقهوة 50 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106841/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D8%B4-%D8%A7%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 20,
-    "price": 9.95,
-    "discounted_price": 7.95
-  },
-  {
-    "name": "راتلرز حلاو حامض 40 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106842/%D8%B1%D8%A7%D8%AA%D9%84%D8%B1%D8%B2-%D8%AD%D9%84%D8%A7%D9%88-%D8%AD%D8%A7%D9%85%D8%B6-40-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 3.5
-  },
-  {
-    "name": "لاندجارتن توت العليق العضوي في شوكولاتة التوت 54 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106843/%D9%84%D8%A7%D9%86%D8%AF%D8%AC%D8%A7%D8%B1%D8%AA%D9%86-%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A-%D9%81%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%AA-54-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 18
-  },
-  {
-    "name": "بورقات حلوى جيلي بالتوت الاسود و توت العليق 80جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106844/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%AC%D9%8A%D9%84%D9%8A-%D8%A8%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%A7%D8%B3%D9%88%D8%AF-%D9%88-%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D9%82-80%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 5.75
-  },
-  {
-    "name": "سلاش بوبي سكويزي 60 مل × 10",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106845/%D8%B3%D9%84%D8%A7%D8%B4-%D8%A8%D9%88%D8%A8%D9%8A-%D8%B3%D9%83%D9%88%D9%8A%D8%B2%D9%8A-60-%D9%85%D9%84-10.jpg.jpg"
-    ],
-    "price": 8.75
-  },
-  {
-    "name": "بورقات حلوى حامضة ستيكس بنكهات متعددة 150جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106847/%D8%A8%D9%88%D8%B1%D9%82%D8%A7%D8%AA-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D8%B3%D8%AA%D9%8A%D9%83%D8%B3-%D8%A8%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-150%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 8.75
-  },
-  {
-    "name": "ليندت شوكولاتة بالحليب مع 34% بندق 150 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106848/%D9%84%D9%8A%D9%86%D8%AF%D8%AA-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%85%D8%B9-34-%D8%A8%D9%86%D8%AF%D9%82-150-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "discount": 23,
-    "price": 43.25,
-    "discounted_price": 33.45
-  },
-  {
-    "name": "برين بلاسترز بخاخ الحلوى 28 مل",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106849/%D8%A8%D8%B1%D9%8A%D9%86-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%B2-%D8%A8%D8%AE%D8%A7%D8%AE-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%89-28-%D9%85%D9%84.jpg.jpg"
-    ],
-    "price": 6.5
-  },
-  {
-    "name": "هيرشي كوكيز لفائف ويفر بالشوكولاتة والبندق  18 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106850/%D9%87%D9%8A%D8%B1%D8%B4%D9%8A-%D9%83%D9%88%D9%83%D9%8A%D8%B2-%D9%84%D9%81%D8%A7%D8%A6%D9%81-%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%88%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-18-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 2.25
-  },
-  {
-    "name": "بيتز شوكلاتة بكريمة الزنجبيل 90 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106851/%D8%A8%D9%8A%D8%AA%D8%B2-%D8%B4%D9%88%D9%83%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D9%83%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%B2%D9%86%D8%AC%D8%A8%D9%8A%D9%84-90-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 19.5
-  },
-  {
-    "name": "جالكسي شوكولاتة بالحليب بحشوة كراميل 40 جرام × 24",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106852/%D8%AC%D8%A7%D9%84%D9%83%D8%B3%D9%8A-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-40-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
-    ],
-    "price": 83.5
-  },
-  {
-    "name": "كافندش اند هارفي حلوى على شكلل قلوب باشن فروت فانيليا ورمان فانيليا 350 جرام",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106853/%D9%83%D8%A7%D9%81%D9%86%D8%AF%D8%B4-%D8%A7%D9%86%D8%AF-%D9%87%D8%A7%D8%B1%D9%81%D9%8A-%D8%AD%D9%84%D9%88%D9%89-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84%D9%84-%D9%82%D9%84%D9%88%D8%A8-%D8%A8%D8%A7%D8%B4%D9%86-%D9%81%D8%B1%D9%88%D8%AA-%D9%81%D8%A7%D9%86%D9%8A%D9%84%D9%8A%D8%A7-%D9%88%D8%B1%D9%85%D8%A7%D9%86-%D9%81%D8%A7%D9%86%D9%8A%D9%84%D9%8A%D8%A7-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
-    ],
-    "price": 27.95
-  },
-  {
-    "name": "برين بلاسترز حلوى حامضة ليكر 60 مل",
-    "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106855/%D8%A8%D8%B1%D9%8A%D9%86-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%B2-%D8%AD%D9%84%D9%88%D9%89-%D8%AD%D8%A7%D9%85%D8%B6%D8%A9-%D9%84%D9%8A%D9%83%D8%B1-60-%D9%85%D9%84.jpg.png"
-    ],
-    "price": 11.25
+    "price": 7.25,
+    "description": "حلوى جيلي على شكل ديدان من هاريبو، تقدم تجربة مضغ ممتعة بنكهات متنوعة."
   },
   {
     "name": "بيلجين مينيز البندق  176 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106856/%D8%A8%D9%8A%D9%84%D8%AC%D9%8A%D9%86-%D9%85%D9%8A%D9%86%D9%8A%D8%B2-%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D9%82-176-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 34.75
+    "price": 34.75,
+    "description": "شوكولاتة بيلجين مينيز الفاخرة بالبندق، مثالية لمحبي النكهات الغنية والمقرمشة، وزن 176 جرام."
   },
   {
     "name": "بيري",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106858/%D8%A8%D9%8A%D8%B1%D9%8A.jpg.jpg"
     ],
-    "price": 51.75
+    "price": 51.75,
+    "description": "حلوى بيري اللذيذة بنكهة الفواكه المميزة، تقدم تجربة حلوة ومنعشة لجميع الأعمار."
   },
   {
     "name": "سويزلز مشروب سكويز 600 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106859/%D8%B3%D9%88%D9%8A%D8%B2%D9%84%D8%B2-%D9%85%D8%B4%D8%B1%D9%88%D8%A8-%D8%B3%D9%83%D9%88%D9%8A%D8%B2-600-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 9.25
+    "price": 9.25,
+    "description": "مشروب سويزلز سكويز المنعش بحجم 600 مل، مثالي للترطيب اليومي بنكهة ممتعة."
   },
   {
     "name": "كافندش اند هارفي حلوى على شكلل قلوب بالتوت البري والفانيليا 300 جرام",
@@ -2829,77 +1788,87 @@
     ],
     "discount": 16,
     "price": 26.75,
-    "discounted_price": 22.45
+    "description": "حلوى كافندش اند هارفي على شكل قلوب بنكهة التوت البري والفانيليا، مثالية للمشاركة، 300 جرام."
   },
   {
     "name": "ريغليز إكسترا علكة بالنعناع القوي خالية من السكر 420 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106861/%D8%B1%D9%8A%D8%BA%D9%84%D9%8A%D8%B2-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%82%D9%88%D9%8A-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-420-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 81.5
+    "price": 81.5,
+    "description": "علكة ريغليز إكسترا بنكهة النعناع القوي، خالية من السكر، مثالية لانتعاش طويل الأمد، 420 جرام."
   },
   {
     "name": "سلاش بوبي بخاخ الحلوى الكبير 60 مل قطعة واحدة (منوعة، تباع بشكل عشوائي)",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106863/%D8%B3%D9%84%D8%A7%D8%B4-%D8%A8%D9%88%D8%A8%D9%8A-%D8%A8%D8%AE%D8%A7%D8%AE-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%89-%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-60-%D9%85%D9%84-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9-%D9%85%D9%86%D9%88%D8%B9%D8%A9-%D8%AA%D8%A8%D8%A7%D8%B9-%D8%A8%D8%B4%D9%83%D9%84-%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A.jpg.jpg"
     ],
-    "price": 7.25
+    "price": 7.25,
+    "description": "سلاش بوبي بخاخ الحلوى الكبير 60 مل، نكهات منوعة تُباع عشوائيًا، مثالية للمتعة الفورية."
   },
   {
     "name": "عصي ريس زبدة الفول السوداني ويفر 42 جرام × 20",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106864/%D8%B9%D8%B5%D9%8A-%D8%B1%D9%8A%D8%B3-%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%88%D9%8A%D9%81%D8%B1-42-%D8%AC%D8%B1%D8%A7%D9%85-20.jpg.jpg"
     ],
-    "price": 93
+    "price": 93,
+    "description": "عصي ريس بزبدة الفول السوداني والويفر المقرمش، عبوة 20 قطعة بوزن 42 جرام لكل قطعة."
   },
   {
     "name": "في جم علكة خالية من السكر سوداء بالليمون والنعناع والفحم والكالسيوم والشاي الأخضر 17 جرام × حزمة من 12",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106865/%D9%81%D9%8A-%D8%AC%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-%D9%88%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D9%88%D8%A7%D9%84%D9%81%D8%AD%D9%85-%D9%88%D8%A7%D9%84%D9%83%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%85-%D9%88%D8%A7%D9%84%D8%B4%D8%A7%D9%8A-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-17-%D8%AC%D8%B1%D8%A7%D9%85-%D8%AD%D8%B2%D9%85%D8%A9-%D9%85%D9%86-12.jpg.jpg"
     ],
-    "price": 58
+    "price": 58,
+    "description": "علكة في جم خالية من السكر بنكهة الليمون والنعناع مع الفحم والشاي الأخضر، حزمة 12 قطعة بوزن 17 جرام."
   },
   {
     "name": "ريغليز إكسترا علكة بالبطيخ خالية من السكر 14 جرام  30 حبة",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106866/%D8%B1%D9%8A%D8%BA%D9%84%D9%8A%D8%B2-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-14-%D8%AC%D8%B1%D8%A7%D9%85-30-%D8%AD%D8%A8%D8%A9.jpg.jpg"
     ],
-    "price": 81.5
+    "price": 81.5,
+    "description": "علكة ريغليز إكسترا بنكهة البطيخ المنعشة، خالية من السكر، عبوة 30 حبة بوزن 14 جرام."
   },
   {
     "name": "سويزلز مشروب التفاح والكرز 250 مل",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106867/%D8%B3%D9%88%D9%8A%D8%B2%D9%84%D8%B2-%D9%85%D8%B4%D8%B1%D9%88%D8%A8-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%AD-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%B2-250-%D9%85%D9%84.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "مشروب سويزلز بنكهة التفاح والكرز المنعشة، حجم 250 مل، مثالي للاستمتاع أثناء التنقل."
   },
   {
     "name": "في جم علكة خالية من السكر، أسود وأبيض، بالنعناع، الفحم، الكالسيوم، والشاي الأخضر، 17 جرام × حزمة من 12",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106868/%D9%81%D9%8A-%D8%AC%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D8%A3%D8%B3%D9%88%D8%AF-%D9%88%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A8%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%81%D8%AD%D9%85-%D8%A7%D9%84%D9%83%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%85-%D9%88%D8%A7%D9%84%D8%B4%D8%A7%D9%8A-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-17-%D8%AC%D8%B1%D8%A7%D9%85-%D8%AD%D8%B2%D9%85%D8%A9-%D9%85%D9%86-12.jpg.jpg"
     ],
-    "price": 56.25
+    "price": 56.25,
+    "description": "علكة في جم خالية من السكر بنكهة النعناع مع الفحم والشاي الأخضر، حزمة 12 قطعة بوزن 17 جرام."
   },
   {
     "name": "نستله تولا ويفر بالشوكولاتة والكراميل 31 جرام– عبوة 24 قطعة",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106870/%D9%86%D8%B3%D8%AA%D9%84%D9%87-%D8%AA%D9%88%D9%84%D8%A7-%D9%88%D9%8A%D9%81%D8%B1-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-31-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B9%D8%A8%D9%88%D8%A9-24-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
     ],
-    "price": 50.25
+    "price": 50.25,
+    "description": "نستله تولا ويفر مقرمش بالشوكولاتة والكراميل، عبوة 24 قطعة بوزن 31 جرام لكل قطعة."
   },
   {
     "name": "نستلة لايون بالفول السوداني 40 جرام × 24",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106871/%D9%86%D8%B3%D8%AA%D9%84%D8%A9-%D9%84%D8%A7%D9%8A%D9%88%D9%86-%D8%A8%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-40-%D8%AC%D8%B1%D8%A7%D9%85-24.jpg.jpg"
     ],
-    "price": 81.95
+    "price": 81.95,
+    "description": "نستلة لايون بالفول السوداني المقرمش، عبوة 24 قطعة بوزن 40 جرام، مثالية لعشاق الشوكولاتة."
   },
   {
     "name": "سفاري ويفر مقرمش مغطى بشوكولاتة الحليب، عبوة متعددة 256 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106872/%D8%B3%D9%81%D8%A7%D8%B1%D9%8A-%D9%88%D9%8A%D9%81%D8%B1-%D9%85%D9%82%D8%B1%D9%85%D8%B4-%D9%85%D8%BA%D8%B7%D9%89-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-256-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.95
+    "price": 9.95,
+    "description": "سفاري ويفر مقرمش مغطى بشوكولاتة الحليب، عبوة متعددة بوزن 256 جرام، مثالية للمشاركة."
   },
   {
     "name": "ستورك حلوى توفيفي بالبندق المغطى بالكراميل مع كريمة الشوكولاتة والنوجا 400 جرام",
@@ -2908,27 +1877,30 @@
     ],
     "discount": 16,
     "price": 51.25,
-    "discounted_price": 42.95
+    "description": "حلوى ستورك توفيفي بالبندق المغطى بالكراميل وكريمة الشوكولاتة والنوجا، 400 جرام."
   },
   {
     "name": "في جم علكة بالفراولة الحلوة خالية من السكر 22.5 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106874/%D9%81%D9%8A-%D8%AC%D9%85-%D8%B9%D9%84%D9%83%D8%A9-%D8%A8%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-225-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 3.25
+    "price": 3.25,
+    "description": "علكة في جم بنكهة الفراولة الحلوة، خالية من السكر، وزن 22.5 جرام، مثالية للاستمتاع اليومي."
   },
   {
     "name": "سودان شوكولاتة بالحليب والكراميل مع نوجا والفول السوداني، عبوة متعددة بحجم الوجبة 248 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106875/%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D8%B9-%D9%86%D9%88%D8%AC%D8%A7-%D9%88%D8%A7%D9%84%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-%D8%A8%D8%AD%D8%AC%D9%85-%D8%A7%D9%84%D9%88%D8%AC%D8%A8%D8%A9-248-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.95
+    "price": 9.95,
+    "description": "شوكولاتة سودان بالحليب والكراميل مع النوجا والفول السوداني، عبوة متعددة 248 جرام."
   },
   {
     "name": "توفي لوك بسكويت مقرمش بالكراميل مغطى بشوكولاتة الحليب، عبوة متعددة 264 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745106877/%D8%AA%D9%88%D9%81%D9%8A-%D9%84%D9%88%D9%83-%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D9%85%D9%82%D8%B1%D9%85%D8%B4-%D8%A8%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%85%D9%8A%D9%84-%D9%85%D8%BA%D8%B7%D9%89-%D8%A8%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%B9%D8%A8%D9%88%D8%A9-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-264-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.95
+    "price": 9.95,
+    "description": "توفي لوك بسكويت مقرمش بالكراميل مغطى بشوكولاتة الحليب، عبوة متعددة بوزن 264 جرام."
   }
 ]

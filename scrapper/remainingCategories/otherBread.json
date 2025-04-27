@@ -1,0 +1,546 @@
+// 680d743422f0b5fd5721e41c
+[
+  {
+    "name": "لوزين خبز التوست أبيض 600 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615938/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%A3%D8%A8%D9%8A%D8%B6-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.5,
+    "description": "خبز توست أبيض طري ولذيذ من لوزين، مثالي لتحضير الساندويتشات أو الإفطار اليومي، مصنوع من مكونات عالية الجودة."
+  },
+  {
+    "name": "لوزين خبز التوست بر 600 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615940/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%A8%D8%B1-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25,
+    "description": "خبز توست بر صحي من لوزين، غني بالألياف ومثالي لمحبي التغذية المتوازنة، مناسب للساندويتشات والوجبات الخفيفة."
+  },
+  {
+    "name": "يومي خبز توست أبيض 600 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615941/%D9%8A%D9%88%D9%85%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%AA%D9%88%D8%B3%D8%AA-%D8%A3%D8%A8%D9%8A%D8%B6-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 4.75,
+    "description": "خبز توست أبيض من يومي، ناعم وطازج، مثالي لتحضير وجبات الإفطار أو الساندويتشات اليومية بأسعار مخفضة."
+  },
+  {
+    "name": "لوزين خبز التوست بالحليب 600 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615943/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25,
+    "description": "خبز توست بالحليب من لوزين، يتميز بنكهة غنية وملمس ناعم، مثالي للأطفال والكبار في وجبات الإفطار."
+  },
+  {
+    "name": "لوزين خبز البرجر بالسمسم 6 حبات - 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615945/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D9%85-6-%D8%AD%D8%A8%D8%A7%D8%AA-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "خبز برجر بالسمسم من لوزين، طري ومغطى بحبات السمسم الذهبية، مثالي لتحضير البرغر اللذيذ في المنزل."
+  },
+  {
+    "name": "هرفي خبز التوست الجامبو الأبيض 700 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615948/%D9%87%D8%B1%D9%81%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%A8%D9%88-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-700-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "خبز توست جامبو أبيض من هرفي، بحجم كبير وملمس ناعم، مثالي للعائلات الكبيرة والوجبات اليومية."
+  },
+  {
+    "name": "لوزين خبز ساندويتش رول 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615951/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4-%D8%B1%D9%88%D9%84-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 2.5,
+    "description": "خبز ساندويتش رول من لوزين، صغير الحجم وسهل الاستخدام، مثالي لتحضير الساندويتشات السريعة والخفيفة."
+  },
+  {
+    "name": "خبز صامولي أبيض 8 حبات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615954/%D8%AE%D8%A8%D8%B2-%D8%B5%D8%A7%D9%85%D9%88%D9%84%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-8-%D8%AD%D8%A8%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 1.15,
+    "description": "خبز صامولي أبيض طازج، مثالي لتحضير الساندويتشات التقليدية، يتميز بقوامه الخفيف ونكهته البسيطة."
+  },
+  {
+    "name": "فونتي خبز بالحليب صغير 9 حبات - 315 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615956/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-%D8%B5%D8%BA%D9%8A%D8%B1-9-%D8%AD%D8%A8%D8%A7%D8%AA-315-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.5,
+    "description": "خبز بالحليب صغير من فونتي، ناعم وغني بنكهة الحليب، مثالي للأطفال أو كوجبة خفيفة مع الشاي."
+  },
+  {
+    "name": "لوزين خبز البرجر ساده 6 حبات - 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615957/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%A8%D8%B1%D8%AC%D8%B1-%D8%B3%D8%A7%D8%AF%D9%87-6-%D8%AD%D8%A8%D8%A7%D8%AA-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "خبز برجر سادة من لوزين، طري ومثالي لتحضير البرغر المنزلي، يتميز بقوامه المتوازن وسهولة الاستخدام."
+  },
+  {
+    "name": "هرفي خبز توست بر جامبو 700 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615959/%D9%87%D8%B1%D9%81%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%AA%D9%88%D8%B3%D8%AA-%D8%A8%D8%B1-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-700-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6,
+    "description": "خبز توست بر جامبو من هرفي، غني بالألياف وحجم كبير، مثالي لتحضير وجبات صحية ومشبعة للعائلة."
+  },
+  {
+    "name": "يومي خبز التوست بر 600 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615961/%D9%8A%D9%88%D9%85%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%A8%D8%B1-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 6.25,
+    "description": "خبز توست بر من يومي، صحي وغني بالنكهة، مثالي للوجبات اليومية مع خصم مميز لفترة محدودة."
+  },
+  {
+    "name": "كارفور صامولي سمسم 6 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615962/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B5%D8%A7%D9%85%D9%88%D9%84%D9%8A-%D8%B3%D9%85%D8%B3%D9%85-6-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "خبز صامولي بالسمسم من كارفور، طازج ومقرمش، مثالي لتحضير الساندويتشات التقليدية بأسعار اقتصادية."
+  },
+  {
+    "name": "فونتي خبز التوست الأبيض 600 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615967/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "خبز توست أبيض من فونتي، ناعم وطازج، مثالي لتحضير الساندويتشات أو الإفطار اليومي بجودة مضمونة."
+  },
+  {
+    "name": "يومي خبز برجر بالسمسم 400جرام ×6",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615969/%D9%8A%D9%88%D9%85%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D9%85-400%D8%AC%D8%B1%D8%A7%D9%85-6.jpg.jpg"
+    ],
+    "discount": 11,
+    "price": 5,
+    "description": "خبز برجر بالسمسم من يومي، طري ومزين بحبات السمسم، مثالي لتحضير البرغر اللذيذ مع خصم خاص."
+  },
+  {
+    "name": "خبز فرنسي ديجينيت 5 حبات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615970/%D8%AE%D8%A8%D8%B2-%D9%81%D8%B1%D9%86%D8%B3%D9%8A-%D8%AF%D9%8A%D8%AC%D9%8A%D9%86%D9%8A%D8%AA-5-%D8%AD%D8%A8%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "خبز فرنسي ديجينيت، مقرمش من الخارج وناعم من الداخل، مثالي للوجبات الجانبية أو الساندويتشات."
+  },
+  {
+    "name": "فونتي خبز التوست بر 665 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615973/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%A8%D8%B1-665-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5,
+    "description": "خبز توست بر من فونتي، غني بالألياف ومثالي لتحضير وجبات صحية ولذيذة لجميع أفراد العائلة."
+  },
+  {
+    "name": "لوزين - خبز التوست ساوردو ستايل، 300 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615975/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%B3%D8%A7%D9%88%D8%B1%D8%AF%D9%88-%D8%B3%D8%AA%D8%A7%D9%8A%D9%84-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.25,
+    "description": "خبز توست ساوردو ستايل من لوزين، يتميز بنكهة العجين المخمر الفريدة، مثالي لمحبي النكهات التقليدية."
+  },
+  {
+    "name": "لوزين ميني بريوش رولز بقطع الشوكولاتة 175 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615978/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D8%B1%D9%8A%D9%88%D8%B4-%D8%B1%D9%88%D9%84%D8%B2-%D8%A8%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-175-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.25,
+    "description": "ميني بريوش رولز من لوزين محشو بقطع الشوكولاتة، حلوى لذيذة ومثالية كوجبة خفيفة أو حلوى."
+  },
+  {
+    "name": "لوزين خبز برجر بريوش 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615981/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A8%D8%B1%D9%8A%D9%88%D8%B4-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.75,
+    "description": "خبز برجر بريوش من لوزين، فاخر وغني بالنكهة، مثالي لتحضير برغر مميز بنكهة الزبدة الغنية."
+  },
+  {
+    "name": "لوزين رول ساندويتش البريوش 300جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615984/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%B1%D9%88%D9%84-%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%88%D8%B4-300%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25,
+    "description": "رول ساندويتش بريوش من لوزين، ناعم وغني بنكهة البريوش، مثالي لتحضير ساندويتشات فاخرة."
+  },
+  {
+    "name": "فونتي خبز ساندويتش النقانق خبز بالحليب 6 حبات - 360 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615988/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4-%D8%A7%D9%84%D9%86%D9%82%D8%A7%D9%86%D9%82-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8-6-%D8%AD%D8%A8%D8%A7%D8%AA-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.5,
+    "description": "خبز ساندويتش النقانق بالحليب من فونتي، طري ومثالي لتحضير ساندويتشات النقانق اللذيذة."
+  },
+  {
+    "name": "فوشية خبز برجر بالسمسم x 6",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615990/%D9%81%D9%88%D8%B4%D9%8A%D8%A9-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D9%85-x-6.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 4.5,
+    "description": "خبز برجر بالسمسم من فوشية، طازج ومقرمش، مثالي لتحضير البرغر المنزلي بسعر مخفض."
+  },
+  {
+    "name": "لوزين خبز ساندويتش رول بر 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615992/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4-%D8%B1%D9%88%D9%84-%D8%A8%D8%B1-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "خبز ساندويتش رول بر من لوزين، صحي وغني بالألياف، مثالي لتحضير ساندويتشات خفيفة ومغذية."
+  },
+  {
+    "name": "لوزين خبز البرجر بالبطاطس 6 حبات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615994/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A8%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3-6-%D8%AD%D8%A8%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 6.75,
+    "description": "خبز برجر بالبطاطس من لوزين، يتميز بنكهة فريدة وقوام طري، مثالي لتحضير برغر مميز."
+  },
+  {
+    "name": "ريف خبز نخالة 200 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615997/%D8%B1%D9%8A%D9%81-%D8%AE%D8%A8%D8%B2-%D9%86%D8%AE%D8%A7%D9%84%D8%A9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.75,
+    "description": "خبز نخالة من ريف، غني بالألياف ومثالي لمحبي الخبز الصحي، مناسب للوجبات اليومية."
+  },
+  {
+    "name": "فوشية خبز توست أبيض 600 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616000/%D9%81%D9%88%D8%B4%D9%8A%D8%A9-%D8%AE%D8%A8%D8%B2-%D8%AA%D9%88%D8%B3%D8%AA-%D8%A3%D8%A8%D9%8A%D8%B6-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 19,
+    "price": 5.5,
+    "description": "خبز توست أبيض من فوشية، طازج وناعم، مثالي لتحضير الساندويتشات مع خصم مميز لفترة محدودة."
+  },
+  {
+    "name": "فونتي تورتيلا ذرة طازجة، حجم متوسط، 6 قطع، 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616002/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%B0%D8%B1%D8%A9-%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25,
+    "description": "تورتيلا ذرة طازجة من فونتي، مثالية لتحضير التاكو أو اللفائف، مصنوعة من مكونات طبيعية."
+  },
+  {
+    "name": "فونتي خبز برجر سادة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616007/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%B3%D8%A7%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "خبز برجر سادة من فونتي، طري ومثالي لتحضير البرغر المنزلي، يتميز بقوامه المتوازن."
+  },
+  {
+    "name": "خبز فرنسي ديجينيت 5 حبات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616009/%D8%AE%D8%A8%D8%B2-%D9%81%D8%B1%D9%86%D8%B3%D9%8A-%D8%AF%D9%8A%D8%AC%D9%8A%D9%86%D9%8A%D8%AA-5-%D8%AD%D8%A8%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "خبز فرنسي ديجينيت، مقرمش من الخارج وناعم من الداخل، مثالي للوجبات الجانبية أو الساندويتشات."
+  },
+  {
+    "name": "كارفور صامولي بر 6 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616012/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B5%D8%A7%D9%85%D9%88%D9%84%D9%8A-%D8%A8%D8%B1-6-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 1.95,
+    "description": "خبز صامولي بر من كارفور، صحي وطازج، مثالي لتحضير الساندويتشات بأسعار اقتصادية."
+  },
+  {
+    "name": "فونتي خبز بريوش 500جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616016/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%B1%D9%8A%D9%88%D8%B4-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 12.25,
+    "description": "خبز بريوش فاخر من فونتي، غني بنكهة الزبدة، مثالي لتحضير الحلويات أو الساندويتشات الراقية."
+  },
+  {
+    "name": "خبز فرنسي 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616018/%D8%AE%D8%A8%D8%B2-%D9%81%D8%B1%D9%86%D8%B3%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4.5,
+    "description": "خبز فرنسي تقليدي، مقرمش من الخارج وناعم من الداخل، مثالي للوجبات الجانبية أو الساندويتشات."
+  },
+  {
+    "name": "خبز صغير 5 حبات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616020/%D8%AE%D8%A8%D8%B2-%D8%B5%D8%BA%D9%8A%D8%B1-5-%D8%AD%D8%A8%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 2.95,
+    "description": "خبز صغير طازج، مثالي للوجبات الخفيفة أو كوجبة جانبية مع الأطباق الرئيسية."
+  },
+  {
+    "name": "كارفور خبز برجر ابيض 6 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616022/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A7%D8%A8%D9%8A%D8%B6-6-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "خبز برجر أبيض من كارفور، طري ومثالي لتحضير البرغر المنزلي بأسعار مناسبة."
+  },
+  {
+    "name": "خبز فرنسي 1 حبة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616024/%D8%AE%D8%A8%D8%B2-%D9%81%D8%B1%D9%86%D8%B3%D9%8A-1-%D8%AD%D8%A8%D8%A9.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "خبز فرنسي تقليدي، مقرمش وطازج، مثالي كوجبة جانبية أو لتحضير الساندويتشات."
+  },
+  {
+    "name": "خبز العجين المخمر بالزبيب",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616026/%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%B9%D8%AC%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%AE%D9%85%D8%B1-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%A8.jpg.jpg"
+    ],
+    "price": 13.95,
+    "description": "خبز العجين المخمر بالزبيب، يتميز بنكهة حلوة وملمس غني، مثالي لمحبي الخبز الفاخر."
+  },
+  {
+    "name": "لوزين فطيرة هشة بالزبدة مكونة من عجينة فاخرة بالزبدة الطبيعية، محشوة بحشوة الفراولة اللذيذة 80 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616027/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D9%81%D8%B7%D9%8A%D8%B1%D8%A9-%D9%87%D8%B4%D8%A9-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D9%85%D9%83%D9%88%D9%86%D8%A9-%D9%85%D9%86-%D8%B9%D8%AC%D9%8A%D9%86%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D9%85%D8%AD%D8%B4%D9%88%D8%A9-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D9%84%D8%B0%D9%8A%D8%B0%D8%A9-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "فطيرة هشة بالزبدة من لوزين، محشوة بحشوة الفراولة اللذيذة، مثالية كوجبة خفيفة أو حلوى."
+  },
+  {
+    "name": "فوشيا حلقة على شكل دونات ×2",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616031/%D9%81%D9%88%D8%B4%D9%8A%D8%A7-%D8%AD%D9%84%D9%82%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D8%AF%D9%88%D9%86%D8%A7%D8%AA-2.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "حلقة على شكل دونات من فوشيا، خفيفة وطازجة، مثالية كوجبة خفيفة سريعة أو مع القهوة."
+  },
+  {
+    "name": "خبز باجيت بالحبوب المنوعة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616032/%D8%AE%D8%A8%D8%B2-%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA-%D8%A8%D8%A7%D9%84%D8%AD%D8%A8%D9%88%D8%A8-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B9%D8%A9.jpg.jpg"
+    ],
+    "price": 6.95,
+    "description": "خبز باجيت بالحبوب المنوعة، صحي وغني بالنكهة، مثالي للوجبات الجانبية أو الساندويتشات."
+  },
+  {
+    "name": "لوزين فطيرة هشة بالزبدة مع حشوة الكرز 80جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616034/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D9%81%D8%B7%D9%8A%D8%B1%D8%A9-%D9%87%D8%B4%D8%A9-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D9%85%D8%B9-%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D8%B2-80%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "فطيرة هشة بالزبدة من لوزين، محشوة بحشوة الكرز اللذيذة، مثالية كحلوى أو وجبة خفيفة."
+  },
+  {
+    "name": "فونتي خبز برجر بالسمسم جامبو 6 حبات - 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616036/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D9%85-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-6-%D8%AD%D8%A8%D8%A7%D8%AA-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5,
+    "description": "خبز برجر بالسمسم جامبو من فونتي، بحجم كبير وطعم لذيذ، مثالي لتحضير برغر شهي."
+  },
+  {
+    "name": "فوشيا شرائح خبز بني 600جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616038/%D9%81%D9%88%D8%B4%D9%8A%D8%A7-%D8%B4%D8%B1%D8%A7%D8%A6%D8%AD-%D8%AE%D8%A8%D8%B2-%D8%A8%D9%86%D9%8A-600%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 6.75,
+    "description": "شرائح خبز بني من فوشيا، صحي وغني بالألياف، مثالي لتحضير ساندويتشات مغذية بسعر مخفض."
+  },
+  {
+    "name": "فتات الخبز 550 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616041/%D9%81%D8%AA%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D8%A8%D8%B2-550-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.5,
+    "description": "فتات الخبز، مثالي لتحضير الأطباق المقرمشة مثل الدجاج المقلي أو الكفتة، سهل الاستخدام."
+  },
+  {
+    "name": "خبز باجيت تقليدي بالجوز",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616044/%D8%AE%D8%A8%D8%B2-%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA-%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D9%88%D8%B2.jpg.jpg"
+    ],
+    "price": 5.95,
+    "description": "خبز باجيت تقليدي بالجوز، يتميز بنكهة غنية وقوام مقرمش، مثالي للوجبات الجانبية."
+  },
+  {
+    "name": "لوزين فطيرة هشة بالزبدة مكونة من عجينة فاخرة بالزبدة الطبيعية، محشوة بحشوة الجبنة الغنيّة 80 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616045/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D9%81%D8%B7%D9%8A%D8%B1%D8%A9-%D9%87%D8%B4%D8%A9-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D9%85%D9%83%D9%88%D9%86%D8%A9-%D9%85%D9%86-%D8%B9%D8%AC%D9%8A%D9%86%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%B2%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D9%85%D8%AD%D8%B4%D9%88%D8%A9-%D8%A8%D8%AD%D8%B4%D9%88%D8%A9-%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D8%BA%D9%86%D9%8A%D8%A9-80-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "فطيرة هشة بالزبدة من لوزين، محشوة بالجبنة الغنية، مثالية كوجبة خفيفة أو إفطار."
+  },
+  {
+    "name": "خبز باجيت تقليدي بالزيتون",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616047/%D8%AE%D8%A8%D8%B2-%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA-%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%8A-%D8%A8%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "خبز باجيت تقليدي بالزيتون، يتميز بنكهة البحر الأبيض المتوسط، مثالي للوجبات الجانبية."
+  },
+  {
+    "name": "خبز عالي الألياف",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616052/%D8%AE%D8%A8%D8%B2-%D8%B9%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%A3%D9%84%D9%8A%D8%A7%D9%81.jpg.jpg"
+    ],
+    "price": 7.95,
+    "description": "خبز عالي الألياف، صحي ومغذي، مثالي لمحبي التغذية المتوازنة والوجبات اليومية."
+  },
+  {
+    "name": "كرافتكورن خبز",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616054/%D9%83%D8%B1%D8%A7%D9%81%D8%AA%D9%83%D9%88%D8%B1%D9%86-%D8%AE%D8%A8%D8%B2.jpg.jpg"
+    ],
+    "price": 7.95,
+    "description": "خبز كرافتكورن، مصنوع بحرفية عالية، يتميز بنكهة فريدة وقوام مميز، مثالي للوجبات."
+  },
+  {
+    "name": "لوزين ساندويتش شوكولاتة 105 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616055/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4-%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-105-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3,
+    "description": "ساندويتش شوكولاتة من لوزين، لذيذ ومحشو بالشوكولاتة الغنية، مثالي كوجبة خفيفة حلوة."
+  },
+  {
+    "name": "خبز إسباني ×6",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616058/%D8%AE%D8%A8%D8%B2-%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-6.jpg.jpg"
+    ],
+    "price": 6.95,
+    "description": "خبز إسباني تقليدي، طازج ومقرمش، مثالي للوجبات الجانبية أو تحضير الساندويتشات."
+  },
+  {
+    "name": "خبز برجر بالسمسم 6 حبات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616060/%D8%AE%D8%A8%D8%B2-%D8%A8%D8%B1%D8%AC%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D9%85-6-%D8%AD%D8%A8%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "خبز برجر بالسمسم، طري ومزين بحبات السمسم، مثالي لتحضير برغر لذيذ في المنزل."
+  },
+  {
+    "name": "كارفور صامولي كبير 4 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616061/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B5%D8%A7%D9%85%D9%88%D9%84%D9%8A-%D9%83%D8%A8%D9%8A%D8%B1-4-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 2.95,
+    "description": "خبز صامولي كبير من كارفور، طازج ومثالي لتحضير ساندويتشات كبيرة ومشبعة."
+  },
+  {
+    "name": "خبز العجين المخمر كرستيكا",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616063/%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%B9%D8%AC%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%AE%D9%85%D8%B1-%D9%83%D8%B1%D8%B3%D8%AA%D9%8A%D9%83%D8%A7.jpg.jpg"
+    ],
+    "price": 12.95,
+    "description": "خبز العجين المخمر كرستيكا، يتميز بنكهة غنية وقوام مقرمش، مثالي لمحبي الخبز التقليدي."
+  },
+  {
+    "name": "كاكو خبز التوست الأسمر 700جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616064/%D9%83%D8%A7%D9%83%D9%88-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%AA-%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%B1-700%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 6.25,
+    "description": "خبز توست أسمر من كاكو، صحي وغني بالألياف، مثالي لتحضير ساندويتشات مغذية بسعر مخفض."
+  },
+  {
+    "name": "باجيت متعدد الحبوب 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616066/%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%AD%D8%A8%D9%88%D8%A8-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.95,
+    "description": "باجيت متعدد الحبوب، صحي وغني بالنكهة، مثالي للوجبات الجانبية أو الساندويتشات."
+  },
+  {
+    "name": "خبز التمر × 5",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616068/%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%85%D8%B1-5.jpg.jpg"
+    ],
+    "price": 5.95,
+    "description": "خبز التمر، يتميز بنكهة حلوة وملمس غني، مثالي كوجبة خفيفة أو مع الشاي."
+  },
+  {
+    "name": "خبز التمر 1 قطعة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616070/%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AA%D9%85%D8%B1-1-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "خبز التمر، قطعة واحدة حلوة ولذيذة، مثالية كوجبة خفيفة سريعة."
+  },
+  {
+    "name": "خبز باجيت تقليدي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616071/%D8%AE%D8%A8%D8%B2-%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA-%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%8A.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "خبز باجيت تقليدي، مقرمش من الخارج وناعم من الداخل، مثالي للوجبات الجانبية."
+  },
+  {
+    "name": "خبز نورلندر فرنسي 1 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616074/%D8%AE%D8%A8%D8%B2-%D9%86%D9%88%D8%B1%D9%84%D9%86%D8%AF%D8%B1-%D9%81%D8%B1%D9%86%D8%B3%D9%8A-1-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 7.95,
+    "description": "خبز نورلندر فرنسي، فاخر وطازج، مثالي لمحبي الخبز التقليدي عالي الجودة."
+  },
+  {
+    "name": "خبز فلبيني 10 حبات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616075/%D8%AE%D8%A8%D8%B2-%D9%81%D9%84%D8%A8%D9%8A%D9%86%D9%8A-10-%D8%AD%D8%A8%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 5.95,
+    "description": "خبز فلبيني، ناعم وطازج، مثالي كوجبة خفيفة أو مع الأطباق الرئيسية."
+  },
+  {
+    "name": "ديجاميت خبز الحمية × 4",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616077/%D8%AF%D9%8A%D8%AC%D8%A7%D9%85%D9%8A%D8%AA-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A9-4.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "خبز الحمية من ديجاميت، منخفض السعرات ومثالي لمحبي التغذية الصحية والرجيم."
+  },
+  {
+    "name": "خبز العجين المخمر نورمانن بروت",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616079/%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%B9%D8%AC%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%AE%D9%85%D8%B1-%D9%86%D9%88%D8%B1%D9%85%D8%A7%D9%86%D9%86-%D8%A8%D8%B1%D9%88%D8%AA.jpg.jpg"
+    ],
+    "price": 14.95,
+    "description": "خبز العجين المخمر نورمانن بروت، فاخر وغني بالنكهة، مثالي لمحبي الخبز التقليدي."
+  },
+  {
+    "name": "خبز بالجوز",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616081/%D8%AE%D8%A8%D8%B2-%D8%A8%D8%A7%D9%84%D8%AC%D9%88%D8%B2.jpg.jpg"
+    ],
+    "price": 8.95,
+    "description": "خبز بالجوز، يتميز بنكهة غنية وقوام مميز، مثالي للوجبات الجانبية أو الساندويتشات."
+  },
+  {
+    "name": "بوريك منوع × 5",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616083/%D8%A8%D9%88%D8%B1%D9%8A%D9%83-%D9%85%D9%86%D9%88%D8%B9-5.jpg.jpg"
+    ],
+    "price": 9.95,
+    "description": "بوريك منوع، محشو بحشوات مختلفة، مثالي كوجبة خفيفة أو للمناسبات الخاصة."
+  },
+  {
+    "name": "خبز مميز بالكيلو",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616087/%D8%AE%D8%A8%D8%B2-%D9%85%D9%85%D9%8A%D8%B2-%D8%A8%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
+    ],
+    "price": 9.98,
+    "description": "خبز مميز بالكيلو، طازج ومتنوع، مثالي للعائلات الكبيرة أو المناسبات."
+  },
+  {
+    "name": "خبز قليل الكربوهيدرات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745616089/%D8%AE%D8%A8%D8%B2-%D9%82%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%83%D8%B1%D8%A8%D9%88%D9%87%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 12.95,
+    "description": "خبز قليل الكربوهيدرات، مثالي لمحبي الرجيم منخفض الكربوهيدرات، صحي ولذيذ."
+  }
+]

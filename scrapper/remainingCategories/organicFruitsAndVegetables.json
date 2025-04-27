@@ -1,0 +1,243 @@
+// category id 680d76ed22f0b5fd5721e426
+[
+  {
+    "name": "كيل عضوي - صحن 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619152/%D9%83%D9%8A%D9%84-%D8%B9%D8%B6%D9%88%D9%8A-%D8%B5%D8%AD%D9%86-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.45,
+    "description": "كيل عضوي طازج، غني بالفيتامينات والمعادن، مثالي للسلطات والعصائر الصحية."
+  },
+  {
+    "name": "رجلة عضوي - صحن 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619155/%D8%B1%D8%AC%D9%84%D8%A9-%D8%B9%D8%B6%D9%88%D9%8A-%D8%B5%D8%AD%D9%86-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.7,
+    "description": "رجلة عضوية غنية بأوميغا 3، مثالية لإضافتها إلى السلطات أو الأطباق الجانبية."
+  },
+  {
+    "name": "نضال كرنب عضوي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619156/%D9%86%D8%B6%D8%A7%D9%84-%D9%83%D8%B1%D9%86%D8%A8-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
+    ],
+    "price": 10.95,
+    "description": "كرنب عضوي طازج من مزارع نضال، مثالي للسلطات أو الطهي."
+  },
+  {
+    "name": "عبوة سبانخ عضوي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619158/%D8%B9%D8%A8%D9%88%D8%A9-%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
+    ],
+    "price": 8.7,
+    "description": "سبانخ عضوية طازجة، غنية بالحديد والفيتامينات، مثالية للسلطات والطبخ."
+  },
+  {
+    "name": "دافا طماطم - زراعة مائية",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619159/%D8%AF%D8%A7%D9%81%D8%A7-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D9%85%D8%A7%D8%A6%D9%8A%D8%A9.jpg.jpg"
+    ],
+    "price": 3.35,
+    "description": "طماطم طازجة من زراعة مائية، ذات جودة عالية ونكهة غنية."
+  },
+  {
+    "name": "دافا، فلفل حلو صغير متنوع، زراعة مائية",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619162/%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%84%D9%81%D9%84-%D8%AD%D9%84%D9%88-%D8%B5%D8%BA%D9%8A%D8%B1-%D9%85%D8%AA%D9%86%D9%88%D8%B9-%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D9%85%D8%A7%D8%A6%D9%8A%D8%A9.jpg.jpg"
+    ],
+    "price": 12.23,
+    "description": "فلفل حلو صغير متنوع الألوان، مزروع بطريقة مائية لضمان النكهة والجودة."
+  },
+  {
+    "name": "نضال نعناع عضوي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619165/%D9%86%D8%B6%D8%A7%D9%84-%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
+    ],
+    "price": 6.7,
+    "description": "نعناع عضوي طازج من مزارع نضال، مثالي للمشروبات والسلطات."
+  },
+  {
+    "name": "طماطم كرزية، متنوعة، زراعة مائية",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619169/%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%83%D8%B1%D8%B2%D9%8A%D8%A9-%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9-%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D9%85%D8%A7%D8%A6%D9%8A%D8%A9.jpg.jpg"
+    ],
+    "price": 10.98,
+    "description": "طماطم كرزية متنوعة الألوان، مزروعة مائيًا، مثالية للسلطات والمقبلات."
+  },
+  {
+    "name": "مرامية عضوي - صحن 50 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619171/%D9%85%D8%B1%D8%A7%D9%85%D9%8A%D8%A9-%D8%B9%D8%B6%D9%88%D9%8A-%D8%B5%D8%AD%D9%86-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 21.95,
+    "description": "مرامية عضوية طازجة، مثالية للشاي أو كتوابل للأطباق المتنوعة."
+  },
+  {
+    "name": "دافا - طماطم كرزية حمراء 300جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619172/%D8%AF%D8%A7%D9%81%D8%A7-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D9%83%D8%B1%D8%B2%D9%8A%D8%A9-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-300%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10.95,
+    "description": "طماطم كرزية حمراء طازجة بوزن 300 جرام، مزروعة بجودة عالية."
+  },
+  {
+    "name": "تيكنو فارم، صحن كزبرة عضوي - 100جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619173/%D8%AA%D9%8A%D9%83%D9%86%D9%88-%D9%81%D8%A7%D8%B1%D9%85-%D8%B5%D8%AD%D9%86-%D9%83%D8%B2%D8%A8%D8%B1%D8%A9-%D8%B9%D8%B6%D9%88%D9%8A-100%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "كزبرة عضوية طازجة من تيكنو فارم، مثالية لتحسين نكهة الأطباق."
+  },
+  {
+    "name": "تيكنو فارم، صحن نعناع عضوي - 100جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619175/%D8%AA%D9%8A%D9%83%D9%86%D9%88-%D9%81%D8%A7%D8%B1%D9%85-%D8%B5%D8%AD%D9%86-%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%B9%D8%B6%D9%88%D9%8A-100%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "نعناع عضوي طازج من تيكنو فارم، مثالي للشاي أو السلطات."
+  },
+  {
+    "name": "بقدونس إيطالي عضوي - صحن 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619178/%D8%A8%D9%82%D8%AF%D9%88%D9%86%D8%B3-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-%D8%B9%D8%B6%D9%88%D9%8A-%D8%B5%D8%AD%D9%86-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "بقدونس إيطالي عضوي طازج، مثالي لتزيين الأطباق وإضافة النكهة."
+  },
+  {
+    "name": "بقدونس عضوي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619180/%D8%A8%D9%82%D8%AF%D9%88%D9%86%D8%B3-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
+    ],
+    "price": 6.7,
+    "description": "بقدونس عضوي طازج، مثالي للسلطات والطبخ اليومي."
+  },
+  {
+    "name": "خس لولو بيوندا",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619182/%D8%AE%D8%B3-%D9%84%D9%88%D9%84%D9%88-%D8%A8%D9%8A%D9%88%D9%86%D8%AF%D8%A7.jpg.jpg"
+    ],
+    "price": 8.7,
+    "description": "خس لولو بيوندا طازج، مثالي للسلطات الصحية والساندويتشات."
+  },
+  {
+    "name": "بصل أخضرعضوي - كيس 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619185/%D8%A8%D8%B5%D9%84-%D8%A3%D8%AE%D8%B6%D8%B1%D8%B9%D8%B6%D9%88%D9%8A-%D9%83%D9%8A%D8%B3-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "بصل أخضر عضوي طازج، مثالي للسلطات والتزيين."
+  },
+  {
+    "name": "نضال كزبرة عضوية",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619296/%D9%86%D8%B6%D8%A7%D9%84-%D9%83%D8%B2%D8%A8%D8%B1%D8%A9-%D8%B9%D8%B6%D9%88%D9%8A%D8%A9.jpg.jpg"
+    ],
+    "price": 6.7,
+    "description": "كزبرة عضوية طازجة من مزارع نضال، مثالية للطبخ والسلطات."
+  },
+  {
+    "name": "كراث عضوي - صحن 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619297/%D9%83%D8%B1%D8%A7%D8%AB-%D8%B9%D8%B6%D9%88%D9%8A-%D8%B5%D8%AD%D9%86-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "كراث عضوي طازج، مثالي لإضافة نكهة مميزة للحساء والأطباق."
+  },
+  {
+    "name": "نعناع حائل عضوي - صحن 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619299/%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%AD%D8%A7%D8%A6%D9%84-%D8%B9%D8%B6%D9%88%D9%8A-%D8%B5%D8%AD%D9%86-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "نعناع عضوي طازج من حائل، مثالي للمشروبات والسلطات."
+  },
+  {
+    "name": "نضال شبت عضوي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619301/%D9%86%D8%B6%D8%A7%D9%84-%D8%B4%D8%A8%D8%AA-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
+    ],
+    "price": 6.7,
+    "description": "شبت عضوي طازج من مزارع نضال، مثالي للأطباق البحرية والسلطات."
+  },
+  {
+    "name": "خس زبدة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619302/%D8%AE%D8%B3-%D8%B2%D8%A8%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "خس زبدة طازج، مثالي للسلطات والساندويتشات بنكهته الناعمة."
+  },
+  {
+    "name": "عبوة طماطم زراعة مائية 1 كجم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619303/%D8%B9%D8%A8%D9%88%D8%A9-%D8%B7%D9%85%D8%A7%D8%B7%D9%85-%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D9%85%D8%A7%D8%A6%D9%8A%D8%A9-1-%D9%83%D8%AC%D9%85.jpg.jpg"
+    ],
+    "price": 13.45,
+    "description": "طماطم طازجة بوزن 1 كجم من زراعة مائية، مثالية للطبخ والسلطات."
+  },
+  {
+    "name": "لولو روز خس",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619305/%D9%84%D9%88%D9%84%D9%88-%D8%B1%D9%88%D8%B2-%D8%AE%D8%B3.jpg.jpg"
+    ],
+    "price": 8.7,
+    "description": "خس لولو روز طازج، مثالي للسلطات الصحية والأطباق الجانبية."
+  },
+  {
+    "name": "شبت عضوي - صحن 100 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619307/%D8%B4%D8%A8%D8%AA-%D8%B9%D8%B6%D9%88%D9%8A-%D8%B5%D8%AD%D9%86-100-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "شبت عضوي طازج، مثالي لإضافة نكهة مميزة للأطباق والسلطات."
+  },
+  {
+    "name": "نضال فلفل عضوي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619309/%D9%86%D8%B6%D8%A7%D9%84-%D9%81%D9%84%D9%81%D9%84-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
+    ],
+    "price": 8.7,
+    "description": "فلفل عضوي طازج من مزارع نضال، مثالي للطبخ والسلطات."
+  },
+  {
+    "name": "تيكنو فارم، جرجير الماء عضوي - 100جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619310/%D8%AA%D9%8A%D9%83%D9%86%D9%88-%D9%81%D8%A7%D8%B1%D9%85-%D8%AC%D8%B1%D8%AC%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D8%B9%D8%B6%D9%88%D9%8A-100%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 16.45,
+    "description": "جرجير الماء العضوي من تيكنو فارم، غني بالنكهة ومثالي للسلطات."
+  },
+  {
+    "name": "تيكنو فارم، صحن أوريجانو عضوي - 50جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619311/%D8%AA%D9%8A%D9%83%D9%86%D9%88-%D9%81%D8%A7%D8%B1%D9%85-%D8%B5%D8%AD%D9%86-%D8%A3%D9%88%D8%B1%D9%8A%D8%AC%D8%A7%D9%86%D9%88-%D8%B9%D8%B6%D9%88%D9%8A-50%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 21.95,
+    "description": "أوريجانو عضوي طازج من تيكنو فارم، مثالي كتوابل للبيتزا والأطباق الإيطالية."
+  },
+  {
+    "name": "تيكنو فارم، شاي أخضر طازج عضوي - 100جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619313/%D8%AA%D9%8A%D9%83%D9%86%D9%88-%D9%81%D8%A7%D8%B1%D9%85-%D8%B4%D8%A7%D9%8A-%D8%A3%D8%AE%D8%B6%D8%B1-%D8%B7%D8%A7%D8%B2%D8%AC-%D8%B9%D8%B6%D9%88%D9%8A-100%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.7,
+    "description": "شاي أخضر طازج عضوي من تيكنو فارم، مثالي لتحضير مشروب صحي."
+  },
+  {
+    "name": "تمر نضال عضوي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619314/%D8%AA%D9%85%D8%B1-%D9%86%D8%B6%D8%A7%D9%84-%D8%B9%D8%B6%D9%88%D9%8A.jpg.jpg"
+    ],
+    "price": 27.45,
+    "description": "تمر عضوي طازج من مزارع نضال، غني بالطاقة والنكهة الطبيعية."
+  },
+  {
+    "name": "مزرعة ال طالب، فاصوليا خضراء - زراعة مائية 500 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745619316/%D9%85%D8%B2%D8%B1%D8%B9%D8%A9-%D8%A7%D9%84-%D8%B7%D8%A7%D9%84%D8%A8-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D9%85%D8%A7%D8%A6%D9%8A%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.95,
+    "description": "فاصوليا خضراء طازجة من زراعة مائية، مثالية للطهي والسلطات."
+  }
+]

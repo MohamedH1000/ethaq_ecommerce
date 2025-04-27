@@ -1,0 +1,227 @@
+// 680d73fd22f0b5fd5721e41b
+[
+  {
+    "name": "القصر للكنافة - عجينة كنافة 1كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615844/%D8%A7%D9%84%D9%82%D8%B5%D8%B1-%D9%84%D9%84%D9%83%D9%86%D8%A7%D9%81%D8%A9-%D8%B9%D8%AC%D9%8A%D9%86%D8%A9-%D9%83%D9%86%D8%A7%D9%81%D8%A9-1%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 8.5,
+    "description": "عجينة كنافة القصر للكنافة - عجينة كنافة 1كج، مثالية لتحضير أشهى الحلويات الشرقية. سعرها 8.5 ريال"
+  },
+  {
+    "name": "رغد معمول كليجة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615846/%D8%B1%D8%BA%D8%AF-%D9%85%D8%B9%D9%85%D9%88%D9%84-%D9%83%D9%84%D9%8A%D8%AC%D8%A9.jpg.jpg"
+    ],
+    "price": 20.95,
+    "description": "معمول رغد معمول كليجة، حلوى عربية تقليدية شهية. سعرها 20.95 ريال"
+  },
+  {
+    "name": "رغد علبة معمول الدخن",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615848/%D8%B1%D8%BA%D8%AF-%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%A7%D9%84%D8%AF%D8%AE%D9%86.jpg.jpg"
+    ],
+    "price": 14.95,
+    "description": "معمول رغد علبة معمول الدخن، حلوى عربية تقليدية شهية مصنوعة من دقيق الدخن الصحي. سعرها 14.95 ريال"
+  },
+  {
+    "name": "رغد معمول بر بالتمر والمكسرات 700جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615850/%D8%B1%D8%BA%D8%AF-%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%A8%D8%B1-%D8%A8%D8%A7%D9%84%D8%AA%D9%85%D8%B1-%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B3%D8%B1%D8%A7%D8%AA-700%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 29.95,
+    "description": "معمول رغد معمول بر بالتمر والمكسرات 700جرام، حلوى عربية تقليدية شهية محشوة بالتمر الفاخر ومزينة بالمكسرات. سعرها 29.95 ريال"
+  },
+  {
+    "name": "رغد علبة معمول قرفة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615853/%D8%B1%D8%BA%D8%AF-%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B9%D9%85%D9%88%D9%84-%D9%82%D8%B1%D9%81%D8%A9.jpg.jpg"
+    ],
+    "price": 14.95,
+    "description": "معمول رغد علبة معمول قرفة، حلوى عربية تقليدية شهية بنكهة القرفة المميزة. سعرها 14.95 ريال"
+  },
+  {
+    "name": "المثالي معمول تمر",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615854/%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%AA%D9%85%D8%B1.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "معمول المثالي معمول تمر، حلوى عربية تقليدية شهية محشوة بالتمر الفاخر. سعرها 4.95 ريال"
+  },
+  {
+    "name": "المثالي - معمول التمر الصحي 300 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615856/%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%A7%D9%84%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 25.5,
+    "description": "معمول المثالي - معمول التمر الصحي 300 جرام، حلوى عربية تقليدية شهية محشوة بالتمر الفاخر. سعرها 25.5 ريال"
+  },
+  {
+    "name": "رغد علبة معمول توفي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615857/%D8%B1%D8%BA%D8%AF-%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%AA%D9%88%D9%81%D9%8A.jpg.jpg"
+    ],
+    "price": 14.95,
+    "description": "معمول رغد علبة معمول توفي، حلوى عربية تقليدية شهية. سعرها 14.95 ريال"
+  },
+  {
+    "name": "معمول قشد",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615859/%D9%85%D8%B9%D9%85%D9%88%D9%84-%D9%82%D8%B4%D8%AF.jpg.jpg"
+    ],
+    "price": 25,
+    "description": "معمول معمول قشد، حلوى عربية تقليدية شهية. سعرها 25 ريال"
+  },
+  {
+    "name": "أقراص السمسم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615861/%D8%A3%D9%82%D8%B1%D8%A7%D8%B5-%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D9%85.jpg.jpg"
+    ],
+    "price": 19.95,
+    "description": "منتج عالي الجودة أقراص السمسم. سعره 19.95 ريال"
+  },
+  {
+    "name": "كليجا",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615863/%D9%83%D9%84%D9%8A%D8%AC%D8%A7.jpg.jpg"
+    ],
+    "price": 16,
+    "description": "منتج عالي الجودة كليجا. سعره 16 ريال"
+  },
+  {
+    "name": "معمول الشوكولاتة البني",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615865/%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D9%8A.jpg.jpg"
+    ],
+    "price": 17.95,
+    "description": "معمول معمول الشوكولاتة البني، حلوى عربية تقليدية شهية. سعرها 17.95 ريال"
+  },
+  {
+    "name": "معمول بالجوز",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615866/%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%A8%D8%A7%D9%84%D8%AC%D9%88%D8%B2.jpg.jpg"
+    ],
+    "price": 57.95,
+    "description": "معمول معمول بالجوز، حلوى عربية تقليدية شهية. سعرها 57.95 ريال"
+  },
+  {
+    "name": "كيليجة بالدبس والطحينة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615868/%D9%83%D9%8A%D9%84%D9%8A%D8%AC%D8%A9-%D8%A8%D8%A7%D9%84%D8%AF%D8%A8%D8%B3-%D9%88%D8%A7%D9%84%D8%B7%D8%AD%D9%8A%D9%86%D8%A9.jpg.jpg"
+    ],
+    "price": 25,
+    "description": "منتج عالي الجودة كيليجة بالدبس والطحينة. سعره 25 ريال"
+  },
+  {
+    "name": "المثالي - موالح",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615870/%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D9%85%D9%88%D8%A7%D9%84%D8%AD.jpg.jpg"
+    ],
+    "price": 25.5,
+    "description": "منتج عالي الجودة المثالي - موالح. سعره 25.5 ريال"
+  },
+  {
+    "name": "ريتاج الغلا خفايف البر بالتمر 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615872/%D8%B1%D9%8A%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%BA%D9%84%D8%A7-%D8%AE%D9%81%D8%A7%D9%8A%D9%81-%D8%A7%D9%84%D8%A8%D8%B1-%D8%A8%D8%A7%D9%84%D8%AA%D9%85%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 24,
+    "description": "منتج عالي الجودة ريتاج الغلا خفايف البر بالتمر 400 جرام. سعره 24 ريال"
+  },
+  {
+    "name": "تمر بالسمسم محشو بالطحينة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615874/%D8%AA%D9%85%D8%B1-%D8%A8%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D9%85-%D9%85%D8%AD%D8%B4%D9%88-%D8%A8%D8%A7%D9%84%D8%B7%D8%AD%D9%8A%D9%86%D8%A9.jpg.jpg"
+    ],
+    "price": 25,
+    "description": "منتج عالي الجودة تمر بالسمسم محشو بالطحينة. سعره 25 ريال"
+  },
+  {
+    "name": "ريتاج - قرص عقيل",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615876/%D8%B1%D9%8A%D8%AA%D8%A7%D8%AC-%D9%82%D8%B1%D8%B5-%D8%B9%D9%82%D9%8A%D9%84.jpg.jpg"
+    ],
+    "price": 16,
+    "description": "منتج عالي الجودة ريتاج - قرص عقيل. سعره 16 ريال"
+  },
+  {
+    "name": "ريتاج الغلا خفايف بالتمر 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615878/%D8%B1%D9%8A%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%BA%D9%84%D8%A7-%D8%AE%D9%81%D8%A7%D9%8A%D9%81-%D8%A8%D8%A7%D9%84%D8%AA%D9%85%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 24,
+    "description": "منتج عالي الجودة ريتاج الغلا خفايف بالتمر 400 جرام. سعره 24 ريال"
+  },
+  {
+    "name": "كعك أصابع سمسم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615880/%D9%83%D8%B9%D9%83-%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9-%D8%B3%D9%85%D8%B3%D9%85.jpg.jpg"
+    ],
+    "price": 4.99,
+    "description": "منتج عالي الجودة كعك أصابع سمسم. سعره 4.99 ريال"
+  },
+  {
+    "name": "معمول بالمكسرات",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615882/%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%A8%D8%A7%D9%84%D9%85%D9%83%D8%B3%D8%B1%D8%A7%D8%AA.jpg.jpg"
+    ],
+    "price": 20.95,
+    "description": "معمول معمول بالمكسرات، حلوى عربية تقليدية شهية ومزينة بالمكسرات. سعرها 20.95 ريال"
+  },
+  {
+    "name": "بسكويت جوز الهند × 8",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615884/%D8%A8%D8%B3%D9%83%D9%88%D9%8A%D8%AA-%D8%AC%D9%88%D8%B2-%D8%A7%D9%84%D9%87%D9%86%D8%AF-8.jpg.jpg"
+    ],
+    "price": 7.95,
+    "description": "منتج عالي الجودة بسكويت جوز الهند × 8. سعره 7.95 ريال"
+  },
+  {
+    "name": "بسبوسة 400 جرام (بالصحن)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615886/%D8%A8%D8%B3%D8%A8%D9%88%D8%B3%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85-%D8%A8%D8%A7%D9%84%D8%B5%D8%AD%D9%86.jpg.jpg"
+    ],
+    "price": 9.95,
+    "description": "منتج عالي الجودة بسبوسة 400 جرام (بالصحن). سعره 9.95 ريال"
+  },
+  {
+    "name": "رغد - بر معمول زيت زيتون",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615889/%D8%B1%D8%BA%D8%AF-%D8%A8%D8%B1-%D9%85%D8%B9%D9%85%D9%88%D9%84-%D8%B2%D9%8A%D8%AA-%D8%B2%D9%8A%D8%AA%D9%88%D9%86.jpg.jpg"
+    ],
+    "price": 17.95,
+    "description": "زيت زيتون فاخر رغد - بر معمول زيت زيتون، منتج طبيعي عالي الجودة. سعره 17.95 ريال"
+  },
+  {
+    "name": "كرات التمر بالطحينة والشوكولاتة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615890/%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%85%D8%B1-%D8%A8%D8%A7%D9%84%D8%B7%D8%AD%D9%8A%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9.jpg.jpg"
+    ],
+    "price": 21.95,
+    "description": "منتج عالي الجودة كرات التمر بالطحينة والشوكولاتة. سعره 21.95 ريال"
+  },
+  {
+    "name": "تمرية بالشوكولاتة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615892/%D8%AA%D9%85%D8%B1%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9.jpg.jpg"
+    ],
+    "price": 16,
+    "description": "منتج عالي الجودة تمرية بالشوكولاتة. سعره 16 ريال"
+  },
+  {
+    "name": "تمرية بالتمر",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615894/%D8%AA%D9%85%D8%B1%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AA%D9%85%D8%B1.jpg.jpg"
+    ],
+    "price": 16,
+    "description": "منتج عالي الجودة تمرية بالتمر. سعره 16 ريال"
+  },
+  {
+    "name": "كول واشكور بالكاجو",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615895/%D9%83%D9%88%D9%84-%D9%88%D8%A7%D8%B4%D9%83%D9%88%D8%B1-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%AC%D9%88.jpg.jpg"
+    ],
+    "price": 57.95,
+    "description": "منتج عالي الجودة كول واشكور بالكاجو. سعره 57.95 ريال"
+  }
+]

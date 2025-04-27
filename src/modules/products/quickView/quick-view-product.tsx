@@ -5,7 +5,6 @@ import { Icons } from "@/components/ui/icons";
 import usePrice from "@/hooks/use-price";
 import { useCartStore } from "@/store/cart/cart.store";
 import { useGlobalModalStateStore } from "@/store/modal";
-import { IProduct } from "@/types";
 import { generateCartItem } from "@/utils/generate-cart-item";
 import { getVariations } from "@/utils/get-variations";
 import { isEmpty, isEqual } from "lodash";
@@ -14,10 +13,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 import ProductAttributes from "../product-attributes";
 import ThumbnailCarousel from "../thumbnail-carousel";
-import {
-  addProductToCart,
-  getOrdersItemsByUserId,
-} from "@/lib/actions/order.action";
+import { addProductToCart } from "@/lib/actions/order.action";
 import { Loader } from "lucide-react";
 import { useUser } from "@/context/UserContext";
 import { useRouter } from "next/navigation";
@@ -179,7 +175,7 @@ export const QuickViewProduct = () => {
                   {(product?.price * selectedQuantity).toFixed(2)} ريال
                 </div>
               )}
-              {product?.discount && (
+              {(product?.discount || product?.discount > 0) && (
                 <>
                   <del className="text-sm text-opacity-50 md:text-15px pl-3  text-gray-500 dark:text-white mr-2">
                     {(product.price * selectedQuantity).toFixed(2)} ريال

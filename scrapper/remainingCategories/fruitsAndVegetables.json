@@ -1,0 +1,1526 @@
+// category id 680d71d622f0b5fd5721e415
+[
+  {
+    "name": "مونتانا ملوخية مجمد 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534422/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 19,
+    "price": 5.5,
+    "description": "ملوخية مجمدة عالية الجودة من مونتانا، وزن 400 جرام، مثالية لتحضير أطباق الملوخية التقليدية بسهولة وسرعة."
+  },
+  {
+    "name": "داري ملخية مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534424/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%85%D9%84%D8%AE%D9%8A%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 5,
+    "price": 3.95,
+    "description": "ملوخية مجمدة من داري، 400 جرام، طازجة ومغذية، جاهزة للطهي لتحضير وجبات شهية."
+  },
+  {
+    "name": "مونتانا فراولة مجمدة 1كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534426/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-1%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 10.95,
+    "description": "فراولة مجمدة من مونتانا، 1 كجم، مثالية لتحضير العصائر والحلويات والمربى."
+  },
+  {
+    "name": "مونتانيا بامية زيرو مجمد 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534428/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D9%8A%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 18,
+    "price": 9.75,
+    "description": "بامية زيرو مجمدة من مونتانيا، 400 جرام، صغيرة الحجم ومثالية للأطباق العربية التقليدية."
+  },
+  {
+    "name": "داري فراولة مجمدة 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534429/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 9.75,
+    "description": "فراولة مجمدة من داري، 1 كجم، طازجة وحلوة، مثالية للسموثي والحلويات."
+  },
+  {
+    "name": "مونتانا مانجو مجمدة 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534430/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 7,
+    "price": 10.95,
+    "description": "مانجو مجمدة من مونتانا، 1 كجم، قطع طازجة وغنية بالنكهة لتحضير العصائر والحلويات."
+  },
+  {
+    "name": "هلا بامية إكسلنت مجمدة، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534432/%D9%87%D9%84%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%A5%D9%83%D8%B3%D9%84%D9%86%D8%AA-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5,
+    "description": "بامية إكسلنت مجمدة من هلا، 400 جرام، عالية الجودة ومثالية لتحضير أطباق البامية اللذيذة."
+  },
+  {
+    "name": "داري  فول الصويا، مجمد 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534434/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7-%D9%85%D8%AC%D9%85%D8%AF-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 18,
+    "price": 16.5,
+    "description": "فول صويا مجمد من داري، 454 جرام، مصدر غني بالبروتين ومثالي للأطباق الصحية."
+  },
+  {
+    "name": "سنبلة ملوخية مع التقلية 415 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534435/%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D8%AA%D9%82%D9%84%D9%8A%D8%A9-415-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "ملوخية مع التقلية من سنبلة، 415 جرام، جاهزة للطهي مع نكهة التقلية التقليدية."
+  },
+  {
+    "name": "هلا بامية زيرو مجمدة، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534437/%D9%87%D9%84%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.95,
+    "description": "بامية زيرو مجمدة من هلا، 400 جرام، صغيرة الحجم ومثالية للأطباق العربية."
+  },
+  {
+    "name": "السنبلة بازيلا خضراء 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534439/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%A8%D8%A7%D8%B2%D9%8A%D9%84%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 15.95,
+    "description": "بازيلا خضراء مجمدة من السنبلة، 800 جرام، طازجة ومغذية لتحضير أطباق متنوعة."
+  },
+  {
+    "name": "داري بامية فاين مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534440/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D9%81%D8%A7%D9%8A%D9%86-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 6.5,
+    "description": "بامية فاين مجمدة من داري، 400 جرام، ناعمة ومثالية لتحضير اليخنات والأطباق التقليدية."
+  },
+  {
+    "name": "هلا ملوخية مجمدة، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534442/%D9%87%D9%84%D8%A7-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4,
+    "description": "ملوخية مجمدة من هلا، 400 جرام، طازجة وسهلة التحضير لوجبات صحية ولذيذة."
+  },
+  {
+    "name": "كارفور كلاسيك فراولة كاملة مجمدة - كيس 650 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534443/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-%D9%83%D9%8A%D8%B3-650-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.5,
+    "description": "فراولة كاملة مجمدة من كارفور كلاسيك، 650 جرام، مثالية لتحضير الحلويات والعصائر."
+  },
+  {
+    "name": "داري - فواكه الغابة السوداء المشكلة 350 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534445/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%81%D9%88%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 24,
+    "price": 19,
+    "description": "فواكه الغابة السوداء المشكلة من داري، 350 جرام، مزيج غني بالنكهات للسموثي والحلويات."
+  },
+  {
+    "name": "داري راز باري 350 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534446/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%B1%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B1%D9%8A-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.95,
+    "description": "توت العليق المجمد من داري، 350 جرام، مثالي لتحضير العصائر والحلويات الطازجة."
+  },
+  {
+    "name": "مونتانيا بامية اكستراا مجمدة  400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534448/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D9%8A%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7%D8%A7-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 10.75,
+    "description": "بامية اكسترا مجمدة من مونتانيا، 400 جرام، عالية الجودة ومثالية للأطباق العربية."
+  },
+  {
+    "name": "كارفور بازيلا خضراء 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534450/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A8%D8%A7%D8%B2%D9%8A%D9%84%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 17.5,
+    "description": "بازيلا خضراء مجمدة من كارفور، 1 كجم، طازجة ومثالية لتحضير اليخنات والسلطات."
+  },
+  {
+    "name": "داري بازيلا و جزر مجمد 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534452/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D8%B2%D9%8A%D9%84%D8%A7-%D9%88-%D8%AC%D8%B2%D8%B1-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 21,
+    "price": 7.25,
+    "description": "مزيج بازيلا وجزر مجمد من داري، 400 جرام، مثالي لتحضير الأطباق الجانبية والشوربات."
+  },
+  {
+    "name": "داري خضار مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534454/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 21,
+    "price": 7.25,
+    "description": "خضار مشكلة مجمدة من داري، 400 جرام، مزيج متنوع لتحضير وجبات صحية وسريعة."
+  },
+  {
+    "name": "داري بلاك بيري 350 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534456/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A8%D9%84%D8%A7%D9%83-%D8%A8%D9%8A%D8%B1%D9%8A-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 25,
+    "price": 18.5,
+    "description": "توت أسود مجمد من داري، 350 جرام، غني بالنكهة ومثالي للسموثي والحلويات."
+  },
+  {
+    "name": "هلا بازلاء وجزر مجمد، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534458/%D9%87%D9%84%D8%A7-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%88%D8%AC%D8%B2%D8%B1-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5,
+    "description": "مزيج بازلاء وجزر مجمد من هلا، 400 جرام، مثالي لتحضير الأطباق الصحية والسريعة."
+  },
+  {
+    "name": "داري بامية اكسترا مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534460/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 10.75,
+    "description": "بامية اكسترا مجمدة من داري، 400 جرام، عالية الجودة ومثالية للأطباق العربية."
+  },
+  {
+    "name": "كارفور أعشاب ريحان 50 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534462/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8-%D8%B1%D9%8A%D8%AD%D8%A7%D9%86-50-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.5,
+    "description": "أعشاب ريحان مجمدة من كارفور، 50 جرام، تضيف نكهة طازجة للأطباق الإيطالية والسلطات."
+  },
+  {
+    "name": "كارفور فطر جيرولي 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534464/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%81%D8%B7%D8%B1-%D8%AC%D9%8A%D8%B1%D9%88%D9%84%D9%8A-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 26,
+    "description": "فطر جيرولي من كارفور، 250 جرام، مثالي لتحضير الصلصات والبيتزا والأطباق الجانبية."
+  },
+  {
+    "name": "كارفور خضار البازلاء والجزر 1 كغ",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534467/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AE%D8%B6%D8%A7%D8%B1-%D8%A7%D9%84%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%AC%D8%B2%D8%B1-1-%D9%83%D8%BA.jpg.jpg"
+    ],
+    "price": 16.5,
+    "description": "مزيج بازلاء وجزر مجمد من كارفور، 1 كجم، مثالي لتحضير اليخنات والشوربات."
+  },
+  {
+    "name": "كارفور أعشاب بقدونس مجمدة 50 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534470/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8-%D8%A8%D9%82%D8%AF%D9%88%D9%86%D8%B3-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-50-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.5,
+    "description": "بقدونس مجمد من كارفور، 50 جرام، يضيف نكهة طازجة للسلطات والأطباق المتنوعة."
+  },
+  {
+    "name": "كارفور خضروات مطبوخة على الطريقة الشرقية",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534471/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D9%85%D8%B7%D8%A8%D9%88%D8%AE%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9.jpg.jpg"
+    ],
+    "price": 19.95,
+    "description": "خضروات مطبوخة على الطريقة الشرقية من كارفور، جاهزة للتقديم مع نكهة تقليدية."
+  },
+  {
+    "name": "مونتانا بروكلي 250 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534472/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D8%A8%D8%B1%D9%88%D9%83%D9%84%D9%8A-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.95,
+    "description": "بروكلي مجمد من مونتانا، 250 جرام، غني بالفيتامينات ومثالي للأطباق الصحية."
+  },
+  {
+    "name": "ساديا ملوخية مفرومة مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534476/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D9%81%D8%B1%D9%88%D9%85%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 40,
+    "price": 7,
+    "description": "ملوخية مفرومة مجمدة من ساديا، 400 جرام، جاهزة للطهي لتحضير أطباق الملوخية التقليدية."
+  },
+  {
+    "name": "أوسيا توت مشكل مجمد 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534477/%D8%A3%D9%88%D8%B3%D9%8A%D8%A7-%D8%AA%D9%88%D8%AA-%D9%85%D8%B4%D9%83%D9%84-%D9%85%D8%AC%D9%85%D8%AF-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 29.75,
+    "description": "توت مشكل مجمد من أوسيا، 400 جرام، مزيج غني بالنكهات لتحضير العصائر والحلويات."
+  },
+  {
+    "name": "داري بامية زيرو مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534480/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 18,
+    "price": 9.75,
+    "description": "بامية زيرو مجمدة من داري، 400 جرام، صغيرة الحجم ومثالية للأطباق العربية."
+  },
+  {
+    "name": "داري لب مانجو توتابوري مجمد 1كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534481/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%84%D8%A8-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D8%AA%D9%88%D8%AA%D8%A7%D8%A8%D9%88%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-1%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 7,
+    "price": 10.95,
+    "description": "لب مانجو توتابوري مجمد من داري، 1 كجم، غني بالنكهة ومثالي لتحضير العصائر."
+  },
+  {
+    "name": "السنبلة بامية أكسترا 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534483/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%A3%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 12.25,
+    "description": "بامية اكسترا مجمدة من السنبلة، 400 جرام، عالية الجودة ومثالية للأطباق العربية."
+  },
+  {
+    "name": "أوسيا توت أزرق مجمد 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534485/%D8%A3%D9%88%D8%B3%D9%8A%D8%A7-%D8%AA%D9%88%D8%AA-%D8%A3%D8%B2%D8%B1%D9%82-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 24,
+    "price": 30,
+    "description": "توت أزرق مجمد من أوسيا، 400 جرام، غني بمضادات الأكسدة ومثالي للسموثي."
+  },
+  {
+    "name": "السنبلة بامية زيرو 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534486/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 20,
+    "price": 11.25,
+    "description": "بامية زيرو مجمدة من السنبلة، 400 جرام، صغيرة الحجم ومثالية للأطباق العربية."
+  },
+  {
+    "name": "الكبير ذرة عرانيس - 4 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534487/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B0%D8%B1%D8%A9-%D8%B9%D8%B1%D8%A7%D9%86%D9%8A%D8%B3-4-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 17.5,
+    "description": "ذرة عرانيس من الكبير، 4 قطع، مثالية للشواء أو الطهي لوجبات لذيذة."
+  },
+  {
+    "name": "داري سبانخ مفروم 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534488/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%85%D9%81%D8%B1%D9%88%D9%85-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.95,
+    "description": "سبانخ مفرومة مجمدة من داري، 400 جرام، غنية بالفيتامينات ومثالية للطهي."
+  },
+  {
+    "name": "داري بروكولي 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534490/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A8%D8%B1%D9%88%D9%83%D9%88%D9%84%D9%8A-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10,
+    "description": "بروكلي مجمد من داري، 400 جرام، صحي ومثالي لتحضير الأطباق الجانبية والسلطات."
+  },
+  {
+    "name": "هلا خضار مشكل مجمد، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534492/%D9%87%D9%84%D8%A7-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 4,
+    "description": "خضار مشكلة مجمدة من هلا، 400 جرام، مزيج متنوع لتحضير وجبات صحية وسريعة."
+  },
+  {
+    "name": "العملاق الأخضر أنصاف من أكواز الذرة 1.1 كغ",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534493/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%A3%D9%86%D8%B5%D8%A7%D9%81-%D9%85%D9%86-%D8%A3%D9%83%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-11-%D9%83%D8%BA.jpg.jpg"
+    ],
+    "discount": 21,
+    "price": 41.75,
+    "description": "أنصاف أكواز الذرة من العملاق الأخضر، 1.1 كجم، مثالية للشواء والطهي."
+  },
+  {
+    "name": "داري - كرز حلو مجمدة 350 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534495/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%83%D8%B1%D8%B2-%D8%AD%D9%84%D9%88-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 24,
+    "price": 19,
+    "description": "كرز حلو مجمد من داري، 350 جرام، مثالي لتحضير الحلويات والعصائر."
+  },
+  {
+    "name": "داري فاصولياء خضراء 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534497/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 21,
+    "price": 7.25,
+    "description": "فاصولياء خضراء مجمدة من داري، 400 جرام، طازجة ومثالية لتحضير الأطباق الصحية."
+  },
+  {
+    "name": "مونتانا ذرة سكرية حب 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534499/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D8%B0%D8%B1%D8%A9-%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D8%AD%D8%A8-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 32,
+    "price": 7.25,
+    "description": "ذرة سكرية حب مجمدة من مونتانا، 400 جرام، حلوة ومثالية للسلطات والأطباق الجانبية."
+  },
+  {
+    "name": "السنبلة خضار مشكلة 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534500/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 18.5,
+    "description": "خضار مشكلة مجمدة من السنبلة، 800 جرام، مزيج متنوع لتحضير وجبات صحية وسريعة."
+  },
+  {
+    "name": "داري سبانخ مكعبات 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534504/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25,
+    "description": "سبانخ مكعبات مجمدة من داري، 400 جرام، سهلة الاستخدام لتحضير الأطباق الصحية."
+  },
+  {
+    "name": "السنبلة مكعبات السبانخ المفرومة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534505/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D9%85%D9%83%D8%B9%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%A7%D9%86%D8%AE-%D8%A7%D9%84%D9%85%D9%81%D8%B1%D9%88%D9%85%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10.5,
+    "description": "مكعبات سبانخ مفرومة مجمدة من السنبلة، 400 جرام، مثالية لتحضير الشوربات والأطباق."
+  },
+  {
+    "name": "السنبلة بازيلا وجزر 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534506/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%A8%D8%A7%D8%B2%D9%8A%D9%84%D8%A7-%D9%88%D8%AC%D8%B2%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 11,
+    "price": 15.75,
+    "description": "مزيج بازيلا وجزر مجمد من السنبلة، 800 جرام، مثالي لتحضير الأطباق الجانبية والشوربات."
+  },
+  {
+    "name": "السنبلة بازلاء خضراء 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534508/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25,
+    "description": "بازلاء خضراء مجمدة من السنبلة، 400 جرام، طازجة ومثالية لتحضير الأطباق المتنوعة."
+  },
+  {
+    "name": "السنبلة خضار مشكلة 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534509/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.25,
+    "description": "مزيج من الخضروات المجمدة عالية الجودة من السنبلة، يحتوي على تشكيلة متنوعة مثل البازلاء، الجزر، والذرة، مثالي لتحضير وجبات صحية وسريعة."
+  },
+  {
+    "name": "السنبلة فراولة مجمدة 800 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534510/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-800-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 29,
+    "price": 15.5,
+    "description": "فراولة مجمدة طازجة من السنبلة، مثالية لتحضير العصائر، الحلويات، أو تناولها كوجبة خفيفة صحية."
+  },
+  {
+    "name": "السنبلة بازيلاء وجزر 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534511/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%A8%D8%A7%D8%B2%D9%8A%D9%84%D8%A7%D8%A1-%D9%88%D8%AC%D8%B2%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25,
+    "description": "مزيج من البازلاء والجزر المجمد من السنبلة، مثالي لإضافته إلى اليخنات، الحساء، أو كطبق جانبي مغذي."
+  },
+  {
+    "name": "أمريكانا - ملوخية مفرومة مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534513/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D9%81%D8%B1%D9%88%D9%85%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 5.25,
+    "description": "ملوخية مفرومة مجمدة من أمريكانا، جاهزة للطهي لتحضير طبق الملوخية التقليدي اللذيذ بسهولة وسرعة."
+  },
+  {
+    "name": "مونتانا قلقاس مع الخضرة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534514/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D9%82%D9%84%D9%82%D8%A7%D8%B3-%D9%85%D8%B9-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.5,
+    "description": "قلقاس مجمد مع الخضرة من مونتانا، مثالي لتحضير أطباق القلقاس التقليدية مع نكهة طازجة ومغذية."
+  },
+  {
+    "name": "داري كرانبيري توت بري مجمد 350 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534515/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%83%D8%B1%D8%A7%D9%86%D8%A8%D9%8A%D8%B1%D9%8A-%D8%AA%D9%88%D8%AA-%D8%A8%D8%B1%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 26,
+    "price": 18.75,
+    "description": "توت بري كرانبيري مجمد من داري، غني بمضادات الأكسدة ومثالي لتحضير العصائر، المخبوزات، أو الصلصات."
+  },
+  {
+    "name": "مونتانا خضار مشكلة مجمد 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534516/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 32,
+    "price": 7.25,
+    "description": "مزيج من الخضروات المجمدة من مونتانا، يحتوي على تشكيلة من الخضروات المغذية، مثالي للطهي السريع والصحي."
+  },
+  {
+    "name": "مونتانا فاصوليا خضراء مجمد 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534517/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 32,
+    "price": 7.25,
+    "description": "فاصوليا خضراء مجمدة من مونتانا، طازجة ومقرمشة، مثالية كطبق جانبي أو لإضافتها إلى السلطات واليخنات."
+  },
+  {
+    "name": "وليمة ملوخية 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534519/%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 5.75,
+    "description": "ملوخية مجمدة من وليمة، جاهزة لتحضير طبق الملوخية التقليدي بنكهة غنية ومذاق أصيل."
+  },
+  {
+    "name": "داري بازلاء مجمد 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534521/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%85%D8%AC%D9%85%D8%AF-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 15,
+    "price": 15.25,
+    "description": "بازلاء خضراء مجمدة من داري، غنية بالفيتامينات ومثالية لإضافتها إلى الأطباق المتنوعة أو كوجبة جانبية."
+  },
+  {
+    "name": "داري أرضي شوكي (خرشوف) 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534522/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A3%D8%B1%D8%B6%D9%8A-%D8%B4%D9%88%D9%83%D9%8A-%D8%AE%D8%B1%D8%B4%D9%88%D9%81-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "أرضي شوكي (خرشوف) مجمد من داري، مثالي لتحضير أطباق متوسطية صحية أو كإضافة إلى السلطات."
+  },
+  {
+    "name": "داري لب جوافة مجمد 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534526/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%84%D8%A8-%D8%AC%D9%88%D8%A7%D9%81%D8%A9-%D9%85%D8%AC%D9%85%D8%AF-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 24,
+    "price": 13.75,
+    "description": "لب جوافة مجمد من داري، مثالي لتحضير العصائر الطازجة، الحلويات، أو المشروبات المنعشة."
+  },
+  {
+    "name": "امريكانا بامية زيرو 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534527/%D8%A7%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.75,
+    "description": "بامية زيرو مجمدة من أمريكانا، صغيرة الحجم ومثالية لتحضير أطباق البامية التقليدية بسهولة."
+  },
+  {
+    "name": "داري فول أخضر400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534529/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%81%D9%88%D9%84-%D8%A3%D8%AE%D8%B6%D8%B1400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.75,
+    "description": "فول أخضر مجمد من داري، غني بالبروتين ومثالي لتحضير أطباق الفول الشهية أو كإضافة إلى السلطات."
+  },
+  {
+    "name": "إمبورغ بروكلي مجمد 450 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534530/%D8%A5%D9%85%D8%A8%D9%88%D8%B1%D8%BA-%D8%A8%D8%B1%D9%88%D9%83%D9%84%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-450-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17,
+    "description": "بروكلي مجمد من إمبورغ، غني بالفيتامينات ومثالي لتحضير الأطباق الصحية مثل السلطات، الشوربات، أو الأطباق المشوية."
+  },
+  {
+    "name": "ساديا سبانخ مفروم 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534531/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%85%D9%81%D8%B1%D9%88%D9%85-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 5.75,
+    "description": "سبانخ مفرومة مجمدة من ساديا، مثالية لتحضير أطباق السبانخ التقليدية، الفطائر، أو الشوربات المغذية."
+  },
+  {
+    "name": "سنبلة سنبلة بطاطس حلوة 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534533/%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D8%AD%D9%84%D9%88%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 47.95,
+    "description": "بطاطس حلوة مجمدة من السنبلة، مثالية للشواء، القلي، أو تحضير الحلويات الصحية بنكهة غنية."
+  },
+  {
+    "name": "مونتانا بازلاء وجزر 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534535/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%88%D8%AC%D8%B2%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 28,
+    "price": 7.25,
+    "description": "مزيج من البازلاء والجزر المجمد من مونتانا، مثالي لتحضير الأطباق الجانبية أو إضافته إلى اليخنات."
+  },
+  {
+    "name": "سنبلة فول أخضر 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534537/%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D9%81%D9%88%D9%84-%D8%A3%D8%AE%D8%B6%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 29.95,
+    "description": "فول أخضر مجمد من السنبلة، غني بالبروتين ومثالي لتحضير أطباق الفول التقليدية أو كإضافة إلى السلطات."
+  },
+  {
+    "name": "داري - كرز حامض مجمدة 350 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534538/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%83%D8%B1%D8%B2-%D8%AD%D8%A7%D9%85%D8%B6-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 24,
+    "price": 19,
+    "description": "كرز حامض مجمد من داري، مثالي لتحضير الحلويات، العصائر، أو الصلصات بنكهة منعشة وحامضة."
+  },
+  {
+    "name": "أمبورغ إدامامي حبوب فول الصويا الخضراء كاملة مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534539/%D8%A3%D9%85%D8%A8%D9%88%D8%B1%D8%BA-%D8%A5%D8%AF%D8%A7%D9%85%D8%A7%D9%85%D9%8A-%D8%AD%D8%A8%D9%88%D8%A8-%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.25,
+    "description": "إدامامي (فول الصويا الأخضر) مجمد من أمبورغ، غني بالبروتين ومثالي كوجبة خفيفة صحية أو إضافته إلى الأطباق."
+  },
+  {
+    "name": "السنبلة فاصوليا خضراء مقطع 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534540/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.5,
+    "description": "فاصوليا خضراء مقطعة مجمدة من السنبلة، مثالية لتحضير الأطباق الجانبية، السلطات، أو اليخنات."
+  },
+  {
+    "name": "ساديا ذرة حلوة 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534542/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.75,
+    "description": "ذرة حلوة مجمدة من ساديا، حلوة المذاق ومثالية لإضافتها إلى السلطات، الحساء، أو كطبق جانبي."
+  },
+  {
+    "name": "سنبلة لب مانجو الفونسو 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534543/%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D9%84%D8%A8-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D8%A7%D9%84%D9%81%D9%88%D9%86%D8%B3%D9%88-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 27,
+    "price": 24.5,
+    "description": "لب مانجو ألفونسو مجمد من السنبلة، غني بالنكهة ومثالي لتحضير العصائر، الحلويات، أو المشروبات المنعشة."
+  },
+  {
+    "name": "إيمبورغ خرشوف مجمد 400 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534546/%D8%A5%D9%8A%D9%85%D8%A8%D9%88%D8%B1%D8%BA-%D8%AE%D8%B1%D8%B4%D9%88%D9%81-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17.5,
+    "description": "خرشوف مجمد من إيمبورغ، مثالي لتحضير أطباق متوسطية صحية أو كإضافة إلى السلطات والمقبلات."
+  },
+  {
+    "name": "داري لب مانجو الفونسو 1كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534548/%D8%AF%D8%A7%D8%B1%D9%8A-%D9%84%D8%A8-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D8%A7%D9%84%D9%81%D9%88%D9%86%D8%B3%D9%88-1%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 17.95,
+    "description": "لب مانجو ألفونسو مجمد من داري، غني بالنكهة ومثالي لتحضير العصائر، الحلويات، أو المشروبات الاستوائية."
+  },
+  {
+    "name": "شيف انتصار ابارقوس اخضر 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534554/%D8%B4%D9%8A%D9%81-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1-%D8%A7%D8%A8%D8%A7%D8%B1%D9%82%D9%88%D8%B3-%D8%A7%D8%AE%D8%B6%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 23,
+    "description": "أبارقوس أخضر مجمد من شيف انتصار، مثالي لتحضير الحلويات أو كإضافة إلى العصائر والمخبوزات."
+  },
+  {
+    "name": "مونتانا لب جوافة 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534556/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D9%84%D8%A8-%D8%AC%D9%88%D8%A7%D9%81%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 26,
+    "price": 14.5,
+    "description": "لب جوافة مجمد من مونتانا، مثالي لتحضير العصائر المنعشة، الحلويات، أو المشروبات الاستوائية."
+  },
+  {
+    "name": "ساديا كوز ذرة 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534558/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D9%83%D9%88%D8%B2-%D8%B0%D8%B1%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 19.75,
+    "description": "كوز ذرة مجمد من ساديا، مثالي للشواء أو الطهي على البخار كطبق جانبي لذيذ ومغذي."
+  },
+  {
+    "name": "سيارا ملوخية  400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534561/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.75,
+    "description": "ملوخية مجمدة من سيارا، جاهزة لتحضير طبق الملوخية التقليدي بنكهة طازجة ومذاق أصيل."
+  },
+  {
+    "name": "امريكانا ذرة حلوة مجمدة 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534562/%D8%A7%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.25,
+    "description": "ذرة حلوة مجمدة من أمريكانا، حلوة المذاق ومثالية لإضافتها إلى السلطات، الحساء، أو كطبق جانبي."
+  },
+  {
+    "name": "وليمة بامية مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534563/%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 6.25,
+    "description": "بامية مجمدة من وليمة، مثالية لتحضير أطباق البامية التقليدية مع نكهة طازجة ومذاق رائع."
+  },
+  {
+    "name": "ساديا بامية زيرو مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534564/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "بامية زيرو مجمدة من ساديا، صغيرة الحجم ومثالية لتحضير أطباق البامية الشهية بسهولة."
+  },
+  {
+    "name": "سيارا  بامية ممتازة 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534566/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D9%85%D9%85%D8%AA%D8%A7%D8%B2%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.5,
+    "description": "بامية ممتازة مجمدة من سيارا، عالية الجودة ومثالية لتحضير أطباق البامية التقليدية بنكهة مميزة."
+  },
+  {
+    "name": "الكبير توت اسود مجمد 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534568/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%AA%D9%88%D8%AA-%D8%A7%D8%B3%D9%88%D8%AF-%D9%85%D8%AC%D9%85%D8%AF-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.5,
+    "description": "توت أسود مجمد من الكبير، غني بمضادات الأكسدة ومثالي لتحضير العصائر، الحلويات، أو المخبوزات."
+  },
+  {
+    "name": "أوسيا مشكل المانجو والتوت المجمد 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534569/%D8%A3%D9%88%D8%B3%D9%8A%D8%A7-%D9%85%D8%B4%D9%83%D9%84-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%AA-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%AF-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 29.75,
+    "description": "مزيج من المانجو والتوت المجمد من أوسيا، مثالي لتحضير العصائر المنعشة، الحلويات، أو السموثي."
+  },
+  {
+    "name": "ساديا فاصوليا خضراوات مشكلة 450 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534571/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D9%88%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-450-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 28,
+    "price": 9.25,
+    "description": "مزيج من الفاصوليا والخضروات المجمدة من ساديا، مثالي لتحضير أطباق صحية وسريعة مثل اليخنات والسلطات."
+  },
+  {
+    "name": "شيف أنتصار فواكه مشكلة مجمدة 340 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534572/%D8%B4%D9%8A%D9%81-%D8%A3%D9%86%D8%AA%D8%B5%D8%A7%D8%B1-%D9%81%D9%88%D8%A7%D9%83%D9%87-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17.5,
+    "description": "مزيج من الفواكه المجمدة من شيف أنتصار، مثالي لتحضير العصائر، السموثي، أو كإضافة إلى الحلويات."
+  },
+  {
+    "name": "امبورج ملوخية 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534573/%D8%A7%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 19,
+    "price": 6.75,
+    "description": "ملوخية مجمدة من امبورج، جاهزة لتحضير طبق الملوخية التقليدي بنكهة غنية ومذاق أصيل."
+  },
+  {
+    "name": "الخضراء العملاقة أنصاف أكواز الذرة 6 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534575/%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82%D8%A9-%D8%A3%D9%86%D8%B5%D8%A7%D9%81-%D8%A3%D9%83%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B0%D8%B1%D8%A7-6-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "discount": 19,
+    "price": 22.25,
+    "description": "أنصاف أكواز ذرة مجمدة من الخضراء العملاقة، مثالية للشواء أو الطهي على البخار كطبق جانبي لذيذ."
+  },
+  {
+    "name": "ساديا فاصوليا خضراء مقطعة 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534576/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15,
+    "description": "فاصوليا خضراء مقطعة مجمدة من ساديا، مثالية لتحضير الأطباق الجانبية، السلطات، أو إضافتها إلى اليخنات."
+  },
+  {
+    "name": "داري خضار مشكلة مع الذرة 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534578/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 15,
+    "description": "مزيج من الخضروات المجمدة مع الذرة من داري، مثالي لتحضير وجبات صحية وسريعة مثل اليخنات أو الأطباق المشوية."
+  },
+  {
+    "name": "أمريكانا بامية إكسترا 400 جرامرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534580/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%A5%D9%83%D8%B3%D8%AA%D8%B1%D8%A7-400-%D8%AC%D8%B1%D8%A7%D9%85%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 12.5,
+    "description": "بامية إكسترا مجمدة من أمريكانا، عالية الجودة ومثالية لتحضير أطباق البامية التقليدية بنكهة مميزة."
+  },
+  {
+    "name": "ساديا ذرة حلوة 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534582/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18.75,
+    "description": "ذرة حلوة مجمدة من ساديا، حلوة المذاق ومثالية لإضافتها إلى السلطات، الحساء، أو كطبق جانبي."
+  },
+  {
+    "name": "الكبير ذرة حلوة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534583/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.95,
+    "description": "ذرة حلوة مجمدة من الكبير، حلوة المذاق ومثالية لإضافتها إلى السلطات، الحساء، أو كطبق جانبي."
+  },
+  {
+    "name": "السنبلة ذرة حلوه 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534585/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D9%87-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 20,
+    "description": "ذرة حلوة مجمدة من السنبلة، حلوة المذاق ومثالية لإضافتها إلى السلطات، الحساء، أو كطبق جانبي."
+  },
+  {
+    "name": "العملاق الأخضر بازلاء خضراء 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534586/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 26,
+    "description": "بازلاء خضراء مجمدة من العملاق الأخضر، غنية بالفيتامينات ومثالية لإضافتها إلى الأطباق المتنوعة."
+  },
+  {
+    "name": "ساديا بازلاء خضراء 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534589/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 6.25,
+    "description": "بازلاء خضراء مجمدة من ساديا، غنية بالفيتامينات ومثالية لإضافتها إلى الأطباق أو كوجبة جانبية."
+  },
+  {
+    "name": "ساديا غاردن بازلاء خضراء 900 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534591/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D8%BA%D8%A7%D8%B1%D8%AF%D9%86-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-900-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.5,
+    "description": "بازلاء خضراء مجمدة من ساديا غاردن، غنية بالمغذيات ومثالية لتحضير الأطباق الصحية أو كوجبة جانبية."
+  },
+  {
+    "name": "امبورغ فاصوليا خضراء مقطعة 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534595/%D8%A7%D9%85%D8%A8%D9%88%D8%B1%D8%BA-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "فاصوليا خضراء مقطعة مجمدة من امبورغ، مثالية لتحضير الأطباق الجانبية، السلطات، أو إضافتها إلى اليخنات."
+  },
+  {
+    "name": "كاليفورنيا جاردنز - ذرة حلوة مجمدة، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534596/%D9%83%D8%A7%D9%84%D9%8A%D9%81%D9%88%D8%B1%D9%86%D9%8A%D8%A7-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 19,
+    "price": 13.25,
+    "description": "ذرة حلوة مجمدة من كاليفورنيا جاردنز، حلوة المذاق ومثالية لإضافتها إلى السلطات، الحساء، أو كطبق جانبي."
+  },
+  {
+    "name": "مونتانا خرشوف 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534600/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D8%AE%D8%B1%D8%B4%D9%88%D9%81-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 12.25,
+    "description": "خرشوف مونتانا عالي الجودة، مجمد بعناية للحفاظ على نكهته الطازجة وقيمته الغذائية، مثالي لتحضير الأطباق الشهية."
+  },
+  {
+    "name": "امبورغ بازلا وجزر 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534602/%D8%A7%D9%85%D8%A8%D9%88%D8%B1%D8%BA-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7-%D9%88%D8%AC%D8%B2%D8%B1-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "مزيج من البازلاء والجزر من إمبورغ، مجمد للحفاظ على القوام والطعم، مثالي للشوربات والأطباق الجانبية."
+  },
+  {
+    "name": "أمريكانا - فاصوليا خضراء مجمدة 900 جرام - منشأ أوروبي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534603/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D9%86%D8%B4%D8%A3-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 17.25,
+    "description": "فاصوليا خضراء مجمدة من أمريكانا، مصدرها أوروبي، طازجة ومقطعة بعناية، مثالية للطهي السريع والصحي."
+  },
+  {
+    "name": "داري بازلاء وجزر 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534605/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%88%D8%AC%D8%B2%D8%B1-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 13,
+    "price": 14.25,
+    "description": "مزيج لذيذ من البازلاء والجزر من داري، مجمد للحفاظ على النكهة والقيمة الغذائية، مثالي للوجبات العائلية."
+  },
+  {
+    "name": "امبورغ خضروات منوعة 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534607/%D8%A7%D9%85%D8%A8%D9%88%D8%B1%D8%BA-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D9%85%D9%86%D9%88%D8%B9%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "خضروات مختارة بعناية من إمبورغ، مجمدة لضمان الجودة، مثالية لتحضير وجبات متنوعة وصحية."
+  },
+  {
+    "name": "الكبير بازلاء خضراء 400 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534608/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-400-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.95,
+    "description": "بازلاء خضراء طازجة من الكبير، مجمدة للحفاظ على النكهة، مثالية للإضافة إلى الأطباق المتنوعة."
+  },
+  {
+    "name": "شيف انتصار توت مجمد 340 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534610/%D8%B4%D9%8A%D9%81-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1-%D8%AA%D9%88%D8%AA-%D9%85%D8%AC%D9%85%D8%AF-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17.5,
+    "description": "توت مجمد من شيف انتصار، مثالي لتحضير العصائر والحلويات، يحتفظ بنكهته الطبيعية وقيمته الغذائية."
+  },
+  {
+    "name": "الكبير بازلاء خضراء 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534611/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 16,
+    "price": 15.95,
+    "description": "بازلاء خضراء عالية الجودة من الكبير، مجمدة للحفاظ على الطعم والقوام، مثالية للطهي اليومي."
+  },
+  {
+    "name": "أمريكانا خضار مشكلة مجمدة 900 جرام- منشأ أوروبي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534613/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D9%86%D8%B4%D8%A3-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 16.75,
+    "description": "خضار مشكلة من أمريكانا، منشأ أوروبي، مجمدة بعناية لتحضير وجبات صحية وسريعة."
+  },
+  {
+    "name": "أوسيا توت أسود مجمد 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534614/%D8%A3%D9%88%D8%B3%D9%8A%D8%A7-%D8%AA%D9%88%D8%AA-%D8%A3%D8%B3%D9%88%D8%AF-%D9%85%D8%AC%D9%85%D8%AF-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 29.75,
+    "description": "توت أسود مجمد من أوسيا، غني بالنكهة، مثالي للعصائر والحلويات الصحية."
+  },
+  {
+    "name": "ايمبورج خضروات مشكلة 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534616/%D8%A7%D9%8A%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 22,
+    "price": 19.25,
+    "description": "تشكيلة خضروات مشكلة من إمبورغ، مجمدة لضمان النكهة، مثالية لتحضير الأطباق المتنوعة."
+  },
+  {
+    "name": "ايمبورج خضروات مشكلة وبازلاء مجمدة 450جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534618/%D8%A7%D9%8A%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%88%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-450%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "مزيج من الخضروات والبازلاء من إمبورغ، مجمد للحفاظ على الطعم، مثالي للوجبات السريعة."
+  },
+  {
+    "name": "رويال فاصوليا خضراء مقطعة مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534619/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5,
+    "description": "فاصوليا خضراء مقطعة من رويال، مجمدة لسهولة التحضير، مثالية للأطباق الصحية."
+  },
+  {
+    "name": "أورغانيك لاردر توت أسود عضوي مجمد 300 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534622/%D8%A3%D9%88%D8%B1%D8%BA%D8%A7%D9%86%D9%8A%D9%83-%D9%84%D8%A7%D8%B1%D8%AF%D8%B1-%D8%AA%D9%88%D8%AA-%D8%A3%D8%B3%D9%88%D8%AF-%D8%B9%D8%B6%D9%88%D9%8A-%D9%85%D8%AC%D9%85%D8%AF-300-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 23.75,
+    "description": "توت أسود عضوي من أورغانيك لاردر، مجمد للحفاظ على النكهة، مثالي للوجبات الصحية."
+  },
+  {
+    "name": "الوليمه خضار مشكله 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534623/%D8%A7%D9%84%D9%88%D9%84%D9%8A%D9%85%D9%87-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D9%87-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 7.75,
+    "description": "خضار مشكلة من الوليمة، مجمدة بعناية، مثالية لتحضير وجبات عائلية لذيذة."
+  },
+  {
+    "name": "سيارا لب مانجو مجمد 900جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534625/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D9%84%D8%A8-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%85%D8%AC%D9%85%D8%AF-900%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 14.5,
+    "description": "لب مانجو طازج من سيارا، مجمد للحفاظ على النكهة، مثالي للعصائر والحلويات."
+  },
+  {
+    "name": "الكبير توت بري 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534626/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%AA%D9%88%D8%AA-%D8%A8%D8%B1%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.5,
+    "description": "توت بري مجمد من الكبير، غني بالنكهة والفوائد الصحية، مثالي للحلويات والعصائر."
+  },
+  {
+    "name": "إيمبورغ فاصوليا مقطعة مجمدة 900 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534629/%D8%A5%D9%8A%D9%85%D8%A8%D9%88%D8%B1%D8%BA-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D9%85%D9%82%D8%B7%D8%B9%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-900-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 22,
+    "price": 19.25,
+    "description": "فاصوليا مقطعة من إمبورغ، مجمدة لسهولة الاستخدام، مثالية للأطباق الصحية."
+  },
+  {
+    "name": "سيارا بامية زيرو 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534630/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11,
+    "description": "بامية زيرو من سيارا، مجمدة بعناية، مثالية لتحضير الأطباق التقليدية."
+  },
+  {
+    "name": "العملاق الأخضر اكواز الذرة 4 قطع",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534632/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%A7%D9%83%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-4-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "discount": 20,
+    "price": 29.25,
+    "description": "أكواز ذرة من العملاق الأخضر، مجمدة للحفاظ على الحلاوة، مثالية للشواء أو الطهي."
+  },
+  {
+    "name": "كاليفورنيا جاردنز - بامية ناعمة مجمدة، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534633/%D9%83%D8%A7%D9%84%D9%8A%D9%81%D9%88%D8%B1%D9%86%D9%8A%D8%A7-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D9%86%D8%A7%D8%B9%D9%85%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 6.25,
+    "description": "بامية ناعمة من كاليفورنيا جاردنز، مجمدة للحفاظ على القوام، مثالية للأطباق العربية."
+  },
+  {
+    "name": "أمريكانا - فاصوليا مجمدة 450 جرام - منشأ أوروبي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534635/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D9%86%D8%B4%D8%A3-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A.jpg.jpg"
+    ],
+    "price": 9.5,
+    "description": "فاصوليا خضراء من أمريكانا، منشأ أوروبي، مجمدة لسهولة التحضير والاستخدام."
+  },
+  {
+    "name": "كاليفورنيا جاردنز - خضار مشكلة مجمدة، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534636/%D9%83%D8%A7%D9%84%D9%8A%D9%81%D9%88%D8%B1%D9%86%D9%8A%D8%A7-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 7.25,
+    "description": "خضار مشكلة من كاليفورنيا جاردنز، مجمدة لتحضير وجبات صحية ولذيذة بسرعة."
+  },
+  {
+    "name": "أمريكانا خضار مشكلة مجمدة 450 جرام- منشأ أوروبي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534637/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D9%86%D8%B4%D8%A3-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A.jpg.jpg"
+    ],
+    "price": 9.75,
+    "description": "تشكيلة خضار مشكلة من أمريكانا، منشأ أوروبي، مجمدة لضمان النكهة والجودة."
+  },
+  {
+    "name": "وليمة بامية فاين مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534640/%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D9%81%D8%A7%D9%8A%D9%86-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25,
+    "description": "بامية فاين من الوليمة، مجمدة بعناية، مثالية لتحضير الأطباق التقليدية."
+  },
+  {
+    "name": "غرين جاينت خضار مشكلة 900 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534641/%D8%BA%D8%B1%D9%8A%D9%86-%D8%AC%D8%A7%D9%8A%D9%86%D8%AA-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-900-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 26,
+    "description": "خضار مشكلة من غرين جاينت، مجمدة للحفاظ على النكهة، مثالية للوجبات العائلية."
+  },
+  {
+    "name": "رويال ملوخية 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534643/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.5,
+    "description": "ملوخية طازجة من رويال، مجمدة لسهولة التحضير، مثالية للأطباق العربية."
+  },
+  {
+    "name": "ايمبورج فاصوليا خضراء 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534644/%D8%A7%D9%8A%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 21,
+    "price": 14.25,
+    "description": "فاصوليا خضراء من إمبورغ، مجمدة للحفاظ على النكهة، مثالية للطهي الصحي."
+  },
+  {
+    "name": "جرين آيس رمان مجمد 1000جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534646/%D8%AC%D8%B1%D9%8A%D9%86-%D8%A2%D9%8A%D8%B3-%D8%B1%D9%85%D8%A7%D9%86-%D9%85%D8%AC%D9%85%D8%AF-1000%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 18,
+    "description": "رمان مجمد من جرين آيس، غني بالنكهة، مثالي للعصائر والسلطات."
+  },
+  {
+    "name": "الكبير لب المانجو مجمد 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534648/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D9%84%D8%A8-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%85%D8%AC%D9%85%D8%AF-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 23.25,
+    "description": "لب مانجو من الكبير، مجمد للحفاظ على الحلاوة، مثالي للعصائر والحلويات."
+  },
+  {
+    "name": "العملاق الأخضر خضار مشكل 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534649/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 25.5,
+    "description": "خضار مشكلة من العملاق الأخضر، مجمدة لتحضير وجبات صحية ولذيذة."
+  },
+  {
+    "name": "إيمبورغ ذرة حلوة مجمدة 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534650/%D8%A5%D9%8A%D9%85%D8%A8%D9%88%D8%B1%D8%BA-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 23,
+    "price": 15.5,
+    "description": "ذرة حلوة من إمبورغ، مجمدة للحفاظ على الحلاوة، مثالية للسلطات والأطباق الجانبية."
+  },
+  {
+    "name": "السنبلة توت اسود مجمد 350جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534652/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%AA%D9%88%D8%AA-%D8%A7%D8%B3%D9%88%D8%AF-%D9%85%D8%AC%D9%85%D8%AF-350%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 30.5,
+    "description": "توت أسود مجمد من السنبلة، غني بالنكهة، مثالي للحلويات والعصائر الصحية."
+  },
+  {
+    "name": "رويال خضار مشكلة مجمدة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534654/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5.75,
+    "description": "خضار مشكلة من رويال، مجمدة لسهولة التحضير، مثالية للوجبات اليومية."
+  },
+  {
+    "name": "سيارا ذرة حلوة 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534657/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.75,
+    "description": "ذرة حلوة من سيارا، مجمدة للحفاظ على النكهة، مثالية للأطباق الجانبية."
+  },
+  {
+    "name": "الكبير بازلاء خضراء وجزر مجمد 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534661/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%88%D8%AC%D8%B2%D8%B1-%D9%85%D8%AC%D9%85%D8%AF-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.25,
+    "description": "مزيج بازلاء وجزر من الكبير، مجمد للحفاظ على القوام، مثالي للشوربات والأطباق."
+  },
+  {
+    "name": "جرين آيس سبانخ مجمدة 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534663/%D8%AC%D8%B1%D9%8A%D9%86-%D8%A2%D9%8A%D8%B3-%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9,
+    "description": "سبانخ مجمدة من جرين آيس، غنية بالعناصر الغذائية، مثالية للأطباق الصحية."
+  },
+  {
+    "name": "العملاق الأخضر ذرة حلوة حب 453جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534664/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-%D8%AD%D8%A8-453%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 20,
+    "price": 18,
+    "description": "ذرة حلوة حب من العملاق الأخضر، مجمدة للحفاظ على النكهة، مثالية للسلطات."
+  },
+  {
+    "name": "العملاق الأخضر بازلاء خضراء 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534666/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15,
+    "description": "بازلاء خضراء من العملاق الأخضر، مجمدة للحفاظ على الطعم، مثالية للوجبات."
+  },
+  {
+    "name": "كاليفورنيا جاردنز - بامية زيرو مجمدة، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534668/%D9%83%D8%A7%D9%84%D9%8A%D9%81%D9%88%D8%B1%D9%86%D9%8A%D8%A7-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.25,
+    "description": "بامية زيرو من كاليفورنيا جاردنز، مجمدة بعناية، مثالية للأطباق التقليدية."
+  },
+  {
+    "name": "أمريكانا بازلاء وجزر مجمدة 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534669/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%88%D8%AC%D8%B2%D8%B1-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.75,
+    "description": "مزيج بازلاء وجزر من أمريكانا، مجمد للحفاظ على النكهة، مثالي للطهي السريع."
+  },
+  {
+    "name": "الكبير بازلاء خضراء وجزر مجمد 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534670/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%88%D8%AC%D8%B2%D8%B1-%D9%85%D8%AC%D9%85%D8%AF-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 16.5,
+    "description": "بازلاء وجزر من الكبير، مجمدة لسهولة الاستخدام، مثالية للوجبات العائلية."
+  },
+  {
+    "name": "سيارا خضار مشكل 4 أنواع، 800جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534672/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84-4-%D8%A3%D9%86%D9%88%D8%A7%D8%B9-800%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 16.25,
+    "description": "خضار مشكلة من سيارا، تحتوي على 4 أنواع، مجمدة لتحضير وجبات صحية."
+  },
+  {
+    "name": "العملاق الأخضر ذرة 1 كجم",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534673/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%B0%D8%B1%D8%A9-1-%D9%83%D8%AC%D9%85.jpg.jpg"
+    ],
+    "discount": 22,
+    "price": 32,
+    "description": "ذرة حلوة من العملاق الأخضر، مجمدة للحفاظ على النكهة، مثالية للطهي."
+  },
+  {
+    "name": "إمبورج سبانخ مقطع 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534674/%D8%A5%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%85%D9%82%D8%B7%D8%B9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10.75,
+    "description": "سبانخ مقطعة من إمبورغ، مجمدة لسهولة التحضير، مثالية للأطباق الصحية."
+  },
+  {
+    "name": "ساديا فاصوليا خضراء مقطعة 450 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534675/%D8%B3%D8%A7%D8%AF%D9%8A%D8%A7-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9%D8%A9-450-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 17,
+    "price": 6.25,
+    "description": "فاصوليا خضراء مقطعة من ساديا، مجمدة للحفاظ على النكهة، مثالية للطهي."
+  },
+  {
+    "name": "سيارا لب الجوافة 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534677/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D9%84%D8%A8-%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D9%81%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.25,
+    "description": "لب جوافة من سيارا، مجمد للحفاظ على النكهة، مثالي للعصائر والحلويات."
+  },
+  {
+    "name": "العملاق الأخضر خضار مشكلة بالذرة 450 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534678/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15,
+    "description": "خضار مشكلة مع ذرة من العملاق الأخضر، مجمدة لتحضير وجبات لذيذة."
+  },
+  {
+    "name": "الكبير خضراوات مشكلة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534680/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%AE%D8%B6%D8%B1%D8%A7%D9%88%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.25,
+    "description": "خضروات مشكلة من الكبير، مجمدة لسهولة التحضير، مثالية للوجبات اليومية."
+  },
+  {
+    "name": "سيرا خضار مشكلة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534682/%D8%B3%D9%8A%D8%B1%D8%A7-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9,
+    "description": "خضار مشكلة من سيرا، مجمدة للحفاظ على النكهة، مثالية للطهي السريع."
+  },
+  {
+    "name": "جرين آيس ملوخية مجمدة 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534683/%D8%AC%D8%B1%D9%8A%D9%86-%D8%A2%D9%8A%D8%B3-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9,
+    "description": "ملوخية مجمدة من جرين آيس، مثالية لتحضير الأطباق العربية التقليدية."
+  },
+  {
+    "name": "أمريكانا - لب مانجو مجمد 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534684/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D9%84%D8%A8-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%85%D8%AC%D9%85%D8%AF-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 16.25,
+    "description": "لب مانجو من أمريكانا، مجمد للحفاظ على النكهة، مثالي للعصائر والحلويات."
+  },
+  {
+    "name": "جرين آيس - بامية مجمدة زيرو 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534685/%D8%AC%D8%B1%D9%8A%D9%86-%D8%A2%D9%8A%D8%B3-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13.75,
+    "description": "بامية زيرو من جرين آيس، مجمدة للحفاظ على القوام، مثالية للأطباق التقليدية."
+  },
+  {
+    "name": "سيارا فاصوليا خضراء مقطعة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534687/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9,
+    "description": "فاصوليا خضراء مقطعة طازجة ومجمدة من سيارا، مثالية لتحضير الوجبات الصحية بسرعة وسهولة."
+  },
+  {
+    "name": "الكبير خضراوات مشكلة 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534688/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%AE%D8%B6%D8%B1%D8%A7%D9%88%D8%A7%D8%AA-%D9%85%D8%B4%D9%83%D9%84%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 15,
+    "price": 16.5,
+    "description": "خليط من الخضراوات المجمدة عالية الجودة من الكبير، تحتوي على تشكيلة متنوعة لتحضير أطباق مغذية."
+  },
+  {
+    "name": "سيارا فاصوليا خضراء مقطعة 800جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534689/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9%D8%A9-800%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 16.25,
+    "description": "فاصوليا خضراء مقطعة مجمدة من سيارا بحجم عائلي، مثالية لتحضير اليخنات والأطباق الجانبية."
+  },
+  {
+    "name": "سيارا فراولة 800 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534690/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13.25,
+    "description": "فراولة مجمدة طازجة من سيارا، مثالية لتحضير العصائر والحلويات الصحية."
+  },
+  {
+    "name": "أمريكانا - لب جوافة مجمد 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534691/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7%D9%86%D8%A7-%D9%84%D8%A8-%D8%AC%D9%88%D8%A7%D9%81%D8%A9-%D9%85%D8%AC%D9%85%D8%AF-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 10.5,
+    "description": "لب جوافة مجمد من أمريكانا، مثالي لتحضير العصائر المنعشة والمربى."
+  },
+  {
+    "name": "جرين آيس فاصوليا خضراء مقطعة مجمدة 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534694/%D8%AC%D8%B1%D9%8A%D9%86-%D8%A2%D9%8A%D8%B3-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9,
+    "description": "فاصوليا خضراء مقطعة مجمدة من جرين آيس، مثالية للوجبات السريعة والصحية."
+  },
+  {
+    "name": "كواليكو بامية زيرو 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534695/%D9%83%D9%88%D8%A7%D9%84%D9%8A%D9%83%D9%88-%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%B2%D9%8A%D8%B1%D9%88-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.25,
+    "description": "بامية زيرو مجمدة من كواليكو، مثالية لتحضير الأطباق العربية التقليدية."
+  },
+  {
+    "name": "جرين آيس بازلاء خضراء مجمدة 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534696/%D8%AC%D8%B1%D9%8A%D9%86-%D8%A2%D9%8A%D8%B3-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9,
+    "description": "بازلاء خضراء مجمدة من جرين آيس، غنية بالفيتامينات ومثالية للشوربات والأطباق الجانبية."
+  },
+  {
+    "name": "جرين آيس خضار مشكلة مجمدة 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534697/%D8%AC%D8%B1%D9%8A%D9%86-%D8%A2%D9%8A%D8%B3-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9,
+    "description": "خضراوات مشكلة مجمدة من جرين آيس، مثالية لتحضير وجبات صحية وسريعة."
+  },
+  {
+    "name": "الودنت بخاخ التنفس المنعش بالنعناع المنعش 30 ملي",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534699/%D8%A7%D9%84%D9%88%D8%AF%D9%86%D8%AA-%D8%A8%D8%AE%D8%A7%D8%AE-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D9%85%D9%86%D8%B9%D8%B4-%D8%A8%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D9%86%D8%B9%D8%B4-30-%D9%85%D9%84%D9%8A.jpg.jpg"
+    ],
+    "discount": 31,
+    "price": 16.5,
+    "description": "بخاخ تنفس منعش بنكهة النعناع من الودنت، يمنحك نفسًا منعشًا طوال اليوم."
+  },
+  {
+    "name": "إمبورج أوراق سبانخ كاملة 450 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534700/%D8%A5%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%83%D8%A7%D9%85%D9%84%D8%A9-450-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10.75,
+    "description": "أوراق سبانخ كاملة مجمدة من إمبورج، غنية بالمغذيات ومثالية للسلطات والعصائر."
+  },
+  {
+    "name": "سيارا بازلاء جاردن 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534701/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9,
+    "description": "بازلاء جاردن مجمدة من سيارا، طازجة ومثالية لتحضير الأطباق المغذية."
+  },
+  {
+    "name": "الكبير فراولة مجمده 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534702/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D9%81%D8%B1%D8%A7%D9%88%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D9%87-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 22,
+    "price": 16.5,
+    "description": "فراولة مجمدة من الكبير، مثالية لتحضير الحلويات والعصائر المنعشة."
+  },
+  {
+    "name": "داري رمان مجمد 1 كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534704/%D8%AF%D8%A7%D8%B1%D9%8A-%D8%B1%D9%85%D8%A7%D9%86-%D9%85%D8%AC%D9%85%D8%AF-1-%D9%83%D8%AC.jpg.jpg"
+    ],
+    "discount": 24,
+    "price": 18.25,
+    "description": "رمان مجمد من داري، مثالي لتحضير العصائر والسلطات الغنية بالمضادات الأكسدة."
+  },
+  {
+    "name": "مونتانا خضار مشكلة مجمدة بالذرة 400جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534705/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-%D8%AE%D8%B6%D8%A7%D8%B1-%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 32,
+    "price": 7.25,
+    "description": "خضار مشكلة مجمدة مع الذرة من مونتانا، مثالية لتحضير الأطباق الجانبية السريعة."
+  },
+  {
+    "name": "السنبلة ذرة حلوة 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534706/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 10.5,
+    "description": "ذرة حلوة مجمدة من السنبلة، مثالية للسلطات والوجبات الخفيفة."
+  },
+  {
+    "name": "وليمة فاصوليا خضراء مقطع 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534707/%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 22,
+    "price": 7,
+    "description": "فاصوليا خضراء مقطعة مجمدة من وليمة، مثالية لتحضير الأطباق الصحية بسهولة."
+  },
+  {
+    "name": "ايمبورج خليط البروكلي 750 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534708/%D8%A7%D9%8A%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D8%AE%D9%84%D9%8A%D8%B7-%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D9%83%D9%84%D9%8A-750-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 22.25,
+    "description": "خليط بروكلي مجمد من إمبورج، غني بالفيتامينات ومثالي للوجبات الصحية."
+  },
+  {
+    "name": "ايمبورج - بازلاء قطفة اولى مجمدة 900 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534710/%D8%A7%D9%8A%D9%85%D8%A8%D9%88%D8%B1%D8%AC-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%82%D8%B7%D9%81%D8%A9-%D8%A7%D9%88%D9%84%D9%89-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-900-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 22,
+    "price": 19.25,
+    "description": "بازلاء قطفة أولى مجمدة من إمبورج، طازجة ومثالية لتحضير الأطباق المتنوعة."
+  },
+  {
+    "name": "سنبلة أرضي شوكي خرشوف 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534711/%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%A3%D8%B1%D8%B6%D9%8A-%D8%B4%D9%88%D9%83%D9%8A-%D8%AE%D8%B1%D8%B4%D9%88%D9%81-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5,
+    "description": "أرضي شوكي (خرشوف) مجمد من السنبلة، مثالي لتحضير الأطباق المتوسطية."
+  },
+  {
+    "name": "السنبلة توت أزرق 350 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534712/%D8%A7%D9%84%D8%B3%D9%86%D8%A8%D9%84%D8%A9-%D8%AA%D9%88%D8%AA-%D8%A3%D8%B2%D8%B1%D9%82-350-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 30.5,
+    "description": "توت أزرق مجمد من السنبلة، غني بمضادات الأكسدة ومثالي للحلويات والعصائر."
+  },
+  {
+    "name": "زوغر - موزاريلا قطع صغيرة 500جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534713/%D8%B2%D9%88%D8%BA%D8%B1-%D9%85%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D9%82%D8%B7%D8%B9-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 49.5,
+    "description": "موزاريلا قطع صغيرة من زوغر، مثالية لتحضير البيتزا والسلطات."
+  },
+  {
+    "name": "الكبير ذرة حلوة 1كج",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534714/%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1-%D8%B0%D8%B1%D8%A9-%D8%AD%D9%84%D9%88%D8%A9-1%D9%83%D8%AC.jpg.jpg"
+    ],
+    "price": 19.95,
+    "description": "ذرة حلوة مجمدة من الكبير بحجم عائلي، مثالية للسلطات والوجبات الجانبية."
+  },
+  {
+    "name": "كاليفورنيا جاردنز - ملوخية مفرومة مجمدة، 400 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534715/%D9%83%D8%A7%D9%84%D9%8A%D9%81%D9%88%D8%B1%D9%86%D9%8A%D8%A7-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%D8%B2-%D9%85%D9%84%D9%88%D8%AE%D9%8A%D8%A9-%D9%85%D9%81%D8%B1%D9%88%D9%85%D8%A9-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 14,
+    "price": 5.75,
+    "description": "ملوخية مفرومة مجمدة من كاليفورنيا جاردنز، مثالية لتحضير الأطباق العربية التقليدية."
+  },
+  {
+    "name": "ميما ادامامي 454 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534717/%D9%85%D9%8A%D9%85%D8%A7-%D8%A7%D8%AF%D8%A7%D9%85%D8%A7%D9%85%D9%8A-454-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.25,
+    "description": "إدامامي مجمد من ميما، غني بالبروتين ومثالي كوجبة خفيفة صحية."
+  },
+  {
+    "name": "كارفور بيو راتاتوي طبق خضروات سريع التحضير 600 غرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534718/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A8%D9%8A%D9%88-%D8%B1%D8%A7%D8%AA%D8%A7%D8%AA%D9%88%D9%8A-%D8%B7%D8%A8%D9%82-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-600-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 19.95,
+    "description": "راتاتوي من كارفور بيو، طبق خضروات مجمد سريع التحضير لوجبات صحية ولذيذة."
+  },
+  {
+    "name": "شيف انتصار قطع مانجو مجمدة 340 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534719/%D8%B4%D9%8A%D9%81-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1-%D9%82%D8%B7%D8%B9-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%85%D8%AC%D9%85%D8%AF%D8%A9-340-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 17.5,
+    "description": "قطع مانجو مجمدة من شيف انتصار، مثالية لتحضير العصائر والحلويات."
+  },
+  {
+    "name": "كارفور جزر مهروس 750 جرام",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745534721/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AC%D8%B2%D8%B1-%D9%85%D9%87%D8%B1%D9%88%D8%B3-750-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 12.95,
+    "description": "جزر مهروس مجمد من كارفور، مثالي لتحضير الشوربات والأطباق الجانبية."
+  }
+]

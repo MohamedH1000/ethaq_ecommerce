@@ -3,24 +3,25 @@
 [
   {
     "name": "سوان أرز الياسمين 5 كج",
+    "description": "أرز ياسمين عالي الجودة من سوان، مثالي لتحضير الأطباق الآسيوية والعربية، بحبة طويلة ونكهة عطرية مميزة. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102567/%D8%B3%D9%88%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D8%A7%D9%84%D9%8A%D8%A7%D8%B3%D9%85%D9%8A%D9%86-5-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 8,
-    "price": 23.95,
-    "discounted_price": 21.95
+    "price": 23.95
   },
   {
     "name": "الوليمة أرز مزة بسمتي هندي 5 كجم",
+    "description": "أرز بسمتي هندي فاخر من الوليمة، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير البرياني والأطباق الهندية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102569/%D8%A7%D9%84%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-5-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
     "discount": 14,
-    "price": 50.95,
-    "discounted_price": 43.95
+    "price": 50.95
   },
   {
     "name": "بنجابي الشعلان أرز بسمتي أبيض عنبر 10 كج",
+    "description": "أرز بسمتي أبيض عنبر من بنجابي الشعلان، يتميز بحبة طويلة ونكهة عطرية، مثالي للأطباق العربية والعالمية. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102571/%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-%D8%A7%D9%84%D8%B4%D8%B9%D9%84%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B9%D9%86%D8%A8%D8%B1-10-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -28,15 +29,16 @@
   },
   {
     "name": "الوليمة ستايل أرز مزة بسمتي هندي حبة طويلة 10 كج",
+    "description": "أرز بسمتي هندي فاخر من الوليمة ستايل، بحبة طويلة جدًا ونكهة مميزة، مثالي لتحضير الأطباق الفاخرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102574/%D8%A7%D9%84%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D8%B3%D8%AA%D8%A7%D9%8A%D9%84-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-%D8%AD%D8%A8%D8%A9-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-10-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 14,
-    "price": 86.95,
-    "discounted_price": 74.95
+    "price": 86.95
   },
   {
     "name": "العائلة أرز بسمتي أبيض هندي عنبر 5 كج",
+    "description": "أرز بسمتي أبيض هندي عنبر من العائلة، يتميز بنكهة غنية وحبة طويلة، مثالي لتحضير الأطباق اليومية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102575/%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%87%D9%86%D8%AF%D9%8A-%D8%B9%D9%86%D8%A8%D8%B1-5-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -44,60 +46,61 @@
   },
   {
     "name": "العائلة أرز بسمتي أبيض هندي عنبر 10 كج",
+    "description": "أرز بسمتي أبيض هندي عنبر من العائلة، بحبة طويلة ونكهة مميزة، مثالي لتحضير الولائم والأطباق الكبيرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102576/%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%87%D9%86%D8%AF%D9%8A-%D8%B9%D9%86%D8%A8%D8%B1-10-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 24,
-    "price": 94.5,
-    "discounted_price": 71.95
+    "price": 94.5
   },
   {
     "name": "الوليمة أرز مزة بسمتي هندي 10 كج",
+    "description": "أرز بسمتي هندي فاخر من الوليمة، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير البرياني والأطباق العالمية. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102578/%D8%A7%D9%84%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 32,
-    "price": 96.5,
-    "discounted_price": 65.95
+    "price": 96.5
   },
   {
     "name": "صنوايت أرز كالروز 5 كج",
+    "description": "أرز كالروز عالي الجودة من صنوايت، يتميز بحبة متوسطة وملمس ناعم، مثالي لتحضير الأطباق المصرية والعربية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102579/%D8%B5%D9%86%D9%88%D8%A7%D9%8A%D8%AA-%D8%A3%D8%B1%D8%B2-%D9%83%D8%A7%D9%84%D8%B1%D9%88%D8%B2-5-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 5,
-    "price": 41.95,
-    "discounted_price": 39.95
+    "price": 41.95
   },
   {
     "name": "قودي معكرونة بيني ليسيه 450 جرام",
+    "description": "معكرونة بيني ليسيه من قودي، مثالية لتحضير الأطباق الإيطالية مع الصلصات الكريمية أو الطماطم. وزن العبوة 450 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102581/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A8%D9%8A%D9%86%D9%8A-%D9%84%D9%8A%D8%B3%D9%8A%D9%87-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.75,
-    "discounted_price": 5.2
+    "price": 5.75
   },
   {
     "name": "قودي مكرونة ديتاليني خواتم مخططة 450 جرام",
+    "description": "معكرونة ديتاليني خواتم مخططة من قودي، مثالية لتحضير الحساء والسلطات الباردة. وزن العبوة 450 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102583/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AF%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D9%86%D9%8A-%D8%AE%D9%88%D8%A7%D8%AA%D9%85-%D9%85%D8%AE%D8%B7%D8%B7%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.75,
-    "discounted_price": 5.2
+    "price": 5.75
   },
   {
     "name": "العائلة أرز بسمتي أبيض هندي عنبر 5 كج - حقيبة بلاستيكية",
+    "description": "أرز بسمتي أبيض هندي عنبر من العائلة، يأتي في حقيبة بلاستيكية مريحة، مثالي للأطباق اليومية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102584/%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%87%D9%86%D8%AF%D9%8A-%D8%B9%D9%86%D8%A8%D8%B1-5-%D9%83%D8%AC-%D8%AD%D9%82%D9%8A%D8%A8%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9.jpg.jpg"
     ],
     "discount": 11,
-    "price": 51.75,
-    "discounted_price": 45.95
+    "price": 51.75
   },
   {
     "name": "أبو كاس أرز مزة هندي بسمتي 10 كج",
+    "description": "أرز بسمتي هندي فاخر من أبو كاس، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير البرياني والأطباق الكبيرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102586/%D8%A3%D8%A8%D9%88-%D9%83%D8%A7%D8%B3-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -105,40 +108,42 @@
   },
   {
     "name": "الشعلان أرز سيلا بسمتي هندي 10 كج",
+    "description": "أرز سيلا بسمتي هندي من الشعلان، يتميز بحبة طويلة وملمس مثالي، مثالي لتحضير الأطباق العربية الفاخرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102587/%D8%A7%D9%84%D8%B4%D8%B9%D9%84%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D8%B3%D9%8A%D9%84%D8%A7-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
     "price": 84.95
   },
   {
-    "name": "الاهرام أرز مصرى  5 كيلو",
+    "name": "الاهرام أرز مصرى 5 كيلو",
+    "description": "أرز مصري عالي الجودة من الأهرام، يتميز بحبة قصيرة وملمس لزج، مثالي لتحضير الكشري والأطباق المصرية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102589/%D8%A7%D9%84%D8%A7%D9%87%D8%B1%D8%A7%D9%85-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B5%D8%B1%D9%89-5-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
     ],
     "discount": 11,
-    "price": 22.95,
-    "discounted_price": 20.45
+    "price": 22.95
   },
   {
     "name": "الوليمة ستايل أرز مزة بسمتي هندي حبة طويلة 5 كج",
+    "description": "أرز بسمتي هندي فاخر من الوليمة ستايل، بحبة طويلة جدًا ونكهة مميزة، مثالي لتحضير الأطباق الفاخرة. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102590/%D8%A7%D9%84%D9%88%D9%84%D9%8A%D9%85%D8%A9-%D8%B3%D8%AA%D8%A7%D9%8A%D9%84-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-%D8%AD%D8%A8%D8%A9-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-5-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 14,
-    "price": 45.25,
-    "discounted_price": 38.95
+    "price": 45.25
   },
   {
     "name": "صنوايت أرز كالروز 10 كج",
+    "description": "أرز كالروز عالي الجودة من صنوايت، يتميز بحبة متوسطة وملمس ناعم، مثالي لتحضير الأطباق العربية الكبيرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102592/%D8%B5%D9%86%D9%88%D8%A7%D9%8A%D8%AA-%D8%A3%D8%B1%D8%B2-%D9%83%D8%A7%D9%84%D8%B1%D9%88%D8%B2-10-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 27,
-    "price": 74.95,
-    "discounted_price": 55
+    "price": 74.95
   },
   {
     "name": "رويال ماكروني - باستا بيني 400جرام",
+    "description": "معكرونة بيني من رويال، مثالية لتحضير الأطباق الإيطالية مع الصلصات المتنوعة. وزن العبوة 400 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102593/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86%D9%8A-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-%D8%A8%D9%8A%D9%86%D9%8A-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -146,6 +151,7 @@
   },
   {
     "name": "العائلة أرز بسمتي أبيض 3 كج",
+    "description": "أرز بسمتي أبيض من العائلة، يتميز بحبة طويلة ونكهة غنية، مثالي للأطباق اليومية. وزن العبوة 3 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102595/%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-3-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -153,15 +159,16 @@
   },
   {
     "name": "قودي مكرونة أكواع كبيرة (رقم.33) 450 جرام",
+    "description": "معكرونة أكواع كبيرة من قودي، مثالية لتحضير الأطباق المخبوزة والسلطات. وزن العبوة 450 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102597/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A3%D9%83%D9%88%D8%A7%D8%B9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D8%B1%D9%82%D9%8533-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.75,
-    "discounted_price": 5.2
+    "price": 5.75
   },
   {
     "name": "رويال ماكروني - باستا سباغيتي 400جرام",
+    "description": "معكرونة سباغيتي من رويال، مثالية لتحضير الأطباق الإيطالية الكلاسيكية مع الصلصات المتنوعة. وزن العبوة 400 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102598/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86%D9%8A-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-400%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -169,33 +176,34 @@
   },
   {
     "name": "قودي مكرونة مبرومة فوسيلي 450 جرام",
+    "description": "معكرونة فوسيلي مبرومة من قودي، مثالية لتحضير الأطباق مع الصلصات السميكة والسلطات. وزن العبوة 450 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102600/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%85%D8%A8%D8%B1%D9%88%D9%85%D8%A9-%D9%81%D9%88%D8%B3%D9%8A%D9%84%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.75,
-    "discounted_price": 5.2
+    "price": 5.75
   },
   {
     "name": "قودي مكرونة رقم. 16 بايب ريجاتي 450 جرام",
+    "description": "معكرونة بايب ريجاتي من قودي، مثالية لتحضير الأطباق مع الصلصات الكثيفة والمخبوزات. وزن العبوة 450 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102600/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B1%D9%82%D9%85-16-%D8%A8%D8%A7%D9%8A%D8%A8-%D8%B1%D9%8A%D8%AC%D8%A7%D8%AA%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.75,
-    "discounted_price": 5.2
+    "price": 5.75
   },
   {
     "name": "وايت سوان أرز متوسط الحبة أبيض 4.5 كج",
+    "description": "أرز أبيض متوسط الحبة من وايت سوان، مثالي لتحضير الأطباق العربية والمصرية مثل المحاشي. وزن العبوة 4.5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102602/%D9%88%D8%A7%D9%8A%D8%AA-%D8%B3%D9%88%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-%D8%A3%D8%A8%D9%8A%D8%B6-45-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 13,
-    "price": 37.5,
-    "discounted_price": 32.45
+    "price": 37.5
   },
   {
     "name": "كارفور مكرونه 400 جرام",
+    "description": "معكرونة عالية الجودة من كارفور، مثالية لتحضير الأطباق الإيطالية المتنوعة. وزن العبوة 400 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102603/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%85%D9%83%D8%B1%D9%88%D9%86%D9%87-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -203,6 +211,7 @@
   },
   {
     "name": "شعلان أرز بسمتي 3 كيلو جرام",
+    "description": "أرز بسمتي فاخر من شعلان، يتميز بحبة طويلة ونكهة غنية، مثالي للأطباق اليومية. وزن العبوة 3 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102604/%D8%B4%D8%B9%D9%84%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-3-%D9%83%D9%8A%D9%84%D9%88-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -210,6 +219,7 @@
   },
   {
     "name": "أبو بنت أرز انتاج الولايات المتحدة الأمريكية 5 كج",
+    "description": "أرز عالي الجودة من أبو بنت، منتج من الولايات المتحدة، مثالي لتحضير الأطباق الأمريكية والعالمية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102605/%D8%A3%D8%A8%D9%88-%D8%A8%D9%86%D8%AA-%D8%A3%D8%B1%D8%B2-%D8%A7%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-5-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -217,15 +227,16 @@
   },
   {
     "name": "مهباج عدس أحمر 800 جرام",
+    "description": "عدس أحمر عالي الجودة من مهباج، مثالي لتحضير الحساء والأطباق العربية التقليدية. وزن العبوة 800 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102607/%D9%85%D9%87%D8%A8%D8%A7%D8%AC-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AD%D9%85%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 15,
-    "price": 13.5,
-    "discounted_price": 11.45
+    "price": 13.5
   },
   {
     "name": "أبو كاس أرز مزة هندي بسمتي 5 كج",
+    "description": "أرز بسمتي هندي فاخر من أبو كاس، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير الأطباق اليومية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102609/%D8%A3%D8%A8%D9%88-%D9%83%D8%A7%D8%B3-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -233,6 +244,7 @@
   },
   {
     "name": "أبو بنت أرز انتاج الولايات المتحدة الأمريكية 2 كج",
+    "description": "أرز عالي الجودة من أبو بنت، منتج من الولايات المتحدة، مثالي لتحضير الأطباق الأمريكية. وزن العبوة 2 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102610/%D8%A3%D8%A8%D9%88-%D8%A8%D9%86%D8%AA-%D8%A3%D8%B1%D8%B2-%D8%A7%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-2-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -240,6 +252,7 @@
   },
   {
     "name": "رويال - معكرونة فيوزيلي 400 جرام",
+    "description": "معكرونة فيوزيلي من رويال، مثالية لتحضير الأطباق مع الصلصات السميكة والسلطات. وزن العبوة 400 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102611/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%81%D9%8A%D9%88%D8%B2%D9%8A%D9%84%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -247,6 +260,7 @@
   },
   {
     "name": "بنجابي المهيدب أرز بسمتي أبيض هندي 5كج",
+    "description": "أرز بسمتي أبيض هندي من بنجابي المهيدب، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير الأطباق العربية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102612/%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D9%87%D9%8A%D8%AF%D8%A8-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%87%D9%86%D8%AF%D9%8A-5%D9%83%D8%AC.jpg.jpg"
     ],
@@ -254,15 +268,16 @@
   },
   {
     "name": "ملك الأرز، أرز بسمتي مزة حبة طويلة 10كج",
+    "description": "أرز بسمتي فاخر من ملك الأرز، بحبة طويلة جدًا ونكهة مميزة، مثالي لتحضير الأطباق الفاخرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102614/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%A3%D8%B1%D8%B2-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%85%D8%B2%D8%A9-%D8%AD%D8%A8%D8%A9-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-10%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 21,
-    "price": 89.5,
-    "discounted_price": 70.95
+    "price": 89.5
   },
   {
     "name": "ميلانو معكرونة سباجيتي 500 جرام",
+    "description": "معكرونة سباغيتي من ميلانو، مثالية لتحضير الأطباق الإيطالية الكلاسيكية مع الصلصات المتنوعة. وزن العبوة 500 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102614/%D9%85%D9%8A%D9%84%D8%A7%D9%86%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B3%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -270,6 +285,7 @@
   },
   {
     "name": "ابو كاس عنبر بشاور أرز هندي بسمتي أبيض 10 كج",
+    "description": "أرز بسمتي أبيض عنبر بشاور من أبو كاس، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير الأطباق الفاخرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102616/%D8%A7%D8%A8%D9%88-%D9%83%D8%A7%D8%B3-%D8%B9%D9%86%D8%A8%D8%B1-%D8%A8%D8%B4%D8%A7%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-10-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -277,15 +293,16 @@
   },
   {
     "name": "قودي معكرونة ديتاليني ليسي 450 جرام",
+    "description": "معكرونة ديتاليني ليسي من قودي، مثالية لتحضير الحساء والسلطات الباردة. وزن العبوة 450 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102617/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AF%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D9%86%D9%8A-%D9%84%D9%8A%D8%B3%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.75,
-    "discounted_price": 5.2
+    "price": 5.75
   },
   {
     "name": "رويال مكرونة بيني، 1 كج",
+    "description": "معكرونة بيني من رويال، مثالية لتحضير الأطباق الإيطالية مع الصلصات المتنوعة. وزن العبوة 1 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102618/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A8%D9%8A%D9%86%D9%8A-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -293,24 +310,25 @@
   },
   {
     "name": "الباخرة أرز سيلا أصفر برمل هندي 10 كج",
+    "description": "أرز سيلا أصفر برمل هندي من الباخرة، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير الأطباق العربية. وزن العبوة 10 كجم.",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102620/%D8%A7%D9%84%D8%A8%D8%A7%D8%AE%D8%B1%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%B3%D9%8A%D9%84%D8%A7-%D8%A3%D8%B5%D9%81%D8%B1-%D8%A8%D8%B1%D9%85%D9%84-%D9%87%D9%86%D8%AF%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102620/%D8%A7%D9%84%D8%A8%D8%A7%D8%AE%D8%B1%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%B3%D9%8A%D9%84%D8%A7-%D8%A3%D8%B5%D9%81%D8%B1-%D8%A8 -%D8%A8%D8%B1%D9%85%D9%84-%D9%87%D9%86%D8%AF%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 18,
-    "price": 54.95,
-    "discounted_price": 44.95
+    "price": 54.95
   },
   {
     "name": "قودي معكرونة أكواع 450 جرام",
+    "description": "معكرونة أكواع من قودي، مثالية لتحضير الأطباق المخبوزة والسلطات. وزن العبوة 450 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102621/%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A3%D9%83%D9%88%D8%A7%D8%B9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 10,
-    "price": 5.75,
-    "discounted_price": 5.2
+    "price": 5.75
   },
   {
     "name": "رويال - معكرونة شكل أصداف 400 جرام",
+    "description": "معكرونة شكل أصداف من رويال، مثالية لتحضير الأطباق مع الصلصات الكثيفة والمخبوزات. وزن العبوة 400 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102622/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B4%D9%83%D9%84-%D8%A3%D8%B5%D8%AF%D8%A7%D9%81-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -318,6 +336,7 @@
   },
   {
     "name": "هيمالايا - أرز بسمتي مازا 10 كجم",
+    "description": "أرز بسمتي فاخر من هيمالايا، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير الأطباق الفاخرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102623/%D9%87%D9%8A%D9%85%D8%A7%D9%84%D8%A7%D9%8A%D8%A7-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%85%D8%A7%D8%B2%D8%A7-10-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
@@ -325,15 +344,16 @@
   },
   {
     "name": "بنجابي المهيدب أرز بسمتي أبيض هندي 2 كج",
+    "description": "أرز بسمتي أبيض هندي من بنجابي المهيدب، يتميز بحبة طويلة ونكهة غنية، مثالي للأطباق اليومية. وزن العبوة 2 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102624/%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D9%87%D9%8A%D8%AF%D8%A8-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%87%D9%86%D8%AF%D9%8A-2-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 10,
-    "price": 25.95,
-    "discounted_price": 23.45
+    "price": 25.95
   },
   {
     "name": "أبو سنبلتين رز هندي 10 كج",
+    "description": "أرز هندي فاخر من أبو سنبلتين، يتميز بحبة طويلة ونكهة غنية، مثالي لتحضير الأطباق الكبيرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102626/%D8%A3%D8%A8%D9%88-%D8%B3%D9%86%D8%A8%D9%84%D8%AA%D9%8A%D9%86-%D8%B1%D8%B2-%D9%87%D9%86%D8%AF%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -341,15 +361,16 @@
   },
   {
     "name": "بوندي أرز مزة هندي طويل الحبة 10 كج",
+    "description": "أرز بسمتي هندي فاخر من بوندي، بحبة طويلة جدًا ونكهة مميزة، مثالي لتحضير الأطباق الفاخرة. وزن العبوة 10 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102628/%D8%A8%D9%88%D9%86%D8%AF%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D9%87%D9%86%D8%AF%D9%8A-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-10-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 16,
-    "price": 63,
-    "discounted_price": 52.95
+    "price": 63
   },
   {
     "name": "أرز ميزا بوندي هندي 3 كج",
+    "description": "أرز بسمتي هندي فاخر من بوندي، يتميز بحبة طويلة ونكهة غنية، مثالي للأطباق اليومية. وزن العبوة 3 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102630/%D8%A3%D8%B1%D8%B2-%D9%85%D9%8A%D8%B2%D8%A7-%D8%A8%D9%88%D9%86%D8%AF%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-3-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -357,15 +378,16 @@
   },
   {
     "name": "مالجروسا أرز معطر تايلندي 5 كج",
+    "description": "أرز معطر تايلندي من مالجروسا، يتميز بنكهة عطرية وحبة طويلة، مثالي لتحضير الأطباق الآسيوية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102631/%D9%85%D8%A7%D9%84%D8%AC%D8%B1%D9%88%D8%B3%D8%A7-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B9%D8%B7%D8%B1-%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 7,
-    "price": 39.75,
-    "discounted_price": 36.95
+    "price": 39.75
   },
   {
     "name": "أبو بنت أرز كالروز أبيض متوسط الحبة 5 كج",
+    "description": "أرز كالروز أبيض متوسط الحبة من أبو بنت، مثالي لتحضير الأطباق المصرية والعربية. وزن العبوة 5 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102633/%D8%A3%D8%A8%D9%88-%D8%A8%D9%86%D8%AA-%D8%A3%D8%B1%D8%B2-%D9%83%D8%A7%D9%84%D8%B1%D9%88%D8%B2-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-5-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -373,6 +395,7 @@
   },
   {
     "name": "باريلا معكرونة فيتوتشيني 500 جرام",
+    "description": "معكرونة فيتوتشيني من باريلا، مثالية لتحضير الأطباق الإيطالية الفاخرة مع الصلصات الكريمية. وزن العبوة 500 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102634/%D8%A8%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%81%D9%8A%D8%AA%D9%88%D8%AA%D8%B4%D9%8A%D9%86%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -380,6 +403,7 @@
   },
   {
     "name": "ميلانو معكرونة بيني 500 جرام",
+    "description": "معكرونة بيني من ميلانو، مثالية لتحضير الأطباق الإيطالية مع الصلصات المتنوعة. وزن العبوة 500 جرام.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102635/%D9%85%D9%8A%D9%84%D8%A7%D9%86%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A8%D9%8A%D9%86%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -387,15 +411,16 @@
   },
   {
     "name": "العائلة أرز بسمتي أبيض هندي عنبر حبة طويلة 2 كج",
+    "description": "أرز بسمتي أبيض هندي عنبر من العائلة، بحبة طويلة ونكهة غنية، مثالي للأطباق اليومية. وزن العبوة 2 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102636/%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%87%D9%86%D8%AF%D9%8A-%D8%B9%D9%86%D8%A8%D8%B1-%D8%AD%D8%A8%D8%A9-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-2-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 12,
-    "price": 23.25,
-    "discounted_price": 20.45
+    "price": 23.25
   },
   {
     "name": "رويال سباغيتي 1كج",
+    "description": "معكرونة سباغيتي من رويال، مثالية لتحضير الأطباق الإيطالية الكلاسيكية مع الصلصات المتنوعة. وزن العبوة 1 كجم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102637/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-1%D9%83%D8%AC.jpg.jpg"
     ],
@@ -406,7 +431,8 @@
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102640/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "سباغيتي مصنوعة من القمح الكامل عالي الجودة، مثالية لتحضير وجبات صحية ولذيذة."
   },
   {
     "name": "قودي معكرونة سيداني 450 جرام",
@@ -415,7 +441,7 @@
     ],
     "discount": 10,
     "price": 5.75,
-    "discounted_price": 5.2
+    "description": "معكرونة سيداني من قودي، مثالية لتحضير أطباق المعكرونة بالصلصات المختلفة."
   },
   {
     "name": "بنجابي المهيدب أرز بسمتي أبيض هندي 10 كج",
@@ -424,14 +450,15 @@
     ],
     "discount": 13,
     "price": 105,
-    "discounted_price": 90.95
+    "description": "أرز بسمتي أبيض هندي فاخر، مثالي لتحضير الأطباق الشرقية والبرياني."
   },
   {
     "name": "رويال مكرونة ريزو لسان العصفور 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102645/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B1%D9%8A%D8%B2%D9%88-%D9%84%D8%B3%D8%A7%D9%86-%D8%A7%D9%84%D8%B9%D8%B5%D9%81%D9%88%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 2
+    "price": 2,
+    "description": "مكرونة لسان العصفور صغيرة الحجم، مثالية للشوربات والأطباق التقليدية."
   },
   {
     "name": "لونا فاصوليا حمراء 400 جرام",
@@ -440,14 +467,15 @@
     ],
     "discount": 6,
     "price": 5.25,
-    "discounted_price": 4.95
+    "description": "فاصوليا حمراء غنية بالبروتين، مثالية لتحضير الأطباق الشعبية واليخنات."
   },
   {
     "name": "كارفور أرز ممتاز حبة طويلة 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102647/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-%D9%85%D9%85%D8%AA%D8%A7%D8%B2-%D8%AD%D8%A8%D8%A9-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 40.95
+    "price": 40.95,
+    "description": "أرز ممتاز بحبة طويلة، مثالي لتحضير الأطباق الرئيسية والمقلوبة."
   },
   {
     "name": "قودي شعيرية 250 جرام",
@@ -456,7 +484,7 @@
     ],
     "discount": 16,
     "price": 6.5,
-    "discounted_price": 5.45
+    "description": "شعيرية رفيعة من قودي، مثالية لتحضير الحساء والأطباق الجانبية."
   },
   {
     "name": "جرين فارمز أرز كرنل بسمتي ابيض 5 كج",
@@ -465,14 +493,15 @@
     ],
     "discount": 14,
     "price": 49.95,
-    "discounted_price": 42.95
+    "description": "أرز بسمتي أبيض عالي الجودة من جرين فارمز، مثالي للأطباق الفاخرة."
   },
   {
     "name": "كارفور مكرونة على شكل أرقام للأطفال  350 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102652/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D9%83%D9%84-%D8%A3%D8%B1%D9%82%D8%A7%D9%85-%D9%84%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84-350-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "مكرونة على شكل أرقام ممتعة للأطفال، مثالية لتحضير وجبات شهية."
   },
   {
     "name": "قودي معكرونة كونشيجلي 450 جرام",
@@ -481,49 +510,55 @@
     ],
     "discount": 10,
     "price": 5.75,
-    "discounted_price": 5.2
+    "description": "معكرونة كونشيجلي على شكل صدف، مثالية لتتبيلها بالصلصات الكريمية."
   },
   {
     "name": "كارفور فاصولياء بيضاء 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102655/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.75
+    "price": 6.75,
+    "description": "فاصولياء بيضاء غنية بالعناصر الغذائية، مثالية لتحضير الأطباق التقليدية."
   },
   {
     "name": "كارفور فاصولياء بيضاء 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102657/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 15.95
+    "price": 15.95,
+    "description": "فاصولياء بيضاء بكمية كبيرة، مثالية لتحضير وجبات عائلية مشبعة."
   },
   {
     "name": "كارفور عدس أبيض مجروش 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102658/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%85%D8%AC%D8%B1%D9%88%D8%B4-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "عدس أبيض مجروش، مثالي لتحضير الشوربات والأطباق الجانبية."
   },
   {
     "name": "كارفور برغل ناعم أسمر 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102660/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A8%D8%B1%D8%BA%D9%84-%D9%86%D8%A7%D8%B9%D9%85-%D8%A3%D8%B3%D9%85%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "برغل ناعم أسمر، مثالي لتحضير التبولة والكبة."
   },
   {
     "name": "ميلانو معكرونة أكواع 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102661/%D9%85%D9%8A%D9%84%D8%A7%D9%86%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A3%D9%83%D9%88%D8%A7%D8%B9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "معكرونة أكواع من ميلانو، مثالية لتحضير أطباق المعكرونة بالجبن."
   },
   {
     "name": "كارفور عدس أخضر كامل 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102663/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AE%D8%B6%D8%B1-%D9%83%D8%A7%D9%85%D9%84-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "عدس أخضر كامل، مثالي لتحضير الأطباق الغنية بالبروتين والشوربات."
   },
   {
     "name": "قودي معكرونة فارفالي 450 جرام",
@@ -532,7 +567,7 @@
     ],
     "discount": 10,
     "price": 5.75,
-    "discounted_price": 5.2
+    "description": "معكرونة فارفالي على شكل فراشات، مثالية للسلطات والأطباق الملونة."
   },
   {
     "name": "قودي معكرونة لسان العصفور 450 جرام",
@@ -541,77 +576,87 @@
     ],
     "discount": 10,
     "price": 5.75,
-    "discounted_price": 5.2
+    "description": "معكرونة لسان العصفور من قودي، مثالية لتحضير الشوربات والأطباق الخفيفة."
   },
   {
-    "name": "ميلانو معكرونة فلامينجو 500 جرام",
+    "name": "ميلانومعكرونة فلامينجو 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102667/%D9%85%D9%8A%D9%84%D8%A7%D9%86%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%81%D9%84%D8%A7%D9%85%D9%8A%D9%86%D8%AC%D9%88-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "معكرونة فلامينجو من ميلانو، مثالية لتحضير أطباق المعكرونة المميزة."
   },
   {
     "name": "كارفور مكرونه 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102668/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%85%D9%83%D8%B1%D9%88%D9%86%D9%87-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "مكرونة كارفور متعددة الاستخدامات، مثالية لتحضير وجبات يومية لذيذة."
   },
   {
     "name": "ياطب ترمس 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102670/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%AA%D8%B1%D9%85%D8%B3-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 15.75
+    "price": 15.75,
+    "description": "ترمس عالي الجودة، مثالي كوجبة خفيفة مغذية بعد النقع والطهي."
   },
   {
     "name": "كارفور بازلاء خضراء 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102672/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "بازلاء خضراء غنية بالفيتامينات، مثالية لتحضير الأطباق والشوربات."
   },
   {
     "name": "كارفور بازلاء مجروشة 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102674/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-%D9%85%D8%AC%D8%B1%D9%88%D8%B4%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "بازلاء مجروشة، مثالية لتحضير الشوربات الكريمية والأطباق الجانبية."
   },
   {
     "name": "ميلانو معكرونة حلقات 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102675/%D9%85%D9%8A%D9%84%D8%A7%D9%86%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AD%D9%84%D9%82%D8%A7%D8%AA-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "معكرونة حلقات من ميلانو، مثالية لتحضير السلطات والأطباق المبتكرة."
   },
   {
     "name": "كارفور حمص حب 14 مم 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102677/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-14-%D9%85%D9%85-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 14.95
+    "price": 14.95,
+    "description": "حمص حب كبير الحجم، مثالي لتحضير الحمص والفلافل."
   },
   {
     "name": "كارفور حمص حب 14 مم 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102680/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-14-%D9%85%D9%85-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.5
+    "price": 6.5,
+    "description": "حمص حب عالي الجودة، مثالي لتحضير الأطباق العربية التقليدية."
   },
   {
     "name": "ميلانو معكرونة حلقات صغيرة 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102681/%D9%85%D9%8A%D9%84%D8%A7%D9%86%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AD%D9%84%D9%82%D8%A7%D8%AA-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "معكرونة حلقات صغيرة، مثالية لتحضير الشوربات والسلطات."
   },
   {
     "name": "كارفور فول الصويا 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102683/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 11.95
+    "price": 11.95,
+    "description": "فول صويا غني بالبروتين، مثالي لتحضير الأطباق النباتية."
   },
   {
     "name": "تريفا مكرونة أكواع 400 جرام",
@@ -620,42 +665,47 @@
     ],
     "discount": 12,
     "price": 4.5,
-    "discounted_price": 3.95
+    "description": "مكرونة أكواع من تريفا، مثالية لتحضير أطباق المعكرونة الكلاسيكية."
   },
   {
     "name": "رويال أمبريلا أرز معطر 10 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102685/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D8%A3%D9%85%D8%A8%D8%B1%D9%8A%D9%84%D8%A7-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B9%D8%B7%D8%B1-10-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 56.5
+    "price": 56.5,
+    "description": "أرز معطر فاخر، مثالي لتحضير الأطباق الآسيوية والشرقية."
   },
   {
     "name": "كارفور هريس 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102687/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%87%D8%B1%D9%8A%D8%B3-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 11.95
+    "price": 11.95,
+    "description": "هريس عالي الجودة، مثالي لتحضير الأطباق العربية التقليدية."
   },
   {
     "name": "كارفور لوبيا حمراء 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102689/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%84%D9%88%D8%A8%D9%8A%D8%A7-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.95
+    "price": 5.95,
+    "description": "لوبيا حمراء غنية بالعناصر الغذائية، مثالية لتحضير اليخنات."
   },
   {
     "name": "كارفور عدس أخضر مجروش 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102690/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AE%D8%B6%D8%B1-%D9%85%D8%AC%D8%B1%D9%88%D8%B4-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 10.95
+    "price": 10.95,
+    "description": "عدس أخضر مجروش، مثالي لتحضير الشوربات والأطباق الجانبية."
   },
   {
     "name": "ياطب عدس احمر 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102692/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%AD%D9%85%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.25
+    "price": 9.25,
+    "description": "عدس أحمر غني بالبروتين، مثالي لتحضير الشوربات الكريمية."
   },
   {
     "name": "كارفور عدس أخضر 400 جرام",
@@ -664,42 +714,47 @@
     ],
     "discount": 10,
     "price": 4.95,
-    "discounted_price": 4.45
+    "description": "عدس أخضر عالي الجودة، مثالي لتحضير الأطباق الصحية."
   },
   {
     "name": "كارفور أرز سيام 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102695/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%B3%D9%8A%D8%A7%D9%85-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 18.75
+    "price": 18.75,
+    "description": "أرز سيام عالي الجودة، مثالي لتحضير الأطباق الآسيوية."
   },
   {
     "name": "كارفور فول الصويا 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102696/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%81%D9%88%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.5
+    "price": 5.5,
+    "description": "فول صويا مغذي، مثالي لتحضير الأطباق النباتية والصحية."
   },
   {
     "name": "كارفور تبولة بالنعناع 730 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102698/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AA%D8%A8%D9%88%D9%84%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9-730-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 17.5
+    "price": 17.5,
+    "description": "تبولة طازجة بالنعناع، مثالية كطبق جانبي أو سلطة صحية."
   },
   {
     "name": "أبو كاس أرز بشاور بسمتي أبيض هندي 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102699/%D8%A3%D8%A8%D9%88-%D9%83%D8%A7%D8%B3-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B4%D8%A7%D9%88%D8%B1-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%87%D9%86%D8%AF%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 50.5
+    "price": 50.5,
+    "description": "أرز بسمتي أبيض هندي فاخر، مثالي لتحضير البرياني والأطباق الشرقية."
   },
   {
     "name": "كارفور أرز 3 ألوان 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102700/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-3-%D8%A3%D9%84%D9%88%D8%A7%D9%86-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 14.5
+    "price": 14.5,
+    "description": "أرز بثلاثة ألوان، مثالي لتحضير الأطباق المبتكرة والملونة."
   },
   {
     "name": "قودي شعيرية مقطعة 450 جرام",
@@ -708,7 +763,7 @@
     ],
     "discount": 16,
     "price": 6.5,
-    "discounted_price": 5.45
+    "description": "شعيرية مقطعة من قودي، مثالية لتحضير الحساء والأطباق الجانبية."
   },
   {
     "name": "تريفا مكرونة ديتاليني ريغاتي خواتم 400 جرام",
@@ -717,14 +772,15 @@
     ],
     "discount": 12,
     "price": 4.5,
-    "discounted_price": 3.95
+    "description": "مكرونة ديتاليني ريغاتي، مثالية لتحضير الشوربات والسلطات."
   },
   {
     "name": "ياطب سميد خشن 2 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102704/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B3%D9%85%D9%8A%D8%AF-%D8%AE%D8%B4%D9%86-2-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 16.5
+    "price": 16.5,
+    "description": "سميد خشن عالي الجودة، مثالي لتحضير الحلويات والأطباق التقليدية."
   },
   {
     "name": "الوليمة أرز مزة بسمتي هندي بني 2 كج",
@@ -733,7 +789,7 @@
     ],
     "discount": 20,
     "price": 31,
-    "discounted_price": 24.95
+    "description": "أرز بسمتي بني صحي، مثالي لتحضير الأطباق الغنية بالألياف."
   },
   {
     "name": "زين عدس بني 500 جرام",
@@ -742,7 +798,7 @@
     ],
     "discount": 28,
     "price": 8.25,
-    "discounted_price": 5.95
+    "description": "عدس بني غني بالعناصر الغذائية، مثالي لتحضير الأطباق الصحية."
   },
   {
     "name": "سيبا كسكوس المغربي ناعم 500 جرام",
@@ -751,35 +807,39 @@
     ],
     "discount": 11,
     "price": 13.45,
-    "discounted_price": 11.95
+    "description": "كسكوس مغربي ناعم، مثالي لتحضير الأطباق المغربية التقليدية."
   },
   {
     "name": "عافية برغل خشن 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102709/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%A8%D8%B1%D8%BA%D9%84-%D8%AE%D8%B4%D9%86-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "برغل خشن من عافية، مثالي لتحضير الكبة والأطباق الشامية."
   },
   {
     "name": "باريلا مكرونة رقم.5 أساغيتي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102710/%D8%A8%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B1%D9%82%D9%855-%D8%A3%D8%B3%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11.75
+    "price": 11.75,
+    "description": "مكرونة إسباغيتي من باريلا، مثالية لتحضير الأطباق الإيطالية الكلاسيكية."
   },
   {
     "name": "مهران أرز بسمتي ذهبي  5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102711/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%B0%D9%87%D8%A8%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 46.25
+    "price": 46.25,
+    "description": "أرز بسمتي ذهبي فاخر، مثالي لتحضير الأطباق الهندية والشرقية."
   },
   {
     "name": "تيلدا أرز جراند طويل جدا 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102712/%D8%AA%D9%8A%D9%84%D8%AF%D8%A7-%D8%A3%D8%B1%D8%B2-%D8%AC%D8%B1%D8%A7%D9%86%D8%AF-%D8%B7%D9%88%D9%8A%D9%84-%D8%AC%D8%AF%D8%A7-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 70
+    "price": 70,
+    "description": "أرز جراند طويل جدًا من تيلدا، مثالي لتحضير الأطباق الفاخرة."
   },
   {
     "name": "المضياف أرز أبيض هندي طويل الحبة 5 كج",
@@ -788,33 +848,36 @@
     ],
     "discount": 15,
     "price": 44.75,
-    "discounted_price": 37.95
+    "description": "أرز أبيض هندي طويل الحبة، مثالي لتحضير الأطباق العربية."
   },
   {
     "name": "كنتري إكس إل - أرز بسمتي هندي طويل، 10كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102716/%D9%83%D9%86%D8%AA%D8%B1%D9%8A-%D8%A5%D9%83%D8%B3-%D8%A5%D9%84-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-%D8%B7%D9%88%D9%8A%D9%84-10%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 99.5
+    "price": 99.5,
+    "description": "أرز بسمتي هندي طويل بكمية كبيرة، مثالي للمناسبات العائلية."
   },
   {
     "name": "ياطب سميد خشن 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102717/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B3%D9%85%D9%8A%D8%AF-%D8%AE%D8%B4%D9%86-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "سميد خشن عالي الجودة، مثالي لتحضير الحلويات التقليدية."
   },
   {
     "name": "ملك الأرز، أرز سيلا بسمتي 5كج",
+    "description": "أرز بسمتي سيلا عالي الجودة، مثالي لتحضير البرياني والأطباق الهندية، يتميز بحبات طويلة وعطرية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102720/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%A3%D8%B1%D8%B2-%D8%A3%D8%B1%D8%B2-%D8%B3%D9%8A%D9%84%D8%A7-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-5%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 20,
-    "price": 49.75,
-    "discounted_price": 39.95
+    "price": 49.75
   },
   {
     "name": "ياطب سميد ناعم 2 كج",
+    "description": "سميد ناعم متعدد الاستخدامات، مثالي لتحضير الحلويات العربية مثل البسبوسة والهريسة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102722/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B3%D9%85%D9%8A%D8%AF-%D9%86%D8%A7%D8%B9%D9%85-2-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -822,6 +885,7 @@
   },
   {
     "name": "مجدي عدس أحمر مجروش 800 جرام",
+    "description": "عدس أحمر مجروش غني بالبروتين، مثالي لتحضير الشوربات واليخنات الشهية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102724/%D9%85%D8%AC%D8%AF%D9%8A-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AD%D9%85%D8%B1-%D9%85%D8%AC%D8%B1%D9%88%D8%B4-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -829,6 +893,7 @@
   },
   {
     "name": "كارفور فاصولياء حمراء 400 جرام",
+    "description": "فاصولياء حمراء غنية بالألياف، مثالية لتحضير الأطباق التقليدية مثل الفول المدمس.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102725/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -836,6 +901,7 @@
   },
   {
     "name": "المها بنجابي أرز هندي أبيض بسمتي 5 كج",
+    "description": "أرز بسمتي أبيض بنجابي فاخر، يتميز بحبات طويلة ونكهة غنية لتحضير أشهى الأطباق.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102728/%D8%A7%D9%84%D9%85%D9%87%D8%A7-%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%87%D9%86%D8%AF%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -843,42 +909,43 @@
   },
   {
     "name": "البيكر سميد خشن 1كج",
+    "description": "سميد خشن عالي الجودة، مثالي لتحضير الحلويات والمخبوزات التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102729/%D8%A7%D9%84%D8%A8%D9%8A%D9%83%D8%B1-%D8%B3%D9%85%D9%8A%D8%AF-%D8%AE%D8%B4%D9%86-1%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 6,
-    "price": 8.75,
-    "discounted_price": 8.2
+    "price": 8.75
   },
   {
     "name": "الطائي حمص حب 540 جرام",
+    "description": "حمص حب غني بالبروتين والألياف، مثالي لتحضير الحمص المطحون والسلطات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102731/%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%8A-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-540-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 24,
-    "price": 6.5,
-    "discounted_price": 4.95
+    "price": 6.5
   },
   {
     "name": "تريفا مكرونة ديتاليني ريغاتي خواتم مخططة صغيرة 400 جرام",
+    "description": "مكرونة ديتاليني ريغاتي صغيرة، مثالية لتحضير الشوربات والأطباق بالصلصات الكثيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102732/%D8%AA%D8%B1%D9%8A%D9%81%D8%A7-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AF%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D9%86%D9%8A-%D8%B1%D9%8A%D8%BA%D8%A7%D8%AA%D9%8A-%D8%AE%D9%88%D8%A7%D8%AA%D9%85-%D9%85%D8%AE%D8%B7%D8%B7%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 4.5,
-    "discounted_price": 3.95
+    "price": 4.5
   },
   {
     "name": "المضياف أرز أبيض هندي طويل الحبة 10 كج",
+    "description": "أرز أبيض هندي طويل الحبة، مثالي لتحضير الأطباق الرئيسية مثل الكبسة والمندي.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102734/%D8%A7%D9%84%D9%85%D8%B6%D9%8A%D8%A7%D9%81-%D8%A3%D8%B1%D8%B2-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%87%D9%86%D8%AF%D9%8A-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-10-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 16,
-    "price": 86.75,
-    "discounted_price": 72.95
+    "price": 86.75
   },
   {
     "name": "أخضر AAA أرز ياسمين تايلاندي 10 كج",
+    "description": "أرز ياسمين تايلاندي فاخر، يتميز بنكهة عطرية وحبات لزجة قليلاً، مثالي للأطباق الآسيوية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102735/%D8%A3%D8%AE%D8%B6%D8%B1-aaa-%D8%A3%D8%B1%D8%B2-%D9%8A%D8%A7%D8%B3%D9%85%D9%8A%D9%86-%D8%AA%D8%A7%D9%8A%D9%84%D8%A7%D9%86%D8%AF%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -886,6 +953,7 @@
   },
   {
     "name": "مجدي ماش أصفر 800 جرام",
+    "description": "ماش أصفر غني بالمغذيات، مثالي لتحضير الشوربات والأطباق الهندية التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102736/%D9%85%D8%AC%D8%AF%D9%8A-%D9%85%D8%A7%D8%B4-%D8%A3%D8%B5%D9%81%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -893,6 +961,7 @@
   },
   {
     "name": "زين سميد 800 جرام",
+    "description": "سميد عالي الجودة، مثالي لتحضير الحلويات والمخبوزات مثل البسبوسة والكنافة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102738/%D8%B2%D9%8A%D9%86-%D8%B3%D9%85%D9%8A%D8%AF-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -900,6 +969,7 @@
   },
   {
     "name": "أبو صقر أرز بسمتي سيلا 5كج",
+    "description": "أرز بسمتي سيلا فاخر، يتميز بحبات طويلة ونكهة مميزة، مثالي للأطباق العربية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102740/%D8%A3%D8%A8%D9%88-%D8%B5%D9%82%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%B3%D9%8A%D9%84%D8%A7-5%D9%83%D8%AC.jpg.jpg"
     ],
@@ -907,15 +977,16 @@
   },
   {
     "name": "زين فريكة 1 كج",
+    "description": "فريكة غنية بالألياف والمغذيات، مثالية لتحضير الأطباق التقليدية مثل شوربة الفريكة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102742/%D8%B2%D9%8A%D9%86-%D9%81%D8%B1%D9%8A%D9%83%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 8,
-    "price": 12.5,
-    "discounted_price": 11.45
+    "price": 12.5
   },
   {
     "name": "الراجحي أرز مزة هندي بسمتي 5 كج",
+    "description": "أرز بسمتي هندي مزة، يتميز بحبات طويلة ونكهة غنية، مثالي لتحضير البرياني.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102744/%D8%A7%D9%84%D8%B1%D8%A7%D8%AC%D8%AD%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -923,6 +994,7 @@
   },
   {
     "name": "باريلا معكرونة رقم.3 أسباغيتي 500 جرام",
+    "description": "معكرونة أسباغيتي إيطالية عالية الجودة، مثالية لتحضير الأطباق بالصلصات المتنوعة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102745/%D8%A8%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B1%D9%82%D9%853-%D8%A3%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -930,6 +1002,7 @@
   },
   {
     "name": "صنوايت أرز كالروز 1 كج",
+    "description": "أرز كالروز قصير الحبة، مثالي لتحضير الأطباق اليابانية مثل السوشي والأرز اللزج.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102747/%D8%B5%D9%86%D9%88%D8%A7%D9%8A%D8%AA-%D8%A3%D8%B1%D8%B2-%D9%83%D8%A7%D9%84%D8%B1%D9%88%D8%B2-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -937,24 +1010,25 @@
   },
   {
     "name": "العائلة أرز بسمتي مدعم بالفيتامينات 4.5كج",
+    "description": "أرز بسمتي مدعم بالفيتامينات، مثالي لتحضير وجبات صحية ولذيذة للعائلة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102748/%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%85%D8%AF%D8%B9%D9%85-%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AA%D8%A7%D9%85%D9%8A%D9%86%D8%A7%D8%AA-45%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 20,
-    "price": 59.75,
-    "discounted_price": 47.95
+    "price": 59.75
   },
   {
     "name": "تريفا مكرونة أقلام مخططة 400 جرام",
+    "description": "مكرونة أقلام مخططة، مثالية لتحضير الأطباق بالصلصات الكريمية أو الطماطم.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102749/%D8%AA%D8%B1%D9%8A%D9%81%D8%A7-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A3%D9%82%D9%84%D8%A7%D9%85-%D9%85%D8%AE%D8%B7%D8%B7%D8%A9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 12,
-    "price": 4.5,
-    "discounted_price": 3.95
+    "price": 4.5
   },
   {
     "name": "سوبر فود كينوا ثلاثية الألوان 500 جرام",
+    "description": "كينوا ثلاثية الألوان غنية بالبروتين، مثالية لتحضير السلطات والأطباق الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102751/%D8%B3%D9%88%D8%A8%D8%B1-%D9%81%D9%88%D8%AF-%D9%83%D9%8A%D9%86%D9%88%D8%A7-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%84%D9%88%D8%A7%D9%86-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -962,15 +1036,16 @@
   },
   {
     "name": "ملك الأرز أرز بسمتي أبيض بنجابي طويل الحبة 10كج",
+    "description": "أرز بسمتي بنجابي فاخر، يتميز بحبات طويلة ونكه  عطرية، مثالي للمناسبات الخاصة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102753/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%A3%D8%B1%D8%B2-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-10%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 19,
-    "price": 101.5,
-    "discounted_price": 81.95
+    "price": 101.5
   },
   {
     "name": "عزيمكو سميد 600 جرام",
+    "description": "سميد عالي الجودة، مثالي لتحضير الحلويات التقليدية مثل الهريسة والبسبوسة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102754/%D8%B9%D8%B2%D9%8A%D9%85%D9%83%D9%88-%D8%B3%D9%85%D9%8A%D8%AF-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -978,6 +1053,7 @@
   },
   {
     "name": "وايت سوان أرز متوسط الحبة أبيض 2 كج",
+    "description": "أرز متوسط الحبة، مثالي لتحضير الأطباق اليومية مثل الأرز بالخضار.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102756/%D9%88%D8%A7%D9%8A%D8%AA-%D8%B3%D9%88%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-%D8%A3%D8%A8%D9%8A%D8%B6-2-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -985,6 +1061,7 @@
   },
   {
     "name": "باريلا مكرونة رقم.73 بيني ريغاتي 500 جرام",
+    "description": "مكرونة بيني ريغاتي إيطالية، مثالية لتحضير الأطباق بالصلصات الكثيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102757/%D8%A8%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B1%D9%82%D9%8573-%D8%A8%D9%8A%D9%86%D9%8A-%D8%B1%D9%8A%D8%BA%D8%A7%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -992,6 +1069,7 @@
   },
   {
     "name": "باريلا مكرونة رقم.1 آنجل هير 500 جرام",
+    "description": "مكرونة آنجل هير إيطالية رفيعة، مثالية لتحضير الشوربات والأطباق الخفيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102758/%D8%A8%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B1%D9%82%D9%851-%D8%A2%D9%86%D8%AC%D9%84-%D9%87%D9%8A%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -999,6 +1077,7 @@
   },
   {
     "name": "ياطب لوبيا 500جرام",
+    "description": "لوبيا غنية بالمغذيات، مثالية لتحضير الأطباق التقليدية والسلطات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102759/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%84%D9%88%D8%A8%D9%8A%D8%A7-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1006,6 +1085,7 @@
   },
   {
     "name": "باريلا باستا ديتالوني ريجاتي، 400 جرام",
+    "description": "باستا ديتالوني ريجاتي، مثالية لتحضير الشوربات والأطباق بالصلصات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102761/%D8%A8%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-%D8%AF%D9%8A%D8%AA%D8%A7%D9%84%D9%88%D9%86%D9%8A-%D8%B1%D9%8A%D8%AC%D8%A7%D8%AA%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1013,6 +1093,7 @@
   },
   {
     "name": "عافية سميد خشن 400 جرام",
+    "description": "سميد خشن عالي الجودة، مثالي لتحضير الحلويات والمخبوزات التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102763/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%B3%D9%85%D9%8A%D8%AF-%D8%AE%D8%B4%D9%86-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1020,6 +1101,7 @@
   },
   {
     "name": "أرز تايلاندي أبيض لزج 1000 جرام",
+    "description": "أرز تايلاندي لزج، مثالي لتحضير الأطباق الآسيوية مثل الأرز اللزج بالمانجو.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102764/%D8%A3%D8%B1%D8%B2-%D8%AA%D8%A7%D9%8A%D9%84%D8%A7%D9%86%D8%AF%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%84%D8%B2%D8%AC-1000-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1027,6 +1109,7 @@
   },
   {
     "name": "بيزولو لازانيا 18 ، 500 جرام",
+    "description": "لازانيا إيطالية عالية الجودة، مثالية لتحضير أطباق اللازانيا الشهية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102765/%D8%A8%D9%8A%D8%B2%D9%88%D9%84%D9%88-%D9%84%D8%A7%D8%B2%D8%A7%D9%86%D9%8A%D8%A7-18-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1034,15 +1117,16 @@
   },
   {
     "name": "زين عدس أحمر 1 كج",
+    "description": "عدس أحمر غني بالبروتين، مثالي لتحضير الشوربات واليخنات الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102767/%D8%B2%D9%8A%D9%86-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AD%D9%85%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 15,
-    "price": 14,
-    "discounted_price": 11.95
+    "price": 14
   },
   {
     "name": "ياطب برغل ناعم 1كج",
+    "description": "برغل ناعم غني بالألياف، مثالي لتحضير التبولة والكبة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102768/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%A8%D8%B1%D8%BA%D9%84-%D9%86%D8%A7%D8%B9%D9%85-1%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1050,6 +1134,7 @@
   },
   {
     "name": "عافية حمص جامبو 800 جرام",
+    "description": "حمص جامبو غني بالمغذيات، مثالي لتحضير الحمص المطحون والسلطات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102769/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%AD%D9%85%D8%B5-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1057,6 +1142,7 @@
   },
   {
     "name": "وايت سوان أرز متوسط الحبة أبيض 1 كج",
+    "description": "أرز متوسط الحبة، مثالي لتحضير الأطباق اليومية مثل الأرز المفلفل.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102771/%D9%88%D8%A7%D9%8A%D8%AA-%D8%B3%D9%88%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-%D8%A3%D8%A8%D9%8A%D8%B6-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1064,6 +1150,7 @@
   },
   {
     "name": "رويال شعيرية 1كج",
+    "description": "شعيرية عالية الجودة، مثالية لتحضير الحلويات والشوربات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102772/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-1%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1071,6 +1158,7 @@
   },
   {
     "name": "العلالي مكرونة باتيرنوسترو ريجاتو إيطالية خواتم 450 جرام",
+    "description": "مكرونة باتيرنوسترو إيطالية، مثالية لتحضير الأطباق بالصلصات الكثيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102773/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A8%D8%A7%D8%AA%D9%8A%D8%B1%D9%86%D9%88%D8%B3%D8%AA%D8%B1%D9%88-%D8%B1%D9%8A%D8%AC%D8%A7%D8%AA%D9%88-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-%D8%AE%D9%88%D8%A7%D8%AA%D9%85-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1078,6 +1166,7 @@
   },
   {
     "name": "ياطب حمص حب 1 كج",
+    "description": "حمص حب غني بالبروتين، مثالي لتحضير الحمص المطحون والأطباق التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102775/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1085,15 +1174,16 @@
   },
   {
     "name": "الطائي بنجابي (عنبر) أرز بسمتي أبيض طويل الحبة 5 كجم",
+    "description": "أرز بسمتي عنبر فاخر، يتميز بنكهة غنية وحبات طويلة، مثالي للأطباق العربية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102776/%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%8A-%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-%D8%B9%D9%86%D8%A8%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-5-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
     "discount": 16,
-    "price": 53.5,
-    "discounted_price": 44.95
+    "price": 53.5
   },
   {
     "name": "ياطب ماش اخضر 1 كج",
+    "description": "ماش أخضر غني بالمغذيات، مثالي لتحضير الشوربات والأطباق الهندية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102778/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%85%D8%A7%D8%B4-%D8%A7%D8%AE%D8%B6%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1101,6 +1191,7 @@
   },
   {
     "name": "ياطب عدس أصفر 500جرام",
+    "description": "عدس أصفر غني بالبروتين، مثالي لتحضير الشوربات واليخنات الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102779/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B5%D9%81%D8%B1-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1108,6 +1199,7 @@
   },
   {
     "name": "العلالي لازانيا إيطالية 450 جرام",
+    "description": "لازانيا إيطالية عالية الجودة، مثالية لتحضير أطباق اللازانيا اللذيذة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102781/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%84%D8%A7%D8%B2%D8%A7%D9%86%D9%8A%D8%A7-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1115,6 +1207,7 @@
   },
   {
     "name": "ياطب جريش 1 كج",
+    "description": "جريش غني بالمغذيات، مثالي لتحضير الأطباق التقليدية مثل الحساء والجريش.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102783/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%AC%D8%B1%D9%8A%D8%B4-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1122,6 +1215,7 @@
   },
   {
     "name": "المضياف أرز أبيض 3 كجم",
+    "description": "أرز أبيض عالي الجودة، مثالي لتحضير الأطباق اليومية والمناسبات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102796/%D8%A7%D9%84%D9%85%D8%B6%D9%8A%D8%A7%D9%81-%D8%A3%D8%B1%D8%B2-%D8%A3%D8%A8%D9%8A%D8%B6-3-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
@@ -1129,6 +1223,7 @@
   },
   {
     "name": "بيزولو تالياتيلي 500 جرام",
+    "description": "تالياتيلي إيطالية عالية الجودة، مثالية لتحضير الأطباق بالصلصات الكريمية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102797/%D8%A8%D9%8A%D8%B2%D9%88%D9%84%D9%88-%D8%AA%D8%A7%D9%84%D9%8A%D8%A7%D8%AA%D9%8A%D9%84%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1136,6 +1231,7 @@
   },
   {
     "name": "راز راجا أرز هندي طويل الحبة 5 كجم",
+    "description": "أرز هندي طويل الحبة، مثالي لتحضير الأطباق العربية مثل الكبسة والبرياني.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102799/%D8%B1%D8%A7%D8%B2-%D8%B1%D8%A7%D8%AC%D8%A7-%D8%A3%D8%B1%D8%B2-%D9%87%D9%86%D8%AF%D9%8A-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-5-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
@@ -1143,6 +1239,7 @@
   },
   {
     "name": "ياطب ماش اصفر 500 جرام",
+    "description": "ماش أصفر غني بالبروتين، مثالي لتحضير الشوربات والأطباق الهندية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102800/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%85%D8%A7%D8%B4-%D8%A7%D8%B5%D9%81%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1150,15 +1247,16 @@
   },
   {
     "name": "زين عدس بني 1 كج",
+    "description": "عدس بني غني بالمغذيات، مثالي لتحضير الشوربات واليخنات الشهية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102802/%D8%B2%D9%8A%D9%86-%D8%B9%D8%AF%D8%B3-%D8%A8%D9%86%D9%8A-1-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 15,
-    "price": 14,
-    "discounted_price": 11.95
+    "price": 14
   },
   {
     "name": "الأجندة حمص حب 1 كج",
+    "description": "حمص حب غني بالبروتين والألياف، مثالي لتحضير الحمص المطحون والسلطات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102803/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1166,6 +1264,7 @@
   },
   {
     "name": "العلالي مكرونة إطالية نوتشولي ريجاتي 450 جرام",
+    "description": "مكرونة نوتشولي ريجاتي إيطالية، مثالية لتحضير الأطباق بالصلصات الكثيفة.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102804/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A5%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-%D9%86%D9%88%D8%AA%D8%B4%D9%88%D9%84%D9%8A-%D8%B1%D9%8A%D8%AC%D8%A7%D8%AA%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1173,6 +1272,7 @@
   },
   {
     "name": "زين فاصولياء بيضاء 800 جرام",
+    "description": "فاصولياء بيضاء غنية بالألياف، مثالية لتحضير الأطباق التقليدية واليخنات.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102805/%D8%B2%D9%8A%D9%86-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
@@ -1180,15 +1280,16 @@
   },
   {
     "name": "زين برغل ناعم 1 كج",
+    "description": "برغل ناعم غني بالألياف، مثالي لتحضير التبولة والأطباق التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102807/%D8%B2%D9%8A%D9%86-%D8%A8%D8%B1%D8%BA%D9%84-%D9%86%D8%A7%D8%B9%D9%85-1-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 10,
-    "price": 10.25,
-    "discounted_price": 9.2
+    "price": 10.25
   },
   {
     "name": "ياطب عدس احمر 2 كج",
+    "description": "عدس أحمر غني بالبروتين، مثالي لتحضير الشوربات واليخنات الصحية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102808/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%AD%D9%85%D8%B1-2-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1196,6 +1297,7 @@
   },
   {
     "name": "ياطب فاصوليا بيضاء 1 كج",
+    "description": "فاصولياء بيضاء غنية بالمغذيات، مثالية لتحضير اليخنات والأطباق التقليدية.",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102811/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-1-%D9%83%D8%AC.jpg.jpg"
     ],
@@ -1206,21 +1308,24 @@
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102813/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%81%D9%88%D9%84-%D9%85%D8%AC%D8%B1%D9%88%D8%B4-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 9.25
+    "price": 9.25,
+    "description": "فول مجروش عالي الجودة من ياطب، مثالي لتحضير الفلافل والوجبات التقليدية، يأتي في عبوة 1 كجم."
   },
   {
     "name": "مهران أرز بسمتي ذهبي 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102814/%D9%85%D9%87%D8%B1%D8%A7%D9%86-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%B0%D9%87%D8%A8%D9%8A-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "أرز بسمتي ذهبي فاخر من مهران، يتميز بنكهة غنية وحبات طويلة، مثالي للأطباق الهندية والعربية، بعبوة 1 كجم."
   },
   {
     "name": "تاج محل أرز بسمتي بنجابي 10 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102815/%D8%AA%D8%A7%D8%AC-%D9%85%D8%AD%D9%84-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 92
+    "price": 92,
+    "description": "أرز بسمتي بنجابي ممتاز من تاج محل، مثالي للمناسبات الكبيرة، يتميز بحبات طويلة وعطرية، في عبوة 10 كجم."
   },
   {
     "name": "عافية سميد خشن 800 جرام",
@@ -1229,7 +1334,7 @@
     ],
     "discount": 15,
     "price": 12.25,
-    "discounted_price": 10.45
+    "description": "سميد خشن من عافية، مثالي لتحضير الحلويات التقليدية مثل البسبوسة والهريسة، في عبوة 800 جرام."
   },
   {
     "name": "زين جريش 500 جرام",
@@ -1238,7 +1343,7 @@
     ],
     "discount": 13,
     "price": 6.25,
-    "discounted_price": 5.45
+    "description": "جريش عالي الجودة من زين، مثالي لتحضير الأطباق الخليجية التقليدية، في عبوة 500 جرام."
   },
   {
     "name": "المها بنجابي أرز هندي أبيض بسمتي 10 كج",
@@ -1247,56 +1352,63 @@
     ],
     "discount": 15,
     "price": 97.75,
-    "discounted_price": 82.95
+    "description": "أرز بسمتي أبيض بنجابي من المها، يتميز بحبات طويلة وعطرية، مثالي للمناسبات الكبيرة، في عبوة 10 كجم."
   },
   {
     "name": "الأجندة فاصوليا بيضاء 500جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102821/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.25
+    "price": 8.25,
+    "description": "فاصوليا بيضاء من الأجندة، مثالية لتحضير الأطباق العربية والمتوسطية، في عبوة 500 جرام."
   },
   {
     "name": "بونتا أرز أمريكي طويل الحبة خالي من الغلوتين 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102823/%D8%A8%D9%88%D9%86%D8%AA%D8%A7-%D8%A3%D8%B1%D8%B2-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%BA%D9%84%D9%88%D8%AA%D9%8A%D9%86-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 43.25
+    "price": 43.25,
+    "description": "أرز أمريكي طويل الحبة من بونتا، خالي من الغلوتين، مثالي للأنظمة الغذائية الصحية، في عبوة 5 كجم."
   },
   {
     "name": "زين - فاصوليا حمراء 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102824/%D8%B2%D9%8A%D9%86-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "فاصوليا حمراء من زين، غنية بالبروتين والألياف، مثالية للشوربات واليخنات، في عبوة 800 جرام."
   },
   {
     "name": "زين بريميوم برغل ناعم 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102825/%D8%B2%D9%8A%D9%86-%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D9%88%D9%85-%D8%A8%D8%B1%D8%BA%D9%84-%D9%86%D8%A7%D8%B9%D9%85-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10
+    "price": 10,
+    "description": "برغل ناعم بريميوم من زين، مثالي لتحضير الكبة والتبولة، في عبوة 800 جرام."
   },
   {
     "name": "أزميكو عدس أخضر (أبو جبة) 600 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102827/%D8%A3%D8%B2%D9%85%D9%8A%D9%83%D9%88-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AE%D8%B6%D8%B1-%D8%A3%D8%A8%D9%88-%D8%AC%D8%A8%D8%A9-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.75
+    "price": 9.75,
+    "description": "عدس أخضر (أبو جبة) من أزميكو، مثالي لتحضير الشوربات والأطباق الصحية، في عبوة 600 جرام."
   },
   {
     "name": "العلالي مكرونة ايطالي فارفالي 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102828/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A7%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-%D9%81%D8%A7%D8%B1%D9%81%D8%A7%D9%84%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.75
+    "price": 5.75,
+    "description": "مكرونة إيطالية فارفالي من العلالي، مثالية لتحضير أطباق الباستا الشهية، في عبوة 450 جرام."
   },
   {
     "name": "ياطب برغل اسمر ناعم 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102830/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%A8%D8%B1%D8%BA%D9%84-%D8%A7%D8%B3%D9%85%D8%B1-%D9%86%D8%A7%D8%B9%D9%85-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 9.25
+    "price": 9.25,
+    "description": "برغل أسمر ناعم من ياطب، غني بالألياف، مثالي للتبولة والكبة، في عبوة 1 كجم."
   },
   {
     "name": "زين لوبيا العين السوداء 1 كج",
@@ -1305,14 +1417,15 @@
     ],
     "discount": 9,
     "price": 15.25,
-    "discounted_price": 13.95
+    "description": "لوبيا العين السوداء من زين، غنية بالبروتين، مثالية للأطباق الأفريقية والعربية، في عبوة 1 كجم."
   },
   {
     "name": "صن جاردن - أرز ياسمين 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102832/%D8%B5%D9%86-%D8%AC%D8%A7%D8%B1%D8%AF%D9%86-%D8%A3%D8%B1%D8%B2-%D9%8A%D8%A7%D8%B3%D9%85%D9%8A%D9%86-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 37.25
+    "price": 37.25,
+    "description": "أرز ياسمين عطري من صن جاردن، مثالي للأطباق الآسيوية والشرقية، في عبوة 5 كجم."
   },
   {
     "name": "زين برغل ناعم 500 جرام",
@@ -1321,7 +1434,7 @@
     ],
     "discount": 13,
     "price": 6.25,
-    "discounted_price": 5.45
+    "description": "برغل ناعم من زين، مثالي لتحضير السلطات والكبة، في عبوة 500 جرام."
   },
   {
     "name": "قودي معكرونة كانيلوني 250 جرام",
@@ -1330,14 +1443,15 @@
     ],
     "discount": 14,
     "price": 12.5,
-    "discounted_price": 10.7
+    "description": "معكرونة كانيلوني من قودي، مثالية لتحضير الأطباق الإيطالية المحشوة، في عبوة 250 جرام."
   },
   {
     "name": "باستا زارا - كسكسي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102837/%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-%D8%B2%D8%A7%D8%B1%D8%A7-%D9%83%D8%B3%D9%83%D8%B3%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 15
+    "price": 15,
+    "description": "كسكسي من باستا زارا، مثالي لتحضير الأطباق المغربية والمتوسطية، في عبوة 500 جرام."
   },
   {
     "name": "الوليمة ستايل خليط الماسالا 300 جرام",
@@ -1346,56 +1460,63 @@
     ],
     "discount": 23,
     "price": 17.5,
-    "discounted_price": 13.45
+    "description": "خليط الماسالا من الوليمة ستايل، يضيف نكهة غنية للأطباق الهندية، في عبوة 300 جرام."
   },
   {
     "name": "تاج محل أرز مزًة هندي بسمتي 10كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102840/%D8%AA%D8%A7%D8%AC-%D9%85%D8%AD%D9%84-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-10%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 93
+    "price": 93,
+    "description": "أرز بسمتي مزة هندي من تاج محل، يتميز بنكهة عطرية مميزة، مثالي للمناسبات، في عبوة 10 كجم."
   },
   {
     "name": "ياطب عدس اصفر 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102841/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%B5%D9%81%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 14.75
+    "price": 14.75,
+    "description": "عدس أصفر من ياطب، مثالي لتحضير الشوربات والدال، غني بالبروتين، في عبوة 1 كجم."
   },
   {
     "name": "سوبر فود كينوا حمراء 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102843/%D8%B3%D9%88%D8%A8%D8%B1-%D9%81%D9%88%D8%AF-%D9%83%D9%8A%D9%86%D9%88%D8%A7-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 29
+    "price": 29,
+    "description": "كينوا حمراء من سوبر فود، غنية بالعناصر الغذائية، مثالية للسلطات والأطباق الصحية، في عبوة 500 جرام."
   },
   {
     "name": "عزيمكو عدس اسود 600 جرام",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102845/%D8%B9%D8%B2%D9%8A%D9%85%D9%83%D9%88-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%B3%D9%88%D8%AF-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload médiator/%D8%B9%D8%B2%D9%8A%D9%85%D9%83%D9%88-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%B3%D9%88%D8%AF-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "عدس أسود من عزيمكو، مثالي لتحضير الأطباق الهندية والصحية، غني بالبروتين، في عبوة 600 جرام."
   },
   {
     "name": "عافية كينوا أحمر 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102846/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D9%83%D9%8A%D9%86%D9%88%D8%A7-%D8%A3%D8%AD%D9%85%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 30.25
+    "price": 30.25,
+    "description": "كينوا حمراء من عافية، مصدر غني بالبروتين والألياف، مثالية للوجبات الصحية، في عبوة 400 جرام."
   },
   {
     "name": "العلالي معكرونة  ,450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102848/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.75
+    "price": 5.75,
+    "description": "معكرونة إيطالية من العلالي، مثالية لتحضير أطباق الباستا المتنوعة، في عبوة 450 جرام."
   },
   {
     "name": "مجدي ماش أخضر حب 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102849/%D9%85%D8%AC%D8%AF%D9%8A-%D9%85%D8%A7%D8%B4-%D8%A3%D8%AE%D8%B6%D8%B1-%D8%AD%D8%A8-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 15.25
+    "price": 15.25,
+    "description": "ماش أخضر من مجدي، غني بالبروتين، مثالي لتحضير الأطباق الهندية والصحية، في عبوة 800 جرام."
   },
   {
     "name": "المهباج حمص 800 جرام",
@@ -1404,14 +1525,15 @@
     ],
     "discount": 17,
     "price": 16.75,
-    "discounted_price": 13.95
+    "description": "حمص من المهباج، مثالي لتحضير الحمص المهروس والفلافل، في عبوة 800 جرام."
   },
   {
     "name": "كوهينور أرز بسمتي أبيض تقليدي 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102851/%D9%83%D9%88%D9%87%D9%8A%D9%86%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 58.25
+    "price": 58.25,
+    "description": "أرز بسمتي أبيض تقليدي من كوهينور، يتميز بنكهة عطرية وحبات طويلة، في عبوة 5 كجم."
   },
   {
     "name": "ملك الأرز، أرز بسمتي أبيض بنجابي طويل الحبة 5كج",
@@ -1420,49 +1542,55 @@
     ],
     "discount": 25,
     "price": 71,
-    "discounted_price": 52.95
+    "description": "أرز بسمتي أبيض بنجابي من ملك الأرز، طويل الحبة وعطري، مثالي للأطباق الفاخرة، في عبوة 5 كجم."
   },
   {
     "name": "هيمالايا أرز بسمتي مازا، 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102854/%D9%87%D9%8A%D9%85%D8%A7%D9%84%D8%A7%D9%8A%D8%A7-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%85%D8%A7%D8%B2%D8%A7-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 38.75
+    "price": 38.75,
+    "description": "أرز بسمتي مازا من هيمالايا، يتميز بنكهة غنية وحبات طويلة، مثالي للأطباق اليومية، في عبوة 5 كجم."
   },
   {
     "name": "جرانورو سبيرالي تريكولور باستا 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102856/%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D8%B1%D9%88-%D8%B3%D8%A8%D9%8A%D8%B1%D8%A7%D9%84%D9%8A-%D8%AA%D8%B1%D9%8A%D9%83%D9%88%D9%84%D9%88%D8%B1-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 14
+    "price": 14,
+    "description": "باستا سبيرالي تريكولور من جرانورو، بألوان طبيعية، مثالية لتحضير أطباق الباستا الملونة، في عبوة 500 جرام."
   },
   {
     "name": "بتر ذان نودلز، نودلز مصنوعة من دقيق الكونجاك العضوي وألياف الشوفان العضوية، 385 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102857/%D8%A8%D8%AA%D8%B1-%D8%B0%D8%A7%D9%86-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D9%85%D8%B5%D9%86%D9%88%D8%B9%D8%A9-%D9%85%D9%86-%D8%AF%D9%82%D9%8A%D9%82-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%AC%D8%A7%D9%83-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A-%D9%88%D8%A3%D9%84%D9%8A%D8%A7%D9%81-%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-385-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 25
+    "price": 25,
+    "description": "نودلز صحية من بتر ذان، مصنوعة من الكونجاك والشوفان العضوي، مثالية للأنظمة الغذائية منخفضة الكربوهيدرات، في عبوة 385 جرام."
   },
   {
     "name": "العلالي مكرونة إيطالية جونيكي 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102858/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-%D8%AC%D9%88%D9%86%D9%8A%D9%83%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.75
+    "price": 5.75,
+    "description": "مكرونة إيطالية جونيكي من العلالي، مثالية لتحضير أطباق الباستا الكلاسيكية، في عبوة 450 جرام."
   },
   {
     "name": "عزيمكو عدس حمص 600 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102860/%D8%B9%D8%B2%D9%8A%D9%85%D9%83%D9%88-%D8%B9%D8%AF%D8%B3-%D8%AD%D9%85%D8%B5-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.75
+    "price": 9.75,
+    "description": "عدس حمص من عزيمكو، غني بالبروتين، مثال personally لتحضير الشوربات والأطباق الجانبية، في عبوة 600 جرام."
   },
   {
     "name": "كارفور حمص مجروش 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102861/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%AD%D9%85%D8%B5-%D9%85%D8%AC%D8%B1%D9%88%D8%B4-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "حمص مجروش من كارفور، مثالي لتحضير الحمص المهروس والوصفات التقليدية، في عبوة 400 جرام."
   },
   {
     "name": "المهباج فول مصري 1 كج",
@@ -1471,63 +1599,71 @@
     ],
     "discount": 15,
     "price": 15.75,
-    "discounted_price": 13.45
+    "description": "فول مصري من المهباج، مثالي لتحضير الفول المدمس والوجبات المصرية التقليدية، في عبوة 1 كجم."
   },
   {
     "name": "أبو بنت أرز انتاج الولايات المتحدة الأمريكية 10 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102863/%D8%A3%D8%A8%D9%88-%D8%A8%D9%86%D8%AA-%D8%A3%D8%B1%D8%B2-%D8%A7%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-10-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 93.75
+    "price": 93.75,
+    "description": "أرز أمريكي عالي الجودة من أبو بنت، مثالي للمناسبات الكبيرة والأطباق المتنوعة، في عبوة 10 كجم."
   },
   {
     "name": "ياطب ماش أخضر 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102864/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%85%D8%A7%D8%B4-%D8%A3%D8%AE%D8%B6%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.75
+    "price": 6.75,
+    "description": "ماش أخضر من ياطب، غني بالبروتين، مثالي لتحضير الأطباق الهندية والصحية، في عبوة 500 جرام."
   },
   {
     "name": "تشونج يونج وان أوفود فيتوتشيني معكرونة بالبيض 250 غرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102866/%D8%AA%D8%B4%D9%88%D9%86%D8%AC-%D9%8A%D9%88%D9%86%D8%AC-%D9%88%D8%A7%D9%86-%D8%A3%D9%88%D9%81%D9%88%D8%AF-%D9%81%D9%8A%D8%AA%D9%88%D8%AA%D8%B4%D9%8A%D9%86%D9%8A-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D9%8A%D8%B6-250-%D8%BA%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 14
+    "price": 14,
+    "description": "معكرونة فيتوتشيني بالبيض من تشونج يونج، مثالية لتحضير الأطباق الإيطالية الغنية، في عبوة 250 جرام."
   },
   {
     "name": "ياطب حمص حب 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102867/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7.75
+    "price": 7.75,
+    "description": "حمص حب من ياطب، مثالي لتحضير الحمص المهروس والفلافل، في عبوة 500 جرام."
   },
   {
     "name": "عافية - حمص جامبو 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102869/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%AD%D9%85%D8%B5-%D8%AC%D8%A7%D9%85%D8%A8%D9%88-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.5
+    "price": 9.5,
+    "description": "حمص جامبو من عافية، بحبات كبيرة ومذاق غني، مثالي للحمص المهروس والسلطات، في عبوة 400 جرام."
   },
   {
     "name": "ماكتي أرز معطر 10 كج",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102871/%D9%85%D8%A7%D9%83%D8%AA%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B9%D8%B7%D8%B1-10-%D9%83%D8%AC.jpg.jpg"
+      "https://res.cloudinary  /%D9%85%D8%A7%D9%83%D8%AA%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B9%D8%B7%D8%B1-10-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 76.95
+    "price": 76.95,
+    "description": "أرز معطر من ماكتي، يتميز بنكهة عطرية مميزة، مثالي للمناسبات الكبيرة، في عبوة 10 كجم."
   },
   {
     "name": "زين ماش أصفر 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102872/%D8%B2%D9%8A%D9%86-%D9%85%D8%A7%D8%B4-%D8%A3%D8%B5%D9%81%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "ماش أصفر من زين، غني بالبروتين والألياف، مثالي لتحضير الأطباق الهندية، في عبوة 800 جرام."
   },
   {
     "name": "كارفور عدس أصفر 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102873/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B5%D9%81%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "عدس أصفر من كارفور، مثالي لتحضير الشوربات والدال، في عبوة 400 جرام."
   },
   {
     "name": "عافية سميد ناعم 800 جرام",
@@ -1536,7 +1672,7 @@
     ],
     "discount": 15,
     "price": 12.25,
-    "discounted_price": 10.45
+    "description": "سميد ناعم من عافية، مثالي لتحضير الحلويات مثل البسبوسة والكعك، في عبوة 800 جرام."
   },
   {
     "name": "المهباج فول مصري مطحون 1 كج",
@@ -1545,49 +1681,55 @@
     ],
     "discount": 20,
     "price": 11.25,
-    "discounted_price": 8.95
+    "description": "فول مصري مطحون من المهباج، مثالي لتحضير الفلافل والوجبات التقليدية، في عبوة 1 كجم."
   },
   {
     "name": "عافية لوبيا 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102878/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D9%84%D9%88%D8%A8%D9%8A%D8%A7-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 17.25
+    "price": 17.25,
+    "description": "لوبيا من عافية، غنية بالبروتين، مثالية لتحضير الأطباق الأفريقية والعربية، في عبوة 800 جرام."
   },
   {
     "name": "الأجندة عدس ماش أبيض 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102879/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D9%85%D8%A7%D8%B4-%D8%A3%D8%A8%D9%8A%D8%B6-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 13.5
+    "price": 13.5,
+    "description": "عدس ماش أبيض من الأجندة، مثالي لتحضير الأطباق الهندية والصحية، في عبوة 1 كجم."
   },
   {
     "name": "ياطب عدس أردني بني 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102880/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D8%A8%D9%86%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8
+    "price": 8,
+    "description": "عدس أردني بني من ياطب، غني بالبروتين، مثالي للشوربات واليخنات، في عبوة 500 جرام."
   },
   {
     "name": "ياطب عدس أحمر 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102881/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AD%D9%85%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 17.25
+    "price": 17.25,
+    "description": "عدس أحمر من ياطب، مثالي لتحضير الشوربات والدال، غني بالعناصر الغذائية، في عبوة 1 كجم."
   },
   {
     "name": "الأجندة فاصولياء حمراء 500جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102882/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.5
+    "price": 8.5,
+    "description": "فاصولياء حمراء من الأجندة، غنية بالألياف والبروتين، مثالية للشوربات واليخنات، في عبوة 500 جرام."
   },
   {
-    "name": "العلالي مكرونة إيطالية ديتاليني ريغاتا 450 جرام",
+    "name": "العلالي مكرونة إ გეჱطالية ديتاليني ريغاتا 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102884/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-%D8%AF%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D9%86%D9%8A-%D8%B1%D9%8A%D8%BA%D8%A7%D8%AA%D8%A7-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.75
+    "price": 5.75,
+    "description": "مكرونة إيطالية ديتاليني ريغاتا من العلالي، مثالية لتحضير الشوربات وأطباق الباستا، في عبوة 450 جرام."
   },
   {
     "name": "زين عدس أصفر 1 كج",
@@ -1596,7 +1738,7 @@
     ],
     "discount": 8,
     "price": 14,
-    "discounted_price": 12.95
+    "description": "عدس أصفر من زين، مثالي لتحضير الشوربات والدال، غني بالبروتين والألياف، في عبوة 1 كجم."
   },
   {
     "name": "أبو سنبلتين أرز مزة هندي بسمتي 5 كج",
@@ -1605,21 +1747,23 @@
     ],
     "discount": 21,
     "price": 45.75,
-    "discounted_price": 35.95
+    "description": "أرز بسمتي هندي فاخر من أبو سنبلتين، مثالي لتحضير الأطباق الشرقية والعالمية، يتميز بحبات طويلة ونكهة عطرية مميزة."
   },
   {
     "name": "بيب - معكرونة الكوع 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102888/%D8%A8%D9%8A%D8%A8-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D8%B9-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 3.75
+    "price": 3.75,
+    "description": "معكرونة الكوع من بيب، مثالية لتحضير أطباق المعكرونة بالصلصات المختلفة، مصنوعة من القمح عالي الجودة."
   },
   {
     "name": "أرض الطبيعة أرز البسمتي، 1 كيلوجرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102889/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%A7%D9%84%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-1-%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 34
+    "price": 34,
+    "description": "أرز بسمتي عضوي من أرض الطبيعة، يتميز بنكهة غنية وحبات طويلة، مثالي للأطباق الصحية والمغذية."
   },
   {
     "name": "زين حمص حب 500 جرام",
@@ -1628,28 +1772,31 @@
     ],
     "discount": 28,
     "price": 8.25,
-    "discounted_price": 5.95
+    "description": "حمص حب من زين، مثالي لتحضير الحمص المهروس أو الأطباق التقليدية، غني بالبروتين والألياف."
   },
   {
     "name": "مجدي ماش تور 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102892/%D9%85%D8%AC%D8%AF%D9%8A-%D9%85%D8%A7%D8%B4-%D8%AA%D9%88%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 15
+    "price": 15,
+    "description": "ماش تور من مجدي، مثالي لتحضير الأطباق الهندية والشوربات، غني بالعناصر الغذائية."
   },
   {
     "name": "العلالي فوسيلي بالقمح الأسمرمع( اوميجا3)  450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102893/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%81%D9%88%D8%B3%D9%8A%D9%84%D9%8A-%D8%A8%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%B1%D9%85%D8%B9-%D8%A7%D9%88%D9%85%D9%8A%D8%AC%D8%A73-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.75
+    "price": 10.75,
+    "description": "فوسيلي من العلالي مصنوع من القمح الأسمر ومدعم بأوميجا 3، مثالي للأطباق الصحية والمغذية."
   },
   {
     "name": "باريلا باستا شيفريني، 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102894/%D8%A8%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-%D8%B4%D9%8A%D9%81%D8%B1%D9%8A%D9%86%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7
+    "price": 7,
+    "description": "باستا شيفريني من باريلا، مثالية لتحضير الأطباق الإيطالية الأصيلة، مصنوعة من القمح عالي الجودة."
   },
   {
     "name": "بانزاني مكرونة بيني ريجاتي 500 جرام",
@@ -1658,238 +1805,271 @@
     ],
     "discount": 50,
     "price": 10.95,
-    "discounted_price": 5.45
+    "description": "مكرونة بيني ريجاتي من بانزاني، مثالية للصلصات السميكة، مصنوعة من القمح الإيطالي الفاخر."
   },
   {
     "name": "غاروفالو مكرونة سباغيتي 500 جرام",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102898/%D8%BA%D8%A7%D8%B1%D9%88%D9%81%D8%A7%D9%84%D9%88-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102898/%D8%BA%D8%A7%D8%B1%D9%88%D9%81%D8%A7%D9%84%D9%88-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-500-%D8 Stuart://www.example.com/image.jpg"
     ],
-    "price": 9.5
+    "price": 9.5,
+    "description": "سباغيتي من غاروفالو، مثالية لتحضير الأطباق الإيطالية الكلاسيكية، مصنوعة من القمح عالي الجودة."
   },
   {
     "name": "سميد عافية خشن 1.5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102900/%D8%B3%D9%85%D9%8A%D8%AF-%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%AE%D8%B4%D9%86-15-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 20
+    "price": 20,
+    "description": "سميد خشن من عافية، مثالي لتحضير الحلويات التقليدية والمخبوزات، مصنوع من القمح عالي الجودة."
   },
   {
     "name": "العلالي شعيرية ايطالية 250 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102901/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-%D8%A7%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.95
+    "price": 6.95,
+    "description": "شعيرية إيطالية من العلالي، مثالية لتحضير الحساء والأطباق الخفيفة، مصنوعة من القمح الفاخر."
   },
   {
     "name": "الأجنده عدس أسود 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102903/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D9%87-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B3%D9%88%D8%AF-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9
+    "price": 9,
+    "description": "عدس أسود من الأجندة، غني بالبروتين والألياف، مثالي لتحضير الشوربات والأطباق الصحية."
   },
   {
     "name": "ياطب حمص مجروش 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102905/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%AD%D9%85%D8%B5-%D9%85%D8%AC%D8%B1%D9%88%D8%B4-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5
+    "price": 5,
+    "description": "حمص مجروش من ياطب، مثالي لتحضير الحمص المهروس أو الأطباق التقليدية، غني بالعناصر الغذائية."
   },
   {
     "name": "الأجندة عدس ماش أصفر 1 كج",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102906/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D9%85%D8%A7%D8%B4-%D8%A3%D8%B5%D9%81%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0ares.cloudinary.com/dbyc0sncy/image/upload/v1745102906/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D9%85%D8%A7%D8%B4-%D8%A3%D8%B5%D9%81%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 14
+    "price": 14,
+    "description": "عدس ماش أصفر من الأجندة، مثالي لتحضير الأطباق الهندية والشوربات، غني بالبروتين."
   },
   {
     "name": "الأجندة جريش 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102907/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%AC%D8%B1%D9%8A%D8%B4-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 10
+    "price": 10,
+    "description": "جريش من الأجندة، مثالي لتحضير الأطباق التقليدية مثل الحريش، مصنوع من القمح المطحون."
   },
   {
     "name": "الطائي ارز مزة بسمتي 10 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102909/%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%8A-%D8%A7%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 98
+    "price": 98,
+    "description": "أرز بسمتي فاخر من الطائي، مثالي لتحضير الأطباق الشرقية، يتميز بحبات طويلة ونكهة عطرية."
   },
   {
     "name": "ياطب فاصوليا بيضاء 2 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102910/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-2-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 39.25
+    "price": 39.25,
+    "description": "فاصوليا بيضاء من ياطب، مثالية لتحضير الأطباق التقليدية واليخنات، غنية بالبروتين."
   },
   {
     "name": "بتر ذان باستا، مكرونة تالياتيلي عضوية 385 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102911/%D8%A8%D8%AA%D8%B1-%D8%B0%D8%A7%D9%86-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AA%D8%A7%D9%84%D9%8A%D8%A7%D8%AA%D9%8A%D9%84%D9%8A-%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-385-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 25
+    "price": 25,
+    "description": "مكرونة تالياتيلي عضوية من بتر ذان، مثالية لتحضير الأطباق الإيطالية، مصنوعة من مكونات طبيعية."
   },
   {
     "name": "قودي بريك سباغيتيني مع صلصة نابوليتانا - 70 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102913/%D9%82%D9%88%D8%AF%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A%D9%86%D9%8A-%D9%85%D8%B9-%D8%B5%D9%84%D8%B5%D8%A9-%D9%86%D8%A7%D8%A8%D9%88%D9%84%D9%8A%D8%AA%D8%A7%D9%86%D8%A7-70-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.5
+    "price": 8.5,
+    "description": "سباغيتيني مع صلصة نابوليتانا من قودي، وجبة سريعة ولذيذة، مثالية للتحضير السريع."
   },
   {
     "name": "الطائي ارز مزة سيلا بسمتي كريمي 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102914/%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%8A-%D8%A7%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D8%B3%D9%8A%D9%84%D8%A7-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%83%D8%B1%D9%8A%D9%85%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 49.75
+    "price": 49.75,
+    "description": "أرز سيلا بسمتي كريمي من الطائي، يتميز بقوام ناعم ونكهة غنية، مثالي للأطباق الفاخرة."
   },
   {
     "name": "العلالي معكرونة أكواع كبيرة ريجات 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102916/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A3%D9%83%D9%88%D8%A7%D8%B9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D8%B1%D9%8A%D8%AC%D8%A7%D8%AA-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6
+    "price": 6,
+    "description": "معكرونة أكواع كبيرة ريجات من العلالي، مثالية للصلصات السميكة، مصنوعة من القمح عالي الجودة."
   },
   {
     "name": "قودي بريك سباغيتيني مع صلصة روزيه - 70 جرام، مصنوع من مكونات طبيعية",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102917/%D9%82%D9%88%D8%AF%D9%8A-%D8%A8%D8%B1%D9%8A%D9%83-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A%D9%86%D9%8A-%D9%85%D8%B9-%D8%B5%D9%84%D8%B5%D8%A9-%D8%B1%D9%88%D8%B2%D9%8A%D9%87-70-%D8%AC%D8%B1%D8%A7%D9%85-%D9%85%D8%B5%D9%86%D9%88%D8%B9-%D9%85%D9%86-%D9%85%D9%83%D9%88%D9%86%D8%A7%D8%AA-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9.jpg.jpg"
     ],
-    "price": 8.5
+    "price": 8.5,
+    "description": "سباغيتيني مع صلصة روزيه من قودي، وجبة سريعة مصنوعة من مكونات طبيعية، مثالية لوجبة لذيذة."
   },
   {
     "name": "الأجنده عدس اسود 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102918/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D9%87-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%B3%D9%88%D8%AF-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 16.5
+    "price": 16.5,
+    "description": "عدس أسود من الأجندة، غني بالبروتين والألياف، مثالي لتحضير الشوربات والأطباق الصحية."
   },
   {
     "name": "فكتوريا أرز بسمتي أبيض 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102919/%D9%81%D9%83%D8%AA%D9%88%D8%B1%D9%8A%D8%A7-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 61
+    "price": 61,
+    "description": "أرز بسمتي أبيض من فكتوريا، مثالي لتحضير الأطباق العالمية، يتميز بحبات طويلة ونكهة عطرية."
   },
   {
     "name": "شامبا أرز بنكهة الياسمين 5 كيلو",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102922/%D8%B4%D8%A7%D9%85%D8%A8%D8%A7-%D8%A3%D8%B1%D8%B2-%D8%A8%D9%86%D9%83%D9%87%D8%A9-%D8%A7%D9%84%D9%8A%D8%A7%D8%B3%D9%85%D9%8A%D9%86-5-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
     ],
-    "price": 38
+    "price": 38,
+    "description": "أرز بنكهة الياسمين من شامبا، مثالي لتحضير الأطباق الآسيوية، يتميز بنكهة عطرية مميزة."
   },
   {
     "name": "غاروفالو مكرونة ماكاروني 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102923/%D8%BA%D8%A7%D8%B1%D9%88%D9%81%D8%A7%D9%84%D9%88-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%85%D8%A7%D9%83%D8%A7%D8%B1%D9%88%D9%86%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.5
+    "price": 13.5,
+    "description": "مكرونة ماكاروني من غاروفالو، مثالية لتحضير الأطباق الإيطالية، مصنوعة من القمح عالي الجودة."
   },
   {
     "name": "بيزولو معكرونة سباجيتي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102925/%D8%A8%D9%8A%D8%B2%D9%88%D9%84%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B3%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8
+    "price": 8,
+    "description": "سباجيتي من بيزولو، مثالية لتحضير الأطباق الإيطالية الكلاسيكية، مصنوعة من القمح الفاخر."
   },
   {
     "name": "جرانورو معكرونة بيني ريجاتي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102926/%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D8%B1%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A8%D9%8A%D9%86%D9%8A-%D8%B1%D9%8A%D8%AC%D8%A7%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "مكرونة بيني ريجاتي من جرانورو، مثالية للصلصات السميكة، مصنوعة من القمح الإيطالي."
   },
   {
     "name": "ياطب عدس اخضر 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102927/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%AE%D8%B6%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 14.75
+    "price": 14.75,
+    "description": "عدس أخضر من ياطب، غني بالبروتين والألياف، مثالي لتحضير الشوربات والأطباق الصحية."
   },
   {
     "name": "عافية سميد ناعم 1.5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102928/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%B3%D9%85%D9%8A%D8%AF-%D9%86%D8%A7%D8%B9%D9%85-15-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 20
+    "price": 20,
+    "description": "سميد ناعم من عافية، مثالي لتحضير الحلويات والمخبوزات، مصنوع من القمح عالي الجودة."
   },
   {
     "name": "بانزاني مكرونة ديتالينى ريجاتى 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102930/%D8%A8%D8%A7%D9%86%D8%B2%D8%A7%D9%86%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AF%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D9%86%D9%89-%D8%B1%D9%8A%D8%AC%D8%A7%D8%AA%D9%89-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7.5
+    "price": 7.5,
+    "description": "مكرونة ديتاليني ريجاتي من بانزاني، مثالية للحساء والسلطات، مصنوعة من القمح الفاخر."
   },
   {
     "name": "مونش بوكس معكرونة ​​لازانيا  200 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102931/%D9%85%D9%88%D9%86%D8%B4-%D8%A8%D9%88%D9%83%D8%B3-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%84%D8%A7%D8%B2%D8%A7%D9%86%D9%8A%D8%A7-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 34.5
+    "price": 34.5,
+    "description": "معكرونة لازانيا من مونش بوكس، مثالية لتحضير طبق اللازانيا الإيطالي، مصنوعة من القمح عالي الجودة."
   },
   {
     "name": "ياطب عدس بني أردني 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102932/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B9%D8%AF%D8%B3-%D8%A8%D9%86%D9%8A-%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 14.75
+    "price": 14.75,
+    "description": "عدس بني أردني من ياطب، غني بالبروتين، مثالي لتحضير الشوربات واليخنات."
   },
   {
     "name": "جرين فارمز - أرز بسمتي هندي مزا بسمتي 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102934/%D8%AC%D8%B1%D9%8A%D9%86-%D9%81%D8%A7%D8%B1%D9%85%D8%B2-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-%D9%85%D8%B2%D8%A7-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 45.75
+    "price": 45.75,
+    "description": "أرز بسمتي هندي من جرين فارمز، مثالي لتحضير الأطباق الشرقية، يتميز بحبات طويلة ونكهة غنية."
   },
   {
     "name": "مجدي فاصولياء بيضاء 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102936/%D9%85%D8%AC%D8%AF%D9%8A-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 18
+    "price": 18,
+    "description": "فاصوليا بيضاء من مجدي، مثالية لتحضير اليخنات والأطباق التقليدية، غنية بالبروتين."
   },
   {
     "name": "زين بريميوم عدس أصفر 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102937/%D8%B2%D9%8A%D9%86-%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D9%88%D9%85-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B5%D9%81%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11
+    "price": 11,
+    "description": "عدس أصفر بريميوم من زين، مثالي لتحضير الشوربات والأطباق الهندية، غني بالبروتين."
   },
   {
     "name": "الأجندة عدس أصفر 1كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102940/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B5%D9%81%D8%B1-1%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 16.5
+    "price": 16.5,
+    "description": "عدس أصفر من الأجندة، مثالي لتحضير الأطباق الصحية والشوربات، غني بالعناصر الغذائية."
   },
   {
     "name": "باريلا باستا شعيرية فيليني، 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102941/%D8%A8%D8%A7%D8%B1%D9%8A%D9%84%D8%A7-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A%D9%84%D9%8A%D9%86%D9%8A-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7
+    "price": 7,
+    "description": "شعيرية فيليني من باريلا، مثالية لتحضير الحساء والأطباق الخفيفة، مصنوعة من القمح الفاخر."
   },
   {
     "name": "زين فاخر حمص حب 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102942/%D8%B2%D9%8A%D9%86-%D9%81%D8%A7%D8%AE%D8%B1-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11
+    "price": 11,
+    "description": "حمص حب فاخر من زين، مثالي لتحضير الحمص المهروس والأطباق التقليدية، غني بالبروتين."
   },
   {
     "name": "بانزاني شعيرية 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102944/%D8%A8%D8%A7%D9%86%D8%B2%D8%A7%D9%86%D9%8A-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7.5
+    "price": 7.5,
+    "description": "شعيرية من بانزاني، مثالية لتحضير الحساء والأطباق الخفيفة، مصنوعة من القمح عالي الجودة."
   },
   {
     "name": "ياطب فول حب 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102945/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%81%D9%88%D9%84-%D8%AD%D8%A8-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 17
+    "price": 17,
+    "description": "فول حب من ياطب، مثالي لتحضير الفول المدمس والأطباق التقليدية، غني بالبروتين."
   },
   {
     "name": "بونتا أرز امريكي طويل الحبة أصفر غير معدل وراثياً وخالي من الغلوتين 10 كيلو",
@@ -1898,14 +2078,15 @@
     ],
     "discount": 17,
     "price": 81,
-    "discounted_price": 66.95
+    "description": "أرز أمريكي طويل الحبة من بونتا، خالي من الغلوتين وغير معدل وراثيًا، مثالي للأطباق الصحية."
   },
   {
     "name": "مجدي حمص بازلاء 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102948/%D9%85%D8%AC%D8%AF%D9%8A-%D8%AD%D9%85%D8%B5-%D8%A8%D8%A7%D8%B2%D9%84%D8%A7%D8%A1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 21.5
+    "price": 21.5,
+    "description": "حمص بازلاء من مجدي، مثالي لتحضير الأطباق التقليدية والشوربات، غني بالعناصر الغذائية."
   },
   {
     "name": "تريفا شعيرية مقطعة 400 جرام",
@@ -1914,7 +2095,7 @@
     ],
     "discount": 12,
     "price": 4.5,
-    "discounted_price": 3.95
+    "description": "شعيرية مقطعة من تريفا، مثالية لتحضير الحساء والأطباق الخفيفة، مصنوعة من القمح الفاخر."
   },
   {
     "name": "زين - فول 500 جرام",
@@ -1923,21 +2104,23 @@
     ],
     "discount": 28,
     "price": 8.25,
-    "discounted_price": 5.95
+    "description": "فول من زين، مثالي لتحضير الفول المدمس والأطباق التقليدية، غني بالبروتين."
   },
   {
     "name": "ياطب حمص حب 2 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102952/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%AD%D9%85%D8%B5-%D8%AD%D8%A8-2-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 23.25
+    "price": 23.25,
+    "description": "حمص حب من ياطب، مثالي لتحضير الحمص المهروس والأطباق التقليدية، غني بالبروتين."
   },
   {
     "name": "العلالي تالياتيلي الايطالية 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102954/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%AA%D8%A7%D9%84%D9%8A%D8%A7%D8%AA%D9%8A%D9%84%D9%8A-%D8%A7%D9%84%D8%A7%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "تالياتيلي إيطالية من العلالي، مثالية لتحضير الأطباق الإيطالية، مصنوعة من القمح الفاخر."
   },
   {
     "name": "حافل الأرز المصري الفاخر 5 كج",
@@ -1946,98 +2129,111 @@
     ],
     "discount": 20,
     "price": 39.75,
-    "discounted_price": 31.95
+    "description": "أرز مصري فاخر من حافل، مثالي لتحضير الأطباق المصرية التقليدية، يتميز بقوام ناعم."
   },
   {
     "name": "أرض الطبيعة - معكرونة فوسيلي عضوية 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102958/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%81%D9%88%D8%B3%D9%8A%D9%84%D9%8A-%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 30.75
+    "price": 30.75,
+    "description": "فوسيلي عضوية من أرض الطبيعة، مثالية لتحضير الأطباق الصحية، مصنوعة من مكونات طبيعية."
   },
   {
     "name": "جرين فارمز أرز مزة بسمتي هندي 10 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102959/%D8%AC%D8%B1%D9%8A%D9%86-%D9%81%D8%A7%D8%B1%D9%85%D8%B2-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 92.75
+    "price": 92.75,
+    "description": "أرز بسمتي هندي من جرين فارمز، مثالي لتحضير الأطباق الشرقية، يتميز بحبات طويلة ونكهة غنية."
   },
   {
     "name": "جرانورو معكرونة ميزي جوميتي، 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102961/%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D8%B1%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%85%D9%8A%D8%B2%D9%8A-%D8%AC%D9%88%D9%85%D9%8A%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "مكرونة ميزي جوميتي من جرانورو، مثالية للصلصات السميكة، مصنوعة من القمح الإيطالي."
   },
   {
     "name": "العلالي إسباغيتي ايطالي 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102962/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%A5%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-%D8%A7%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "إسباغيتي إيطالي من العلالي، مثالي لتحضير الأطباق الإيطالية الكلاسيكية، مصنوع من القمح الفاخر."
   },
   {
     "name": "شاهزادي أرز كرنل بسمتي 10 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102963/%D8%B4%D8%A7%D9%87%D8%B2%D8%A7%D8%AF%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%83%D8%B1%D9%86%D9%84-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 74.5
+    "price": 74.5,
+    "description": "أرز كرنل بسمتي من شاهزادي، مثالي لتحضير الأطباق الفاخرة، يتميز بحبات طويلة ونكهة عطرية."
   },
   {
     "name": "الأجندة عدس أخضر 1كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102965/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AE%D8%B6%D8%B1-1%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 16.5
+    "price": 16.5,
+    "description": "عدس أخضر من الأجندة، غني بالبروتين والألياف، مثالي لتحضير الشوربات والأطباق الصحية."
   },
   {
     "name": "تيلدا رز بني بسمتي 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102966/%D8%AA%D9%8A%D9%84%D8%AF%D8%A7-%D8%B1%D8%B2-%D8%A8%D9%86%D9%8A-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 20.5
+    "price": 20.5,
+    "description": "أرز بني بسمتي من تيلدا، مثالي للأطباق الصحية، غني بالألياف والعناصر الغذائية."
   },
   {
     "name": "ماسترشيف أرز بسمتي أبيض 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102967/%D9%85%D8%A7%D8%B3%D8%AA%D8%B1%D8%B4%D9%8A%D9%81-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 47.5
+    "price": 47.5,
+    "description": "أرز بسمتي أبيض من ماسترشيف، مثالي لتحضير الأطباق العالمية، يتميز بحبات طويلة ونكهة غنية."
   },
   {
     "name": "ريزو سكوتي، أرز كارنارولي 1 كجم",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102969/%D8%B1%D9%8A%D8%B2%D9%88-%D8%B3%D9%83%D9%88%D8%AA%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%83%D8%A7%D8%B1%D9%86%D8%A7%D8%B1%D9%88%D9%84%D9%8A-1-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
-    "price": 30.5
+    "price": 30.5,
+    "description": "أرز كارنارولي إيطالي عالي الجودة من ريزو سكوتي، مثالي لتحضير الريزوتو الكريمي بفضل محتواه العالي من النشا."
   },
   {
     "name": "اجندة عدس احمر 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102970/%D8%A7%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%AD%D9%85%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 17.25
+    "price": 17.25,
+    "description": "عدس أحمر عالي الجودة من الأجندة، غني بالبروتين والألياف، مثالي لتحضير الحساء واليخنات."
   },
   {
     "name": "جرانورو مكرونة تالياتيلي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102971/%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D8%B1%D9%88-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AA%D8%A7%D9%84%D9%8A%D8%A7%D8%AA%D9%8A%D9%84%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "مكرونة تالياتيلي إيطالية أصلية من جرانورو، مصنوعة من القمح الصلب، مثالية مع صلصات اللحم الكثيفة."
   },
   {
     "name": "رويال أمبريلا أرز تايلاندي مسلوق طويل الحبة 10كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102973/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D8%A3%D9%85%D8%A8%D8%B1%D9%8A%D9%84%D8%A7-%D8%A3%D8%B1%D8%B2-%D8%AA%D8%A7%D9%8A%D9%84%D8%A7%D9%86%D8%AF%D9%8A-%D9%85%D8%B3%D9%84%D9%88%D9%82-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-10%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 43.75
+    "price": 43.75,
+    "description": "أرز تايلاندي مسلوق طويل الحبة من رويال أمبريلا، مثالي للأطباق الآسيوية والمقليات بفضل حباته الناعمة."
   },
   {
     "name": "مانش بوكس معكرونة تاجلياتيل 200 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102975/%D9%85%D8%A7%D9%86%D8%B4-%D8%A8%D9%88%D9%83%D8%B3-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%AA%D8%A7%D8%AC%D9%84%D9%8A%D8%A7%D8%AA%D9%8A%D9%84-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 34.5
+    "price": 34.5,
+    "description": "معكرونة تاجلياتيل فاخرة من مانش بوكس، مصنوعة يدويًا لتقديم تجربة إيطالية أصيلة مع الصلصات الكريمية."
   },
   {
     "name": "زين هريس 1 كج",
@@ -2046,21 +2242,23 @@
     ],
     "discount": 13,
     "price": 10.25,
-    "discounted_price": 8.95
+    "description": "هريس عالي الجودة من زين، مثالي لتحضير الأطباق التقليدية مثل الهريسة والشوربات الغنية."
   },
   {
     "name": "عزيمكو عدس أحمر مقسم 600 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102978/%D8%B9%D8%B2%D9%8A%D9%85%D9%83%D9%88-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AD%D9%85%D8%B1-%D9%85%D9%82%D8%B3%D9%85-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.25
+    "price": 10.25,
+    "description": "عدس أحمر مقسم من عزيمكو، غني بالعناصر الغذائية وسهل الطهي، مثالي للدال والحساء."
   },
   {
     "name": "الأجندة عدس أخضر 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102981/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AE%D8%B6%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.5
+    "price": 8.5,
+    "description": "عدس أخضر من الأجندة، يحتفظ بشكله بعد الطهي، مثالي للسلطات والأطباق الجانبية."
   },
   {
     "name": "النسور أرز طويل الحبة 5 كجم",
@@ -2069,7 +2267,7 @@
     ],
     "discount": 15,
     "price": 44.75,
-    "discounted_price": 37.95
+    "description": "أرز طويل الحبة من النسور، مثالي لتحضير البرياني والأطباق العربية التقليدية."
   },
   {
     "name": "الطائي جورميه أرز بسمتي أبيض طويل جداً 5 كيلو",
@@ -2078,7 +2276,7 @@
     ],
     "discount": 20,
     "price": 61.5,
-    "discounted_price": 48.95
+    "description": "أرز بسمتي أبيض طويل جدًا من الطائي جورميه، يتميز برائحته العطرية وملمسه الرقيق."
   },
   {
     "name": "قودي مكرونة كالاماراتا 450جرام",
@@ -2087,72 +2285,80 @@
     ],
     "discount": 15,
     "price": 15.25,
-    "discounted_price": 12.95
+    "description": "مكرونة كالاماراتا من قودي، شكل أنبوبي مثالي لاحتضان الصلصات السميكة والغنية."
   },
   {
     "name": "عزيمكو كشري حب (ماش أخضر) 600 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102986/%D8%B9%D8%B2%D9%8A%D9%85%D9%83%D9%88-%D9%83%D8%B4%D8%B1%D9%8A-%D8%AD%D8%A8-%D9%85%D8%A7%D8%B4-%D8%A3%D8%AE%D8%B6%D8%B1-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11
+    "price": 11,
+    "description": "ماش أخضر من عزيمكو، مثالي لتحضير الكشري المصري التقليدي، غني بالبروتين."
   },
   {
     "name": "الأجندة فاصوليا أمريكية 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102987/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D9%81%D8%A7%D8%B5%D9%88%D9%84%D9%8A%D8%A7-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 13.5
+    "price": 13.5,
+    "description": "فاصوليا أمريكية من الأجندة، مثالية لتحضير الأطباق الجانبية واليخنات الشهية."
   },
   {
     "name": "الباشا أرز هندي برياني أبيض 5 كج",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102989/%D8%A7%D9%84%D8%A8%D8%A7%D8%B4%D8%A7-%D8%A3%D8%B1%D8%B2-%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%B1%D9%8A%D8%A7%D9%86%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-5-%D9%83%D8%AC.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102989/%D8%A7%D9%84%D8%B8%D8%A7%D8%B4%D8%A7-%D8%A3%D8%B1%D8%B2-%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%B1%D9%8A%D8%A7%D9%86%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-5-%D9%83%D8%AC.jpg.jpg"
     ],
     "discount": 17,
     "price": 57.5,
-    "discounted_price": 47.95
+    "description": "أرز برياني هندي أبيض من الباشا، مثالي لتحضير البرياني العطري والأطباق الهندية."
   },
   {
     "name": "كوهينور أرز بسمتي ذهبي 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102990/%D9%83%D9%88%D9%87%D9%8A%D9%86%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%B0%D9%87%D8%A8%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 62.75
+    "price": 62.75,
+    "description": "أرز بسمتي ذهبي فاخر من كوهينور، يتميز بحباته الطويلة ورائحته العطرية."
   },
   {
     "name": "الأجندة عدس ماش أخضر1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102992/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D9%85%D8%A7%D8%B4-%D8%A3%D8%AE%D8%B6%D8%B11-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 14
+    "price": 14,
+    "description": "عدس ماش أخضر من الأجندة، غني بالبروتين والألياف، مثالي للأطباق الآسيوية والشوربات."
   },
   {
     "name": "ياطب مغربية صغير 500جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102993/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9.25
+    "price": 9.25,
+    "description": "مغربية صغيرة من ياطب، مثالية لتحضير الكسكس المغربي التقليدي والأطباق الشمال إفريقية."
   },
   {
     "name": "الأجندة عدس أصفر 500جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102994/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B5%D9%81%D8%B1-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.5
+    "price": 8.5,
+    "description": "عدس أصفر من الأجندة، سهل الطهي ومثالي لتحضير الدال الهندي والحساء الدافئ."
   },
   {
     "name": "الأجندة فول 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102996/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D9%81%D9%88%D9%84-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 7.5
+    "price": 7.5,
+    "description": "فول مدمس من الأجندة، مثالي لتحضير الفول المدمس المصري التقليدي."
   },
   {
     "name": "بيزولو كانيروني باستا 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745102997/%D8%A8%D9%8A%D8%B2%D9%88%D9%84%D9%88-%D9%83%D8%A7%D9%86%D9%8A%D8%B1%D9%88%D9%86%D9%8A-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8
+    "price": 8,
+    "description": "مكرونة كانيروني من بيزولو، مثالية للأطباق المخبوزة والصلصات الكثيفة."
   },
   {
     "name": "قودي مكرونة كاساريتشي 450جرام",
@@ -2161,70 +2367,79 @@
     ],
     "discount": 14,
     "price": 12.5,
-    "discounted_price": 10.7
+    "description": "مكرونة كاساريتشي من قودي، شكل مميز يناسب الصلصات السميكة والخضروات."
   },
   {
     "name": "الفارس أرز بسمتي أبيض 10كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103000/%D8%A7%D9%84%D9%81%D8%A7%D8%B1%D8%B3-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-10%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 108.5
+    "price": 108.5,
+    "description": "أرز بسمتي أبيض فاخر من الفارس، مثالي للمناسبات الكبيرة والأطباق العطرية."
   },
   {
     "name": "ريزو سكوتي أرز إيطالي 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103001/%D8%B1%D9%8A%D8%B2%D9%88-%D8%B3%D9%83%D9%88%D8%AA%D9%8A-%D8%A3%D8%B1%D8%B2-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 35.25
+    "price": 35.25,
+    "description": "أرز إيطالي من ريزو سكوتي، مثالي لتحضير الريزوتو والأطباق الإيطالية الكلاسيكية."
   },
   {
     "name": "ماسترشيف أرز بسمتي أبيض 10 كيلو",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103002/%D9%85%D8%A7%D8%B3%D8%AA%D8%B1%D8%B4%D9%8A%D9%81-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-10-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
     ],
-    "price": 92.95
+    "price": 92.95,
+    "description": "أرز بسمتي أبيض من ماسترشيف، يتميز بحباته الطويلة وجودته العالية للأطباق الرئيسية."
   },
   {
     "name": "جرانورو معكرونة سباغيتي 15 ،500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103004/%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D8%B1%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-15-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "معكرونة سباغيتي إيطالية من جرانورو، مثالية للصلصات الكلاسيكية مثل البولونيز."
   },
   {
     "name": "الأجنده عدس أحمر 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103005/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D9%87-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AD%D9%85%D8%B1-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 9
+    "price": 9,
+    "description": "عدس أحمر من الأجندة، غني بالبروتين وسهل الطهي، مثالي للشوربات واليخنات."
   },
   {
     "name": "عزيمكو عدس نوعية ممتازة 600 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103006/%D8%B9%D8%B2%D9%8A%D9%85%D9%83%D9%88-%D8%B9%D8%AF%D8%B3-%D9%86%D9%88%D8%B9%D9%8A%D8%A9-%D9%85%D9%85%D8%AA%D8%A7%D8%B2%D8%A9-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11
+    "price": 11,
+    "description": "عدس نوعية ممتازة من عزيمكو، مثالي لتحضير الأطباق الصحية والمغذية."
   },
   {
     "name": "أرض الطبيعة فوزيلي، 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103009/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D9%81%D9%88%D8%B2%D9%8A%D9%84%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 18.5
+    "price": 18.5,
+    "description": "مكرونة فوزيلي عضوية من أرض الطبيعة، مصنوعة من القمح العضوي، مثالية للسلطات الباردة."
   },
   {
     "name": "الخير ديرة أرز سيلا هندي طويل الحبة 5 كيلو",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103011/%D8%A7%D9%84%D8%AE%D9%8A%D8%B1-%D8%AF%D9%8A%D8%B1%D8%A9-%D8%A3%D8%B1%D8%B2-%D8%B3%D9%8A%D9%84%D8%A7-%D9%87%D9%86%D8%AF%D9%8A-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-5-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
     ],
-    "price": 37.95
+    "price": 37.95,
+    "description": "أرز سيلا هندي طويل الحبة من الخير ديرة، مثالي للبرياني والأطباق الهندية."
   },
   {
     "name": "مانش بوكس معكرونة ​​سباغيتي  200 جم",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103012/%D9%85%D8%A7%D9%86%D8%B4-%D8%A8%D9%88%D9%83%D8%B3-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-200-%D8%AC%D9%85.jpg.jpg"
     ],
-    "price": 34.5
+    "price": 34.5,
+    "description": "معكرونة سباغيتي فاخرة من مانش بوكس، مصنوعة يدويًا لتجربة إيطالية أصيلة."
   },
   {
     "name": "قودي معكرونة سباجيتي رفيعة (رقم. 21) 450 جرام",
@@ -2233,56 +2448,63 @@
     ],
     "discount": 17,
     "price": 5.95,
-    "discounted_price": 4.95
+    "description": "معكرونة سباغيتي رفيعة من قودي، مثالية للصلصات الخفيفة والأطباق السريعة."
   },
   {
     "name": "عزميكو عدس أصفر مقسم 600 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103015/%D8%B9%D8%B2%D9%85%D9%8A%D9%83%D9%88-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B5%D9%81%D8%B1-%D9%85%D9%82%D8%B3%D9%85-600-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10
+    "price": 10,
+    "description": "عدس أصفر مقسم من عزيمكو، سهل الطهي ومثالي لتحضير الدال والشوربات."
   },
   {
     "name": "الأجندة حمص انصاف 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103019/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%AD%D9%85%D8%B5-%D8%A7%D9%86%D8%B5%D8%A7%D9%81-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 12
+    "price": 12,
+    "description": "حمص أنصاف من الأجندة، مثالي لتحضير الحمص المطحون واليخنات."
   },
   {
     "name": "المهباج عدس كندا اخضر 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103020/%D8%A7%D9%84%D9%85%D9%87%D8%A8%D8%A7%D8%AC-%D8%B9%D8%AF%D8%B3-%D9%83%D9%86%D8%AF%D8%A7-%D8%A7%D8%AE%D8%B6%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 14.25
+    "price": 14.25,
+    "description": "عدس أخضر كندي من المهباج، مثالي للسلطات والأطباق الصحية بفضل قوامه الثابت."
   },
   {
     "name": "جرانورو رقم 107 فيليني باستا 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103022/%D8%AC%D8%B1%D8%A7%D9%86%D9%88%D8%B1%D9%88-%D8%B1%D9%82%D9%85-107-%D9%81%D9%8A%D9%84%D9%8A%D9%86%D9%8A-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "مكرونة فيليني من جرانورو، شكل أنيق مثالي للصلصات الكريمية والخضروات."
   },
   {
     "name": "زين فول بالعيون السوداء 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103023/%D8%B2%D9%8A%D9%86-%D9%81%D9%88%D9%84-%D8%A8%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "فول بالعيون السوداء من زين، غني بالبروتين ومثالي للسلطات واليخنات."
   },
   {
     "name": "باستازارا سباغيتي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103025/%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7%D8%B2%D8%A7%D8%B1%D8%A7-%D8%B3%D8%A8%D8%A7%D8%BA%D9%8A%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.75
+    "price": 13.75,
+    "description": "معكرونة سباغيتي فاخرة من باستازارا، مصنوعة من القمح الصلب لتجربة إيطالية أصيلة."
   },
   {
     "name": "الأجندة ترمس حب 500جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103026/%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%AF%D8%A9-%D8%AA%D8%B1%D9%85%D8%B3-%D8%AD%D8%A8-500%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 8.5
+    "price": 8.5,
+    "description": "ترمس حب من الأجندة، مثالي كوجبة خفيفة صحية أو لتحضير الأطباق التقليدية."
   },
   {
     "name": "بوندي أرز مزة هندي طويل الحبة 5 كغ",
@@ -2291,14 +2513,15 @@
     ],
     "discount": 17,
     "price": 34.75,
-    "discounted_price": 28.95
+    "description": "أرز مزة هندي طويل الحبة من بوندي، مثالي لتحضير البرياني والأطباق العطرية."
   },
   {
     "name": "كارفور سمسم حب 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103029/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B3%D9%85%D8%B3%D9%85-%D8%AD%D8%A8-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.95
+    "price": 5.95,
+    "description": "سمسم حب من كارفور، مثالي للخبز والحلويات أو كإضافة للسلطات."
   },
   {
     "name": "بانزاني مكرونة  فيزيللي 500 جرام",
@@ -2307,35 +2530,39 @@
     ],
     "discount": 50,
     "price": 10.95,
-    "discounted_price": 5.45
+    "description": "مكرونة فيزيللي من بانزاني، مثالية للسلطات الباردة والأطباق المخبوزة."
   },
   {
     "name": "عافية عدس أحمر كامل 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103032/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AD%D9%85%D8%B1-%D9%83%D8%A7%D9%85%D9%84-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 10.75
+    "price": 10.75,
+    "description": "عدس أحمر كامل من عافية، غني بالبروتين ومثالي لتحضير الحساء واليخنات."
   },
   {
     "name": "كارفور عدس احمر كامل 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103034/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%AD%D9%85%D8%B1-%D9%83%D8%A7%D9%85%D9%84-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "عدس أحمر كامل من كارفور، مثالي لتحضير الأطباق الصحية والمغذية."
   },
   {
     "name": "العلالي مكرونة إيطالية كريست 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103036/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6
+    "price": 6,
+    "description": "مكرونة كريست إيطالية من العلالي، مثالية للسلطات والأطباق الخفيفة."
   },
   {
     "name": "تاج محل أرز بسمتي بنجابي 3كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103037/%D8%AA%D8%A7%D8%AC-%D9%85%D8%AD%D9%84-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-3%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 32.5
+    "price": 32.5,
+    "description": "أرز بسمتي بنجابي من تاج محل، يتميز برائحته العطرية وملمسه الرقيق."
   },
   {
     "name": "عافية كينوا بيضاء 400 جرام",
@@ -2344,7 +2571,7 @@
     ],
     "discount": 16,
     "price": 30.25,
-    "discounted_price": 25.45
+    "description": "كينوا بيضاء من عافية، غنية بالبروتين وخالية من الجلوتين، مثالية للسلطات."
   },
   {
     "name": "زين برغل خشن 500 جرام",
@@ -2353,35 +2580,39 @@
     ],
     "discount": 13,
     "price": 6.25,
-    "discounted_price": 5.45
+    "description": "برغل خشن من زين، مثالي لتحضير التبولة والكبة التقليدية."
   },
   {
     "name": "عافية فريكة 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103041/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D9%81%D8%B1%D9%8A%D9%83%D8%A9-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 19.25
+    "price": 19.25,
+    "description": "فريكة من عافية، غنية بالألياف ومثالية لتحضير الأطباق الشامية التقليدية."
   },
   {
     "name": "عافية سميد ناعم 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103043/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%B3%D9%85%D9%8A%D8%AF-%D9%86%D8%A7%D8%B9%D9%85-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.25
+    "price": 6.25,
+    "description": "سميد ناعم من عافية، مثالي لتحضير الحلويات مثل الهريسة والبسبوسة."
   },
   {
     "name": "عافية ذرة فشار 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103044/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%B0%D8%B1%D8%A9-%D9%81%D8%B4%D8%A7%D8%B1-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5
+    "price": 5,
+    "description": "ذرة فشار من عافية، مثالية لتحضير الفشار المنزلي اللذيذ."
   },
   {
     "name": "زين حمص 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103045/%D8%B2%D9%8A%D9%86-%D8%AD%D9%85%D8%B5-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "حمص من زين، مثالي لتحضير الحمص المطحون والأطباق الشرق أوسطية."
   },
   {
     "name": "زين برغل خشن 1 كج",
@@ -2390,119 +2621,135 @@
     ],
     "discount": 10,
     "price": 10.25,
-    "discounted_price": 9.2
+    "description": "برغل خشن من زين، مثالي لتحضير الأطباق التقليدية مثل الكبة والتبولة."
   },
   {
     "name": "كارفور عدس أصفر 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103048/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%B5%D9%81%D8%B1-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 10.95
+    "price": 10.95,
+    "description": "عدس أصفر من كارفور، سهل الطهي ومثالي لتحضير الدال والشوربات."
   },
   {
     "name": "كارفور برغل ناعم أبيض 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103050/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A8%D8%B1%D8%BA%D9%84-%D9%86%D8%A7%D8%B9%D9%85-%D8%A3%D8%A8%D9%8A%D8%B6-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.png"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "برغل ناعم أبيض من كارفور، مثالي لتحضير السلطات والأطباق الجانبية."
   },
   {
     "name": "عافية عدس أحمر 1.5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103052/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AD%D9%85%D8%B1-15-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 23.5
+    "price": 23.5,
+    "description": "عدس أحمر من عافية، غني بالبروتين ومثالي لتحضير الحساء والأطباق الصحية."
   },
   {
     "name": "العلالي مكرونة إيطالية جومتي ريجاتي 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103053/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-%D8%AC%D9%88%D9%85%D8%AA%D9%8A-%D8%B1%D9%8A%D8%AC%D8%A7%D8%AA%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.75
+    "price": 5.75,
+    "description": "مكرونة إيطالية عالية الجودة من العلالي، مثالية لتحضير أطباق الباستا اللذيذة مع الصلصات المتنوعة."
   },
   {
     "name": "تيلدا جراند رز بسمتي حبة طويلة جدًا 1 كج",
     "images": [
-      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103056/%D8%AA%D9%8A%D9%84%D8%AF%D8%A7-%D8%AC%D8%B1%D8%A7%D9%86%D8%AF-%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%AD%D8%A8%D8%A9-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-%D8%AC%D8%AF%D8%A7-1-%D9%83%D8%AC.jpg.jpg"
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103056/%D8%AA%D9%8A%D9%84%D8%AF%D8%A7-%D8%AC%D8%D8%A7%D9%86%D8%AF-%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%AD%D8%A8%D8%A9-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-%D8%AC%D8%AF%D8%A7-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 18.5
+    "price": 18.5,
+    "description": "أرز بسمتي فاخر من تيلدا بحبة طويلة جدًا، مثالي لتحضير الأطباق الهندية والعربية المميزة."
   },
   {
     "name": "رويال امبريلا أرز مسلوق 5 كيلو",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103057/%D8%B1%D9%88%D9%8A%D8%A7%D9%84-%D8%A7%D9%85%D8%A8%D8%B1%D9%8A%D9%84%D8%A7-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B3%D9%84%D9%88%D9%82-5-%D9%83%D9%8A%D9%84%D9%88.jpg.jpg"
     ],
-    "price": 22
+    "price": 22,
+    "description": "أرز مسلوق عالي الجودة من رويال امبريلا، مثالي لتحضير أطباق الأرز الشهية بسهولة وسرعة."
   },
   {
     "name": "كارفور عدس أخضر مجروش 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103059/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AF%D8%B3-%D8%A3%D8%AE%D8%B6%D8%B1-%D9%85%D8%AC%D8%B1%D9%88%D8%B4-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "عدس أخضر مجروش من كارفور، مثالي لتحضير الحساء والأطباق التقليدية الغنية بالبروتين."
   },
   {
     "name": "ماكتي أرز معطر 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103060/%D9%85%D8%A7%D9%83%D8%AA%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B9%D8%B7%D8%B1-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 39.95
+    "price": 39.95,
+    "description": "أرز معطر فاخر من ماكتي، يضيف نكهة مميزة لأطباقك المفضلة مثل البرياني والكبسة."
   },
   {
     "name": "كارفور عدس احمر مجروش 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103062/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%B9%D8%AF%D8%B3-%D8%A7%D8%AD%D9%85%D8%B1-%D9%85%D8%AC%D8%B1%D9%88%D8%B4-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "عدس أحمر مجروش من كارفور، مثالي لتحضير أطباق العدس السريعة والمغذية."
   },
   {
     "name": "زين ماش أبيض 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103063/%D8%B2%D9%8A%D9%86-%D9%85%D8%A7%D8%B4-%D8%A3%D8%A8%D9%8A%D8%B6-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "ماش أبيض من زين، مصدر غني بالبروتين ومثالي لتحضير الأطباق الصحية والشوربات."
   },
   {
     "name": "ياطب سميد ناعم 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103065/%D9%8A%D8%A7%D8%B7%D8%A8-%D8%B3%D9%85%D9%8A%D8%AF-%D9%86%D8%A7%D8%B9%D9%85-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 9
+    "price": 9,
+    "description": "سميد ناعم من ياطب، مثالي لتحضير الحلويات التقليدية مثل البسبوسة والهريسة."
   },
   {
     "name": "كارفور 1121 أرز بسمتي كبير جدا 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103066/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-1121-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%83%D8%A8%D9%8A%D8%B1-%D8%AC%D8%AF%D8%A7-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 49.95
+    "price": 49.95,
+    "description": "أرز بسمتي 1121 فاخ_indent_r من كارفور، بحبة كبيرة جدًا، مثالي للأطباق الفاخرة."
   },
   {
     "name": "عافية فول عريض 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103067/%D8%B9%D8%A7%D9%81%D9%8A%D8%A9-%D9%81%D9%88%D9%84-%D8%B9%D8%B1%D9%8A%D8%B6-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6.25
+    "price": 6.25,
+    "description": "فول عريض من عافية، مثالي لتحضير الفول المدمس والأطباق التقليدية الشهية."
   },
   {
     "name": "أرض الطبيعة معكرونة مكروني القمح الكامل العضوية 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103068/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%85%D9%83%D8%B1%D9%88%D9%86%D9%8A-%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 16.5
+    "price": 16.5,
+    "description": "معكرونة مكروني عضوية من أرض الطبيعة، مصنوعة من القمح الكامل لتناول صحي ولذيذ."
   },
   {
     "name": "العلالي شعيرية إيطالية فيليني 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103070/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-%D9%81%D9%8A%D9%84%D9%8A%D9%86%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 6
+    "price": 6,
+    "description": "شعيرية إيطالية فيليني من العلالي، مثالية لتحضير الأطباق الإيطالية الأصيلة."
   },
   {
     "name": "كارفور أرز بسمتي حبة طويلة 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103071/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%AD%D8%A8%D8%A9-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 49.95
+    "price": 49.95,
+    "description": "أرز بسمتي بحبة طويلة من كارفور، مثالي لتحضير الأطباق العربية والهندية الفاخرة."
   },
   {
     "name": "مهباج برغل أبيض خشن 1 كيلو",
@@ -2511,153 +2758,174 @@
     ],
     "discount": 18,
     "price": 10.25,
-    "discounted_price": 8.45
+    "description": "برغل أبيض خشن من مهباج، مثالي لتحضير الكبة والتبولة بمذاق تقليدي."
   },
   {
     "name": "ميلانو معكرونة فوسيلي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103073/%D9%85%D9%8A%D9%84%D8%A7%D9%86%D9%88-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%81%D9%88%D8%B3%D9%8A%D9%84%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 4.5
+    "price": 4.5,
+    "description": "معكرونة فوسيلي من ميلانو، شكل لولبي مثالي لتحضير أطباق الباستا مع الصلصات السميكة."
   },
   {
     "name": "كارفور هريس 400 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103076/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%87%D8%B1%D9%8A%D8%B3-400-%D8%AC%D8%B1%D8%A7%D9%85.jpg.png"
     ],
-    "price": 4.95
+    "price": 4.95,
+    "description": "هريس من كارفور، مثالي لتحضير الأطباق التقليدية الغنية بالنكهة والقيمة الغذائية."
   },
   {
     "name": "بانزاني معكرونة لينغويني (مقاس 11) 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103077/%D8%A8%D8%A7%D9%86%D8%B2%D8%A7%D9%86%D9%8A-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%84%D9%8A%D9%86%D8%BA%D9%88%D9%8A%D9%86%D9%8A-%D9%85%D9%82%D8%A7%D8%B3-11-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11
+    "price": 11,
+    "description": "معكرونة لينغويني من بانزاني، مثالية لتحضير أطباق الباستا الإيطالية الأصيلة."
   },
   {
     "name": "بيزولو مكرونة شعيرية 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103078/%D8%A8%D9%8A%D8%B2%D9%88%D9%84%D9%88-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%B4%D8%B9%D9%8A%D8%B1%D9%8A%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 16.5
+    "price": 16.5,
+    "description": "مكرونة شعيرية من بيزولو، مثالية لتحضير الحساء والأطباق الخفيفة."
   },
   {
     "name": "النسور أرز طويل الحبة 1 كجم",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103079/%D8%A7%D9%84%D9%86%D8%B3%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%A8%D8%A9-1-%D9%83%D8%AC%D9%85.jpg.jpg"
     ],
-    "price": 10.5
+    "price": 10.5,
+    "description": "أرز طويل الحبة من النسور، مثالي لتحضير الأطباق العربية التقليدية."
   },
   {
     "name": "أرض الطبيعة - معكرونة بنة القمح الكامل العضوية 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103080/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 18.5
+    "price": 18.5,
+    "description": "معكرونة بنة عضوية من أرض الطبيعة، مصنوعة من القمح الكامل لوجبة صحية."
   },
   {
     "name": "اجندة سميد 1 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103082/%D8%A7%D8%AC%D9%86%D8%AF%D8%A9-%D8%B3%D9%85%D9%8A%D8%AF-1-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 10
+    "price": 10,
+    "description": "سميد عالي الجودة من اجندة، مثالي لتحضير الحلويات والأطباق التقليدية."
   },
   {
     "name": "العلالي مكرونة إيطالية بونتيني 450 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103083/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%84%D9%8A-%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9-%D8%A8%D9%88%D9%86%D8%AA%D9%8A%D9%86%D9%8A-450-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 5.75
+    "price": 5.75,
+    "description": "مكرونة بونتيني إيطالية من العلالي، مثالية لتحضير أطباق الباستا الشهية."
   },
   {
     "name": "بانزاني تاالياتيلي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103084/%D8%A8%D8%A7%D9%86%D8%B2%D8%A7%D9%86%D9%8A-%D8%AA%D8%A7%D8%A7%D9%84%D9%8A%D8%A7%D8%AA%D9%8A%D9%84%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 19
+    "price": 19,
+    "description": "معكرونة تاالياتيلي من بانزاني، مثالية لتحضير أطباق الباستا مع الصل Papaس الكريمية."
   },
   {
     "name": "أرض الطبيعة - معكرونة هات اسباجيتي عضوية 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103086/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%87%D8%A7%D8%AA-%D8%A7%D8%B3%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA%D9%8A-%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 15.5
+    "price": 15.5,
+    "description": "معكرونة اسباجيتي عضوية من أرض الطبيعة، مثالية لتحضير وجبات صحية ولذيذة."
   },
   {
     "name": "شاهزادي أرز كرنل بسمتي 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103087/%D8%B4%D8%A7%D9%87%D8%B2%D8%A7%D8%AF%D9%8A-%D8%A3%D8%B1%D8%B2-%D9%83%D8%B1%D9%86%D9%84-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 37.25
+    "price": 37.25,
+    "description": "أرز كرنل بسمتي من شاهزادي، مثالي لتحضير الأطباق الهندية والعربية الفاخرة."
   },
   {
     "name": "زين - ماش حب أخضر 800 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103088/%D8%B2%D9%8A%D9%86-%D9%85%D8%A7%D8%B4-%D8%AD%D8%A8-%D8%A3%D8%AE%D8%B6%D8%B1-800-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 13.25
+    "price": 13.25,
+    "description": "ماش حب أخضر من زين، مصدر غني بالبروتين ومثالي لتحضير الأطباق الصحية."
   },
   {
     "name": "أرض الطبيعة - معكرونة كابيليني عضوية 250 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103089/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D9%85%D8%B9%D9%83%D8%B1%D9%88%D9%86%D8%A9-%D9%83%D8%A7%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D9%8A-%D8%B9%D8%B6%D9%88%D9%8A%D8%A9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 12.25
+    "price": 12.25,
+    "description": "معكرونة كابيليني عضوية من أرض الطبيعة، مثالية لتحضير أطباق خفيفة وصحية."
   },
   {
     "name": "جرين فارمز أرز مزة بسمتي هندي 10 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103090/%D8%AC%D8%B1%D9%8A%D9%86-%D9%81%D8%A7%D8%B1%D9%85%D8%B2-%D8%A3%D8%B1%D8%B2-%D9%85%D8%B2%D8%A9-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-10-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 106.5
+    "price": 106.5,
+    "description": "أرز مزة بسمتي هندي من جرين فارمز، مثالي لتحضير الأطباق العائلية الكبيرة."
   },
   {
     "name": "الخير أرز سيلا بسمتي هندي 10كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103091/%D8%A7%D9%84%D8%AE%D9%8A%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%B3%D9%8A%D9%84%D8%A7-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-10%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 90.5
+    "price": 90.5,
+    "description": "أرز سيلا بسمتي هندي من الخير، مثالي لتحضير الأطباق الفاخرة بمذاق مميز."
   },
   {
     "name": "كارفور أرز بسمتي هندي اكس لارج 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103093/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-%D8%A7%D9%83%D8%B3-%D9%84%D8%A7%D8%B1%D8%AC-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 42.95
+    "price": 42.95,
+    "description": "أرز بسمتي هندي اكس لارج من كارفور، مثالي لتحضير الأطباق الشهية بحبة كبيرة."
   },
   {
     "name": "كوهينور جولد أرز سيلا 5 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103094/%D9%83%D9%88%D9%87%D9%8A%D9%86%D9%88%D8%B1-%D8%AC%D9%88%D9%84%D8%AF-%D8%A3%D8%B1%D8%B2-%D8%B3%D9%8A%D9%84%D8%A7-5-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 50.5
+    "price": 50.5,
+    "description": "أرز سيلا جولد من كوهينور، مثالي لتحضير الأطباق الهندية والعربية الفاخرة."
   },
   {
     "name": "أبوغزال أرز بسمتي أبيض بنجابي 10كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103097/%D8%A3%D8%A8%D9%88%D8%BA%D8%B2%D8%A7%D9%84-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A8%D9%86%D8%AC%D8%A7%D8%A8%D9%8A-10%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 88
+    "price": 88,
+    "description": "أرز بسمتي أبيض بنجابي من أبوغزال، مثالي لتحضير الأطباق العائلية الكبيرة."
   },
   {
     "name": "فريشكو أرز بسمتي مزة 10كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103098/%D9%81%D8%B1%D9%8A%D8%B4%D9%83%D9%88-%D8%A3%D8%B1%D8%B2-%D8%A8%D8%B3%D9%85%D8%AA%D9%8A-%D9%85%D8%B2%D8%A9-10%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 81
+    "price": 81,
+    "description": "أرز بسمتي مزة من فريشكو، مثالي لتحضير الأطباق الهندية والعربية بمذاق رائع."
   },
   {
     "name": "سيبا سباجيتي 500 جرام",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103099/%D8%B3%D9%8A%D8%A8%D8%A7-%D8%B3%D8%A8%D8%A7%D8%AC%D9%8A%D8%AA%D9%8A-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
-    "price": 11.5
+    "price": 11.5,
+    "description": "سباجيتي من سيبا، مثالية لتحضير أطباق الباستا الإيطالية الكلاسيكية."
   },
   {
     "name": "ياطب هريس 2 كج",
     "images": [
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745103101/%D9%8A%D8%A7%D8%B7%D8%A8-%D9%87%D8%B1%D9%8A%D8%B3-2-%D9%83%D8%AC.jpg.jpg"
     ],
-    "price": 17
+    "price": 17,
+    "description": "هريس من ياطب، مثالي لتحضير الأطباق التقليدية الغنية بالنكهة والقيمة الغذائية."
   }
 ]

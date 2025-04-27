@@ -1,0 +1,474 @@
+// category id 680d73b722f0b5fd5721e41a
+[
+  {
+    "name": "فونتي تورتيلا عادية الطازجة، حجم صغير، 6 قطع، 165 جرام",
+    "description": "تورتيلا عادية طازجة من فونتي، مثالية لتحضير الساندويتشات والوجبات الخفيفة، تحتوي على 6 قطع بوزن 165 جرام.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615115/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A7%D8%B2%D8%AC%D8%A9-%D8%AD%D8%AC%D9%85-%D8%B5%D8%BA%D9%8A%D8%B1-6-%D9%82%D8%B7%D8%B9-165-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 5
+  },
+  {
+    "name": "فونتي تورتيلا بني، حجم متوسط، 6 قطع 250 جرام",
+    "description": "تورتيلا بنية من فونتي، مصنوعة من دقيق القمح الكامل، تحتوي على 6 قطع بوزن 250 جرام، مثالية للوجبات الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615117/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D9%86%D9%8A-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 5,
+    "price": 8.1
+  },
+  {
+    "name": "فونتي تورتيلا، حجم كبير، 6 قطع 390 جرام",
+    "description": "تورتيلا كبيرة الحجم من فونتي، مثالية لتحضير الوجبات العائلية، تحتوي على 6 قطع بوزن 390 جرام.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615119/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%AC%D9%85-%D9%83%D8%A8%D9%8A%D8%B1-6-%D9%82%D8%B7%D8%B9-390-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 9.95
+  },
+  {
+    "name": "سويتز تورتيلا، حجم صغير، 10 قطع، 250 جرام",
+    "description": "تورتيلا صغيرة الحجم من سويتز، تحتوي على 10 قطع بوزن 250 جرام، مثالية للوجبات السريعة والمناسبات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615121/%D8%B3%D9%88%D9%8A%D8%AA%D8%B2-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%AC%D9%85-%D8%B5%D8%BA%D9%8A%D8%B1-10-%D9%82%D8%B7%D8%B9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 11.5
+  },
+  {
+    "name": "سويتز تورتيلا، حجم متوسط، 8 قطع 360 جرام",
+    "description": "تورتيلا متوسطة الحجم من سويتز، تحتوي على 8 قطع بوزن 360 جرام، مثالية لتحضير الساندويتشات اللذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615123/%D8%B3%D9%88%D9%8A%D8%AA%D8%B2-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-8-%D9%82%D8%B7%D8%B9-360-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 13.95
+  },
+  {
+    "name": "لوزين تورتيلا متعددة الحبوب، حجم متوسط، 6 قطع",
+    "description": "تورتيلا متعددة الحبوب من لوزين، غنية بالألياف والمغذيات، تحتوي على 6 قطع متوسطة الحجم.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615125/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-%D8%A7%D9%84%D8%AD%D8%A8%D9%88%D8%A8-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 10.25
+  },
+  {
+    "name": "وودن بيكري خبز أبيض صغير جداً 370 جرام",
+    "description": "خبز أبيض صغير الحجم من وودن بيكري، ناعم وطازج، بوزن 370 جرام، مثالي للوجبات اليومية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615128/%D9%88%D9%88%D8%AF%D9%86-%D8%A8%D9%8A%D9%83%D8%B1%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A3%D8%A8%D9%8A%D8%B6-%D8%B5%D8%BA%D9%8A%D8%B1-%D8%AC%D8%AF%D8%A7-370-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 3.25
+  },
+  {
+    "name": "برونتو تورتيلا، حجم متوسط، 6 قطع 250 جرام",
+    "description": "تورتيلا متوسطة الحجم من برونتو، تحتوي على 6 قطع بوزن 250 جرام، مثالية لتحضير الوجبات السريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615130/%D8%A8%D8%B1%D9%88%D9%86%D8%AA%D9%88-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 6,
+    "price": 7.95
+  },
+  {
+    "name": "فونتي تورتيلا بالشوفان، حجم متوسط، 6 قطع 250 جرام",
+    "description": "تورتيلا بالشوفان من فونتي، غنية بالألياف، تحتوي على 6 قطع بوزن 250 جرام، مثالية للوجبات الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615133/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8
+  },
+  {
+    "name": "لوزين تورتيلا عادية، حجم متوسط، 6 قطع",
+    "description": "تورتيلا عادية من لوزين، ناعمة ومرنة، تحتوي على 6 قطع متوسطة الحجم، مثالية لتحضير الساندويتشات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615135/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 9.75
+  },
+  {
+    "name": "يومي تورتيلا بيضاء، حجم متوسط، 6 قطع 240 جرام",
+    "description": "تورتيلا بيضاء من يومي، تحتوي على 6 قطع بوزن 240 جرام، مثالية لتحضير الوجبات السريعة واللذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615137/%D9%8A%D9%88%D9%85%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-240-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 12.5
+  },
+  {
+    "name": "لوزين تورتيلا بالقمح الكامل، حجم متوسط، 6 قطع",
+    "description": "تورتيلا بالقمح الكامل من لوزين، غنية بالألياف، تحتوي على 6 قطع متوسطة الحجم، مثالية للوجبات الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615139/%D9%84%D9%88%D8%B2%D9%8A%D9%86-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 10.25
+  },
+  {
+    "name": "فونتي تورتيلا بطاطس، حجم متوسط، 6 قطع 250 جرام",
+    "description": "تورتيلا بنكهة البطاطس من فونتي، تحتوي على 6 قطع بوزن 250 جرام، مثالية لتحضير وجبات مميزة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615140/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8
+  },
+  {
+    "name": "بريد باسكت تورتيلا بيضاء، حجم متوسط، 8 قطع 300 جرام",
+    "description": "تورتيلا بيضاء من بريد باسكت، تحتوي على 8 قطع بوزن 300 جرام، مثالية لتحضير الساندويتشات والوجبات الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615142/%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A8%D8%A7%D8%B3%D9%83%D8%AA-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-8-%D9%82%D8%B7%D8%B9-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.25
+  },
+  {
+    "name": "برونتو تورتيلا، حجم كبير، 6 قطع، 390 جرام",
+    "description": "تورتيلا كبيرة الحجم من برونتو، تحتوي على 6 قطع بوزن 390 جرام، مثالية للوجبات العائلية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615144/%D8%A8%D8%B1%D9%88%D9%86%D8%AA%D9%88-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%AC%D9%85-%D9%83%D8%A8%D9%8A%D8%B1-6-%D9%82%D8%B7%D8%B9-390-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 5,
+    "price": 10.25
+  },
+  {
+    "name": "فونتي - خبز النخالة المقطع 630 جرام",
+    "description": "خبز النخالة المقطع من فونتي، غني بالألياف، بوزن 630 جرام، مثالي للوجبات الصحية والساندويتشات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615145/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D9%86%D8%AE%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D8%B7%D8%B9-630-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 6.25
+  },
+  {
+    "name": "يومي تورتيلا ابيض 6 + 3 مجانا",
+    "description": "عرض تورتيلا بيضاء من يومي، يحتوي على 6 قطع مع 3 قطع إضافية مجانًا، مثالي لتحضير الوجبات السريعة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615289/%D9%8A%D9%88%D9%85%D9%89-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A7%D8%A8%D9%8A%D8%B6-6-3-%D9%85%D8%AC%D8%A7%D9%86%D8%A7.jpg.jpg"
+    ],
+    "price": 11
+  },
+  {
+    "name": "يومي تورتيلا حارة، حجم متوسط، 6 قطع 240 جرام",
+    "description": "تورتيلا حارة من يومي، تحتوي على 6 قطع بوزن 240 جرام، مثالية لعشاق النكهات القوية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615291/%D9%8A%D9%88%D9%85%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%A7%D8%B1%D8%A9-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-240-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 8,
+    "price": 12.5
+  },
+  {
+    "name": "يومي تورتيلا بيضاء، حجم صغير، 6 قطع، 200 جرام",
+    "description": "تورتيلا بيضاء صغيرة الحجم من يومي، تحتوي على 6 قطع بوزن 200 جرام، مثالية للوجبات الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615293/%D9%8A%D9%88%D9%85%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%AD%D8%AC%D9%85-%D8%B5%D8%BA%D9%8A%D8%B1-6-%D9%82%D8%B7%D8%B9-200-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 7,
+    "price": 8.25
+  },
+  {
+    "name": "سيشار خبز طري بالحبوب خالي من الجلوتين 250 جرام",
+    "description": "خبز طري بالحبوب من سيشار، خالي من الجلوتين، بوزن 250 جرام، مثالي للأشخاص الذين يتبعون نظامًا خاليًا من الجلوتين.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615295/%D8%B3%D9%8A%D8%B4%D8%A7%D8%B1-%D8%AE%D8%A8%D8%B2-%D8%B7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%84%D8%AD%D8%A8%D9%88%D8%A8-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%84%D9%88%D8%AA%D9%8A%D9%86-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 16.25
+  },
+  {
+    "name": "بريد باسكت تورتيلا بيضاء، حجم كبير، 8 قطع، 500 جرام",
+    "description": "تورتيلا بيضاء كبيرة الحجم من بريد باسكت، تحتوي على 8 قطع بوزن 500 جرام، مثالية للوجبات العائلية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615297/%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A8%D8%A7%D8%B3%D9%83%D8%AA-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%AD%D8%AC%D9%85-%D9%83%D8%A8%D9%8A%D8%B1-8-%D9%82%D8%B7%D8%B9-500-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25
+  },
+  {
+    "name": "يومي تورتيلا بيضاء، حجم كبير، 6 قطع، 432 جرام",
+    "description": "تورتيلا بيضاء كبيرة الحجم من يومي، تحتوي على 6 قطع بوزن 432 جرام، مثالية لتحضير الوجبات العائلية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615298/%D9%8A%D9%88%D9%85%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%AD%D8%AC%D9%85-%D9%83%D8%A8%D9%8A%D8%B1-6-%D9%82%D8%B7%D8%B9-432-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 12.25
+  },
+  {
+    "name": "فونتي تورتيلا حارة، حجم متوسط، 6 قطع 250 جرام",
+    "description": "تورتيلا حارة من فونتي، تحتوي على 6 قطع بوزن 250 جرام، مثالية لعشاق النكهات الحارة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615300/%D9%81%D9%88%D9%86%D8%AA%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%A7%D8%B1%D8%A9-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 7,
+    "price": 8
+  },
+  {
+    "name": "برونتو تورتيلا بني، حجم متوسط، 6 قطع، 250 جرام",
+    "description": "تورتيلا بنية من برونتو، مصنوعة من دقيق القمح الكامل، تحتوي على 6 قطع بوزن 250 جرام، مثالية للوجبات الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615302/%D8%A8%D8%B1%D9%88%D9%86%D8%AA%D9%88-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D9%86%D9%8A-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 6,
+    "price": 9.25
+  },
+  {
+    "name": "بريد باسكت تورتيلا بني، حجم متوسط، 8 قطع، 300 جرام",
+    "description": "تورتيلا بنية من بريد باسكت، تحتوي على 8 قطع بوزن 300 جرام، مثالية للوجبات الصحية والساندويتشات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615306/%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A8%D8%A7%D8%B3%D9%83%D8%AA-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D9%86%D9%8A-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-8-%D9%82%D8%B7%D8%B9-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 8.25
+  },
+  {
+    "name": "فوشيا تورتيلا البيضاء، حجم متوسط، 6 قطع، 240 جرام",
+    "description": "تورتيلا بيضاء من فوشيا، تحتوي على 6 قطع بوزن 240 جرام، مثالية لتحضير الساندويتشات والوجبات الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615309/%D9%81%D9%88%D8%B4%D9%8A%D8%A7-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-240-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 7.75
+  },
+  {
+    "name": "ياومي تورتيلا حار 6 + 3 مجانا",
+    "description": "عرض تورتيلا حارة من يومي، يحتوي على 6 قطع مع 3 قطع إضافية مجانًا، مثالي لعشاق النكهات الحارة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615312/%D9%8A%D8%A7%D9%88%D9%85%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%A7%D8%B1-6-3-%D9%85%D8%AC%D8%A7%D9%86%D8%A7.jpg.jpg"
+    ],
+    "price": 11
+  },
+  {
+    "name": "بريد باسكت تورتيلا حارة، حجم متوسط، 8 قطع، 300 جرام",
+    "description": "تورتيلا حارة من بريد باسكت، تحتوي على 8 قطع بوزن 300 جرام، مثالية لتحضير وجبات بنكهة قوية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615314/%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A8%D8%A7%D8%B3%D9%83%D8%AA-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%AD%D8%A7%D8%B1%D8%A9-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-8-%D9%82%D8%B7%D8%B9-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 7.25
+  },
+  {
+    "name": "سيشار بان بلانكو خالي من الجلوتين 250 جرام",
+    "description": "خبز بان بلانكو من سيشار، خالي من الجلوتين، بوزن 250 جرام، مثالي للأشخاص الذين يتبعون نظامًا خاليًا من الجلوتين.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615316/%D8%B3%D9%8A%D8%B4%D8%A7%D8%B1-%D8%A8%D8%A7%D9%86-%D8%A8%D9%84%D8%A7%D9%86%D9%83%D9%88-%D8%AE%D8%A7%D9%84%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%84%D9%88%D8%AA%D9%8A%D9%86-250-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "price": 15.5
+  },
+  {
+    "name": "يومي تورتيلا بطاطس، حجم متوسط، 6 قطع 240 جرام",
+    "description": "تورتيلا بنكهة البطاطس من يومي، تحتوي على 6 قطع بوزن 240 جرام، مثالية لتحضير وجبات مميزة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615318/%D9%8A%D9%88%D9%85%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-240-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 13.25
+  },
+  {
+    "name": "يومي تورتيلا زعتر، حجم متوسط، 6 قطع، 240 جرام",
+    "description": "تورتيلا بنكهة الزعتر من يومي، تحتوي على 6 قطع بوزن 240 جرام، مثالية لتحضير وجبات بنكهة مميزة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615320/%D9%8A%D9%88%D9%85%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%B2%D8%B9%D8%AA%D8%B1-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-240-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 10,
+    "price": 13.25
+  },
+  {
+    "name": "يومي تورتيلا سبانخ، حجم متوسط، 6 قطع، 240 جرام",
+    "description": "تورتيلا بنكهة السبانخ من يومي، تحتوي على 6 قطع بوزن 240 جرام، مثالية للوجبات الصحية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615322/%D9%8A%D9%88%D9%85%D9%8A-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9-240-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
+    ],
+    "discount": 9,
+    "price": 12.25
+  },
+  {
+    "name": "يومي لفائف تورتيلا القمح والذرة، حجم متوسط، 6 قطع",
+    "description": "لفائف تورتيلا من يومي مصنوعة من القمح والذرة، تحتوي على 6 قطع متوسطة الحجم، مثالية لتحضير الساندويتشات.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615325/%D9%8A%D9%88%D9%85%D9%8A-%D9%84%D9%81%D8%A7%D8%A6%D9%81-%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D9%84%D8%A7-%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D9%88%D8%A7%D9%84%D8%B0%D8%B1%D8%A9-%D8%AD%D8%AC%D9%85-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-6-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "discount": 12,
+    "price": 12.95
+  },
+  {
+    "name": "مناقيش جبنة قشقوان - قطعة واحدة",
+    "description": "مناقيش جبنة قشقوان طازجة، قطعة واحدة، مثالية كوجبة خفيفة أو إفطار شهي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615326/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D8%AC%D8%A8%D9%86%D8%A9-%D9%82%D8%B4%D9%82%D9%88%D8%A7%D9%86-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 6.95
+  },
+  {
+    "name": "رول بريك السبانخ والجبنة (قطعة واحدة)",
+    "description": "رول بريك محشو بالسبانخ والجبنة، قطعة واحدة، مثالي كوجبة خفيفة لذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615329/%D8%B1%D9%88%D9%84-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%88%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 2.5
+  },
+  {
+    "name": "عصا بوريك بالجبنة واحدة",
+    "description": "عصا بوريك محشوة بالجبنة، قطعة واحدة، مثالية كوجبة خفيفة شهية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615331/%D8%B9%D8%B5%D8%A7-%D8%A8%D9%88%D8%B1%D9%8A%D9%83-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 11.8
+  },
+  {
+    "name": "مناقيش محمرة بالجبنة",
+    "description": "مناقيش محمرة مغطاة بالجبنة، مثالية كوجبة خفيفة أو إفطار لذيذ.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615333/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D9%85%D8%AD%D9%85%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9.jpg.jpg"
+    ],
+    "price": 6.95
+  },
+  {
+    "name": "مناقيش زعتر 1 قطعة",
+    "description": "مناقيش زعتر طازجة، قطعة واحدة، مثالية كوجبة خفيفة أو إفطار تقليدي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615337/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D8%B2%D8%B9%D8%AA%D8%B1-1-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
+    ],
+    "price": 4
+  },
+  {
+    "name": "رول بريك الجبنة (قطعة واحدة)",
+    "description": "رول بريك محشو بالجبنة، قطعة واحدة، مثالي كوجبة خفيفة لذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615339/%D8%B1%D9%88%D9%84-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 2.5
+  },
+  {
+    "name": "مناقيش باللبنة والزيتون",
+    "description": "مناقيش مغطاة باللبنة والزيتون، مثالية كوجبة خفيفة أو إفطار شهي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615341/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D8%A8%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86.jpg.jpg"
+    ],
+    "price": 5.95
+  },
+  {
+    "name": "بيتزا الزيتون صغير 5 قطع",
+    "description": "بيتزا صغيرة الحجم بالزيتون، تحتوي على 5 قطع، مثالية كوجبة خفيفة أو وجبة عائلية صغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615343/%D8%A8%D9%8A%D8%AA%D8%B2%D8%A7-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%B5%D8%BA%D9%8A%D8%B1-5-%D9%82%D8%B7%D8%B9.jpg.jpg"
+    ],
+    "price": 11.95
+  },
+  {
+    "name": "مشلتت مصري",
+    "description": "مشلتت مصري تقليدي، مثالي كوجبة خفيفة أو إفطار شهي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615345/%D9%85%D8%B4%D9%84%D8%AA%D8%AA-%D9%85%D8%B5%D8%B1%D9%8A.jpg.jpg"
+    ],
+    "price": 4.95
+  },
+  {
+    "name": "كارفور ميني بيتزا خضار × 5",
+    "description": "ميني بيتزا بالخضار من كارفور، تحتوي على 5 قطع، مثالية كوجبة خفيفة أو وجبة عائلية صغيرة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615346/%D9%83%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D9%8A%D8%AA%D8%B2%D8%A7-%D8%AE%D8%B6%D8%A7%D8%B1-5.jpg.jpg"
+    ],
+    "discount": 30,
+    "price": 9.95
+  },
+  {
+    "name": "مناقيش بالجبنة الموزاريلا",
+    "description": "مناقيش مغطاة بجبنة الموزاريلا الطازجة، مثالية كوجبة خفيفة أو إفطار شهي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615348/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%D9%84%D8%A7.jpg.jpg"
+    ],
+    "price": 5.95
+  },
+  {
+    "name": "المثالي ميني صالمولي",
+    "description": "خبز صامولي صغير الحجم من المثالي، مثالي للساندويتشات والوجبات الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615349/%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D9%85%D9%8A%D9%86%D9%8A-%D8%B5%D8%A7%D9%84%D9%85%D9%88%D9%84%D9%8A.jpg.jpg"
+    ],
+    "price": 5.95
+  },
+  {
+    "name": "بوريك بالسبانخ والجبنة",
+    "description": "بوريك محشو بالسبانخ والجبنة، مثالي كوجبة خفيفة لذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615351/%D8%A8%D9%88%D8%B1%D9%8A%D9%83-%D8%A8%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%88%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9.jpg.jpg"
+    ],
+    "price": 2.95
+  },
+  {
+    "name": "المثالي خبز مفرود",
+    "description": "خبز مفرود من المثالي، ناعم وطازج، مثالي لتحضير الساندويتشات والوجبات الخفيفة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615353/%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D8%AE%D8%A8%D8%B2-%D9%85%D9%81%D8%B1%D9%88%D8%AF.jpg.jpg"
+    ],
+    "price": 4.95
+  },
+  {
+    "name": "المثالي خبز صامولي",
+    "description": "خبز صامولي من المثالي، ناعم وطازج، مثالي للساندويتشات والوجبات اليومية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615354/%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%B5%D8%A7%D9%85%D9%88%D9%84%D9%8A.jpg.jpg"
+    ],
+    "price": 5.95
+  },
+  {
+    "name": "المثالي خبز تنور",
+    "description": "خبز تنور تقليدي من المثالي، طازج ومقرمش، مثالي للوجبات التقليدية.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615356/%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D9%84%D9%8A-%D8%AE%D8%A8%D8%B2-%D8%AA%D9%86%D9%88%D8%B1.jpg.jpg"
+    ],
+    "price": 6.95
+  },
+  {
+    "name": "ميني رول بريك السبانخ والجبنة (قطعة واحدة)",
+    "description": "ميني رول بريك محشو بالسبانخ والجبنة، قطعة واحدة، مثالي كوجبة خفيفة لذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615358/%D9%85%D9%8A%D9%86%D9%8A-%D8%B1%D9%88%D9%84-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-%D9%88%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "مناقيش جبنة عكاوي 1 قطعة",
+    "description": "مناقيش جبنة عكاوي طازجة، قطعة واحدة، مثالية كوجبة خفيفة أو إفطار شهي.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615361/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D8%AC%D8%A8%D9%86%D8%A9-%D8%B9%D9%83%D8%A7%D9%88%D9%8A-1-%D9%82%D8%B7%D8%B9%D8%A9.jpg.jpg"
+    ],
+    "price": 6.95
+  },
+  {
+    "name": "مناقيش زعتر بالجبنة",
+    "description": "مناقيش زعتر مغطاة بالجبنة، مثالية كوجبة خفيفة أو إفطار تقليدي لذيذ.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615363/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D8%B2%D8%B9%D8%AA%D8%B1-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9.jpg.jpg"
+    ],
+    "price": 5.95
+  },
+  {
+    "name": "ميني رول بريك الجبنة (قطعة واحدة)",
+    "description": "ميني رول بريك محشو بالجبنة، قطعة واحدة، مثالي كوجبة خفيفة لذيذة.",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615365/%D9%85%D9%8A%D9%86%D9%8A-%D8%B1%D9%88%D9%84-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 1.5
+  },
+  {
+    "name": "مناقيش محمرة",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615368/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D9%85%D8%AD%D9%85%D8%B1%D8%A9.jpg.jpg"
+    ],
+    "price": 4.95,
+    "description": "مناقيش تقليدية مغطاة بطبقة غنية من معجون الطماطم الحارة والتوابل العربية الأصيلة، مخبوزة حتى تصبح مقرمشة."
+  },
+  {
+    "name": "ميني رول بريك البطاطس (قطعة واحدة)",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615369/%D9%85%D9%8A%D9%86%D9%8A-%D8%B1%D9%88%D9%84-%D8%A8%D8%B1%D9%8A%D9%83-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7-%D9%82%D8%B7%D8%B9%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9.jpg.jpg"
+    ],
+    "price": 1.5,
+    "description": "رول بريك صغير محشو بالبطاطس المهروسة المتبلة، مغلف بطبقة عجين رقيقة ومقلي ليصبح ذهبيًا ومقرمشًا."
+  },
+  {
+    "name": "مناقيش باللبنة والموزاريلا",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615371/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D8%A8%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%D9%84%D8%A7.jpg.jpg"
+    ],
+    "price": 5.95,
+    "description": "مناقيش شهية مغطاة بمزيج كريمي من اللبنة الناعمة وجبنة الموزاريلا الذائبة، مخبوزة لتحصل على قوام مثالي."
+  },
+  {
+    "name": "مناقيش لبنة بالعسل",
+    "images": [
+      "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745615374/%D9%85%D9%86%D8%A7%D9%82%D9%8A%D8%B4-%D9%84%D8%A8%D9%86%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%B3%D9%84.jpg.jpg"
+    ],
+    "price": 6.95,
+    "description": "مناقيش مميزة تجمع بين طعم اللبنة الكريمية ورذاذ العسل الطبيعي الحلو، تقدم تجربة طعم فريدة ومتوازنة."
+  }
+]

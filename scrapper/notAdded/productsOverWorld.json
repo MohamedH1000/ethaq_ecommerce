@@ -1,3 +1,4 @@
+// category id 680d7bd222f0b5fd5721e42a
 [
   {
     "name": "جونجا أوفود نابا كرنب كيمتشي 160جرام",
@@ -158,8 +159,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745109246/%D9%85%D9%83%D8%A7%D8%AA%D9%8A-%D9%85%D8%B3%D8%AD%D9%88%D9%82-%D8%AD%D9%84%D9%8A%D8%A8-%D8%AC%D9%88%D8%B2-%D8%A7%D9%84%D9%87%D9%86%D8%AF-300-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 11,
-    "price": 18.95,
-    "discounted_price": 16.95
+    "price": 18.95
   },
   {
     "name": "مكاتي صلصة سمك المحارة 400 مل",
@@ -760,7 +760,6 @@
     ],
     "discount": 6,
     "price": 5.25,
-    "discounted_price": 4.95,
     "description": "رامين مقلي بنكهة الكيمتشي من بيباجو، وجبة سريعة التحضير ولذيذة."
   },
   {
@@ -1042,8 +1041,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745109401/%D8%A8%D9%8A%D8%A8%D8%A7%D8%AC%D9%88-%D8%B1%D8%A7%D9%85%D9%8A%D9%86-%D8%AA%D9%88%D8%A8%D9%88%D9%83%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9-122-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 6,
-    "price": 5.25,
-    "discounted_price": 4.95
+    "price": 5.25
   },
   {
     "name": "ماكتي فاكهة الهلوهلو 340 جرام",
@@ -1292,8 +1290,7 @@
       "https://res.cloudinary.com/dbyc0sncy/image/upload/v1745109444/%D8%A8%D8%A7%D9%84%D8%AF%D9%88-%D9%86%D9%88%D8%AF%D9%84%D8%B2-%D8%A8%D9%8A%D8%A8%D9%8A%D9%85%D9%86-130-%D8%AC%D8%B1%D8%A7%D9%85.jpg.jpg"
     ],
     "discount": 5,
-    "price": 6.25,
-    "discounted_price": 5.95
+    "price": 6.25
   },
   {
     "name": "ستاربورست علكة الفاكهة الأصلي 45 جرام",
