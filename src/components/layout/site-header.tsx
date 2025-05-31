@@ -11,6 +11,8 @@ export function SiteHeader({
   currentUser: User;
   orderItems: OrderItem;
 }) {
+  console.log("currentUser", currentUser);
+
   return (
     <header className="sticky top-0 z-50 w-full  bg-[#FAFAFA] dark:bg-black shadow-sm h-16 flex justify-center">
       <div className="container flex items-center max-sm:!px-1">

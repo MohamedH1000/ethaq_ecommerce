@@ -3,6 +3,7 @@ import { revalidatePath } from "next/cache";
 import prisma from "../prisma";
 import { sendEmail } from "../email";
 import { sendWhatsAppMessage } from "../whatsapp/whatsapp-service";
+import { sendWATIMessage } from "../whatsapp/whatsapp";
 
 export async function addOrderItem(
   userId: string,
@@ -209,460 +210,460 @@ export async function createOrder(
     });
 
     // Send email notifications (to admin and user)
-    //   const adminEmailTemplate = `
-    //   <!DOCTYPE html>
-    //   <html>
-    //   <head>
-    //     <meta charset="UTF-8">
-    //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    //     <style>
-    //       body {
-    //         font-family: 'Arial', sans-serif;
-    //         background-color: #f4f4f4;
-    //         margin: 0;
-    //         padding: 0;
-    //         direction: rtl;
-    //         text-align: right;
-    //       }
-    //       .container {
-    //         max-width: 600px;
-    //         margin: 20px auto;
-    //         background-color: #ffffff;
-    //         border-radius: 10px;
-    //         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    //         overflow: hidden;
-    //       }
-    //       .header {
-    //         background-color: #3b82f6;
-    //         padding: 20px;
-    //         text-align: center;
-    //         color: white;
-    //       }
-    //       .header h1 {
-    //         margin: 0;
-    //         font-size: 24px;
-    //       }
-    //       .content {
-    //         padding: 30px;
-    //         color: #333;
-    //         line-height: 1.6;
-    //       }
-    //       .section {
-    //         margin-bottom: 20px;
-    //       }
-    //       .section h3 {
-    //         color: #3b82f6;
-    //         margin-bottom: 10px;
-    //         font-size: 18px;
-    //       }
-    //       .info-list, .items-list {
-    //         background-color: #f8fafc;
-    //         padding: 15px;
-    //         border-radius: 5px;
-    //         border: 1px solid #e2e8f0;
-    //       }
-    //       .info-list ul, .items-list ul {
-    //         list-style: none;
-    //         padding: 0;
-    //         margin: 0;
-    //       }
-    //       .info-list li, .items-list li {
-    //         margin-bottom: 8px;
-    //         font-size: 16px;
-    //       }
-    //       .info-list li strong, .items-list li strong {
-    //         color: #3b82f6;
-    //       }
-    //       .items-list li {
-    //         padding-bottom: 10px;
-    //         border-bottom: 1px solid #e2e8f0;
-    //       }
-    //       .items-list li:last-child {
-    //         border-bottom: none;
-    //       }
-    //       .button {
-    //         display: inline-block;
-    //         padding: 12px 24px;
-    //         background-color: #3b82f6;
-    //         color: white;
-    //         text-decoration: none;
-    //         border-radius: 5px;
-    //         margin-top: 20px;
-    //         font-weight: bold;
-    //       }
-    //       .button:hover {
-    //         background-color: #2563eb;
-    //       }
-    //       .footer {
-    //         background-color: #f4f4f4;
-    //         padding: 20px;
-    //         text-align: center;
-    //         font-size: 14px;
-    //         color: #666;
-    //       }
-    //       a {
-    //         color: #3b82f6;
-    //         text-decoration: none;
-    //       }
-    //       a:hover {
-    //         text-decoration: underline;
-    //       }
-    //       @media (max-width: 600px) {
-    //         .container {
-    //           margin: 10px;
-    //         }
-    //         .content {
-    //           padding: 20px;
-    //         }
-    //         .header h1 {
-    //           font-size: 20px;
-    //         }
-    //         .info-list li, .items-list li {
-    //           font-size: 14px;
-    //         }
-    //       }
-    //     </style>
-    //   </head>
-    //   <body>
-    //     <div class="container">
-    //       <div class="header">
-    //         <h1>طلب منتجات جديد</h1>
-    //       </div>
-    //       <div class="content">
-    //         <p>السلام عليكم ورحمة الله وبركاته،</p>
-    //         <p>تم استلام طلب جديد من العميل. يرجى الاطلاع على التفاصيل أدناه:</p>
-    //         <div class="section">
-    //           <h3>تفاصيل الطلب</h3>
-    //           <div class="info-list">
-    //             <ul>
-    //               <li><strong>حالة الطلب:</strong> ${
-    //                 newOrder.status === "pending"
-    //                   ? "قيد الانتظار"
-    //                   : newOrder.status
-    //               }</li>
-    //               <li><strong>المبلغ الإجمالي:</strong> ${newOrder.totalAmount.toFixed(
-    //                 2
-    //               )} ريال</li>
-    //             </ul>
-    //           </div>
-    //         </div>
-    //         <div class="section">
-    //           <h3>تفاصيل العميل</h3>
-    //           <div class="info-list">
-    //             <ul>
-    //               <li><strong>الاسم:</strong> ${user?.name || "غير متوفر"}</li>
-    //               <li><strong>البريد الإلكتروني:</strong> ${user?.email}</li>
-    //             </ul>
-    //           </div>
-    //         </div>
-    //         <div class="section">
-    //           <h3>عنوان التوصيل</h3>
-    //           <div class="info-list">
-    //             <ul>
-    //               <li><strong>العنوان:</strong> ${address?.street}, ${
-    //     address?.city
-    //   }, ${address?.state}, ${address?.country}</li>
-    //               <li><strong>الرمز البريدي:</strong> ${address?.postcode}</li>
-    //             </ul>
-    //           </div>
-    //         </div>
-    //         <div class="section">
-    //           <h3>المنتجات المطلوبة</h3>
-    //           <div class="items-list">
-    //             <ul>
-    //               ${newOrder.orderItems
-    //                 .map(
-    //                   (item) => `
-    //                     <li>
-    //                       <strong>${
-    //                         item?.product?.name || "منتج غير متوفر"
-    //                       }</strong><br>
-    //                       الكمية: ${item?.quantity}<br>
-    //                       السعر للوحدة: ${item?.priceAtPurchase.toFixed(
-    //                         2
-    //                       )} ريال<br>
-    //                       الإجمالي الفرعي: ${(
-    //                         item?.quantity * item?.priceAtPurchase
-    //                       ).toFixed(2)} ريال
-    //                     </li>
-    //                   `
-    //                 )
-    //                 .join("")}
-    //             </ul>
-    //           </div>
-    //         </div>
+    const adminEmailTemplate = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+          }
+          .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+          }
+          .header {
+            background-color: #3b82f6;
+            padding: 20px;
+            text-align: center;
+            color: white;
+          }
+          .header h1 {
+            margin: 0;
+            font-size: 24px;
+          }
+          .content {
+            padding: 30px;
+            color: #333;
+            line-height: 1.6;
+          }
+          .section {
+            margin-bottom: 20px;
+          }
+          .section h3 {
+            color: #3b82f6;
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          .info-list, .items-list {
+            background-color: #f8fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+          }
+          .info-list ul, .items-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+          .info-list li, .items-list li {
+            margin-bottom: 8px;
+            font-size: 16px;
+          }
+          .info-list li strong, .items-list li strong {
+            color: #3b82f6;
+          }
+          .items-list li {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e2e8f0;
+          }
+          .items-list li:last-child {
+            border-bottom: none;
+          }
+          .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+          }
+          .button:hover {
+            background-color: #2563eb;
+          }
+          .footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+          }
+          a {
+            color: #3b82f6;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+          @media (max-width: 600px) {
+            .container {
+              margin: 10px;
+            }
+            .content {
+              padding: 20px;
+            }
+            .header h1 {
+              font-size: 20px;
+            }
+            .info-list li, .items-list li {
+              font-size: 14px;
+            }
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="header">
+            <h1>طلب منتجات جديد</h1>
+          </div>
+          <div class="content">
+            <p>السلام عليكم ورحمة الله وبركاته،</p>
+            <p>تم استلام طلب جديد من العميل. يرجى الاطلاع على التفاصيل أدناه:</p>
+            <div class="section">
+              <h3>تفاصيل الطلب</h3>
+              <div class="info-list">
+                <ul>
+                  <li><strong>حالة الطلب:</strong> ${
+                    newOrder.status === "pending"
+                      ? "قيد الانتظار"
+                      : newOrder.status
+                  }</li>
+                  <li><strong>المبلغ الإجمالي:</strong> ${newOrder.totalAmount.toFixed(
+                    2
+                  )} ريال</li>
+                </ul>
+              </div>
+            </div>
+            <div class="section">
+              <h3>تفاصيل العميل</h3>
+              <div class="info-list">
+                <ul>
+                  <li><strong>الاسم:</strong> ${user?.name || "غير متوفر"}</li>
+                  <li><strong>البريد الإلكتروني:</strong> ${user?.email}</li>
+                </ul>
+              </div>
+            </div>
+            <div class="section">
+              <h3>عنوان التوصيل</h3>
+              <div class="info-list">
+                <ul>
+                  <li><strong>العنوان:</strong> ${address?.street}, ${
+      address?.city
+    }, ${address?.state}, ${address?.country}</li>
+                  <li><strong>الرمز البريدي:</strong> ${address?.postcode}</li>
+                </ul>
+              </div>
+            </div>
+            <div class="section">
+              <h3>المنتجات المطلوبة</h3>
+              <div class="items-list">
+                <ul>
+                  ${newOrder.orderItems
+                    .map(
+                      (item) => `
+                        <li>
+                          <strong>${
+                            item?.product?.name || "منتج غير متوفر"
+                          }</strong><br>
+                          الكمية: ${item?.quantity}<br>
+                          السعر للوحدة: ${item?.priceAtPurchase.toFixed(
+                            2
+                          )} ريال<br>
+                          الإجمالي الفرعي: ${(
+                            item?.quantity * item?.priceAtPurchase
+                          ).toFixed(2)} ريال
+                        </li>
+                      `
+                    )
+                    .join("")}
+                </ul>
+              </div>
+            </div>
 
-    //         <p>يرجى اتخاذ الإجراءات اللازمة لمعالجة الطلب في لوحة التحكم.</p>
-    //         <a href="https://four.fortworthtowingtx.com/admin" class="button">الذهاب إلى لوحة التحكم</a>
-    //       </div>
-    //       <div class="footer">
-    //         <p>مع خالص الشكر،<br>فريق إيثاق</p>
-    //         <p>للتواصل: <a href="mailto:support@four.fortworthtowingtx.com">support@four.fortworthtowingtx.com</a></p>
-    //       </div>
-    //     </div>
-    //   </body>
-    //   </html>
-    // `;
-    //   // User Email Template
-    //   const userEmailTemplate = `
-    //   <!DOCTYPE html>
-    //   <html>
-    //   <head>
-    //     <meta charset="UTF-8">
-    //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    //     <style>
-    //       body {
-    //         font-family: 'Arial', sans-serif;
-    //         background-color: #f4f4f4;
-    //         margin: 0;
-    //         padding: 0;
-    //         direction: rtl;
-    //         text-align: right;
-    //       }
-    //       .container {
-    //         max-width: 600px;
-    //         margin: 20px auto;
-    //         background-color: #ffffff;
-    //         border-radius: 10px;
-    //         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    //         overflow: hidden;
-    //       }
-    //       .header {
-    //         background-color: #000957;
-    //         padding: 20px;
-    //         text-align: center;
-    //         color: white;
-    //       }
-    //       .header h1 {
-    //         margin: 0;
-    //         font-size: 24px;
-    //       }
-    //       .content {
-    //         padding: 30px;
-    //         color: #333;
-    //         line-height: 1.6;
-    //       }
-    //       .section {
-    //         margin-bottom: 20px;
-    //       }
-    //       .section h3 {
-    //         color: #000957;
-    //         margin-bottom: 10px;
-    //         font-size: 18px;
-    //       }
-    //       .info-list, .items-list {
-    //         background-color: #f0f7f7;
-    //         padding: 15px;
-    //         border-radius: 5px;
-    //         border: 1px solid #000957;
-    //       }
-    //       .info-list ul, .items-list ul {
-    //         list-style: none;
-    //         padding: 0;
-    //         margin: 0;
-    //       }
-    //       .info-list li, .items-list li {
-    //         margin-bottom: 8px;
-    //         font-size: 16px;
-    //       }
-    //       .info-list li strong, .items-list li strong {
-    //         color: #000957;
-    //       }
-    //       .items-list li {
-    //         padding-bottom: 10px;
-    //         border-bottom: 1px solid #e2e8f0;
-    //       }
-    //       .items-list li:last-child {
-    //         border-bottom: none;
-    //       }
-    //       .button {
-    //         display: inline-block;
-    //         padding: 12px 24px;
-    //         background-color: #000957;
-    //         color: white;
-    //         text-decoration: none;
-    //         border-radius: 5px;
-    //         margin-top: 20px;
-    //         font-weight: bold;
-    //       }
-    //       .button:hover {
-    //         background-color: #1a237e;
-    //       }
-    //       .footer {
-    //         background-color: #f4f4f4;
-    //         padding: 20px;
-    //         text-align: center;
-    //         font-size: 14px;
-    //         color: #666;
-    //       }
-    //       a {
-    //         color: #000957;
-    //         text-decoration: none;
-    //       }
-    //       a:hover {
-    //         text-decoration: underline;
-    //       }
-    //       @media (max-width: 600px) {
-    //         .container {
-    //           margin: 10px;
-    //         }
-    //         .content {
-    //           padding: 20px;
-    //         }
-    //         .header h1 {
-    //           font-size: 20px;
-    //         }
-    //         .info-list li, .items-list li {
-    //           font-size: 14px;
-    //         }
-    //       }
-    //     </style>
-    //   </head>
-    //   <body>
-    //     <div class="container">
-    //       <div class="header">
-    //         <h1>تأكيد طلبك الجديد</h1>
-    //       </div>
-    //       <div class="content">
-    //         <p>السلام عليكم ورحمة الله وبركاته، ${
-    //           user?.name || "العميل الموقر"
-    //         },</p>
-    //         <p>نشكرك على طلبك! لقد تم إرسال طلبك إلى الإدارة بنجاح. يرجى الاطلاع على التفاصيل أدناه:</p>
-    //         <div class="section">
-    //           <h3>تفاصيل الطلب</h3>
-    //           <div class="info-list">
-    //             <ul>
-    //               <li><strong>حالة الطلب:</strong> ${
-    //                 newOrder.status === "pending"
-    //                   ? "قيد الانتظار"
-    //                   : newOrder.status
-    //               }</li>
-    //               <li><strong>المبلغ الإجمالي:</strong> ${newOrder.totalAmount.toFixed(
-    //                 2
-    //               )} ريال</li>
-    //             </ul>
-    //           </div>
-    //         </div>
-    //         <div class="section">
-    //           <h3>عنوان التوصيل</h3>
-    //           <div class="info-list">
-    //             <ul>
-    //               <li><strong>العنوان:</strong> ${address?.street}, ${
-    //     address?.city
-    //   }, ${address?.state}, ${address?.country}</li>
-    //               <li><strong>الرمز البريدي:</strong> ${address?.postcode}</li>
+            <p>يرجى اتخاذ الإجراءات اللازمة لمعالجة الطلب في لوحة التحكم.</p>
+            <a href="https://four.fortworthtowingtx.com/admin" class="button">الذهاب إلى لوحة التحكم</a>
+          </div>
+          <div class="footer">
+            <p>مع خالص الشكر،<br>فريق إيثاق</p>
+            <p>للتواصل: <a href="mailto:support@four.fortworthtowingtx.com">support@four.fortworthtowingtx.com</a></p>
+          </div>
+        </div>
+      </body>
+      </html>
+    `;
+    // User Email Template
+    const userEmailTemplate = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+          }
+          .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+          }
+          .header {
+            background-color: #000957;
+            padding: 20px;
+            text-align: center;
+            color: white;
+          }
+          .header h1 {
+            margin: 0;
+            font-size: 24px;
+          }
+          .content {
+            padding: 30px;
+            color: #333;
+            line-height: 1.6;
+          }
+          .section {
+            margin-bottom: 20px;
+          }
+          .section h3 {
+            color: #000957;
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          .info-list, .items-list {
+            background-color: #f0f7f7;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #000957;
+          }
+          .info-list ul, .items-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+          .info-list li, .items-list li {
+            margin-bottom: 8px;
+            font-size: 16px;
+          }
+          .info-list li strong, .items-list li strong {
+            color: #000957;
+          }
+          .items-list li {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e2e8f0;
+          }
+          .items-list li:last-child {
+            border-bottom: none;
+          }
+          .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #000957;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+          }
+          .button:hover {
+            background-color: #1a237e;
+          }
+          .footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+          }
+          a {
+            color: #000957;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+          @media (max-width: 600px) {
+            .container {
+              margin: 10px;
+            }
+            .content {
+              padding: 20px;
+            }
+            .header h1 {
+              font-size: 20px;
+            }
+            .info-list li, .items-list li {
+              font-size: 14px;
+            }
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="header">
+            <h1>تأكيد طلبك الجديد</h1>
+          </div>
+          <div class="content">
+            <p>السلام عليكم ورحمة الله وبركاته، ${
+              user?.name || "العميل الموقر"
+            },</p>
+            <p>نشكرك على طلبك! لقد تم إرسال طلبك إلى الإدارة بنجاح. يرجى الاطلاع على التفاصيل أدناه:</p>
+            <div class="section">
+              <h3>تفاصيل الطلب</h3>
+              <div class="info-list">
+                <ul>
+                  <li><strong>حالة الطلب:</strong> ${
+                    newOrder.status === "pending"
+                      ? "قيد الانتظار"
+                      : newOrder.status
+                  }</li>
+                  <li><strong>المبلغ الإجمالي:</strong> ${newOrder.totalAmount.toFixed(
+                    2
+                  )} ريال</li>
+                </ul>
+              </div>
+            </div>
+            <div class="section">
+              <h3>عنوان التوصيل</h3>
+              <div class="info-list">
+                <ul>
+                  <li><strong>العنوان:</strong> ${address?.street}, ${
+      address?.city
+    }, ${address?.state}, ${address?.country}</li>
+                  <li><strong>الرمز البريدي:</strong> ${address?.postcode}</li>
 
-    //             </ul>
-    //           </div>
-    //         </div>
-    //         <div class="section">
-    //           <h3>المنتجات المطلوبة</h3>
-    //           <div class="items-list">
-    //             <ul>
-    //               ${newOrder?.orderItems
-    //                 .map(
-    //                   (item) => `
-    //                     <li>
-    //                       <strong>${
-    //                         item?.product?.name || "منتج غير متوفر"
-    //                       }</strong><br>
-    //                       الكمية: ${item?.quantity}<br>
-    //                       السعر للوحدة: ${item?.priceAtPurchase.toFixed(
-    //                         2
-    //                       )} ريال<br>
-    //                       الإجمالي الفرعي: ${(
-    //                         item?.quantity * item?.priceAtPurchase
-    //                       ).toFixed(2)} ريال
-    //                     </li>
-    //                   `
-    //                 )
-    //                 .join("")}
-    //             </ul>
-    //           </div>
-    //         </div>
-    //         <p>برجاء تاكيد استلام الطلب على الموقع باستخدام الرقم عند استلام الطلب: ${
-    //           newOrder.confirmNo
-    //         }</p>
-    //         <p>سنتواصل معك قريبًا لتأكيد حالة الطلب. يمكنك متابعة حالة طلبك في حسابك.</p>
-    //         <a href="https://four.fortworthtowingtx.com/account/orders/${
-    //           newOrder.id
-    //         }" class="button">عرض الطلب</a>
-    //       </div>
-    //       <div class="footer">
-    //         <p>مع خالص الشكر،<br>فريق إيثاق</p>
-    //         <p>للتواصل: <a href="mailto:support@four.fortworthtowingtx.com">support@four.fortworthtowingtx.com</a></p>
-    //       </div>
-    //     </div>
-    //   </body>
-    //   </html>
-    // `;
+                </ul>
+              </div>
+            </div>
+            <div class="section">
+              <h3>المنتجات المطلوبة</h3>
+              <div class="items-list">
+                <ul>
+                  ${newOrder?.orderItems
+                    .map(
+                      (item) => `
+                        <li>
+                          <strong>${
+                            item?.product?.name || "منتج غير متوفر"
+                          }</strong><br>
+                          الكمية: ${item?.quantity}<br>
+                          السعر للوحدة: ${item?.priceAtPurchase.toFixed(
+                            2
+                          )} ريال<br>
+                          الإجمالي الفرعي: ${(
+                            item?.quantity * item?.priceAtPurchase
+                          ).toFixed(2)} ريال
+                        </li>
+                      `
+                    )
+                    .join("")}
+                </ul>
+              </div>
+            </div>
+            <p>برجاء تاكيد استلام الطلب على الموقع باستخدام الرقم عند استلام الطلب: ${
+              newOrder.confirmNo
+            }</p>
+            <p>سنتواصل معك قريبًا لتأكيد حالة الطلب. يمكنك متابعة حالة طلبك في حسابك.</p>
+            <a href="https://four.fortworthtowingtx.com/account/orders/${
+              newOrder.id
+            }" class="button">عرض الطلب</a>
+          </div>
+          <div class="footer">
+            <p>مع خالص الشكر،<br>فريق إيثاق</p>
+            <p>للتواصل: <a href="mailto:support@four.fortworthtowingtx.com">support@four.fortworthtowingtx.com</a></p>
+          </div>
+        </div>
+      </body>
+      </html>
+    `;
 
-    //   // Send email notifications
-    //   const emailPromises = [
-    //     sendEmail({
-    //       to: process.env.ADMIN_EMAIL || "nashamatech2020@gmail.com",
-    //       subject: "طلب منتجات جديد - إيثاق",
-    //       html: adminEmailTemplate,
-    //     }),
-    //     sendEmail({
-    //       to: user?.email,
-    //       subject: "تأكيد طلبك الجديد - إيثاق",
-    //       html: userEmailTemplate,
-    //     }),
-    //   ];
-
-    //   await Promise.all(emailPromises);
-    console.log("complete order", completeOrder);
-    const adminWhatsAppMessage = `
-    📦 *طلب جديد تم استلامه* 📦
-    
-    👤 *تفاصيل العميل:*
-       - الاسم: ${user?.name || "غير متوفر"}
-       - الهاتف: ${user?.phone}
-    
-    🏠 *عنوان التوصيل:*
-       ${address.street}, ${address.city}
-       ${address.state}
-    
-    📝 *تفاصيل الطلب:*
-    ${completeOrder?.orderItems.map(
-      (item: any) => `
-       🛒 ${item.product.name}
-       ├ الكمية: ${item.quantity}
-    `
-    )}
-        `;
-
-    // WhatsApp message for user
-    const userWhatsAppMessage = `
-    السلام عليكم ورحمة الله وبركاته 🌟
-    
-    نشكرك على طلبك الجديد، لقد تم إرسال طلبك بنجاح ✅
-    
-    🔐 *عند استلام الطلب يرجى تأكيد الاستلام بالكود التالي:* 
-    📌 *${newOrder.confirmNo}* 📌
-    
-    👉 الرابط المختصر لتأكيد الاستلام:
-    ${`https://ethaq.store/account/orders/${newOrder?.id}`}
-    
-    مع خالص الشكر والتقدير،
-    
-    فريق إيثاق مارت 🛒
-  `;
-
-    // Send WhatsApp notifications
-    const whatsappPromises = [
-      sendWhatsAppMessage({
-        to: "+962780828916", // Admin number
-        message: adminWhatsAppMessage,
+    // Send email notifications
+    const emailPromises = [
+      sendEmail({
+        to: process.env.ADMIN_EMAIL || "nashamatech2020@gmail.com",
+        subject: "طلب منتجات جديد - إيثاق",
+        html: adminEmailTemplate,
       }),
-      sendWhatsAppMessage({
-        to: user?.phone || "+962780828916", // User's phone number
-        message: userWhatsAppMessage,
+      sendEmail({
+        to: user?.email,
+        subject: "تأكيد طلبك الجديد - إيثاق",
+        html: userEmailTemplate,
       }),
     ];
 
-    await Promise.all(whatsappPromises);
+    await Promise.all(emailPromises);
+    // console.log("complete order", completeOrder);
+    //   const adminWhatsAppMessage = `
+    //   📦 *طلب جديد تم استلامه* 📦
+
+    //   👤 *تفاصيل العميل:*
+    //      - الاسم: ${user?.name || "غير متوفر"}
+    //      - الهاتف: ${user?.phone}
+
+    //   🏠 *عنوان التوصيل:*
+    //      ${address.street}, ${address.city}
+    //      ${address.state}
+
+    //   📝 *تفاصيل الطلب:*
+    //   ${completeOrder?.orderItems.map(
+    //     (item: any) => `
+    //      🛒 ${item.product.name}
+    //      ├ الكمية: ${item.quantity}
+    //   `
+    //   )}
+    //       `;
+
+    //   // WhatsApp message for user
+    //   const userWhatsAppMessage = `
+    //   السلام عليكم ورحمة الله وبركاته 🌟
+
+    //   نشكرك على طلبك الجديد، لقد تم إرسال طلبك بنجاح ✅
+
+    //   🔐 *عند استلام الطلب يرجى تأكيد الاستلام بالكود التالي:*
+    //   📌 *${newOrder.confirmNo}* 📌
+
+    //   👉 الرابط المختصر لتأكيد الاستلام:
+    //   ${`https://ethaq.store/account/orders/${newOrder?.id}`}
+
+    //   مع خالص الشكر والتقدير،
+
+    //   فريق إيثاق مارت 🛒
+    // `;
+
+    // Send WhatsApp notifications
+    // const whatsappPromises = [
+    //   sendWATIMessage(
+    //     "+962780828916", // Admin number
+    //     adminWhatsAppMessage
+    //   ),
+    //   sendWATIMessage(
+    //     user?.phone || "+962780828916", // User's phone number
+    //     userWhatsAppMessage
+    //   ),
+    // ];
+
+    // await Promise.all(whatsappPromises);
     revalidatePath("/cart");
     revalidatePath("/orders");
 

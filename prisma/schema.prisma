@@ -25,6 +25,7 @@ model User {
   id              String   @id @default(auto()) @map("_id") @db.ObjectId
   name            String
   phone           String   @unique
+  email           String   @unique @default("")
   password        String?
   image           String?
   remainingAmount Float    @default(0)
@@ -101,7 +102,7 @@ model Product {
   // Relations
   orderItems  OrderItem[]
   categoryId  String    @db.ObjectId
-  category    Category  @relation(fields: [categoryId], references: [id])
+  category    Category  @relation(fields: [categoryId], references: [id], onDelete: Cascade)
   @@map("products")
 }
 model Order {

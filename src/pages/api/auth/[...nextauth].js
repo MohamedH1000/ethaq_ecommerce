@@ -2,6 +2,7 @@ import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import prisma from "@/lib/prisma";
+import bcrypt from "bcrypt";
 
 export const authOptions = {
   adapter: PrismaAdapter(prisma),
@@ -9,22 +10,30 @@ export const authOptions = {
     CredentialsProvider({
       name: "credentials",
       credentials: {
-        phoneNumber: { label: "Phone Number", type: "text" },
+        email: { label: "Email", type: "text" },
+        password: { label: "password", type: "password" },
       },
       async authorize(credentials) {
-        if (!credentials?.phoneNumber) {
-          throw new Error("رقم الهاتف مطلوب");
+        if (!credentials?.email || !credentials?.password) {
+          throw new Error("Invalid credentials");
         }
 
         // Find or create user based on phone number
         let user = await prisma.user.findUnique({
-          where: { phone: credentials.phoneNumber },
+          where: { email: credentials.email },
         });
 
         if (!user) {
           throw new Error("فشل تسجيل الدخول");
         }
+        const isCorrectPassword = await bcrypt.compare(
+          credentials.password,
+          user.password
+        );
 
+        if (!isCorrectPassword) {
+          throw new Error("Invalid credentials");
+        }
         return user;
       },
     }),
@@ -40,14 +49,14 @@ export const authOptions = {
   callbacks: {
     async jwt({ token, user }) {
       if (user) {
-        token.phone = user.phone;
+        token.email = user.email;
         token.id = user.id;
       }
       return token;
     },
     async session({ session, token }) {
-      if (token?.phone) {
-        session.user.phone = token.phone;
+      if (token?.email) {
+        session.user.email = token.email;
         session.user.id = token.id;
       }
       return session;

@@ -59,124 +59,122 @@ const formSchema = z.object({
       "يجب أن يكون رقم الهاتف 15 رقماً كحد أقصى"
     ),
   countryCode: z.string(),
+  email: z.string().email(),
+  // password: z
+  //   .string()
+  //   .min(8, "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل")
+  //   .regex(/[A-Z]/, "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل")
+  //   .regex(/[a-z]/, "يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل")
+  //   .regex(/[0-9]/, "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل")
+  //   .regex(
+  //     /[^A-Za-z0-9]/,
+  //     "يجب أن تحتوي كلمة المرور على حرف خاص واحد على الأقل"
+  //   ),
+  // confirmPassword: z.string(),
   otp: z.string().optional(),
 });
+// .refine((data) => data.password === data.confirmPassword, {
+//   message: "كلمات المرور غير متطابقة",
+//   path: ["confirmPassword"], // This shows the error on confirmPassword field
+// });
 export function SignUpForm() {
   const [isLoading, setIsLoading] = React.useState(false);
   const [otpSent, setOtpSent] = React.useState(false);
-  const [countdown, setCountdown] = React.useState(0);
-  const [step, setStep] = React.useState<"phone" | "otp">("phone");
+  const [emailForOtp, setEmailForOtp] = React.useState("");
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       phoneNumber: "",
       countryCode: "+966",
       username: "",
+      email: "",
+      // password: "",
+      // confirmPassword: "",
       otp: "",
     },
   });
 
   console.log(form.getValues());
-  React.useEffect(() => {
-    if (countdown > 0) {
-      const timer = setTimeout(() => setCountdown(countdown - 1), 1000);
-      return () => clearTimeout(timer);
-    }
-  }, [countdown]);
-  const handleSendOtp = async () => {
-    setIsLoading(true);
+
+  const sendOtpToEmail = async (email: string) => {
     try {
-      // Validate form first
+      const otp = Math.floor(100000 + Math.random() * 900000).toString();
+      localStorage.setItem("signupOtp", otp);
+      localStorage.setItem("signupEmail", email);
 
-      const fullPhoneNumber = `${form.getValues("countryCode")}${form.getValues(
-        "phoneNumber"
-      )}`;
-
-      await form.trigger(["countryCode", "phoneNumber"]);
-      if (
-        form.formState.errors.phoneNumber ||
-        form.formState.errors.countryCode
-      ) {
-        toast.error("الرجاء إدخال رقم هاتف صحيح");
-        return;
-      }
-      const response: any = await checkPhone(fullPhoneNumber);
-      // console.log("response", response);
-      if (!response?.success) {
-        toast.error(response?.message);
-        setIsLoading(false);
-        return;
-      }
-      const optsent = await fetch("/api/send-otp/new", {
+      const response = await fetch("/api/send-otp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          phoneNumber: fullPhoneNumber,
+          to: email,
+          subject: "رمز التحقق لتسجيل الحساب",
+          html: `
+            <div dir="rtl" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+              <h2 style="color: #4CAF50;">مرحباً بك في تطبيقنا</h2>
+              <p>شكراً لتسجيلك معنا. يرجى استخدام رمز التحقق التالي لإكمال عملية التسجيل:</p>
+              <div style="background: #f4f4f4; padding: 20px; text-align: center; margin: 20px 0; font-size: 24px; font-weight: bold;">
+                ${otp}
+              </div>
+              <p>هذا الرمز صالح لمدة 10 دقائق فقط.</p>
+              <p>إذا لم تطلب هذا الرمز، يرجى تجاهل هذه الرسالة.</p>
+            </div>`,
         }),
       });
-      // console.log("otpsent", optsent);
-      if (!optsent.ok) {
-        const errorData = await optsent.json();
-        throw new Error(errorData.message || "Failed to send OTP");
-      }
-      setStep("otp");
-      // console.log("otp", form.getValues());
-      form.setValue("otp", "");
-      setOtpSent(true);
-      setCountdown(60); // 60 seconds countdown
-      toast.success(`تم إرسال رمز التحقق إلى ${fullPhoneNumber}`);
+
+      if (!response.ok) throw new Error("Failed to send OTP");
+      return true;
     } catch (error) {
-      toast.error("فشل إرسال رمز التحقق، يرجى المحاولة لاحقاً");
-      console.error("OTP sending error:", error);
-    } finally {
-      setIsLoading(false);
+      console.error("Error sending OTP:", error);
+      return false;
     }
   };
 
-  const handleVerifyAndRegister = async (
-    values: z.infer<typeof formSchema>
-  ) => {
+  const handleSubmit = async (values: z.infer<typeof formSchema>) => {
     setIsLoading(true);
     try {
-      const fullPhoneNumber = `${values?.countryCode}${values.phoneNumber}`;
-      const verify = await fetch("/api/verify-otp", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          phoneNumber: fullPhoneNumber,
-          otp: values?.otp,
-        }),
-      });
-
-      if (!verify.ok) {
-        const errorData = await verify.json();
-        // console.log("error data", errorData);
-        toast.error(errorData?.message);
-        return;
-      }
-      // Verify OTP
-
-      const userData = {
-        ...values,
-        phoneNumber: fullPhoneNumber,
-      };
-
-      const response = await createUser(userData);
-
-      if (!response?.success) {
-        toast.error(response?.message);
+      if (!otpSent) {
+        // First step: Send OTP
+        const otpSent = await sendOtpToEmail(values.email);
+        if (otpSent) {
+          setOtpSent(true);
+          setEmailForOtp(values.email);
+          toast.success("تم إرسال رمز التحقق إلى بريدك الإلكتروني");
+        } else {
+          toast.error("فشل في إرسال رمز التحقق");
+        }
       } else {
-        toast.success(`تم ارسال طلب تسجيل الحساب بنجاح`);
-        form.reset();
-        setOtpSent(false);
+        // Second step: Verify OTP and register
+        const storedOtp = localStorage.getItem("signupOtp");
+        if (values.otp !== storedOtp) {
+          toast.error("رمز التحقق غير صحيح");
+          return;
+        }
+
+        const fullPhoneNumber = `${values.countryCode}${values.phoneNumber}`;
+        const userData = {
+          ...values,
+          phoneNumber: fullPhoneNumber,
+        };
+
+        const response = await createUser(userData);
+
+        if (response?.success) {
+          toast.success("تم إنشاء الحساب بنجاح");
+          form.reset();
+          setOtpSent(false);
+          localStorage.removeItem("signupOtp");
+          localStorage.removeItem("signupEmail");
+          // Redirect or do something else
+        } else {
+          toast.error(response?.message || "فشل في إنشاء الحساب");
+        }
       }
     } catch (error) {
-      toast.error("فشل التسجيل");
-      console.error("Registration Error:", error);
+      console.error("Error:", error);
+      toast.error("حدث خطأ أثناء عملية التسجيل");
     } finally {
       setIsLoading(false);
     }
@@ -184,13 +182,8 @@ export function SignUpForm() {
 
   return (
     <Form {...form}>
-      <form
-        className="grid gap-4"
-        onSubmit={form.handleSubmit(
-          otpSent ? handleVerifyAndRegister : handleSendOtp
-        )}
-      >
-        {step === "phone" && (
+      <form className="grid gap-4" onSubmit={form.handleSubmit(handleSubmit)}>
+        {!otpSent ? (
           <>
             <FormField
               control={form.control}
@@ -202,7 +195,7 @@ export function SignUpForm() {
                     <Input
                       placeholder="اسم المستخدم"
                       {...field}
-                      disabled={otpSent}
+                      disabled={isLoading}
                     />
                   </FormControl>
                   <FormMessage />
@@ -221,12 +214,12 @@ export function SignUpForm() {
                       <FormControl>
                         <Input
                           placeholder="5XXXXXXXX"
-                          type="tel" // Better for phone numbers
-                          inputMode="numeric" //
+                          type="tel"
+                          inputMode="numeric"
                           pattern="[0-9]*"
                           autoComplete="off"
                           {...field}
-                          disabled={otpSent}
+                          disabled={isLoading}
                         />
                       </FormControl>
                       <FormMessage />
@@ -244,7 +237,7 @@ export function SignUpForm() {
                       <Select
                         onValueChange={field.onChange}
                         defaultValue={field.value}
-                        disabled={otpSent}
+                        disabled={isLoading}
                       >
                         <FormControl>
                           <SelectTrigger>
@@ -265,80 +258,121 @@ export function SignUpForm() {
                 />
               </div>
             </div>
+
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>الايميل</FormLabel>
+                  <FormControl>
+                    <Input
+                      type="email"
+                      placeholder="الايميل"
+                      {...field}
+                      disabled={isLoading}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            {/* <FormField
+              control={form.control}
+              name="password"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>كلمة المرور</FormLabel>
+                  <FormControl>
+                    <Input
+                      placeholder="كلمة المرور"
+                      type="password"
+                      {...field}
+                      disabled={isLoading}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <FormField
+              control={form.control}
+              name="confirmPassword"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>تأكيد كلمة المرور</FormLabel>
+                  <FormControl>
+                    <Input
+                      placeholder="تأكيد كلمة المرور"
+                      type="password"
+                      {...field}
+                      disabled={isLoading}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            /> */}
+
+            <Button type="submit" disabled={isLoading}>
+              {isLoading && (
+                <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+              )}
+              إرسال رمز التحقق
+            </Button>
           </>
-        )}
-        {step === "otp" && (
+        ) : (
           <>
-            <div
-              className="w-full" // Removed grid classes here
-            >
-              <FormField
-                control={form.control}
-                name="otp"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormLabel className="text-right w-full block">
-                      رمز التحقق
-                    </FormLabel>
-                    <FormControl>
-                      <div className="flex justify-center w-full">
-                        <InputOTP
-                          maxLength={6}
-                          {...field}
-                          className="w-full justify-center"
-                        >
-                          <InputOTPGroup
-                            className="gap-2 max-sm:gap-0 justify-center"
-                            dir="ltr"
-                          >
-                            {[...Array(6)].map((_, index) => (
-                              <InputOTPSlot
-                                key={index}
-                                index={index}
-                                className="h-14 w-14 max-sm:w-10 max-sm:h-10 text-xl border-2 border-gray-300 rounded-lg"
-                              />
-                            ))}
-                          </InputOTPGroup>
-                        </InputOTP>
-                      </div>
-                    </FormControl>
-                    <FormMessage className="text-right" />
-                  </FormItem>
-                )}
-              />
+            <div className="text-center mb-4">
+              <p className="text-sm text-gray-600">
+                تم إرسال رمز التحقق إلى البريد الإلكتروني: {emailForOtp}
+              </p>
             </div>
 
-            <div className="flex items-center justify-between">
+            <FormField
+              control={form.control}
+              name="otp"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>رمز التحقق</FormLabel>
+                  <FormControl>
+                    <InputOTP maxLength={6} {...field}>
+                      <InputOTPGroup>
+                        <InputOTPSlot index={0} />
+                        <InputOTPSlot index={1} />
+                        <InputOTPSlot index={2} />
+                        <InputOTPSlot index={3} />
+                        <InputOTPSlot index={4} />
+                        <InputOTPSlot index={5} />
+                      </InputOTPGroup>
+                    </InputOTP>
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <div className="flex gap-2">
               <Button
                 type="button"
                 variant="outline"
-                onClick={handleSendOtp}
-                disabled={isLoading || countdown > 0}
-              >
-                {countdown > 0
-                  ? `إعادة إرسال (${countdown})`
-                  : "إعادة إرسال الرمز"}
-              </Button>
-
-              <Button
-                type="button"
-                variant="ghost"
-                onClick={() => {
-                  setOtpSent(false);
-                  setStep("phone");
-                  form.setValue("otp", ""); // Reset OTP field
-                }}
+                onClick={() => setOtpSent(false)}
+                disabled={isLoading}
+                className="flex-1"
               >
                 رجوع
+              </Button>
+              <Button type="submit" disabled={isLoading} className="flex-1">
+                {isLoading && (
+                  <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                )}
+                تأكيد وإنشاء الحساب
               </Button>
             </div>
           </>
         )}
-
-        <Button type="submit" disabled={isLoading}>
-          {isLoading && <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />}
-          {otpSent ? "تأكيد التسجيل" : "إرسال رمز التحقق"}
-        </Button>
       </form>
     </Form>
   );

@@ -22,6 +22,7 @@ export const metadata: Metadata = {
 
 export default async function SignInPage() {
   const currentUser = await getCurrentUser();
+  // console.log("currentUser", currentUser);
   if (currentUser) {
     redirect("/");
   }
