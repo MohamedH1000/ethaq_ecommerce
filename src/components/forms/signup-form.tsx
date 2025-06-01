@@ -25,6 +25,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { InputOTP, InputOTPGroup, InputOTPSlot } from "../ui/input-otp";
+import { cn } from "@/lib/utils";
 
 // Country codes data
 const countryCodes = [
@@ -99,6 +100,23 @@ export function SignUpForm() {
 
   const sendOtpToEmail = async (email: string) => {
     try {
+      // First check if user exists
+      const userCheckResponse = await fetch("/api/check-user", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      const userCheckData = await userCheckResponse.json();
+
+      if (userCheckData.exists) {
+        toast.error("هذا البريد الإلكتروني مسجل بالفعل, يرجى تسجيل الدخول");
+        return false;
+      }
+
+      // If user doesn't exist, proceed with OTP
       const otp = Math.floor(100000 + Math.random() * 900000).toString();
       localStorage.setItem("signupOtp", otp);
       localStorage.setItem("signupEmail", email);
@@ -113,7 +131,7 @@ export function SignUpForm() {
           subject: "رمز التحقق لتسجيل الحساب",
           html: `
             <div dir="rtl" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-              <h2 style="color: #4CAF50;">مرحباً بك في تطبيقنا</h2>
+              <h2 style="color: #4CAF50;">مرحباً بك في ايثاق مارت</h2>
               <p>شكراً لتسجيلك معنا. يرجى استخدام رمز التحقق التالي لإكمال عملية التسجيل:</p>
               <div style="background: #f4f4f4; padding: 20px; text-align: center; margin: 20px 0; font-size: 24px; font-weight: bold;">
                 ${otp}
@@ -125,13 +143,15 @@ export function SignUpForm() {
       });
 
       if (!response.ok) throw new Error("Failed to send OTP");
+
+      toast.success("تم إرسال رمز التحقق إلى بريدك الإلكتروني");
       return true;
     } catch (error) {
       console.error("Error sending OTP:", error);
+      toast.error("حدث خطأ أثناء إرسال رمز التحقق");
       return false;
     }
   };
-
   const handleSubmit = async (values: z.infer<typeof formSchema>) => {
     setIsLoading(true);
     try {
@@ -141,9 +161,9 @@ export function SignUpForm() {
         if (otpSent) {
           setOtpSent(true);
           setEmailForOtp(values.email);
-          toast.success("تم إرسال رمز التحقق إلى بريدك الإلكتروني");
+          // toast.success("تم إرسال رمز التحقق إلى بريدك الإلكتروني");
         } else {
-          toast.error("فشل في إرسال رمز التحقق");
+          // toast.error("فشل في إرسال رمز التحقق");
         }
       } else {
         // Second step: Verify OTP and register
@@ -330,26 +350,64 @@ export function SignUpForm() {
                 تم إرسال رمز التحقق إلى البريد الإلكتروني: {emailForOtp}
               </p>
             </div>
-
             <FormField
               control={form.control}
               name="otp"
               render={({ field }) => (
-                <FormItem>
-                  <FormLabel>رمز التحقق</FormLabel>
+                <FormItem className="w-full">
+                  <FormLabel className="text-right w-full block">
+                    رمز التحقق
+                  </FormLabel>
                   <FormControl>
-                    <InputOTP maxLength={6} {...field}>
-                      <InputOTPGroup>
-                        <InputOTPSlot index={0} />
-                        <InputOTPSlot index={1} />
-                        <InputOTPSlot index={2} />
-                        <InputOTPSlot index={3} />
-                        <InputOTPSlot index={4} />
-                        <InputOTPSlot index={5} />
-                      </InputOTPGroup>
-                    </InputOTP>
+                    <div className="flex justify-center w-full" dir="ltr">
+                      <InputOTP
+                        inputMode="numeric"
+                        pattern="[0-9]*"
+                        maxLength={6}
+                        {...field}
+                        dir="ltr" // Force LTR direction
+                        className="w-full justify-center gap-2"
+                        onChange={(value) => {
+                          // Force numeric input
+                          field.onChange(value.replace(/\D/g, ""));
+                        }}
+                      >
+                        <InputOTPGroup className="gap-2 w-full justify-between">
+                          {[...Array(6)].map((_, index) => (
+                            <InputOTPSlot
+                              key={index}
+                              index={index}
+                              className={cn(
+                                "h-14 w-14", // Large square slots
+                                "text-xl font-medium", // Larger text
+                                "border-2 border-gray-300 dark:border-gray-600", // Subtle border
+                                "rounded-md", // Slightly rounded corners
+                                "focus:border-primary focus:ring-2 focus:ring-primary/20", // Focus styles
+                                "transition-all duration-200", // Smooth transitions
+                                "hover:border-gray-400 dark:hover:border-gray-500", // Hover effect
+                                "[&_input]:text-center" // Center the digits
+                              )}
+                              onKeyDown={(e) => {
+                                // Only allow numbers and control keys
+                                if (
+                                  !/[0-9]/.test(e.key) &&
+                                  ![
+                                    "Backspace",
+                                    "Delete",
+                                    "ArrowLeft",
+                                    "ArrowRight",
+                                  ].includes(e.key)
+                                ) {
+                                  e.preventDefault();
+                                }
+                              }}
+                            />
+                          ))}
+                        </InputOTPGroup>
+                      </InputOTP>
+                    </div>
                   </FormControl>
-                  <FormMessage />
+                  <FormMessage className="text-right" />
                 </FormItem>
               )}
             />

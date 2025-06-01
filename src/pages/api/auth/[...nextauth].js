@@ -3,6 +3,7 @@ import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import prisma from "@/lib/prisma";
 import bcrypt from "bcrypt";
+import { toast } from "sonner";
 
 export const authOptions = {
   adapter: PrismaAdapter(prisma),
@@ -22,7 +23,9 @@ export const authOptions = {
         let user = await prisma.user.findUnique({
           where: { email: credentials.email },
         });
-
+        if (!user.password) {
+          throw new Error("NO_PASSWORD"); // Custom error code
+        }
         if (!user) {
           throw new Error("فشل تسجيل الدخول");
         }

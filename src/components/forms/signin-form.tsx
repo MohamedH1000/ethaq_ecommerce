@@ -15,22 +15,14 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "../ui/input";
-import { PasswordInput } from "../ui/password-input";
 import { Icons } from "../ui/icons";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { z } from "zod";
-import { toast } from "sonner";
 import { signIn } from "next-auth/react";
 import { CardFooter } from "../ui/card";
 import Link from "next/link";
 import { InputOTP, InputOTPGroup, InputOTPSlot } from "../ui/input-otp";
 import { cn } from "@/lib/utils";
+import { toast } from "sonner";
 
 // ... (keep your existing variants and countryCodes definitions)
 const formVariants = {
@@ -422,15 +414,32 @@ export function SignInForm() {
         redirect: false,
       });
 
-      console.log("result", result);
+      // console.log("result", result);
       if (result?.error) {
-        throw new Error(result.error);
+        // Handle the custom "NO_PASSWORD" error
+        if (result.error === "NO_PASSWORD") {
+          toast.error(
+            "تم إرسال طلبك للإدارة، وسيتم الرد خلال ساعات قليلة. شكرًا لتواصلك معنا."
+          );
+        } else {
+          // Handle other errors
+          toast.error(
+            result.error === "Invalid credentials"
+              ? "البريد الإلكتروني أو كلمة المرور غير صحيحة"
+              : result.error === "User not found"
+              ? "المستخدم غير موجود"
+              : "حدث خطأ أثناء تسجيل الدخول"
+          );
+        }
+        return;
       }
       if (result?.ok) {
         const callbackUrl = "/";
+        toast.success("تم تسجيل الدخول بنجاح");
         router.push(callbackUrl);
       }
     } catch (err) {
+      // toast.error("حصل خطأ اثناء تسجيل الدخول");
       console.log(
         err instanceof Error ? err.message : "An unknown error occurred"
       );
@@ -467,6 +476,7 @@ export function SignInForm() {
                               <Input
                                 {...field}
                                 type="text" // Better for phone numbers
+                                placeholder="الايميل"
                                 // inputMode="numeric" //
                                 // pattern="[0-9]*"
                                 // autoComplete="off"
@@ -496,6 +506,7 @@ export function SignInForm() {
                           <Input
                             {...field}
                             type="password" // Better for phone numbers
+                            placeholder="الباسوورد"
                             // inputMode="numeric" //
                             // pattern="[0-9]*"
                             // autoComplete="off"
@@ -652,6 +663,15 @@ export function SignInForm() {
               className="text-primary underline-offset-4 transition-colors hover:underline"
             >
               ارسال طلب تسجيل
+            </Link>
+          </div>
+          <div className="text-sm text-muted-foreground flex items-center gap-2 ml-0 mt-2">
+            <Link
+              aria-label="Forgot password"
+              href="/signin/reset-password"
+              className="text-primary underline-offset-4 transition-colors hover:underline"
+            >
+              نسيت كلمة المرور؟
             </Link>
           </div>
         </CardFooter>

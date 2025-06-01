@@ -371,7 +371,7 @@ export async function createOrder(
               <h3>المنتجات المطلوبة</h3>
               <div class="items-list">
                 <ul>
-                  ${newOrder.orderItems
+                  ${completeOrder?.orderItems
                     .map(
                       (item) => `
                         <li>
@@ -394,11 +394,10 @@ export async function createOrder(
             </div>
 
             <p>يرجى اتخاذ الإجراءات اللازمة لمعالجة الطلب في لوحة التحكم.</p>
-            <a href="https://four.fortworthtowingtx.com/admin" class="button">الذهاب إلى لوحة التحكم</a>
+            <a href="https://ethaq.store/admin" class="button">الذهاب إلى لوحة التحكم</a>
           </div>
           <div class="footer">
             <p>مع خالص الشكر،<br>فريق إيثاق</p>
-            <p>للتواصل: <a href="mailto:support@four.fortworthtowingtx.com">support@four.fortworthtowingtx.com</a></p>
           </div>
         </div>
       </body>
@@ -560,7 +559,7 @@ export async function createOrder(
               <h3>المنتجات المطلوبة</h3>
               <div class="items-list">
                 <ul>
-                  ${newOrder?.orderItems
+                  ${completeOrder?.orderItems
                     .map(
                       (item) => `
                         <li>
@@ -585,13 +584,12 @@ export async function createOrder(
               newOrder.confirmNo
             }</p>
             <p>سنتواصل معك قريبًا لتأكيد حالة الطلب. يمكنك متابعة حالة طلبك في حسابك.</p>
-            <a href="https://four.fortworthtowingtx.com/account/orders/${
+            <a href="https://ethaq.store/account/orders/${
               newOrder.id
             }" class="button">عرض الطلب</a>
           </div>
           <div class="footer">
             <p>مع خالص الشكر،<br>فريق إيثاق</p>
-            <p>للتواصل: <a href="mailto:support@four.fortworthtowingtx.com">support@four.fortworthtowingtx.com</a></p>
           </div>
         </div>
       </body>

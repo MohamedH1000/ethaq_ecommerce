@@ -28,7 +28,7 @@ export const QuickViewProduct = () => {
   const [selectedQuantity, setSelectedQuantity] = useState(1);
   const product = globalModal.quickViewState as any;
   const { user, loading: isUserLoading } = useUser();
-
+  console.log("user", user);
   const variations = getVariations(product?.variations);
   const { discount } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,

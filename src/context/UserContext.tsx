@@ -15,7 +15,7 @@ export function UserProvider({
 }) {
   const [user, setUser] = useState<any>(preloadedUser);
   const [loading, setLoading] = useState(!preloadedUser);
-
+  // console.log("user", user);
   useEffect(() => {
     const fetchUser = async () => {
       try {

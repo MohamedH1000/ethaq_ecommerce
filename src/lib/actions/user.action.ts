@@ -272,7 +272,7 @@ export async function createUser(userData: any) {
     if (existingUser) {
       return {
         success: false,
-        error: "تم تسجيل رقم الهاتف مسبقا",
+        error: "تم تسجيل هذا الايميل مسبقا",
         status: 409, // Conflict status code
       };
     }
@@ -382,186 +382,318 @@ const generateRandomPassword = (length: number = 10): string => {
 
   return shuffledPassword;
 };
-export async function sendResetPassword(data: any) {
-  const { countryCode, phoneNumber } = data;
-  const fullPhoneNumber = `${countryCode}${phoneNumber}`;
-  const user = await prisma.user.findUnique({
-    where: {
-      phone: fullPhoneNumber,
-    },
-  });
-  if (!user) {
-    return {
-      success: false,
-      message: "رقم الهاتف غير مسجل",
-      data: null,
-    };
-  }
-  if (user?.status !== "active") {
-    return {
-      success: false,
-      message:
-        "لا يمكنك استعادة الباسوورد ,الحساب غير مفعل, تواصل معنا لمعرفة السبب",
-      data: user,
-    };
-  }
+// export async function sendResetPassword(data: any) {
+//   const { countryCode, phoneNumber } = data;
+//   const fullPhoneNumber = `${countryCode}${phoneNumber}`;
+//   const user = await prisma.user.findUnique({
+//     where: {
+//       phone: fullPhoneNumber,
+//     },
+//   });
+//   if (!user) {
+//     return {
+//       success: false,
+//       message: "رقم الهاتف غير مسجل",
+//       data: null,
+//     };
+//   }
+//   if (user?.status !== "active") {
+//     return {
+//       success: false,
+//       message:
+//         "لا يمكنك استعادة الباسوورد ,الحساب غير مفعل, تواصل معنا لمعرفة السبب",
+//       data: user,
+//     };
+//   }
+//   try {
+//     const plainPassword = generateRandomPassword(10);
+//     const hashedPassword = await bcrypt.hash(plainPassword, 10);
+//     const updatedUser = await prisma.user.update({
+//       where: {
+//         phone: phoneNumber,
+//       },
+//       data: {
+//         password: hashedPassword, // Store the hashed password
+//       },
+//     });
+//     // const emailTemplate = `
+//     //   <!DOCTYPE html>
+//     //   <html>
+//     //   <head>
+//     //     <meta charset="UTF-8">
+//     //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     //     <style>
+//     //       body {
+//     //         font-family: 'Arial', sans-serif;
+//     //         background-color: #f4f4f4;
+//     //         margin: 0;
+//     //         padding: 0;
+//     //         direction: rtl;
+//     //         text-align: right;
+//     //       }
+//     //       .container {
+//     //         max-width: 600px;
+//     //         margin: 20px auto;
+//     //         background-color: #ffffff;
+//     //         border-radius: 10px;
+//     //         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+//     //         overflow: hidden;
+//     //       }
+//     //       .header {
+//     //         background-color: #000957;
+//     //         padding: 20px;
+//     //         text-align: center;
+//     //         color: white;
+//     //       }
+//     //       .content {
+//     //         padding: 30px;
+//     //         color: #333;
+//     //         line-height: 1.6;
+//     //       }
+//     //       .password-box {
+//     //         background-color: #f8f8f8;
+//     //         padding: 15px;
+//     //         border-radius: 5px;
+//     //         text-align: center;
+//     //         margin: 20px 0;
+//     //         direction: ltr;
+//     //       }
+//     //       .password {
+//     //         color: #28666e;
+//     //         font-size: 20px;
+//     //         font-weight: bold;
+//     //         word-break: break-all;
+//     //       }
+//     //       .footer {
+//     //         background-color: #000957;
+//     //         padding: 20px;
+//     //         text-align: center;
+//     //         font-size: 14px;
+//     //         color: #666;
+//     //       }
+//     //       a {
+//     //         color: #28666e;
+//     //         text-decoration: none;
+//     //       }
+//     //       a:hover {
+//     //         text-decoration: underline;
+//     //       }
+//     //       @media (max-width: 600px) {
+//     //         .container {
+//     //           margin: 10px;
+//     //         }
+//     //         .content {
+//     //           padding: 20px;
+//     //         }
+//     //       }
+//     //     </style>
+//     //   </head>
+//     //   <body>
+//     //     <div class="container">
+//     //       <div class="header">
+//     //         <h1>إعادة تعيين كلمة المرور</h1>
+//     //       </div>
+//     //       <div class="content">
+//     //         <h2>مرحبًا ${updatedUser.name || "المستخدم"},</h2>
+//     //         <p>لقد تلقينا طلبًا لإعادة تعيين كلمة المرور الخاصة بحسابك. تم إنشاء كلمة مرور جديدة لك، يرجى استخدامها لتسجيل الدخول:</p>
+//     //         <div class="password-box">
+//     //           <span class="password">${plainPassword}</span>
+//     //         </div>
+//     //         <p>يمكنك تسجيل الدخول باستخدام بريدك الإلكتروني (<strong>${email}</strong>) وكلمة المرور أعلاه.</p>
+//     //         <p><strong>ملاحظة مهمة:</strong> نوصي بشدة بتغيير كلمة المرور هذه بعد تسجيل الدخول الأول لأسباب أمنية.</p>
+//     //         <p>اضغط <a href="https://four.fortworthtowingtx.com/">هنا</a> لزيارة موقعنا والدخول إلى حسابك.</p>
+//     //       </div>
+//     //       <div class="footer">
+//     //         <p>شكرًا لثقتك بنا،<br>فريق إيثاق</p>
+//     //         <p>إذا لم تطلب إعادة تعيين كلمة المرور، يرجى التواصل معنا فورًا.</p>
+//     //       </div>
+//     //     </div>
+//     //   </body>
+//     //   </html>
+//     // `;
+//     // await sendEmail({
+//     //   to: email,
+//     //   subject: "إعادة تعيين كلمة المرور - إيثاق",
+//     //   html: emailTemplate,
+//     // });
+//     const whatsappMessage = `
+// *إعادة تعيين كلمة المرور*
+
+// مرحبًا ${updatedUser.name || "المستخدم"}،
+
+// لقد تلقينا طلبًا لإعادة تعيين كلمة المرور الخاصة بحسابك.
+
+// *كلمة المرور الجديدة:*
+// ${plainPassword}
+
+// *تعليمات:*
+// 1. سجّل الدخول باستخدام رقم هاتفك
+// 2. استخدم كلمة المرور أعلاه
+// 3. نوصي بتغييرها بعد الدخول لأسباب أمنية
+
+// *رابط الموقع:*
+// https://four.fortworthtowingtx.com/
+
+// *ملاحظة:*
+// إذا لم تطلب إعادة التعيين، يرجى التواصل معنا فورًا.
+
+// مع خالص الشكر،
+// فريق إيثاق
+// `;
+
+//     await sendWhatsAppMessage({
+//       to: "+962780828916", // Or use user's phone number if available
+//       message: whatsappMessage,
+//     });
+//     return {
+//       success: true,
+//       message: "تم ارسال ايميل الاستعادة بنجاح",
+//       data: updatedUser,
+//     };
+//   } catch (error) {
+//     console.log(error);
+//     return {
+//       success: false,
+//       message: "حدث خطأ أثناء إرسال بريد إعادة تعيين كلمة المرور",
+//       data: null,
+//     };
+//   } finally {
+//     revalidatePath("/signin/reset-password");
+//   }
+// }
+export async function sendResetPassword(data: { email: string }) {
   try {
+    const { email } = data;
+
+    // Find user by email instead of phone
+    const user = await prisma.user.findUnique({
+      where: { email },
+    });
+
+    if (!user) {
+      return {
+        success: false,
+        message: "البريد الإلكتروني غير مسجل",
+        data: null,
+      };
+    }
+
+    if (user?.status !== "active") {
+      return {
+        success: false,
+        message:
+          "لا يمكنك استعادة كلمة المرور، الحساب غير مفعل. تواصل معنا لمعرفة السبب",
+        data: user,
+      };
+    }
+
     const plainPassword = generateRandomPassword(10);
     const hashedPassword = await bcrypt.hash(plainPassword, 10);
+
+    // Update user with new password
     const updatedUser = await prisma.user.update({
-      where: {
-        phone: phoneNumber,
-      },
-      data: {
-        password: hashedPassword, // Store the hashed password
-      },
+      where: { email },
+      data: { password: hashedPassword },
     });
-    // const emailTemplate = `
-    //   <!DOCTYPE html>
-    //   <html>
-    //   <head>
-    //     <meta charset="UTF-8">
-    //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    //     <style>
-    //       body {
-    //         font-family: 'Arial', sans-serif;
-    //         background-color: #f4f4f4;
-    //         margin: 0;
-    //         padding: 0;
-    //         direction: rtl;
-    //         text-align: right;
-    //       }
-    //       .container {
-    //         max-width: 600px;
-    //         margin: 20px auto;
-    //         background-color: #ffffff;
-    //         border-radius: 10px;
-    //         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    //         overflow: hidden;
-    //       }
-    //       .header {
-    //         background-color: #000957;
-    //         padding: 20px;
-    //         text-align: center;
-    //         color: white;
-    //       }
-    //       .content {
-    //         padding: 30px;
-    //         color: #333;
-    //         line-height: 1.6;
-    //       }
-    //       .password-box {
-    //         background-color: #f8f8f8;
-    //         padding: 15px;
-    //         border-radius: 5px;
-    //         text-align: center;
-    //         margin: 20px 0;
-    //         direction: ltr;
-    //       }
-    //       .password {
-    //         color: #28666e;
-    //         font-size: 20px;
-    //         font-weight: bold;
-    //         word-break: break-all;
-    //       }
-    //       .footer {
-    //         background-color: #000957;
-    //         padding: 20px;
-    //         text-align: center;
-    //         font-size: 14px;
-    //         color: #666;
-    //       }
-    //       a {
-    //         color: #28666e;
-    //         text-decoration: none;
-    //       }
-    //       a:hover {
-    //         text-decoration: underline;
-    //       }
-    //       @media (max-width: 600px) {
-    //         .container {
-    //           margin: 10px;
-    //         }
-    //         .content {
-    //           padding: 20px;
-    //         }
-    //       }
-    //     </style>
-    //   </head>
-    //   <body>
-    //     <div class="container">
-    //       <div class="header">
-    //         <h1>إعادة تعيين كلمة المرور</h1>
-    //       </div>
-    //       <div class="content">
-    //         <h2>مرحبًا ${updatedUser.name || "المستخدم"},</h2>
-    //         <p>لقد تلقينا طلبًا لإعادة تعيين كلمة المرور الخاصة بحسابك. تم إنشاء كلمة مرور جديدة لك، يرجى استخدامها لتسجيل الدخول:</p>
-    //         <div class="password-box">
-    //           <span class="password">${plainPassword}</span>
-    //         </div>
-    //         <p>يمكنك تسجيل الدخول باستخدام بريدك الإلكتروني (<strong>${email}</strong>) وكلمة المرور أعلاه.</p>
-    //         <p><strong>ملاحظة مهمة:</strong> نوصي بشدة بتغيير كلمة المرور هذه بعد تسجيل الدخول الأول لأسباب أمنية.</p>
-    //         <p>اضغط <a href="https://four.fortworthtowingtx.com/">هنا</a> لزيارة موقعنا والدخول إلى حسابك.</p>
-    //       </div>
-    //       <div class="footer">
-    //         <p>شكرًا لثقتك بنا،<br>فريق إيثاق</p>
-    //         <p>إذا لم تطلب إعادة تعيين كلمة المرور، يرجى التواصل معنا فورًا.</p>
-    //       </div>
-    //     </div>
-    //   </body>
-    //   </html>
-    // `;
-    // await sendEmail({
-    //   to: email,
-    //   subject: "إعادة تعيين كلمة المرور - إيثاق",
-    //   html: emailTemplate,
-    // });
-    const whatsappMessage = `
-*إعادة تعيين كلمة المرور*
 
-مرحبًا ${updatedUser.name || "المستخدم"}،
+    // Email template for password reset
+    const emailTemplate = `
+      <!DOCTYPE html>
+      <html dir="rtl">
+      <head>
+        <meta charset="UTF-8">
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+          }
+          .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          }
+          .header {
+            background-color: #4f46e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+          }
+          .content {
+            padding: 20px;
+            line-height: 1.6;
+          }
+          .password-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #4f46e5;
+          }
+          .footer {
+            background-color: #f1f1f1;
+            padding: 15px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="header">
+            <h1>إعادة تعيين كلمة المرور</h1>
+          </div>
+          <div class="content">
+            <p>مرحبًا ${updatedUser.name || "عزيزي العميل"},</p>
+            <p>لقد تلقينا طلبًا لإعادة تعيين كلمة المرور الخاصة بحسابك.</p>
+            <p>كلمة المرور الجديدة الخاصة بك هي:</p>
+            <div class="password-box">
+              ${plainPassword}
+            </div>
+            <p>يمكنك تسجيل الدخول باستخدام بريدك الإلكتروني (<strong>${email}</strong>) وكلمة المرور أعلاه.</p>
+            <p>نوصي بتغيير كلمة المرور هذه بعد تسجيل الدخول لأسباب أمنية.</p>
+            <p>لزيارة موقعنا: <a href="https://ethaq.store/">https://ethaq.store/</a></p>
+          </div>
+          <div class="footer">
+            <p>إذا لم تطلب إعادة تعيين كلمة المرور، يرجى تجاهل هذه الرسالة أو التواصل معنا.</p>
+            <p>فريق إيثاق © ${new Date().getFullYear()}</p>
+          </div>
+        </div>
+      </body>
+      </html>
+    `;
 
-لقد تلقينا طلبًا لإعادة تعيين كلمة المرور الخاصة بحسابك.
-
-*كلمة المرور الجديدة:*
-${plainPassword}
-
-*تعليمات:*
-1. سجّل الدخول باستخدام رقم هاتفك
-2. استخدم كلمة المرور أعلاه
-3. نوصي بتغييرها بعد الدخول لأسباب أمنية
-
-*رابط الموقع:*
-https://four.fortworthtowingtx.com/
-
-*ملاحظة:*
-إذا لم تطلب إعادة التعيين، يرجى التواصل معنا فورًا.
-
-مع خالص الشكر،
-فريق إيثاق
-`;
-
-    await sendWhatsAppMessage({
-      to: "+962780828916", // Or use user's phone number if available
-      message: whatsappMessage,
+    // Send email instead of WhatsApp message
+    await sendEmail({
+      to: email,
+      subject: "إعادة تعيين كلمة المرور - إيثاق",
+      html: emailTemplate,
     });
+
     return {
       success: true,
-      message: "تم ارسال ايميل الاستعادة بنجاح",
+      message: "تم إرسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني",
       data: updatedUser,
     };
   } catch (error) {
-    console.log(error);
+    console.error("Error in sendResetPassword:", error);
     return {
       success: false,
-      message: "حدث خطأ أثناء إرسال بريد إعادة تعيين كلمة المرور",
+      message: "حدث خطأ أثناء محاولة إعادة تعيين كلمة المرور",
       data: null,
     };
   } finally {
     revalidatePath("/signin/reset-password");
   }
 }
-
 export const addAddress = async (data: any) => {
   const currentUser = await getCurrentUser();
   if (!currentUser?.id) {
