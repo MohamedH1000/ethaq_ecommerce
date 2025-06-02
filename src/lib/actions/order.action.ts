@@ -394,7 +394,7 @@ export async function createOrder(
             </div>
 
             <p>يرجى اتخاذ الإجراءات اللازمة لمعالجة الطلب في لوحة التحكم.</p>
-            <a href="https://ethaq.store/admin" class="button">الذهاب إلى لوحة التحكم</a>
+            <a href="https://admin.ethaq.store/" class="button">الذهاب إلى لوحة التحكم</a>
           </div>
           <div class="footer">
             <p>مع خالص الشكر،<br>فريق إيثاق</p>

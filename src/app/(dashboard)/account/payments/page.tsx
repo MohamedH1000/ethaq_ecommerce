@@ -14,7 +14,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const page = async () => {
   const currentUser = await getCurrentUser();
-  //   console.log(user, "user");
+  // console.log(currentUser, "user");
   return (
     <>
       <div className="mt-5 flex items-center justify-start gap-3">
@@ -29,7 +29,7 @@ const page = async () => {
       </div>
       <div className="w-full mt-5 border rounded-lg overflow-hidden">
         <h1 className="p-4 font-bold text-2xl">دفعات المستخدم</h1>
-        {currentUser?.payment?.length > 0 ? (
+        {currentUser?.payments?.length > 0 ? (
           <div className="overflow-x-auto">
             <Table dir="rtl" className="w-full">
               <TableHeader>

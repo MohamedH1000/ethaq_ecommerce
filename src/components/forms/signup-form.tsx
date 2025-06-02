@@ -378,7 +378,7 @@ export function SignUpForm() {
                               key={index}
                               index={index}
                               className={cn(
-                                "h-14 w-14", // Large square slots
+                                "max-md:h-12 max-md:w-12 h-14 w-14", // Large square slots
                                 "text-xl font-medium", // Larger text
                                 "border-2 border-gray-300 dark:border-gray-600", // Subtle border
                                 "rounded-md", // Slightly rounded corners

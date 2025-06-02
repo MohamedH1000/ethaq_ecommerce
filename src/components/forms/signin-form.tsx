@@ -23,6 +23,7 @@ import Link from "next/link";
 import { InputOTP, InputOTPGroup, InputOTPSlot } from "../ui/input-otp";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
+import { PasswordInput } from "../ui/password-input";
 
 // ... (keep your existing variants and countryCodes definitions)
 const formVariants = {
@@ -447,6 +448,7 @@ export function SignInForm() {
       setIsSubmitting(false);
     }
   };
+
   return (
     <div className="w-full">
       <motion.div
@@ -503,16 +505,10 @@ export function SignInForm() {
                       <FormLabel>الباسوورد</FormLabel>
                       <div className="flex flex-col flex-grow">
                         <FormControl>
-                          <Input
+                          <PasswordInput
                             {...field}
-                            type="password" // Better for phone numbers
-                            placeholder="الباسوورد"
-                            // inputMode="numeric" //
-                            // pattern="[0-9]*"
-                            // autoComplete="off"
-                            // placeholder="5XXXXXXXX"
-                            dir="rtl"
-                            className="h-[50px]"
+                            placeholder="********"
+                            disabled={isSubmitting}
                           />
                         </FormControl>
                         <FormMessage className="mt-1 text-right" />{" "}

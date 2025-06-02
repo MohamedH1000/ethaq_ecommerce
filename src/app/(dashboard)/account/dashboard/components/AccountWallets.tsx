@@ -5,6 +5,7 @@ import React from "react";
 
 const AccountWallets = ({ currentUser }: { currentUser: User }) => {
   const NoOrders = currentUser?.orders?.length || 0;
+  console.log("current user", currentUser);
   // const { totalRemaining }: any = currentUser?.orders?.reduce(
   //   (acc: any, order: any) => {
   //     return {

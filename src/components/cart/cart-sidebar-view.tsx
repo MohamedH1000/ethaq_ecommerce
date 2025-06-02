@@ -233,7 +233,6 @@ const CartSidebarView = () => {
     },
     [fetchOrderItems]
   );
-
   const totalPrice = useMemo(() => {
     return orderItems
       .map((item) => item.priceAtPurchase * item.quantity)

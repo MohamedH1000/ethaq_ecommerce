@@ -18,7 +18,7 @@ export function Toaster() {
 
   return (
     <RadToaster
-      duration={20000}
+      duration={3000}
       position={isMobile ? "bottom-center" : "bottom-right"}
       offset={isMobile ? "50px" : undefined} // Changed from 20px to 50px
       toastOptions={{

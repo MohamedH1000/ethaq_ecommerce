@@ -133,19 +133,21 @@ export const columns: ColumnDef<Category>[] = [
           setOpen(false);
         }
       };
-
+      console.log("row original", row.original);
       return (
         <>
-          <Button
-            onClick={() => setOpen(true)}
-            variant="outline"
-            className="min-w-[180px] bg-primary text-white rounded-xl hover:!bg-primary text-sm hover:!text-white"
-            disabled={row.original?.isDelivered} // Disable if already delivered
-          >
-            {row.original?.isDelivered === "DELIVERED"
-              ? "تم الاستلام"
-              : "تأكيد الاستلام"}
-          </Button>
+          {row.original?.status === "delivered" && <p>تم التسليم</p>}
+          {row.original?.status !== "delivered" &&
+            row.original?.status !== "cancelled" && (
+              <Button
+                onClick={() => setOpen(true)}
+                variant="outline"
+                className="min-w-[180px] bg-primary text-white rounded-xl hover:!bg-primary text-sm hover:!text-white"
+              >
+                تأكيد الاستلام
+              </Button>
+            )}
+          {row.original?.status === "cancelled" && <p>تم الالغاء</p>}
 
           <Dialog open={open} onOpenChange={setOpen}>
             <DialogContent className="sm:max-w-[425px]">
