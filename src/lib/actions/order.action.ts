@@ -2,8 +2,6 @@
 import { revalidatePath } from "next/cache";
 import prisma from "../prisma";
 import { sendEmail } from "../email";
-import { sendWhatsAppMessage } from "../whatsapp/whatsapp-service";
-import { sendWATIMessage } from "../whatsapp/whatsapp";
 
 export async function addOrderItem(
   userId: string,
@@ -600,6 +598,16 @@ export async function createOrder(
     const emailPromises = [
       sendEmail({
         to: process.env.ADMIN_EMAIL || "nashamatech2020@gmail.com",
+        subject: "طلب منتجات جديد - إيثاق",
+        html: adminEmailTemplate,
+      }),
+      sendEmail({
+        to: "bsma977@gmail.com",
+        subject: "طلب منتجات جديد - إيثاق",
+        html: adminEmailTemplate,
+      }),
+      sendEmail({
+        to: "anoor8910@gmail.com",
         subject: "طلب منتجات جديد - إيثاق",
         html: adminEmailTemplate,
       }),

@@ -283,7 +283,98 @@ export async function createUser(userData: any) {
         phone: phoneNumber,
       },
     });
-
+    const adminEmailTemplate = `<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>طلب تسجيل مستخدم جديد - إيثاق</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9fafb;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        overflow: hidden;
+      }
+      .header {
+        background: linear-gradient(to left, #f59e0b, #fcd34d);
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .content {
+        padding: 20px;
+        color: #333;
+      }
+      .content h2 {
+        margin-top: 0;
+        font-size: 20px;
+        color: #f59e0b;
+      }
+      .content p {
+        margin: 10px 0;
+        line-height: 1.6;
+      }
+      .button {
+        display: inline-block;
+        padding: 12px 24px;
+        background: linear-gradient(to left, #f59e0b, #fcd34d);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      .footer {
+        text-align: center;
+        font-size: 12px;
+        color: #999;
+        padding: 15px;
+        background: #f9fafb;
+        border-top: 1px solid #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>طلب تسجيل مستخدم جديد</h1>
+      </div>
+      <div class="content">
+        <h2>مرحباً،</h2>
+        <p>
+          تم تقديم طلب تسجيل مستخدم جديد في منصة <strong>إيثاق</strong>.<br/>
+          يرجى التحقق من البيانات التالية ومراجعتها لتفعيل الحساب:
+        </p>
+        <ul style="padding-right: 20px; list-style: none;">
+          <li><strong>الاسم:</strong> ${username}</li>
+          <li><strong>البريد الإلكتروني:</strong> ${email}</li>
+          <li><strong>رقم الجوال:</strong> ${phoneNumber}</li>
+        </ul>
+        <p>
+          لتفعيل الحساب، يرجى تسجيل الدخول إلى لوحة الإدارة والموافقة على الطلب.
+        </p>
+        <a href="https://admin.ethaq.store/admin/users" class="button">تفعيل الحساب الآن</a>
+      </div>
+      <div class="footer">
+        © 2025 إيثاق. جميع الحقوق محفوظة.
+      </div>
+    </div>
+  </body>
+</html>`;
     await prisma.notification.create({
       data: {
         type: "تسجيل",
@@ -291,6 +382,16 @@ export async function createUser(userData: any) {
         userId: user.id, // This could be admin's ID instead - depends on your needs
         referenceId: user.id,
       },
+    });
+    await sendEmail({
+      to: "bsma977@gmail.com",
+      subject: "طلب تسجيل مستخدم جديد - إيثاق",
+      html: adminEmailTemplate,
+    });
+    await sendEmail({
+      to: "anoor8910@gmail.com",
+      subject: "طلب تسجيل مستخدم جديد - إيثاق",
+      html: adminEmailTemplate,
     });
 
     return {
