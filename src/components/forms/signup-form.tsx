@@ -26,6 +26,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { InputOTP, InputOTPGroup, InputOTPSlot } from "../ui/input-otp";
 import { cn } from "@/lib/utils";
+import { Router } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 // Country codes data
 const countryCodes = [
@@ -82,7 +84,7 @@ export function SignUpForm() {
   const [isLoading, setIsLoading] = React.useState(false);
   const [otpSent, setOtpSent] = React.useState(false);
   const [emailForOtp, setEmailForOtp] = React.useState("");
-
+  const router = useRouter();
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -187,6 +189,7 @@ export function SignUpForm() {
           setOtpSent(false);
           localStorage.removeItem("signupOtp");
           localStorage.removeItem("signupEmail");
+          router.push("/");
           // Redirect or do something else
         } else {
           toast.error(response?.message || "فشل في إنشاء الحساب");
