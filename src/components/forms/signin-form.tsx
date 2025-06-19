@@ -410,7 +410,7 @@ export function SignInForm() {
 
     try {
       const result = await signIn("credentials", {
-        email: values.email,
+        email: values.email.toLowerCase(),
         password: values.password,
         redirect: false,
       });
@@ -438,6 +438,7 @@ export function SignInForm() {
         const callbackUrl = "/";
         toast.success("تم تسجيل الدخول بنجاح");
         router.push(callbackUrl);
+        window.location.reload();
       }
     } catch (err) {
       // toast.error("حصل خطأ اثناء تسجيل الدخول");
